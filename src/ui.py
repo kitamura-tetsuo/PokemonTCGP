@@ -9,7 +9,11 @@ import pandas as pd
 import streamlit as st
 from collections import Counter
 
-from src.data import get_daily_share_data, get_deck_details, get_all_card_names, get_match_history, enrich_card_data
+from src.data import (
+    get_daily_share_data, get_deck_details, get_all_card_names, 
+    get_match_history, enrich_card_data, get_clustered_daily_share_data,
+    get_cluster_details, get_cluster_mapping
+)
 from src.visualizations import create_echarts_stacked_area, display_chart
 from src.config import IMAGE_BASE_URL
 from src.utils import format_deck_name
@@ -43,16 +47,26 @@ def _enrich_and_sort_cards(cards):
     return cards
 
 @st.cache_data(ttl=600)
-def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False):
+def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False, clustered=False):
     # Call the data layer
-    return get_daily_share_data(
-        card_filters=selected_cards, 
-        exclude_cards=exclude_cards, 
-        window=window,
-        start_date=start_date,
-        end_date=end_date,
-        standard_only=standard_only
-    )
+    if clustered:
+        return get_clustered_daily_share_data(
+            card_filters=selected_cards, 
+            exclude_cards=exclude_cards, 
+            window=window,
+            start_date=start_date,
+            end_date=end_date,
+            standard_only=standard_only
+        )
+    else:
+        return get_daily_share_data(
+            card_filters=selected_cards, 
+            exclude_cards=exclude_cards, 
+            window=window,
+            start_date=start_date,
+            end_date=end_date,
+            standard_only=standard_only
+        )
 
 def _get_set_periods():
     sets_path = os.path.join("data", "cards", "sets.json")
@@ -126,6 +140,7 @@ def render_meta_trend_page():
         default_cards = q_params.get_all("cards")
         default_exclude = q_params.get_all("exclude")
         default_period_label = q_params.get("period", "")
+        default_clustered = q_params.get("clustered", "false").lower() == "true"
         try:
             default_window = int(q_params.get("window", 7))
         except:
@@ -149,6 +164,7 @@ def render_meta_trend_page():
             selected_period = next(p for p in periods if p["label"] == selected_period_label)
             
             standard_only = selected_period["label"] != "All"
+            clustered = st.toggle("Clustered Metagame Trends", value=default_clustered)
 
         with col3:
             window = st.slider(
@@ -162,6 +178,7 @@ def render_meta_trend_page():
         st.query_params["exclude"] = exclude_cards
         st.query_params["period"] = selected_period_label
         st.query_params["window"] = window
+        st.query_params["clustered"] = str(clustered).lower()
 
     # Fetch Data
     with st.spinner("Aggregating daily share data..."):
@@ -172,7 +189,8 @@ def render_meta_trend_page():
                 window,
                 start_date=selected_period["start"],
                 end_date=selected_period["end"],
-                standard_only=standard_only
+                standard_only=standard_only,
+                clustered=clustered
             )
             
             # If filtered, fetch global data for reference (Diffs)
@@ -184,7 +202,8 @@ def render_meta_trend_page():
                     window,
                     start_date=selected_period["start"],
                     end_date=selected_period["end"],
-                    standard_only=standard_only
+                    standard_only=standard_only,
+                    clustered=clustered
                 )
         except Exception as e:
             st.error(f"Error fetching trend data: {e}")
@@ -232,8 +251,13 @@ def render_meta_trend_page():
     # Check for Drill-Down
     query_params = st.query_params
     selected_sig = query_params.get("deck_sig", None)
-    if selected_sig:
-        _render_deck_detail_view(selected_sig)
+    selected_cluster_id = query_params.get("cluster_id", None)
+    
+    if selected_cluster_id:
+        _render_cluster_detail_view(selected_cluster_id, selected_period)
+        return
+    elif selected_sig:
+        _render_deck_detail_view(selected_sig, selected_period)
         return
 
     # Visualization
@@ -286,22 +310,24 @@ def render_meta_trend_page():
         if other_archetypes:
             df_display["Others"] = df[other_archetypes].sum(axis=1)
 
-    # Fetch signatures and details early for both chart tooltips and table
-    sig_map = {}
-    for col in df.columns:
-        match = re.search(r"\(([\da-f]{8})\)$", col)
-        if match:
-            sig_map[col] = match.group(1)
-
-    # We need deck details for chart tooltips (and table)
-    from src.data import get_deck_details_by_signature
-    valid_sigs = [s for s in sig_map.values() if s]
-    details_map = get_deck_details_by_signature(valid_sigs)
+    # Build statistics and details for both chart tooltips and table
+    from src.data import get_period_statistics
+    s_start, s_end = selected_period["start"], selected_period["end"]
     
-    # Enrich details map with types for tooltips
-    for sig in details_map:
-        if "cards" in details_map[sig]:
-            details_map[sig]["cards"] = enrich_card_data(details_map[sig]["cards"])
+    stats_map = get_period_statistics(
+        df, 
+        start_date=s_start, 
+        end_date=s_end, 
+        clustered=clustered
+    )
+    
+    # details_map for chart: label -> {name, stats, cards}
+    details_map = {}
+    for label, info in stats_map.items():
+        d_info = info["deck_info"]
+        if "cards" in d_info:
+            d_info["cards"] = enrich_card_data(d_info["cards"])
+        details_map[label] = d_info
 
     fig_options = create_echarts_stacked_area(
         df_display, details_map=details_map, title=f"Daily Metagame Share (window={window}d)"
@@ -314,70 +340,94 @@ def render_meta_trend_page():
         clicked_series = display_chart(fig_options, height="450px", events=events)
         
         if clicked_series:
-            # clicked_series will be the series name (e.g. "Pikachu & Zekrom (abcd1234)")
-            # We need to extract the signature
-            match = re.search(r"\(([\da-f]{8})\)$", clicked_series)
-            if match:
-                sig = match.group(1)
-                st.query_params["deck_sig"] = sig
-                st.query_params["page"] = "trends"
-                st.rerun()
+            # Extract sig or cluster id
+            if "Cluster" in clicked_series:
+                cid = clicked_series.split("Cluster ")[1].split(")")[0]
+                st.query_params["cluster_id"] = cid
+            else:
+                match = re.search(r"\((\w+)\)$", clicked_series)
+                if match:
+                    sig = match.group(1)
+                    st.query_params["deck_sig"] = sig
+            st.query_params["page"] = "trends"
+            st.rerun()
 
     # Table
-    st.subheader("Current Metagame Share")
-    st.caption("Click headers to sort instantly. Click rows for details.")
+    st.subheader("Metagame Statistics")
+    st.caption("Click headers to sort instantly. Latest Share is relative to total metagame today.")
 
     # Prepare Data for Table
-    show_diffs = (selected_cards or exclude_cards) and global_df is not None and not global_df.empty
-    
-    # We already have sig_map and details_map from above
-    
+    # Show diffs always if there is data (against the #1 archetype)
+    show_diffs = not df.empty
+    latest_shares = df.iloc[-1].to_dict() if not df.empty else {}
     rows_data = []
     
-    for name_with_sig, share in latest_shares.items():
-        if share <= 0:
-            continue
-        
-        sig = sig_map.get(name_with_sig)
-        name_clean = name_with_sig.split("(")[0].strip()
-        
-        deck_info = details_map.get(sig, {})
-        stats = deck_info.get("stats", {})
+    for label, info in stats_map.items():
+        share = latest_shares.get(label, 0.0)
+        avg_share = info["avg_share"]
+        stats = info["stats"]
+        deck_info = info["deck_info"]
         
         # Calculate WR
         w, l, t = stats.get("wins", 0), stats.get("losses", 0), stats.get("ties", 0)
         mtch = w + l + t
         wr = (w / mtch * 100) if mtch > 0 else 0.0
         
+        # Determine ID (sig or cluster_id)
+        sig = None
+        cid = None
+        if clustered and "Cluster" in label:
+            cid = label.split("Cluster ")[1].split(")")[0]
+        else:
+            match = re.search(r"\((\w+)\)$", label)
+            sig = match.group(1) if match else None
+
         rows_data.append({
             "sig": sig,
-            "full_name": name_with_sig,
-            "name": name_clean,
+            "cid": cid,
+            "full_name": label,
+            "name": label.split("(")[0].strip(),
             "share": share,
+            "period_share": avg_share,
             "wr": wr,
+            "players": stats.get("players", 0),
             "matches": mtch,
             "deck_info": deck_info
         })
 
-    # Python-side sorting
-    sort_col = st.query_params.get("sort", "share")
-    sort_order = st.query_params.get("order", "desc")
+    if not rows_data:
+        st.info("No data available for the selected period.")
+        return
+
+    # Sort options for table
+    sort_options = {
+        "share": "Latest Share (Window)",
+        "period_share": "Period Avg Share",
+        "wr": "Win Rate (Period)",
+        "players": "Total Players (Period)",
+        "matches": "Total Matches (Period)"
+    }
+    # Read from query params
+    q_sort = st.query_params.get("sort", "period_share")
+    q_order = st.query_params.get("order", "desc")
     
     # Sort mapping
     sort_key_map = {
         "name": lambda x: x["name"].lower(),
         "share": lambda x: x["share"],
+        "period_share": lambda x: x["period_share"],
         "wr": lambda x: x["wr"],
+        "players": lambda x: x["players"],
         "matches": lambda x: x["matches"]
     }
     
-    if sort_col in sort_key_map:
-        rows_data.sort(key=sort_key_map[sort_col], reverse=(sort_order == "desc"))
+    if q_sort in sort_key_map:
+        rows_data.sort(key=sort_key_map[q_sort], reverse=(q_order == "desc"))
 
     def get_sort_link(col_name):
         new_order = "desc"
-        if sort_col == col_name:
-            new_order = "asc" if sort_order == "desc" else "desc"
+        if q_sort == col_name:
+            new_order = "asc" if q_order == "desc" else "desc"
         
         # Build query string from current params but override sort/order
         # Use get_all for all keys to preserve multi-value params like 'cards'
@@ -389,18 +439,19 @@ def render_meta_trend_page():
         return "?" + urlencode(params, doseq=True)
 
     def get_sort_indicator(col_name):
-        if sort_col == col_name:
-            return " ▲" if sort_order == "asc" else " ▼"
+        if q_sort == col_name:
+            return " ▲" if q_order == "asc" else " ▼"
         return " ▴▾"
 
     def get_header_style(col_name):
-        if sort_col == col_name:
+        if q_sort == col_name:
             return 'style="color: #1ed760;"'
         return ''
 
     diff_headers = ""
+    diff_headers = ""
     if show_diffs:
-        diff_headers = '<th class="header-link">Removed</th><th class="header-link">Added</th>'
+        diff_headers = '<th class="header-link">REMOVED</th><th class="header-link">ADDED</th>'
 
     html = textwrap.dedent(
         f"""
@@ -408,17 +459,23 @@ def render_meta_trend_page():
 <thead>
 <tr class="meta-header-row">
 <th class="header-link" {get_header_style('name')}>
-    <a href="{get_sort_link('name')}" target="_self" style="color: inherit; text-decoration: none;">Archetype<span class="sort-indicator">{get_sort_indicator('name')}</span></a>
+    <a href="{get_sort_link('name')}" target="_self" style="color: inherit; text-decoration: none;">ARCHETYPE<span class="sort-indicator">{get_sort_indicator('name')}</span></a>
 </th>
 {diff_headers}
 <th class="header-link" {get_header_style('share')} style="text-align: right;">
-    <a href="{get_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">Share <span class="sort-indicator">{get_sort_indicator('share')}</span></a>
+    <a href="{get_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">LATEST<br>SHARE <span class="sort-indicator">{get_sort_indicator('share')}</span></a>
+</th>
+<th class="header-link" {get_header_style('period_share')} style="text-align: right;">
+    <a href="{get_sort_link('period_share')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>SHARE <span class="sort-indicator">{get_sort_indicator('period_share')}</span></a>
 </th>
 <th class="header-link" {get_header_style('wr')} style="text-align: right;">
-    <a href="{get_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">WinRate <span class="sort-indicator">{get_sort_indicator('wr')}</span></a>
+    <a href="{get_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>WIN RATE<span class="sort-indicator">{get_sort_indicator('wr')}</span></a>
+</th>
+<th class="header-link" {get_header_style('players')} style="text-align: right;">
+    <a href="{get_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>PLAYERS<span class="sort-indicator">{get_sort_indicator('players')}</span></a>
 </th>
 <th class="header-link" {get_header_style('matches')} style="text-align: right;">
-    <a href="{get_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">Matches <span class="sort-indicator">{get_sort_indicator('matches')}</span></a>
+    <a href="{get_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>MATCHES<span class="sort-indicator">{get_sort_indicator('matches')}</span></a>
 </th>
 </tr>
 </thead>
@@ -429,21 +486,12 @@ def render_meta_trend_page():
     # Build rows
     # Logic for diffs similar to original
     
-    # Identify Top Sig for Diff
-    top_sig = None
-    if show_diffs:
-         for name, share in latest_shares.items():
-            if share > 0:
-                s = sig_map.get(name)
-                if s: 
-                    top_sig = s
-                    break
-    
+    # Identify Reference Cards for Diff (against the #1 archetype in the current sort)
     ref_cards = []
-    if top_sig:
-        d = get_deck_details(top_sig)
-        if d: ref_cards = d.get("cards", [])
-
+    if show_diffs and rows_data:
+        top_row = rows_data[0]
+        ref_cards = top_row["deck_info"].get("cards", [])
+    
     def cards_to_bag(c_list):
         return Counter({c["name"]: c.get("count", 1) for c in c_list})
 
@@ -452,10 +500,16 @@ def render_meta_trend_page():
     for row in rows_data:
         # Build Link preserving existing params
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
-        link_params["deck_sig"] = [row["sig"]]
+        if row.get("cid"):
+            link_params["cluster_id"] = [row["cid"]]
+            if "deck_sig" in link_params: del link_params["deck_sig"]
+        else:
+            link_params["deck_sig"] = [row["sig"]]
+            if "cluster_id" in link_params: del link_params["cluster_id"]
+        
         link_params["page"] = ["trends"]
         from urllib.parse import urlencode
-        link = "?" + urlencode(link_params, doseq=True) if row["sig"] else "?"
+        link = "?" + urlencode(link_params, doseq=True) if (row["sig"] or row.get("cid")) else "?"
         
         # Tooltip
         tooltip_html = ""
@@ -464,28 +518,32 @@ def render_meta_trend_page():
             raw_cards = row["deck_info"].get("cards", [])
             current_cards = _enrich_and_sort_cards(raw_cards) # Ensure sorted
             
-            img_count, MAX = 0, 20
+            img_count, MAX = 0, 30
             for card in current_cards:
                 if img_count >= MAX: break
                 c_set, c_num = card.get("set", ""), card.get("number", "")
+                if not c_set or not c_num: continue
+                
+                # Revert to standard construction as per user feedback
                 try: p_num = f"{int(c_num):03d}"
                 except: p_num = c_num
+                
                 img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                
                 for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    tooltip_html += f'<img src="{img}" class="tooltip-card">'
+                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{card.get("name")}" onerror="this.style.display=\'none\'">'
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
             primary = row["name"].lower().replace(" ", "-")
             tooltip_html = f'<img src="{IMAGE_BASE_URL}/{primary}.jpg" onerror="this.src=\'{IMAGE_BASE_URL}/{primary}-ex.jpg\'; this.onerror=null;" style="width:180px;border-radius:8px;"><br>{row["name"]}'
         
-        # Diff columns
         diff_cols_html = ""
         if show_diffs:
             added_cell = "-"
             removed_cell = "-"
-            if top_sig and row["sig"]:
+            if ref_cards:
                 current_bag = cards_to_bag(current_cards)
                 added_ctr = current_bag - ref_bag
                 removed_ctr = ref_bag - current_bag
@@ -495,34 +553,51 @@ def render_meta_trend_page():
                 # We can build a mini lookup from current_cards + ref_cards
                 lookup = {}
                 for c in current_cards + ref_cards:
-                    lookup[c["name"]] = (c.get("set"), c.get("number"))
+                    lookup[c["name"]] = (c.get("set"), c.get("number"), c.get("image"))
                 
                 def render_mini(ctr):
                     h = ""
                     for name, count in sorted(ctr.items()):
                         if name in lookup:
-                            c_set, c_num = lookup[name]
+                            c_set, c_num, _ = lookup[name]
                             try: p_num = f"{int(c_num):03d}"
                             except: p_num = c_num
                             img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                             for _ in range(count):
-                                h += f'<img src="{img}" class="diff-img" title="{name}">'
+                                h += f'<img src="{img}" class="diff-img" title="{name}" onerror="this.style.display=\'none\'">'
                     return h
                 
                 added_cell = render_mini(added_ctr)
                 removed_cell = render_mini(removed_ctr)
             diff_cols_html = f"<td>{removed_cell}</td><td>{added_cell}</td>"
 
-        color_wr = '#1ed760' if row['wr'] > 50 else '#ff4b4b'
+        wr_color = '#1ed760' if row['wr'] > 50 else '#ff4b4b'
+
+        # Key Cards for the last column
+        cards_html = ""
+        if current_cards:
+            key_cards_to_show = 5 # Limit to 5 key cards
+            for i, card in enumerate(current_cards):
+                if i >= key_cards_to_show: break
+                c_set, c_num = card.get("set", ""), card.get("number", "")
+                
+                if c_set and c_num:
+                    try: p_num = f"{int(c_num):03d}"
+                    except: p_num = c_num
+                    img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                    cards_html += f'<img src="{img}" class="diff-img" title="{card.get("name")}" onerror="this.style.display=\'none\'">'
+
         row_html = (
             f'<tr class="meta-row-link" data-name="{row["name"].lower()}" '
-            f'data-share="{row["share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" '
+            f'data-share="{row["share"]}" data-period-share="{row["period_share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" data-players="{row["players"]}" '
             f'onclick="if(!event.target.closest(\'a\')) {{ window.location.href=\'{link}\'; }}">'
             f'<td><div class="tooltip"><a href="{link}" target="_self" class="archetype-name">{row["full_name"]}</a>'
             f'<div class="tooltiptext">{tooltip_html}</div></div></td>'
             f'{diff_cols_html}'
             f'<td style="text-align: right; color: #1ed760; font-weight: bold;">{row["share"]:.1f}%</td>'
-            f'<td style="text-align: right; color: {color_wr};">{row["wr"]:.1f}%</td>'
+            f'<td style="text-align: right; opacity: 0.8;">{row["period_share"]:.1f}%</td>'
+            f'<td style="text-align: right; color: {wr_color};">{row["wr"]:.1f}%</td>'
+            f'<td style="text-align: right; color: #888;">{int(row["players"])}</td>'
             f'<td style="text-align: right; color: #888;">{int(row["matches"])}</td>'
             '</tr>\n'
         )
@@ -532,14 +607,14 @@ def render_meta_trend_page():
     st.markdown(html, unsafe_allow_html=True)
 
 
-def _render_deck_detail_view(sig):
+def _render_deck_detail_view(sig, selected_period):
     if st.button("← Back to Trends"):
         if "deck_sig" in st.query_params:
             del st.query_params["deck_sig"]
         st.query_params["page"] = "trends"
         st.rerun()
 
-    deck = get_deck_details(sig)
+    deck = get_deck_details(sig, start_date=selected_period["start"], end_date=selected_period["end"])
     if not deck:
         st.warning("Deck detail not found.")
         return
@@ -587,147 +662,213 @@ def _render_deck_detail_view(sig):
                         st.image(img, caption=c.get("name"), width="stretch")
 
     st.subheader("Match History")
+    _render_match_history_table(deck.get("appearances", []))
+
+def _render_match_history_table(appearances):
     from src.data import get_match_history, get_deck_details_by_signature
+    matches = get_match_history(appearances)
+    if not matches:
+        st.info("No detailed match records found.")
+        return
 
-    apps = deck.get("appearances", [])
-    matches = get_match_history(apps)
-    if matches:
-        mdf = pd.DataFrame(matches)
+    # Pre-fetch details for all opponents to build tooltips/checks
+    opp_sigs = list(set([m["opponent_sig"] for m in matches if m.get("opponent_sig")]))
+    opp_details = get_deck_details_by_signature(opp_sigs)
+    for s in opp_details:
+        if "cards" in opp_details[s]:
+            opp_details[s]["cards"] = enrich_card_data(opp_details[s]["cards"])
 
-        # Pre-fetch details for all opponents to build tooltips/checks
-        opp_sigs = list(set([m["opponent_sig"] for m in matches if m.get("opponent_sig")]))
-        opp_details = get_deck_details_by_signature(opp_sigs)
-        for s in opp_details:
-             if "cards" in opp_details[s]:
-                 opp_details[s]["cards"] = enrich_card_data(opp_details[s]["cards"])
+    def format_player_link(row, role):
+        t_id, name = row.get("t_id"), row.get(role)
+        if not name: return "Unknown"
+        p_id = name.lower().replace(" ", "-") # Basic guess
+        if t_id:
+            link = f"https://play.limitlesstcg.com/tournament/{t_id}/player/{p_id}"
+            return f"<a href='{link}' target='_blank' class='archetype-name'>{name}</a>"
+        return name
 
-        def format_player_link(row, role):
-            t_id, name = row.get("t_id"), row.get(role)
-            if not name: return "Unknown"
-            p_id = name.lower().replace(" ", "-") # Basic guess
-            if t_id:
-                link = f"https://play.limitlesstcg.com/tournament/{t_id}/player/{p_id}"
-                return f"<a href='{link}' target='_blank' class='archetype-name'>{name}</a>"
-            return name
+    def format_opponent_deck_cell(row):
+        sig, deck_name = row["opponent_sig"], row["opponent_deck"]
+        if not sig: return deck_name
 
-        def format_opponent_deck_cell(row):
-            sig, deck_name = row["opponent_sig"], row["opponent_deck"]
-            if not sig: return deck_name
+        # Build Link preserving existing params
+        link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        link_params["deck_sig"] = [sig]
+        link_params["page"] = ["trends"]
+        from urllib.parse import urlencode
+        link = "?" + urlencode(link_params, doseq=True)
+        name_html = f"<a href='{link}' target='_parent' class='archetype-name'>{deck_name}</a>"
 
-            # Build Link preserving existing params
-            link_params = {k: st.query_params.get_all(k) for k in st.query_params}
-            link_params["deck_sig"] = [sig]
-            link_params["page"] = ["trends"]
-            from urllib.parse import urlencode
-            link = "?" + urlencode(link_params, doseq=True)
-            name_html = f"<a href='{link}' target='_parent' class='archetype-name'>{deck_name}</a>"
-
-            # Build Tooltip
-            tooltip_html = ""
-            direct_cards = row.get("opponent_cards", [])
-            if not direct_cards and sig in opp_details:
-                direct_cards = opp_details[sig].get("cards", [])
-            
-            if direct_cards:
-                sorted_cards = _enrich_and_sort_cards(direct_cards)
-                img_count, MAX = 0, 20
-                for card in sorted_cards:
+        # Build Tooltip
+        tooltip_html = ""
+        direct_cards = row.get("opponent_cards", [])
+        if not direct_cards and sig in opp_details:
+            direct_cards = opp_details[sig].get("cards", [])
+        
+        if direct_cards:
+            sorted_cards = _enrich_and_sort_cards(direct_cards)
+            img_count, MAX = 0, 20
+            for card in sorted_cards:
+                if img_count >= MAX: break
+                c_set, c_num = card.get("set", ""), card.get("number", "")
+                try: p_num = f"{int(c_num):03d}"
+                except: p_num = c_num
+                img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    c_set, c_num = card.get("set", ""), card.get("number", "")
+                    tooltip_html += f'<img src="{img}" class="tooltip-card">'
+                    img_count += 1
+            tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
+        else:
+            tooltip_html = "No deck details available."
+
+        return f'<div class="tooltip">{name_html}<div class="tooltiptext">{tooltip_html}</div></div>'
+
+    # Python-side sorting for Match History
+    m_sort = st.query_params.get("m_sort", "date")
+    m_order = st.query_params.get("m_order", "desc")
+    
+    matches_to_sort = list(matches)
+    sort_key_map = {
+        "date": lambda x: x.get("date", ""),
+        "tournament": lambda x: x.get("tournament", "").lower(),
+        "round": lambda x: x.get("round", ""),
+        "player": lambda x: x.get("player", "").lower(),
+        "opponent": lambda x: x.get("opponent", "").lower(),
+        "deck": lambda x: x.get("opponent_deck", "").lower(),
+        "result": lambda x: x.get("result", "").lower()
+    }
+    if m_sort in sort_key_map:
+        matches_to_sort.sort(key=sort_key_map[m_sort], reverse=(m_order == "desc"))
+
+    def get_m_sort_link(col_name):
+        new_order = "desc"
+        if m_sort == col_name:
+            new_order = "asc" if m_order == "desc" else "desc"
+        params = {k: st.query_params.get_all(k) for k in st.query_params}
+        params["m_sort"] = [col_name]
+        params["m_order"] = [new_order]
+        from urllib.parse import urlencode
+        return "?" + urlencode(params, doseq=True)
+
+    def get_m_sort_indicator(col_name):
+        if m_sort == col_name: return " ▲" if m_order == "asc" else " ▼"
+        return " ▴▾"
+
+    def get_m_header_style(col_name):
+        if m_sort == col_name: return 'style="color: #1ed760;"'
+        return ''
+
+    html = textwrap.dedent(f"""
+        <table class="meta-table">
+        <thead>
+        <tr class="meta-header-row">
+            <th {get_m_header_style('date')}><a href="{get_m_sort_link('date')}" target="_self" style="color: inherit; text-decoration: none;">Date{get_m_sort_indicator('date')}</a></th>
+            <th {get_m_header_style('tournament')}><a href="{get_m_sort_link('tournament')}" target="_self" style="color: inherit; text-decoration: none;">Tournament{get_m_sort_indicator('tournament')}</a></th>
+            <th {get_m_header_style('round')}><a href="{get_m_sort_link('round')}" target="_self" style="color: inherit; text-decoration: none;">Round{get_m_sort_indicator('round')}</a></th>
+            <th {get_m_header_style('player')}><a href="{get_m_sort_link('player')}" target="_self" style="color: inherit; text-decoration: none;">Player{get_m_sort_indicator('player')}</a></th>
+            <th {get_m_header_style('opponent')}><a href="{get_m_sort_link('opponent')}" target="_self" style="color: inherit; text-decoration: none;">Opponent{get_m_sort_indicator('opponent')}</a></th>
+            <th {get_m_header_style('deck')}><a href="{get_m_sort_link('deck')}" target="_self" style="color: inherit; text-decoration: none;">Opponent Deck{get_m_sort_indicator('deck')}</a></th>
+            <th {get_m_header_style('result')}><a href="{get_m_sort_link('result')}" target="_self" style="color: inherit; text-decoration: none;">Result{get_m_sort_indicator('result')}</a></th>
+        </tr>
+        </thead>
+        <tbody>
+    """)
+
+    for m in matches_to_sort:
+        p_link = format_player_link(m, "player")
+        o_link = format_player_link(m, "opponent")
+        d_cell = format_opponent_deck_cell(m)
+        res = m.get("result", "T")
+        res_color = "#1ed760" if res == "W" else "#ff4b4b" if res == "L" else "#888"
+        html += textwrap.dedent(f"""
+            <tr class="meta-row-link">
+                <td>{m.get('date', '')}</td>
+                <td style="font-size: 0.9em; opacity: 0.8;">{m.get('tournament', '')}</td>
+                <td>{m.get('round', '')}</td>
+                <td>{p_link}</td>
+                <td>{o_link}</td>
+                <td>{d_cell}</td>
+                <td style="color: {res_color}; font-weight: bold;">{res}</td>
+            </tr>
+        """)
+    html += "</tbody></table>"
+    st.markdown(html, unsafe_allow_html=True)
+
+def _render_cluster_detail_view(cluster_id, selected_period):
+    if st.button("← Back to Trends"):
+        if "cluster_id" in st.query_params:
+            del st.query_params["cluster_id"]
+        st.query_params["page"] = "trends"
+        st.rerun()
+
+    cluster = get_cluster_details(cluster_id, start_date=selected_period["start"], end_date=selected_period["end"])
+    if not cluster:
+        st.warning("Cluster detail not found.")
+        return
+
+    st.title(f"Cluster: {cluster['name']}")
+    st.caption(f"Cluster ID: {cluster_id}")
+
+    stats = cluster["stats"]
+    w, l, t = stats["wins"], stats["losses"], stats["ties"]
+    total = w + l + t
+    wr = (w / total * 100) if total > 0 else 0
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Aggregated Win Rate", f"{wr:.1f}%")
+    c2.metric("Aggregated Record", f"{w}W-{l}L-{t}T")
+    c3.metric("Total Matches", total)
+    c4.metric("Total Players", stats["players"])
+
+    # Representative Deck
+    st.subheader("Representative Deck (Most Common)")
+    rep_sig = cluster["representative_sig"]
+    rep_deck = get_deck_details(rep_sig)
+    
+    if rep_deck and "cards" in rep_deck:
+        enriched_cards = _enrich_and_sort_cards(rep_deck["cards"])
+        all_copies = []
+        for c in enriched_cards:
+            for _ in range(c.get("count", 1)):
+                all_copies.append(c)
+
+        if all_copies:
+            cols_per_row = 10
+            for i in range(0, len(all_copies), cols_per_row):
+                row_cards = all_copies[i : i + cols_per_row]
+                cols = st.columns(cols_per_row)
+                for j, c in enumerate(row_cards):
+                    c_set = c.get("set", "")
+                    c_num = c.get("number", "")
                     try: p_num = f"{int(c_num):03d}"
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-                    for _ in range(card.get("count", 1)):
-                        if img_count >= MAX: break
-                        tooltip_html += f'<img src="{img}" class="tooltip-card">'
-                        img_count += 1
-                tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
-            else:
-                tooltip_html = "No deck details available."
+                    with cols[j]:
+                        st.image(img, caption=c.get("name"), width="stretch")
 
-            return f'<div class="tooltip">{name_html}<div class="tooltiptext">{tooltip_html}</div></div>'
+    st.subheader("Variants in Cluster")
+    variants = cluster["signatures"]
+    v_data = []
+    for sig, info in variants.items():
+        v_stats = info.get("stats", {})
+        vw, vl, vt = v_stats.get("wins", 0), v_stats.get("losses", 0), v_stats.get("ties", 0)
+        v_total = vw + vl + vt
+        v_wr = (vw / v_total * 100) if v_total > 0 else 0
+        v_data.append({
+            "Signature": sig,
+            "Name": info.get("name", "Unknown"),
+            "Win Rate": f"{v_wr:.1f}%",
+            "Record": f"{vw}W-{vl}L-{vt}T",
+            "Matches": v_total,
+            "Players": v_stats.get("players", 0)
+        })
+    
+    # Sort variants by players
+    v_data.sort(key=lambda x: x["Players"], reverse=True)
+    
+    # Display as table
+    st.table(pd.DataFrame(v_data))
 
-        # Python-side sorting for Match History
-        m_sort = st.query_params.get("m_sort", "date")
-        m_order = st.query_params.get("m_order", "desc")
-        
-        # Prepare display columns and handle sorting
-        # We need a copy of the list of dicts for sorting
-        matches_to_sort = list(matches)
-        
-        sort_key_map = {
-            "date": lambda x: x.get("date", ""),
-            "tournament": lambda x: x.get("tournament", "").lower(),
-            "round": lambda x: x.get("round", ""),
-            "player": lambda x: x.get("player", "").lower(),
-            "opponent": lambda x: x.get("opponent", "").lower(),
-            "deck": lambda x: x.get("opponent_deck", "").lower(),
-            "result": lambda x: x.get("result", "").lower()
-        }
-        
-        if m_sort in sort_key_map:
-            matches_to_sort.sort(key=sort_key_map[m_sort], reverse=(m_order == "desc"))
-
-        def get_m_sort_link(col_name):
-            new_order = "desc"
-            if m_sort == col_name:
-                new_order = "asc" if m_order == "desc" else "desc"
-            
-            params = {k: st.query_params.get_all(k) for k in st.query_params}
-            params["m_sort"] = [col_name]
-            params["m_order"] = [new_order]
-            
-            from urllib.parse import urlencode
-            return "?" + urlencode(params, doseq=True)
-
-        def get_m_sort_indicator(col_name):
-            if m_sort == col_name:
-                return " ▲" if m_order == "asc" else " ▼"
-            return " ▴▾"
-
-        def get_m_header_style(col_name):
-            if m_sort == col_name:
-                return 'style="color: #1ed760;"'
-            return ''
-
-        # Build Table HTML
-        html = textwrap.dedent(f"""
-            <table class="meta-table">
-            <thead>
-            <tr class="meta-header-row">
-                <th {get_m_header_style('date')}><a href="{get_m_sort_link('date')}" target="_self" style="color: inherit; text-decoration: none;">Date{get_m_sort_indicator('date')}</a></th>
-                <th {get_m_header_style('tournament')}><a href="{get_m_sort_link('tournament')}" target="_self" style="color: inherit; text-decoration: none;">Tournament{get_m_sort_indicator('tournament')}</a></th>
-                <th {get_m_header_style('round')}><a href="{get_m_sort_link('round')}" target="_self" style="color: inherit; text-decoration: none;">Round{get_m_sort_indicator('round')}</a></th>
-                <th {get_m_header_style('player')}><a href="{get_m_sort_link('player')}" target="_self" style="color: inherit; text-decoration: none;">Player{get_m_sort_indicator('player')}</a></th>
-                <th {get_m_header_style('opponent')}><a href="{get_m_sort_link('opponent')}" target="_self" style="color: inherit; text-decoration: none;">Opponent{get_m_sort_indicator('opponent')}</a></th>
-                <th {get_m_header_style('deck')}><a href="{get_m_sort_link('deck')}" target="_self" style="color: inherit; text-decoration: none;">Opponent Deck{get_m_sort_indicator('deck')}</a></th>
-                <th {get_m_header_style('result')}><a href="{get_m_sort_link('result')}" target="_self" style="color: inherit; text-decoration: none;">Result{get_m_sort_indicator('result')}</a></th>
-            </tr>
-            </thead>
-            <tbody>
-        """)
-
-        for m in matches_to_sort:
-            p_link = format_player_link(m, "player")
-            o_link = format_player_link(m, "opponent")
-            d_cell = format_opponent_deck_cell(m)
-            
-            res = m.get("result", "T")
-            res_color = "#1ed760" if res == "W" else "#ff4b4b" if res == "L" else "#888"
-            
-            html += textwrap.dedent(f"""
-                <tr class="meta-row-link">
-                    <td>{m.get('date', '')}</td>
-                    <td style="font-size: 0.9em; opacity: 0.8;">{m.get('tournament', '')}</td>
-                    <td>{m.get('round', '')}</td>
-                    <td>{p_link}</td>
-                    <td>{o_link}</td>
-                    <td>{d_cell}</td>
-                    <td style="color: {res_color}; font-weight: bold;">{res}</td>
-                </tr>
-            """)
-        
-        html += "</tbody></table>"
-        st.markdown(html, unsafe_allow_html=True)
-    else:
-        st.info("No detailed match records found.")
+    st.subheader("Aggregated Match History")
+    _render_match_history_table(cluster["appearances"])

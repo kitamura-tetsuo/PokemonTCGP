@@ -151,8 +151,10 @@ def main():
     output_data.sort(key=get_cluster_players, reverse=True)
 
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
-    with open(args.output, "w") as f:
+    temp_output = args.output + ".tmp"
+    with open(temp_output, "w") as f:
         json.dump(output_data, f, indent=2)
+    os.replace(temp_output, args.output)
     
     logger.info(f"Clusters saved to {args.output}")
 

@@ -2,6 +2,7 @@
 import json
 import logging
 import os
+import re
 from datetime import datetime, timedelta
 import pandas as pd
 from collections import Counter
@@ -122,9 +123,12 @@ def enrich_card_data(cards):
     This fixes 'Unknown' types in cached data.
     """
     db_cards = load_card_database()
-    # Build a lookup map: (set, number) -> type
-    type_map = {
-        (c["set"], c["num"]): c["type"] for c in db_cards
+    # Build a lookup map: (set, number) -> {type, image}
+    card_lookup = {
+        (c.get("set"), str(c.get("num"))): {
+            "type": c.get("type"),
+            "image": c.get("image")
+        } for c in db_cards if c.get("set") and c.get("num")
     }
     
     # Load CSV overrides explicitly
@@ -155,27 +159,29 @@ def enrich_card_data(cards):
         new_c = c.copy()
         key = (new_c.get("set"), str(new_c.get("number")))
         
-        # Check CSV overrides first
+        db_info = card_lookup.get(key, {})
+        
+        # Priority 1: CSV Override for Type
         if key in csv_overrides:
             new_c["type"] = csv_overrides[key]
-        
-        # Then DB lookup OR normalize existing type
+        elif db_info.get("type"):
+            new_c["type"] = _normalize_type(db_info["type"])
         else:
-            current_type = new_c.get("type", "Unknown")
-            if current_type == "Unknown":
-                if key in type_map:
-                    new_c["type"] = type_map[key]
-                else:
-                    # Fallback Heuristic
-                    img = new_c.get("image", "")
-                    if img.startswith("cPK"):
-                        new_c["type"] = "Pokemon"
-                    elif img.startswith("cTR"):
-                        new_c["type"] = "Goods"
-            else:
-                # Normalize existing type if not Unknown
-                new_c["type"] = _normalize_type(current_type)
+            # Fallback normalization of existing type
+            new_c["type"] = _normalize_type(new_c.get("type", "Unknown"))
+            
+        # Prioritize image from DB if available
+        if db_info.get("image"):
+            new_c["image"] = db_info["image"]
         
+        # Final heuristic fallback for type if still Unknown
+        if new_c.get("type") == "Unknown":
+            img = new_c.get("image", "")
+            if img.startswith("cPK"):
+                new_c["type"] = "Pokemon"
+            elif img.startswith("cTR"):
+                new_c["type"] = "Goods"
+
         enriched.append(new_c)
     return enriched
 
@@ -352,8 +358,14 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
     if updated:
         try:
             os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
-            with open(CACHE_FILE, "w") as f:
+            temp_file = CACHE_FILE + ".tmp"
+            with open(temp_file, "w") as f:
                 json.dump({"dates": cache, "signatures": signatures}, f)
+            os.replace(temp_file, CACHE_FILE)
+            
+            # Clear internal cache to force reload
+            global _SIGNATURES_CACHE
+            _SIGNATURES_CACHE = None 
         except Exception as e:
             logger.error(f"Error saving cache: {e}")
             
@@ -406,83 +418,109 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
     if not daily_aggregated:
         return pd.DataFrame()
 
-    # Filter by cards if requested
-    filtered_signatures = set()
-    if card_filters or exclude_cards:
-        for sig in valid_signatures_meta:
-            info = sig_lookup.get(sig)
-            if not info: continue
-            
-            deck_cards = info.get("cards", [])
-            card_names = set(c["name"] for c in deck_cards)
-            
-            if card_filters and not all(f in card_names for f in card_filters):
-                continue
-            if exclude_cards and any(f in card_names for f in exclude_cards):
-                continue
-                
-            filtered_signatures.add(sig)
-    else:
-        filtered_signatures = valid_signatures_meta
-        
-    if not filtered_signatures:
-        return pd.DataFrame()
-        
-    # Build DF
-    rows = []
-    final_dates = sorted(daily_aggregated.keys())
-    for date in final_dates:
-        day_decks = daily_aggregated[date]
-        row = {"date": date}
-        
-        daily_filtered_total = 0
-        for sig, count in day_decks.items():
-            if sig in filtered_signatures:
-                deck_name = sig_lookup.get(sig, {}).get("name", "Unknown")
-                display_name = f"{deck_name} ({sig})"
-                row[display_name] = count
-                daily_filtered_total += count
-                
-        if daily_filtered_total >= min_total_players:
-            rows.append(row)
-            
-    if not rows:
-        return pd.DataFrame()
-        
-    df = pd.DataFrame(rows).set_index("date").fillna(0)
+    # Convert to DataFrame
+    df = pd.DataFrame.from_dict(daily_aggregated, orient='index').fillna(0)
     
-    # Normalize to 100%
-    df_sums = df.sum(axis=1)
-    df_normalized = df.div(df_sums, axis=0) * 100
+    # Calculate daily totals for meta-share normalization (BEFORE filtering)
+    daily_metagame_totals = df.sum(axis=1)
+
+    # Filter columns by card criteria
+    final_cols = []
+    for sig in df.columns:
+        info = sig_lookup.get(sig)
+        if not info: continue
+        
+        card_names = set(c["name"] for c in info.get("cards", []))
+        if card_filters and not all(f in card_names for f in card_filters):
+            continue
+        if exclude_cards and any(f in card_names for f in exclude_cards):
+            continue
+        
+        final_cols.append(sig)
+    
+    if not final_cols:
+        return pd.DataFrame()
+        
+    df = df[final_cols]
+    
+    # Rename columns to display format f"{name} ({sig})"
+    df.columns = [f"{sig_lookup.get(s, {}).get('name', 'Unknown')} ({s})" for s in df.columns]
+
+    # Normalize by the sum of FILTERED decks on each day (back to 100% within the view)
+    df_normalized = df.div(df.sum(axis=1), axis=0) * 100
     
     if window > 1:
         df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
-        
+    
+    if min_total_players > 0:
+        # We still filter by daily_metagame_totals to ensure volume, but normalization is relative
+        df_normalized = df_normalized[daily_metagame_totals >= min_total_players]
+
     return df_normalized
 
-def get_deck_details_by_signature(signatures):
-    """
-    Get deck details (name, cards) for a list of signatures.
-    Returns a dictionary: sig -> {name, cards, stats, appearances}
-    """
+# Global variable to cache the signatures part of the JSON to avoid repetitive large reads
+_SIGNATURES_CACHE = None
+_CACHE_MTIME = 0
+
+def _get_all_signatures():
+    """Internal helper to load and cache all signatures from the large JSON file."""
+    global _SIGNATURES_CACHE, _CACHE_MTIME
     if not os.path.exists(CACHE_FILE):
         return {}
+    
+    mtime = os.path.getmtime(CACHE_FILE)
+    if _SIGNATURES_CACHE is not None and mtime == _CACHE_MTIME:
+        return _SIGNATURES_CACHE
+    
     try:
         with open(CACHE_FILE, "r") as f:
             data = json.load(f)
-            all_sigs = data.get("signatures", {})
-        
-        result = {}
-        for sig in signatures:
-            if sig in all_sigs:
-                result[sig] = all_sigs[sig]
-        return result
+            _SIGNATURES_CACHE = data.get("signatures", {})
+            _CACHE_MTIME = mtime
+        return _SIGNATURES_CACHE
     except Exception as e:
-        logger.error(f"Error loading deck details: {e}")
-        return {}
+        logger.error(f"Error loading cache for signatures: {e}")
+        return _SIGNATURES_CACHE or {}
 
-def get_deck_details(sig):
-    return get_deck_details_by_signature([sig]).get(sig)
+def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
+    """
+    Get deck details (name, cards) for a list of signatures.
+    If dates are provided, statistics are filtered to that period.
+    Returns a dictionary: sig -> {name, cards, stats, appearances}
+    """
+    all_sigs = _get_all_signatures()
+    result = {}
+    for sig in signatures:
+        if sig in all_sigs:
+            info = all_sigs[sig].copy()
+            
+            # Filter appearances and recalculate stats if dates provided
+            if start_date or end_date:
+                apps = info.get("appearances", [])
+                filtered_apps = []
+                for app in apps:
+                    date = app.get("date")
+                    if start_date and date < start_date: continue
+                    if end_date and date > end_date: continue
+                    filtered_apps.append(app)
+                
+                w = sum(a.get("record", {}).get("wins", 0) for a in filtered_apps)
+                l = sum(a.get("record", {}).get("losses", 0) for a in filtered_apps)
+                t = sum(a.get("record", {}).get("ties", 0) for a in filtered_apps)
+                
+                info["appearances"] = filtered_apps
+                info["stats"] = {
+                    "wins": w,
+                    "losses": l,
+                    "ties": t,
+                    "players": len(filtered_apps)
+                }
+            
+            result[sig] = info
+    return result
+
+def get_deck_details(sig, start_date=None, end_date=None):
+    return get_deck_details_by_signature([sig], start_date=start_date, end_date=end_date).get(sig)
 
 def get_match_history(appearances):
     """
@@ -591,24 +629,35 @@ def get_match_history(appearances):
                 logger.error(f"Error lookup pairings for {t_id}: {e}")
     return matches
 
+# Global variable to cache cluster mapping
+_SIG_TO_CLUSTER = None
+_ID_TO_CLUSTER = None
+_CLUSTERS_MTIME = 0
+
 def get_cluster_mapping():
     """Returns a map of sig -> cluster_info and cluster_id -> cluster_info."""
+    global _SIG_TO_CLUSTER, _ID_TO_CLUSTER, _CLUSTERS_MTIME
     if not os.path.exists(CLUSTERS_FILE):
         return {}, {}
+    
+    mtime = os.path.getmtime(CLUSTERS_FILE)
+    if _SIG_TO_CLUSTER is not None and mtime == _CLUSTERS_MTIME:
+        return _SIG_TO_CLUSTER, _ID_TO_CLUSTER
     
     try:
         with open(CLUSTERS_FILE, "r") as f:
             clusters = json.load(f)
         
-        sig_to_cluster = {}
-        id_to_cluster = {}
+        _SIG_TO_CLUSTER = {}
+        _ID_TO_CLUSTER = {}
         for c in clusters:
             cid = str(c["id"])
-            id_to_cluster[cid] = c
+            _ID_TO_CLUSTER[cid] = c
             for sig in c["signatures"]:
-                sig_to_cluster[sig] = c
-                
-        return sig_to_cluster, id_to_cluster
+                _SIG_TO_CLUSTER[sig] = c
+        
+        _CLUSTERS_MTIME = mtime
+        return _SIG_TO_CLUSTER, _ID_TO_CLUSTER
     except Exception as e:
         logger.error(f"Error loading clusters: {e}")
         return {}, {}
@@ -666,9 +715,13 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
     if not daily_aggregated:
         return pd.DataFrame()
 
-    # Filter by cards
-    # A cluster matches if ANY deck in it matches the filters
-    filtered_labels = set()
+    # Convert to DataFrame
+    df = pd.DataFrame.from_dict(daily_aggregated, orient='index').fillna(0)
+    
+    # Calculate daily totals for meta-share normalization (BEFORE filtering)
+    daily_metagame_totals = df.sum(axis=1)
+
+    # Filter by cards if requested
     if card_filters or exclude_cards:
         # Pre-calculate which signatures match
         matching_sigs = set()
@@ -680,11 +733,11 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
                 continue
             matching_sigs.add(sig)
             
-        for label in valid_clusters:
-            # Extract sig or cluster id
+        _, id_to_cluster = get_cluster_mapping()
+        filtered_labels = set()
+        for label in df.columns:
             if "Cluster" in label:
                 cid = label.split("Cluster ")[1].split(")")[0]
-                _, id_to_cluster = get_cluster_mapping()
                 c_info = id_to_cluster.get(cid)
                 if c_info and any(s in matching_sigs for s in c_info["signatures"]):
                     filtered_labels.add(label)
@@ -692,45 +745,32 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
                 match = re.search(r"\(([\da-f]{8})\)$", label)
                 if match and match.group(1) in matching_sigs:
                     filtered_labels.add(label)
-    else:
-        filtered_labels = valid_clusters
-
-    if not filtered_labels:
-        return pd.DataFrame()
-
-    # Build DF
-    rows = []
-    final_dates = sorted(daily_aggregated.keys())
-    for date in final_dates:
-        counts = daily_aggregated[date]
-        row = {"date": date}
-        total = 0
-        for label, count in counts.items():
-            if label in filtered_labels:
-                row[label] = count
-                total += count
-        if total >= min_total_players:
-            rows.append(row)
-
-    if not rows:
-        return pd.DataFrame()
-
-    df = pd.DataFrame(rows).set_index("date").fillna(0)
+        
+        if not filtered_labels:
+            return pd.DataFrame()
+        df = df[list(filtered_labels)]
+        
+    # Normalize by the sum of FILTERED clusters on each day (back to 100% within the view)
     df_normalized = df.div(df.sum(axis=1), axis=0) * 100
+    
     if window > 1:
         df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
+    
+    if min_total_players > 0:
+        df_normalized = df_normalized[daily_metagame_totals >= min_total_players]
+
     return df_normalized
 
-def get_cluster_details(cluster_id):
-    """Get aggregated details for a cluster."""
+def get_cluster_details(cluster_id, start_date=None, end_date=None):
+    """Get aggregated details for a cluster, optionally filtered by date."""
     _, id_to_cluster = get_cluster_mapping()
     c_info = id_to_cluster.get(str(cluster_id))
     if not c_info:
         return None
     
-    signatures = get_deck_details_by_signature(c_info["signatures"])
+    signatures = get_deck_details_by_signature(c_info["signatures"], start_date=start_date, end_date=end_date)
     
-    # Aggregate stats
+    # Aggregate stats from filtered signatures
     total_stats = {"wins": 0, "losses": 0, "ties": 0, "players": 0}
     all_apps = []
     
@@ -740,11 +780,77 @@ def get_cluster_details(cluster_id):
             total_stats[k] += s.get(k, 0)
         all_apps.extend(signatures[sig].get("appearances", []))
         
+    # Get cards from representative deck or ANY available deck in the cluster
+    rep_sig = c_info["representative_sig"]
+    rep_cards = []
+    
+    # Check if rep sig is in our already-fetched list
+    if rep_sig in signatures:
+        rep_cards = signatures[rep_sig].get("cards", [])
+    else:
+        # Fallback: Use cards from the first available signature
+        # We prefer the one with the most matches if possible, but any is better than none
+        if signatures:
+             # Sort by # of players or matches to pick a "good" representative?
+             # For now just pick the first one to ensure we show cards
+             fallback_sig = next(iter(signatures))
+             rep_cards = signatures[fallback_sig].get("cards", [])
+             # Update representative sig in return object so UI knows?
+             # Actually UI uses "representative_sig" from the return dict if we wanted to change it.
+             # But let's just populate "cards".
+             rep_sig = fallback_sig
+
     return {
         "id": cluster_id,
         "name": c_info["representative_name"],
-        "representative_sig": c_info["representative_sig"],
+        "representative_sig": rep_sig,
         "stats": total_stats,
         "appearances": all_apps,
-        "signatures": signatures # sig -> details
+        "signatures": signatures, # sig -> details (already filtered)
+        "cards": rep_cards
     }
+
+def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
+    """
+    Calculate period-wide statistics from the daily share dataframe and total counts.
+    Returns: { label: { avg_share, total_stats } }
+    """
+    if df.empty:
+        return {}
+    
+    # We aggregate stats (Matches, Players, WR)
+    stats_map = {}
+    from src.data import get_cluster_details, get_deck_details
+    
+    total_period_players_in_view = 0
+    all_details = {}
+    
+    for label in df.columns:
+        if clustered:
+            if "Cluster" in label:
+                cid = label.split("Cluster ")[1].split(")")[0]
+                details = get_cluster_details(cid, start_date=start_date, end_date=end_date)
+            else:
+                match = re.search(r"\((\w+)\)$", label)
+                sig = match.group(1) if match else None
+                details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
+        else:
+            match = re.search(r"\((\w+)\)$", label)
+            sig = match.group(1) if match else None
+            details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
+        
+        if details:
+            all_details[label] = details
+            total_period_players_in_view += details.get("stats", {}).get("players", 0)
+            
+    for label, details in all_details.items():
+        deck_players = details.get("stats", {}).get("players", 0)
+        avg_share = (deck_players / total_period_players_in_view * 100) if total_period_players_in_view > 0 else 0
+        
+        stats_map[label] = {
+            "avg_share": avg_share,
+            "stats": details.get("stats", {}),
+            "deck_info": details
+        }
+            
+    return stats_map
