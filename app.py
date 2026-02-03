@@ -16,9 +16,27 @@ st.set_page_config(
 )
 
 from src.ui import render_meta_trend_page
+from src.ui_combinations import render_combinations_page
 
 def main():
-    render_meta_trend_page()
+    st.sidebar.title("Navigation")
+    
+    # Sync with query param
+    qp = st.query_params
+    default_page = qp.get("page", "trends")
+    if default_page == "combinations":
+        idx = 1
+    else:
+        idx = 0
+        
+    page = st.sidebar.radio("Go to", ["Metagame Trends", "Card Combinations"], index=idx)
+    
+    if page == "Metagame Trends":
+        st.query_params["page"] = "trends"
+        render_meta_trend_page()
+    elif page == "Card Combinations":
+        st.query_params["page"] = "combinations"
+        render_combinations_page()
 
 if __name__ == "__main__":
     main()

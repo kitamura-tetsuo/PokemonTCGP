@@ -810,6 +810,122 @@ def get_cluster_details(cluster_id, start_date=None, end_date=None):
         "cards": rep_cards
     }
 
+def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None, standard_only=False):
+    """
+    groups: List of dicts, e.g. [{"label": "A+B", "include": ["card1"], "exclude": ["card2"]}]
+    Returns: {
+        "share": pd.DataFrame (cols=labels),
+        "wr": pd.DataFrame (cols=labels),
+        "totals": pd.Series (daily match totals)
+    }
+    """
+    scan_start = start_date
+    if not scan_start:
+        scan_days = window + 7
+        scan_start = (datetime.now() - timedelta(days=scan_days)).strftime("%Y-%m-%d")
+
+    daily_raw, sig_lookup = _scan_and_aggregate(start_date=scan_start, end_date=end_date)
+    
+    if not daily_raw:
+        return {"share": pd.DataFrame(), "wr": pd.DataFrame(), "totals": pd.Series()}
+
+    all_dates = sorted(daily_raw.keys())
+    
+    # 1. Calculate Daily Totals (Denominator for Share)
+    daily_totals = {}
+    for date_str in all_dates:
+        if start_date and date_str < start_date: continue
+        if end_date and date_str > end_date: continue
+        
+        day_entry = daily_raw[date_str]
+        day_total = 0
+        
+        if "tournaments" in day_entry:
+            for t_id, t_data in day_entry["tournaments"].items():
+                if standard_only and t_data.get("format") is not None:
+                    continue
+                day_total += sum(t_data.get("decks", {}).values())
+        elif "decks" in day_entry:
+             if not standard_only:
+                day_total += sum(day_entry["decks"].values())
+        
+        daily_totals[date_str] = day_total
+
+    # 2. Map Signatures to Groups
+    sig_to_groups = {}
+    for sig, info in sig_lookup.items():
+        deck_cards = set(c["name"] for c in info.get("cards", []))
+        matched_groups = []
+        for g in groups:
+            inc = g.get("include", [])
+            exc = g.get("exclude", [])
+            
+            has_inc = not inc or all(c in deck_cards for c in inc)
+            has_exc = exc and any(c in deck_cards for c in exc)
+            
+            if has_inc and not has_exc:
+                matched_groups.append(g["label"])
+        
+        if matched_groups:
+            sig_to_groups[sig] = matched_groups
+
+    # 3. Aggregate Stats by Group by Day
+    # label -> date -> {wins, losses, count}
+    # Pre-fill
+    group_daily_agg = {g["label"]: {d: {"wins": 0, "losses": 0, "ties": 0, "count": 0} for d in daily_totals} for g in groups}
+
+    for sig, labels in sig_to_groups.items():
+        info = sig_lookup.get(sig)
+        if not info: continue
+        
+        apps = info.get("appearances", [])
+        for app in apps:
+            d = app.get("date")
+            if d not in daily_totals: continue
+            
+            rec = app.get("record", {})
+            w, l, t = rec.get("wins", 0), rec.get("losses", 0), rec.get("ties", 0)
+            
+            for label in labels:
+                entry = group_daily_agg[label][d]
+                entry["wins"] += w
+                entry["losses"] += l
+                entry["ties"] += t
+                entry["count"] += 1
+
+    # 4. Build DataFrames
+    share_data = {}
+    wr_data = {}
+    
+    for label in group_daily_agg:
+        shares = {}
+        wrs = {}
+        for d, stats in group_daily_agg[label].items():
+            total_matches = stats["wins"] + stats["losses"] + stats["ties"]
+            wr = (stats["wins"] / total_matches * 100) if total_matches > 0 else 0
+            
+            day_total = daily_totals.get(d, 0)
+            share = (stats["count"] / day_total * 100) if day_total > 0 else 0
+            
+            shares[d] = share
+            wrs[d] = wr
+            
+        share_data[label] = shares
+        wr_data[label] = wrs
+        
+    df_share = pd.DataFrame(share_data).fillna(0)
+    df_wr = pd.DataFrame(wr_data).fillna(0)
+    
+    if window > 1:
+        df_share = df_share.rolling(window=window, min_periods=1).mean()
+        df_wr = df_wr.rolling(window=window, min_periods=1).mean()
+        
+    return {
+        "share": df_share, 
+        "wr": df_wr, 
+        "totals": pd.Series(daily_totals)
+    }
+
 def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
     """
     Calculate period-wide statistics from the daily share dataframe and total counts.

@@ -136,3 +136,57 @@ def display_chart(options, height="400px", events=None):
     if options:
         return st_echarts(options=options, height=height, events=events)
     return None
+
+def create_echarts_line_comparison(df, title="", y_axis_label="Share (%)"):
+    """
+    df: DataFrame where columns are series names and index is dates.
+    """
+    if df.empty: return None
+    
+    dates = df.index.tolist()
+    series = []
+    
+    for col in df.columns:
+        # Standard ECharts Line
+        series.append({
+            "name": col,
+            "type": "line",
+            "data": [round(v, 2) for v in df[col].tolist()],
+            "smooth": True,
+            "showSymbol": True,
+            "symbol": "circle",
+            "symbolSize": 6,
+        })
+        
+    options = {
+        "title": {"text": title, "left": "center", "textStyle": {"color": "#fff"}},
+        "tooltip": {
+            "trigger": "axis",
+            "backgroundColor": "rgba(30,30,30,0.9)",
+            "borderColor": "#333",
+            "textStyle": {"color": "#fff"}
+        },
+        "legend": {
+            "data": df.columns.tolist(),
+            "top": "30px",
+            "textStyle": {"color": "#ccc"}
+        },
+        "grid": {
+            "left": "3%", "right": "4%", "bottom": "3%", "containLabel": True
+        },
+        "xAxis": {
+            "type": "category", 
+            "boundaryGap": False, 
+            "data": dates,
+            "axisLabel": {"color": "#aaa"}
+        },
+        "yAxis": {
+            "type": "value",
+            "axisLabel": {"formatter": "{value}", "color": "#aaa"},
+            "name": y_axis_label,
+            "nameTextStyle": {"color": "#aaa"},
+            "splitLine": {"lineStyle": {"color": "#333"}}
+        },
+        "series": series
+    }
+    return options
