@@ -195,97 +195,66 @@ def render_meta_trend_page():
             "deck_info": deck_info
         })
 
-    # Render Table HTML (simplified)
-    # Note: Javascript logic for sorting is copied
+    # Python-side sorting
+    sort_col = st.query_params.get("sort", "share")
+    sort_order = st.query_params.get("order", "desc")
     
+    # Sort mapping
+    sort_key_map = {
+        "name": lambda x: x["name"].lower(),
+        "share": lambda x: x["share"],
+        "wr": lambda x: x["wr"],
+        "matches": lambda x: x["matches"]
+    }
+    
+    if sort_col in sort_key_map:
+        rows_data.sort(key=sort_key_map[sort_col], reverse=(sort_order == "desc"))
+
+    def get_sort_link(col_name):
+        new_order = "desc"
+        if sort_col == col_name:
+            new_order = "asc" if sort_order == "desc" else "desc"
+        
+        # Build query string from current params but override sort/order
+        params = st.query_params.to_dict()
+        params["sort"] = col_name
+        params["order"] = new_order
+        
+        from urllib.parse import urlencode
+        return "?" + urlencode(params)
+
+    def get_sort_indicator(col_name):
+        if sort_col == col_name:
+            return " ▲" if sort_order == "asc" else " ▼"
+        return " ▴▾"
+
+    def get_header_style(col_name):
+        if sort_col == col_name:
+            return 'style="color: #1ed760;"'
+        return ''
+
     diff_headers = ""
     if show_diffs:
         diff_headers = '<th class="header-link">Removed</th><th class="header-link">Added</th>'
 
     html = textwrap.dedent(
         f"""
-<script>
-(function() {{
-window.jtState = window.jtState || {{ field: 'share', order: 'desc' }};
-window.jtSort = function(field) {{
-const body = document.getElementById('meta-table-body');
-if (!body) return;
-const rows = Array.from(body.querySelectorAll('.meta-row-link'));
-if (rows.length === 0) return;
-if (window.jtState.field === field) {{
-window.jtState.order = (window.jtState.order === 'desc') ? 'asc' : 'desc';
-}} else {{
-window.jtState.field = field;
-window.jtState.order = (field === 'name') ? 'asc' : 'desc';
-}}
-rows.sort((a, b) => {{
-let vA = a.getAttribute('data-' + field) || '';
-let vB = b.getAttribute('data-' + field) || '';
-if (field !== 'name') {{ 
-vA = parseFloat(vA) || 0; 
-vB = parseFloat(vB) || 0; 
-}} else {{
-vA = vA.toLowerCase();
-vB = vB.toLowerCase();
-}}
-if (vA < vB) return window.jtState.order === 'asc' ? -1 : 1;
-if (vA > vB) return window.jtState.order === 'asc' ? 1 : -1;
-return 0;
-}});
-rows.forEach(r => body.appendChild(r));
-window.jtSync();
-}};
-window.jtSync = function() {{
-const fields = ['name', 'share', 'wr', 'matches'];
-fields.forEach(f => {{
-const ind = document.getElementById('sort-ind-' + f);
-if (ind) {{
-if (f === window.jtState.field) {{
-ind.innerText = (window.jtState.order === 'asc' ? '▲' : '▼');
-ind.style.opacity = "1";
-ind.parentElement.style.color = "#1ed760";
-}} else {{
-ind.innerText = '▴▾';
-ind.style.opacity = "0.2";
-ind.parentElement.style.color = "";
-}}
-}}
-}});
-}};
-window.initJtTable = function() {{
-const fields = ['name', 'share', 'wr', 'matches'];
-fields.forEach(f => {{
-const el = document.getElementById('header-' + f);
-if (el) {{
-el.onclick = (e) => {{ 
-e.preventDefault(); 
-window.jtSort(f); 
-}};
-}}
-}});
-window.jtSync();
-}};
-if (document.readyState === 'complete' || document.readyState === 'interactive') {{
-setTimeout(window.initJtTable, 10);
-}} else {{
-window.addEventListener('load', window.initJtTable);
-}}
-if (!window.jtObs) {{
-window.jtObs = new MutationObserver((mutations) => {{
-window.initJtTable();
-}});
-window.jtObs.observe(document.body, {{ childList: true, subtree: true }});
-}}
-}})();
-</script>
 <table class="meta-table">
 <thead>
 <tr class="meta-header-row">
-<th id="header-name" class="header-link">Archetype<span id="sort-ind-name" class="sort-indicator"></span></th>
+<th class="header-link" {get_header_style('name')}>
+    <a href="{get_sort_link('name')}" target="_self" style="color: inherit; text-decoration: none;">Archetype<span class="sort-indicator">{get_sort_indicator('name')}</span></a>
+</th>
 {diff_headers}
-<th id="header-share" class="header-link" style="text-align: right;">Share <span id="sort-ind-share" class="sort-indicator"></span></th>
-<th id="header-wr" class="header-link" style="text-align: right;">WinRate <span id="sort-ind-wr" class="sort-indicator"></span></th>
-<th id="header-matches" class="header-link" style="text-align: right;">Matches <span id="sort-ind-matches" class="sort-indicator"></span></th>
+<th class="header-link" {get_header_style('share')} style="text-align: right;">
+    <a href="{get_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">Share <span class="sort-indicator">{get_sort_indicator('share')}</span></a>
+</th>
+<th class="header-link" {get_header_style('wr')} style="text-align: right;">
+    <a href="{get_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">WinRate <span class="sort-indicator">{get_sort_indicator('wr')}</span></a>
+</th>
+<th class="header-link" {get_header_style('matches')} style="text-align: right;">
+    <a href="{get_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">Matches <span class="sort-indicator">{get_sort_indicator('matches')}</span></a>
+</th>
 </tr>
 </thead>
 <tbody id="meta-table-body">
@@ -430,7 +399,7 @@ def _render_deck_detail_view(sig):
                 all_copies.append(c)
 
         if all_copies:
-            cols_per_row = 5
+            cols_per_row = 10
             for i in range(0, len(all_copies), cols_per_row):
                 row_cards = all_copies[i : i + cols_per_row]
                 cols = st.columns(cols_per_row)
@@ -497,15 +466,87 @@ def _render_deck_detail_view(sig):
 
             return f'<div class="tooltip">{name_html}<div class="tooltiptext">{tooltip_html}</div></div>'
 
-        mdf["Player"] = mdf.apply(lambda r: format_player_link(r, "player"), axis=1)
-        mdf["Opponent"] = mdf.apply(lambda r: format_player_link(r, "opponent"), axis=1)
-        mdf["Opponent Deck"] = mdf.apply(format_opponent_deck_cell, axis=1)
+        # Python-side sorting for Match History
+        m_sort = st.query_params.get("m_sort", "date")
+        m_order = st.query_params.get("m_order", "desc")
         
-        st.markdown(
-            mdf[["date", "tournament", "round", "Player", "Opponent", "Opponent Deck", "result"]].to_html(
-                escape=False, index=False
-            ),
-            unsafe_allow_html=True,
-        )
+        # Prepare display columns and handle sorting
+        # We need a copy of the list of dicts for sorting
+        matches_to_sort = list(matches)
+        
+        sort_key_map = {
+            "date": lambda x: x.get("date", ""),
+            "tournament": lambda x: x.get("tournament", "").lower(),
+            "round": lambda x: x.get("round", ""),
+            "player": lambda x: x.get("player", "").lower(),
+            "opponent": lambda x: x.get("opponent", "").lower(),
+            "deck": lambda x: x.get("opponent_deck", "").lower(),
+            "result": lambda x: x.get("result", "").lower()
+        }
+        
+        if m_sort in sort_key_map:
+            matches_to_sort.sort(key=sort_key_map[m_sort], reverse=(m_order == "desc"))
+
+        def get_m_sort_link(col_name):
+            new_order = "desc"
+            if m_sort == col_name:
+                new_order = "asc" if m_order == "desc" else "desc"
+            
+            params = st.query_params.to_dict()
+            params["m_sort"] = col_name
+            params["m_order"] = new_order
+            
+            from urllib.parse import urlencode
+            return "?" + urlencode(params)
+
+        def get_m_sort_indicator(col_name):
+            if m_sort == col_name:
+                return " ▲" if m_order == "asc" else " ▼"
+            return " ▴▾"
+
+        def get_m_header_style(col_name):
+            if m_sort == col_name:
+                return 'style="color: #1ed760;"'
+            return ''
+
+        # Build Table HTML
+        html = textwrap.dedent(f"""
+            <table class="meta-table">
+            <thead>
+            <tr class="meta-header-row">
+                <th {get_m_header_style('date')}><a href="{get_m_sort_link('date')}" target="_self" style="color: inherit; text-decoration: none;">Date{get_m_sort_indicator('date')}</a></th>
+                <th {get_m_header_style('tournament')}><a href="{get_m_sort_link('tournament')}" target="_self" style="color: inherit; text-decoration: none;">Tournament{get_m_sort_indicator('tournament')}</a></th>
+                <th {get_m_header_style('round')}><a href="{get_m_sort_link('round')}" target="_self" style="color: inherit; text-decoration: none;">Round{get_m_sort_indicator('round')}</a></th>
+                <th {get_m_header_style('player')}><a href="{get_m_sort_link('player')}" target="_self" style="color: inherit; text-decoration: none;">Player{get_m_sort_indicator('player')}</a></th>
+                <th {get_m_header_style('opponent')}><a href="{get_m_sort_link('opponent')}" target="_self" style="color: inherit; text-decoration: none;">Opponent{get_m_sort_indicator('opponent')}</a></th>
+                <th {get_m_header_style('deck')}><a href="{get_m_sort_link('deck')}" target="_self" style="color: inherit; text-decoration: none;">Opponent Deck{get_m_sort_indicator('deck')}</a></th>
+                <th {get_m_header_style('result')}><a href="{get_m_sort_link('result')}" target="_self" style="color: inherit; text-decoration: none;">Result{get_m_sort_indicator('result')}</a></th>
+            </tr>
+            </thead>
+            <tbody>
+        """)
+
+        for m in matches_to_sort:
+            p_link = format_player_link(m, "player")
+            o_link = format_player_link(m, "opponent")
+            d_cell = format_opponent_deck_cell(m)
+            
+            res = m.get("result", "T")
+            res_color = "#1ed760" if res == "W" else "#ff4b4b" if res == "L" else "#888"
+            
+            html += textwrap.dedent(f"""
+                <tr class="meta-row-link">
+                    <td>{m.get('date', '')}</td>
+                    <td style="font-size: 0.9em; opacity: 0.8;">{m.get('tournament', '')}</td>
+                    <td>{m.get('round', '')}</td>
+                    <td>{p_link}</td>
+                    <td>{o_link}</td>
+                    <td>{d_cell}</td>
+                    <td style="color: {res_color}; font-weight: bold;">{res}</td>
+                </tr>
+            """)
+        
+        html += "</tbody></table>"
+        st.markdown(html, unsafe_allow_html=True)
     else:
         st.info("No detailed match records found.")
