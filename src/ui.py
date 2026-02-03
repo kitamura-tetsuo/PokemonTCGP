@@ -1,4 +1,7 @@
 
+import json
+import os
+from datetime import datetime, timedelta
 import logging
 import re
 import textwrap
@@ -6,8 +9,8 @@ import pandas as pd
 import streamlit as st
 from collections import Counter
 
-from src.data import get_daily_share_data, get_deck_details, get_all_card_names, get_match_history
-from src.visualizations import create_stacked_area_chart
+from src.data import get_daily_share_data, get_deck_details, get_all_card_names, get_match_history, enrich_card_data
+from src.visualizations import create_echarts_stacked_area, display_chart
 from src.config import IMAGE_BASE_URL
 from src.utils import format_deck_name
 
@@ -21,38 +24,90 @@ def _get_card_type_map():
 
 def _enrich_and_sort_cards(cards):
     """Sort cards by Pokemon > Item > Tool > Stadium > Supporter."""
-    # Logic similar to original but using the 'type' field which is already present
+    # First, ensure types are correct/enriched using our new logic
+    cards = enrich_card_data(cards)
+    
     type_order = {
         "Pokemon": 0,
-        "Item": 1,
-        "Tool": 2,
+        "Goods": 1,
+        "Item": 2,
         "Stadium": 3,
-        "Supporter": 4,
+        "Support": 4,
         "Unknown": 5,
     }
 
     # Sort: type_order, then name
-    # We assume 'type' is already present in card dict from src.data
-    # If not, we default to Unknown
-    
-    # Ensure all cards have type
-    for c in cards:
-        if "type" not in c:
-            c["type"] = "Unknown"
-            
     cards.sort(
         key=lambda x: (type_order.get(x.get("type", "Unknown"), 5), x.get("name", ""))
     )
     return cards
 
 @st.cache_data(ttl=600)
-def _get_cached_trend_data(selected_cards, exclude_cards, window):
+def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False):
     # Call the data layer
-    # Note: version parameter removed as it was for cache invalidation mainly
-    # Convert lists to tuples for hashing if needed, but streamlit handles lists usually
     return get_daily_share_data(
-        card_filters=selected_cards, exclude_cards=exclude_cards, window=window
+        card_filters=selected_cards, 
+        exclude_cards=exclude_cards, 
+        window=window,
+        start_date=start_date,
+        end_date=end_date,
+        standard_only=standard_only
     )
+
+def _get_set_periods():
+    sets_path = os.path.join("data", "cards", "sets.json")
+    if not os.path.exists(sets_path):
+        return []
+    try:
+        with open(sets_path, "r") as f:
+            data = json.load(f)
+        
+        all_sets = []
+        for series in data.values():
+            for s in series:
+                if "PROMO" not in s.get("code", ""):
+                    all_sets.append(s)
+        
+        all_sets.sort(key=lambda x: x.get("releaseDate", "9999-99-99"), reverse=True)
+        
+        periods = [{"label": "All", "start": None, "end": None}]
+        for i in range(len(all_sets)):
+            s = all_sets[i]
+            start = s.get("releaseDate")
+            name = s.get("name", {}).get("en", s.get("code"))
+            
+            # End date for the newest set is None (Now)
+            # End date for other sets is day before the one that was released AFTER it (which is the one before it in this descending list)
+            end = None
+            if i > 0:
+                # This set ends the day before the set released after it (which is all_sets[i-1])
+                pass 
+                
+        # Actually it is easier to calculate end dates FIRST then reverse.
+        # Let's redo the logic slightly for clarity.
+        all_sets.sort(key=lambda x: x.get("releaseDate", "9999-99-99"))
+        
+        processed_periods = []
+        for i in range(len(all_sets)):
+            s = all_sets[i]
+            start = s.get("releaseDate")
+            name = s.get("name", {}).get("en", s.get("code"))
+            
+            end = None
+            if i < len(all_sets) - 1:
+                end_dt = datetime.strptime(all_sets[i+1]["releaseDate"], "%Y-%m-%d") - timedelta(days=1)
+                end = end_dt.strftime("%Y-%m-%d")
+            
+            label = f"{name} ({start} ~ {end if end else 'Now'})"
+            processed_periods.append({"label": label, "start": start, "end": end, "name": name, "release": start})
+        
+        # Newest first
+        processed_periods.sort(key=lambda x: x["release"], reverse=True)
+        
+        return [{"label": "All", "start": None, "end": None}] + processed_periods
+    except Exception as e:
+        logger.error(f"Error loading set periods: {e}")
+        return []
 
 def render_meta_trend_page():
     st.header("Metagame Trends")
@@ -62,26 +117,75 @@ def render_meta_trend_page():
 
     # Sidebar / Controls
     with st.expander("Controls", expanded=True):
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         all_cards = get_all_card_names()
+        periods = _get_set_periods()
+        
+        # Read from query params
+        q_params = st.query_params
+        default_cards = q_params.get_all("cards")
+        default_exclude = q_params.get_all("exclude")
+        default_period_label = q_params.get("period", "")
+        try:
+            default_window = int(q_params.get("window", 7))
+        except:
+            default_window = 7
+
         with col1:
-            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_cards)
-            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_cards)
+            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_cards, default=[c for c in default_cards if c in all_cards])
+            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_cards, default=[c for c in default_exclude if c in all_cards])
 
         with col2:
+            period_options = [p["label"] for p in periods]
+            # Default to the latest set (index 1) if available, otherwise "All" (index 0)
+            
+            # Find index of default period label
+            try:
+                period_idx = period_options.index(default_period_label)
+            except ValueError:
+                period_idx = 1 if len(period_options) > 1 else 0
+
+            selected_period_label = st.selectbox("Aggregation Period", options=period_options, index=period_idx)
+            selected_period = next(p for p in periods if p["label"] == selected_period_label)
+            
+            standard_only = selected_period["label"] != "All"
+
+        with col3:
             window = st.slider(
-                "Moving Average Window (Days)", min_value=1, max_value=14, value=7
+                "Moving Average Window (Days)", min_value=1, max_value=14, value=default_window
             )
+
+        # Update query params on change
+        # Note: Streamlit's st.query_params handles multiple values for same key automatically with get_all/set_all
+        # but for simple assignment, it replaces.
+        st.query_params["cards"] = selected_cards
+        st.query_params["exclude"] = exclude_cards
+        st.query_params["period"] = selected_period_label
+        st.query_params["window"] = window
 
     # Fetch Data
     with st.spinner("Aggregating daily share data..."):
         try:
-            df = _get_cached_trend_data(selected_cards, exclude_cards, window)
+            df = _get_cached_trend_data(
+                selected_cards, 
+                exclude_cards, 
+                window,
+                start_date=selected_period["start"],
+                end_date=selected_period["end"],
+                standard_only=standard_only
+            )
             
             # If filtered, fetch global data for reference (Diffs)
             global_df = None
             if selected_cards or exclude_cards:
-                global_df = _get_cached_trend_data(None, None, window)
+                global_df = _get_cached_trend_data(
+                    None, 
+                    None, 
+                    window,
+                    start_date=selected_period["start"],
+                    end_date=selected_period["end"],
+                    standard_only=standard_only
+                )
         except Exception as e:
             st.error(f"Error fetching trend data: {e}")
             df = pd.DataFrame()
@@ -121,6 +225,7 @@ def render_meta_trend_page():
     .diff-img { height: 40px; width: auto; border-radius: 3px; margin: 1px; }
     .archetype-name { font-weight: 600; color: #1ed760; text-decoration: none; display: inline-block; }
     .archetype-name:hover { text-decoration: underline; color: #1fdf64; }
+    [data-testid="stMetricValue"] { font-size: 1.5rem !important; }
     """
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
@@ -132,41 +237,100 @@ def render_meta_trend_page():
         return
 
     # Visualization
-    # Clean column names logic: "Name (sig)" -> we keep full name for now
     latest_shares = df.iloc[-1].sort_values(ascending=False)
     MAX_ARCHS = 12
-    if len(df.columns) > MAX_ARCHS:
-        top_archetypes = latest_shares.index[: MAX_ARCHS - 1].tolist()
-        other_archetypes = latest_shares.index[MAX_ARCHS - 1 :].tolist()
-        df_display = df[top_archetypes].copy()
-        df_display["Others"] = df[other_archetypes].sum(axis=1)
-    else:
+    n_rows = len(df)
+    
+    if len(df.columns) <= MAX_ARCHS:
         df_display = df
+        top_archetypes = df.columns.tolist()
+    else:
+        # Define 5 time points: Start, 1/4, 2/4, 3/4, End
+        indices = [0, n_rows // 4, n_rows // 2, (3 * n_rows) // 4, n_rows - 1]
+        # Ensure indices are unique and within range
+        indices = sorted(list(set([max(0, min(i, n_rows - 1)) for i in indices])))
+        
+        ranked_at_points = [df.iloc[idx].sort_values(ascending=False) for idx in indices]
+        selected_archetypes = []
+        
+        # 1. Top 2 decks from each point
+        for rank in range(2):
+            for point_data in ranked_at_points:
+                if rank < len(point_data):
+                    arch = point_data.index[rank]
+                    if arch not in selected_archetypes and point_data[arch] > 0:
+                        selected_archetypes.append(arch)
+                        if len(selected_archetypes) >= MAX_ARCHS:
+                            break
+            if len(selected_archetypes) >= MAX_ARCHS:
+                break
+        
+        # 2. Fill remaining until 12
+        if len(selected_archetypes) < MAX_ARCHS:
+            for rank in range(2, len(df.columns)):
+                found_at_this_rank = False
+                for point_data in ranked_at_points:
+                    if rank < len(point_data):
+                        found_at_this_rank = True
+                        arch = point_data.index[rank]
+                        if arch not in selected_archetypes and point_data[arch] > 0:
+                            selected_archetypes.append(arch)
+                            if len(selected_archetypes) >= MAX_ARCHS:
+                                break
+                if len(selected_archetypes) >= MAX_ARCHS or not found_at_this_rank:
+                    break
+        
+        top_archetypes = selected_archetypes
+        other_archetypes = [c for c in df.columns if c not in top_archetypes]
+        df_display = df[top_archetypes].copy()
+        if other_archetypes:
+            df_display["Others"] = df[other_archetypes].sum(axis=1)
 
-    fig = create_stacked_area_chart(
-        df_display, title=f"Daily Metagame Share (window={window}d)"
-    )
-    if fig:
-        st.plotly_chart(fig, width="stretch")
-
-    # Table
-    st.subheader("Current Metagame Share")
-    st.caption("Click headers to sort instantly. Click rows for details.")
-
-    # Prepare Data for Table
-    # Extract signatures from column names: "DeckName (sig)"
+    # Fetch signatures and details early for both chart tooltips and table
     sig_map = {}
     for col in df.columns:
         match = re.search(r"\(([\da-f]{8})\)$", col)
         if match:
             sig_map[col] = match.group(1)
 
-    show_diffs = (selected_cards or exclude_cards) and global_df is not None and not global_df.empty
-    
-    # We need deck details for valid sigs (tooltips, diffs)
+    # We need deck details for chart tooltips (and table)
     from src.data import get_deck_details_by_signature
     valid_sigs = [s for s in sig_map.values() if s]
     details_map = get_deck_details_by_signature(valid_sigs)
+    
+    # Enrich details map with types for tooltips
+    for sig in details_map:
+        if "cards" in details_map[sig]:
+            details_map[sig]["cards"] = enrich_card_data(details_map[sig]["cards"])
+
+    fig_options = create_echarts_stacked_area(
+        df_display, details_map=details_map, title=f"Daily Metagame Share (window={window}d)"
+    )
+    if fig_options:
+        # Define click event to return series name
+        events = {
+            "click": "function(params) { return params.seriesName; }"
+        }
+        clicked_series = display_chart(fig_options, height="450px", events=events)
+        
+        if clicked_series:
+            # clicked_series will be the series name (e.g. "Pikachu & Zekrom (abcd1234)")
+            # We need to extract the signature
+            match = re.search(r"\(([\da-f]{8})\)$", clicked_series)
+            if match:
+                sig = match.group(1)
+                st.query_params["deck_sig"] = sig
+                st.query_params["page"] = "trends"
+                st.rerun()
+
+    # Table
+    st.subheader("Current Metagame Share")
+    st.caption("Click headers to sort instantly. Click rows for details.")
+
+    # Prepare Data for Table
+    show_diffs = (selected_cards or exclude_cards) and global_df is not None and not global_df.empty
+    
+    # We already have sig_map and details_map from above
     
     rows_data = []
     
@@ -216,12 +380,13 @@ def render_meta_trend_page():
             new_order = "asc" if sort_order == "desc" else "desc"
         
         # Build query string from current params but override sort/order
-        params = st.query_params.to_dict()
-        params["sort"] = col_name
-        params["order"] = new_order
+        # Use get_all for all keys to preserve multi-value params like 'cards'
+        params = {k: st.query_params.get_all(k) for k in st.query_params}
+        params["sort"] = [col_name]
+        params["order"] = [new_order]
         
         from urllib.parse import urlencode
-        return "?" + urlencode(params)
+        return "?" + urlencode(params, doseq=True)
 
     def get_sort_indicator(col_name):
         if sort_col == col_name:
@@ -285,7 +450,12 @@ def render_meta_trend_page():
     ref_bag = cards_to_bag(ref_cards) if ref_cards else Counter()
 
     for row in rows_data:
-        link = f"?deck_sig={row['sig']}&page=trends" if row["sig"] else "?"
+        # Build Link preserving existing params
+        link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        link_params["deck_sig"] = [row["sig"]]
+        link_params["page"] = ["trends"]
+        from urllib.parse import urlencode
+        link = "?" + urlencode(link_params, doseq=True) if row["sig"] else "?"
         
         # Tooltip
         tooltip_html = ""
@@ -364,7 +534,8 @@ def render_meta_trend_page():
 
 def _render_deck_detail_view(sig):
     if st.button("← Back to Trends"):
-        st.query_params.clear()
+        if "deck_sig" in st.query_params:
+            del st.query_params["deck_sig"]
         st.query_params["page"] = "trends"
         st.rerun()
 
@@ -372,6 +543,9 @@ def _render_deck_detail_view(sig):
     if not deck:
         st.warning("Deck detail not found.")
         return
+        
+    if "cards" in deck:
+        deck["cards"] = enrich_card_data(deck["cards"])
 
     st.title(deck.get("name", "Unknown Archetype"))
     st.caption(f"Signature: {sig}")
@@ -423,6 +597,9 @@ def _render_deck_detail_view(sig):
         # Pre-fetch details for all opponents to build tooltips/checks
         opp_sigs = list(set([m["opponent_sig"] for m in matches if m.get("opponent_sig")]))
         opp_details = get_deck_details_by_signature(opp_sigs)
+        for s in opp_details:
+             if "cards" in opp_details[s]:
+                 opp_details[s]["cards"] = enrich_card_data(opp_details[s]["cards"])
 
         def format_player_link(row, role):
             t_id, name = row.get("t_id"), row.get(role)
@@ -437,8 +614,12 @@ def _render_deck_detail_view(sig):
             sig, deck_name = row["opponent_sig"], row["opponent_deck"]
             if not sig: return deck_name
 
-            # Build Link
-            link = f"?deck_sig={sig}&page=trends"
+            # Build Link preserving existing params
+            link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+            link_params["deck_sig"] = [sig]
+            link_params["page"] = ["trends"]
+            from urllib.parse import urlencode
+            link = "?" + urlencode(link_params, doseq=True)
             name_html = f"<a href='{link}' target='_parent' class='archetype-name'>{deck_name}</a>"
 
             # Build Tooltip
@@ -492,12 +673,12 @@ def _render_deck_detail_view(sig):
             if m_sort == col_name:
                 new_order = "asc" if m_order == "desc" else "desc"
             
-            params = st.query_params.to_dict()
-            params["m_sort"] = col_name
-            params["m_order"] = new_order
+            params = {k: st.query_params.get_all(k) for k in st.query_params}
+            params["m_sort"] = [col_name]
+            params["m_order"] = [new_order]
             
             from urllib.parse import urlencode
-            return "?" + urlencode(params)
+            return "?" + urlencode(params, doseq=True)
 
         def get_m_sort_indicator(col_name):
             if m_sort == col_name:
