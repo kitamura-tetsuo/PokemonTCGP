@@ -24,16 +24,28 @@ def get_display_name(c):
         return c.get("name_ja")
     return c.get("name", "")
 
-def format_card_name(english_name):
-    if not english_name:
+def format_card_name(card_id):
+    """Format a card ID like 'A1_1' into 'Name (SetID-Number)'."""
+    if not card_id:
         return ""
+    
+    from src.data import get_card_info_by_id
+    info = get_card_info_by_id(card_id)
+    if not info:
+        return card_id
+        
+    english_name = info.get("name", "Unknown")
     show_ja = st.session_state.get("show_japanese_toggle", False)
+    name = english_name
     if show_ja:
         from src.data import get_card_name
-        ja_name = get_card_name(english_name, lang="ja")
-        if ja_name != english_name:
-            return ja_name
-    return english_name
+        ja_name = info.get("name_ja") or get_card_name(english_name, lang="ja")
+        if ja_name and ja_name != english_name:
+            name = ja_name
+            
+    c_set = info.get("set", "")
+    c_num = info.get("number", "")
+    return f"{name} ({c_set}-{c_num})"
 
 
 logger = logging.getLogger(__name__)
@@ -62,9 +74,9 @@ def _enrich_and_sort_cards(cards):
     )
     return cards
 
-def render_filtered_cards(card_names):
-    """Render small card images for a list of card names."""
-    if not card_names:
+def render_filtered_cards(card_ids):
+    """Render small card images for a list of card IDs (SetID_Number)."""
+    if not card_ids:
         return
     
     css = """
@@ -75,16 +87,17 @@ def render_filtered_cards(card_names):
     """
     st.markdown(css, unsafe_allow_html=True)
     
+    from src.data import get_card_info_by_id
     h = '<div class="filter-card-container">'
-    for name in card_names:
-        info = get_card_info_by_name(name)
+    for card_id in card_ids:
+        info = get_card_info_by_id(card_id)
         if info:
             c_set = info.get("set", "")
             c_num = info.get("number", "")
             try: p_num = f"{int(c_num):03d}"
             except: p_num = c_num
             img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-            h += f'<img src="{img}" class="filter-card" title="{format_card_name(name)}">'
+            h += f'<img src="{img}" class="filter-card" title="{format_card_name(card_id)}">'
     h += '</div>'
     st.markdown(h, unsafe_allow_html=True)
 
@@ -174,7 +187,8 @@ def render_meta_trend_page():
     # Sidebar / Controls
     with st.expander("Controls", expanded=True):
         col1, col2, col3 = st.columns(3)
-        all_cards = get_all_card_names()
+        from src.data import get_all_card_ids
+        all_card_ids = get_all_card_ids()
         periods = _get_set_periods()
         
         # Read from query params
@@ -189,10 +203,10 @@ def render_meta_trend_page():
             default_window = 7
 
         with col1:
-            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_cards, default=[c for c in default_cards if c in all_cards], format_func=format_card_name)
+            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_card_ids, default=[c for c in default_cards if c in all_card_ids], format_func=format_card_name)
             render_filtered_cards(selected_cards)
 
-            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_cards, default=[c for c in default_exclude if c in all_cards], format_func=format_card_name)
+            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_card_ids, default=[c for c in default_exclude if c in all_card_ids], format_func=format_card_name)
             render_filtered_cards(exclude_cards)
 
         with col2:

@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import itertools
-from src.data import get_multi_group_trend_data, get_all_card_names
+from src.data import get_multi_group_trend_data, get_all_card_ids
 from src.ui import _get_set_periods, format_card_name, render_filtered_cards
 from src.visualizations import display_chart, create_echarts_line_comparison
 
@@ -9,7 +9,7 @@ def render_combinations_page():
     st.header("Card Combination Analysis")
     st.markdown("Analyze how the presence or absence of specific cards impacts deck performance.")
 
-    all_cards = get_all_card_names()
+    all_card_ids = get_all_card_ids()
 
     # --- Controls ---
     with st.container():
@@ -33,11 +33,11 @@ def render_combinations_page():
     
     col_g1, col_g2 = st.columns(2)
     with col_g1:
-        global_include = st.multiselect("Always Include (AND)", options=all_cards, help="Decks must contain ALL of these cards.", format_func=format_card_name)
+        global_include = st.multiselect("Always Include (AND)", options=all_card_ids, help="Decks must contain ALL of these cards.", format_func=format_card_name)
         render_filtered_cards(global_include)
     with col_g2:
         # Filter options to exclude already included cards
-        exclude_options = [c for c in all_cards if c not in global_include]
+        exclude_options = [c for c in all_card_ids if c not in global_include]
         global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, help="Decks must NOT contain ANY of these cards.", format_func=format_card_name)
         render_filtered_cards(global_exclude)
 
@@ -48,7 +48,7 @@ def render_combinations_page():
     st.caption("Select cards to compare. All meaningful combinations (Presence/Absence) will be analyzed.")
     
     # Filter options to exclude global filters
-    var_options = [c for c in all_cards if c not in global_include and c not in global_exclude]
+    var_options = [c for c in all_card_ids if c not in global_include and c not in global_exclude]
     var_cards = st.multiselect("Select Variables", options=var_options, format_func=format_card_name)
     render_filtered_cards(var_cards)
     
@@ -93,11 +93,11 @@ def render_combinations_page():
                 if not label_parts:
                     label = "None"
                     if len(var_cards) == 1:
-                        label = f"No {var_cards[0]}"
+                        label = f"No {format_card_name(var_cards[0])}"
                     else:
                         label = "Neither/None" 
                 else:
-                    present_cards = [var_cards[i] for i, x in enumerate(p) if x]
+                    present_cards = [format_card_name(var_cards[i]) for i, x in enumerate(p) if x]
                     if len(present_cards) == len(var_cards):
                         label = "All Variables (" + " + ".join(present_cards) + ")"
                     elif len(present_cards) == 0:

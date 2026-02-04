@@ -109,11 +109,14 @@ def enrich_card_data(cards):
         enriched.append(new_c)
     return enriched
 
+def get_all_card_ids():
+    """Return sorted unique list of all card IDs (SetID_Number)."""
+    db = load_enriched_cards()
+    return sorted(list(db.keys()))
+
 def get_all_card_names():
-    """Return sorted unique list of all card names."""
-    cards = load_card_database()
-    names = set(c["card_name"] for c in cards if c.get("card_name"))
-    return sorted(list(names))
+    # Deprecated for UI filtering, but keeping for compatibility if needed elsewhere
+    return get_all_card_ids()
 
 def get_card_info_by_name(name):
     """Return enriched card info for a given name. Returns the first match found."""
@@ -123,6 +126,11 @@ def get_card_info_by_name(name):
         if normalize_card_name(info.get("name")) == norm_name:
             return info
     return None
+
+def get_card_info_by_id(card_id):
+    """Return enriched card info for a given card ID (e.g., 'A1_1')."""
+    db = load_enriched_cards()
+    return db.get(card_id)
 
 def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_date=None):
     """
@@ -363,10 +371,10 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
         info = sig_lookup.get(sig)
         if not info: continue
         
-        card_names = set(c["name"] for c in info.get("cards", []))
-        if card_filters and not all(f in card_names for f in card_filters):
+        card_ids = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
+        if card_filters and not all(f in card_ids for f in card_filters):
             continue
-        if exclude_cards and any(f in card_names for f in exclude_cards):
+        if exclude_cards and any(f in card_ids for f in exclude_cards):
             continue
         
         final_cols.append(sig)
@@ -660,13 +668,12 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
 
     # Filter by cards if requested
     if card_filters or exclude_cards:
-        # Pre-calculate which signatures match
         matching_sigs = set()
         for sig, info in sig_lookup.items():
-            card_names = set(c["name"] for c in info.get("cards", []))
-            if card_filters and not all(f in card_names for f in card_filters):
+            card_ids = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
+            if card_filters and not all(f in card_ids for f in card_filters):
                 continue
-            if exclude_cards and any(f in card_names for f in exclude_cards):
+            if exclude_cards and any(f in card_ids for f in exclude_cards):
                 continue
             matching_sigs.add(sig)
             
