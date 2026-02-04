@@ -1041,50 +1041,57 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
         "totals": pd.Series(daily_totals)
     }
 
-def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
-    """
-    Calculate period-wide statistics from the daily share dataframe and total counts.
-    Returns: { label: { avg_share, total_stats } }
-    """
-    if df.empty:
-        return {}
-    
-    # We aggregate stats (Matches, Players, WR)
-    stats_map = {}
-    from src.data import get_cluster_details, get_deck_details
-    
-    total_period_players_in_view = 0
-    all_details = {}
-    
-    for label in df.columns:
-        if clustered:
-            if "Cluster" in label:
-                cid = label.split("Cluster ")[1].split(")")[0]
-                details = get_cluster_details(cid, start_date=start_date, end_date=end_date)
-            else:
-                match = re.search(r"\((\w+)\)$", label)
-                sig = match.group(1) if match else None
-                details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
-        else:
-            match = re.search(r"\((\w+)\)$", label)
-            sig = match.group(1) if match else None
-            details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
-        
-        if details:
-            all_details[label] = details
-            total_period_players_in_view += details.get("stats", {}).get("players", 0)
-            
-    for label, details in all_details.items():
-        deck_players = details.get("stats", {}).get("players", 0)
-        avg_share = (deck_players / total_period_players_in_view * 100) if total_period_players_in_view > 0 else 0
-        
-        stats_map[label] = {
-            "avg_share": avg_share,
-            "stats": details.get("stats", {}),
-            "deck_info": details
-        }
-            
     return stats_map
+
+def get_group_details(include_cards, exclude_cards, start_date=None, end_date=None, standard_only=False):
+    """
+    Get aggregated details for a group defined by include/exclude card filters.
+    """
+    all_sigs = _get_all_signatures()
+    matching_sigs = []
+    
+    for sig, info in all_sigs.items():
+        deck_cards = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
+        
+        has_inc = not include_cards or all(c in deck_cards for c in include_cards)
+        has_exc = exclude_cards and any(c in deck_cards for c in exclude_cards)
+        
+        if has_inc and not has_exc:
+            matching_sigs.append(sig)
+            
+    if not matching_sigs:
+        return None
+        
+    signatures_details = get_deck_details_by_signature(matching_sigs, start_date=start_date, end_date=end_date)
+    
+    # Filter out sigs that might not have appearances in this period if dates provided
+    if start_date or end_date:
+        signatures_details = {s: d for s, d in signatures_details.items() if d.get("stats", {}).get("players", 0) > 0}
+        
+    if not signatures_details:
+        return None
+
+    # Aggregate stats
+    total_stats = {"wins": 0, "losses": 0, "ties": 0, "players": 0}
+    all_apps = []
+    
+    for sig in signatures_details:
+        s = signatures_details[sig].get("stats", {})
+        for k in total_stats:
+            total_stats[k] += s.get(k, 0)
+        all_apps.extend(signatures_details[sig].get("appearances", []))
+
+    # Pick representative deck (most players)
+    rep_sig = max(signatures_details.keys(), key=lambda s: signatures_details[s].get("stats", {}).get("players", 0))
+    rep_cards = signatures_details[rep_sig].get("cards", [])
+
+    return {
+        "signatures": signatures_details,
+        "stats": total_stats,
+        "appearances": all_apps,
+        "cards": rep_cards,
+        "representative_sig": rep_sig
+    }
 
 _TRANSLATIONS = None
 

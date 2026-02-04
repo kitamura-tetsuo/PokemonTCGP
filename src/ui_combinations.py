@@ -1,18 +1,76 @@
 import streamlit as st
 import pandas as pd
 import itertools
-from src.data import get_multi_group_trend_data, get_all_card_ids
-from src.ui import _get_set_periods, format_card_name, render_filtered_cards, sort_card_ids
+import textwrap
+from collections import Counter
+from urllib.parse import urlencode
+from src.data import get_multi_group_trend_data, get_all_card_ids, get_group_details
+from src.ui import (
+    _get_set_periods, format_card_name, render_filtered_cards, sort_card_ids,
+    render_card_grid, render_match_history_table, get_display_name,
+    _enrich_and_sort_cards # Need this for diffs
+)
+from src.config import IMAGE_BASE_URL
 from src.visualizations import display_chart, create_echarts_line_comparison
 
 def render_combinations_page():
     st.header("Card Combination Analysis")
     st.markdown("Analyze how the presence or absence of specific cards impacts deck performance.")
 
+    # Shared CSS for both main page and detail views
+    st.markdown(textwrap.dedent("""
+        <style>
+        .meta-table { font-family: sans-serif; font-size: 14px; width: 100%; color: #eee; border-collapse: collapse; margin-top: 10px; }
+        .meta-header-row { font-weight: bold; border-bottom: 2px solid rgba(255,255,255,0.2); background-color: #1a1c24; }
+        .meta-table th { padding: 12px 15px; border-bottom: 1px solid rgba(255,255,255,0.05); text-align: left; color: #888; text-transform: uppercase; letter-spacing: 0.05em; font-size: 11px; }
+        .meta-row-link { display: table-row; cursor: pointer; transition: background 0.15s; text-decoration: none; color: inherit; }
+        .meta-row-link:hover { background-color: rgba(255,255,255,0.05); }
+        .archetype-name { font-weight: 600; color: #1ed760; text-decoration: none; }
+        .archetype-name:hover { text-decoration: underline; }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(25, 1fr);
+            gap: 2px;
+            margin-top: 5px;
+        }
+        .card-item {
+            width: 100%;
+            position: relative;
+        }
+        .card-img {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            display: block;
+            transition: transform 0.2s;
+        }
+        .card-img:hover {
+            transform: scale(1.1);
+            z-index: 10;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .diff-img {
+            height: 30px;
+            width: auto;
+            border-radius: 2px;
+            margin: 1px;
+        }
+        .tooltip-card {
+            height: 30px;
+            width: auto;
+            border-radius: 2px;
+            margin: 1px;
+        }
+        </style>
+    """), unsafe_allow_html=True)
+
     all_card_ids = get_all_card_ids()
 
     # --- Query Param Defaults ---
     qp = st.query_params
+    q_v_inc = qp.get_all("v_inc")
+    q_v_exc = qp.get_all("v_exc")
+    
     q_period = qp.get("period")
     q_window = int(qp.get("window", 7))
     q_include = qp.get_all("include")
@@ -50,6 +108,11 @@ def render_combinations_page():
              window = st.slider("Moving Average Window (Days)", min_value=1, max_value=14, value=q_window)
 
     st.divider()
+
+    # --- Router for Detail View ---
+    if q_v_inc or q_v_exc:
+        _render_group_variants_view(q_v_inc, q_v_exc, selected_period)
+        return
 
     # --- Global Filters ---
     st.subheader("1. Global Filters")
@@ -225,11 +288,215 @@ def render_combinations_page():
                         col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
                     })
             if summary:
-                st.dataframe(
-                    pd.DataFrame(summary), 
-                    use_container_width=True,
-                    column_config={
-                        col_share: st.column_config.NumberColumn(format="%.2f%%"),
-                        col_wr: st.column_config.NumberColumn(format="%.2f%%")
-                    }
-                )
+                # Custom HTML Table for clickable rows
+                st.write("") # Spacer
+                
+                params_base = {k: st.query_params.get_all(k) for k in st.query_params}
+                if "v_inc" in params_base: del params_base["v_inc"]
+                if "v_exc" in params_base: del params_base["v_exc"]
+
+                if "v_exc" in params_base: del params_base["v_exc"]
+
+                html = textwrap.dedent(f"""
+                <table class="meta-table">
+                    <thead>
+                    <tr class="meta-header-row">
+                        <th>{col_group}</th>
+                        <th style="text-align: right;">{col_share}</th>
+                        <th style="text-align: right;">{col_wr}</th>
+                        <th style="text-align: right;">{col_matches}</th>
+                        <th>{col_inc}</th>
+                        <th>{col_exc}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                """).strip()
+
+                for i, row in enumerate(summary):
+                    g = groups[i] if i < len(groups) else None
+                    if not g: continue
+                    
+                    link_params = params_base.copy()
+                    link_params["v_inc"] = g["include"]
+                    link_params["v_exc"] = g["exclude"]
+                    query_str = "?" + urlencode(link_params, doseq=True)
+                    
+                    wr_color = '#1ed760' if row[col_wr] > 50 else '#ff4b4b'
+                    
+                    html += f"""
+                    <tr class="meta-row-link" onclick="window.location.href='{query_str}'">
+                        <td><a href="{query_str}" target="_self" class="archetype-name">{row[col_group]}</a></td>
+                        <td style="text-align: right;">{row[col_share]:.2f}%</td>
+                        <td style="text-align: right; color: {wr_color};">{row[col_wr]:.2f}%</td>
+                        <td style="text-align: right;">{row[col_matches]}</td>
+                        <td style="font-size: 0.85em; opacity: 0.7;">{row[col_inc]}</td>
+                        <td style="font-size: 0.85em; opacity: 0.7;">{row[col_exc]}</td>
+                    </tr>
+                    """
+                
+                html += "</tbody></table>"
+                st.markdown(html, unsafe_allow_html=True)
+
+
+def _render_group_variants_view(include_cards, exclude_cards, period):
+    if st.button("← Back to Analysis"):
+        if "v_inc" in st.query_params: del st.query_params["v_inc"]
+        if "v_exc" in st.query_params: del st.query_params["v_exc"]
+        st.rerun()
+
+    with st.spinner("Loading group details..."):
+        details = get_group_details(include_cards, exclude_cards, start_date=period["start"], end_date=period["end"])
+
+    if not details:
+        st.warning("No data found for this group in the selected period.")
+        return
+
+    st.header("Group Variant Details")
+    
+    # Breadcrumbs-like info
+    inc_names = [format_card_name(c) for c in include_cards]
+    exc_names = [format_card_name(c) for c in exclude_cards]
+    
+    st.markdown(f"**Includes:** {', '.join(inc_names) if inc_names else 'None'}")
+    if exc_names:
+        st.markdown(f"**Excludes:** {', '.join(exc_names)}")
+
+    stats = details["stats"]
+    w, l, t = stats["wins"], stats["losses"], stats["ties"]
+    total = w + l + t
+    wr = (w / total * 100) if total > 0 else 0
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Win Rate", f"{wr:.1f}%")
+    c2.metric("Record", f"{w}W-{l}L-{t}T")
+    c3.metric("Total Matches", total)
+    c4.metric("Total Players", stats["players"])
+
+    st.divider()
+
+    st.subheader("Representative Deck")
+    render_card_grid(details["cards"])
+
+    st.divider()
+
+    st.subheader("Variants matching these cards")
+    
+    # Baseline for diffs: Representative Deck
+    def cards_to_bag(c_list):
+        return Counter({c["name"]: c.get("count", 1) for c in c_list})
+    
+    ref_cards = details.get("cards", [])
+    ref_bag = cards_to_bag(ref_cards)
+    
+    v_data = []
+    for sig, info in details["signatures"].items():
+        v_stats = info.get("stats", {})
+        vw, vl, vt = v_stats.get("wins", 0), v_stats.get("losses", 0), v_stats.get("ties", 0)
+        vt_total = vw + vl + vt
+        v_wr = (vw / vt_total * 100) if vt_total > 0 else 0
+        
+        # Calculate Diffs
+        curr_cards = info.get("cards", [])
+        curr_bag = cards_to_bag(curr_cards)
+        added_ctr = curr_bag - ref_bag
+        removed_ctr = ref_bag - curr_bag
+        
+        # Render Mini Cards
+        # Build lookup for images from both ref and curr
+        lookup = {}
+        for c in ref_cards + curr_cards:
+            lookup[c["name"]] = (c.get("set"), c.get("number"))
+            
+        def render_mini(ctr):
+            h = ""
+            for name, count in sorted(ctr.items()):
+                if name in lookup:
+                    c_set, c_num = lookup[name]
+                    try: p_num = f"{int(c_num):03d}"
+                    except: p_num = c_num
+                    img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                    for _ in range(count):
+                        h += f'<img src="{img}" class="diff-img" title="{name}" onerror="this.style.display=\'none\'">'
+            return h or "-"
+
+        added_html = render_mini(added_ctr)
+        removed_html = render_mini(removed_ctr)
+        
+        # Link to deck detail view
+        link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        link_params["deck_sig"] = [sig]
+        link_params["page"] = ["trends"]
+        deck_link = "?" + urlencode(link_params, doseq=True)
+        
+        v_data.append({
+            "Signature": sig,
+            "Name": info.get("name", "Unknown"),
+            "Win Rate": f"{v_wr:.1f}%",
+            "wr_raw": v_wr,
+            "Players": v_stats.get("players", 0),
+            "added": added_html,
+            "removed": removed_html,
+            "link": deck_link
+        })
+    
+    # Sorting Logic
+    v_sort = st.query_params.get("v_sort", "players")
+    v_order = st.query_params.get("v_order", "desc")
+    
+    sort_key_map = {
+        "players": lambda x: x["Players"],
+        "wr": lambda x: x["wr_raw"]
+    }
+    if v_sort in sort_key_map:
+        v_data.sort(key=sort_key_map[v_sort], reverse=(v_order == "desc"))
+
+    def get_v_sort_link(col_name):
+        new_order = "desc"
+        if v_sort == col_name:
+            new_order = "asc" if v_order == "desc" else "desc"
+        params = {k: st.query_params.get_all(k) for k in st.query_params}
+        params["v_sort"] = [col_name]
+        params["v_order"] = [new_order]
+        return "?" + urlencode(params, doseq=True)
+
+    def get_v_sort_indicator(col_name):
+        if v_sort == col_name: return " ▲" if v_order == "asc" else " ▼"
+        return " ▴▾"
+
+    def get_v_header_style(col_name):
+        if v_sort == col_name: return 'style="color: #1ed760;"'
+        return ''
+
+    # Display variants as custom HTML table for links
+    v_html = textwrap.dedent(f"""
+        <table class="meta-table">
+        <thead>
+        <tr class="meta-header-row">
+            <th>Signature</th>
+            <th>Name</th>
+            <th>Removed</th>
+            <th>Added</th>
+            <th style="text-align: right;" {get_v_header_style('wr')}><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">Win Rate{get_v_sort_indicator('wr')}</a></th>
+            <th style="text-align: right;" {get_v_header_style('players')}><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">Players{get_v_sort_indicator('players')}</a></th>
+        </tr>
+        </thead>
+        <tbody>
+    """).strip()
+    for v in v_data:
+        row_html = textwrap.dedent(f"""
+            <tr class="meta-row-link" onclick="window.location.href='{v['link']}'">
+                <td style="font-family: monospace; font-size: 0.9em;">{v['Signature']}</td>
+                <td><a href="{v['link']}" target="_self" class="archetype-name">{v['Name']}</a></td>
+                <td>{v['removed']}</td>
+                <td>{v['added']}</td>
+                <td style="text-align: right;">{v['Win Rate']}</td>
+                <td style="text-align: right;">{v['Players']}</td>
+            </tr>
+        """).strip()
+        v_html += row_html
+    
+    v_html += "</tbody></table>"
+    st.markdown(v_html, unsafe_allow_html=True)
+
+    st.subheader("Match History for Group")
+    render_match_history_table(details["appearances"])

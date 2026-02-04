@@ -101,7 +101,7 @@ def sort_card_ids(card_ids):
     sorted_enriched = _enrich_and_sort_cards(enriched)
     return [item["id"] for item in sorted_enriched]
 
-def _render_card_grid(cards):
+def render_card_grid(cards):
     """Render a responsive grid of card images."""
     if not cards:
         return
@@ -843,12 +843,12 @@ def _render_deck_detail_view(sig, selected_period):
 
     st.subheader("Card List")
     cards = deck.get("cards", [])
-    _render_card_grid(cards)
+    render_card_grid(cards)
 
     st.subheader("Match History")
-    _render_match_history_table(deck.get("appearances", []))
+    render_match_history_table(deck.get("appearances", []))
 
-def _render_match_history_table(appearances):
+def render_match_history_table(appearances):
     from src.data import get_match_history, get_deck_details_by_signature
     matches = get_match_history(appearances)
     if not matches:
@@ -1009,7 +1009,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     rep_deck = get_deck_details(rep_sig)
     
     if rep_deck and "cards" in rep_deck:
-        _render_card_grid(rep_deck["cards"])
+        render_card_grid(rep_deck["cards"])
 
     st.subheader("Variants in Cluster")
     variants = cluster["signatures"]
@@ -1035,4 +1035,4 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     st.table(pd.DataFrame(v_data))
 
     st.subheader("Aggregated Match History")
-    _render_match_history_table(cluster["appearances"])
+    render_match_history_table(cluster["appearances"])
