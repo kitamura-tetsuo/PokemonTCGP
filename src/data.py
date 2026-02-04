@@ -153,9 +153,10 @@ def get_card_info_by_id(card_id):
     db = load_enriched_cards()
     return db.get(card_id)
 
-def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_date=None):
+def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_date=None, update_cache=False):
     """
     Scan standings.json files and aggregate exact deck counts.
+    If update_cache is False, strictly read from the existing cache file without scanning new files or writing.
     """
     cache = {}
     signatures = {}
@@ -168,6 +169,12 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
                 signatures = data.get("signatures", {})
         except Exception as e:
             logger.error(f"Error loading cache: {e}")
+
+    # If we are not allowed to update the cache, simply return what we loaded.
+    # The UI should use this mode.
+    if not update_cache:
+        # We might want to ensure we have the signatures lookup even if we don't scan
+        return cache, signatures
 
     # Determine date range to scan
     today_dt = datetime.now()
@@ -317,7 +324,7 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
     if force_refresh:
         updated = True
         
-    if updated:
+    if updated and update_cache:
         try:
             os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
             # Use mkstemp to avoid race conditions with fixed temp filename

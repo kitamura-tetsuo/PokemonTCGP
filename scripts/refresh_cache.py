@@ -16,7 +16,7 @@ def main():
     try:
         # scan_and_aggregate(days_back=30, force_refresh=True)
         # We use force_refresh=True to ensure everything is recalculated correctly
-        _scan_and_aggregate(days_back=90, force_refresh=True)
+        _scan_and_aggregate(days_back=90, force_refresh=True, update_cache=True)
         logger.info("✅ Cache refreshed successfully.")
     except Exception as e:
         logger.error(f"❌ Failed to refresh cache: {e}")
