@@ -5,7 +5,7 @@ import os
 import re
 from datetime import datetime, timedelta
 import pandas as pd
-from collections import Counter
+from collections import Counter, defaultdict
 
 from src.hashing import compute_deck_signature
 
@@ -957,22 +957,63 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
         daily_totals[date_str] = day_total
 
     # 2. Map Signatures to Groups
-    sig_to_groups = {}
+    # 2. Map Signatures to Groups (Optimized)
+    # 2a. Identify all relevant cards from groups
+    relevant_cards = set()
+    for g in groups:
+        relevant_cards.update(g.get("include", []))
+        relevant_cards.update(g.get("exclude", []))
+
+    # 2b. Build Inverted Index: Card -> Decks
+    card_to_sigs = defaultdict(set)
+    all_relevant_sigs = set(sig_lookup.keys())
+
     for sig, info in sig_lookup.items():
-        deck_cards = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
-        matched_groups = []
-        for g in groups:
-            inc = g.get("include", [])
-            exc = g.get("exclude", [])
-            
-            has_inc = not inc or all(c in deck_cards for c in inc)
-            has_exc = exc and any(c in deck_cards for c in exc)
-            
-            if has_inc and not has_exc:
-                matched_groups.append(g["label"])
+        for c in info.get("cards", []):
+            cid = f"{c['set']}_{c['number']}"
+            if cid in relevant_cards:
+                card_to_sigs[cid].add(sig)
+    
+    # 2c. Resolve Groups
+    sig_to_groups = defaultdict(list)
+    
+    for g in groups:
+        inc = g.get("include", [])
+        exc = g.get("exclude", [])
         
-        if matched_groups:
-            sig_to_groups[sig] = matched_groups
+        candidate_sigs = None
+        
+        # Handle Includes
+        if not inc:
+            candidate_sigs = all_relevant_sigs.copy()
+        else:
+            first_card = inc[0]
+            if first_card in card_to_sigs:
+                candidate_sigs = card_to_sigs[first_card].copy()
+            else:
+                candidate_sigs = set()
+            
+            for card in inc[1:]:
+                if not candidate_sigs: break
+                if card in card_to_sigs:
+                    candidate_sigs.intersection_update(card_to_sigs[card])
+                else:
+                    candidate_sigs = set()
+                    break
+        
+        if not candidate_sigs:
+            continue
+            
+        # Handle Excludes
+        if exc:
+            for card in exc:
+                if not candidate_sigs: break
+                if card in card_to_sigs:
+                    candidate_sigs.difference_update(card_to_sigs[card])
+        
+        # Map result to sig_to_groups
+        for sig in candidate_sigs:
+            sig_to_groups[sig].append(g["label"])
 
     # 3. Aggregate Stats by Group by Day
     # label -> date -> {wins, losses, count}

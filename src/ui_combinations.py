@@ -287,6 +287,44 @@ def render_combinations_page():
                         col_inc: ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
                         col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
                     })
+            # Sorting Logic for Summary
+            p_sort = st.query_params.get("p_sort", "share")
+            p_order = st.query_params.get("p_order", "desc")
+
+            sort_key_map = {
+                "share": col_share,
+                "wr": col_wr,
+                "matches": col_matches
+            }
+            
+            # Helper for sort links
+            def get_p_sort_link(key):
+                new_order = "desc"
+                if p_sort == key:
+                    new_order = "asc" if p_order == "desc" else "desc"
+                
+                params = {k: st.query_params.get_all(k) for k in st.query_params}
+                params["p_sort"] = [key]
+                params["p_order"] = [new_order]
+                # Clean up v_inc/v_exc just in case, though usually not present here
+                if "v_inc" in params: del params["v_inc"]
+                if "v_exc" in params: del params["v_exc"]
+                
+                return "?" + urlencode(params, doseq=True)
+
+            def get_p_sort_indicator(key):
+                if p_sort == key: return " ▲" if p_order == "asc" else " ▼"
+                return " ▴▾"
+
+            def get_p_header_style(key):
+                if p_sort == key: return 'style="color: #1ed760; text-align: right;"'
+                return 'style="text-align: right;"'
+
+            # Sort the summary list
+            if p_sort in sort_key_map:
+                sort_col = sort_key_map[p_sort]
+                summary.sort(key=lambda x: x[sort_col], reverse=(p_order == "desc"))
+
             if summary:
                 # Custom HTML Table for clickable rows
                 st.write("") # Spacer
@@ -294,17 +332,21 @@ def render_combinations_page():
                 params_base = {k: st.query_params.get_all(k) for k in st.query_params}
                 if "v_inc" in params_base: del params_base["v_inc"]
                 if "v_exc" in params_base: del params_base["v_exc"]
+                if "p_sort" in params_base: del params_base["p_sort"]
+                if "p_order" in params_base: del params_base["p_order"]
 
-                if "v_exc" in params_base: del params_base["v_exc"]
+                # Link builders needs to preserve p_sort/p_order if we want them to persist when navigating back? 
+                # Actually, navigating to detail and back usually resets unless we explicitly pass them.
+                # For now, let's just make sure the table headers work.
 
                 html = textwrap.dedent(f"""
                 <table class="meta-table">
                     <thead>
                     <tr class="meta-header-row">
                         <th>{col_group}</th>
-                        <th style="text-align: right;">{col_share}</th>
-                        <th style="text-align: right;">{col_wr}</th>
-                        <th style="text-align: right;">{col_matches}</th>
+                        <th {get_p_header_style('share')}><a href="{get_p_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">{col_share}{get_p_sort_indicator('share')}</a></th>
+                        <th {get_p_header_style('wr')}><a href="{get_p_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">{col_wr}{get_p_sort_indicator('wr')}</a></th>
+                        <th {get_p_header_style('matches')}><a href="{get_p_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">{col_matches}{get_p_sort_indicator('matches')}</a></th>
                         <th>{col_inc}</th>
                         <th>{col_exc}</th>
                     </tr>
@@ -323,7 +365,7 @@ def render_combinations_page():
                     
                     wr_color = '#1ed760' if row[col_wr] > 50 else '#ff4b4b'
                     
-                    html += f"""
+                    html += textwrap.dedent(f"""
                     <tr class="meta-row-link" onclick="window.location.href='{query_str}'">
                         <td><a href="{query_str}" target="_self" class="archetype-name">{row[col_group]}</a></td>
                         <td style="text-align: right;">{row[col_share]:.2f}%</td>
@@ -332,7 +374,7 @@ def render_combinations_page():
                         <td style="font-size: 0.85em; opacity: 0.7;">{row[col_inc]}</td>
                         <td style="font-size: 0.85em; opacity: 0.7;">{row[col_exc]}</td>
                     </tr>
-                    """
+                    """)
                 
                 html += "</tbody></table>"
                 st.markdown(html, unsafe_allow_html=True)
