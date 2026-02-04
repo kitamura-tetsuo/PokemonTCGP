@@ -56,11 +56,25 @@ def render_combinations_page():
             margin: 1px;
         }
         .tooltip-card {
-            height: 30px;
-            width: auto;
-            border-radius: 2px;
+            width: 60px;
+            height: auto;
+            border-radius: 4px;
+            background: #333; 
             margin: 1px;
         }
+        .tooltip { position: relative; display: inline-block; width: 100%; }
+        .tooltip .tooltiptext {
+            visibility: hidden; width: 340px; background-color: #1e1e1e; color: #fff;
+            text-align: center; border-radius: 8px; padding: 10px; position: absolute;
+            z-index: 1000; bottom: 125%; left: 0;
+            opacity: 0; transition: opacity 0.3s, transform 0.3s; 
+            transform: translateY(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            pointer-events: none;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .tooltip:hover .tooltiptext { visibility: visible; opacity: 1; transform: translateY(0); }
+        .tooltip-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; justify-items: center; }
         </style>
     """), unsafe_allow_html=True)
 
