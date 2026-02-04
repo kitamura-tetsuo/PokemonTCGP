@@ -299,7 +299,8 @@ def render_combinations_page():
                         col_wr: avg_wr,
                         col_matches: int(total_matches),
                         col_inc: ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
-                        col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
+                        col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards",
+                        "_group_ref": g # Store reference for sorting-safe access
                     })
             # Sorting Logic for Summary
             p_sort = st.query_params.get("p_sort", "share")
@@ -369,8 +370,8 @@ def render_combinations_page():
                 """).strip()
 
                 for i, row in enumerate(summary):
-                    g = groups[i] if i < len(groups) else None
-                    if not g: continue
+                    g = row["_group_ref"]
+
                     
                     link_params = params_base.copy()
                     link_params["v_inc"] = g["include"]
