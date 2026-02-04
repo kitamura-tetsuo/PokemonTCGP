@@ -1,0 +1,29 @@
+{
+  "id": "687e2250164bc0b13840856a",
+  "game": "POCKET",
+  "format": null,
+  "name": "ThePokes - PTCGP Tournament #8",
+  "date": "2025-07-22T14:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2067,
+    "name": "ThePokes"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

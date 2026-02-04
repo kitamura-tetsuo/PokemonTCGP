@@ -1,0 +1,29 @@
+{
+  "id": "6916eac552eafbbc8116efa9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Monday Mega Madness $10",
+  "date": "2025-11-17T17:00:00.000Z",
+  "players": 274,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

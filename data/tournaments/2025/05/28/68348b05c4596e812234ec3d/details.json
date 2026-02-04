@@ -1,0 +1,29 @@
+{
+  "id": "68348b05c4596e812234ec3d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc8eTBBL\ud83d\udc8e\ud83d\udca5Afternoon Wednesday Showdown\ud83d\udca5",
+  "date": "2025-05-28T15:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

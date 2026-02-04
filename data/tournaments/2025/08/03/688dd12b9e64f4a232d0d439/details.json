@@ -1,0 +1,42 @@
+{
+  "id": "688dd12b9e64f4a232d0d439",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Saga x Heaven Invitational Season 1 100$ USD",
+  "date": "2025-08-03T15:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A4",
+      "number": null
+    }
+  ]
+}

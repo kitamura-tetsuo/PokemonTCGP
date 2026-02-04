@@ -1,0 +1,29 @@
+{
+  "id": "68b5cd5ada2bf11ab1d60b43",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX Weekly Cup \u2022 50 USD Prize [S3-6/12]\ud83d\udc38",
+  "date": "2025-09-04T18:00:00.000Z",
+  "players": 264,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

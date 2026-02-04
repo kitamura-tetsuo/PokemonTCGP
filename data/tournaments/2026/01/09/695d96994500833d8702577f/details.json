@@ -1,0 +1,29 @@
+{
+  "id": "695d96994500833d8702577f",
+  "game": "POCKET",
+  "format": null,
+  "name": "iluchien VS menaofsteel VS Nabrix #2 (FA PROF OAK)",
+  "date": "2026-01-09T02:00:00.000Z",
+  "players": 132,
+  "organizer": {
+    "id": 2509,
+    "name": "menaofsteel"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

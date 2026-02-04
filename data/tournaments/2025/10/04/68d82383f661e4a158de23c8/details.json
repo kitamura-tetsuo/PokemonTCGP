@@ -1,0 +1,29 @@
+{
+  "id": "68d82383f661e4a158de23c8",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udccc Bolados Camp #1 - FREE - Prize $50 BRL",
+  "date": "2025-10-04T13:00:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

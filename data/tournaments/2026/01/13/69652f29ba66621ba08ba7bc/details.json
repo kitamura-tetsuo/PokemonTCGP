@@ -1,0 +1,29 @@
+{
+  "id": "69652f29ba66621ba08ba7bc",
+  "game": "POCKET",
+  "format": null,
+  "name": "GDM & hvk's EU Takeover FA Cards +20$",
+  "date": "2026-01-13T17:30:00.000Z",
+  "players": 182,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

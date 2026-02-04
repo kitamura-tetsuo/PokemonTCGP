@@ -1,0 +1,29 @@
+{
+  "id": "6827bbd94c6488b18ed5fd4f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc8eTBBL\ud83d\udc8e - \ud83d\udca5Welcome [5 USD]\ud83d\udca5",
+  "date": "2025-05-16T23:30:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

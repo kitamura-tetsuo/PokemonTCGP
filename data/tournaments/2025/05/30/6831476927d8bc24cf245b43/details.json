@@ -1,0 +1,29 @@
+{
+  "id": "6831476927d8bc24cf245b43",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff4\u200d\u2620\ufe0f Pocket Lagoon Cup #4 (10 USD In Prizes)",
+  "date": "2025-05-30T18:00:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6893d5289e64f4a232d114d2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Blitz #15",
+  "date": "2025-08-11T02:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

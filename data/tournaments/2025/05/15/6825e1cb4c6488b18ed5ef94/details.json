@@ -1,0 +1,32 @@
+{
+  "id": "6825e1cb4c6488b18ed5ef94",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u26a1 THE SAGA LEAGUE \u2013 NO EX SHOWDOWN \u2022 5 USD Prize \u26a1",
+  "date": "2025-05-15T15:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

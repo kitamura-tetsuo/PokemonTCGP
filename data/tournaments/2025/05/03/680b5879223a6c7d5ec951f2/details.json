@@ -1,0 +1,29 @@
+{
+  "id": "680b5879223a6c7d5ec951f2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udda6Torneo del Suino\ud83e\udda6",
+  "date": "2025-05-03T19:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

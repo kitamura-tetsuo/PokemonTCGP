@@ -1,0 +1,29 @@
+{
+  "id": "68235ccf524e86dc8e9f957e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc8eTBBL\ud83d\udc8e\ud83d\udca5Special Tuesday [5$]\ud83d\udca5",
+  "date": "2025-05-13T20:22:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

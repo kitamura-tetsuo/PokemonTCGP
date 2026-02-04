@@ -1,0 +1,23 @@
+{
+  "id": "695820b74500833d870209ce",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mini Tournament Blitz| 4\u20136 Players | $20\u2013$30 Pool",
+  "date": "2026-01-04T02:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

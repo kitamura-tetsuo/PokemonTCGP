@@ -1,0 +1,436 @@
+{
+  "id": "685e3cc327d8bc24cf25b9f9",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Saga x Heaven Tournament Series 6/6 130$ USD",
+  "date": "2025-07-13T15:00:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Flareon ex",
+      "set": "A3b",
+      "number": "9"
+    },
+    {
+      "name": "Sylveon ex",
+      "set": "A3b",
+      "number": "34"
+    },
+    {
+      "name": "Eevee ex",
+      "set": "A3b",
+      "number": "56"
+    },
+    {
+      "name": "Snorlax ex",
+      "set": "A3b",
+      "number": "57"
+    },
+    {
+      "name": "Ambipom",
+      "set": "A3b",
+      "number": "59"
+    },
+    {
+      "name": "Luxray",
+      "set": "A3a",
+      "number": "15"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Shiinotic",
+      "set": "A3a",
+      "number": "27"
+    },
+    {
+      "name": "Claydol",
+      "set": "A3a",
+      "number": "31"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "42"
+    },
+    {
+      "name": "Ferrothorn",
+      "set": "A3a",
+      "number": "52"
+    },
+    {
+      "name": "Stoutland",
+      "set": "A3a",
+      "number": "56"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Wimpod",
+      "set": "A3",
+      "number": "21"
+    },
+    {
+      "name": "Primarina",
+      "set": "A3",
+      "number": "48"
+    },
+    {
+      "name": "Pyukumuku",
+      "set": "A3",
+      "number": "54"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Comfey",
+      "set": "A3",
+      "number": "80"
+    },
+    {
+      "name": "Lunala ex",
+      "set": "A3",
+      "number": "87"
+    },
+    {
+      "name": "Conkeldurr",
+      "set": "A3",
+      "number": "96"
+    },
+    {
+      "name": "Passimian ex",
+      "set": "A3",
+      "number": "104"
+    },
+    {
+      "name": "Alolan Persian",
+      "set": "A3",
+      "number": "109"
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": "122"
+    },
+    {
+      "name": "Komala",
+      "set": "A3",
+      "number": "141"
+    },
+    {
+      "name": "Tatsugiri",
+      "set": "A2b",
+      "number": "21"
+    },
+    {
+      "name": "Pawmot",
+      "set": "A2b",
+      "number": "28"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Grafaiai",
+      "set": "A2b",
+      "number": "51"
+    },
+    {
+      "name": "Wigglytuff",
+      "set": "A2b",
+      "number": "61"
+    },
+    {
+      "name": "Carnivine",
+      "set": "A2a",
+      "number": "9"
+    },
+    {
+      "name": "Leafeon ex",
+      "set": "A2a",
+      "number": "10"
+    },
+    {
+      "name": "Heatran",
+      "set": "A2a",
+      "number": "13"
+    },
+    {
+      "name": "Abomasnow",
+      "set": "A2a",
+      "number": "21"
+    },
+    {
+      "name": "Glaceon ex",
+      "set": "A2a",
+      "number": "22"
+    },
+    {
+      "name": "Raichu",
+      "set": "A2a",
+      "number": "26"
+    },
+    {
+      "name": "Unown",
+      "set": "A2a",
+      "number": "34"
+    },
+    {
+      "name": "Rotom",
+      "set": "A2a",
+      "number": "35"
+    },
+    {
+      "name": "Tyranitar",
+      "set": "A2a",
+      "number": "41"
+    },
+    {
+      "name": "Crobat",
+      "set": "A2a",
+      "number": "50"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2a",
+      "number": "55"
+    },
+    {
+      "name": "Shaymin",
+      "set": "A2a",
+      "number": "69"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Shaymin",
+      "set": "A2",
+      "number": "22"
+    },
+    {
+      "name": "Piloswine",
+      "set": "A2",
+      "number": "32"
+    },
+    {
+      "name": "Mamoswine",
+      "set": "A2",
+      "number": "33"
+    },
+    {
+      "name": "Regice",
+      "set": "A2",
+      "number": "34"
+    },
+    {
+      "name": "Dusknoir",
+      "set": "A2",
+      "number": "72"
+    },
+    {
+      "name": "Giratina",
+      "set": "A2",
+      "number": "78"
+    },
+    {
+      "name": "Regirock",
+      "set": "A2",
+      "number": "87"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Bastiodon",
+      "set": "A2",
+      "number": "114"
+    },
+    {
+      "name": "Garchomp",
+      "set": "A2",
+      "number": "123"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "6"
+    },
+    {
+      "name": "Vaporeon",
+      "set": "A1a",
+      "number": "19"
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": "A1a",
+      "number": "46"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    },
+    {
+      "name": "Butterfree",
+      "set": "A1",
+      "number": "7"
+    },
+    {
+      "name": "Vicreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Poliwrath",
+      "set": "A1",
+      "number": "61"
+    },
+    {
+      "name": "Cloyster",
+      "set": "A1",
+      "number": "67"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Gengar ex",
+      "set": "A1",
+      "number": "123"
+    },
+    {
+      "name": "Hypno",
+      "set": "A1",
+      "number": "125"
+    },
+    {
+      "name": "Gardevoir",
+      "set": "A1",
+      "number": "132"
+    },
+    {
+      "name": "Weezing",
+      "set": "A1",
+      "number": "177"
+    },
+    {
+      "name": "Melmetal",
+      "set": "A1",
+      "number": "182"
+    },
+    {
+      "name": "Pidgeot",
+      "set": "A1",
+      "number": "188"
+    },
+    {
+      "name": "Porygon",
+      "set": "A1",
+      "number": "209"
+    },
+    {
+      "name": "Butterfree",
+      "set": "P-A",
+      "number": "13"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Cresselia ex",
+      "set": "P-A",
+      "number": "37"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "P-A",
+      "number": "42"
+    },
+    {
+      "name": "Raichu",
+      "set": "P-A",
+      "number": "44"
+    },
+    {
+      "name": "Staraptor",
+      "set": "P-A",
+      "number": "47"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Charizard",
+      "set": "A1",
+      "number": "35"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": "10"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    }
+  ]
+}

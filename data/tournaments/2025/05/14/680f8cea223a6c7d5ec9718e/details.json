@@ -1,0 +1,29 @@
+{
+  "id": "680f8cea223a6c7d5ec9718e",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2620\ufe0f Torneio NO EX #1  - Prize $50 BRL",
+  "date": "2025-05-14T23:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

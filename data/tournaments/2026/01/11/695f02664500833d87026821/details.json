@@ -1,0 +1,29 @@
+{
+  "id": "695f02664500833d87026821",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ericko x Soflo Circuit Sunday!! 100$+Oak",
+  "date": "2026-01-11T21:00:00.000Z",
+  "players": 250,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

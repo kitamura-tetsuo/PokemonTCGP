@@ -1,0 +1,29 @@
+{
+  "id": "684388f127d8bc24cf24f4c0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6POCKET TOUR TOURNAMENT #20\ud83c\udfc6",
+  "date": "2025-06-12T14:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

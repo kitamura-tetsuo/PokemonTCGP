@@ -1,0 +1,29 @@
+{
+  "id": "6857e22627d8bc24cf258f0c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udfe9Eraze Syndicates \u2734\ufe0f Monday Weekly #11",
+  "date": "2025-06-23T17:00:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

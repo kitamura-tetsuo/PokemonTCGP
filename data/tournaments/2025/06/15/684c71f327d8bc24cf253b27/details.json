@@ -1,0 +1,29 @@
+{
+  "id": "684c71f327d8bc24cf253b27",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Cup #6",
+  "date": "2025-06-15T18:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

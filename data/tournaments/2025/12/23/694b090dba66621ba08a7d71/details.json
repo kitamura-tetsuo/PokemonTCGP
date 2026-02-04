@@ -1,0 +1,29 @@
+{
+  "id": "694b090dba66621ba08a7d71",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Pocket Rapid Anniversary#10[FA COPYCAT]",
+  "date": "2025-12-23T23:05:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

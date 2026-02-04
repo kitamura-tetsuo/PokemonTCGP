@@ -1,0 +1,29 @@
+{
+  "id": "6893d5d39e64f4a232d114dd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Cup #14 (10 USD prize)",
+  "date": "2025-08-12T18:00:00.000Z",
+  "players": 187,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

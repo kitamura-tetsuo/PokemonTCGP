@@ -1,0 +1,29 @@
+{
+  "id": "684eee9127d8bc24cf254e15",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League. Night pocket",
+  "date": "2025-06-15T23:30:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

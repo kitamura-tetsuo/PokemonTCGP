@@ -1,0 +1,29 @@
+{
+  "id": "68f5487f24b8f37ae93c4295",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frappesdrinker\u2019s Monday Pocket Blitz [10$ Prize]",
+  "date": "2025-10-20T17:05:00.000Z",
+  "players": 104,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

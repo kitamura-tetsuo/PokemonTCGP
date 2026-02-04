@@ -1,0 +1,29 @@
+{
+  "id": "6838d7a1c4596e8122350937",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Pocket #18",
+  "date": "2025-05-30T00:30:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

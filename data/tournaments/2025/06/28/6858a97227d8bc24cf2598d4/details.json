@@ -1,0 +1,29 @@
+{
+  "id": "6858a97227d8bc24cf2598d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans pokemon tcg pocket chile park #3",
+  "date": "2025-06-28T22:30:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2364,
+    "name": "Fans Pok\u00e9mon TCG Pocket Chile "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

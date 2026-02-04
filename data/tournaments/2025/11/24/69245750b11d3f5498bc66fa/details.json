@@ -1,0 +1,29 @@
+{
+  "id": "69245750b11d3f5498bc66fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLAC - PTCG [P] #9",
+  "date": "2025-11-24T20:00:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "688c76bb9e64f4a232d0c80a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Standard Tournament #2",
+  "date": "2025-08-01T10:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2381,
+    "name": "The Pocket Hub"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}

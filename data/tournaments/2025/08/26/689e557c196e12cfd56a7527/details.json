@@ -1,0 +1,29 @@
+{
+  "id": "689e557c196e12cfd56a7527",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon S1 & S2 AllStars (20 USD prize)",
+  "date": "2025-08-26T18:00:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

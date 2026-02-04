@@ -1,0 +1,29 @@
+{
+  "id": "684f0acb27d8bc24cf254fb6",
+  "game": "POCKET",
+  "format": null,
+  "name": "India Championship: Qualifier 3",
+  "date": "2025-06-27T15:00:00.000Z",
+  "players": 50,
+  "organizer": {
+    "id": 2002,
+    "name": "Pok\u00e9mon TCGP India Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

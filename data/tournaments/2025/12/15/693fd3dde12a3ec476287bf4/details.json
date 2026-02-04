@@ -1,0 +1,29 @@
+{
+  "id": "693fd3dde12a3ec476287bf4",
+  "game": "POCKET",
+  "format": null,
+  "name": "NunoGDM's Mega Rising Goodbye (10$ + Cards)",
+  "date": "2025-12-15T20:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

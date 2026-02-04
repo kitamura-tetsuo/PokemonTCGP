@@ -1,0 +1,29 @@
+{
+  "id": "68b0b318da2bf11ab1d5dd5f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Venova League 3\u00b0 Edici\u00f3n - (USD 25)",
+  "date": "2025-09-07T19:00:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2282,
+    "name": "Haxorus Lair"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

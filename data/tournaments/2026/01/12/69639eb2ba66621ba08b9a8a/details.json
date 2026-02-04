@@ -1,0 +1,29 @@
+{
+  "id": "69639eb2ba66621ba08b9a8a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Monday Mega-The Last Stand-$5+",
+  "date": "2026-01-12T22:15:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

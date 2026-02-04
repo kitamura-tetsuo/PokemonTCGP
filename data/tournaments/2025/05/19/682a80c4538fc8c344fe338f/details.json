@@ -1,0 +1,29 @@
+{
+  "id": "682a80c4538fc8c344fe338f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Pocket #9 - GENETIC APEX ONLY!!!",
+  "date": "2025-05-19T23:30:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

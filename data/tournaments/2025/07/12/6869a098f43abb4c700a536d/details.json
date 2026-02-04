@@ -1,0 +1,29 @@
+{
+  "id": "6869a098f43abb4c700a536d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ursiiday's Pocket Weekly #34 \u2022 400 USD Prize",
+  "date": "2025-07-12T17:00:00.000Z",
+  "players": 572,
+  "organizer": {
+    "id": 1873,
+    "name": "Ursiiday"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

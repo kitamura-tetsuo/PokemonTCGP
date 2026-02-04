@@ -1,0 +1,29 @@
+{
+  "id": "694c0b4e4500833d870171d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Xmas Holly Jolly Frapp\u00e9Cup (FA Prizes+Lottery)",
+  "date": "2025-12-25T21:00:00.000Z",
+  "players": 224,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

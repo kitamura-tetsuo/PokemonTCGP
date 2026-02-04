@@ -1,0 +1,29 @@
+{
+  "id": "69097cfcc154114e5abae83a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Monday Morning Mega Showdown #1 $5",
+  "date": "2025-11-10T17:00:00.000Z",
+  "players": 192,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

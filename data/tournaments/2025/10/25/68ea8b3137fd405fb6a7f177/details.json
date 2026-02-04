@@ -1,0 +1,29 @@
+{
+  "id": "68ea8b3137fd405fb6a7f177",
+  "game": "POCKET",
+  "format": null,
+  "name": "#08 KGEN League BRASIL - FREE - Prize - R$ 350,00",
+  "date": "2025-10-25T13:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1960,
+    "name": "KGeN Brasil"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

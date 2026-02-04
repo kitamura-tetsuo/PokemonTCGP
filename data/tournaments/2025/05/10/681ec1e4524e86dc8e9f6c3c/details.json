@@ -1,0 +1,29 @@
+{
+  "id": "681ec1e4524e86dc8e9f6c3c",
+  "game": "POCKET",
+  "format": null,
+  "name": "THE NIGHT SHIFT replacement tourney",
+  "date": "2025-05-10T05:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

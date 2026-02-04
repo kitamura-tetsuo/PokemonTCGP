@@ -1,0 +1,29 @@
+{
+  "id": "692481f952eafbbc81177215",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Mega Wars #7 (5 USD)",
+  "date": "2025-11-24T22:00:00.000Z",
+  "players": 146,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

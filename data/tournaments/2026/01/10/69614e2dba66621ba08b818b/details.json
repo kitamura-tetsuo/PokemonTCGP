@@ -1,0 +1,29 @@
+{
+  "id": "69614e2dba66621ba08b818b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Friday Night Showdown 5 USD/\u2b50\u2b50 Card",
+  "date": "2026-01-10T03:12:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6936e069e12a3ec47628382c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a uwu tournament #5 \u025e \u2503 FA Copycat + Mars",
+  "date": "2025-12-10T19:00:00.000Z",
+  "players": 102,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

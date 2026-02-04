@@ -1,0 +1,29 @@
+{
+  "id": "698162f5287864eaf0dc48a7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u208d\ud834\udd10 \u032b\ud834\udd10\u208e BOAT CLAN TOURNAMENT \u208d\ud834\udd10 \u032b\ud834\udd10\u208e",
+  "date": "2026-02-03T15:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2553,
+    "name": "Sekkarou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

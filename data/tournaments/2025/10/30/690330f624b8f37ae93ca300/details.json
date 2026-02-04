@@ -1,0 +1,29 @@
+{
+  "id": "690330f624b8f37ae93ca300",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Crew Mega Wars #1",
+  "date": "2025-10-30T22:00:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

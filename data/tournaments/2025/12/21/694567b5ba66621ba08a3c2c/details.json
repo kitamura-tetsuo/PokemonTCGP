@@ -1,0 +1,29 @@
+{
+  "id": "694567b5ba66621ba08a3c2c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pre-XMASS 21.12.2025 [only-PL]",
+  "date": "2025-12-21T18:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "685a8e12c4596e8122361f72",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\uddf5\ud83c\uddf1 Polish Pocket League \u2013 Sezon 4 | Kolejka #4",
+  "date": "2025-07-20T15:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO2"
+    }
+  ]
+}

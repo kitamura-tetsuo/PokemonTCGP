@@ -1,0 +1,29 @@
+{
+  "id": "68fee9bb24b8f37ae93c8941",
+  "game": "POCKET",
+  "format": null,
+  "name": "VoidPocket Weekly Clash S1 Week 3/6 ($50 USD)",
+  "date": "2025-11-17T01:30:00.000Z",
+  "players": 245,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

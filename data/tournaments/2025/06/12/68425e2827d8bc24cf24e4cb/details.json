@@ -1,0 +1,29 @@
+{
+  "id": "68425e2827d8bc24cf24e4cb",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udfe0 Torneio TD - 2#/Junho - R$50\ud83e\udd47 - Free - BR \ud83d\udfe2\ud83d\udfe1",
+  "date": "2025-06-12T23:30:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69349ecae12a3ec476282837",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket pop up shiny card prize",
+  "date": "2025-12-07T02:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

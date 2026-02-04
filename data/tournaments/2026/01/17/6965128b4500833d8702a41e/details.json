@@ -1,0 +1,30 @@
+{
+  "id": "6965128b4500833d8702a41e",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #17 - Crimson Qualifier!!! | $150 USD",
+  "date": "2026-01-17T17:00:00.000Z",
+  "players": 501,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

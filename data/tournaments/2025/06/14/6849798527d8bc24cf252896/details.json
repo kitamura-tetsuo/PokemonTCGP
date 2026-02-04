@@ -1,0 +1,29 @@
+{
+  "id": "6849798527d8bc24cf252896",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0b Magma $100 Cup - $10,000 Series Coming Soon! \ud83c\udf0b",
+  "date": "2025-06-14T17:00:00.000Z",
+  "players": 330,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

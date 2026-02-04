@@ -1,0 +1,29 @@
+{
+  "id": "691be460b11d3f5498bc185b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Midnight Madness-$5",
+  "date": "2025-11-26T02:00:00.000Z",
+  "players": 160,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

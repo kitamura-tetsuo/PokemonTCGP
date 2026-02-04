@@ -1,0 +1,29 @@
+{
+  "id": "6866e0a627d8bc24cf2602a5",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Special night #2",
+  "date": "2025-07-03T22:30:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

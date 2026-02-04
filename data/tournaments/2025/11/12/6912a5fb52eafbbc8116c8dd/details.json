@@ -1,0 +1,29 @@
+{
+  "id": "6912a5fb52eafbbc8116c8dd",
+  "game": "POCKET",
+  "format": null,
+  "name": "BZGC Pocket\ud83d\udd25 - LVL. 23 ~ Mega Shinka!",
+  "date": "2025-11-12T00:30:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

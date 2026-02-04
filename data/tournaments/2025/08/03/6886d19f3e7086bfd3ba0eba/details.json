@@ -1,0 +1,29 @@
+{
+  "id": "6886d19f3e7086bfd3ba0eba",
+  "game": "POCKET",
+  "format": null,
+  "name": "#3 \ud3ec\ucf13\ubaac \uce74\ub4dc \uac8c\uc784 pocket \ud55c\uad6d\ub300\ud68c [\ub300\ud68c \ucd1d \uc608\uc0b0 60\ub9cc\uc6d0]",
+  "date": "2025-08-03T05:00:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 1971,
+    "name": "Pok\u00e9mon \ud55c\uad6d\uc11c\ubc84"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

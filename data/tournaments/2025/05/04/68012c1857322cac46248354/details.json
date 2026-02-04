@@ -1,0 +1,29 @@
+{
+  "id": "68012c1857322cac46248354",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "ThePokes - PTCGP Tournament #6 !!SET BATTLE!!",
+  "date": "2025-05-04T22:30:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2067,
+    "name": "ThePokes"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

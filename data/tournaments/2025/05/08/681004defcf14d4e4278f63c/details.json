@@ -1,0 +1,33 @@
+{
+  "id": "681004defcf14d4e4278f63c",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 NON-EX GRAND TOURNAMENT #3 \ud83c\udfc6",
+  "date": "2025-05-08T19:30:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

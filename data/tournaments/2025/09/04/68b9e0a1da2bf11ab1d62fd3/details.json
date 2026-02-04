@@ -1,0 +1,29 @@
+{
+  "id": "68b9e0a1da2bf11ab1d62fd3",
+  "game": "POCKET",
+  "format": null,
+  "name": "$20 Umbreon League - Daily Tournament #6",
+  "date": "2025-09-04T23:30:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

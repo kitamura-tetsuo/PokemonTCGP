@@ -1,0 +1,29 @@
+{
+  "id": "682521f5ffed157efd3f7f4e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mach Punch #1 10 USD prize (2025)",
+  "date": "2025-05-17T01:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 848,
+    "name": "Ewokpadawan "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

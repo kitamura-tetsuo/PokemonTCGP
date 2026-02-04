@@ -1,0 +1,29 @@
+{
+  "id": "6945c037ba66621ba08a41c1",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew \ud83c\udf85 Adons XMAS Box (10 $ + FA SERENA)",
+  "date": "2025-12-24T17:05:00.000Z",
+  "players": 284,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

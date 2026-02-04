@@ -1,0 +1,29 @@
+{
+  "id": "685e91cec4596e812236371b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 THE SAGA WEEKLY #13 \u2022 10 USD Prize \ud83c\udfc6",
+  "date": "2025-07-02T20:30:00.000Z",
+  "players": 101,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

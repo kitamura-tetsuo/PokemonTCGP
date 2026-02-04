@@ -1,0 +1,29 @@
+{
+  "id": "6843241cc4596e8122356662",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Pride Month Pocket Tournament #5",
+  "date": "2025-06-07T00:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

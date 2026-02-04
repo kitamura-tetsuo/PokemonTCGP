@@ -1,0 +1,29 @@
+{
+  "id": "67b2161b78c0b32318816989",
+  "game": "POCKET",
+  "format": null,
+  "name": "CGL Monthly Cup #8 [15\u20ac]",
+  "date": "2025-09-27T12:00:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 2107,
+    "name": "CGL"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

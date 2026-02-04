@@ -1,0 +1,29 @@
+{
+  "id": "69222c3fb11d3f5498bc4fe9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99 Black Friday Madness (30 USD) + RR/FA",
+  "date": "2025-11-28T17:00:00.000Z",
+  "players": 188,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

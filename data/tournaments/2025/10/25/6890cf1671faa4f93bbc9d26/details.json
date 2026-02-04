@@ -1,0 +1,29 @@
+{
+  "id": "6890cf1671faa4f93bbc9d26",
+  "game": "POCKET",
+  "format": null,
+  "name": "Chaos League Pocket Saturdays #43",
+  "date": "2025-10-25T21:30:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 1254,
+    "name": "Chaos League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

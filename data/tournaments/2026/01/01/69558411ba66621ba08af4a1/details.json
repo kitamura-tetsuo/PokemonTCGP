@@ -1,0 +1,29 @@
+{
+  "id": "69558411ba66621ba08af4a1",
+  "game": "POCKET",
+  "format": null,
+  "name": "BIG25Sendoff||$26, Copycat + Sabrina, and 1* Ori!",
+  "date": "2026-01-01T04:13:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

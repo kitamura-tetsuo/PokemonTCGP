@@ -1,0 +1,51 @@
+{
+  "id": "689b35193070784ce70bf638",
+  "game": "POCKET",
+  "format": null,
+  "name": "Xatumi's Econ Cup #3 (Set A4- Restricted)",
+  "date": "2025-08-15T17:30:00.000Z",
+  "players": 54,
+  "organizer": {
+    "id": 2250,
+    "name": "Xatumi"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina EX",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Sylveon EX",
+      "set": "A3b",
+      "number": "34"
+    }
+  ]
+}

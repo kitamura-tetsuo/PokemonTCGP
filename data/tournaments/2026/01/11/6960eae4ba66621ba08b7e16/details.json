@@ -1,0 +1,29 @@
+{
+  "id": "6960eae4ba66621ba08b7e16",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pokebait Pocket Cup #1",
+  "date": "2026-01-11T11:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 348,
+    "name": "Pokebait"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

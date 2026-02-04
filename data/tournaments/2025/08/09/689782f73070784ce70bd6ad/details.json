@@ -1,0 +1,29 @@
+{
+  "id": "689782f73070784ce70bd6ad",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6FULGUR CUP \ud83c\udfc6 || \ud83d\udcb020\u20ac Prizepool\ud83d\udcb0",
+  "date": "2025-08-09T19:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

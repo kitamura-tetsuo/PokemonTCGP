@@ -1,0 +1,23 @@
+{
+  "id": "68f94c7ddd7011c665c3dd7e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udccc Torneio Standard #2 - Prize $120 BRL",
+  "date": "2025-10-29T23:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

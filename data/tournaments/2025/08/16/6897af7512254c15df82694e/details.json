@@ -1,0 +1,29 @@
+{
+  "id": "6897af7512254c15df82694e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Cantelli\u2019s Cup - #1\u00aa Edi\u00e7\u00e3o",
+  "date": "2025-08-16T17:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2082,
+    "name": "D.J-GAMES"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

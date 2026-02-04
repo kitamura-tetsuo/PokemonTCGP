@@ -1,0 +1,29 @@
+{
+  "id": "6907cb78fde2eb785721c58e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans Pok\u00e9mon TCGP Chile LIGA S4 Fecha 2",
+  "date": "2025-11-11T22:05:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2364,
+    "name": "Fan Pok\u00e9mon TCG Pocket LATAM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

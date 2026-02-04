@@ -1,0 +1,44 @@
+{
+  "id": "680f43e8223a6c7d5ec97064",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc51 Simbozz - NoEX'cuse #1 - Community Cup",
+  "date": "2025-05-17T17:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

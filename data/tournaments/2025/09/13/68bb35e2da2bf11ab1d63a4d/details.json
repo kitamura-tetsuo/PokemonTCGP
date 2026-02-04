@@ -1,0 +1,35 @@
+{
+  "id": "68bb35e2da2bf11ab1d63a4d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Jeudy's Colosseum #1 ($100 USD Prize)",
+  "date": "2025-09-13T16:00:00.000Z",
+  "players": 325,
+  "organizer": {
+    "id": 2208,
+    "name": "Jeudy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

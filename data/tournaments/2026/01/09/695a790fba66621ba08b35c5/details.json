@@ -1,0 +1,29 @@
+{
+  "id": "695a790fba66621ba08b35c5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hanafuda Pocket Clash #13",
+  "date": "2026-01-09T18:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 956,
+    "name": "Vivid Arise eSports"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

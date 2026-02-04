@@ -1,0 +1,29 @@
+{
+  "id": "6942f68ee12a3ec4762895e3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Mega Wars #9 (FA PCL to 1st)",
+  "date": "2025-12-21T03:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

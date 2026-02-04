@@ -1,0 +1,23 @@
+{
+  "id": "6959e278ba66621ba08b33e8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournament Blitz|4\u20136 Players|$8-$12 Pool|$2 entry",
+  "date": "2026-01-09T01:30:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "68cec052f661e4a158dde2de",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf18 Torneio Gin\u00e1sio de Escurid\u00e3o - Prize $50 BRL",
+  "date": "2025-09-24T23:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

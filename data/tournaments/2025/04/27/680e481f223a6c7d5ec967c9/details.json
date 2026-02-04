@@ -1,0 +1,23 @@
+{
+  "id": "680e481f223a6c7d5ec967c9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfdd\ufe0f\ud83c\udf1f MYTHICAL REVELRY TOURNAMENT \ud83c\udf1f\ud83c\udfdd\ufe0f",
+  "date": "2025-04-27T18:00:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

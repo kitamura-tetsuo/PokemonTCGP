@@ -1,0 +1,29 @@
+{
+  "id": "68e980f9e1791069afd1b277",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Blitz #26",
+  "date": "2025-10-14T21:10:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

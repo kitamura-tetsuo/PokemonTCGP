@@ -1,0 +1,29 @@
+{
+  "id": "6959e5c0ba66621ba08b3404",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Pocket Rapid #15 (5 USD + FA SERENA)",
+  "date": "2026-01-04T22:40:00.000Z",
+  "players": 148,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6880441f164bc0b13840a33c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Cup #12",
+  "date": "2025-07-26T02:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

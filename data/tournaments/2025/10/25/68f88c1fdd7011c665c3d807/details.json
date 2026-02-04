@@ -1,0 +1,29 @@
+{
+  "id": "68f88c1fdd7011c665c3d807",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pre-Halloween 25.10.2025 [only-PL]",
+  "date": "2025-10-25T11:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

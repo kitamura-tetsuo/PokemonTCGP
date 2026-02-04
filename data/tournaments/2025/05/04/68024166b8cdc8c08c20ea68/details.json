@@ -1,0 +1,29 @@
+{
+  "id": "68024166b8cdc8c08c20ea68",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Mensal Maio - Prize $170 BRL",
+  "date": "2025-05-04T03:00:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

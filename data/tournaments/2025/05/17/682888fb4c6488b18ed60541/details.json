@@ -1,0 +1,29 @@
+{
+  "id": "682888fb4c6488b18ed60541",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1 THE SAGA LEAGUE \u2013 Pocket Royale $10K Warm-Up! \u26a1",
+  "date": "2025-05-17T14:30:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "68ba58f0da2bf11ab1d6362e",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC RANKED FINALS",
+  "date": "2025-09-07T13:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

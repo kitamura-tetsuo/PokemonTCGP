@@ -1,0 +1,29 @@
+{
+  "id": "68515b66c4596e812235d95b",
+  "game": "POCKET",
+  "format": null,
+  "name": "~ New Era ~ \ud83c\udfc6 ITP Weekly Tournament \ud83c\udfc6 ||  40\u20ac",
+  "date": "2025-06-18T17:00:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

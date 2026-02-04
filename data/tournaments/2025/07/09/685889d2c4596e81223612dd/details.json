@@ -1,0 +1,29 @@
+{
+  "id": "685889d2c4596e81223612dd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Invitational (50 USD in prizes)",
+  "date": "2025-07-09T18:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

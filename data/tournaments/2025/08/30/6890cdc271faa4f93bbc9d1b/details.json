@@ -1,0 +1,29 @@
+{
+  "id": "6890cdc271faa4f93bbc9d1b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Chaos League Pocket Saturdays #35",
+  "date": "2025-08-30T21:30:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 1254,
+    "name": "Chaos League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

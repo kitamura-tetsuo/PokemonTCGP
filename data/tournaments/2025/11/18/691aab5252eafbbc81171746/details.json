@@ -1,0 +1,29 @@
+{
+  "id": "691aab5252eafbbc81171746",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Monday Mega Madness Part 2-$5",
+  "date": "2025-11-18T01:15:00.000Z",
+  "players": 141,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

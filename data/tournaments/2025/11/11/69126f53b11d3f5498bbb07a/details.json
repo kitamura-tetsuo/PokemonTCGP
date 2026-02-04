@@ -1,0 +1,29 @@
+{
+  "id": "69126f53b11d3f5498bbb07a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Morning Mega Standard #2 $5",
+  "date": "2025-11-11T17:30:00.000Z",
+  "players": 249,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

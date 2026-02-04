@@ -1,0 +1,29 @@
+{
+  "id": "681b8880524e86dc8e9f5009",
+  "game": "POCKET",
+  "format": null,
+  "name": "Danielcmini TEAMS(3v3) tournament\ud83c\udfc6",
+  "date": "2025-05-11T16:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

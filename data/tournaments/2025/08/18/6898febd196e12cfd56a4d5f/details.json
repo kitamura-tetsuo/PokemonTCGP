@@ -1,0 +1,23 @@
+{
+  "id": "6898febd196e12cfd56a4d5f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfdf\ufe0f Torneio Ciclo Semanal #2 - Prize $120 BRL",
+  "date": "2025-08-18T03:00:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

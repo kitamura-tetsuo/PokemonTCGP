@@ -1,0 +1,29 @@
+{
+  "id": "685482b6c4596e812235ecd0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Regionals Week 3 - Toronto \ud83c\udde8\ud83c\udde6",
+  "date": "2025-07-15T23:30:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

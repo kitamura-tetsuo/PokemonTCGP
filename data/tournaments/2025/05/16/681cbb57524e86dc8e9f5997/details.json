@@ -1,0 +1,29 @@
+{
+  "id": "681cbb57524e86dc8e9f5997",
+  "game": "POCKET",
+  "format": null,
+  "name": "Eelda's League May Tournament",
+  "date": "2025-05-16T12:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 1886,
+    "name": "Eelda's League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

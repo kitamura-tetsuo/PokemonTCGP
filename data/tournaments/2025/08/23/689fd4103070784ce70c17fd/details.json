@@ -1,0 +1,29 @@
+{
+  "id": "689fd4103070784ce70c17fd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff4\u200d\u2620\ufe0f Pocket Lagoon Cup \ud83c\udf0a #16",
+  "date": "2025-08-23T00:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

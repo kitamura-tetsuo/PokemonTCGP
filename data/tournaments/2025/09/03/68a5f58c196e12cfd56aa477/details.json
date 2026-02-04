@@ -1,0 +1,29 @@
+{
+  "id": "68a5f58c196e12cfd56aa477",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Mensal Setembro - Prize $400 BRL",
+  "date": "2025-09-03T03:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

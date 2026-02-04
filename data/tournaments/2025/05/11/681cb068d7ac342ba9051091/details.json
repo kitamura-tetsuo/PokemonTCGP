@@ -1,0 +1,144 @@
+{
+  "id": "681cb068d7ac342ba9051091",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 The Saga Cup #2 \u2022 60 USD Cash Prize \ud83c\udfc6",
+  "date": "2025-05-11T17:00:00.000Z",
+  "players": 119,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "82"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "192"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "89"
+    },
+    {
+      "name": "Lycanroc",
+      "set": "A3",
+      "number": "101"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "163"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "244"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Golem",
+      "set": "A1",
+      "number": "149"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "162"
+    },
+    {
+      "name": "Manaphy",
+      "set": "P-A",
+      "number": "48"
+    },
+    {
+      "name": "Skull Fossil",
+      "set": "A2",
+      "number": "144"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "688bdc5edd3aa218838a7046",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0bMagma $51 King of the Hill \u00d7 $10K Cup Soon\ud83c\udf0b",
+  "date": "2025-08-08T20:00:00.000Z",
+  "players": 327,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}

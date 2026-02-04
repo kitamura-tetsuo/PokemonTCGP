@@ -1,0 +1,29 @@
+{
+  "id": "68ccb84c827e9d163f83fa9a",
+  "game": "POCKET",
+  "format": null,
+  "name": "#05 KGEN League BRASIL",
+  "date": "2025-09-23T17:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 1960,
+    "name": "KGeN Brasil"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

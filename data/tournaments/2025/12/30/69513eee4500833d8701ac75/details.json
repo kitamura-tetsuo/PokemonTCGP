@@ -1,0 +1,35 @@
+{
+  "id": "69513eee4500833d8701ac75",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS Nuno&hvk's 2025 Final Tour! Top 25 FA Cards",
+  "date": "2025-12-30T21:20:00.000Z",
+  "players": 334,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

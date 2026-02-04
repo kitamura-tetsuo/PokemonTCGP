@@ -1,0 +1,29 @@
+{
+  "id": "68f618f7dd7011c665c3c37f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc624H NovTour\ud83c\udfc6#3 ROUND\ud83c\udfc6WITH PRIZE\ud83c\udfc6",
+  "date": "2025-11-23T20:00:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

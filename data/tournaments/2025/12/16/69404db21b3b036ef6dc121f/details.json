@@ -1,0 +1,29 @@
+{
+  "id": "69404db21b3b036ef6dc121f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Underground Late Night Standard+5 + more",
+  "date": "2025-12-16T03:30:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68d09752f661e4a158ddf268",
+  "game": "POCKET",
+  "format": null,
+  "name": "JPEG Burst! Battles Weeklies #4 (Season 0 $10 1st)",
+  "date": "2025-10-05T20:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2427,
+    "name": "JPEG Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "690a9380c154114e5abaeeed",
+  "game": "POCKET",
+  "format": null,
+  "name": "Turbo Tourney - $5 Prize",
+  "date": "2025-11-05T18:30:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

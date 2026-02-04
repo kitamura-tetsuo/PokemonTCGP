@@ -1,0 +1,29 @@
+{
+  "id": "6895bff62c940503cce8f5a2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hanafuda Pocket Clash #6",
+  "date": "2025-08-13T17:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 956,
+    "name": "Vivid Arise eSports"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

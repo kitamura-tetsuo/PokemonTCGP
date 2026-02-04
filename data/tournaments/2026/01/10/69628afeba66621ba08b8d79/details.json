@@ -1,0 +1,29 @@
+{
+  "id": "69628afeba66621ba08b8d79",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Tourney (FA Serna FOR 1ST PLACE!!) :/",
+  "date": "2026-01-10T21:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

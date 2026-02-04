@@ -1,0 +1,29 @@
+{
+  "id": "68b15467da2bf11ab1d5e27f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX Secluded Springs\u202f\u2022 50 USD Prize\ud83d\udc38",
+  "date": "2025-09-01T18:00:00.000Z",
+  "players": 326,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

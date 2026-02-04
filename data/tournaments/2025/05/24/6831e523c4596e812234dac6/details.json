@@ -1,0 +1,29 @@
+{
+  "id": "6831e523c4596e812234dac6",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc8eTBBL\ud83d\udc8e\ud83d\udca5Weekend Night Party\ud83d\udca55$",
+  "date": "2025-05-24T23:00:00.000Z",
+  "players": 54,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

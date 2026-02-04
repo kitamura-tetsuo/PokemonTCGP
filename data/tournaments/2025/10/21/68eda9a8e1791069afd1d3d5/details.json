@@ -1,0 +1,35 @@
+{
+  "id": "68eda9a8e1791069afd1d3d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Liga DecksyMazos Pocket Cierre de A\u00f1o / M\u00e9xico",
+  "date": "2025-10-21T02:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2453,
+    "name": "Decks y Mazos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

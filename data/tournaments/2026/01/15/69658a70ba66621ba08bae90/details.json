@@ -1,0 +1,29 @@
+{
+  "id": "69658a70ba66621ba08bae90",
+  "game": "POCKET",
+  "format": null,
+  "name": "GDM&Frapp\u00e9sdrinker Strike Back (10$+Oak+Lottery)",
+  "date": "2026-01-15T19:10:00.000Z",
+  "players": 167,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

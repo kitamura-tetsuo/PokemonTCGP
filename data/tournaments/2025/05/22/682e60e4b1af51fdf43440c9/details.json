@@ -1,0 +1,29 @@
+{
+  "id": "682e60e4b1af51fdf43440c9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udcabStarlit Pocket Cup\ud83d\udcab #3",
+  "date": "2025-05-22T02:30:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2221,
+    "name": "Team Fujiyama"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

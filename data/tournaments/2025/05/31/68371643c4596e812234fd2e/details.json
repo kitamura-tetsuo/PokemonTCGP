@@ -1,0 +1,29 @@
+{
+  "id": "68371643c4596e812234fd2e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf03 Night Shift #5 \ud83c\udf03",
+  "date": "2025-05-31T02:05:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2349,
+    "name": "Pocket At Night"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

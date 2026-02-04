@@ -1,0 +1,29 @@
+{
+  "id": "680dba00fcf14d4e4278e6a4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udda6 Capy Standard (New META Broken Candy)",
+  "date": "2025-05-01T12:00:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

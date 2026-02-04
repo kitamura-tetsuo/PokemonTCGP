@@ -1,0 +1,29 @@
+{
+  "id": "681eb06cd7ac342ba9052436",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Cup #2 (10 USD 1st place)",
+  "date": "2025-05-14T18:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

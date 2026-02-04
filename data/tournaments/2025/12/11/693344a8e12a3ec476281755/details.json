@@ -1,0 +1,29 @@
+{
+  "id": "693344a8e12a3ec476281755",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31ImperiumSeries \ud83d\udd31 20 USD Prize [7/8]",
+  "date": "2025-12-11T18:30:00.000Z",
+  "players": 139,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

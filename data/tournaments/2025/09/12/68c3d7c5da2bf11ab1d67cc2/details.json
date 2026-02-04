@@ -1,0 +1,23 @@
+{
+  "id": "68c3d7c5da2bf11ab1d67cc2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Standard Tournament #3",
+  "date": "2025-09-12T09:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2381,
+    "name": "The Pocket Hub"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

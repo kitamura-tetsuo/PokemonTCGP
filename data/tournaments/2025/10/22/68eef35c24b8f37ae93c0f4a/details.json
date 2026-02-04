@@ -1,0 +1,29 @@
+{
+  "id": "68eef35c24b8f37ae93c0f4a",
+  "game": "POCKET",
+  "format": null,
+  "name": "BZGC Pocket\ud83d\udd25 - LVL. 2 ~ Leaf Blade",
+  "date": "2025-10-22T00:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

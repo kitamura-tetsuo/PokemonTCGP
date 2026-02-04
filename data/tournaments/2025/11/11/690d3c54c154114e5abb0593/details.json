@@ -1,0 +1,23 @@
+{
+  "id": "690d3c54c154114e5abb0593",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfdf\ufe0f Torneio Ciclo Semanal #6 - Prize $120 BRL",
+  "date": "2025-11-11T03:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

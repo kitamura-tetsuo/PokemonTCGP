@@ -1,0 +1,30 @@
+{
+  "id": "695bf33fba66621ba08b4916",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #16 - Crimson Cascade!!! | $300 USD",
+  "date": "2026-01-10T17:00:00.000Z",
+  "players": 531,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/ah8scq06b93us7q8"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

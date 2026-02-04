@@ -1,0 +1,29 @@
+{
+  "id": "68f14f7b24b8f37ae93c1f9e",
+  "game": "POCKET",
+  "format": null,
+  "name": "KaBuM! TCG Pocket | Semanal #28",
+  "date": "2025-11-28T22:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2325,
+    "name": "KaBuM!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

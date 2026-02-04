@@ -1,0 +1,29 @@
+{
+  "id": "692db7751b3b036ef6db7248",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a uwu tournament #4 \u025e \u2503 30 USD + 2x FA Cyrus",
+  "date": "2025-12-03T01:00:00.000Z",
+  "players": 99,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

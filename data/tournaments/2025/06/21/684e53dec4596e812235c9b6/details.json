@@ -1,0 +1,30 @@
+{
+  "id": "684e53dec4596e812235c9b6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #31 (Season 3) - 50 USD",
+  "date": "2025-06-21T10:00:00.000Z",
+  "players": 124,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

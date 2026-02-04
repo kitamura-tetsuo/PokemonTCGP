@@ -1,0 +1,29 @@
+{
+  "id": "683ec240c4596e8122353c46",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51Simbozz - Pok\u00e8League Kick-off - Ranking Cup",
+  "date": "2025-06-14T17:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

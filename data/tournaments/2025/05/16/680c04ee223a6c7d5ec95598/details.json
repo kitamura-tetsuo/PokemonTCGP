@@ -1,0 +1,29 @@
+{
+  "id": "680c04ee223a6c7d5ec95598",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd4aCOMBAT FURY\ud83e\udd4a$50 USD | Terremoto x Trainers TCG",
+  "date": "2025-05-16T20:00:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

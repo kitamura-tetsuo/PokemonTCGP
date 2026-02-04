@@ -1,0 +1,29 @@
+{
+  "id": "6854834d27d8bc24cf25707c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Regionals Week 6 - New York \ud83c\uddfa\ud83c\uddf8",
+  "date": "2025-08-05T23:30:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

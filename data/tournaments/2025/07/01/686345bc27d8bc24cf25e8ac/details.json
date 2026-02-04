@@ -1,0 +1,29 @@
+{
+  "id": "686345bc27d8bc24cf25e8ac",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Special Event #1",
+  "date": "2025-07-01T20:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "683c7795c4596e8122352869",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc6 Pocket Champions Cup GIRONE DIALGA",
+  "date": "2025-06-08T19:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

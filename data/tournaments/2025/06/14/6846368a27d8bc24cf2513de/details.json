@@ -1,0 +1,161 @@
+{
+  "id": "6846368a27d8bc24cf2513de",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC Weekly 50$ tourney!",
+  "date": "2025-06-14T13:00:00.000Z",
+  "players": 101,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Meowscarada",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Meowscarada",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Team Rocket Grunt",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Team Rocket Grunt",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "Buzzwole ex",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Buzzwole ex",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Buzzwole ex",
+      "set": "A3a",
+      "number": null
+    }
+  ]
+}

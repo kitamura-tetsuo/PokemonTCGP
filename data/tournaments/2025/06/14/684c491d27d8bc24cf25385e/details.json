@@ -1,0 +1,29 @@
+{
+  "id": "684c491d27d8bc24cf25385e",
+  "game": "POCKET",
+  "format": null,
+  "name": "TPH Standard Tournament #1",
+  "date": "2025-06-14T06:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2381,
+    "name": "The Pocket Hub"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

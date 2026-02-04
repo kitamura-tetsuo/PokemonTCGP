@@ -1,0 +1,29 @@
+{
+  "id": "68112389fcf14d4e4278fb67",
+  "game": "POCKET",
+  "format": null,
+  "name": "Liga JubsTV #2 - Torneio BR Pok\u00e9mon TCGP",
+  "date": "2025-04-29T23:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2078,
+    "name": "JubsTV"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "682e018cb1af51fdf4343dc5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc8eTBBL\ud83d\udc8e\ud83d\udca5Late Afternoon Thursday \ud83d\udca5",
+  "date": "2025-05-22T15:00:00.000Z",
+  "players": 66,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "683e9154c4596e8122353be9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1#1 Unknown Tournament \u26a1",
+  "date": "2025-06-03T13:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

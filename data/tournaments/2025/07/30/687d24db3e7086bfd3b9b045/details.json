@@ -1,0 +1,29 @@
+{
+  "id": "687d24db3e7086bfd3b9b045",
+  "game": "POCKET",
+  "format": null,
+  "name": "NEW FORMAT TOURNAMENT BY JEUDY FOR JEUDY",
+  "date": "2025-07-30T22:00:00.000Z",
+  "players": 180,
+  "organizer": {
+    "id": 2208,
+    "name": "Jeudy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

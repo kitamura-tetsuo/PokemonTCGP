@@ -1,0 +1,29 @@
+{
+  "id": "69332f4d1b3b036ef6db9f1d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ericko x Soflo Circuit $100 USD-PLUS Research",
+  "date": "2025-12-07T17:00:00.000Z",
+  "players": 121,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

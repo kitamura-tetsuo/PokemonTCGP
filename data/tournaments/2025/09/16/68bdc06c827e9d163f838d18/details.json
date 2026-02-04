@@ -1,0 +1,29 @@
+{
+  "id": "68bdc06c827e9d163f838d18",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff4\u200d\u2620\ufe0f Pocket Lagoon Regionals \ud83c\udf0a #2 (40 USD)",
+  "date": "2025-09-16T18:00:00.000Z",
+  "players": 153,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

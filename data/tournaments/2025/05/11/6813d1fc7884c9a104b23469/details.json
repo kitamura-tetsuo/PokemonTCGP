@@ -1,0 +1,36 @@
+{
+  "id": "6813d1fc7884c9a104b23469",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 Spring Cup NOEX BO3 #11\ud83c\udfc6",
+  "date": "2025-05-11T14:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": null
+    }
+  ]
+}

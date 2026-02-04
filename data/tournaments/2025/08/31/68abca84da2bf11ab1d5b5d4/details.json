@@ -1,0 +1,29 @@
+{
+  "id": "68abca84da2bf11ab1d5b5d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans Pok\u00e9mon TCG Pocket Chile Open #14 10USD PRIZE",
+  "date": "2025-08-31T18:05:00.000Z",
+  "players": 84,
+  "organizer": {
+    "id": 2364,
+    "name": "Fans Pok\u00e9mon TCG Pocket Chile "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

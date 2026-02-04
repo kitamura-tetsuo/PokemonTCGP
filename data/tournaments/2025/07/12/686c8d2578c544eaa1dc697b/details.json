@@ -1,0 +1,108 @@
+{
+  "id": "686c8d2578c544eaa1dc697b",
+  "game": "POCKET",
+  "format": null,
+  "name": "$1000 Godzly Underdog Showdown | THEO",
+  "date": "2025-07-12T16:30:00.000Z",
+  "players": 236,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Solgaleo ex",
+      "set": null,
+      "number": "122"
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": "10"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": "110"
+    },
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": "35"
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": "61"
+    },
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": "89"
+    },
+    {
+      "name": "Slurpuff",
+      "set": null,
+      "number": "32"
+    },
+    {
+      "name": "Magneton",
+      "set": null,
+      "number": "98"
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": "36"
+    },
+    {
+      "name": "Flareon ex",
+      "set": null,
+      "number": "9"
+    },
+    {
+      "name": "Red Card",
+      "set": null,
+      "number": "6"
+    },
+    {
+      "name": "Celesteela",
+      "set": null,
+      "number": "62"
+    }
+  ]
+}

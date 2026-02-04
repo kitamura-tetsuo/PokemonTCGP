@@ -1,0 +1,29 @@
+{
+  "id": "695afe364500833d87023a56",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's SNM#2 (5 USD) + FA Cyrus",
+  "date": "2026-01-11T03:17:00.000Z",
+  "players": 102,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

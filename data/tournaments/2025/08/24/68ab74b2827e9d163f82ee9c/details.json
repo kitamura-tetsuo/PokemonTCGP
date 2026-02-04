@@ -1,0 +1,29 @@
+{
+  "id": "68ab74b2827e9d163f82ee9c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon TCG Pocket #3 Phoenix Tour 2",
+  "date": "2025-08-24T20:30:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2175,
+    "name": "Urban Brigade"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

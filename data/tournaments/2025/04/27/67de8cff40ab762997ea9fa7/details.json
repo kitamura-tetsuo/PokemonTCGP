@@ -1,0 +1,32 @@
+{
+  "id": "67de8cff40ab762997ea9fa7",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "BEC NOEX No Problem Series! 3/8 1000$ USD",
+  "date": "2025-04-27T14:00:00.000Z",
+  "players": 161,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

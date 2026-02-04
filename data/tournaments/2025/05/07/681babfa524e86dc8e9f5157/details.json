@@ -1,0 +1,29 @@
+{
+  "id": "681babfa524e86dc8e9f5157",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Pokemon Pocket #1!!!",
+  "date": "2025-05-07T23:30:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

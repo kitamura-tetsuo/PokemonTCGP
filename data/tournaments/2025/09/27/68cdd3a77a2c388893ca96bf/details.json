@@ -1,0 +1,35 @@
+{
+  "id": "68cdd3a77a2c388893ca96bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "underground pocket special $150usd",
+  "date": "2025-09-27T16:00:00.000Z",
+  "players": 200,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

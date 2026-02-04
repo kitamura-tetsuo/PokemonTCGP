@@ -1,0 +1,29 @@
+{
+  "id": "68977e5f2c940503cce90570",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League ursi postponed:((",
+  "date": "2025-08-09T18:00:00.000Z",
+  "players": 159,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

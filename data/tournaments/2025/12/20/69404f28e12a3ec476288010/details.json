@@ -1,0 +1,30 @@
+{
+  "id": "69404f28e12a3ec476288010",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #13 - CRIMSON BLAZE | $1000 - FREE ENTRY!!!",
+  "date": "2025-12-20T17:05:00.000Z",
+  "players": 1107,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/ah8scq06b93us7q8"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

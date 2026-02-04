@@ -1,0 +1,29 @@
+{
+  "id": "69375e711b3b036ef6dbd06e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1Storm x Umbreon99 Clash (15 USD)\u26a1",
+  "date": "2025-12-12T01:15:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

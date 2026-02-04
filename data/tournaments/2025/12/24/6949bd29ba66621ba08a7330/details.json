@@ -1,0 +1,35 @@
+{
+  "id": "6949bd29ba66621ba08a7330",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS hvk's U.S. PopUp - 1st RR Lop 2nd FA Lop",
+  "date": "2025-12-24T01:00:00.000Z",
+  "players": 109,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

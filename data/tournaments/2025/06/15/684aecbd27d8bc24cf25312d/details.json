@@ -1,0 +1,29 @@
+{
+  "id": "684aecbd27d8bc24cf25312d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0eNORTH AMERICA\ud83c\udf0eQUALS | Terremoto x Trainers TCG",
+  "date": "2025-06-15T01:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68631df2c4596e8122366153",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - FINAL PRIDE MONTH POCKET!!",
+  "date": "2025-07-01T01:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

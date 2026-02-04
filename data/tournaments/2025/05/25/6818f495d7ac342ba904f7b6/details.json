@@ -1,0 +1,29 @@
+{
+  "id": "6818f495d7ac342ba904f7b6",
+  "game": "POCKET",
+  "format": null,
+  "name": "KaBuM! TCG Pocket | Mensal #2",
+  "date": "2025-05-25T17:00:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2325,
+    "name": "KaBuM!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

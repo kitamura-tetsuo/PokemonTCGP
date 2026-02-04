@@ -1,0 +1,29 @@
+{
+  "id": "6830c31a27d8bc24cf2456d8",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udccc Semanal Maio #4 - ENTRADA FREE - Prize $50 BRL",
+  "date": "2025-05-31T13:00:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "680cc082223a6c7d5ec95acd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 Simbozz - NEW Meta #1 - Community Cup",
+  "date": "2025-05-03T17:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

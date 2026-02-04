@@ -1,0 +1,29 @@
+{
+  "id": "687e5dfa3e7086bfd3b9b860",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udccc Semanal Julho #4 - Prize $20 BRL",
+  "date": "2025-07-26T13:00:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

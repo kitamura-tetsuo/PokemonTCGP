@@ -1,0 +1,23 @@
+{
+  "id": "68389a4ac4596e8122350637",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfb419T TOURNAMENT\ud83c\udfb4",
+  "date": "2025-06-04T18:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "686ba6b778c544eaa1dc60fc",
+  "game": "POCKET",
+  "format": null,
+  "name": "underground pocket pop up",
+  "date": "2025-07-07T22:30:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

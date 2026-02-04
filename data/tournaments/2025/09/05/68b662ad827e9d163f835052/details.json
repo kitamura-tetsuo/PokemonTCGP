@@ -1,0 +1,29 @@
+{
+  "id": "68b662ad827e9d163f835052",
+  "game": "POCKET",
+  "format": null,
+  "name": "Xatumi's Econ Cup #6 (Open Format)",
+  "date": "2025-09-05T17:30:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 2250,
+    "name": "Xatumi"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6854837927d8bc24cf25707d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Regionals Week 7 - Sydney \ud83c\udde6\ud83c\uddfa",
+  "date": "2025-08-12T23:30:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "6842d1e927d8bc24cf24e60f",
+  "game": "POCKET",
+  "format": null,
+  "name": "IntraClan Tournament",
+  "date": "2025-06-06T17:30:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

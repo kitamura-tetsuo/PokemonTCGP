@@ -1,0 +1,30 @@
+{
+  "id": "68b3c1a9da2bf11ab1d5fcb0",
+  "game": "POCKET",
+  "format": null,
+  "name": "PocketMads - Pocket Tournament ($100)!!!",
+  "date": "2025-09-07T14:05:00.000Z",
+  "players": 452,
+  "organizer": {
+    "id": 13,
+    "name": "Chill TCG",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/cyjxogt4y4v558ye"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

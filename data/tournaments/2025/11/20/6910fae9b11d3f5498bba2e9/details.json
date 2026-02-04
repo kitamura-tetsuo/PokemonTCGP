@@ -1,0 +1,29 @@
+{
+  "id": "6910fae9b11d3f5498bba2e9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31Imperium Series #1 \u2022 20 USD Prize [4/8] \ud83d\udd31",
+  "date": "2025-11-20T18:30:00.000Z",
+  "players": 334,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "681a07e4d7ac342ba90500a5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2615 Caf\u00e9Dol\u00e9 #7 \ud83c\udf3f Putains d'astres",
+  "date": "2025-05-09T16:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1999,
+    "name": "Valdon"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

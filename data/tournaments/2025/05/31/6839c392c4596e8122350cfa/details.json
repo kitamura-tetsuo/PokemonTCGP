@@ -1,0 +1,29 @@
+{
+  "id": "6839c392c4596e8122350cfa",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Saga League EX Pocket Royale #6 \ud83c\udfc6",
+  "date": "2025-05-31T14:00:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

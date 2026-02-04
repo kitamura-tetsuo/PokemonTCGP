@@ -1,0 +1,29 @@
+{
+  "id": "684056bbc4596e8122354819",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Millennium Pocket Free Tour #12",
+  "date": "2025-06-06T16:20:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 684,
+    "name": "Pok\u00e9mon Millennium"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

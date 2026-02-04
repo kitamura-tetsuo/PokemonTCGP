@@ -1,0 +1,29 @@
+{
+  "id": "68911b589e64f4a232d0f902",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Special Event #7 (10 USD in prize)",
+  "date": "2025-08-05T18:00:00.000Z",
+  "players": 166,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

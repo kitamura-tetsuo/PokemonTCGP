@@ -1,0 +1,29 @@
+{
+  "id": "6856c404c4596e8122360096",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\uddf5\ud83c\udded Philippines Grand Slam #1 - PHP 250 \ud83c\uddf5\ud83c\udded",
+  "date": "2025-06-28T06:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2381,
+    "name": "The Pocket Hub"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

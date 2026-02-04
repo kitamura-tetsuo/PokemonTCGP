@@ -1,0 +1,29 @@
+{
+  "id": "68c4e3ff827e9d163f83c431",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf18SHADOW HUNT\ud83c\udf18$50 USD | Terremoto x Trainers TCG",
+  "date": "2025-09-19T20:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

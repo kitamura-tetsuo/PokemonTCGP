@@ -1,0 +1,64 @@
+{
+  "id": "6835b25527d8bc24cf2479c1",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "THE SAGA LEAGUE SPECIAL EVENT \u00b7 NO SEARCH ZONE \ud83c\udfb2",
+  "date": "2025-05-27T18:55:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pok\u00e9 Ball",
+      "set": "A2b",
+      "number": "111"
+    },
+    {
+      "name": "Pok\u00e9 Ball",
+      "set": "P-A",
+      "number": "5"
+    },
+    {
+      "name": "Professor's Research",
+      "set": "P-A",
+      "number": "7"
+    },
+    {
+      "name": "Pok\u00e9mon Communication",
+      "set": "A2",
+      "number": "146"
+    },
+    {
+      "name": "Iono",
+      "set": "A2b",
+      "number": "69"
+    },
+    {
+      "name": "Iono",
+      "set": "A2b",
+      "number": "88"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68a72dff196e12cfd56aae40",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pregio Tournament Pocket #01",
+  "date": "2025-08-29T12:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 1529,
+    "name": "Pregio Tournament"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

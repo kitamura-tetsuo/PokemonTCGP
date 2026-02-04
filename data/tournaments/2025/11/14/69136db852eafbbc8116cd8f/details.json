@@ -1,0 +1,29 @@
+{
+  "id": "69136db852eafbbc8116cd8f",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC's 25$ EXEGGUTOR CUP",
+  "date": "2025-11-14T14:30:00.000Z",
+  "players": 252,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

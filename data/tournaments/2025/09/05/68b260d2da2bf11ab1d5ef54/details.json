@@ -1,0 +1,32 @@
+{
+  "id": "68b260d2da2bf11ab1d5ef54",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udeabNO-EX\ud83d\udeab$10 USD | Terremoto x Trainers TCG",
+  "date": "2025-09-05T20:00:00.000Z",
+  "players": 78,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

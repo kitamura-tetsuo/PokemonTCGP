@@ -1,0 +1,29 @@
+{
+  "id": "681b28d1d7ac342ba905064e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6CardConqueror 10\u20ac PayPal\ud83c\udfc6",
+  "date": "2025-05-08T20:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2087,
+    "name": "CardConqueror"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "67e04428fb3a86a4cffcdd4a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfc6 Heaven\u00b4s Spring Cup #9 Singelton BO3\ud83c\udfc6",
+  "date": "2025-04-27T14:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON_NAME"
+  ]
+}

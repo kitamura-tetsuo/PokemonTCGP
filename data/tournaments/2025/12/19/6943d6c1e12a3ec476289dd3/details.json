@@ -1,0 +1,29 @@
+{
+  "id": "6943d6c1e12a3ec476289dd3",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc5IRON LEGACY\ud83c\udfc5$50 USD | Terremoto x Trainers TCG",
+  "date": "2025-12-19T03:00:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

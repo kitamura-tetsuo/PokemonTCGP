@@ -1,0 +1,29 @@
+{
+  "id": "69150de752eafbbc8116de93",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Daily Tournament #45",
+  "date": "2025-11-13T00:30:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

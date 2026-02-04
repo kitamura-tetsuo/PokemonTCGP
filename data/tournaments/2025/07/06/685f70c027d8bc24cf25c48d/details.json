@@ -1,0 +1,29 @@
+{
+  "id": "685f70c027d8bc24cf25c48d",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC Weekly #4",
+  "date": "2025-07-06T14:00:00.000Z",
+  "players": 85,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

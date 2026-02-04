@@ -1,0 +1,29 @@
+{
+  "id": "690baf7efde2eb785721e636",
+  "game": "POCKET",
+  "format": null,
+  "name": "danielcmini PTCGP #4 \u2022 $50 USD PRIZE",
+  "date": "2025-11-09T15:00:00.000Z",
+  "players": 379,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

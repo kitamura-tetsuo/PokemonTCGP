@@ -1,0 +1,29 @@
+{
+  "id": "6934869e1b3b036ef6dbb6b4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50 Jules x Pabsy Cup #12 - $20 + FA Cyrus!\u2b50",
+  "date": "2025-12-09T17:00:00.000Z",
+  "players": 136,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

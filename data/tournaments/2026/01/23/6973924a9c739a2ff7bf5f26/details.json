@@ -1,0 +1,29 @@
+{
+  "id": "6973924a9c739a2ff7bf5f26",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rapid #23 (RR Lopunny) + Loto (Dark/Tina) Shiny",
+  "date": "2026-01-23T20:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

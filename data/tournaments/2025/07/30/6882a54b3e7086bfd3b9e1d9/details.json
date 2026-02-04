@@ -1,0 +1,29 @@
+{
+  "id": "6882a54b3e7086bfd3b9e1d9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0bMagma $51 NEW SET \ud83c\udf2a\ufe0f \u00d7 $10,000 Cup Soon \ud83c\udf2a\ufe0f",
+  "date": "2025-07-30T19:00:00.000Z",
+  "players": 308,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

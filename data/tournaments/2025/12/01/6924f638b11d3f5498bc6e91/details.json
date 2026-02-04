@@ -1,0 +1,29 @@
+{
+  "id": "6924f638b11d3f5498bc6e91",
+  "game": "POCKET",
+  "format": null,
+  "name": "VoidPocket Weekly Clash #05 S1 ($30 USD)",
+  "date": "2025-12-01T01:00:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

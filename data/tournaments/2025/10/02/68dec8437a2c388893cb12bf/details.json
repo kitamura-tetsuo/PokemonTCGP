@@ -1,0 +1,29 @@
+{
+  "id": "68dec8437a2c388893cb12bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Daily Tournament #27",
+  "date": "2025-10-02T23:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

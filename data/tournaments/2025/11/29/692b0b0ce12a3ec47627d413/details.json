@@ -1,0 +1,29 @@
+{
+  "id": "692b0b0ce12a3ec47627d413",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - PTCG [P] Rapid #3 (FA Shiny Tina)",
+  "date": "2025-11-29T22:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

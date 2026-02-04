@@ -1,0 +1,30 @@
+{
+  "id": "692480c452eafbbc8117720a",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #10 - MEGA MANIA!!! | $100 + Prof. Research",
+  "date": "2025-11-29T17:00:00.000Z",
+  "players": 482,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/ah8scq06b93us7q8"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

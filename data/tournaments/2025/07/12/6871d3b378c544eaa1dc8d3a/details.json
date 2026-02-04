@@ -1,0 +1,29 @@
+{
+  "id": "6871d3b378c544eaa1dc8d3a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Cup #10",
+  "date": "2025-07-12T06:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

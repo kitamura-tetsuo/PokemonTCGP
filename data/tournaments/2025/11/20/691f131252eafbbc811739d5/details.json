@@ -1,0 +1,29 @@
+{
+  "id": "691f131252eafbbc811739d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frapp\u00e9sdrinker's Last Minute Pop Up  (FA prizes)",
+  "date": "2025-11-20T14:30:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

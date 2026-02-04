@@ -1,0 +1,324 @@
+{
+  "id": "6826448c4c6488b18ed5f39c",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6THE SAGA LEAGUE WEEKLY #7 \u2022 10 USD Prize\ud83c\udfc6",
+  "date": "2025-05-21T20:30:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "82"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "192"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "89"
+    },
+    {
+      "name": "Lycanroc",
+      "set": "A3",
+      "number": "101"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "163"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "244"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Golem",
+      "set": "A1",
+      "number": "149"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "162"
+    },
+    {
+      "name": "Manaphy",
+      "set": "P-A",
+      "number": "48"
+    },
+    {
+      "name": "Skull Fossil",
+      "set": "A2",
+      "number": "144"
+    },
+    {
+      "name": "Mimikyu",
+      "set": "A3",
+      "number": "83"
+    },
+    {
+      "name": "Mimikyu",
+      "set": "P-A",
+      "number": "66"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "158"
+    },
+    {
+      "name": "Kabutops",
+      "set": "A1",
+      "number": "159"
+    },
+    {
+      "name": "Kabuto",
+      "set": "A1",
+      "number": "158"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "170"
+    },
+    {
+      "name": "Arceus",
+      "set": "A2a",
+      "number": "70"
+    },
+    {
+      "name": "Banette",
+      "set": "A3",
+      "number": "75"
+    },
+    {
+      "name": "Scolipede",
+      "set": "A1a",
+      "number": "55"
+    },
+    {
+      "name": "Bastiodon",
+      "set": "A2",
+      "number": "114"
+    },
+    {
+      "name": "Ninetales",
+      "set": "A1",
+      "number": "38"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "267"
+    },
+    {
+      "name": "Lt. Surge",
+      "set": "A1",
+      "number": "266"
+    },
+    {
+      "name": "Lt. Surge",
+      "set": "A1",
+      "number": "273"
+    },
+    {
+      "name": "Turtonator",
+      "set": "A3",
+      "number": "37"
+    },
+    {
+      "name": "Turtonatro",
+      "set": "A3",
+      "number": "161"
+    },
+    {
+      "name": "Toucannon",
+      "set": "A3",
+      "number": "135"
+    },
+    {
+      "name": "Toucannon",
+      "set": "P-A",
+      "number": "73"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Beedrill",
+      "set": "A1",
+      "number": "10"
+    },
+    {
+      "name": "Alolan Dugtrio",
+      "set": "A3",
+      "number": "118"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "77"
+    },
+    {
+      "name": "Pawmot",
+      "set": "A2b",
+      "number": "28"
+    },
+    {
+      "name": "Pawmot",
+      "set": "P-A",
+      "number": "54"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "6"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "70"
+    },
+    {
+      "name": "Machamp",
+      "set": "A3",
+      "number": "225"
+    },
+    {
+      "name": "Machamp",
+      "set": "A2b",
+      "number": "39"
+    },
+    {
+      "name": "Machamp",
+      "set": "A1",
+      "number": "145"
+    },
+    {
+      "name": "Machamp",
+      "set": "P-A",
+      "number": "55"
+    },
+    {
+      "name": "Alakazam",
+      "set": "A2b",
+      "number": "31"
+    },
+    {
+      "name": "Alakazam",
+      "set": "A1",
+      "number": "117"
+    },
+    {
+      "name": "Melmetal",
+      "set": "A1",
+      "number": "182"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

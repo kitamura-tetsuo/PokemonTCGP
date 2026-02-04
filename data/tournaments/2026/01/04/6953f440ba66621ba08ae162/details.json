@@ -1,0 +1,35 @@
+{
+  "id": "6953f440ba66621ba08ae162",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS Ericko's Circuit $100+Cyrus 1st - 8th FA Prize",
+  "date": "2026-01-04T20:00:00.000Z",
+  "players": 361,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

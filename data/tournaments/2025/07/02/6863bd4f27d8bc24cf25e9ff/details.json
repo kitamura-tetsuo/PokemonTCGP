@@ -1,0 +1,29 @@
+{
+  "id": "6863bd4f27d8bc24cf25e9ff",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 #3 ITP Weekly Tournament \ud83c\udfc6 || 40\u20ac",
+  "date": "2025-07-02T17:00:00.000Z",
+  "players": 170,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68e3f944f661e4a158de907e",
+  "game": "POCKET",
+  "format": null,
+  "name": "BZGC Pocket\ud83d\udd25 - LVL. 1 ~ The Very First",
+  "date": "2025-10-08T00:00:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

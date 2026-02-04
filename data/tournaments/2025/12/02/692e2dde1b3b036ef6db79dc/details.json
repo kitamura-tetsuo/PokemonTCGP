@@ -1,0 +1,29 @@
+{
+  "id": "692e2dde1b3b036ef6db79dc",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Standard Mega Standard #8-$5",
+  "date": "2025-12-02T22:00:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

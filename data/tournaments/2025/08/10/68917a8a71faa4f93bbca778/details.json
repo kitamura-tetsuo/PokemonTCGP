@@ -1,0 +1,29 @@
+{
+  "id": "68917a8a71faa4f93bbca778",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans Pok\u00e9mon TCG Pocket Chile Open #11",
+  "date": "2025-08-10T18:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2364,
+    "name": "Fans Pok\u00e9mon TCG Pocket Chile "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

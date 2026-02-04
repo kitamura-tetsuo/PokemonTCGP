@@ -1,0 +1,29 @@
+{
+  "id": "694dc04b4500833d8701813b",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS Soflo's PopUp FULL ART Serena AND Clemont",
+  "date": "2025-12-26T01:10:00.000Z",
+  "players": 122,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6837d908c4596e8122350315",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 THE SAGA LEAGUE WEEKLY #9 \u2022 10 USD Prize \ud83c\udfc6",
+  "date": "2025-06-04T20:30:00.000Z",
+  "players": 145,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

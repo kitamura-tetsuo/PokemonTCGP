@@ -1,0 +1,29 @@
+{
+  "id": "69568db9ba66621ba08afc7f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frapp\u00e9sdrinker's New Year, New Me! (10USD + Cards)",
+  "date": "2026-01-01T21:00:00.000Z",
+  "players": 183,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

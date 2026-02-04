@@ -1,0 +1,29 @@
+{
+  "id": "695ff7b3ba66621ba08b72f7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a uwu tournament #6 \u025e \u2503 15 USD + FA Cyrus & Mars",
+  "date": "2026-01-14T01:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

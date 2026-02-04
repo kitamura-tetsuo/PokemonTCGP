@@ -1,0 +1,29 @@
+{
+  "id": "6889307b8c0cf80c508d142f",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Wide League Friday Night Shuffle #6",
+  "date": "2025-08-02T02:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 637,
+    "name": "The Wide League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

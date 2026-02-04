@@ -1,0 +1,29 @@
+{
+  "id": "6859d31e27d8bc24cf25a07f",
+  "game": "POCKET",
+  "format": null,
+  "name": "LATE NIGHT - Pride Month Pocket Tournament #19",
+  "date": "2025-06-24T02:00:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

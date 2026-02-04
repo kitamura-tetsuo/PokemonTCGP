@@ -1,0 +1,29 @@
+{
+  "id": "6834c504c4596e812234f056",
+  "game": "POCKET",
+  "format": null,
+  "name": "Late Night Pocket #17 10\u20ac PRIZING!!",
+  "date": "2025-05-27T23:30:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

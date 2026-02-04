@@ -1,0 +1,29 @@
+{
+  "id": "6863d4a427d8bc24cf25ea3e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38 French National Day Cup \u2022 200 USD Prize \ud83d\udd31",
+  "date": "2025-07-14T18:00:00.000Z",
+  "players": 339,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

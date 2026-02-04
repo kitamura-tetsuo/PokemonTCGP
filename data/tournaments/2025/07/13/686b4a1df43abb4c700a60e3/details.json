@@ -1,0 +1,35 @@
+{
+  "id": "686b4a1df43abb4c700a60e3",
+  "game": "POCKET",
+  "format": null,
+  "name": "underground late pocket special 90$usd",
+  "date": "2025-07-13T22:30:00.000Z",
+  "players": 139,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67e55523fb3a86a4cffd0c26",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "No EX Tournament - CHEF'S CUP \ud83d\udc68\u200d\ud83c\udf73 #4",
+  "date": "2025-05-09T10:30:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

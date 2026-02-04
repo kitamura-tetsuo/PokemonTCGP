@@ -1,0 +1,23 @@
+{
+  "id": "681b2b0ad7ac342ba9050659",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 NON-EX GRAND TOURNAMENT #4 \ud83c\udfc6",
+  "date": "2025-05-27T20:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

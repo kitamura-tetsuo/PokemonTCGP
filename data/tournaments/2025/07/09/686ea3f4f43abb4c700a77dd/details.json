@@ -1,0 +1,29 @@
+{
+  "id": "686ea3f4f43abb4c700a77dd",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League 20usd Blitz",
+  "date": "2025-07-09T23:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

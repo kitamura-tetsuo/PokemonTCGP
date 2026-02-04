@@ -1,0 +1,29 @@
+{
+  "id": "6970b05cb1294bfab72029a7",
+  "game": "POCKET",
+  "format": null,
+  "name": "France Training Conquest",
+  "date": "2026-01-22T18:15:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

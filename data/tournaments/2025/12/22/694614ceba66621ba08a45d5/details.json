@@ -1,0 +1,29 @@
+{
+  "id": "694614ceba66621ba08a45d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Showdown Mega Monday #2 (FA+RR Lopunny)",
+  "date": "2025-12-22T13:05:00.000Z",
+  "players": 140,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

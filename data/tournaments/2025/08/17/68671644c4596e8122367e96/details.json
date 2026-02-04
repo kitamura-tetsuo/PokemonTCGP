@@ -1,0 +1,29 @@
+{
+  "id": "68671644c4596e8122367e96",
+  "game": "POCKET",
+  "format": null,
+  "name": "Venova League 2\u00b0 Edici\u00f3n",
+  "date": "2025-08-17T20:00:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2282,
+    "name": "Haxorus Lair"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "688ecca271faa4f93bbc8b3a",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREINO X CLT - SEMANAL FREE - Prize $ 100,00 BRL",
+  "date": "2025-08-05T22:00:00.000Z",
+  "players": 162,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

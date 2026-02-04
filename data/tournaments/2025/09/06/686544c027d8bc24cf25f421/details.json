@@ -1,0 +1,29 @@
+{
+  "id": "686544c027d8bc24cf25f421",
+  "game": "POCKET",
+  "format": null,
+  "name": "Game Corner - TCGPocket Ver\u00e3o 2025",
+  "date": "2025-09-06T14:00:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 674,
+    "name": "Pok\u00e9mon Portugal"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

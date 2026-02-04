@@ -1,0 +1,29 @@
+{
+  "id": "68b4fa44827e9d163f83442d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Jules x Pabsy Cup #5 - $40 Prize Pool",
+  "date": "2025-09-03T18:00:00.000Z",
+  "players": 176,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

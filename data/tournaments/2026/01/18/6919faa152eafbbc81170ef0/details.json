@@ -1,0 +1,29 @@
+{
+  "id": "6919faa152eafbbc81170ef0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX Super Cup \u2022 100 USD Prize [S4-6/6]\ud83d\udc38",
+  "date": "2026-01-18T17:00:00.000Z",
+  "players": 254,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

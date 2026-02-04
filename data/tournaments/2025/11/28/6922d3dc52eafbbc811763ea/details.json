@@ -1,0 +1,29 @@
+{
+  "id": "6922d3dc52eafbbc811763ea",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hanafuda Pocket Clash #11",
+  "date": "2025-11-28T18:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 956,
+    "name": "Vivid Arise eSports"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

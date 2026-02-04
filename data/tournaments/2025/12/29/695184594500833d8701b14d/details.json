@@ -1,0 +1,29 @@
+{
+  "id": "695184594500833d8701b14d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99 & Frappesdrinker's Monday Prize Lottery",
+  "date": "2025-12-29T17:00:00.000Z",
+  "players": 247,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

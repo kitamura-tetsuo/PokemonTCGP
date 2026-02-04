@@ -1,0 +1,29 @@
+{
+  "id": "681a2053524e86dc8e9f46de",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL - No-Ex Sunday [Custom] [5 Usd$]",
+  "date": "2025-05-06T19:45:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

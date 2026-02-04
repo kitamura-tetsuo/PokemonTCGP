@@ -1,0 +1,29 @@
+{
+  "id": "692649ae52eafbbc81178791",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frapp\u00e9sdrinker\u2019s mid-week Pop Up (FA card prize)",
+  "date": "2025-11-26T11:30:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

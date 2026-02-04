@@ -1,0 +1,29 @@
+{
+  "id": "6953ba534500833d8701cee0",
+  "game": "POCKET",
+  "format": null,
+  "name": "PGL New Year Special! (100$)",
+  "date": "2026-01-01T18:00:00.000Z",
+  "players": 401,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "683ca68727d8bc24cf24b5b5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fan Pokemon tcg pocket chile park  1# 15 USD",
+  "date": "2025-06-07T21:30:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2364,
+    "name": "Fans Pok\u00e9mon TCG Pocket Chile "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

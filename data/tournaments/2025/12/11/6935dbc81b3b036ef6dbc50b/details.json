@@ -1,0 +1,29 @@
+{
+  "id": "6935dbc81b3b036ef6dbc50b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99 Madness (FA Mars + RR Indeedee)",
+  "date": "2025-12-11T03:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "685ee6ac27d8bc24cf25bce2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0eWORLD CUP\ud83c\udf0e $200 USD | Terremoto x Trainers TCG",
+  "date": "2025-07-12T16:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

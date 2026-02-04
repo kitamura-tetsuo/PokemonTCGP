@@ -1,0 +1,44 @@
+{
+  "id": "682d631b538fc8c344fe4a8b",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc51 Simbozz - NoEX PopUp Showdown - Community Cup",
+  "date": "2025-05-23T17:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68111406fcf14d4e4278facf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Danielcmini tournament\ud83c\udfc6: PREMIUM PASS",
+  "date": "2025-05-04T16:00:00.000Z",
+  "players": 180,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

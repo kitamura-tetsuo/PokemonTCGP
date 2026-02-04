@@ -1,0 +1,29 @@
+{
+  "id": "6817749ad7ac342ba904e884",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL- Welcome - [5 USD]",
+  "date": "2025-05-04T18:00:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

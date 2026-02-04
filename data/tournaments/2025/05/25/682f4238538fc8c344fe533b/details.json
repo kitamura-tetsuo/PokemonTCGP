@@ -1,0 +1,181 @@
+{
+  "id": "682f4238538fc8c344fe533b",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Danielcmini NOT META tournament",
+  "date": "2025-05-25T16:00:00.000Z",
+  "players": 54,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Beedril ex",
+      "set": "A2b",
+      "number": "3"
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": "18"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": "95"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": "3"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Meowscarada",
+      "set": "A2b",
+      "number": "7"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": "10"
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A3",
+      "number": "12"
+    },
+    {
+      "name": "Incineroar ex",
+      "set": "A3",
+      "number": "33"
+    },
+    {
+      "name": "Crabominable ex",
+      "set": "A3",
+      "number": "49"
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": "122"
+    },
+    {
+      "name": "Garchomp ex",
+      "set": "A2a",
+      "number": "47"
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": "23"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Lycanroc",
+      "set": "A3",
+      "number": "101"
+    },
+    {
+      "name": "Tapu lele",
+      "set": "A3",
+      "number": "84"
+    },
+    {
+      "name": "Snorlax",
+      "set": "A2a",
+      "number": "63"
+    },
+    {
+      "name": "Crobat",
+      "set": "A2a",
+      "number": "50"
+    },
+    {
+      "name": "Gengar",
+      "set": "A2a",
+      "number": "33"
+    },
+    {
+      "name": "Beedril",
+      "set": "A1",
+      "number": "10"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Banette",
+      "set": "A3",
+      "number": "75"
+    }
+  ]
+}

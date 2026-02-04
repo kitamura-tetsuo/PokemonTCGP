@@ -1,0 +1,23 @@
+{
+  "id": "6903d33224b8f37ae93ca752",
+  "game": "POCKET",
+  "format": null,
+  "name": "B1 Monometa internal celebration Tournament #2",
+  "date": "2025-10-31T19:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2410,
+    "name": "MONOMETA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

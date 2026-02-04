@@ -1,0 +1,29 @@
+{
+  "id": "68e20c6df661e4a158de7f61",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC Celebration Tournament! 150$",
+  "date": "2025-10-12T13:00:00.000Z",
+  "players": 165,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

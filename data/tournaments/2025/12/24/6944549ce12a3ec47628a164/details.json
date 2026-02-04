@@ -1,0 +1,35 @@
+{
+  "id": "6944549ce12a3ec47628a164",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ericko x Soflo Circuit FULL ART 1-8th place!",
+  "date": "2025-12-24T20:00:00.000Z",
+  "players": 195,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "694b436e4500833d87016cb2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd73 Happy New Year Wishes (20$,FA CYRUS,LUSA DELX)",
+  "date": "2026-01-01T14:25:00.000Z",
+  "players": 310,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

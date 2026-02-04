@@ -1,0 +1,29 @@
+{
+  "id": "6956f63cba66621ba08b0447",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Pocket Rapid #13 (FA Venusaur)",
+  "date": "2026-01-02T00:05:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "684c27bec4596e812235b54f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0eASIA\ud83c\udf0eWC QUALS $200 | Terremoto x Trainers TCG",
+  "date": "2025-06-15T08:00:00.000Z",
+  "players": 76,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

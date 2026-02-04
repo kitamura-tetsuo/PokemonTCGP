@@ -1,0 +1,29 @@
+{
+  "id": "68170921524e86dc8e9f31ff",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Battle tower 8",
+  "date": "2025-05-10T12:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

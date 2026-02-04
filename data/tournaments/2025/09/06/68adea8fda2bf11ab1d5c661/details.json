@@ -1,0 +1,66 @@
+{
+  "id": "68adea8fda2bf11ab1d5c661",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff4\u200d\u2620\ufe0f Pocket Lagoon Banlist Event \ud83c\udf0a #1",
+  "date": "2025-09-06T02:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Sylveon ex",
+      "set": "A3b",
+      "number": "34"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Lusamine",
+      "set": "A3a",
+      "number": "69"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    }
+  ]
+}

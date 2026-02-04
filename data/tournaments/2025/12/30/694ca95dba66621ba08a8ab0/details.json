@@ -1,0 +1,29 @@
+{
+  "id": "694ca95dba66621ba08a8ab0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Last Ride\ud83e\udd42 Showdown Mega Tuesday #3 (5$+1 Star)",
+  "date": "2025-12-30T13:05:00.000Z",
+  "players": 204,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

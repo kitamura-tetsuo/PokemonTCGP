@@ -1,0 +1,29 @@
+{
+  "id": "6969bad6ba66621ba08bd01d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm meets Frapp\u00e9sdrinker (10$+FA Cards)",
+  "date": "2026-01-20T19:15:00.000Z",
+  "players": 140,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

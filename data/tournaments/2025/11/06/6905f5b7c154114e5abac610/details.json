@@ -1,0 +1,29 @@
+{
+  "id": "6905f5b7c154114e5abac610",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udccf Narnia's Training Grounds #8 - CARD REWARD \ud83c\udccf",
+  "date": "2025-11-06T09:00:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

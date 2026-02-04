@@ -1,0 +1,29 @@
+{
+  "id": "68ee56b1dd7011c665c3836d",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC SPEED BO1 5$",
+  "date": "2025-10-17T13:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

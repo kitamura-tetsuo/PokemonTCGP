@@ -1,0 +1,29 @@
+{
+  "id": "68b780fada2bf11ab1d61d6c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Cantelli\u2019s Cup - #3\u00aa Edi\u00e7\u00e3o / XTreino OFC",
+  "date": "2025-09-06T18:00:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2082,
+    "name": "D.J-GAMES"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

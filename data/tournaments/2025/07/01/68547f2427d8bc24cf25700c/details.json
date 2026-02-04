@@ -1,0 +1,29 @@
+{
+  "id": "68547f2427d8bc24cf25700c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Regionals Week 1 - Tokyo \ud83c\uddef\ud83c\uddf5",
+  "date": "2025-07-01T23:30:00.000Z",
+  "players": 85,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6864a549c4596e8122366e8d",
+  "game": "POCKET",
+  "format": null,
+  "name": "The 0-2 Drop: Friday Night Pocket",
+  "date": "2025-07-11T12:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 2178,
+    "name": "The 0-2 Drop"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

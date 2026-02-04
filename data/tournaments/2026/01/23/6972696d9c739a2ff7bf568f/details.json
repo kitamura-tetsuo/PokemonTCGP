@@ -1,0 +1,29 @@
+{
+  "id": "6972696d9c739a2ff7bf568f",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Rapid #22 (FA DARKRAI)",
+  "date": "2026-01-23T01:07:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

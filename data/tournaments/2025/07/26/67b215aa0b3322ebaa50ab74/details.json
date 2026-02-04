@@ -1,0 +1,29 @@
+{
+  "id": "67b215aa0b3322ebaa50ab74",
+  "game": "POCKET",
+  "format": null,
+  "name": "CGL Monthly Cup #6 [15\u20ac]",
+  "date": "2025-07-26T12:00:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2107,
+    "name": "CGL"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

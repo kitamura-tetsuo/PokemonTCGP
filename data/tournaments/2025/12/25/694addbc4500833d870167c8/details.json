@@ -1,0 +1,29 @@
+{
+  "id": "694addbc4500833d870167c8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Xmas Day Extravaganza-$10+",
+  "date": "2025-12-25T17:05:00.000Z",
+  "players": 237,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

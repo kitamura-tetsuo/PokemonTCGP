@@ -1,0 +1,29 @@
+{
+  "id": "690d7b11fde2eb785721f84e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udccfNarnia's Training Grounds #10 - FA OAK to 1st \ud83c\udccf",
+  "date": "2025-11-23T08:00:00.000Z",
+  "players": 166,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

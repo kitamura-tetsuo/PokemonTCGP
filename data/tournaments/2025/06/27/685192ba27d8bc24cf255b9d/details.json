@@ -1,0 +1,29 @@
+{
+  "id": "685192ba27d8bc24cf255b9d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0bMagma $10,000 Series Soon - $100 USD NEW SET\ud83c\udf3f",
+  "date": "2025-06-27T20:00:00.000Z",
+  "players": 280,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

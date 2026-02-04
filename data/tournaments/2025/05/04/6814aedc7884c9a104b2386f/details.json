@@ -1,0 +1,29 @@
+{
+  "id": "6814aedc7884c9a104b2386f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc5VICTORY ROAD\ud83c\udfc5$10 USD | Terremoto x Trainers TCG",
+  "date": "2025-05-04T17:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

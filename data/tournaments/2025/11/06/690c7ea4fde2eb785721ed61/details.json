@@ -1,0 +1,29 @@
+{
+  "id": "690c7ea4fde2eb785721ed61",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mega League - PTCG Pocket #2 - 5 USD",
+  "date": "2025-11-06T20:30:00.000Z",
+  "players": 69,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6933aa36e12a3ec476281c01",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - \ud83c\udf85Advent Door #7 [Mars FA][30$Saison]",
+  "date": "2025-12-07T21:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

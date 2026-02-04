@@ -1,0 +1,29 @@
+{
+  "id": "685482e9c4596e812235ecd2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Regionals Week 4 - Paris \ud83c\uddeb\ud83c\uddf7",
+  "date": "2025-07-22T23:30:00.000Z",
+  "players": 67,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

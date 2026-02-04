@@ -1,0 +1,29 @@
+{
+  "id": "69129db4b11d3f5498bbb6e5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon Moonlight Masquerade (5 USD)",
+  "date": "2025-11-14T03:00:00.000Z",
+  "players": 135,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

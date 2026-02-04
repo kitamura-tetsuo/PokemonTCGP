@@ -1,0 +1,29 @@
+{
+  "id": "694703cdba66621ba08a527f",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Pocket Rapid #8 [Choose your FA]",
+  "date": "2025-12-20T21:30:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

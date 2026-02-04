@@ -1,0 +1,95 @@
+{
+  "id": "67fb376bb8cdc8c08c20b9f0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Narnia's Lamp League Series 2 Invitationals",
+  "date": "2025-04-27T08:30:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Arceus ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucario",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Manaphy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Team Rocket Grunt",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonlee",
+      "set": "A1",
+      "number": null
+    }
+  ]
+}

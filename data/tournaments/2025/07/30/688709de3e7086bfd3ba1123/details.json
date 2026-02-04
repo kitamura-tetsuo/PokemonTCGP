@@ -1,0 +1,29 @@
+{
+  "id": "688709de3e7086bfd3ba1123",
+  "game": "POCKET",
+  "format": null,
+  "name": "xPabsy Cup #3 - $20 Prize Pool",
+  "date": "2025-07-30T17:00:00.000Z",
+  "players": 154,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

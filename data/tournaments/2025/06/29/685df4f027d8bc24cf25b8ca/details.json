@@ -1,0 +1,29 @@
+{
+  "id": "685df4f027d8bc24cf25b8ca",
+  "game": "POCKET",
+  "format": null,
+  "name": "Venova League 1\u00b0 Edici\u00f3n",
+  "date": "2025-06-29T20:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2282,
+    "name": "Haxorus Lair"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

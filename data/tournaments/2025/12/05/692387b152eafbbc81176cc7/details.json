@@ -1,0 +1,29 @@
+{
+  "id": "692387b152eafbbc81176cc7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99 x Underground Friday Madness #3 (5 USD)",
+  "date": "2025-12-05T17:00:00.000Z",
+  "players": 71,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68d99ab3f661e4a158de3288",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon 3v3 Team Event",
+  "date": "2025-11-15T03:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO5"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

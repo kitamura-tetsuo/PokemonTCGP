@@ -1,0 +1,29 @@
+{
+  "id": "687a71ec164bc0b138406487",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6POCKET TOUR TOURNAMENT #22\ud83c\udfc6",
+  "date": "2025-07-24T14:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 1723,
+    "name": "Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

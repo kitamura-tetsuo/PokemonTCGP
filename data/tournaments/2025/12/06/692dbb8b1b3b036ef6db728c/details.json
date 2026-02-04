@@ -1,0 +1,30 @@
+{
+  "id": "692dbb8b1b3b036ef6db728c",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #11 - MEGA MARVEL!!! | $250 USD",
+  "date": "2025-12-06T17:00:00.000Z",
+  "players": 411,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/ah8scq06b93us7q8"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

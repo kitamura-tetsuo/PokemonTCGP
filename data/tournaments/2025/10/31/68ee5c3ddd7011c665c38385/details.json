@@ -1,0 +1,29 @@
+{
+  "id": "68ee5c3ddd7011c665c38385",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC's 30$  HALLOWEEN CUP",
+  "date": "2025-10-31T14:00:00.000Z",
+  "players": 182,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

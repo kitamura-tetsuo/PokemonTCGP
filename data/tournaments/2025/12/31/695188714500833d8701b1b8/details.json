@@ -1,0 +1,29 @@
+{
+  "id": "695188714500833d8701b1b8",
+  "game": "POCKET",
+  "format": null,
+  "name": "New Year's Eve Madness\ud83c\udf86 10$ + FA prizes + Lottery",
+  "date": "2025-12-31T17:15:00.000Z",
+  "players": 352,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

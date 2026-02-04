@@ -1,0 +1,29 @@
+{
+  "id": "68998367196e12cfd56a52f6",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC 200$ Back to school BASH",
+  "date": "2025-08-31T13:00:00.000Z",
+  "players": 278,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6933794ae12a3ec47628198c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Chaos League Pocket Saturdays #47",
+  "date": "2025-12-06T22:30:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1254,
+    "name": "Chaos League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

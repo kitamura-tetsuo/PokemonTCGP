@@ -1,0 +1,29 @@
+{
+  "id": "683731d2c4596e812234fe08",
+  "game": "POCKET",
+  "format": null,
+  "name": "Sakura Series | SZN 01 \u2014 Week 01 \ud83c\udf38",
+  "date": "2025-05-28T23:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2026,
+    "name": "sherichery"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

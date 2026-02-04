@@ -1,0 +1,29 @@
+{
+  "id": "692f1823e12a3ec47627f6ea",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31ImperiumSeries \u00d7 Lootbar.gg 20 USD Prize [6/8]",
+  "date": "2025-12-04T18:30:00.000Z",
+  "players": 144,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

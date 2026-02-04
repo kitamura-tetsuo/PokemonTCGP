@@ -1,0 +1,29 @@
+{
+  "id": "6963c4fdba66621ba08b9b50",
+  "game": "POCKET",
+  "format": null,
+  "name": "101 Tourney Celebrity - [Rapid] 10$+OAK+Loppuny FA",
+  "date": "2026-01-11T23:35:00.000Z",
+  "players": 71,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

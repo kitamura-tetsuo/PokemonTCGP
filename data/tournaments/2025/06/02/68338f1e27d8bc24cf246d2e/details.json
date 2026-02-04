@@ -1,0 +1,29 @@
+{
+  "id": "68338f1e27d8bc24cf246d2e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX Extradimensional Crisis \u2022 30 USD Prize\ud83d\udc38",
+  "date": "2025-06-02T18:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

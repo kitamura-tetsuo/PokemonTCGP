@@ -1,0 +1,29 @@
+{
+  "id": "68227809524e86dc8e9f9163",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc26\u200d\ud83d\udd25 RyuZen\ud83d\udc26\u200d\ud83d\udd25 #1 Price Tournament \u2022 30 USD",
+  "date": "2025-05-20T17:25:00.000Z",
+  "players": 185,
+  "organizer": {
+    "id": 2217,
+    "name": "PokeMeta Warriors"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

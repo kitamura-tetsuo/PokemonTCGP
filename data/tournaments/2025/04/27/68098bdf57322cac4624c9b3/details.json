@@ -1,0 +1,151 @@
+{
+  "id": "68098bdf57322cac4624c9b3",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Danielcmini NOT META tournament\ud83c\udfc6",
+  "date": "2025-04-27T16:00:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Beedril ex",
+      "set": "A2b",
+      "number": "3"
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": "18"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Palkia ex",
+      "set": "A2",
+      "number": "49"
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": "95"
+    },
+    {
+      "name": "Weavile ex",
+      "set": "A2",
+      "number": "99"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": "119"
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": "3"
+    },
+    {
+      "name": "Mew ex",
+      "set": "A1a",
+      "number": "32"
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": "23"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Moltres ex",
+      "set": "A1",
+      "number": "47"
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "A1",
+      "number": "56"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "84"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Wugtrio ex",
+      "set": "A2b",
+      "number": "19"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A2b",
+      "number": "22"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Meowscarada",
+      "set": "A2b",
+      "number": "7"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    }
+  ]
+}

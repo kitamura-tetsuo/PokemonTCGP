@@ -1,0 +1,29 @@
+{
+  "id": "69518900ba66621ba08ac2cb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm's Mega Monday-The Finale-$5",
+  "date": "2025-12-29T20:15:00.000Z",
+  "players": 253,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

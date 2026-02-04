@@ -1,0 +1,29 @@
+{
+  "id": "6914938e52eafbbc8116d7f1",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd73PTCG Pocket Birthday Edition xPabsy\ud83e\udd73-5$",
+  "date": "2025-11-12T20:30:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

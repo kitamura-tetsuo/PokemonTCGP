@@ -1,0 +1,29 @@
+{
+  "id": "68883be28c0cf80c508d0c73",
+  "game": "POCKET",
+  "format": null,
+  "name": "Danielcmini tournament\ud83c\udfc6",
+  "date": "2025-08-03T16:00:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

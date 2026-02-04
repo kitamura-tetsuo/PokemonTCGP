@@ -1,0 +1,29 @@
+{
+  "id": "69247b23b11d3f5498bc67a5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2744\ufe0f BEC'S 25$ WINTER WEEKLY",
+  "date": "2025-11-29T14:30:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "680ea3b8fcf14d4e4278ee73",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1 #-1 FASTER THAN THE LIGHT TOURNAMENT SEASON 2\u26a1",
+  "date": "2025-04-28T13:00:00.000Z",
+  "players": 72,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "694a5eceba66621ba08a7973",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS hvk's EU PopUp 1st FA MZard Y 2nd FA Blastoise",
+  "date": "2025-12-23T17:45:00.000Z",
+  "players": 184,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

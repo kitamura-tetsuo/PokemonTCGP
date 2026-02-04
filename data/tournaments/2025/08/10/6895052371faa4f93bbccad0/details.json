@@ -1,0 +1,29 @@
+{
+  "id": "6895052371faa4f93bbccad0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mach Punch",
+  "date": "2025-08-10T23:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 848,
+    "name": "Ewokpadawan "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

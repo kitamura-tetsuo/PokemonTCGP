@@ -1,0 +1,29 @@
+{
+  "id": "69334932e12a3ec476281790",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - \ud83c\udf85 Santa Claus [Cyrus or Mars] \ud83c\udf85",
+  "date": "2025-12-06T00:15:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

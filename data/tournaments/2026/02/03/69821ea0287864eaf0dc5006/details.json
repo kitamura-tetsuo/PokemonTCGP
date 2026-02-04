@@ -1,0 +1,29 @@
+{
+  "id": "69821ea0287864eaf0dc5006",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY \ud801\udd0c\u055e. .\u055e\ud802\uddaf DARKTINA (PRIZE FA MARS)",
+  "date": "2026-02-03T22:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2553,
+    "name": "Sekkarou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "68196120524e86dc8e9f4526",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\uddef\ud83c\uddf5 World Challenge Series #1",
+  "date": "2025-05-10T04:00:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2351,
+    "name": "Yuki Kantoh League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

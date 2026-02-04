@@ -1,0 +1,29 @@
+{
+  "id": "69678c5a4500833d8702b92e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rapid #20 (FA Zard/RR Lopunny) [FA OAK by 100+ BR]",
+  "date": "2026-01-17T23:30:00.000Z",
+  "players": 50,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

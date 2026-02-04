@@ -1,0 +1,29 @@
+{
+  "id": "683a176a27d8bc24cf249762",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6POKEHUB CUP\ud83c\udfc6$150 USD | Terremoto x Trainers TCG",
+  "date": "2025-06-06T20:00:00.000Z",
+  "players": 719,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "688ec28571faa4f93bbc89ab",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREINO COPA GOLD/SILVER - Prize $ 900 BRL",
+  "date": "2025-08-11T21:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

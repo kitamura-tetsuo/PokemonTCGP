@@ -1,0 +1,29 @@
+{
+  "id": "6821f19cd7ac342ba90543d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pokemon Costa Rica TCG Pocket #1",
+  "date": "2025-05-25T20:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 1387,
+    "name": "Pok\u00e9mon Costa Rica"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

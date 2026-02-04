@@ -1,0 +1,29 @@
+{
+  "id": "689193c571faa4f93bbca825",
+  "game": "POCKET",
+  "format": null,
+  "name": "Underground pocket WOMEN league $10usd",
+  "date": "2025-08-11T21:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

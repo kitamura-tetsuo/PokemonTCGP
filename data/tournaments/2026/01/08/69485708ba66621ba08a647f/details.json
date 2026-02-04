@@ -1,0 +1,29 @@
+{
+  "id": "69485708ba66621ba08a647f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2728Tournoi \ud835\udc7f\ud835\udc7b\ud835\udc79\ud835\udc6c\ud835\udc74 N\u00b01 (Cyrus + Serena \ud83c\udf1f\ud83c\udf1f)\u2728",
+  "date": "2026-01-08T19:00:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2188,
+    "name": "Legendixo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

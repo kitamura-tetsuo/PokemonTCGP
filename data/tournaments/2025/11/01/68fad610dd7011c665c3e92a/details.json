@@ -1,0 +1,29 @@
+{
+  "id": "68fad610dd7011c665c3e92a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf83Umbreon x Underground Halloween Mashup $50 USD\ud83c\udf83",
+  "date": "2025-11-01T02:10:00.000Z",
+  "players": 185,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

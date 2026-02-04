@@ -1,0 +1,29 @@
+{
+  "id": "695fb567ba66621ba08b7088",
+  "game": "POCKET",
+  "format": null,
+  "name": "2222 Member Celebrity - 10$ + CYRUS, CC, Absol 2*",
+  "date": "2026-01-09T00:50:00.000Z",
+  "players": 93,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

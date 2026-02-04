@@ -1,0 +1,29 @@
+{
+  "id": "68a884e0da2bf11ab1d59381",
+  "game": "POCKET",
+  "format": null,
+  "name": "500 BRL Pr\u00eamio - Torneio CLT x X-TREINO Mensal #2",
+  "date": "2025-08-26T21:00:00.000Z",
+  "players": 153,
+  "organizer": {
+    "id": 2133,
+    "name": "Hora da Batalha"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

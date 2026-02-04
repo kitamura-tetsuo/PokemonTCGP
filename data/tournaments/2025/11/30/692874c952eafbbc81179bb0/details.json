@@ -1,0 +1,29 @@
+{
+  "id": "692874c952eafbbc81179bb0",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - Pocket Big Finals - 30$",
+  "date": "2025-11-30T20:00:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "690cb0a3fde2eb785721ee1e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Crew Mega Wars #4",
+  "date": "2025-11-07T19:00:00.000Z",
+  "players": 118,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6813d3877884c9a104b234f4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6Heaven`s Spring Mono Cup BO3 #13\ud83c\udfc6",
+  "date": "2025-05-25T14:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "MONOTYPE"
+  ]
+}

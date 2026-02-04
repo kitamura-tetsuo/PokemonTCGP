@@ -1,0 +1,29 @@
+{
+  "id": "68a0a152196e12cfd56a81f2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Jules x Pabsy Cup #3 - $40 Prize Pool",
+  "date": "2025-08-20T18:00:00.000Z",
+  "players": 232,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

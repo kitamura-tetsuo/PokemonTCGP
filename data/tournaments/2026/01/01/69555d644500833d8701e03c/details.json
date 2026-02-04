@@ -1,0 +1,29 @@
+{
+  "id": "69555d644500833d8701e03c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's New Year's Celebration 5 USD + Copycat",
+  "date": "2026-01-01T02:22:00.000Z",
+  "players": 214,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6928cdcc52eafbbc81179efb",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew - PTCG [P] Rapid #1",
+  "date": "2025-11-27T23:30:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

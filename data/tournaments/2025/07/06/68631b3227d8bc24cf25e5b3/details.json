@@ -1,0 +1,29 @@
+{
+  "id": "68631b3227d8bc24cf25e5b3",
+  "game": "POCKET",
+  "format": null,
+  "name": "underground pocket special",
+  "date": "2025-07-06T01:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

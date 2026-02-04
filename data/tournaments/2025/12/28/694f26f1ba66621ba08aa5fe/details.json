@@ -1,0 +1,35 @@
+{
+  "id": "694f26f1ba66621ba08aa5fe",
+  "game": "POCKET",
+  "format": null,
+  "name": "ExS Circuit Sunday 1st - 8th FA Prizes",
+  "date": "2025-12-28T20:00:00.000Z",
+  "players": 209,
+  "organizer": {
+    "id": 2505,
+    "name": "Soflo305x Championship"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

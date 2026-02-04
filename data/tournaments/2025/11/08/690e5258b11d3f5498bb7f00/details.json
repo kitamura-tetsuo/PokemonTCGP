@@ -1,0 +1,29 @@
+{
+  "id": "690e5258b11d3f5498bb7f00",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Daily Tournament #44",
+  "date": "2025-11-08T00:30:00.000Z",
+  "players": 49,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

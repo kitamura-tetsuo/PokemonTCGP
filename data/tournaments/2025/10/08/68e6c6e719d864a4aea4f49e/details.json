@@ -1,0 +1,29 @@
+{
+  "id": "68e6c6e719d864a4aea4f49e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon League - Daily Tournament #32",
+  "date": "2025-10-08T23:30:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

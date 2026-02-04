@@ -1,0 +1,29 @@
+{
+  "id": "6884c7673e7086bfd3b9f310",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Mensal Agosto - Prize $400 BRL",
+  "date": "2025-08-04T03:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "684f17ab27d8bc24cf25502e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0bMagma $10,000 Series Soon - $50 USD Weekly Cup\ud83c\udf0b",
+  "date": "2025-06-20T17:00:00.000Z",
+  "players": 245,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

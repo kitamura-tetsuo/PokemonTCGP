@@ -1,0 +1,29 @@
+{
+  "id": "6811b9f27884c9a104b22833",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf11C0unter3d Official\u2734\ufe0fMonday Weekly #4",
+  "date": "2025-05-05T17:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

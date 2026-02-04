@@ -1,0 +1,23 @@
+{
+  "id": "67fd1f77b8cdc8c08c20cb09",
+  "game": "POCKET",
+  "format": null,
+  "name": "KaBuM! TCG Pocket | Playoffs",
+  "date": "2025-04-27T17:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2325,
+    "name": "KaBuM!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "695b9b66ba66621ba08b46d6",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2744\ufe0f BEC'S 25$ WINTER CLASH",
+  "date": "2026-01-09T14:30:00.000Z",
+  "players": 132,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

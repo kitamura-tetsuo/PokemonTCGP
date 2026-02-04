@@ -1,0 +1,29 @@
+{
+  "id": "696e30829c739a2ff7bf35cf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket 50$+FA card(DAY 2 TOP CUT)",
+  "date": "2026-01-22T22:00:00.000Z",
+  "players": 143,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
