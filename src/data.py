@@ -320,14 +320,24 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
     if updated:
         try:
             os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
-            temp_file = CACHE_FILE + ".tmp"
-            with open(temp_file, "w") as f:
-                json.dump({"dates": cache, "signatures": signatures}, f)
-            os.replace(temp_file, CACHE_FILE)
+            # Use mkstemp to avoid race conditions with fixed temp filename
+            import tempfile
+            fd, temp_path = tempfile.mkstemp(dir=os.path.dirname(CACHE_FILE), suffix='.tmp')
             
-            # Clear internal cache to force reload
-            global _SIGNATURES_CACHE
-            _SIGNATURES_CACHE = None 
+            try:
+                with os.fdopen(fd, 'w') as f:
+                    json.dump({"dates": cache, "signatures": signatures}, f)
+                os.replace(temp_path, CACHE_FILE)
+                
+                # Clear internal cache to force reload
+                global _SIGNATURES_CACHE
+                _SIGNATURES_CACHE = None
+            except Exception as e:
+                # Clean up temp file if something failed before replace
+                if os.path.exists(temp_path):
+                    os.remove(temp_path)
+                raise e
+                
         except Exception as e:
             logger.error(f"Error saving cache: {e}")
             
@@ -819,7 +829,7 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
     # 2. Map Signatures to Groups
     sig_to_groups = {}
     for sig, info in sig_lookup.items():
-        deck_cards = set(c["name"] for c in info.get("cards", []))
+        deck_cards = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
         matched_groups = []
         for g in groups:
             inc = g.get("include", [])

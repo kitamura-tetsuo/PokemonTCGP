@@ -11,19 +11,35 @@ def render_combinations_page():
 
     all_card_ids = get_all_card_ids()
 
+    # --- Query Param Defaults ---
+    qp = st.query_params
+    q_period = qp.get("period")
+    q_window = int(qp.get("window", 7))
+    q_include = qp.get_all("include")
+    q_exclude = qp.get_all("exclude")
+    q_vars = qp.get_all("vars")
+
+    # Validate Card IDs
+    q_include = [c for c in q_include if c in all_card_ids]
+    q_exclude = [c for c in q_exclude if c in all_card_ids and c not in q_include]
+    q_vars = [c for c in q_vars if c in all_card_ids and c not in q_include and c not in q_exclude]
+
     # --- Controls ---
     with st.container():
         col1, col2 = st.columns(2)
         periods = _get_set_periods()
         with col1:
              period_options = [p["label"] for p in periods]
-             # Default to latest if available
+             # Determine index
              default_idx = 1 if len(periods) > 1 else 0
+             if q_period in period_options:
+                 default_idx = period_options.index(q_period)
+             
              selected_period_label = st.selectbox("Aggregation Period", options=period_options, index=default_idx)
              selected_period = next(p for p in periods if p["label"] == selected_period_label)
              standard_only = selected_period["label"] != "All"
         with col2:
-             window = st.slider("Moving Average Window (Days)", min_value=1, max_value=14, value=7)
+             window = st.slider("Moving Average Window (Days)", min_value=1, max_value=14, value=q_window)
 
     st.divider()
 
@@ -33,12 +49,15 @@ def render_combinations_page():
     
     col_g1, col_g2 = st.columns(2)
     with col_g1:
-        global_include = st.multiselect("Always Include (AND)", options=all_card_ids, help="Decks must contain ALL of these cards.", format_func=format_card_name)
+        global_include = st.multiselect("Always Include (AND)", options=all_card_ids, default=q_include, help="Decks must contain ALL of these cards.", format_func=format_card_name)
         render_filtered_cards(global_include)
     with col_g2:
         # Filter options to exclude already included cards
         exclude_options = [c for c in all_card_ids if c not in global_include]
-        global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, help="Decks must NOT contain ANY of these cards.", format_func=format_card_name)
+        # Clean default exclude if it conflicts with current include (user interactions)
+        curr_exclude_default = [c for c in q_exclude if c in exclude_options]
+        
+        global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, default=curr_exclude_default, help="Decks must NOT contain ANY of these cards.", format_func=format_card_name)
         render_filtered_cards(global_exclude)
 
     st.divider()
@@ -47,10 +66,19 @@ def render_combinations_page():
     st.subheader("2. Comparison Variables")
     st.caption("Select cards to compare. All meaningful combinations (Presence/Absence) will be analyzed.")
     
-    # Filter options to exclude global filters
+    # Filter options
     var_options = [c for c in all_card_ids if c not in global_include and c not in global_exclude]
-    var_cards = st.multiselect("Select Variables", options=var_options, format_func=format_card_name)
+    curr_vars_default = [c for c in q_vars if c in var_options]
+
+    var_cards = st.multiselect("Select Variables", options=var_options, default=curr_vars_default, format_func=format_card_name)
     render_filtered_cards(var_cards)
+
+    # --- Sync to URL ---
+    st.query_params["period"] = selected_period_label
+    st.query_params["window"] = window
+    st.query_params["include"] = global_include
+    st.query_params["exclude"] = global_exclude
+    st.query_params["vars"] = var_cards
     
     if len(var_cards) > 4:
         st.warning(f"You have selected {len(var_cards)} variables. This will generate {2**len(var_cards)} lines on the chart, which may be hard to read.")
