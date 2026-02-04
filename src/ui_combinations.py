@@ -162,20 +162,33 @@ def render_combinations_page():
         if df_share.empty:
             st.warning("No data found matching the criteria.")
         else:
+            show_ja = st.session_state.get("show_japanese_toggle", False)
             # Share Chart
             st.subheader("Metagame Share")
-            opt_share = create_echarts_line_comparison(df_share, y_axis_label="Share (%)")
+            label_share = "シェア" if show_ja else "Share"
+            label_wr = "勝率" if show_ja else "Win Rate"
+            
+            opt_share = create_echarts_line_comparison(
+                df_share, 
+                y_axis_label=f"{label_share} (%)",
+                secondary_df=df_wr,
+                secondary_label=label_wr
+            )
             display_chart(opt_share)
             
             # Win Rate Chart
             st.subheader("Win Rate")
-            opt_wr = create_echarts_line_comparison(df_wr, y_axis_label="Win Rate (%)")
+            opt_wr = create_echarts_line_comparison(
+                df_wr, 
+                y_axis_label=f"{label_wr} (%)",
+                secondary_df=df_share,
+                secondary_label=label_share
+            )
             display_chart(opt_wr)
             
             # Summary Table
             st.subheader("Period Statistics")
             summary = []
-            show_ja = st.session_state.get("show_japanese_toggle", False)
             
             # Columns
             col_group = "グループ" if show_ja else "Group"
@@ -194,11 +207,18 @@ def render_combinations_page():
                     
                     summary.append({
                         col_group: lbl,
-                        col_share: f"{avg_share:.2f}%",
-                        col_wr: f"{avg_wr:.2f}%",
+                        col_share: avg_share,
+                        col_wr: avg_wr,
                         col_matches: int(total_matches),
                         col_inc: ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
                         col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
                     })
             if summary:
-                st.dataframe(pd.DataFrame(summary), use_container_width=True)
+                st.dataframe(
+                    pd.DataFrame(summary), 
+                    use_container_width=True,
+                    column_config={
+                        col_share: st.column_config.NumberColumn(format="%.2f%%"),
+                        col_wr: st.column_config.NumberColumn(format="%.2f%%")
+                    }
+                )
