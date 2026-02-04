@@ -12,7 +12,8 @@ from collections import Counter
 from src.data import (
     get_daily_share_data, get_deck_details, get_all_card_names, 
     get_match_history, enrich_card_data, get_clustered_daily_share_data,
-    get_cluster_details, get_cluster_mapping, get_card_info_by_name
+    get_cluster_details, get_cluster_mapping, get_card_info_by_name,
+    load_enriched_sets
 )
 from src.visualizations import create_echarts_stacked_area, display_chart
 from src.config import IMAGE_BASE_URL
@@ -124,47 +125,31 @@ def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=Non
         )
 
 def _get_set_periods():
-    sets_path = os.path.join("data", "cards", "sets.json")
-    if not os.path.exists(sets_path):
-        return []
     try:
-        with open(sets_path, "r") as f:
-            data = json.load(f)
-        
-        all_sets = []
-        for series in data.values():
-            for s in series:
-                if "PROMO" not in s.get("code", ""):
-                    all_sets.append(s)
-        
-        all_sets.sort(key=lambda x: x.get("releaseDate", "9999-99-99"), reverse=True)
-        
-        periods = [{"label": "All", "start": None, "end": None}]
-        for i in range(len(all_sets)):
-            s = all_sets[i]
-            start = s.get("releaseDate")
-            name = s.get("name", {}).get("en", s.get("code"))
-            
-            # End date for the newest set is None (Now)
-            # End date for other sets is day before the one that was released AFTER it (which is the one before it in this descending list)
-            end = None
-            if i > 0:
-                # This set ends the day before the set released after it (which is all_sets[i-1])
-                pass 
-                
-        # Actually it is easier to calculate end dates FIRST then reverse.
-        # Let's redo the logic slightly for clarity.
-        all_sets.sort(key=lambda x: x.get("releaseDate", "9999-99-99"))
+        enriched_sets = load_enriched_sets()
+        show_ja = st.session_state.get("show_japanese_toggle", False)
         
         processed_periods = []
-        for i in range(len(all_sets)):
-            s = all_sets[i]
+        for i, s in enumerate(reversed(enriched_sets)): # Original logic was ascending then reversing, enriched_sets is already descending
+            # To match the end date calculation logic, let's process them in chronological order
+            pass
+        
+        # Actually it's cleaner to just redo the list processing
+        chronological_sets = sorted(enriched_sets, key=lambda x: x.get("releaseDate", "9999-99-99"))
+        
+        processed_periods = []
+        for i in range(len(chronological_sets)):
+            s = chronological_sets[i]
             start = s.get("releaseDate")
-            name = s.get("name", {}).get("en", s.get("code"))
+            
+            # Use name based on toggle
+            name = s.get("name_ja") if show_ja else s.get("name_en")
+            if not name:
+                name = s.get("code")
             
             end = None
-            if i < len(all_sets) - 1:
-                end_dt = datetime.strptime(all_sets[i+1]["releaseDate"], "%Y-%m-%d") - timedelta(days=1)
+            if i < len(chronological_sets) - 1:
+                end_dt = datetime.strptime(chronological_sets[i+1]["releaseDate"], "%Y-%m-%d") - timedelta(days=1)
                 end = end_dt.strftime("%Y-%m-%d")
             
             label = f"{name} ({start} ~ {end if end else 'Now'})"

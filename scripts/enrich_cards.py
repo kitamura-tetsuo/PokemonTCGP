@@ -2,6 +2,7 @@ import json
 import os
 import csv
 import logging
+import re
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -29,6 +30,11 @@ def _normalize_type(t):
     if t in ["stadium"]:
         return "Stadium"
     return t.capitalize()
+
+def natural_sort_key(s):
+    """Helper to sort strings with embedded numbers naturally (e.g. A1-1 < A1-10)."""
+    return [int(text) if text.isdigit() else text.lower()
+            for text in re.split(r'(\d+)', s)]
 
 def load_translations():
     if os.path.exists(TRANSLATIONS_FILE):
@@ -88,7 +94,13 @@ def enrich_all_cards():
 
     # 4. Process and Enrich
     enriched_db = {}
-    for (c_set, c_num), item in cards_map.items():
+    # Sort cards naturally by (set, number)
+    sorted_items = sorted(
+        cards_map.items(), 
+        key=lambda x: (natural_sort_key(x[0][0]), natural_sort_key(str(x[0][1])))
+    )
+    
+    for (c_set, c_num), item in sorted_items:
         # Type Logic (replicated from data.py)
         c_type = csv_overrides.get((c_set, c_num))
         if not c_type:

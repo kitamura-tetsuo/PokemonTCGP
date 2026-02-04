@@ -17,7 +17,9 @@ CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.json")
 CLUSTERS_FILE = os.path.join(DATA_DIR, "cache", "clusters.json")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
 ENRICHED_CARDS_FILE = os.path.join(CARDS_DIR, "enriched_cards.json")
+ENRICHED_SETS_FILE = os.path.join(CARDS_DIR, "enriched_sets.json")
 _ENRICHED_CARDS_CACHE = None
+_ENRICHED_SETS_CACHE = None
 
 def normalize_card_name(name):
     """Normalize apostrophes in card names to straight single quotes."""
@@ -42,6 +44,25 @@ def load_enriched_cards():
         return _ENRICHED_CARDS_CACHE
     except Exception as e:
         logger.error(f"Error loading enriched cards: {e}")
+        raise
+
+def load_enriched_sets():
+    """Load enriched set database from JSON. Errors if missing."""
+    global _ENRICHED_SETS_CACHE
+    if _ENRICHED_SETS_CACHE is not None:
+        return _ENRICHED_SETS_CACHE
+    
+    if not os.path.exists(ENRICHED_SETS_FILE):
+        error_msg = f"Enriched set data not found at {ENRICHED_SETS_FILE}. Please run 'python3 scripts/enrich_sets.py' first."
+        logger.error(error_msg)
+        raise FileNotFoundError(error_msg)
+    
+    try:
+        with open(ENRICHED_SETS_FILE, "r") as f:
+            _ENRICHED_SETS_CACHE = json.load(f)
+        return _ENRICHED_SETS_CACHE
+    except Exception as e:
+        logger.error(f"Error loading enriched sets: {e}")
         raise
 
 def _normalize_type(t):
@@ -110,9 +131,9 @@ def enrich_card_data(cards):
     return enriched
 
 def get_all_card_ids():
-    """Return sorted unique list of all card IDs (SetID_Number)."""
+    """Return unique list of all card IDs (SetID_Number), already sorted in enriched_cards.json."""
     db = load_enriched_cards()
-    return sorted(list(db.keys()))
+    return list(db.keys())
 
 def get_all_card_names():
     # Deprecated for UI filtering, but keeping for compatibility if needed elsewhere
