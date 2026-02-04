@@ -14,6 +14,17 @@ ENRICHED_FILE = os.path.join(CARDS_DIR, "enriched_cards.json")
 UNKNOWN_CSV = os.path.join(CARDS_DIR, "unknown_cards.csv")
 TRANSLATIONS_FILE = os.path.join(DATA_DIR, "card_translations.json")
 
+SET_MAP = {
+    "PROMO-A": "P-A",
+    "PROMO-B": "P-B",
+}
+
+def normalize_card_name(name):
+    """Normalize apostrophes in card names to straight single quotes."""
+    if not name or not isinstance(name, str):
+        return name
+    return name.replace('’', "'").replace('‘', "'")
+
 def _normalize_type(t):
     """Normalize various type names to a consistent set: Pokemon, Goods, Item, Stadium, Support."""
     if not t:
@@ -40,7 +51,8 @@ def load_translations():
     if os.path.exists(TRANSLATIONS_FILE):
         try:
             with open(TRANSLATIONS_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+                return {normalize_card_name(k): v for k, v in data.items()}
         except Exception as e:
             logger.error(f"Error loading translations: {e}")
     return {}
@@ -116,11 +128,14 @@ def enrich_all_cards():
                 c_type = "Goods"
         
         c_name = item.get("name")
-        name_ja = translations.get(c_name, c_name) if c_name else ""
+        name_ja = translations.get(normalize_card_name(c_name), c_name) if c_name else ""
 
-        enriched_db[f"{c_set}_{c_num}"] = {
+        # Map set code if needed
+        mapped_set = SET_MAP.get(c_set, c_set)
+
+        enriched_db[f"{mapped_set}_{c_num}"] = {
             "name": c_name,
-            "set": c_set,
+            "set": mapped_set,
             "number": c_num,
             "type": c_type or "Unknown",
             "image": item.get("image"),

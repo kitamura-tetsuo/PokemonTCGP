@@ -13,6 +13,11 @@ SETS_FILE = os.path.join(CARDS_DIR, "sets.json")
 UNKNOWN_SETS_CSV = os.path.join(CARDS_DIR, "unknown_sets.csv")
 ENRICHED_SETS_FILE = os.path.join(CARDS_DIR, "enriched_sets.json")
 
+SET_MAP = {
+    "PROMO-A": "P-A",
+    "PROMO-B": "P-B",
+}
+
 def enrich_sets():
     logger.info("Starting set enrichment process...")
     
@@ -65,8 +70,10 @@ def enrich_sets():
         if not name_ja:
             name_ja = name_en
 
+        mapped_code = SET_MAP.get(code, code)
+
         enriched_sets.append({
-            "code": code,
+            "code": mapped_code,
             "releaseDate": s.get("releaseDate"),
             "name_en": name_en,
             "name_ja": name_ja
