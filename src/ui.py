@@ -889,7 +889,9 @@ def render_match_history_table(appearances):
             direct_cards = opp_details[sig].get("cards", [])
         
         if direct_cards:
-            sorted_cards = _enrich_and_sort_cards(direct_cards)
+            # Enrich cards to ensure type info is present for sorting
+            enriched_direct_cards = enrich_card_data(direct_cards)
+            sorted_cards = _enrich_and_sort_cards(enriched_direct_cards)
             img_count, MAX = 0, 20
             for card in sorted_cards:
                 if img_count >= MAX: break
