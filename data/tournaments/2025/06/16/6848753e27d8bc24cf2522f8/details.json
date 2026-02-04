@@ -1,0 +1,129 @@
+{
+  "id": "6848753e27d8bc24cf2522f8",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "THE SAGA SPECIAL EVENT\u00b7Extradimensional Crisis \ud83c\udfc6",
+  "date": "2025-06-16T20:30:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "75"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Luxray",
+      "set": "A3a",
+      "number": "15"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Zeraora",
+      "set": "P-A",
+      "number": "74"
+    },
+    {
+      "name": "Shiinotic",
+      "set": "A3a",
+      "number": "27"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "42"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "103"
+    },
+    {
+      "name": "Naganadel",
+      "set": "A3a",
+      "number": "45"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    },
+    {
+      "name": "Stoutland",
+      "set": "A3a",
+      "number": "56"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "A3a",
+      "number": "9"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "A3a",
+      "number": "72"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "P-A",
+      "number": "76"
+    },
+    {
+      "name": "Dawn Wings Necrozma",
+      "set": "P-A",
+      "number": "78"
+    },
+    {
+      "name": "Dusk Mane Necrozma",
+      "set": "P-A",
+      "number": "79"
+    },
+    {
+      "name": "Greninja",
+      "set": "A3a",
+      "number": "93"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6923a7efb11d3f5498bc6288",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #46 (Season 5) - $100 USD",
+  "date": "2025-11-28T01:00:00.000Z",
+  "players": 152,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

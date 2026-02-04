@@ -1,0 +1,29 @@
+{
+  "id": "6733cd9e57dcc5a683fbf08c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Pandemonium #2.5",
+  "date": "2024-11-18T20:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1074,
+    "name": "ArcanaMD"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

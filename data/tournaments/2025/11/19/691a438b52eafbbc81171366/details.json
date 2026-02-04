@@ -1,0 +1,32 @@
+{
+  "id": "691a438b52eafbbc81171366",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Little Legends League #28 - 50 USD (Season 5)",
+  "date": "2025-11-19T18:00:00.000Z",
+  "players": 195,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

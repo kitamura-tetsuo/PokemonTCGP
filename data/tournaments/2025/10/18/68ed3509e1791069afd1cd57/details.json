@@ -1,0 +1,37 @@
+{
+  "id": "68ed3509e1791069afd1cd57",
+  "game": "POCKET",
+  "format": null,
+  "name": "$250 PocketMads Tournament #4 - GRENINJA BANNED!!!",
+  "date": "2025-10-18T16:05:00.000Z",
+  "players": 359,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/ah8scq06b93us7q8"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ]
+}

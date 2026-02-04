@@ -1,0 +1,29 @@
+{
+  "id": "678de017010576265d118e3f",
+  "game": "POCKET",
+  "format": null,
+  "name": "EiichiroFamily PTCGP Cup #Test1 [EPC #T1]",
+  "date": "2025-01-22T12:00:00.000Z",
+  "players": 84,
+  "organizer": {
+    "id": 2148,
+    "name": "HRSNFBRN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

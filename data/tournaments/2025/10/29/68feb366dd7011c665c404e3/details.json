@@ -1,0 +1,116 @@
+{
+  "id": "68feb366dd7011c665c404e3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Gym Leader Challenge #3",
+  "date": "2025-10-29T02:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Alcremie",
+      "set": "A3b",
+      "number": "37"
+    },
+    {
+      "name": "Galarian Cursola",
+      "set": "A4a",
+      "number": "35"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3b",
+      "number": "5"
+    },
+    {
+      "name": "Miltank",
+      "set": "A4a",
+      "number": "62"
+    },
+    {
+      "name": "Gyarados",
+      "set": "A4",
+      "number": "45"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

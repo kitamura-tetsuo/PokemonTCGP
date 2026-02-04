@@ -1,0 +1,28 @@
+{
+  "id": "6938c7efe12a3ec4762847cb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Gym Leader Challenge Alpha Omega",
+  "date": "2025-12-14T03:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

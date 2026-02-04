@@ -1,0 +1,29 @@
+{
+  "id": "67722f2aed2c78098c6a0e96",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2663\ufe0f Pocket Aces Turbo Weekly #3 \u2663\ufe0f 10 USD PRIZE",
+  "date": "2025-01-05T15:00:00.000Z",
+  "players": 512,
+  "organizer": {
+    "id": 2064,
+    "name": "Pocket Aces"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "6849fcc827d8bc24cf252d9f",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "[PL] Przedsezon\u00f3wka NO-EX (S4 is Coming)",
+  "date": "2025-06-15T16:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO2"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

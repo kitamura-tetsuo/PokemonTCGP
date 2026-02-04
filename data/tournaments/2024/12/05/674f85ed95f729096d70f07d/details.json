@@ -1,0 +1,29 @@
+{
+  "id": "674f85ed95f729096d70f07d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Sakura Series #1 \u2014 $100 USD Prize Pool",
+  "date": "2024-12-05T01:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 2026,
+    "name": "sherichery"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

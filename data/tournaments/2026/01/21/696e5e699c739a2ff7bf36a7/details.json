@@ -1,0 +1,41 @@
+{
+  "id": "696e5e699c739a2ff7bf36a7",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Void Blitz Extreme Speed",
+  "date": "2026-01-21T03:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    }
+  ]
+}

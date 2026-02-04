@@ -1,0 +1,99 @@
+{
+  "id": "68edf6d6e1791069afd1d5b4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX Special Edition",
+  "date": "2025-10-14T17:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Dusk Mane Necrozma",
+      "set": "P-A",
+      "number": "79"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Naganadel",
+      "set": "A3a",
+      "number": "45"
+    },
+    {
+      "name": "Alcremie",
+      "set": "A3b",
+      "number": "37"
+    },
+    {
+      "name": "Galarian Cursola",
+      "set": "A4a",
+      "number": "35"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

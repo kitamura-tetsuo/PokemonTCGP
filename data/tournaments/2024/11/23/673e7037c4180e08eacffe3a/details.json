@@ -1,0 +1,29 @@
+{
+  "id": "673e7037c4180e08eacffe3a",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Wide League Friday Night Shuffle",
+  "date": "2024-11-23T03:00:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 637,
+    "name": "The Wide League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

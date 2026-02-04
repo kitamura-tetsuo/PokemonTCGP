@@ -1,0 +1,23 @@
+{
+  "id": "68dc3ec97a2c388893caff76",
+  "game": "POCKET",
+  "format": null,
+  "name": "CTP - Competitive Tournament Pok\u00e9mon Italia",
+  "date": "2025-10-05T19:10:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 489,
+    "name": "Bologna Pok\u00e9mon League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

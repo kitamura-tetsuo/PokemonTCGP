@@ -1,0 +1,96 @@
+{
+  "id": "67a3181c435c6fb86e8b82ea",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #1",
+  "date": "2025-02-06T18:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai EX",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Darkrai EX",
+      "set": "A2",
+      "number": "187"
+    },
+    {
+      "name": "Darkrai EX",
+      "set": "A2",
+      "number": "202"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "A1",
+      "number": "253"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "A1",
+      "number": "280"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "A1",
+      "number": "284"
+    },
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "257"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "286"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "673e12f7c4180e08eacff157",
+  "game": "POCKET",
+  "format": null,
+  "name": "SpX World CUP #1",
+  "date": "2024-11-30T15:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 1973,
+    "name": "Sparx"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}

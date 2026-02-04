@@ -1,0 +1,29 @@
+{
+  "id": "67e4886040ab762997eae220",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1 NEW PACK FASTER THAN THE LIGHT TOURNAMENT \u26a1",
+  "date": "2025-03-27T14:00:00.000Z",
+  "players": 191,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

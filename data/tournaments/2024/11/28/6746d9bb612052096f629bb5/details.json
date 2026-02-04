@@ -1,0 +1,29 @@
+{
+  "id": "6746d9bb612052096f629bb5",
+  "game": "POCKET",
+  "format": null,
+  "name": "SpX Italian Mini Cup #2",
+  "date": "2024-11-28T16:15:00.000Z",
+  "players": 165,
+  "organizer": {
+    "id": 1973,
+    "name": "Sparx"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

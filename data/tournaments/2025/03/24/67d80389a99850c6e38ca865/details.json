@@ -1,0 +1,596 @@
+{
+  "id": "67d80389a99850c6e38ca865",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\udda6 Capy Cup: Grandma Daycare (Pulang Kampung) #9",
+  "date": "2025-03-24T12:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Irida",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Barry",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Adaman",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cyrus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Team Galactic Grunt",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cynthia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Volkner",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dawn",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mars",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Budding Expeditioner",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Blue",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Leaf",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Erika",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Blaine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Koga",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giovanni",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Brock",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sabrina",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lt. Surge",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Professor's Research",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pok\u00e9mon Flute",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pok\u00e9mon Communication",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mythical Slab",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giant Cape",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rocky Helmet",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lum Berry",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skull Fossil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Armor Fossil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Old Amber",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Helix Fossil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dome Fossil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heracross",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Carnivine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Carnivine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mow Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Shaymin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dhelmise",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Scyther",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pinsir",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatran",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heat Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatmor",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Origin Forme Palkia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Phione",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regice",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wash Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Frost Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Palkia ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Manaphy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cramorant",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lapras",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pyukumuku",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bruxish",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lapras ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dedenne",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pincurchin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Unown",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Uxie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mesprit",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Azelf",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cresselia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sigilyph",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mr. Mime",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Jynx",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cresselia ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sudowoodo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmontop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regirock",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Marshadow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Stonjourner",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Onix",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonlee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonchan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Spiritomb",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Origin Forme Dialga",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skarmory",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Registeel",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mawile",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatran",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mawile",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snorlax",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Shaymin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arceus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arceus ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Fan Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regigigas",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chatot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tauros",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chansey",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kangaskhan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ditto",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Farfetch'd",
+      "set": null,
+      "number": null
+    }
+  ]
+}

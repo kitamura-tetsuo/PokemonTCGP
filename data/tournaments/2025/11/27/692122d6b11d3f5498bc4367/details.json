@@ -1,0 +1,34 @@
+{
+  "id": "692122d6b11d3f5498bc4367",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Gym Leader Challenge 5th Element",
+  "date": "2025-11-27T03:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

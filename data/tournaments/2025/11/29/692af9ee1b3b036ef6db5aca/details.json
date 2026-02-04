@@ -1,0 +1,28 @@
+{
+  "id": "692af9ee1b3b036ef6db5aca",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CPL Champions #1-D TopCut",
+  "date": "2025-11-29T13:50:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67ba1cfc31193c1698ecb239",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Heaven\u00b4s Spring Cup #5 Tag Team 3vs3 BO3\ud83c\udfc6",
+  "date": "2025-03-30T14:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

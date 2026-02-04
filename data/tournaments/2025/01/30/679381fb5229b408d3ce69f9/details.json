@@ -1,0 +1,29 @@
+{
+  "id": "679381fb5229b408d3ce69f9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6PTT Bo1 #10\ud83c\udfc6 NO Spacetime Smackdown",
+  "date": "2025-01-30T15:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

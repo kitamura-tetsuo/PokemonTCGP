@@ -1,0 +1,30 @@
+{
+  "id": "69581f624500833d870209bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "underground 8 man pod",
+  "date": "2026-01-02T20:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

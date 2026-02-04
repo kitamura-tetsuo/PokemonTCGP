@@ -1,0 +1,29 @@
+{
+  "id": "6717104326bb4c6d2e608b77",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pelad\u00e3o Pocket \u2022 Prologue",
+  "date": "2024-11-03T22:30:00.000Z",
+  "players": 145,
+  "organizer": {
+    "id": 72,
+    "name": "Battle Factory & Pok\u00e9pauper BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "674a074c95f729096d703ba9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "HN Monthly Pocket Showdown #1",
+  "date": "2024-12-06T00:00:00.000Z",
+  "players": 66,
+  "organizer": {
+    "id": 2016,
+    "name": "HyberNation"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

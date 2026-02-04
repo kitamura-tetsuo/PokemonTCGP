@@ -1,0 +1,32 @@
+{
+  "id": "67d03f837c466f5723c344fa",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Torneo NO EX AZ7eam \ud83c\udde6\ud83c\uddf7 |prize 10usd|\ud83c\udfc6\ud83d\udcb6",
+  "date": "2025-03-14T00:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

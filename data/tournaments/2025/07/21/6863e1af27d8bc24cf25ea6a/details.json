@@ -1,0 +1,56 @@
+{
+  "id": "6863e1af27d8bc24cf25ea6a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc38FrogEX Monthly Old School #4 \u2022 30 USD Prize\ud83d\udc38",
+  "date": "2025-07-21T18:00:00.000Z",
+  "players": 192,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3b",
+      "number": null
+    }
+  ]
+}

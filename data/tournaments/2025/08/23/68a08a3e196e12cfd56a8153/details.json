@@ -1,0 +1,29 @@
+{
+  "id": "68a08a3e196e12cfd56a8153",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0b Magma $71 USD Open Deck Clash \u00d7 Giveaway \ud83c\udf0b",
+  "date": "2025-08-23T17:00:00.000Z",
+  "players": 407,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

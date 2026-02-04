@@ -1,0 +1,29 @@
+{
+  "id": "679224475229b408d3ce468a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Testing the Waters: Pocket Edition #4",
+  "date": "2025-01-23T12:30:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2158,
+    "name": "Pocket Masters by Rodrick"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

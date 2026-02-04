@@ -1,0 +1,29 @@
+{
+  "id": "67829b5c7960ec710efef7e7",
+  "game": "POCKET",
+  "format": null,
+  "name": "#4 Paldea Pro League \ud83d\udcb010 USD",
+  "date": "2025-01-19T14:00:00.000Z",
+  "players": 164,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

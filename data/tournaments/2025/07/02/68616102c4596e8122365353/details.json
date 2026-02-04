@@ -1,0 +1,28 @@
+{
+  "id": "68616102c4596e8122365353",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Crisis Punch League #0-1 [GLC in Pocket]",
+  "date": "2025-07-02T12:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

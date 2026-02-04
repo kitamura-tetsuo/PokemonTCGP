@@ -1,0 +1,126 @@
+{
+  "id": "67732f5fed2c78098c6a2e5b",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udca7WATER KINGDOM\ud83d\udca7 $50 USD | Terremoto x TCGP LATAM",
+  "date": "2025-01-03T21:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "205"
+    },
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "247"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A1a",
+      "number": "25"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A1",
+      "number": "94"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A1",
+      "number": "259"
+    },
+    {
+      "name": "Pikachu EX",
+      "set": "A1",
+      "number": "281"
+    },
+    {
+      "name": "Pikachu EX",
+      "set": "A1",
+      "number": "285"
+    },
+    {
+      "name": "Pikachu",
+      "set": "P-A",
+      "number": "9"
+    },
+    {
+      "name": "Pikachu",
+      "set": "P-A",
+      "number": "15"
+    },
+    {
+      "name": "Mewtwo",
+      "set": "A1",
+      "number": "128"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "286"
+    },
+    {
+      "name": "Mewtwo",
+      "set": "P-A",
+      "number": "10"
+    },
+    {
+      "name": "Celebi EX",
+      "set": "A1a",
+      "number": "3"
+    },
+    {
+      "name": "Celebi EX",
+      "set": "A1a",
+      "number": "75"
+    },
+    {
+      "name": "Celebi EX",
+      "set": "A1a",
+      "number": "85"
+    }
+  ]
+}

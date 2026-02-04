@@ -1,0 +1,53 @@
+{
+  "id": "673c57ddc4180e08eacfceaf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Casual Pocket Gym PH #6",
+  "date": "2024-12-06T05:30:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 1898,
+    "name": "Pocket Gym PH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "MONOTYPE"
+  ]
+}

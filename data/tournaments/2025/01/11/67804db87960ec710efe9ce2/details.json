@@ -1,0 +1,29 @@
+{
+  "id": "67804db87960ec710efe9ce2",
+  "game": "POCKET",
+  "format": null,
+  "name": "1\u00b0 Torneio QuickKnout Liga SSSA",
+  "date": "2025-01-11T23:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2075,
+    "name": "Liga SSSA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

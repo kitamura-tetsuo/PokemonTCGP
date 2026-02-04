@@ -1,0 +1,29 @@
+{
+  "id": "67cbe5f38f99a44fce347f38",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket League #15",
+  "date": "2025-03-12T18:00:00.000Z",
+  "players": 187,
+  "organizer": {
+    "id": 1853,
+    "name": "Good Vibes E-Sport"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

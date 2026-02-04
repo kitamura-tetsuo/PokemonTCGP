@@ -1,0 +1,41 @@
+{
+  "id": "67fc2b25b8cdc8c08c20c6c2",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Anti Meta Monday",
+  "date": "2025-04-14T12:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    }
+  ]
+}

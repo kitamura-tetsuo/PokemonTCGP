@@ -1,0 +1,23 @@
+{
+  "id": "673fa015c4180e08ead01c86",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6Pok\u00e9mon Pocket Italia Cup Eliminazione",
+  "date": "2024-11-25T19:45:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

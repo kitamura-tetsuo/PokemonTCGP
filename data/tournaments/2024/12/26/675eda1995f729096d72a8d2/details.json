@@ -1,0 +1,29 @@
+{
+  "id": "675eda1995f729096d72a8d2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51Pok\u00e9mon Pocket Italia\ud83d\udc51Dicembre\ud83c\udfc6 FINALE\ud83c\udfc6",
+  "date": "2024-12-26T19:45:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

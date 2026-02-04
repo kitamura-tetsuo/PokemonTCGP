@@ -1,0 +1,32 @@
+{
+  "id": "67404184e54dde08bbd31554",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Pandemonium #4 NO EX WEEK",
+  "date": "2024-12-02T18:00:00.000Z",
+  "players": 194,
+  "organizer": {
+    "id": 1074,
+    "name": "ArcanaMD"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

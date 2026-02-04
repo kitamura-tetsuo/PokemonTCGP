@@ -1,0 +1,29 @@
+{
+  "id": "67dab79ea99850c6e38cc7ac",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udcabFav\ud83d\udcab Japan tournament\ud83c\uddef\ud83c\uddf5A2#3\ud83d\udcb0for GRANDFINAL",
+  "date": "2025-03-21T11:00:00.000Z",
+  "players": 220,
+  "organizer": {
+    "id": 2225,
+    "name": "Fav_Tokyo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

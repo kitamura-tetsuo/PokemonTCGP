@@ -1,0 +1,29 @@
+{
+  "id": "673bdfc6c4180e08eacfc5e8",
+  "game": "POCKET",
+  "format": null,
+  "name": "TGA | Slowpoke Saturday SEASON 1",
+  "date": "2024-11-30T12:00:00.000Z",
+  "players": 153,
+  "organizer": {
+    "id": 1949,
+    "name": "TheGameArmory"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

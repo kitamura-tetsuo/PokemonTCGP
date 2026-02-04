@@ -1,0 +1,29 @@
+{
+  "id": "67b4155978c0b3231881888b",
+  "game": "POCKET",
+  "format": null,
+  "name": "BigBig Fujiyama cup #1",
+  "date": "2025-02-22T12:00:00.000Z",
+  "players": 104,
+  "organizer": {
+    "id": 2221,
+    "name": "Team Fujiyama"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

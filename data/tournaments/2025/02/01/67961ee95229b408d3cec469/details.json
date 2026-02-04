@@ -1,0 +1,29 @@
+{
+  "id": "67961ee95229b408d3cec469",
+  "game": "POCKET",
+  "format": null,
+  "name": "Yosh Tournament #4 ( Rp 1.000.000,00 )",
+  "date": "2025-02-01T12:00:00.000Z",
+  "players": 463,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

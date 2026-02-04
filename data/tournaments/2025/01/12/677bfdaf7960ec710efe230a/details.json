@@ -1,0 +1,29 @@
+{
+  "id": "677bfdaf7960ec710efe230a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Victory Road - January Challenge POCKET - 100 USD",
+  "date": "2025-01-12T14:00:00.000Z",
+  "players": 512,
+  "organizer": {
+    "id": 1699,
+    "name": "Victory Road"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

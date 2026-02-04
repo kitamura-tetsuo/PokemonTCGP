@@ -1,0 +1,29 @@
+{
+  "id": "67abc8f478c0b32318811775",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udcabFav\ud83d\udcab\ud83c\uddef\ud83c\uddf5 Japan tournament\ud83c\uddef\ud83c\uddf5 #0 trial",
+  "date": "2025-02-14T11:00:00.000Z",
+  "players": 213,
+  "organizer": {
+    "id": 2225,
+    "name": "Fav_Tokyo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

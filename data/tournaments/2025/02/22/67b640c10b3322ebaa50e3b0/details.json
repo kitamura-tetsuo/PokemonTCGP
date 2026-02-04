@@ -1,0 +1,29 @@
+{
+  "id": "67b640c10b3322ebaa50e3b0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd21 LES PANTINS \ud83c\uddeb\ud83c\uddf7\ud83c\udfc6 MONTHLY TOURNAMENT! \ud83c\udfc6 #2",
+  "date": "2025-02-22T13:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

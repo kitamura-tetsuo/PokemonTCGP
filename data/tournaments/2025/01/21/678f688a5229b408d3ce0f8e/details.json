@@ -1,0 +1,29 @@
+{
+  "id": "678f688a5229b408d3ce0f8e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2728Last Minute STANDARD \u2728 FAST ROUNDS \u2728",
+  "date": "2025-01-21T17:00:00.000Z",
+  "players": 163,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "675cccf595f729096d725f38",
+  "game": "POCKET",
+  "format": null,
+  "name": "$20 USD\ud83d\udc8e HC Invitational Qualifier #02  \ud83d\udc8e",
+  "date": "2024-12-17T18:00:00.000Z",
+  "players": 319,
+  "organizer": {
+    "id": 2055,
+    "name": "HC Tournaments"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "672cb4cd0947ec3b5d19951b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 GCC 2024 #2 - German Community Crown (DE,AT,CH)",
+  "date": "2024-12-07T07:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 1894,
+    "name": "Pocket DACH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67e0ab6d40ab762997eabb50",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League flash afternoon",
+  "date": "2025-03-24T13:00:00.000Z",
+  "players": 155,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

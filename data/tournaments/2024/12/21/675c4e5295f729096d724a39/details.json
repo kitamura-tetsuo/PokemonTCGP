@@ -1,0 +1,29 @@
+{
+  "id": "675c4e5295f729096d724a39",
+  "game": "POCKET",
+  "format": null,
+  "name": "Set A1a Intro Clash",
+  "date": "2024-12-21T23:00:00.000Z",
+  "players": 154,
+  "organizer": {
+    "id": 2016,
+    "name": "HyberNation"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

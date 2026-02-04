@@ -1,0 +1,36 @@
+{
+  "id": "695817164500833d87020925",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Midnight Dash-NO SUICUNE EX",
+  "date": "2026-01-03T05:30:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune Ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

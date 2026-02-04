@@ -1,0 +1,41 @@
+{
+  "id": "67f2ac7310ff208821ec2859",
+  "game": "POCKET",
+  "format": null,
+  "name": "Twitch Cross Guild Tournament",
+  "date": "2025-04-19T17:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2326,
+    "name": "Kelosaurus"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

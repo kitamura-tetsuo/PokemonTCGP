@@ -1,0 +1,29 @@
+{
+  "id": "695d4bc24500833d87025262",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #49 (Season 5) - $100 USD",
+  "date": "2026-01-08T22:00:00.000Z",
+  "players": 286,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

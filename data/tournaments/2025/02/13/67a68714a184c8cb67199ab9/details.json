@@ -1,0 +1,29 @@
+{
+  "id": "67a68714a184c8cb67199ab9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wisnuwy Tournament #1",
+  "date": "2025-02-13T12:00:00.000Z",
+  "players": 273,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

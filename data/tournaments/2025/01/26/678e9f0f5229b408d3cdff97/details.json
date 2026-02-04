@@ -1,0 +1,29 @@
+{
+  "id": "678e9f0f5229b408d3cdff97",
+  "game": "POCKET",
+  "format": null,
+  "name": "CDL Pokemon TCGP - SCRIM #1",
+  "date": "2025-01-26T21:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2136,
+    "name": "CDLTorneos "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69336d191b3b036ef6dba17e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd25The Inferno Arena\ud83d\udd25(FireType Only)",
+  "date": "2025-12-09T02:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "MONOTYPE"
+  ]
+}

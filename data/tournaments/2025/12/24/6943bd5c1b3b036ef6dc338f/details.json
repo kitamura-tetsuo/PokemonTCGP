@@ -1,0 +1,176 @@
+{
+  "id": "6943bd5c1b3b036ef6dc338f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Serenity Format #6 (Card Prize)",
+  "date": "2025-12-24T03:05:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Greninja ex",
+      "set": "B1",
+      "number": "73"
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A3",
+      "number": "12"
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": "A3a",
+      "number": "43"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "B1",
+      "number": "16"
+    },
+    {
+      "name": "Jolteon ex",
+      "set": "B1",
+      "number": "81"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Espeon ex",
+      "set": "A4",
+      "number": "83"
+    },
+    {
+      "name": "Flareon ex",
+      "set": "A3b",
+      "number": "9"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    }
+  ]
+}

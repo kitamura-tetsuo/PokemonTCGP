@@ -1,0 +1,29 @@
+{
+  "id": "676dc70d86f3dba5340295d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "The dark league Wednesday 2025 special",
+  "date": "2025-01-01T20:00:00.000Z",
+  "players": 245,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

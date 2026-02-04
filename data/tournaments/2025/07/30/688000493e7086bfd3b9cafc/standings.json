@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Zegger",
+    "country": "ID",
+    "decklist": null,
+    "placing": 1,
+    "player": "zegger",
+    "record": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": null
+  },
+  {
+    "name": "kaitona0621",
+    "country": "JP",
+    "decklist": null,
+    "placing": 2,
+    "player": "kaitona0621",
+    "record": {
+      "wins": 3,
+      "losses": 1,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": null
+  },
+  {
+    "name": "syr",
+    "country": "ID",
+    "decklist": null,
+    "placing": 3,
+    "player": "syr",
+    "record": {
+      "wins": 3,
+      "losses": 1,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": null
+  },
+  {
+    "name": "Raigun",
+    "country": "PH",
+    "decklist": null,
+    "placing": 4,
+    "player": "raigun",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": null
+  },
+  {
+    "name": "L Lawliet",
+    "country": null,
+    "decklist": null,
+    "placing": 5,
+    "player": "subaruptcg",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": null
+  },
+  {
+    "name": "Numb",
+    "country": "DE",
+    "decklist": null,
+    "placing": 6,
+    "player": "numb",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": 3
+  },
+  {
+    "name": "Pokemaninjapan",
+    "country": "JP",
+    "decklist": null,
+    "placing": 7,
+    "player": "pokemaninjapan",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": 3
+  },
+  {
+    "name": "WxChAn",
+    "country": "MY",
+    "decklist": null,
+    "placing": 8,
+    "player": "wxchan",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "deck": {},
+    "drop": 2
+  },
+  {
+    "name": "Jbizzle",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "68",
+          "name": "Ralts"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "132",
+          "name": "Gardevoir"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "74",
+          "name": "Shuppet"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "75",
+          "name": "Banette"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "84",
+          "name": "Tapu Lele"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "155",
+          "name": "Mars"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "69",
+          "name": "Iono"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "72",
+          "name": "Team Rocket Grunt"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "151",
+          "name": "Guzma"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "155",
+          "name": "Lillie"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "70",
+          "name": "Pok\u00e9mon Center Lady"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "144",
+          "name": "Rare Candy"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "gardevoir-a1-banette-a3",
+      "name": "Gardevoir Banette",
+      "icons": [
+        "gardevoir",
+        "banette"
+      ]
+    },
+    "placing": 9,
+    "player": "jbizzle",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  }
+]

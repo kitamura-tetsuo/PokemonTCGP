@@ -1,0 +1,29 @@
+{
+  "id": "6789c823010576265d10fe2e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Cuma Test Doang",
+  "date": "2025-01-18T05:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2148,
+    "name": "HRSNFBRN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

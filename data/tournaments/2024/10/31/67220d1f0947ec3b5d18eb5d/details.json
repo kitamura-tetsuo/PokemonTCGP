@@ -1,0 +1,35 @@
+{
+  "id": "67220d1f0947ec3b5d18eb5d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf3f Team Rocket Poket Cup #1",
+  "date": "2024-10-31T17:35:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "676f77c2ed2c78098c699bbe",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf0eNarnia's Pocket League #6\ud83c\udf0e",
+  "date": "2025-01-05T08:00:00.000Z",
+  "players": 218,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6755b34695f729096d71b174",
+  "game": "POCKET",
+  "format": null,
+  "name": "The dark league evening edition",
+  "date": "2024-12-09T19:10:00.000Z",
+  "players": 106,
+  "organizer": {
+    "id": 2045,
+    "name": "EllieDarkTcgp"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

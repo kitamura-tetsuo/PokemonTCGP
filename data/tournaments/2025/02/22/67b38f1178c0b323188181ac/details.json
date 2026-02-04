@@ -1,0 +1,39 @@
+{
+  "id": "67b38f1178c0b323188181ac",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Raum und Zeit NO EX-Championship #4",
+  "date": "2025-02-22T15:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

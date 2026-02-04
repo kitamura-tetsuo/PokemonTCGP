@@ -1,0 +1,29 @@
+{
+  "id": "6756108d95f729096d71ca44",
+  "game": "POCKET",
+  "format": null,
+  "name": "#04 KGEN League BRASIL (No Ex Edition)",
+  "date": "2024-12-21T17:00:00.000Z",
+  "players": 136,
+  "organizer": {
+    "id": 1960,
+    "name": "KGeN Brasil"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

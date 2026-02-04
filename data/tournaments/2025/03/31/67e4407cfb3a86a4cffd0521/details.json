@@ -1,0 +1,29 @@
+{
+  "id": "67e4407cfb3a86a4cffd0521",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf89500 Follower Special\ud83c\udf89|\ud83c\udf11C0unter3d Official\ud83c\udf11",
+  "date": "2025-03-31T17:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

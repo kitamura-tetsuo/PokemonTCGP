@@ -1,0 +1,32 @@
+{
+  "id": "6797ef215229b408d3cef3df",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc4a\u200b TORNEO RUTA KANTO #01 \ud83d\udc4a Free",
+  "date": "2025-02-12T23:00:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2187,
+    "name": "Kyoffie"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

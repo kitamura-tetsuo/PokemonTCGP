@@ -1,0 +1,60 @@
+{
+  "id": "68e570d3f661e4a158de9cae",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udeab Torneio Ban Set #1 - Prize $120 BRL",
+  "date": "2025-10-10T23:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Suicune ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Flareon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sylveon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Espeon ex",
+      "set": null,
+      "number": null
+    }
+  ]
+}

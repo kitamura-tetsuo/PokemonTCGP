@@ -1,0 +1,121 @@
+{
+  "id": "691bdc41b11d3f5498bc1836",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Serenity Format #3 (Copycat Prize)",
+  "date": "2025-11-20T01:00:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Entei ex",
+      "set": "A4a",
+      "number": "10"
+    },
+    {
+      "name": "Heatmor",
+      "set": "B1",
+      "number": "44"
+    },
+    {
+      "name": "Jirachi",
+      "set": "B1",
+      "number": "106"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Raikou ex",
+      "set": "A4a",
+      "number": "25"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    },
+    {
+      "name": "Dusknoir",
+      "set": "A2",
+      "number": "72"
+    },
+    {
+      "name": "Galarian Cursola",
+      "set": "A4a",
+      "number": "35"
+    },
+    {
+      "name": "Moltres ex",
+      "set": "A1",
+      "number": "47"
+    }
+  ]
+}

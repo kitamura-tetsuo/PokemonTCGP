@@ -1,0 +1,33 @@
+{
+  "id": "6723d9fd0947ec3b5d18fa54",
+  "game": "POCKET",
+  "format": null,
+  "name": "Little Legends League #3 (Season 1)",
+  "date": "2024-11-07T01:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "677bbb05ed2c78098c6b4b42",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfc5VICTORY ROAD\ud83c\udfc5$10 USD | Terremoto x Trainers TCG",
+  "date": "2025-01-24T21:00:00.000Z",
+  "players": 238,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "205"
+    },
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "247"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "678d416a010576265d117d6e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Kuyo\u676f\u86c7\u5e74\u7279\u522b\u8d5b Kuyo Cup Pocket Year of Snake",
+  "date": "2025-02-03T05:00:00.000Z",
+  "players": 191,
+  "organizer": {
+    "id": 1259,
+    "name": "The shining lion club"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

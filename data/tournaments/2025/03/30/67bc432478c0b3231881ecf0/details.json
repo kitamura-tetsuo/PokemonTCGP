@@ -1,0 +1,29 @@
+{
+  "id": "67bc432478c0b3231881ecf0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf10 Narnia's Lamp League S2 #5 - 3v3 \ud83c\udf10",
+  "date": "2025-03-30T08:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

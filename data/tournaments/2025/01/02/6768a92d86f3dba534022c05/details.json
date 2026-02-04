@@ -1,0 +1,23 @@
+{
+  "id": "6768a92d86f3dba534022c05",
+  "game": "POCKET",
+  "format": null,
+  "name": "Haven Pokemon Tourney 7 (Mythical Island)",
+  "date": "2025-01-02T01:30:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1920,
+    "name": "Haven"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

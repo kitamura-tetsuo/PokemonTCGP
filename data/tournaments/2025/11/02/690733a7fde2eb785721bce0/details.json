@@ -1,0 +1,32 @@
+{
+  "id": "690733a7fde2eb785721bce0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Mega No EX Pop-Up No Bans",
+  "date": "2025-11-02T13:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6976d726b1294bfab72062af",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneio semanal #1\ud83c\udde7\ud83c\uddf7",
+  "date": "2026-01-30T23:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2275,
+    "name": "RLeague"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

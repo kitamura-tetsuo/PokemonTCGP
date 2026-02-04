@@ -1,0 +1,44 @@
+{
+  "id": "67f9d64a57322cac462440c5",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 The SAGA Cup #1 - 40 USD Prize \ud83c\udfc6",
+  "date": "2025-04-13T21:30:00.000Z",
+  "players": 85,
+  "organizer": {
+    "id": 2337,
+    "name": "The SAGA Cup"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "82"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

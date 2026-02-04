@@ -1,0 +1,29 @@
+{
+  "id": "675062d295f729096d70fe01",
+  "game": "POCKET",
+  "format": null,
+  "name": "Sky Field Skirmish Pocket Edition #4",
+  "date": "2024-12-19T19:00:00.000Z",
+  "players": 181,
+  "organizer": {
+    "id": 643,
+    "name": "Sky Field Skirmish"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

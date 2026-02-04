@@ -1,0 +1,29 @@
+{
+  "id": "679188775229b408d3ce3e47",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udccf ft DigiNeko Swiss Round Tournament \ud83d\udde1\ufe0f",
+  "date": "2025-01-30T12:00:00.000Z",
+  "players": 233,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

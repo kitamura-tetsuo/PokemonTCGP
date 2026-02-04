@@ -1,0 +1,29 @@
+{
+  "id": "675d6fbb95f729096d727100",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mewtopia Mythical Tournament - $22 [Indonesia\ud83c\uddee\ud83c\udde9]",
+  "date": "2024-12-20T11:30:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 2044,
+    "name": "Mewtopia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

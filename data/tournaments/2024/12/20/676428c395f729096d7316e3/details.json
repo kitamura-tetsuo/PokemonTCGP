@@ -1,0 +1,29 @@
+{
+  "id": "676428c395f729096d7316e3",
+  "game": "POCKET",
+  "format": null,
+  "name": "POCKET TOUR TOURNAMENT #5 (Best of 1)",
+  "date": "2024-12-20T15:05:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

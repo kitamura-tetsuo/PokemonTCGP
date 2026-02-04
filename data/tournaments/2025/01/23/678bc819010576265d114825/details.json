@@ -1,0 +1,29 @@
+{
+  "id": "678bc819010576265d114825",
+  "game": "POCKET",
+  "format": null,
+  "name": "IDEAVOLUTION \ud83d\udde1\ufe0f Brawls 185,000.00 \ud83d\udcb8\ud83d\udcb8\ud83d\udcb8",
+  "date": "2025-01-23T12:00:00.000Z",
+  "players": 334,
+  "organizer": {
+    "id": 70,
+    "name": "PTCGO-ID"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "67ec8a4e861824980936970b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf08 TORNEO RUTA KANTO ARCOIRIS \ud83c\udf08 \ud83d\udcb0$5USD",
+  "date": "2025-04-04T20:30:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Infernape ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Arcanine ex",
+      "set": "A1 ",
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Hitmonlee",
+      "set": "A1",
+      "number": "154"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "6972bfb39c739a2ff7bf5afd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd4a\ufe0fLagoon Serenity Format \ud83e\udd0d Sightseer FA Prize",
+  "date": "2026-01-25T03:00:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Mega Charizard ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "B1",
+      "number": "16"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Eevee",
+      "set": "B1",
+      "number": "184"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    },
+    {
+      "name": "Mega Gardevoir ex",
+      "set": "B2",
+      "number": "66"
+    },
+    {
+      "name": "Mega Mawile ex",
+      "set": "B2",
+      "number": "113"
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "B2",
+      "number": "127"
+    },
+    {
+      "name": "Alolan Ninetails ex",
+      "set": "B2",
+      "number": "29"
+    },
+    {
+      "name": "Cryogonal",
+      "set": "B2",
+      "number": "40"
+    },
+    {
+      "name": "Tyrantrum",
+      "set": "B2",
+      "number": "90"
+    },
+    {
+      "name": "Toxtricity ex",
+      "set": "B2",
+      "number": "55"
+    },
+    {
+      "name": "Training Area",
+      "set": "B2",
+      "number": "153"
+    },
+    {
+      "name": "Starting Plains",
+      "set": "B2",
+      "number": "154"
+    },
+    {
+      "name": "Peculiar Plaza",
+      "set": "B2",
+      "number": "155"
+    }
+  ]
+}

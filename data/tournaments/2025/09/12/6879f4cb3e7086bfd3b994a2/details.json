@@ -1,0 +1,84 @@
+{
+  "id": "6879f4cb3e7086bfd3b994a2",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 MONOMETA NoEX - \ud83d\udcb0 30$ Clash of Titans [S1-3/8]",
+  "date": "2025-09-12T17:00:00.000Z",
+  "players": 99,
+  "organizer": {
+    "id": 2410,
+    "name": "MONOMETA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "75"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "156"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "P-A",
+      "number": "69"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67451720612052096f627505",
+  "game": "POCKET",
+  "format": null,
+  "name": "1\u00aa Copa Rei dos Coins de Pokemon TCG Pocket",
+  "date": "2024-11-30T13:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1998,
+    "name": "TERRA_theGAMER"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

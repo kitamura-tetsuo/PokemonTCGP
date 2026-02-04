@@ -1,0 +1,29 @@
+{
+  "id": "673b2e71c4180e08eacfb221",
+  "game": "POCKET",
+  "format": null,
+  "name": "$120 Pocket Champions Showdown",
+  "date": "2024-12-21T11:00:00.000Z",
+  "players": 570,
+  "organizer": {
+    "id": 1942,
+    "name": "Unity Clash"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

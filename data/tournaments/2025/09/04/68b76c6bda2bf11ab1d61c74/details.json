@@ -1,0 +1,23 @@
+{
+  "id": "68b76c6bda2bf11ab1d61c74",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Glitch Pocket Tournament Septiembre (1)",
+  "date": "2025-09-04T01:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 334,
+    "name": "Federaci\u00f3n Ecuatoriana de PKM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

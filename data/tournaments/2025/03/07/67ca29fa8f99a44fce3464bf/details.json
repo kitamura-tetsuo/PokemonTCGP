@@ -1,0 +1,41 @@
+{
+  "id": "67ca29fa8f99a44fce3464bf",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Heyfoxes Cup NOEX #2",
+  "date": "2025-03-07T22:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2155,
+    "name": "Heyfoxes Torneio "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

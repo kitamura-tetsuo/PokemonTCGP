@@ -1,0 +1,39 @@
+{
+  "id": "67b0372278c0b3231881553e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\udda6 Capy Tournament: NOEX Conquest Format #1",
+  "date": "2025-02-20T12:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

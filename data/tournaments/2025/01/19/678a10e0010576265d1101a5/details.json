@@ -1,0 +1,101 @@
+{
+  "id": "678a10e0010576265d1101a5",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udf38 COPA ERIKA #2 ANTI META \u274c| COPICLOL",
+  "date": "2025-01-19T21:30:00.000Z",
+  "players": 188,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Articuno ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Farfetch'd",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ninetales",
+      "set": null,
+      "number": null
+    }
+  ]
+}

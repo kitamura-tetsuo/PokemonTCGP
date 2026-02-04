@@ -1,0 +1,61 @@
+{
+  "id": "67f5c6bfd28716d7204d52c3",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd44TORNEO RUTA KANTO Pantano \ud83e\udd44 \ud83d\udcb0$5USD",
+  "date": "2025-04-15T20:40:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Paldean Clodsire ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Tinkaton ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Probopass ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Weavile ex",
+      "set": "A2 ",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2 ",
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": null
+    }
+  ]
+}

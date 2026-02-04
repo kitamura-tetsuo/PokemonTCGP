@@ -1,0 +1,86 @@
+{
+  "id": "67d24be3a99850c6e38c58d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc4a\u200b TORNEO RUTA KANTO ROCA \ud83d\udc4a \ud83d\udcb0$5USD",
+  "date": "2025-03-18T20:00:00.000Z",
+  "players": 236,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Leafeon ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Yanmega ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Mismagius ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Mew ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Venusaur ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gengar ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Cresselia ex",
+      "set": null,
+      "number": "37"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    }
+  ]
+}

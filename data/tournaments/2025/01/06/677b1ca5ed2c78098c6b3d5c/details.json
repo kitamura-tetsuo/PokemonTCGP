@@ -1,0 +1,23 @@
+{
+  "id": "677b1ca5ed2c78098c6b3d5c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Haven Pokemon Tourney 8 (Starters)",
+  "date": "2025-01-06T01:30:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1920,
+    "name": "Haven"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67ba1a82276218596f27f4a7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6Heaven`s Spring Cup 2025 #3 BO3\ud83c\udfc6",
+  "date": "2025-03-16T15:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

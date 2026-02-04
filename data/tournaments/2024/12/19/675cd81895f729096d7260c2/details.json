@@ -1,0 +1,23 @@
+{
+  "id": "675cd81895f729096d7260c2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneo nocturno argentino \ud83c\udde6\ud83c\uddf7 #1",
+  "date": "2024-12-19T01:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

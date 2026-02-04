@@ -1,0 +1,41 @@
+{
+  "id": "676dc19e86f3dba5340294ce",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udd25COPA BLAINE #5 NO-EX \u274c| COPICLOL",
+  "date": "2024-12-29T21:30:00.000Z",
+  "players": 252,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "205"
+    },
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "247"
+    }
+  ]
+}

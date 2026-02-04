@@ -1,0 +1,29 @@
+{
+  "id": "6735bf6057dcc5a683fc18fe",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fu's $100 Pocket Tourney",
+  "date": "2024-11-23T01:00:00.000Z",
+  "players": 491,
+  "organizer": {
+    "id": 1951,
+    "name": "itsmefu"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

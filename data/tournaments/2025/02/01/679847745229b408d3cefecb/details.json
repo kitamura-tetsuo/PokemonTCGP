@@ -1,0 +1,29 @@
+{
+  "id": "679847745229b408d3cefecb",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP CEBU Global Open #2 - Space-Time Intro",
+  "date": "2025-02-01T01:30:00.000Z",
+  "players": 117,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

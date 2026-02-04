@@ -1,0 +1,29 @@
+{
+  "id": "67bfb7280b3322ebaa515c99",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League - HAPPY BIRTHDAY ELLIE !!!",
+  "date": "2025-03-04T20:00:00.000Z",
+  "players": 361,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

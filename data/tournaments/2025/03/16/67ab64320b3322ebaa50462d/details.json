@@ -1,0 +1,29 @@
+{
+  "id": "67ab64320b3322ebaa50462d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Spearrow Cup - 2\u00aa Edi\u00e7\u00e3o - R$ 1.000 em pr\u00eamios",
+  "date": "2025-03-16T17:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2141,
+    "name": "Tripula\u00e7\u00e3o Sparrow"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

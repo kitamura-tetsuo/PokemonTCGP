@@ -1,0 +1,29 @@
+{
+  "id": "67d34a7b9561463c3371d240",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Season 2 open Morning series 1",
+  "date": "2025-03-28T15:30:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

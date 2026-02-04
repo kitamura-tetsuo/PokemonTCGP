@@ -1,0 +1,32 @@
+{
+  "id": "6795e55a5229b408d3cebfde",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "No Ex No Problem 50$ tournament!",
+  "date": "2025-02-01T09:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

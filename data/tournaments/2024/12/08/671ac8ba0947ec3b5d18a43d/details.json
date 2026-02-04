@@ -1,0 +1,33 @@
+{
+  "id": "671ac8ba0947ec3b5d18a43d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Triple Energy (3-Day Rounds)",
+  "date": "2024-12-08T20:00:00.000Z",
+  "players": 186,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

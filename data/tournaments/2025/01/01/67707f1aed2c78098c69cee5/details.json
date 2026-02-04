@@ -1,0 +1,29 @@
+{
+  "id": "67707f1aed2c78098c69cee5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25Pocket Masters Showdown\ud83d\udd25 #3",
+  "date": "2025-01-01T17:00:00.000Z",
+  "players": 182,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

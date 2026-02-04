@@ -1,0 +1,36 @@
+{
+  "id": "67caa5c136181ea4d6ea072a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udf3fSTATUS EFFECT POKEMON ONLY\ud83c\udf34Cloyster Cup #7\ud83c\udf3f",
+  "date": "2025-03-09T06:20:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "READ RULES FOR LIST OF ALLOWED POKEMON",
+      "set": "A1",
+      "number": "1"
+    }
+  ]
+}

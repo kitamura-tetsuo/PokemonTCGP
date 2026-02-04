@@ -1,0 +1,109 @@
+{
+  "id": "6879f7093e7086bfd3b994a8",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 MONOMETA NoEX - \ud83d\udcb0 10$ Clash of Titans [S1-7/8]",
+  "date": "2025-12-05T18:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2410,
+    "name": "MONOMETA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "75"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "156"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "P-A",
+      "number": "69"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "245"
+    },
+    {
+      "name": "Silvally",
+      "set": "A4b",
+      "number": "302"
+    },
+    {
+      "name": "Silvally",
+      "set": "A4b",
+      "number": "303"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A4b",
+      "number": "304"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A4b",
+      "number": "305"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

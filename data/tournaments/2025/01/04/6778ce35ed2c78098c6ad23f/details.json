@@ -1,0 +1,51 @@
+{
+  "id": "6778ce35ed2c78098c6ad23f",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc28NOEX + 4 bans\ud83d\udd77\ufe0f $100USD\ud83e\udd98",
+  "date": "2025-01-04T08:00:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ninetales",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    }
+  ]
+}

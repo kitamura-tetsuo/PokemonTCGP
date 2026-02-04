@@ -1,0 +1,64 @@
+{
+  "id": "69389ecd1b3b036ef6dbd987",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea Hometown NO EX #1 20$",
+  "date": "2025-12-10T22:30:00.000Z",
+  "players": 50,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "245"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67c9393536181ea4d6e9f4eb",
+  "game": "POCKET",
+  "format": null,
+  "name": "ANAK DEWA CUP",
+  "date": "2025-03-08T16:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2261,
+    "name": "Dewa United Esports"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

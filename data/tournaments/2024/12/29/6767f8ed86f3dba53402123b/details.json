@@ -1,0 +1,29 @@
+{
+  "id": "6767f8ed86f3dba53402123b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9Mike - Pocket Tournament #2",
+  "date": "2024-12-29T12:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6971402a9c739a2ff7bf50d1",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc26\u200d\ud83d\udd25 GALAR \u2022 Edi\u00e7\u00e3o 3 \u2022 \ud83d\udeabNOEX\ud83d\udeab \u2022 Prize $250 BRL",
+  "date": "2026-01-23T15:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2442,
+    "name": "TEAM GALAR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

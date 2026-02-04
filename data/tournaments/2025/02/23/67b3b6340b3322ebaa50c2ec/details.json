@@ -1,0 +1,23 @@
+{
+  "id": "67b3b6340b3322ebaa50c2ec",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "TORNEO GODLIKE SUBS",
+  "date": "2025-02-23T16:00:00.000Z",
+  "players": 3,
+  "organizer": {
+    "id": 2029,
+    "name": "MyKeGodLike"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

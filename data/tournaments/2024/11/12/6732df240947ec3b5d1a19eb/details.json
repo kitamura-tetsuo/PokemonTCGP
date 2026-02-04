@@ -1,0 +1,32 @@
+{
+  "id": "6732df240947ec3b5d1a19eb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Casual Pocket Gym PH #3 (16 PLAYERS ONLY)",
+  "date": "2024-11-12T07:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 1898,
+    "name": "Pocket Gym PH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

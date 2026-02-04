@@ -1,0 +1,29 @@
+{
+  "id": "67c5b63a36181ea4d6e9bd24",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREINO\ud83c\udfc6 #2 PRO CUP - R$ 250,00 \ud83d\udcb0",
+  "date": "2025-03-09T17:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

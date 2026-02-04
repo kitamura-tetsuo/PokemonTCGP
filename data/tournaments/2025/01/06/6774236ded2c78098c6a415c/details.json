@@ -1,0 +1,29 @@
+{
+  "id": "6774236ded2c78098c6a415c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6Pok\u00e9mon Pocket Fever Cup #1\ud83c\udfc6 16-32\u20ac PRIZEPOOL\ud83d\udcb0",
+  "date": "2025-01-06T20:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2106,
+    "name": "Pok\u00e9mon Pocket Fever"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

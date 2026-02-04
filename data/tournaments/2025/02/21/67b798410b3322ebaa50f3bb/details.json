@@ -1,0 +1,29 @@
+{
+  "id": "67b798410b3322ebaa50f3bb",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfdd\ufe0f#0 MANALO CONFERENCE \ud83c\udfdd\ufe0f || \ud83d\udcb0 40\u20ac \ud83d\udcb0",
+  "date": "2025-02-21T14:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

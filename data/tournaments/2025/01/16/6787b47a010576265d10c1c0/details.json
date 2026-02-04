@@ -1,0 +1,23 @@
+{
+  "id": "6787b47a010576265d10c1c0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneo nocturno argentino (hispano) #4",
+  "date": "2025-01-16T01:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

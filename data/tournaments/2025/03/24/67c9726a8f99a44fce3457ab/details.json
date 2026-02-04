@@ -1,0 +1,23 @@
+{
+  "id": "67c9726a8f99a44fce3457ab",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc6 SERIE B 2025",
+  "date": "2025-03-24T20:01:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 9,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "69610a0cba66621ba08b7e89",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Champions#2-A\uff5c$100 Series\uff5cNoex/Monotype/Singleton",
+  "date": "2026-01-23T11:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

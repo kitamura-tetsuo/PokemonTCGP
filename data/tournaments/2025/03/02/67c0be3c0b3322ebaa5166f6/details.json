@@ -1,0 +1,401 @@
+{
+  "id": "67c0be3c0b3322ebaa5166f6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc27 COPA DAWN VR  \ud83d\udc31|COPICLOL| $50 USD - $250",
+  "date": "2025-03-02T21:00:00.000Z",
+  "players": 295,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Heracross",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mothim",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Burmy",
+      "set": "A2a",
+      "number": "2"
+    },
+    {
+      "name": "Combee",
+      "set": "A2a",
+      "number": "4"
+    },
+    {
+      "name": "Vespiquen",
+      "set": "A2a",
+      "number": "5"
+    },
+    {
+      "name": "Cherubi",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cherrim",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Carnivine",
+      "set": "A2a",
+      "number": "9"
+    },
+    {
+      "name": "Leafeon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Houndour",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Houndoom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatran",
+      "set": "A2a",
+      "number": "13"
+    },
+    {
+      "name": "Marill",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Azumarill",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Barboach",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Whiscash",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snorunt",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Froslass",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snover",
+      "set": "A2a",
+      "number": "20"
+    },
+    {
+      "name": "Abomasnow",
+      "set": "A2a",
+      "number": "21"
+    },
+    {
+      "name": "Glaceon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Palkia",
+      "set": "A2a",
+      "number": "23"
+    },
+    {
+      "name": "Phione",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu",
+      "set": "A2a",
+      "number": "25"
+    },
+    {
+      "name": "Raichu",
+      "set": "A2a",
+      "number": "26"
+    },
+    {
+      "name": "Electrike",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Manectric",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Clefairy",
+      "set": "A2a",
+      "number": "29"
+    },
+    {
+      "name": "Clefable",
+      "set": "A2a",
+      "number": "30"
+    },
+    {
+      "name": "Gastly",
+      "set": "A2a",
+      "number": "31"
+    },
+    {
+      "name": "Haunter",
+      "set": "A2a",
+      "number": "32"
+    },
+    {
+      "name": "Gengar",
+      "set": "A2a",
+      "number": "33"
+    },
+    {
+      "name": "Unown",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rotom",
+      "set": "A2a",
+      "number": "35"
+    },
+    {
+      "name": "Sudowoodo",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Phanpy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Donphan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Larvitar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pupitar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tyranitar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Nosepass",
+      "set": "A2a",
+      "number": "42"
+    },
+    {
+      "name": "Meditite",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Medicham",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gible",
+      "set": "A2a",
+      "number": "45"
+    },
+    {
+      "name": "Gabite",
+      "set": "A2a",
+      "number": "46"
+    },
+    {
+      "name": "Garchomp ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zubat",
+      "set": "A2a",
+      "number": "48"
+    },
+    {
+      "name": "Golbat",
+      "set": "A2a",
+      "number": "49"
+    },
+    {
+      "name": "Crobat",
+      "set": "A2a",
+      "number": "50"
+    },
+    {
+      "name": "Croagunk",
+      "set": "A2a",
+      "number": "51"
+    },
+    {
+      "name": "Toxicroak",
+      "set": "A2a",
+      "number": "52"
+    },
+    {
+      "name": "Magnemite",
+      "set": "A2a",
+      "number": "53"
+    },
+    {
+      "name": "Magneton",
+      "set": "A2a",
+      "number": "54"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2a",
+      "number": "55"
+    },
+    {
+      "name": "Mawile",
+      "set": "A2a",
+      "number": "56"
+    },
+    {
+      "name": "Probopass ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bronzor",
+      "set": "A2a",
+      "number": "58"
+    },
+    {
+      "name": "Bronzong",
+      "set": "A2a",
+      "number": "59"
+    },
+    {
+      "name": "Dialga",
+      "set": "A2a",
+      "number": "60"
+    },
+    {
+      "name": "Giratina",
+      "set": "A2a",
+      "number": "61"
+    },
+    {
+      "name": "Eevee",
+      "set": "A2a",
+      "number": "62"
+    },
+    {
+      "name": "Snorlax",
+      "set": "A2a",
+      "number": "63"
+    },
+    {
+      "name": "Hoothoot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Noctowl",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starly",
+      "set": "A2a",
+      "number": "66"
+    },
+    {
+      "name": "Staravia",
+      "set": "A2a",
+      "number": "67"
+    },
+    {
+      "name": "Staraptor",
+      "set": "A2a",
+      "number": "68"
+    },
+    {
+      "name": "Shaymin",
+      "set": "A2a",
+      "number": "69"
+    },
+    {
+      "name": "Arceus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Irida",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celestic Town Elder",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Barry",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Adaman",
+      "set": null,
+      "number": null
+    }
+  ]
+}

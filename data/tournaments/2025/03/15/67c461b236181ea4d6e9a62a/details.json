@@ -1,0 +1,30 @@
+{
+  "id": "67c461b236181ea4d6e9a62a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #22 (Season 2) - 50 USD",
+  "date": "2025-03-15T00:00:00.000Z",
+  "players": 409,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

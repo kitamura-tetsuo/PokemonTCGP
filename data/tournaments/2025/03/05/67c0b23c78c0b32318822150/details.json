@@ -1,0 +1,247 @@
+{
+  "id": "67c0b23c78c0b32318822150",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #18- 50 USD (Season 2)",
+  "date": "2025-03-05T18:00:00.000Z",
+  "players": 202,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Pikachu",
+      "set": "P-A",
+      "number": "9"
+    },
+    {
+      "name": "Mewtwo",
+      "set": "P-A",
+      "number": "10"
+    },
+    {
+      "name": "Chansey",
+      "set": "P-A",
+      "number": "11"
+    },
+    {
+      "name": "Meowth",
+      "set": "P-A",
+      "number": "12"
+    },
+    {
+      "name": "Buttefree",
+      "set": "P-A",
+      "number": "13"
+    },
+    {
+      "name": "Lapras ex",
+      "set": "P-A",
+      "number": "14"
+    },
+    {
+      "name": "Pikachu",
+      "set": "P-A",
+      "number": "15"
+    },
+    {
+      "name": "Clefairy",
+      "set": "P-A",
+      "number": "16"
+    },
+    {
+      "name": "Mankey",
+      "set": "P-A",
+      "number": "17"
+    },
+    {
+      "name": "Venusaur",
+      "set": "P-A",
+      "number": "18"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Haunter",
+      "set": "P-A",
+      "number": "20"
+    },
+    {
+      "name": "Onix",
+      "set": "P-A",
+      "number": "21"
+    },
+    {
+      "name": "Jigglypuff",
+      "set": "P-A",
+      "number": "22"
+    },
+    {
+      "name": "Bulbasaur",
+      "set": "P-A",
+      "number": "23"
+    },
+    {
+      "name": "Magnemite",
+      "set": "P-A",
+      "number": "24"
+    },
+    {
+      "name": "Moltres ex",
+      "set": "P-A",
+      "number": "25"
+    },
+    {
+      "name": "Pikachu",
+      "set": "P-A",
+      "number": "26"
+    },
+    {
+      "name": "Snivy",
+      "set": "P-A",
+      "number": "27"
+    },
+    {
+      "name": "Volcarona",
+      "set": "P-A",
+      "number": "28"
+    },
+    {
+      "name": "Blastoise",
+      "set": "P-A",
+      "number": "29"
+    },
+    {
+      "name": "Eevee",
+      "set": "P-A",
+      "number": "30"
+    },
+    {
+      "name": "Cinccino",
+      "set": "P-A",
+      "number": "31"
+    },
+    {
+      "name": "Charmander",
+      "set": "P-A",
+      "number": "32"
+    },
+    {
+      "name": "Squirtle",
+      "set": "P-A",
+      "number": "33"
+    },
+    {
+      "name": "Piplup",
+      "set": "P-A",
+      "number": "34"
+    },
+    {
+      "name": "Turtwig",
+      "set": "P-A",
+      "number": "35"
+    },
+    {
+      "name": "Electivire",
+      "set": "P-A",
+      "number": "36"
+    },
+    {
+      "name": "Cresselia ex",
+      "set": "P-A",
+      "number": "37"
+    },
+    {
+      "name": "Misdreavus",
+      "set": "P-A",
+      "number": "38"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Chimchar",
+      "set": "P-A",
+      "number": "40"
+    },
+    {
+      "name": "Togepi",
+      "set": "P-A",
+      "number": "41"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "P-A",
+      "number": "42"
+    },
+    {
+      "name": "Cherrim",
+      "set": "P-A",
+      "number": "43"
+    },
+    {
+      "name": "Raichu",
+      "set": "P-A",
+      "number": "44"
+    },
+    {
+      "name": "Nosepass",
+      "set": "P-A",
+      "number": "45"
+    },
+    {
+      "name": "Gible",
+      "set": "P-A",
+      "number": "46"
+    },
+    {
+      "name": "Staraptor",
+      "set": "P-A",
+      "number": "47"
+    },
+    {
+      "name": "Manaphy",
+      "set": "P-A",
+      "number": "48"
+    },
+    {
+      "name": "Snorlax",
+      "set": "P-A",
+      "number": "49"
+    }
+  ]
+}

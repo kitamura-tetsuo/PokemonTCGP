@@ -1,0 +1,29 @@
+{
+  "id": "6790eb2e5229b408d3ce2bc4",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Le Bourg Fighting #2",
+  "date": "2025-01-28T19:00:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

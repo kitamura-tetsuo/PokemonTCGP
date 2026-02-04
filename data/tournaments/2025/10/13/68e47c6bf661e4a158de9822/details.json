@@ -1,0 +1,39 @@
+{
+  "id": "68e47c6bf661e4a158de9822",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udf11 VoidPocket NoEx Showdown #03 \ud83c\udf11 ($35 USD)",
+  "date": "2025-10-13T01:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

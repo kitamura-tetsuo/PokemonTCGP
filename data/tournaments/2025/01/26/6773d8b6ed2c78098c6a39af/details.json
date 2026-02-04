@@ -1,0 +1,30 @@
+{
+  "id": "6773d8b6ed2c78098c6a39af",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League S1 Invitational - 210 USD",
+  "date": "2025-01-26T10:00:00.000Z",
+  "players": 37,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

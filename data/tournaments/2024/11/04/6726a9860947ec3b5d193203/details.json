@@ -1,0 +1,30 @@
+{
+  "id": "6726a9860947ec3b5d193203",
+  "game": "POCKET",
+  "format": null,
+  "name": "Beanie Brawl - Pocket Edition - $100 Prize Pool",
+  "date": "2024-11-04T23:00:00.000Z",
+  "players": 351,
+  "organizer": {
+    "id": 661,
+    "name": "thatguyinabeanie",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/q1b0vaev49ac3cko"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

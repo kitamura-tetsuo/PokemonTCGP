@@ -1,0 +1,29 @@
+{
+  "id": "676b565186f3dba534026784",
+  "game": "POCKET",
+  "format": null,
+  "name": "The dark league weekend #4",
+  "date": "2024-12-28T12:00:00.000Z",
+  "players": 124,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

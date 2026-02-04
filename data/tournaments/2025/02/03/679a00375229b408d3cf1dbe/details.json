@@ -1,0 +1,29 @@
+{
+  "id": "679a00375229b408d3cf1dbe",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Cup ft Dr.Eam",
+  "date": "2025-02-03T16:00:00.000Z",
+  "players": 132,
+  "organizer": {
+    "id": 1018,
+    "name": "Colosseum Card Games"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

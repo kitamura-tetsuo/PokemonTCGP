@@ -1,0 +1,29 @@
+{
+  "id": "67ac295378c0b32318811bf9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Squirtle Squad TCG Pocket TOR #1",
+  "date": "2025-02-13T16:25:00.000Z",
+  "players": 76,
+  "organizer": {
+    "id": 2224,
+    "name": "The Citadel"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

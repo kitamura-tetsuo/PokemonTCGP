@@ -1,0 +1,29 @@
+{
+  "id": "67bfdaa80b3322ebaa515e1c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hooglandia & Spragels Open | $1000+ Prizing Value",
+  "date": "2025-03-08T18:00:00.000Z",
+  "players": 867,
+  "organizer": {
+    "id": 2140,
+    "name": "Hooglandia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

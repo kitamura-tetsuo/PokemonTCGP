@@ -1,0 +1,29 @@
+{
+  "id": "67730026ed2c78098c6a207d",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "NOEX REPLACEMENT TOURNAMENT",
+  "date": "2024-12-30T20:45:00.000Z",
+  "players": 160,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

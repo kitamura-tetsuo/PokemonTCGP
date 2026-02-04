@@ -1,0 +1,29 @@
+{
+  "id": "673967a4c4180e08eacf7b5a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Narnia's Pocket League #2",
+  "date": "2024-11-24T08:30:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

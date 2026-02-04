@@ -1,0 +1,36 @@
+{
+  "id": "67ac832b78c0b32318811dbc",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udca7 TORNEO RUTA KANTO NOEX #02\ud83d\udca7 FREE",
+  "date": "2025-02-15T23:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    }
+  ]
+}

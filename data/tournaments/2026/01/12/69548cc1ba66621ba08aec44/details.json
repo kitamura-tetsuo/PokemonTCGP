@@ -1,0 +1,35 @@
+{
+  "id": "69548cc1ba66621ba08aec44",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Spark of Defiance Meta Fractures NoEx $10",
+  "date": "2026-01-12T01:00:00.000Z",
+  "players": 51,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

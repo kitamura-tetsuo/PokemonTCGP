@@ -1,0 +1,41 @@
+{
+  "id": "696e353e9c739a2ff7bf35dc",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udca2 BEC'S 25$ RESTRICTED CUP - Suicune EX Hydreigon",
+  "date": "2026-01-23T14:30:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune EX",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    }
+  ]
+}

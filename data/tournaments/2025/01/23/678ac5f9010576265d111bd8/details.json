@@ -1,0 +1,35 @@
+{
+  "id": "678ac5f9010576265d111bd8",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfc5BATTLE TOWER\ud83c\udfc5RANKEDS | Terremoto x Trainers TCG",
+  "date": "2025-01-23T00:00:00.000Z",
+  "players": 144,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "205"
+    },
+    {
+      "name": "Ditto",
+      "set": "A1",
+      "number": "247"
+    }
+  ]
+}

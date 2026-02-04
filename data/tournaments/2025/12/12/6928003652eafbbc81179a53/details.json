@@ -1,0 +1,34 @@
+{
+  "id": "6928003652eafbbc81179a53",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CPL Champions #1-E [GLC in Pocket/$100 for series]",
+  "date": "2025-12-12T11:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

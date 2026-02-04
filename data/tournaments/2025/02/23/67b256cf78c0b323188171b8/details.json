@@ -1,0 +1,23 @@
+{
+  "id": "67b256cf78c0b323188171b8",
+  "game": "POCKET",
+  "format": null,
+  "name": "[PL] Polish Pocket League - Sezon 2, Kolejka #4",
+  "date": "2025-02-23T15:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

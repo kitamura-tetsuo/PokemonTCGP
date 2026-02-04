@@ -1,0 +1,29 @@
+{
+  "id": "674d5fde95f729096d70c168",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udccf Gimmicky Tournament: PICK A' STARTER - KANTO \ud83c\udccf",
+  "date": "2025-01-12T09:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

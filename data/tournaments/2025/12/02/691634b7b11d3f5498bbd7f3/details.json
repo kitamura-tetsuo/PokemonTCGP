@@ -1,0 +1,46 @@
+{
+  "id": "691634b7b11d3f5498bbd7f3",
+  "game": "POCKET",
+  "format": null,
+  "name": "RagingReDragons $30 & 3 FA Little Cup 2 Tournament",
+  "date": "2025-12-02T18:00:00.000Z",
+  "players": 114,
+  "organizer": {
+    "id": 2418,
+    "name": "RagingReDragon"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Marshadow",
+      "set": "A1a",
+      "number": "47"
+    },
+    {
+      "name": "Marshadow",
+      "set": "A4b",
+      "number": "224"
+    },
+    {
+      "name": "Marshadow",
+      "set": "A1a",
+      "number": "74"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6797973a5229b408d3cee9c3",
+  "game": "POCKET",
+  "format": null,
+  "name": "#6 Paldea Pro League - $ 5 USD",
+  "date": "2025-02-02T15:00:00.000Z",
+  "players": 193,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

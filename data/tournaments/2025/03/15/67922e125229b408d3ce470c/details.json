@@ -1,0 +1,29 @@
+{
+  "id": "67922e125229b408d3ce470c",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Blazing Battle Tower 1100$USD",
+  "date": "2025-03-15T20:00:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

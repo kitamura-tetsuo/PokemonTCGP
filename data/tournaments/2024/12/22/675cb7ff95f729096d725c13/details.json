@@ -1,0 +1,29 @@
+{
+  "id": "675cb7ff95f729096d725c13",
+  "game": "POCKET",
+  "format": null,
+  "name": "#1 Mystic Journey - Special Event \ud83d\udcb01664 USD",
+  "date": "2024-12-22T18:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

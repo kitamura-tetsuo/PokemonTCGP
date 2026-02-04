@@ -1,0 +1,32 @@
+{
+  "id": "673e5c61c4180e08eacffbaf",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\u26a1Poke League\u26a1 Singleton - Ronda cada 2 d\u00edas",
+  "date": "2024-12-03T12:00:00.000Z",
+  "players": 140,
+  "organizer": {
+    "id": 1980,
+    "name": "MrZariweya"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

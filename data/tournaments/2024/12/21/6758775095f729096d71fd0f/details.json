@@ -1,0 +1,29 @@
+{
+  "id": "6758775095f729096d71fd0f",
+  "game": "POCKET",
+  "format": null,
+  "name": "#1 \ud3ec\ucf13\ubaac \uce74\ub4dc \uac8c\uc784 pocket \ud55c\uad6d\ub300\ud68c",
+  "date": "2024-12-21T05:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 1971,
+    "name": "Pok\u00e9mon \ud55c\uad6d\uc11c\ubc84"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6756269395f729096d71cd07",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournoi @MrYannou #3 Ram\u00e8ne pas ton EX ! 50\u20ac",
+  "date": "2024-12-15T03:20:00.000Z",
+  "players": 86,
+  "organizer": {
+    "id": 2004,
+    "name": "MrYannou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

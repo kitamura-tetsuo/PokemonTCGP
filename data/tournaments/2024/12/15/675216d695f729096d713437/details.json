@@ -1,0 +1,29 @@
+{
+  "id": "675216d695f729096d713437",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udca5DOMJIS 50\u20ac CHARITY COMMUNITY TURNIER\ud83d\udca5",
+  "date": "2024-12-15T12:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 858,
+    "name": "Domji"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

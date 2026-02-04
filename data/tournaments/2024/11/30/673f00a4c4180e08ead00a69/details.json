@@ -1,0 +1,32 @@
+{
+  "id": "673f00a4c4180e08ead00a69",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PingShiRo Pocket Thailand \ud83c\uddf9\ud83c\udded #2 \u2022 1,000\u0e3f Prize",
+  "date": "2024-11-30T11:00:00.000Z",
+  "players": 183,
+  "organizer": {
+    "id": 1935,
+    "name": "PingShiRo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

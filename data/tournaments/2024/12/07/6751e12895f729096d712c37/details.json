@@ -1,0 +1,29 @@
+{
+  "id": "6751e12895f729096d712c37",
+  "game": "POCKET",
+  "format": null,
+  "name": "nocturno de prueba",
+  "date": "2024-12-07T01:00:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

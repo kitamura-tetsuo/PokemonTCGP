@@ -1,0 +1,32 @@
+{
+  "id": "690206b024b8f37ae93c9b97",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Halloween (Fire, Dark, Psychic, Colorless)",
+  "date": "2025-10-29T19:05:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6768a16186f3dba534022ab8",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX Weekly Cup #1 \u2022 50 USD Prize\ud83d\udc38",
+  "date": "2025-01-02T19:00:00.000Z",
+  "players": 512,
+  "organizer": {
+    "id": 1938,
+    "name": "Golden Club"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

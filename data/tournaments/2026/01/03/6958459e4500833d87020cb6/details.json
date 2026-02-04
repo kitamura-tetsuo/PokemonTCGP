@@ -1,0 +1,36 @@
+{
+  "id": "6958459e4500833d87020cb6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Underground Showcase-No Suicine ex! PRIZE",
+  "date": "2026-01-03T02:45:00.000Z",
+  "players": 152,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

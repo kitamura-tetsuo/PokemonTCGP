@@ -1,0 +1,41 @@
+{
+  "id": "6757f26d95f729096d71f6f0",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #2",
+  "date": "2024-12-12T18:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Electrode",
+      "set": "A1",
+      "number": "100"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "129"
+    }
+  ]
+}

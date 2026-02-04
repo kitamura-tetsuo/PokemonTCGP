@@ -1,0 +1,29 @@
+{
+  "id": "67b9b5d778c0b3231881ceac",
+  "game": "POCKET",
+  "format": null,
+  "name": "#2 GALAXY TOURNAMENT",
+  "date": "2025-03-01T04:30:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 2222,
+    "name": "MXY7"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

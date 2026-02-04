@@ -1,0 +1,29 @@
+{
+  "id": "67bf648678c0b32318821161",
+  "game": "POCKET",
+  "format": null,
+  "name": "Globo Gym Battlegrounds #1",
+  "date": "2025-02-27T03:45:00.000Z",
+  "players": 78,
+  "organizer": {
+    "id": 2248,
+    "name": "Globo Gym PTCGP"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67842d0f7960ec710eff4ad3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Cup Brasil triple deck tournament",
+  "date": "2025-01-14T20:30:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 1984,
+    "name": "Brasil TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

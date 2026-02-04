@@ -1,0 +1,29 @@
+{
+  "id": "67eed94651fbd1f97a4ac19b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc624H Qualification Tour\ud83c\udfc6Last\ud83c\udfc6",
+  "date": "2025-04-06T19:15:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

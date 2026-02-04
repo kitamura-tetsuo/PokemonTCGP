@@ -1,0 +1,29 @@
+{
+  "id": "6774fcf7ed2c78098c6a520f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Casual Pocket Gym PH #7",
+  "date": "2025-01-04T05:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1898,
+    "name": "Pocket Gym PH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

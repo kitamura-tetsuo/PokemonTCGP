@@ -1,0 +1,29 @@
+{
+  "id": "674d4ac995f729096d70c0ab",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6GAMERS CLASH #1 - STANDARD TOURNAMENT \ud83c\udfc6",
+  "date": "2024-12-29T10:00:00.000Z",
+  "players": 167,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

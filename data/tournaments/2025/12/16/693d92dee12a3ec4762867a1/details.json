@@ -1,0 +1,54 @@
+{
+  "id": "693d92dee12a3ec4762867a1",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc80The Benchwarmer Tournament",
+  "date": "2025-12-16T01:05:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Chingling",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

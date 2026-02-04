@@ -1,0 +1,146 @@
+{
+  "id": "68d064fb7a2c388893caa9bb",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff4\u200d\u2620\ufe0f Pocket Lagoon Banlist Event \ud83c\udf0a #5 (10 USD)",
+  "date": "2025-10-04T02:00:00.000Z",
+  "players": 83,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Sylveon ex",
+      "set": "A3b",
+      "number": "34"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": "A3a",
+      "number": "43"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Buzzwole ex",
+      "set": "A3a",
+      "number": "6"
+    },
+    {
+      "name": "Flareon ex",
+      "set": "A3b",
+      "number": "9"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": "10"
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": "122"
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A3",
+      "number": "12"
+    },
+    {
+      "name": "Tapu Koko ex",
+      "set": "A3a",
+      "number": "19"
+    },
+    {
+      "name": "Dragonite ex",
+      "set": "A3b",
+      "number": "53"
+    },
+    {
+      "name": "Ho-oh ex",
+      "set": "A4",
+      "number": "34"
+    },
+    {
+      "name": "Moltres ex",
+      "set": "A1",
+      "number": "47"
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": "119"
+    },
+    {
+      "name": "Skarmory ex",
+      "set": "A4",
+      "number": "124"
+    },
+    {
+      "name": "Umbreon ex",
+      "set": "A4",
+      "number": "112"
+    },
+    {
+      "name": "Raikou ex",
+      "set": "A4a",
+      "number": "25"
+    },
+    {
+      "name": "Snorlax ex",
+      "set": "A3b",
+      "number": "57"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    }
+  ]
+}

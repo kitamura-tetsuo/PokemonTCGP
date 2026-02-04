@@ -1,0 +1,32 @@
+{
+  "id": "67370e88c4180e08eacf202e",
+  "game": "POCKET",
+  "format": null,
+  "name": "[GER] Lotus GamingDE Legends",
+  "date": "2024-11-16T06:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 1941,
+    "name": "LotusGamingDE"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

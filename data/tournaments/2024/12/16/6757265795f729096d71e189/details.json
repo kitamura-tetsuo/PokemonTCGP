@@ -1,0 +1,35 @@
+{
+  "id": "6757265795f729096d71e189",
+  "game": "POCKET",
+  "format": null,
+  "name": "#1 POCKET CHAMPION'S CUP",
+  "date": "2024-12-16T18:05:00.000Z",
+  "players": 169,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

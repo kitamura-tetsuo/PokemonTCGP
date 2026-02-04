@@ -1,0 +1,23 @@
+{
+  "id": "696e761eb1294bfab72017a3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon TCGP women\u2019s league",
+  "date": "2026-01-25T00:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}

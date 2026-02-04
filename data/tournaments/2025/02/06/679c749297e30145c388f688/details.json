@@ -1,0 +1,29 @@
+{
+  "id": "679c749297e30145c388f688",
+  "game": "POCKET",
+  "format": null,
+  "name": "Swiss Round Tournament \ud83d\udca4",
+  "date": "2025-02-06T12:30:00.000Z",
+  "players": 307,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

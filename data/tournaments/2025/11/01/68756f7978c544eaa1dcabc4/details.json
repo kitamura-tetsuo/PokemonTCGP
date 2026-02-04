@@ -1,0 +1,102 @@
+{
+  "id": "68756f7978c544eaa1dcabc4",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Crash of the Titans (3-Day Rounds)",
+  "date": "2025-11-01T07:00:00.000Z",
+  "players": 108,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Leafeon ex",
+      "set": "A2a",
+      "number": "10"
+    },
+    {
+      "name": "Mew ex",
+      "set": "A1a",
+      "number": "32"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Eevee",
+      "set": "A1",
+      "number": "206"
+    },
+    {
+      "name": "Eevee",
+      "set": "A1",
+      "number": "207"
+    },
+    {
+      "name": "Eevee",
+      "set": "A1",
+      "number": "208"
+    },
+    {
+      "name": "Eevee",
+      "set": "A1a",
+      "number": "61"
+    },
+    {
+      "name": "Eevee",
+      "set": "A2",
+      "number": "126"
+    },
+    {
+      "name": "Eevee",
+      "set": "A2a",
+      "number": "62"
+    },
+    {
+      "name": "Eevee",
+      "set": "A3b",
+      "number": "55"
+    },
+    {
+      "name": "Eevee",
+      "set": "A4",
+      "number": "134"
+    },
+    {
+      "name": "Eevee",
+      "set": "P-A",
+      "number": "30"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": "10"
+    }
+  ]
+}

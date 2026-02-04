@@ -1,0 +1,29 @@
+{
+  "id": "676740fc33d8a809fb33d9f8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ursiiday's Pocket Weekly #9 \u2022 400 USD Prize",
+  "date": "2024-12-28T18:00:00.000Z",
+  "players": 1940,
+  "organizer": {
+    "id": 1873,
+    "name": "Ursiiday"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

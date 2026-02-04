@@ -1,0 +1,29 @@
+{
+  "id": "67c7311a8f99a44fce3437de",
+  "game": "POCKET",
+  "format": null,
+  "name": "Gabut Tournament #19",
+  "date": "2025-03-12T07:00:00.000Z",
+  "players": 137,
+  "organizer": {
+    "id": 2148,
+    "name": "hrsnfbrn"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

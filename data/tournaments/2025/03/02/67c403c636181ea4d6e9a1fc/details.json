@@ -1,0 +1,29 @@
+{
+  "id": "67c403c636181ea4d6e9a1fc",
+  "game": "POCKET",
+  "format": null,
+  "name": "Squirrel Squad TCG Pocket Tour #4 B01",
+  "date": "2025-03-02T16:30:00.000Z",
+  "players": 122,
+  "organizer": {
+    "id": 2224,
+    "name": "The Citadel"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

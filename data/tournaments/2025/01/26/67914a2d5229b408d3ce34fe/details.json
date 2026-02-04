@@ -1,0 +1,64 @@
+{
+  "id": "67914a2d5229b408d3ce34fe",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udd25COPA BLAINE #7 NO-EX\u274cCOPICLOL | $10 USD",
+  "date": "2025-01-26T21:30:00.000Z",
+  "players": 166,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ninetales",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Marshadow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Serperior",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

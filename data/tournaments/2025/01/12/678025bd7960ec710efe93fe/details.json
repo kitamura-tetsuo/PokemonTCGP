@@ -1,0 +1,29 @@
+{
+  "id": "678025bd7960ec710efe93fe",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournoi LEAGUE canto TCG POCKET N00\u00b0",
+  "date": "2025-01-12T13:30:00.000Z",
+  "players": 83,
+  "organizer": {
+    "id": 1049,
+    "name": "Mini tournoi TCG Pokemon Canto"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67f52be0d28716d7204d4c7c",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Beast Brother League - TCGP [Welcome] - 5 Euro",
+  "date": "2025-04-09T16:00:00.000Z",
+  "players": 75,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

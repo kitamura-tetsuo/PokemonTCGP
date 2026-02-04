@@ -1,0 +1,29 @@
+{
+  "id": "67e87fab142155bb4448f274",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf34Tropical Cup #3 \u2022 60 BRL \ud83c\udf34",
+  "date": "2025-03-30T18:00:00.000Z",
+  "players": 115,
+  "organizer": {
+    "id": 2277,
+    "name": "Coconut Island Brasil"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "696c0bfbb1294bfab7200465",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT Invitational Championship!!!",
+  "date": "2026-01-25T17:00:00.000Z",
+  "players": 105,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

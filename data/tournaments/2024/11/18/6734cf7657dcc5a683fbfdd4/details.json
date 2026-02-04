@@ -1,0 +1,29 @@
+{
+  "id": "6734cf7657dcc5a683fbfdd4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mach Punch #2",
+  "date": "2024-11-18T02:00:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 848,
+    "name": "Ewokpadawan "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

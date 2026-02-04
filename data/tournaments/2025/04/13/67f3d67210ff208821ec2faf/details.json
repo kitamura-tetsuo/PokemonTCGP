@@ -1,0 +1,29 @@
+{
+  "id": "67f3d67210ff208821ec2faf",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 Simbozz - Community Tournament #2",
+  "date": "2025-04-13T12:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

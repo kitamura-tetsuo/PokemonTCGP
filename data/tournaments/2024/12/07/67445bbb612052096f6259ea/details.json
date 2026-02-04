@@ -1,0 +1,29 @@
+{
+  "id": "67445bbb612052096f6259ea",
+  "game": "POCKET",
+  "format": null,
+  "name": "Copa Monkey Ei nerd Games TCG Pocket",
+  "date": "2024-12-07T18:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 54,
+    "name": "Carteado Challenges"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67a0c7da3b814c326f970e99",
+  "game": "POCKET",
+  "format": null,
+  "name": "QUINNS TCG POCKET TOURNAMENT Season 1",
+  "date": "2025-02-10T12:00:00.000Z",
+  "players": 285,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "677265b4ed2c78098c6a1056",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "the Dark League. NO EX test",
+  "date": "2024-12-30T22:00:00.000Z",
+  "players": 214,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

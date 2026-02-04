@@ -1,0 +1,29 @@
+{
+  "id": "67a9734d05f4a8b0fc572dd0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Gabut Tournament #10",
+  "date": "2025-02-10T07:00:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2148,
+    "name": "hrsnfbrn"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

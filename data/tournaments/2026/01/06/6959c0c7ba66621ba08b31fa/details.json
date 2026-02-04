@@ -1,0 +1,36 @@
+{
+  "id": "6959c0c7ba66621ba08b31fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Monday Night Raw-SUICUNE BANNED-$5",
+  "date": "2026-01-06T02:30:00.000Z",
+  "players": 158,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune Ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

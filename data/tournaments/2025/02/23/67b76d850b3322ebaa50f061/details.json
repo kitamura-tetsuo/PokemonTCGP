@@ -1,0 +1,29 @@
+{
+  "id": "67b76d850b3322ebaa50f061",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 COPA CYNTHIA VR SPECIAL \ud83d\udc32|COPICLOL| $50 USD",
+  "date": "2025-02-23T21:30:00.000Z",
+  "players": 384,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

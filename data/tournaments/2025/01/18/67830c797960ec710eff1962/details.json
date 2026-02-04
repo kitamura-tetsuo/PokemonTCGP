@@ -1,0 +1,35 @@
+{
+  "id": "67830c797960ec710eff1962",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83e\udd21 LES PANTINS \ud83d\udeab WILD NO-EX LEAGUE! \ud83d\udeab #1",
+  "date": "2025-01-18T13:00:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

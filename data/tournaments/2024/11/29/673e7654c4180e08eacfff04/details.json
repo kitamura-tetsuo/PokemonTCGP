@@ -1,0 +1,29 @@
+{
+  "id": "673e7654c4180e08eacfff04",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Cup Brasil #1",
+  "date": "2024-11-29T22:30:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 1984,
+    "name": "Brasil TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

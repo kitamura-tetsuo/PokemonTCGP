@@ -1,0 +1,29 @@
+{
+  "id": "67c243697343de6f1c79abd6",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22Arceus is here\ud83d\udc22",
+  "date": "2025-03-01T02:30:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

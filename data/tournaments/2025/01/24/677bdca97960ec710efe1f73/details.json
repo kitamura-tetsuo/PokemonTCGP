@@ -1,0 +1,29 @@
+{
+  "id": "677bdca97960ec710efe1f73",
+  "game": "POCKET",
+  "format": null,
+  "name": "76th Republic Day Celebration: Prize: Rs.850/-",
+  "date": "2025-01-24T15:00:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2002,
+    "name": "Pok\u00e9mon TCGP India Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

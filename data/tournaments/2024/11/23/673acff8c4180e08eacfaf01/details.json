@@ -1,0 +1,51 @@
+{
+  "id": "673acff8c4180e08eacfaf01",
+  "game": "POCKET",
+  "format": null,
+  "name": "NON-META EX",
+  "date": "2024-11-23T01:30:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pikachu EX",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Mewtwo EX",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Articuno EX",
+      "set": "A1",
+      "number": "84"
+    },
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "76"
+    }
+  ]
+}

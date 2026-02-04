@@ -1,0 +1,23 @@
+{
+  "id": "678d839f010576265d118687",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournament #10: Gym Leaders!",
+  "date": "2025-01-20T01:30:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1920,
+    "name": "Haven"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

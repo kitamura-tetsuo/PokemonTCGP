@@ -1,0 +1,36 @@
+{
+  "id": "67b5d06d0b3322ebaa50dd4f",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2694\ufe0f HORA DA BATALHA: NOEX \u274c NOZONE \u274c  #3 \u2694\ufe0f",
+  "date": "2025-02-21T19:00:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2133,
+    "name": "Hora da Batalha"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    }
+  ]
+}

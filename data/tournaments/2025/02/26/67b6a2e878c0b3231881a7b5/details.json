@@ -1,0 +1,29 @@
+{
+  "id": "67b6a2e878c0b3231881a7b5",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udf08 TORNEO RUTA KANTO #04 \ud83c\udf08 PLANT DECK \ud83d\udcb05USD",
+  "date": "2025-02-26T18:00:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

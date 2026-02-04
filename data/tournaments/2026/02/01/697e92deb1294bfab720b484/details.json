@@ -1,0 +1,29 @@
+{
+  "id": "697e92deb1294bfab720b484",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREM SERIES Pop-up tournament",
+  "date": "2026-02-01T03:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2188,
+    "name": "Legendixo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

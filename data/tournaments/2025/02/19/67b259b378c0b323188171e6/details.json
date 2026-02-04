@@ -1,0 +1,32 @@
+{
+  "id": "67b259b378c0b323188171e6",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u26a1Torneio TD NOEX \u274c - 3#/Fevereiro - Free - BR",
+  "date": "2025-02-19T00:00:00.000Z",
+  "players": 62,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

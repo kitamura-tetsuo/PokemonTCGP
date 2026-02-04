@@ -1,0 +1,23 @@
+{
+  "id": "695cfd59ba66621ba08b553a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc4a\ud83c\udffb Torneio Gin\u00e1sio Luta - Prize $60 BRL",
+  "date": "2026-01-12T15:00:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "67cdff407c466f5723c32912",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Triple Energy Redux (3-Day Rounds)",
+  "date": "2025-05-11T07:00:00.000Z",
+  "players": 191,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Porygon-Z",
+      "set": "A2",
+      "number": "129"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

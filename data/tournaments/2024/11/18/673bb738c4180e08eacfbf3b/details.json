@@ -1,0 +1,29 @@
+{
+  "id": "673bb738c4180e08eacfbf3b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Circuito Liga Magikarps Pocket #1",
+  "date": "2024-11-18T23:30:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1479,
+    "name": "BMJ TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

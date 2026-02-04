@@ -1,0 +1,29 @@
+{
+  "id": "6804b2dab8cdc8c08c2101bf",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Battle Tower 6",
+  "date": "2025-04-26T12:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

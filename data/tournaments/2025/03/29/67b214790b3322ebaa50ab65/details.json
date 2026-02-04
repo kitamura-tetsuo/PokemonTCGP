@@ -1,0 +1,29 @@
+{
+  "id": "67b214790b3322ebaa50ab65",
+  "game": "POCKET",
+  "format": null,
+  "name": "CGL Monthly Cup #2 [30\u20ac]",
+  "date": "2025-03-29T13:00:00.000Z",
+  "players": 123,
+  "organizer": {
+    "id": 2107,
+    "name": "CGL"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

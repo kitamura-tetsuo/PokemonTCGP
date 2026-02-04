@@ -1,0 +1,29 @@
+{
+  "id": "67772159ed2c78098c6a8fb7",
+  "game": "POCKET",
+  "format": null,
+  "name": "BattleRoyale#3 (\ud83d\udcb0SEALED BOX) - Pok\u00e8monPocket \ud83c\uddee\ud83c\uddf9",
+  "date": "2025-01-13T21:00:00.000Z",
+  "players": 220,
+  "organizer": {
+    "id": 2058,
+    "name": "Pok\u00e8mon Pocket ITALIA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

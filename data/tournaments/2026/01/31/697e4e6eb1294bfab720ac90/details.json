@@ -1,0 +1,29 @@
+{
+  "id": "697e4e6eb1294bfab720ac90",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frappesbricker Pop Up (RR/FA Mawile + Sightseer)",
+  "date": "2026-01-31T20:30:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

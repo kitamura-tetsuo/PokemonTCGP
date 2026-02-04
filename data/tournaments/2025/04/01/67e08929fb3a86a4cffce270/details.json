@@ -1,0 +1,71 @@
+{
+  "id": "67e08929fb3a86a4cffce270",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1 TORNEO RUTA KANTO TRUENO \u26a1 \ud83d\udcb0$5USD",
+  "date": "2025-04-01T20:00:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Machamp ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Marowak ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Garchomp ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Lucario ex",
+      "set": "A2b",
+      "number": null
+    }
+  ]
+}

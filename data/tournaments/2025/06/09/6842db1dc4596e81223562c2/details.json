@@ -1,0 +1,269 @@
+{
+  "id": "6842db1dc4596e81223562c2",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 THE SAGA LEAGUE \u2013 NOEX SHOWDOWN #6 \u2022 10 USD\ud83c\udfc6",
+  "date": "2025-06-09T20:30:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "82"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "192"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "89"
+    },
+    {
+      "name": "Lycanroc",
+      "set": "A3",
+      "number": "101"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "163"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "244"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Golem",
+      "set": "A1",
+      "number": "149"
+    },
+    {
+      "name": "Skull Fossil",
+      "set": "A2",
+      "number": "144"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "158"
+    },
+    {
+      "name": "Arceus",
+      "set": "A2a",
+      "number": "70"
+    },
+    {
+      "name": "Scolipede",
+      "set": "A1a",
+      "number": "55"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "267"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "6"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "70"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "268"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "A3a",
+      "number": "9"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "A3a",
+      "number": "72"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "P-A",
+      "number": "76"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    },
+    {
+      "name": "Sophocles",
+      "set": "A3",
+      "number": "153"
+    },
+    {
+      "name": "Sophocles",
+      "set": "A3",
+      "number": "195"
+    },
+    {
+      "name": "Toucannon",
+      "set": "A3",
+      "number": "135"
+    },
+    {
+      "name": "Toucannon",
+      "set": "P-A",
+      "number": "73"
+    },
+    {
+      "name": "Kiawe",
+      "set": "A3",
+      "number": "150"
+    },
+    {
+      "name": "Kiawe",
+      "set": "A3",
+      "number": "192"
+    },
+    {
+      "name": "Melmetal",
+      "set": "A1",
+      "number": "182"
+    },
+    {
+      "name": "Mimikyu",
+      "set": "A3",
+      "number": "83"
+    },
+    {
+      "name": "Mimikyu",
+      "set": "P-A",
+      "number": "66"
+    },
+    {
+      "name": "Gengar",
+      "set": "A3",
+      "number": "222"
+    },
+    {
+      "name": "Gengar",
+      "set": "A2a",
+      "number": "33"
+    },
+    {
+      "name": "Gengar",
+      "set": "A1",
+      "number": "122"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

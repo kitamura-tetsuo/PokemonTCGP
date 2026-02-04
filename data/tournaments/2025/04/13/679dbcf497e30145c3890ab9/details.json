@@ -1,0 +1,29 @@
+{
+  "id": "679dbcf497e30145c3890ab9",
+  "game": "POCKET",
+  "format": null,
+  "name": "A2 Season of Time and Space #11",
+  "date": "2025-04-13T00:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

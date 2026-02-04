@@ -1,0 +1,75 @@
+{
+  "id": "6912a9d252eafbbc8116c91e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Mega League - PTCG Pocket Special #1",
+  "date": "2025-11-11T20:30:00.000Z",
+  "players": 86,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Oricori",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    }
+  ]
+}

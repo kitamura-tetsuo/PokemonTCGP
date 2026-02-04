@@ -1,0 +1,29 @@
+{
+  "id": "67a8fcfac33362b4e39d9210",
+  "game": "POCKET",
+  "format": null,
+  "name": "3v3 Pok\u00e9Mike - Pocket Tournament #4",
+  "date": "2025-02-14T22:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

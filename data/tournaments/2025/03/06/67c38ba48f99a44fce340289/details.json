@@ -1,0 +1,29 @@
+{
+  "id": "67c38ba48f99a44fce340289",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f HORA DA BATALHA : Champions #6\u2694\ufe0f",
+  "date": "2025-03-06T20:15:00.000Z",
+  "players": 86,
+  "organizer": {
+    "id": 2133,
+    "name": "Hora da Batalha"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

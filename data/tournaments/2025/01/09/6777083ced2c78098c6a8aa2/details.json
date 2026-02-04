@@ -1,0 +1,23 @@
+{
+  "id": "6777083ced2c78098c6a8aa2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneo nocturno argentino (hispano) #3",
+  "date": "2025-01-09T01:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

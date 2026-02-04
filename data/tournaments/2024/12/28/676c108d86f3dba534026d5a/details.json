@@ -1,0 +1,29 @@
+{
+  "id": "676c108d86f3dba534026d5a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Brasil World #6 (All Cards - Todas cartas)",
+  "date": "2024-12-28T01:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2066,
+    "name": "Compartilhe Jogos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

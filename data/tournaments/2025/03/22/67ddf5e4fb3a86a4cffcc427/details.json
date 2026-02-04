@@ -1,0 +1,29 @@
+{
+  "id": "67ddf5e4fb3a86a4cffcc427",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL - The Beast Brother League Super Flash Night",
+  "date": "2025-03-22T00:30:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO1"
+    }
+  ]
+}

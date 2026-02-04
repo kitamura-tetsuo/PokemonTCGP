@@ -1,0 +1,26 @@
+{
+  "id": "675704c795f729096d71df38",
+  "game": "POCKET",
+  "format": null,
+  "name": "Haven Pokemon Tourney 5 (single card, type draw)",
+  "date": "2024-12-12T01:30:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 1920,
+    "name": "Haven"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

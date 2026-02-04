@@ -1,0 +1,29 @@
+{
+  "id": "67ce8cf67c466f5723c330e7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Monday Meta Tournament",
+  "date": "2025-03-10T17:00:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67980a3a5229b408d3cef6f4",
+  "game": "POCKET",
+  "format": null,
+  "name": "A2 Season of Time and Space #3",
+  "date": "2025-02-15T01:00:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

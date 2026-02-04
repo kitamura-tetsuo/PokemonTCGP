@@ -1,0 +1,28 @@
+{
+  "id": "68da7aa2f661e4a158de37cb",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CPL Weekly #1-10 [GLC in Pocket/$100 for Series]",
+  "date": "2025-10-15T12:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

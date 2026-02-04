@@ -1,0 +1,91 @@
+{
+  "id": "67ff055f57322cac46247b2f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25TORNEO RUTA KANTO VOLC\u00c1N \ud83d\udd25 \ud83d\udcb0$5USD",
+  "date": "2025-04-23T21:30:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Wugtrio ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Glaceon ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Palkia ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": null
+    }
+  ]
+}

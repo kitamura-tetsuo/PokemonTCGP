@@ -1,0 +1,23 @@
+{
+  "id": "67bc3e5b0b3322ebaa513102",
+  "game": "POCKET",
+  "format": null,
+  "name": "Relegacje - Polish Pocket League S2",
+  "date": "2025-02-25T17:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

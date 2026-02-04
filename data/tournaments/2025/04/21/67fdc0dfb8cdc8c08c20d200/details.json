@@ -1,0 +1,29 @@
+{
+  "id": "67fdc0dfb8cdc8c08c20d200",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6THE GRAND TOURNAMENT - $60 USD PRIZE\ud83c\udfc6",
+  "date": "2025-04-21T13:00:00.000Z",
+  "players": 169,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

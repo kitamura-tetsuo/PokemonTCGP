@@ -1,0 +1,29 @@
+{
+  "id": "672a2b860947ec3b5d196f0e",
+  "game": "POCKET",
+  "format": null,
+  "name": "AOB x BlueDitto Pocket Mickey! (Cash & Codes)",
+  "date": "2024-11-06T00:05:00.000Z",
+  "players": 169,
+  "organizer": {
+    "id": 581,
+    "name": "Alloutblitzle Events"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "686f9e33f43abb4c700a80b2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\udda6 Capy Cup S2: Dimensional War #5",
+  "date": "2025-07-29T13:00:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

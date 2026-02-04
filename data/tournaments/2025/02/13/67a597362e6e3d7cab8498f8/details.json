@@ -1,0 +1,46 @@
+{
+  "id": "67a597362e6e3d7cab8498f8",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd12TFGA-TCGP Tournaments' Ban List Tournament!\ud83d\udeab",
+  "date": "2025-02-13T00:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2157,
+    "name": "TFGA-TCGP Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    }
+  ]
+}

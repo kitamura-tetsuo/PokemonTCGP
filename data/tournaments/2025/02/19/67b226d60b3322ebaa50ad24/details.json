@@ -1,0 +1,39 @@
+{
+  "id": "67b226d60b3322ebaa50ad24",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22Pocket Turtle president NOEX \ud83d\udc22Magnezone banned",
+  "date": "2025-02-19T00:00:00.000Z",
+  "players": 84,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone A2-53",
+      "set": "A2",
+      "number": "53"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

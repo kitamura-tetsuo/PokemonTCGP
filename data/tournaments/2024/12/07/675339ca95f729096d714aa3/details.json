@@ -1,0 +1,44 @@
+{
+  "id": "675339ca95f729096d714aa3",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd25 Copa Blaine NO-EX #3 | TerremotoParaTodos",
+  "date": "2024-12-07T21:15:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "19"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

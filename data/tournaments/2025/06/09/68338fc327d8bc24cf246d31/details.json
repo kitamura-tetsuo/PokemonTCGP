@@ -1,0 +1,29 @@
+{
+  "id": "68338fc327d8bc24cf246d31",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc38FrogEX Monthly NOEX Cup #4 \u2022 30 USD Prize\ud83d\udc38",
+  "date": "2025-06-09T18:00:00.000Z",
+  "players": 221,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

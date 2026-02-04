@@ -1,0 +1,30 @@
+{
+  "id": "67453483612052096f627941",
+  "game": "POCKET",
+  "format": null,
+  "name": "$500 ADVANCEDgg - 12 Days of Christmas TCG Pocket",
+  "date": "2024-12-07T22:00:00.000Z",
+  "players": 647,
+  "organizer": {
+    "id": 194,
+    "name": "Late Night Events",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/4f159j87nuzrzck5"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

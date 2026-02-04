@@ -1,0 +1,29 @@
+{
+  "id": "6746165f612052096f62883c",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udccf Gimmicky Tournament: GAMBLER'S CUP#1 \ud83c\udccf",
+  "date": "2024-12-07T10:00:00.000Z",
+  "players": 110,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

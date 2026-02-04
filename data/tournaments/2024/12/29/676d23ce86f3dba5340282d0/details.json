@@ -1,0 +1,29 @@
+{
+  "id": "676d23ce86f3dba5340282d0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2615\ufe0f Caf\u00e9Dol\u00e9 #3 \ud83c\udf3f Putain d'\u00eele",
+  "date": "2024-12-29T15:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1999,
+    "name": "Valdon"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

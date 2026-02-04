@@ -1,0 +1,29 @@
+{
+  "id": "67d0fb157c466f5723c34e23",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mogamoga Cup #8",
+  "date": "2025-03-18T10:00:00.000Z",
+  "players": 123,
+  "organizer": {
+    "id": 2172,
+    "name": "Mogamoga Family"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

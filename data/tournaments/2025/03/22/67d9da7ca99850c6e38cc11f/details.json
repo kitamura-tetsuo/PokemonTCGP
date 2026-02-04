@@ -1,0 +1,61 @@
+{
+  "id": "67d9da7ca99850c6e38cc11f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Godzly Underdog Showdown | NO EX / MISTY | $100",
+  "date": "2025-03-22T16:00:00.000Z",
+  "players": 322,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": "89"
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": "220"
+    },
+    {
+      "name": "Magneton",
+      "set": null,
+      "number": "98"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

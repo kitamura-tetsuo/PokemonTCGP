@@ -1,0 +1,29 @@
+{
+  "id": "697a6841b1294bfab7207db4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ericko\u2019s Circuit Series! - Fantastical Parade!",
+  "date": "2026-01-29T02:15:00.000Z",
+  "players": 101,
+  "organizer": {
+    "id": 2532,
+    "name": "iluchien"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

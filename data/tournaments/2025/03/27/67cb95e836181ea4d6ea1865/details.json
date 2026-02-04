@@ -1,0 +1,29 @@
+{
+  "id": "67cb95e836181ea4d6ea1865",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfcb\ufe0f\ud83c\udf10 Narnia's Training Grounds #7 \ud83c\udf10\ud83c\udfcb\ufe0f",
+  "date": "2025-03-27T09:30:00.000Z",
+  "players": 109,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

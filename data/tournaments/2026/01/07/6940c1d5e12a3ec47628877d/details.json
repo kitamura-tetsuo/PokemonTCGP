@@ -1,0 +1,28 @@
+{
+  "id": "6940c1d5e12a3ec47628877d",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Weekly#2-1\uff5c$100 for Series\uff5cNoex/Monotype/Singleton",
+  "date": "2026-01-07T12:00:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

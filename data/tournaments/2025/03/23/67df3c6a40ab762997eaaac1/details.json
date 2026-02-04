@@ -1,0 +1,106 @@
+{
+  "id": "67df3c6a40ab762997eaaac1",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udca1\ud83d\udca1\ud83d\udca1 Safe Space Sundays \ud83d\udcc0 No Ramp! \ud83d\udca1\ud83d\udca1\ud83d\udca1",
+  "date": "2025-03-23T07:05:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Dialga ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Meltan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Leafeon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Serperior",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggucute",
+      "set": "A1a",
+      "number": "1"
+    },
+    {
+      "name": "Lilligant",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magmar",
+      "set": "A2",
+      "number": "23"
+    },
+    {
+      "name": "Manaphy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Electabuzz",
+      "set": "A2",
+      "number": "56"
+    },
+    {
+      "name": "Uxie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gardevoir",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Brock",
+      "set": null,
+      "number": null
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "695dce81ba66621ba08b61e1",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd4a\ufe0fLagoon Serenity Format #9 \ud83e\udd0d 5 USD",
+  "date": "2026-01-14T05:15:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "B1",
+      "number": "16"
+    },
+    {
+      "name": "Jolteon ex",
+      "set": "B1",
+      "number": "81"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    }
+  ]
+}

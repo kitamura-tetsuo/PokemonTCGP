@@ -1,0 +1,33 @@
+{
+  "id": "6945c16aba66621ba08a41c6",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Little Legends League #30 - 50 USD (Season 5)",
+  "date": "2025-12-24T01:00:00.000Z",
+  "players": 163,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "677db8777960ec710efe53eb",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc22NOEX Double Elimination Top Cut\ud83d\udc22",
+  "date": "2025-01-12T22:30:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

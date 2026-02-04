@@ -1,0 +1,29 @@
+{
+  "id": "679ee7b8baf56254079f219c",
+  "game": "POCKET",
+  "format": null,
+  "name": "EiichiroFamily Pocket Championship #Test4",
+  "date": "2025-02-07T12:00:00.000Z",
+  "players": 230,
+  "organizer": {
+    "id": 2148,
+    "name": "hrsnfbrn"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

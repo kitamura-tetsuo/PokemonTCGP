@@ -1,0 +1,29 @@
+{
+  "id": "672b8bee0947ec3b5d1982a3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Friday Night Pocket Aus/NZ",
+  "date": "2024-11-08T07:00:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 1905,
+    "name": "Pocket Australia/NZ"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

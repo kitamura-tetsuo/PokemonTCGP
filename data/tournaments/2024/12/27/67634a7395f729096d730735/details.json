@@ -1,0 +1,29 @@
+{
+  "id": "67634a7395f729096d730735",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2744\ufe0f FoxCave Holiday Tournament ( NoEX ) 30$ \u2744\ufe0f",
+  "date": "2024-12-27T17:00:00.000Z",
+  "players": 293,
+  "organizer": {
+    "id": 2076,
+    "name": "FoxCave Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

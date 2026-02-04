@@ -1,0 +1,92 @@
+{
+  "id": "687602e778c544eaa1dcb38d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #25- 50 USD (Season 3)",
+  "date": "2025-07-19T05:00:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Sylveon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Flareon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tapu Koko ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rare Candy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celesteela",
+      "set": null,
+      "number": null
+    }
+  ]
+}

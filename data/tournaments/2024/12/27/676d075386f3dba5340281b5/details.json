@@ -1,0 +1,29 @@
+{
+  "id": "676d075386f3dba5340281b5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1Flash Friday\ud83d\udca5",
+  "date": "2024-12-27T07:00:00.000Z",
+  "players": 135,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

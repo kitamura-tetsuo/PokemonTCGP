@@ -1,0 +1,23 @@
+{
+  "id": "67b24c7878c0b3231881700c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc6TEAM CUP 02",
+  "date": "2025-02-18T20:37:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

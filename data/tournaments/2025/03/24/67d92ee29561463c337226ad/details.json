@@ -1,0 +1,29 @@
+{
+  "id": "67d92ee29561463c337226ad",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfdd\ufe0fMoga Island Open\ud83c\udfdd\ufe0f #4",
+  "date": "2025-03-24T04:00:00.000Z",
+  "players": 93,
+  "organizer": {
+    "id": 2172,
+    "name": "Mogamoga Family"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

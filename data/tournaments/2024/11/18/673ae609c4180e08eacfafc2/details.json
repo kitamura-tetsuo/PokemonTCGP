@@ -1,0 +1,29 @@
+{
+  "id": "673ae609c4180e08eacfafc2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc51 GCC 2024 #1.1 - German Mini Crown (non-EX!)",
+  "date": "2024-11-18T18:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1894,
+    "name": "Pocket DACH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

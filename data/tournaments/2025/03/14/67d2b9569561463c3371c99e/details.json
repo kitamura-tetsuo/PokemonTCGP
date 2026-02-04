@@ -1,0 +1,29 @@
+{
+  "id": "67d2b9569561463c3371c99e",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREINO \ud83c\udfc6 #3 PRO CUP GR\u00c1TIS",
+  "date": "2025-03-14T17:20:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

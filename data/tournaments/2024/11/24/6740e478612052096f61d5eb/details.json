@@ -1,0 +1,32 @@
+{
+  "id": "6740e478612052096f61d5eb",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc51 GCC 2024 #1.3 - Singleton Speed DE,AT,CH (BO1)",
+  "date": "2024-11-24T18:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1894,
+    "name": "Pocket DACH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

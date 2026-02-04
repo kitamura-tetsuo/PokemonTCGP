@@ -1,0 +1,29 @@
+{
+  "id": "6756503595f729096d71d4bd",
+  "game": "POCKET",
+  "format": null,
+  "name": "|TCG Pocket Ranked | Prize $1USD |  #1 ever!|",
+  "date": "2024-12-09T15:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2039,
+    "name": "LuffyTCGpocket"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

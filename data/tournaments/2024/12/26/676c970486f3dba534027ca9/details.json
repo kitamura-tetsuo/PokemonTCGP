@@ -1,0 +1,41 @@
+{
+  "id": "676c970486f3dba534027ca9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #4",
+  "date": "2024-12-26T18:00:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Electrode",
+      "set": "A1",
+      "number": "100"
+    }
+  ]
+}

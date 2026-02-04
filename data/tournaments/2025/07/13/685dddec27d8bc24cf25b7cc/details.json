@@ -1,0 +1,30 @@
+{
+  "id": "685dddec27d8bc24cf25b7cc",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Custom Challenge Championship",
+  "date": "2025-07-13T04:00:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

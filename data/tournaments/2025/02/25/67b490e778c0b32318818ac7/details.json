@@ -1,0 +1,29 @@
+{
+  "id": "67b490e778c0b32318818ac7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mogamoga Cup #5",
+  "date": "2025-02-25T11:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2172,
+    "name": "Mogamoga"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

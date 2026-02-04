@@ -1,0 +1,29 @@
+{
+  "id": "6747923070c192088cf12a4a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Torneo JCC Pocket Latam #2",
+  "date": "2024-12-09T01:00:00.000Z",
+  "players": 182,
+  "organizer": {
+    "id": 443,
+    "name": "PokeStore GT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}

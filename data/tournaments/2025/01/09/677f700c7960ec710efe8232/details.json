@@ -1,0 +1,105 @@
+{
+  "id": "677f700c7960ec710efe8232",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #1",
+  "date": "2025-01-09T18:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mewtwo Ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Pikachu Ex",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Starmie Ex",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Charizard Ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Mewtwo Ex",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo Ex",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Mewtwo Ex",
+      "set": "A1",
+      "number": "286"
+    },
+    {
+      "name": "Pikachu Ex",
+      "set": "A1",
+      "number": "259"
+    },
+    {
+      "name": "Pikachu Ex",
+      "set": "A1",
+      "number": "281"
+    },
+    {
+      "name": "Pikachu Ex",
+      "set": "A1",
+      "number": "285"
+    },
+    {
+      "name": "Charizard Ex",
+      "set": "A1",
+      "number": "253"
+    },
+    {
+      "name": "Charizard Ex",
+      "set": "A1",
+      "number": "280"
+    },
+    {
+      "name": "Charizard Ex",
+      "set": "A1",
+      "number": "284"
+    },
+    {
+      "name": "Starmie Ex",
+      "set": "A1",
+      "number": "257"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "268"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "id": "6781d1597960ec710efed064",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "IDEAVOLUTION Test Non Meta Big Tour \ud83c\uddee\ud83c\udde9",
+  "date": "2025-01-11T07:00:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 70,
+    "name": "PTCGO-ID"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mewtwo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magikarp",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bulbasaur",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ivysaur",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Frogadier",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Froakie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Frogadier",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ralts",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kirlia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gardevoir",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Staryu",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starmie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arcanine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arcanine ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Serperior",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Servine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snivy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggcute",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Vulpix",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ninetales",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Marshadow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Alakazam",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gengar ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gengar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Machop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Machoke",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Primeape",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonlee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonchan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Geodude",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Graveler",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Caterpie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Butterfree",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kabuto",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Weedle",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oddish",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bellsprout",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Petilil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dhelmise",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Growlithe",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ponyta",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Squirtle",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Poliwag",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Omanyte",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnemite",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Voltorb",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Blitzle",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Abra",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sigilyph",
+      "set": null,
+      "number": null
+    }
+  ]
+}

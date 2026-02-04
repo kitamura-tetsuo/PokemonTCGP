@@ -1,0 +1,29 @@
+{
+  "id": "67de92fe40ab762997ea9fc3",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd34\u26aa\ufe0f \ud83c\udfc6 SvK ~ Flash Tournament 1vs1 ~ #10 \u26aa\ufe0f\ud83d\udd34",
+  "date": "2025-03-22T14:00:00.000Z",
+  "players": 130,
+  "organizer": {
+    "id": 2286,
+    "name": "SvK Team"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

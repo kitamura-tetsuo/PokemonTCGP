@@ -1,0 +1,51 @@
+{
+  "id": "67bc946b0b3322ebaa51349f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Torneo argentino antimeta $10USD prize",
+  "date": "2025-02-27T01:00:00.000Z",
+  "players": 69,
+  "organizer": {
+    "id": 2048,
+    "name": "AZ7eam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": "23"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    }
+  ]
+}

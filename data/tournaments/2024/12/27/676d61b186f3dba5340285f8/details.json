@@ -1,0 +1,29 @@
+{
+  "id": "676d61b186f3dba5340285f8",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Pok\u00e9mon Brasil World #5 (NO Ex)",
+  "date": "2024-12-27T01:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2066,
+    "name": "Compartilhe Jogos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

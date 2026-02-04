@@ -1,0 +1,34 @@
+{
+  "id": "6898a0503070784ce70bdf59",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CPL Champions #1-A [GLC in Pocket/$100 for Series]",
+  "date": "2025-08-17T11:00:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

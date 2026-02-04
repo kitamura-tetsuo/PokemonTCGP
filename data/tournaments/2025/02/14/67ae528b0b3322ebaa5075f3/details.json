@@ -1,0 +1,29 @@
+{
+  "id": "67ae528b0b3322ebaa5075f3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Squirtle Squad TCG Pocket Tour #2",
+  "date": "2025-02-14T16:30:00.000Z",
+  "players": 194,
+  "organizer": {
+    "id": 2224,
+    "name": "The Citadel"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67464061612052096f628fa0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pikaverse Pocket League Season #1 \u2022 $1000 USD",
+  "date": "2024-12-08T15:00:00.000Z",
+  "players": 799,
+  "organizer": {
+    "id": 1896,
+    "name": "Pikaverse Pocket League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

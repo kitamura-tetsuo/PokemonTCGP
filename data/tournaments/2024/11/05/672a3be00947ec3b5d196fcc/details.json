@@ -1,0 +1,29 @@
+{
+  "id": "672a3be00947ec3b5d196fcc",
+  "game": "POCKET",
+  "format": null,
+  "name": "NXG goes PTCGP #1",
+  "date": "2024-11-05T22:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 1901,
+    "name": "NXG nextGen"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

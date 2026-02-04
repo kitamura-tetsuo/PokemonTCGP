@@ -1,0 +1,29 @@
+{
+  "id": "67ca303636181ea4d6ea0190",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd34\u26aa\ufe0f SvK ~ Flash Tournament 1vs1 \u26aa\ufe0f\ud83d\udd34",
+  "date": "2025-03-07T13:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2037,
+    "name": "NeverLollo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "67a71789a184c8cb6719a2c4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udda6 Custom Capy Tournament: NON META BATTLES #4",
+  "date": "2025-02-18T13:00:00.000Z",
+  "players": 185,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": null,
+      "number": null
+    }
+  ]
+}

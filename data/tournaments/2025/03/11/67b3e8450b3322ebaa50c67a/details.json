@@ -1,0 +1,29 @@
+{
+  "id": "67b3e8450b3322ebaa50c67a",
+  "game": "POCKET",
+  "format": null,
+  "name": "SPT | Swiss BO3 \u2192 Top Cut BO3 #01 | $40 USD Pool",
+  "date": "2025-03-11T01:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2239,
+    "name": "sdF | Pocket Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6763393b95f729096d730537",
+  "game": "POCKET",
+  "format": null,
+  "name": "Liga SSSA",
+  "date": "2025-01-06T00:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2075,
+    "name": "Liga SSSA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

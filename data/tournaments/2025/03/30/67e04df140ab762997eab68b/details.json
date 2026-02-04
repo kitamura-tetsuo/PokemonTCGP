@@ -1,0 +1,29 @@
+{
+  "id": "67e04df140ab762997eab68b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pelad\u00e3o Pocket \u2022 Stage #08",
+  "date": "2025-03-30T22:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 72,
+    "name": "Battle Factory & Pok\u00e9pauper BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

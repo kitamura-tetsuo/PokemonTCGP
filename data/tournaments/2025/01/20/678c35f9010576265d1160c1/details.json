@@ -1,0 +1,29 @@
+{
+  "id": "678c35f9010576265d1160c1",
+  "game": "POCKET",
+  "format": null,
+  "name": "Budew Takeover (pocket) pop up",
+  "date": "2025-01-20T17:00:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

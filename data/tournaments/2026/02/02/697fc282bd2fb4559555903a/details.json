@@ -1,0 +1,29 @@
+{
+  "id": "697fc282bd2fb4559555903a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rapid - Random Pop Up (B2) #3 (5$/Cyrus/Sightseer)",
+  "date": "2026-02-02T00:45:00.000Z",
+  "players": 145,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6760d6eb95f729096d72d418",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #3",
+  "date": "2024-12-19T18:00:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "76"
+    }
+  ]
+}

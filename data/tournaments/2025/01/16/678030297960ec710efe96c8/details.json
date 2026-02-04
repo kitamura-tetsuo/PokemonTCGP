@@ -1,0 +1,29 @@
+{
+  "id": "678030297960ec710efe96c8",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 P.P i.T \ud83d\udc51 Speed Tour #6",
+  "date": "2025-01-16T14:30:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

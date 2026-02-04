@@ -1,0 +1,23 @@
+{
+  "id": "67dff0d540ab762997eaae82",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL-Big Sunday Knockout",
+  "date": "2025-03-23T19:30:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

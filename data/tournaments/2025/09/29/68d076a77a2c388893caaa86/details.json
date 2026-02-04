@@ -1,0 +1,49 @@
+{
+  "id": "68d076a77a2c388893caaa86",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Void Pocket Circuit / NoEx Showdown #02 Prize $20",
+  "date": "2025-09-29T01:00:00.000Z",
+  "players": 66,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Type: Null",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

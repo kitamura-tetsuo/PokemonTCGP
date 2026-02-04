@@ -1,0 +1,29 @@
+{
+  "id": "67571da595f729096d71e0ef",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Go Raiders $150 Prize Tourney!",
+  "date": "2024-12-21T02:00:00.000Z",
+  "players": 411,
+  "organizer": {
+    "id": 2030,
+    "name": "Pokemon Go Raiders"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

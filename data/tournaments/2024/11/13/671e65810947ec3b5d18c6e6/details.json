@@ -1,0 +1,23 @@
+{
+  "id": "671e65810947ec3b5d18c6e6",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCG Pocket bo3-ban1 tourney",
+  "date": "2024-11-13T12:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 12,
+    "name": "Vi$un's Battle Arena"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

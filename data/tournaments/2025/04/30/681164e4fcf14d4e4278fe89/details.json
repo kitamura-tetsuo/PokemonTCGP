@@ -1,0 +1,29 @@
+{
+  "id": "681164e4fcf14d4e4278fe89",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2600\ufe0f\ud83c\udf18 TRIAL OF THE CELESTIAL GUARDIANS \ud83c\udf12\u2600\ufe0f",
+  "date": "2025-04-30T20:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67d042857c466f5723c34512",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark Leeague Tuesday special",
+  "date": "2025-03-11T18:00:00.000Z",
+  "players": 217,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

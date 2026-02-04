@@ -1,0 +1,29 @@
+{
+  "id": "67a4b77a3b814c326f97469d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket League #12 - 15\u20ac CP",
+  "date": "2025-02-12T18:00:00.000Z",
+  "players": 233,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67d0b1187c466f5723c34b3d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1 #9 FASTER THAN THE LIGHT TOURNAMENT \u26a1 2X POINTS",
+  "date": "2025-03-12T14:00:00.000Z",
+  "players": 201,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

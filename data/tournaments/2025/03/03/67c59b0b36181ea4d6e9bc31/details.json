@@ -1,0 +1,23 @@
+{
+  "id": "67c59b0b36181ea4d6e9bc31",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 PGL Duel Playoffs \u2022 \ud83d\udcb0 $150 Prize Pool",
+  "date": "2025-03-03T19:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67931aa65229b408d3ce64db",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25 Torneio TD PADR\u00c3O \u2714\ufe0f - 4#/Janeiro - Free - BR",
+  "date": "2025-01-30T00:00:00.000Z",
+  "players": 103,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

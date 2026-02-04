@@ -1,0 +1,29 @@
+{
+  "id": "6789be47010576265d10fd54",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Parti Cup - $100 Prizepool",
+  "date": "2025-02-16T19:00:00.000Z",
+  "players": 504,
+  "organizer": {
+    "id": 2150,
+    "name": "Kings of Aeos Island"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

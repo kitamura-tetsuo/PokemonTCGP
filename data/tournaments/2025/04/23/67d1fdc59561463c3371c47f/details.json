@@ -1,0 +1,29 @@
+{
+  "id": "67d1fdc59561463c3371c47f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon GP Brasil #4 Todas as cartas",
+  "date": "2025-04-23T23:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2066,
+    "name": "Compartilhe Jogos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

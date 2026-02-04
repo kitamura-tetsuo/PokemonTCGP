@@ -1,0 +1,30 @@
+{
+  "id": "6711958ae1a875097763d26d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #4 - 80 USD",
+  "date": "2024-10-26T17:00:00.000Z",
+  "players": 191,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

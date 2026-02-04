@@ -1,0 +1,30 @@
+{
+  "id": "675f869695f729096d72bbe5",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP League: Genetic Apex Season Finale",
+  "date": "2025-01-26T17:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "67e988ce142155bb4448f9aa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #25 (Season 2) - 50 USD",
+  "date": "2025-04-05T10:00:00.000Z",
+  "players": 207,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

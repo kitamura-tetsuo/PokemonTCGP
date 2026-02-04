@@ -1,0 +1,29 @@
+{
+  "id": "677c67607960ec710efe355a",
+  "game": "POCKET",
+  "format": null,
+  "name": "#3 TCGP Brazil Amazons Cup \ud83d\udcb0 R$ 140,00",
+  "date": "2025-01-12T18:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2034,
+    "name": "Brazil Amazons"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

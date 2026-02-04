@@ -1,0 +1,29 @@
+{
+  "id": "67bdec4d78c0b3231881ff06",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Tuesday #3",
+  "date": "2025-02-25T18:00:00.000Z",
+  "players": 166,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67dce6f32a1c0ece9080538c",
+  "game": "POCKET",
+  "format": null,
+  "name": "BodhiLamas Late Night #1",
+  "date": "2025-03-21T06:30:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 1590,
+    "name": "Koi del Barrio"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

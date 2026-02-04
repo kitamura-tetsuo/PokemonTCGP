@@ -1,0 +1,29 @@
+{
+  "id": "67ae58ac0b3322ebaa5076fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Nico Cup - TCGP ARG #3",
+  "date": "2025-03-02T19:20:00.000Z",
+  "players": 79,
+  "organizer": {
+    "id": 1818,
+    "name": "Maurohvg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

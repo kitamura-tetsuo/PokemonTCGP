@@ -1,0 +1,35 @@
+{
+  "id": "676ed347ed2c78098c697855",
+  "game": "POCKET",
+  "format": null,
+  "name": "5# Closed France Tournament 100\u20ac",
+  "date": "2024-12-28T15:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 1895,
+    "name": "PTCGP FRANCE"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

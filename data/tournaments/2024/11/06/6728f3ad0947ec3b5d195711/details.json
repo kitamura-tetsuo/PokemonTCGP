@@ -1,0 +1,29 @@
+{
+  "id": "6728f3ad0947ec3b5d195711",
+  "game": "POCKET",
+  "format": null,
+  "name": "Open France Tournaments 25\ud83d\udcb2",
+  "date": "2024-11-06T17:00:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 1895,
+    "name": "PTCGP FRANCE"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

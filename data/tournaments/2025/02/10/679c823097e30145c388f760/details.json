@@ -1,0 +1,29 @@
+{
+  "id": "679c823097e30145c388f760",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u81fa\u7063Meta\u76c3 Taiwan Meta #2 NT$4000",
+  "date": "2025-02-10T11:00:00.000Z",
+  "players": 147,
+  "organizer": {
+    "id": 2095,
+    "name": "XZKpo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

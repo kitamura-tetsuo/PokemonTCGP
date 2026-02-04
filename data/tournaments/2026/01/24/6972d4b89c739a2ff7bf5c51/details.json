@@ -1,0 +1,35 @@
+{
+  "id": "6972d4b89c739a2ff7bf5c51",
+  "game": "POCKET",
+  "format": null,
+  "name": "Traditional Series 2 || $500 + FA OAKS",
+  "date": "2026-01-24T01:55:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

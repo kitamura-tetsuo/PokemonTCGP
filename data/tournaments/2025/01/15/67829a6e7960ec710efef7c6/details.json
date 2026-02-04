@@ -1,0 +1,29 @@
+{
+  "id": "67829a6e7960ec710efef7c6",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd21 LES PANTINS \u26a1\ufe0f QUICK PLAY WEEKLY! \u26a1\ufe0f #1",
+  "date": "2025-01-15T19:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

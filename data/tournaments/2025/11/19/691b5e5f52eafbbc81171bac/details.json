@@ -1,0 +1,106 @@
+{
+  "id": "691b5e5f52eafbbc81171bac",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Mega League - PTCG Pocket NoEX #1 [5$]",
+  "date": "2025-11-19T20:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Alolan Exegutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Kiawe",
+      "set": "A3",
+      "number": "150"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    }
+  ]
+}

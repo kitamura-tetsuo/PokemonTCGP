@@ -1,0 +1,30 @@
+{
+  "id": "69760d0a9c739a2ff7bf7663",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #50 (Season 5) - $100",
+  "date": "2026-01-30T01:00:00.000Z",
+  "players": 214,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

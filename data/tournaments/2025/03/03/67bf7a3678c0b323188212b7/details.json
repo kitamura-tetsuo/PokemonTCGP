@@ -1,0 +1,29 @@
+{
+  "id": "67bf7a3678c0b323188212b7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Globo Gym 3v3 Opener",
+  "date": "2025-03-03T15:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2248,
+    "name": "Globo Gym PTCGP"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

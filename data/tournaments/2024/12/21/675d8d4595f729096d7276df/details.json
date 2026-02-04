@@ -1,0 +1,36 @@
+{
+  "id": "675d8d4595f729096d7276df",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Weekend Tournament #3",
+  "date": "2024-12-21T12:30:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2045,
+    "name": "EllieDarkTcgp"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    }
+  ]
+}

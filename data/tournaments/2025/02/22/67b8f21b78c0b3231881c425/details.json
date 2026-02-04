@@ -1,0 +1,29 @@
+{
+  "id": "67b8f21b78c0b3231881c425",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22Pocket Turtle favorite rotom\ud83d\udc22",
+  "date": "2025-02-22T01:00:00.000Z",
+  "players": 72,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

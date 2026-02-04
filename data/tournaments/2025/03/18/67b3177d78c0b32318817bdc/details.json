@@ -1,0 +1,29 @@
+{
+  "id": "67b3177d78c0b32318817bdc",
+  "game": "POCKET",
+  "format": null,
+  "name": "#10 Mystic Journey - Special Event \ud83d\udcb01664 USD",
+  "date": "2025-03-18T18:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

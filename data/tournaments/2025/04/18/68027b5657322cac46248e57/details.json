@@ -1,0 +1,26 @@
+{
+  "id": "68027b5657322cac46248e57",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udd31 IMPERIUM's FAST Tournament NOEX\ud83d\udd31",
+  "date": "2025-04-18T18:10:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

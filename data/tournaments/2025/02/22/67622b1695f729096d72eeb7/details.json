@@ -1,0 +1,29 @@
+{
+  "id": "67622b1695f729096d72eeb7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Philippine Monthly Tournament #1 \u2022 10 USD Prize",
+  "date": "2025-02-22T05:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2043,
+    "name": "Brewed Potion Esports"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

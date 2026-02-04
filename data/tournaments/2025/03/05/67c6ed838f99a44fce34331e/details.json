@@ -1,0 +1,29 @@
+{
+  "id": "67c6ed838f99a44fce34331e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Yo Club \u4e2d\u6587\u6bd4\u8d5b Welcome everyone",
+  "date": "2025-03-05T06:00:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 2269,
+    "name": "Yo PTCGP"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

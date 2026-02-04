@@ -1,0 +1,29 @@
+{
+  "id": "67300e280947ec3b5d19e194",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pikaverse Pocket Cup #2 \u2022 100 USD Prize",
+  "date": "2024-11-17T18:00:00.000Z",
+  "players": 663,
+  "organizer": {
+    "id": 1896,
+    "name": "Pikaverse Pocket League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

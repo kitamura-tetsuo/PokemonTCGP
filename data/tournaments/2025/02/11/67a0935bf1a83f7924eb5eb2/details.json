@@ -1,0 +1,29 @@
+{
+  "id": "67a0935bf1a83f7924eb5eb2",
+  "game": "POCKET",
+  "format": null,
+  "name": "#2 Mystic Journey - Double Entry \ud83d\udcb0 3.328 USD",
+  "date": "2025-02-11T18:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

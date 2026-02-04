@@ -1,0 +1,29 @@
+{
+  "id": "67fbd19db8cdc8c08c20c0af",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL - Small Classic Sunday",
+  "date": "2025-04-13T18:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

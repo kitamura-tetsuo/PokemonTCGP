@@ -1,0 +1,35 @@
+{
+  "id": "674fa5dc95f729096d70f3bd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f\ud83d\udee1\ufe0fHispanic Community \u2694\ufe0f\ud83d\udee1\ufe0f",
+  "date": "2024-12-05T18:00:00.000Z",
+  "players": 93,
+  "organizer": {
+    "id": 1995,
+    "name": "IceCaveTCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

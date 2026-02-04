@@ -1,0 +1,29 @@
+{
+  "id": "697672839c739a2ff7bf7ac5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms End of Format Showdown-$10 FA",
+  "date": "2026-01-27T20:00:00.000Z",
+  "players": 148,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

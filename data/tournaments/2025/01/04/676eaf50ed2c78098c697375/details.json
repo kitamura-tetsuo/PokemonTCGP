@@ -1,0 +1,29 @@
+{
+  "id": "676eaf50ed2c78098c697375",
+  "game": "POCKET",
+  "format": null,
+  "name": "$100+ Mythical Island Qualifying Tournament #2",
+  "date": "2025-01-04T01:00:00.000Z",
+  "players": 292,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

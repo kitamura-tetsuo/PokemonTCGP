@@ -1,0 +1,29 @@
+{
+  "id": "67351d6157dcc5a683fc0949",
+  "game": "POCKET",
+  "format": null,
+  "name": "POCKET TOUR TOURNAMENT #01",
+  "date": "2024-11-15T16:00:00.000Z",
+  "players": 197,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

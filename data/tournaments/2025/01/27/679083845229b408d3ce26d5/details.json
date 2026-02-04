@@ -1,0 +1,29 @@
+{
+  "id": "679083845229b408d3ce26d5",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Torneo JCC Pocket Guatemala #1",
+  "date": "2025-01-27T01:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 443,
+    "name": "PokeStore GT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67d300c9a99850c6e38c60bd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd34\u26aa\ufe0f \ud83c\udfc6 SvK ~ eSport Competitive 3vs3 ~ #1 \u26aa\ufe0f\ud83d\udd34",
+  "date": "2025-03-14T13:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2037,
+    "name": "NeverLollo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,1745 @@
+{
+  "id": "67cdfc587c466f5723c328e7",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Art Gallery (3-Day Rounds)",
+  "date": "2025-04-07T03:00:00.000Z",
+  "players": 183,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Gloom",
+      "set": "A2",
+      "number": "2"
+    },
+    {
+      "name": "Pinsir",
+      "set": "A2b",
+      "number": "4"
+    },
+    {
+      "name": "Charmander",
+      "set": "A2b",
+      "number": "8"
+    },
+    {
+      "name": "Rapidash",
+      "set": "A1a",
+      "number": "11"
+    },
+    {
+      "name": "Electrode",
+      "set": "A2",
+      "number": "55"
+    },
+    {
+      "name": "Electrode",
+      "set": "A2b",
+      "number": "24"
+    },
+    {
+      "name": "Alakazam",
+      "set": "A2b",
+      "number": "31"
+    },
+    {
+      "name": "Golbat",
+      "set": "A2a",
+      "number": "49"
+    },
+    {
+      "name": "Weezing",
+      "set": "A1a",
+      "number": "49"
+    },
+    {
+      "name": "Porygon",
+      "set": "A2",
+      "number": "127"
+    },
+    {
+      "name": "Snorlax",
+      "set": "A2a",
+      "number": "63"
+    },
+    {
+      "name": "Exeggutor",
+      "set": "A1",
+      "number": "22"
+    },
+    {
+      "name": "Salandit",
+      "set": "A1",
+      "number": "49"
+    },
+    {
+      "name": "Combee",
+      "set": "A2a",
+      "number": "4"
+    },
+    {
+      "name": "Carnivine",
+      "set": "A2a",
+      "number": "9"
+    },
+    {
+      "name": "Drifloon",
+      "set": "A2b",
+      "number": "33"
+    },
+    {
+      "name": "Giratina",
+      "set": "A2a",
+      "number": "61"
+    },
+    {
+      "name": "Spiritomb",
+      "set": "A2b",
+      "number": "49"
+    },
+    {
+      "name": "Croagunk",
+      "set": "A2a",
+      "number": "51"
+    },
+    {
+      "name": "Heatran",
+      "set": "A2a",
+      "number": "13"
+    },
+    {
+      "name": "Staraptor",
+      "set": "A2a",
+      "number": "68"
+    },
+    {
+      "name": "Staraptor",
+      "set": "P-A",
+      "number": "47"
+    },
+    {
+      "name": "Bidoof",
+      "set": "A2b",
+      "number": "64"
+    },
+    {
+      "name": "Magnemite",
+      "set": "A1",
+      "number": "97"
+    },
+    {
+      "name": "Magnemite",
+      "set": "A2",
+      "number": "51"
+    },
+    {
+      "name": "Buizel",
+      "set": "A2",
+      "number": "38"
+    },
+    {
+      "name": "Wigglytuff",
+      "set": "A1",
+      "number": "194"
+    },
+    {
+      "name": "Caterpie",
+      "set": "A1",
+      "number": "5"
+    },
+    {
+      "name": "Metapod",
+      "set": "A1",
+      "number": "6"
+    },
+    {
+      "name": "Butterfree",
+      "set": "A1",
+      "number": "7"
+    },
+    {
+      "name": "Weedle",
+      "set": "A1",
+      "number": "8"
+    },
+    {
+      "name": "Kakuna",
+      "set": "A1",
+      "number": "9"
+    },
+    {
+      "name": "Beedrill",
+      "set": "A1",
+      "number": "10"
+    },
+    {
+      "name": "Weedle",
+      "set": "A2b",
+      "number": "1"
+    },
+    {
+      "name": "Kakuna",
+      "set": "A2b",
+      "number": "2"
+    },
+    {
+      "name": "Paras",
+      "set": "A1",
+      "number": "14"
+    },
+    {
+      "name": "Parasect",
+      "set": "A1",
+      "number": "15"
+    },
+    {
+      "name": "Venonat",
+      "set": "A1",
+      "number": "16"
+    },
+    {
+      "name": "Venomoth",
+      "set": "A1",
+      "number": "17"
+    },
+    {
+      "name": "Bellsprout",
+      "set": "A1",
+      "number": "18"
+    },
+    {
+      "name": "Weepinbell",
+      "set": "A1",
+      "number": "19"
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Scyther",
+      "set": "A1",
+      "number": "25"
+    },
+    {
+      "name": "Cottonee",
+      "set": "A1",
+      "number": "27"
+    },
+    {
+      "name": "Whimsicott",
+      "set": "A1",
+      "number": "28"
+    },
+    {
+      "name": "Petilil",
+      "set": "A1",
+      "number": "29"
+    },
+    {
+      "name": "Lilligant",
+      "set": "A1",
+      "number": "30"
+    },
+    {
+      "name": "Skiddo",
+      "set": "A1",
+      "number": "31"
+    },
+    {
+      "name": "Gogoat",
+      "set": "A1",
+      "number": "32"
+    },
+    {
+      "name": "Morelull",
+      "set": "A1a",
+      "number": "7"
+    },
+    {
+      "name": "Shiinotic",
+      "set": "A1a",
+      "number": "8"
+    },
+    {
+      "name": "Dhelmise",
+      "set": "A1a",
+      "number": "9"
+    },
+    {
+      "name": "Yanma",
+      "set": "A2",
+      "number": "6"
+    },
+    {
+      "name": "Roselia",
+      "set": "A2",
+      "number": "8"
+    },
+    {
+      "name": "Roserade",
+      "set": "A2",
+      "number": "9"
+    },
+    {
+      "name": "Turtwig",
+      "set": "A2",
+      "number": "10"
+    },
+    {
+      "name": "Grotle",
+      "set": "A2",
+      "number": "11"
+    },
+    {
+      "name": "Torterra",
+      "set": "A2",
+      "number": "12"
+    },
+    {
+      "name": "Kricketot",
+      "set": "A2",
+      "number": "13"
+    },
+    {
+      "name": "Kricketune",
+      "set": "A2",
+      "number": "14"
+    },
+    {
+      "name": "Burmy",
+      "set": "A2",
+      "number": "15"
+    },
+    {
+      "name": "Wormadam",
+      "set": "A2",
+      "number": "16"
+    },
+    {
+      "name": "Wormadam",
+      "set": "A2",
+      "number": "90"
+    },
+    {
+      "name": "Wormadam",
+      "set": "A2",
+      "number": "115"
+    },
+    {
+      "name": "Burmy",
+      "set": "A2a",
+      "number": "2"
+    },
+    {
+      "name": "Mothim",
+      "set": "A2a",
+      "number": "3"
+    },
+    {
+      "name": "Mow Rotom",
+      "set": "A2",
+      "number": "21"
+    },
+    {
+      "name": "Heracross",
+      "set": "A2a",
+      "number": "1"
+    },
+    {
+      "name": "Cherubi",
+      "set": "A2a",
+      "number": "6"
+    },
+    {
+      "name": "Cherrim",
+      "set": "A2a",
+      "number": "7"
+    },
+    {
+      "name": "Cherrim",
+      "set": "A2a",
+      "number": "8"
+    },
+    {
+      "name": "Vulpix",
+      "set": "A1",
+      "number": "37"
+    },
+    {
+      "name": "Ninetales",
+      "set": "A1",
+      "number": "38"
+    },
+    {
+      "name": "Growlithe",
+      "set": "A1",
+      "number": "39"
+    },
+    {
+      "name": "Arcanine",
+      "set": "A1",
+      "number": "40"
+    },
+    {
+      "name": "Magmar",
+      "set": "A1",
+      "number": "44"
+    },
+    {
+      "name": "Magmar",
+      "set": "A1a",
+      "number": "12"
+    },
+    {
+      "name": "Magmar",
+      "set": "A2",
+      "number": "23"
+    },
+    {
+      "name": "Magmortar",
+      "set": "A2",
+      "number": "24"
+    },
+    {
+      "name": "Magmar",
+      "set": "A2b",
+      "number": "11"
+    },
+    {
+      "name": "Magmortar",
+      "set": "A2b",
+      "number": "12"
+    },
+    {
+      "name": "Moltres",
+      "set": "A1",
+      "number": "46"
+    },
+    {
+      "name": "Heatmor",
+      "set": "A1",
+      "number": "48"
+    },
+    {
+      "name": "Sizzlipede",
+      "set": "A1",
+      "number": "51"
+    },
+    {
+      "name": "Centiskorch",
+      "set": "A1",
+      "number": "52"
+    },
+    {
+      "name": "Larvesta",
+      "set": "A1a",
+      "number": "13"
+    },
+    {
+      "name": "Volcarona",
+      "set": "A1a",
+      "number": "14"
+    },
+    {
+      "name": "Slugma",
+      "set": "A2",
+      "number": "25"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A2",
+      "number": "26"
+    },
+    {
+      "name": "Chimchar",
+      "set": "A2",
+      "number": "27"
+    },
+    {
+      "name": "Monferno",
+      "set": "A2",
+      "number": "28"
+    },
+    {
+      "name": "Heat Rotom",
+      "set": "A2",
+      "number": "30"
+    },
+    {
+      "name": "Heatran",
+      "set": "A2a",
+      "number": "13"
+    },
+    {
+      "name": "Paldean Tauros",
+      "set": "A2b",
+      "number": "13"
+    },
+    {
+      "name": "Psyduck",
+      "set": "A1",
+      "number": "57"
+    },
+    {
+      "name": "Golduck",
+      "set": "A1",
+      "number": "58"
+    },
+    {
+      "name": "Poliwag",
+      "set": "A1",
+      "number": "59"
+    },
+    {
+      "name": "Poliwhirl",
+      "set": "A1",
+      "number": "60"
+    },
+    {
+      "name": "Poliwrath",
+      "set": "A1",
+      "number": "61"
+    },
+    {
+      "name": "Tentacool",
+      "set": "A1",
+      "number": "62"
+    },
+    {
+      "name": "Tentacruel",
+      "set": "A1",
+      "number": "63"
+    },
+    {
+      "name": "Tentacool",
+      "set": "A2b",
+      "number": "14"
+    },
+    {
+      "name": "Tentacruel",
+      "set": "A2b",
+      "number": "15"
+    },
+    {
+      "name": "Seel",
+      "set": "A1",
+      "number": "64"
+    },
+    {
+      "name": "Dewgong",
+      "set": "A1",
+      "number": "65"
+    },
+    {
+      "name": "Shellder",
+      "set": "A1",
+      "number": "66"
+    },
+    {
+      "name": "Cloyster",
+      "set": "A1",
+      "number": "67"
+    },
+    {
+      "name": "Krabby",
+      "set": "A1",
+      "number": "68"
+    },
+    {
+      "name": "Kingler",
+      "set": "A1",
+      "number": "69"
+    },
+    {
+      "name": "Horsea",
+      "set": "A1",
+      "number": "70"
+    },
+    {
+      "name": "Seadra",
+      "set": "A1",
+      "number": "71"
+    },
+    {
+      "name": "Goldeen",
+      "set": "A1",
+      "number": "72"
+    },
+    {
+      "name": "Seaking",
+      "set": "A1",
+      "number": "73"
+    },
+    {
+      "name": "Staryu",
+      "set": "A1",
+      "number": "74"
+    },
+    {
+      "name": "Starmie",
+      "set": "A1",
+      "number": "75"
+    },
+    {
+      "name": "Omanyte",
+      "set": "A1",
+      "number": "81"
+    },
+    {
+      "name": "Omastar",
+      "set": "A1",
+      "number": "82"
+    },
+    {
+      "name": "Articuno",
+      "set": "A1",
+      "number": "83"
+    },
+    {
+      "name": "Ducklett",
+      "set": "A1",
+      "number": "85"
+    },
+    {
+      "name": "Swanna",
+      "set": "A1",
+      "number": "86"
+    },
+    {
+      "name": "Froakie",
+      "set": "A1",
+      "number": "87"
+    },
+    {
+      "name": "Frogadier",
+      "set": "A1",
+      "number": "88"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Pyukumuku",
+      "set": "A1",
+      "number": "90"
+    },
+    {
+      "name": "Bruxish",
+      "set": "A1",
+      "number": "91"
+    },
+    {
+      "name": "Snom",
+      "set": "A1",
+      "number": "92"
+    },
+    {
+      "name": "Frosmoth",
+      "set": "A1",
+      "number": "93"
+    },
+    {
+      "name": "Finneon",
+      "set": "A1a",
+      "number": "20"
+    },
+    {
+      "name": "Lumineon",
+      "set": "A1a",
+      "number": "21"
+    },
+    {
+      "name": "Finneon",
+      "set": "A2",
+      "number": "42"
+    },
+    {
+      "name": "Lumineon",
+      "set": "A2",
+      "number": "43"
+    },
+    {
+      "name": "Chewtle",
+      "set": "A1a",
+      "number": "22"
+    },
+    {
+      "name": "Drednaw",
+      "set": "A1a",
+      "number": "23"
+    },
+    {
+      "name": "Cramorant",
+      "set": "A1a",
+      "number": "24"
+    },
+    {
+      "name": "Regice",
+      "set": "A2",
+      "number": "34"
+    },
+    {
+      "name": "Snover",
+      "set": "A2",
+      "number": "44"
+    },
+    {
+      "name": "Abomasnow",
+      "set": "A2",
+      "number": "45"
+    },
+    {
+      "name": "Snover",
+      "set": "A2a",
+      "number": "20"
+    },
+    {
+      "name": "Abomasnow",
+      "set": "A2a",
+      "number": "21"
+    },
+    {
+      "name": "Wash Rotom",
+      "set": "A2",
+      "number": "47"
+    },
+    {
+      "name": "Frost Rotom",
+      "set": "A2",
+      "number": "48"
+    },
+    {
+      "name": "Barboach",
+      "set": "A2a",
+      "number": "16"
+    },
+    {
+      "name": "Whiscash",
+      "set": "A2a",
+      "number": "17"
+    },
+    {
+      "name": "Snorunt",
+      "set": "A2a",
+      "number": "18"
+    },
+    {
+      "name": "Froslass",
+      "set": "A2a",
+      "number": "19"
+    },
+    {
+      "name": "Origin Forme Palkia",
+      "set": "A2a",
+      "number": "23"
+    },
+    {
+      "name": "Phione",
+      "set": "A2a",
+      "number": "24"
+    },
+    {
+      "name": "Wiglett",
+      "set": "A2b",
+      "number": "18"
+    },
+    {
+      "name": "Dondozo",
+      "set": "A2b",
+      "number": "20"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A1a",
+      "number": "25"
+    },
+    {
+      "name": "Pikachu",
+      "set": "A2a",
+      "number": "25"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Electabuzz",
+      "set": "A1",
+      "number": "101"
+    },
+    {
+      "name": "Electabuzz",
+      "set": "A1a",
+      "number": "27"
+    },
+    {
+      "name": "Electabuzz",
+      "set": "A2",
+      "number": "56"
+    },
+    {
+      "name": "Electivire",
+      "set": "A2",
+      "number": "57"
+    },
+    {
+      "name": "Zapdos",
+      "set": "A1",
+      "number": "103"
+    },
+    {
+      "name": "Blitzle",
+      "set": "A1",
+      "number": "105"
+    },
+    {
+      "name": "Zebstrika",
+      "set": "A1",
+      "number": "106"
+    },
+    {
+      "name": "Tynamo",
+      "set": "A1",
+      "number": "107"
+    },
+    {
+      "name": "Eelektrik",
+      "set": "A1",
+      "number": "108"
+    },
+    {
+      "name": "Eelektross",
+      "set": "A1",
+      "number": "109"
+    },
+    {
+      "name": "Helioptile",
+      "set": "A1",
+      "number": "110"
+    },
+    {
+      "name": "Heliolisk",
+      "set": "A1",
+      "number": "111"
+    },
+    {
+      "name": "Pincurchin",
+      "set": "A1",
+      "number": "112"
+    },
+    {
+      "name": "Joltik",
+      "set": "A1a",
+      "number": "28"
+    },
+    {
+      "name": "Galvantula",
+      "set": "A1a",
+      "number": "29"
+    },
+    {
+      "name": "Electrike",
+      "set": "A2a",
+      "number": "27"
+    },
+    {
+      "name": "Manectric",
+      "set": "A2a",
+      "number": "28"
+    },
+    {
+      "name": "Pachirisu",
+      "set": "A2b",
+      "number": "25"
+    },
+    {
+      "name": "Clefairy",
+      "set": "A1",
+      "number": "113"
+    },
+    {
+      "name": "Clefable",
+      "set": "A1",
+      "number": "114"
+    },
+    {
+      "name": "Clefairy",
+      "set": "A2a",
+      "number": "29"
+    },
+    {
+      "name": "Clefable",
+      "set": "A2b",
+      "number": "30"
+    },
+    {
+      "name": "Gastly",
+      "set": "A1",
+      "number": "120"
+    },
+    {
+      "name": "Haunter",
+      "set": "A1",
+      "number": "121"
+    },
+    {
+      "name": "Gengar",
+      "set": "A1",
+      "number": "122"
+    },
+    {
+      "name": "Gastly",
+      "set": "A2a",
+      "number": "31"
+    },
+    {
+      "name": "Haunter",
+      "set": "A2a",
+      "number": "32"
+    },
+    {
+      "name": "Gengar",
+      "set": "A2a",
+      "number": "33"
+    },
+    {
+      "name": "Haunter",
+      "set": "P-A",
+      "number": "20"
+    },
+    {
+      "name": "Drowzee",
+      "set": "A1",
+      "number": "124"
+    },
+    {
+      "name": "Hypno",
+      "set": "A1",
+      "number": "125"
+    },
+    {
+      "name": "Mr. Mime",
+      "set": "A1",
+      "number": "126"
+    },
+    {
+      "name": "Mr. Mime",
+      "set": "A2b",
+      "number": "32"
+    },
+    {
+      "name": "Jynx",
+      "set": "A1",
+      "number": "127"
+    },
+    {
+      "name": "Ralts",
+      "set": "A1",
+      "number": "130"
+    },
+    {
+      "name": "Kirlia",
+      "set": "A1",
+      "number": "131"
+    },
+    {
+      "name": "Gardevoir",
+      "set": "A1",
+      "number": "132"
+    },
+    {
+      "name": "Ralts",
+      "set": "A2",
+      "number": "68"
+    },
+    {
+      "name": "Kirlia",
+      "set": "A2",
+      "number": "69"
+    },
+    {
+      "name": "Woobat",
+      "set": "A1",
+      "number": "133"
+    },
+    {
+      "name": "Swoobat",
+      "set": "A1",
+      "number": "134"
+    },
+    {
+      "name": "Golett",
+      "set": "A1",
+      "number": "135"
+    },
+    {
+      "name": "Golurk",
+      "set": "A1",
+      "number": "136"
+    },
+    {
+      "name": "Sigilyph",
+      "set": "A1a",
+      "number": "33"
+    },
+    {
+      "name": "Elgyem",
+      "set": "A1a",
+      "number": "34"
+    },
+    {
+      "name": "Beheeyem",
+      "set": "A1a",
+      "number": "35"
+    },
+    {
+      "name": "Flab\u00e9b\u00e9",
+      "set": "A1a",
+      "number": "36"
+    },
+    {
+      "name": "Floette",
+      "set": "A1a",
+      "number": "37"
+    },
+    {
+      "name": "Florges",
+      "set": "A1a",
+      "number": "38"
+    },
+    {
+      "name": "Swirlix",
+      "set": "A1a",
+      "number": "39"
+    },
+    {
+      "name": "Slurpuff",
+      "set": "A1a",
+      "number": "40"
+    },
+    {
+      "name": "Togepi",
+      "set": "A2",
+      "number": "63"
+    },
+    {
+      "name": "Togetic",
+      "set": "A2",
+      "number": "64"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Misdreavus",
+      "set": "A2",
+      "number": "66"
+    },
+    {
+      "name": "Misdreavus",
+      "set": "P-A",
+      "number": "38"
+    },
+    {
+      "name": "Duskull",
+      "set": "A2",
+      "number": "70"
+    },
+    {
+      "name": "Dusclops",
+      "set": "A2",
+      "number": "71"
+    },
+    {
+      "name": "Dusknoir",
+      "set": "A2",
+      "number": "72"
+    },
+    {
+      "name": "Uxie",
+      "set": "A2",
+      "number": "75"
+    },
+    {
+      "name": "Azelf",
+      "set": "A2",
+      "number": "77"
+    },
+    {
+      "name": "Rotom",
+      "set": "A2a",
+      "number": "35"
+    },
+    {
+      "name": "Sandshrew",
+      "set": "A1",
+      "number": "137"
+    },
+    {
+      "name": "Sandslash",
+      "set": "A1",
+      "number": "138"
+    },
+    {
+      "name": "Mankey",
+      "set": "A1",
+      "number": "141"
+    },
+    {
+      "name": "Primeape",
+      "set": "A1",
+      "number": "142"
+    },
+    {
+      "name": "Mankey",
+      "set": "A1a",
+      "number": "41"
+    },
+    {
+      "name": "Primeape",
+      "set": "A1a",
+      "number": "42"
+    },
+    {
+      "name": "Mankey",
+      "set": "P-A",
+      "number": "17"
+    },
+    {
+      "name": "Machop",
+      "set": "A1",
+      "number": "143"
+    },
+    {
+      "name": "Machoke",
+      "set": "A1",
+      "number": "144"
+    },
+    {
+      "name": "Machamp",
+      "set": "A1",
+      "number": "145"
+    },
+    {
+      "name": "Machop",
+      "set": "A2b",
+      "number": "37"
+    },
+    {
+      "name": "Machoke",
+      "set": "A2b",
+      "number": "38"
+    },
+    {
+      "name": "Machamp",
+      "set": "A2b",
+      "number": "39"
+    },
+    {
+      "name": "Hitmonlee",
+      "set": "A2b",
+      "number": "40"
+    },
+    {
+      "name": "Hitmonchan",
+      "set": "A2b",
+      "number": "41"
+    },
+    {
+      "name": "Hitmonlee",
+      "set": "A1",
+      "number": "154"
+    },
+    {
+      "name": "Hitmonchan",
+      "set": "A1",
+      "number": "155"
+    },
+    {
+      "name": "Geodude",
+      "set": "A1",
+      "number": "147"
+    },
+    {
+      "name": "Graveler",
+      "set": "A1",
+      "number": "148"
+    },
+    {
+      "name": "Golem",
+      "set": "A1",
+      "number": "149"
+    },
+    {
+      "name": "Geodude",
+      "set": "A1a",
+      "number": "43"
+    },
+    {
+      "name": "Graveler",
+      "set": "A1a",
+      "number": "44"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Onix",
+      "set": "A1",
+      "number": "150"
+    },
+    {
+      "name": "Kabuto",
+      "set": "A1",
+      "number": "158"
+    },
+    {
+      "name": "Kabutops",
+      "set": "A1",
+      "number": "159"
+    },
+    {
+      "name": "Mienfoo",
+      "set": "A1",
+      "number": "160"
+    },
+    {
+      "name": "Mienshao",
+      "set": "A1",
+      "number": "161"
+    },
+    {
+      "name": "Clobbopus",
+      "set": "A1",
+      "number": "162"
+    },
+    {
+      "name": "Grapploct",
+      "set": "A1",
+      "number": "163"
+    },
+    {
+      "name": "Stonjourner",
+      "set": "A1a",
+      "number": "48"
+    },
+    {
+      "name": "Gligar",
+      "set": "A2",
+      "number": "83"
+    },
+    {
+      "name": "Gliscor",
+      "set": "A2",
+      "number": "84"
+    },
+    {
+      "name": "Hitmontop",
+      "set": "A2",
+      "number": "85"
+    },
+    {
+      "name": "Nosepass",
+      "set": "A2",
+      "number": "86"
+    },
+    {
+      "name": "Probopass",
+      "set": "A2",
+      "number": "118"
+    },
+    {
+      "name": "Nosepass",
+      "set": "A2a",
+      "number": "42"
+    },
+    {
+      "name": "Nosepass",
+      "set": "P-A",
+      "number": "45"
+    },
+    {
+      "name": "Regirock",
+      "set": "A2",
+      "number": "87"
+    },
+    {
+      "name": "Cranidos",
+      "set": "A2",
+      "number": "88"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Phanpy",
+      "set": "A2a",
+      "number": "37"
+    },
+    {
+      "name": "Donphan",
+      "set": "A2a",
+      "number": "38"
+    },
+    {
+      "name": "Larvitar",
+      "set": "A2a",
+      "number": "39"
+    },
+    {
+      "name": "Pupitar",
+      "set": "A2a",
+      "number": "40"
+    },
+    {
+      "name": "Tyranitar",
+      "set": "A2a",
+      "number": "41"
+    },
+    {
+      "name": "Meditite",
+      "set": "A2a",
+      "number": "43"
+    },
+    {
+      "name": "Medicham",
+      "set": "A2a",
+      "number": "44"
+    },
+    {
+      "name": "Flamigo",
+      "set": "A2b",
+      "number": "44"
+    },
+    {
+      "name": "Ekans",
+      "set": "A1",
+      "number": "164"
+    },
+    {
+      "name": "Arbok",
+      "set": "A1",
+      "number": "165"
+    },
+    {
+      "name": "Ekans",
+      "set": "A2b",
+      "number": "45"
+    },
+    {
+      "name": "Arbok",
+      "set": "A2b",
+      "number": "46"
+    },
+    {
+      "name": "Ekans",
+      "set": "P-A",
+      "number": "56"
+    },
+    {
+      "name": "Grimer",
+      "set": "A1",
+      "number": "174"
+    },
+    {
+      "name": "Muk",
+      "set": "A1",
+      "number": "175"
+    },
+    {
+      "name": "Purrloin",
+      "set": "A1a",
+      "number": "51"
+    },
+    {
+      "name": "Liepard",
+      "set": "A1a",
+      "number": "52"
+    },
+    {
+      "name": "Venipede",
+      "set": "A1a",
+      "number": "53"
+    },
+    {
+      "name": "Whirlipede",
+      "set": "A1a",
+      "number": "54"
+    },
+    {
+      "name": "Scolipede",
+      "set": "A1a",
+      "number": "55"
+    },
+    {
+      "name": "Murkrow",
+      "set": "A2",
+      "number": "96"
+    },
+    {
+      "name": "Honchkrow",
+      "set": "A2",
+      "number": "97"
+    },
+    {
+      "name": "Sneasel",
+      "set": "A2",
+      "number": "98"
+    },
+    {
+      "name": "Poochyena",
+      "set": "A2",
+      "number": "100"
+    },
+    {
+      "name": "Mightyena",
+      "set": "A2",
+      "number": "101"
+    },
+    {
+      "name": "Stunky",
+      "set": "A2",
+      "number": "102"
+    },
+    {
+      "name": "Skuntank",
+      "set": "A2",
+      "number": "103"
+    },
+    {
+      "name": "Skorupi",
+      "set": "A2",
+      "number": "105"
+    },
+    {
+      "name": "Drapion",
+      "set": "A2",
+      "number": "106"
+    },
+    {
+      "name": "Darkrai",
+      "set": "A2",
+      "number": "109"
+    },
+    {
+      "name": "Paldean Wooper",
+      "set": "A2b",
+      "number": "47"
+    },
+    {
+      "name": "Mawile",
+      "set": "A1",
+      "number": "178"
+    },
+    {
+      "name": "Mawile",
+      "set": "A2a",
+      "number": "56"
+    },
+    {
+      "name": "Pawniard",
+      "set": "A1",
+      "number": "179"
+    },
+    {
+      "name": "Bisharp",
+      "set": "A1",
+      "number": "180"
+    },
+    {
+      "name": "Meltan",
+      "set": "A1",
+      "number": "181"
+    },
+    {
+      "name": "Melmetal",
+      "set": "A1",
+      "number": "182"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Registeel",
+      "set": "A2",
+      "number": "112"
+    },
+    {
+      "name": "Shieldon",
+      "set": "A2",
+      "number": "113"
+    },
+    {
+      "name": "Bastiodon",
+      "set": "A2",
+      "number": "114"
+    },
+    {
+      "name": "Bronzor",
+      "set": "A2",
+      "number": "116"
+    },
+    {
+      "name": "Bronzong",
+      "set": "A2",
+      "number": "117"
+    },
+    {
+      "name": "Bronzor",
+      "set": "A2a",
+      "number": "58"
+    },
+    {
+      "name": "Bronzong",
+      "set": "A2a",
+      "number": "59"
+    },
+    {
+      "name": "Origin Forme Dialga",
+      "set": "A2a",
+      "number": "60"
+    },
+    {
+      "name": "Tinkatink",
+      "set": "A2b",
+      "number": "52"
+    },
+    {
+      "name": "Tinkatuff",
+      "set": "A2b",
+      "number": "53"
+    },
+    {
+      "name": "Varoom",
+      "set": "A2b",
+      "number": "55"
+    },
+    {
+      "name": "Revavroom",
+      "set": "A2b",
+      "number": "56"
+    },
+    {
+      "name": "Druddigon",
+      "set": "A1a",
+      "number": "56"
+    },
+    {
+      "name": "Giratina",
+      "set": "A2a",
+      "number": "61"
+    },
+    {
+      "name": "Rattata",
+      "set": "A1",
+      "number": "189"
+    },
+    {
+      "name": "Raticate",
+      "set": "A1",
+      "number": "190"
+    },
+    {
+      "name": "Rattata",
+      "set": "A2b",
+      "number": "58"
+    },
+    {
+      "name": "Raticate",
+      "set": "A2b",
+      "number": "59"
+    },
+    {
+      "name": "Spearow",
+      "set": "A1",
+      "number": "191"
+    },
+    {
+      "name": "Fearow",
+      "set": "A1",
+      "number": "192"
+    },
+    {
+      "name": "Farfetch'd",
+      "set": "A1",
+      "number": "198"
+    },
+    {
+      "name": "Doduo",
+      "set": "A1",
+      "number": "199"
+    },
+    {
+      "name": "Dodrio",
+      "set": "A1",
+      "number": "200"
+    },
+    {
+      "name": "Lickitung",
+      "set": "A1",
+      "number": "201"
+    },
+    {
+      "name": "Lickitung",
+      "set": "A2",
+      "number": "124"
+    },
+    {
+      "name": "Lickitung",
+      "set": "A2b",
+      "number": "62"
+    },
+    {
+      "name": "Lickilicky",
+      "set": "A2b",
+      "number": "63"
+    },
+    {
+      "name": "Chansey",
+      "set": "A1",
+      "number": "202"
+    },
+    {
+      "name": "Kangaskhan",
+      "set": "A1",
+      "number": "203"
+    },
+    {
+      "name": "Tauros",
+      "set": "A1",
+      "number": "204"
+    },
+    {
+      "name": "Tauros",
+      "set": "A1a",
+      "number": "60"
+    },
+    {
+      "name": "Aerodactyl",
+      "set": "A1",
+      "number": "210"
+    },
+    {
+      "name": "Minccino",
+      "set": "A1",
+      "number": "212"
+    },
+    {
+      "name": "Cinccino",
+      "set": "A1",
+      "number": "213"
+    },
+    {
+      "name": "Wooloo",
+      "set": "A1",
+      "number": "214"
+    },
+    {
+      "name": "Dubwool",
+      "set": "A1",
+      "number": "215"
+    },
+    {
+      "name": "Chatot",
+      "set": "A1a",
+      "number": "62"
+    },
+    {
+      "name": "Chatot",
+      "set": "A2",
+      "number": "141"
+    },
+    {
+      "name": "Aipom",
+      "set": "A2",
+      "number": "130"
+    },
+    {
+      "name": "Ambipom",
+      "set": "A2",
+      "number": "131"
+    },
+    {
+      "name": "Buneary",
+      "set": "A2",
+      "number": "137"
+    },
+    {
+      "name": "Lopunny",
+      "set": "A2",
+      "number": "138"
+    },
+    {
+      "name": "Buneary",
+      "set": "A2b",
+      "number": "66"
+    },
+    {
+      "name": "Lopunny",
+      "set": "A2b",
+      "number": "67"
+    },
+    {
+      "name": "Fan Rotom",
+      "set": "A2",
+      "number": "142"
+    },
+    {
+      "name": "Hoothoot",
+      "set": "A2a",
+      "number": "64"
+    },
+    {
+      "name": "Noctowl",
+      "set": "A2a",
+      "number": "65"
+    },
+    {
+      "name": "Arceus",
+      "set": "A2a",
+      "number": "70"
+    },
+    {
+      "name": "Cyclizar",
+      "set": "A2b",
+      "number": "68"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "676cb28c86f3dba534027ef9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Pandemonium #6! HOLIDAY SPECIAL\ud83c\udf84 100 USD",
+  "date": "2024-12-26T17:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1074,
+    "name": "ArcanaMD"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

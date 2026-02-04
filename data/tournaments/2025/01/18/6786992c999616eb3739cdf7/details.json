@@ -1,0 +1,29 @@
+{
+  "id": "6786992c999616eb3739cdf7",
+  "game": "POCKET",
+  "format": null,
+  "name": "#1 Brothers League \u7b2c\u4e00\u5c46\u5df4\u6253\u76c3",
+  "date": "2025-01-18T14:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2143,
+    "name": "Pokemon lihkg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

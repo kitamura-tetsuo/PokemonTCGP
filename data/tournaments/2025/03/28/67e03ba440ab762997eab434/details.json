@@ -1,0 +1,29 @@
+{
+  "id": "67e03ba440ab762997eab434",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Twin Crimson Clash",
+  "date": "2025-03-28T13:51:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2298,
+    "name": "Pok\u00e9Genesis"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

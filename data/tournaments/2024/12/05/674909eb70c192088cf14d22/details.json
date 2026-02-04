@@ -1,0 +1,87 @@
+{
+  "id": "674909eb70c192088cf14d22",
+  "game": "POCKET",
+  "format": null,
+  "name": "Little Legends League #7 (Season 1)",
+  "date": "2024-12-05T00:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Arcanine ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Marowak ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Blaine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Erika",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6768707386f3dba534022347",
+  "game": "POCKET",
+  "format": null,
+  "name": "POCKET TOUR TOURNAMENT #7 (Best of 1)",
+  "date": "2025-01-03T15:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

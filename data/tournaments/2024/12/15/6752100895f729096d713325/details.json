@@ -1,0 +1,71 @@
+{
+  "id": "6752100895f729096d713325",
+  "game": "POCKET",
+  "format": null,
+  "name": "TORNEO ITALIANO DICEMBRE BAN META DECK",
+  "date": "2024-12-15T19:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2037,
+    "name": "NeverLollo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "1"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Sabrina",
+      "set": "A1",
+      "number": "1"
+    },
+    {
+      "name": "Erika",
+      "set": "A1",
+      "number": "1"
+    },
+    {
+      "name": "Starmie Ex",
+      "set": "A1",
+      "number": "1"
+    },
+    {
+      "name": "Moltres Ex",
+      "set": "A1",
+      "number": "1"
+    }
+  ]
+}

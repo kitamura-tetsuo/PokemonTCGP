@@ -1,0 +1,23 @@
+{
+  "id": "67c25599a1d5aaa96ff59558",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneo #9 PokePocket - TCG CLUB",
+  "date": "2025-03-05T21:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 1966,
+    "name": "TCG CLUB"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

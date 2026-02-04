@@ -1,0 +1,29 @@
+{
+  "id": "67c611fa8f99a44fce34280c",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League - Classic Wednesdays CENTRAL",
+  "date": "2025-03-05T18:00:00.000Z",
+  "players": 181,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

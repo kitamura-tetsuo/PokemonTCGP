@@ -1,0 +1,56 @@
+{
+  "id": "67b39ea378c0b32318818298",
+  "game": "POCKET",
+  "format": null,
+  "name": "$40 Dont Forget to Update Your Sheet Tournament",
+  "date": "2025-02-17T22:15:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    },
+    {
+      "name": "FA Cyrus",
+      "set": "A2",
+      "number": "190"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Exeggutor EX",
+      "set": "A1",
+      "number": "23"
+    },
+    {
+      "name": "FA Exeggutor EX",
+      "set": "A1",
+      "number": "252"
+    }
+  ]
+}

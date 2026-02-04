@@ -1,0 +1,23 @@
+{
+  "id": "67db7104a99850c6e38cd1a7",
+  "game": "POCKET",
+  "format": null,
+  "name": "EX-treme Tournament #6 (USA)",
+  "date": "2025-03-21T17:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2207,
+    "name": "To The EX-treme"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

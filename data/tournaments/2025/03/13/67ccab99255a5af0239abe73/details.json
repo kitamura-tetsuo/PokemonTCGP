@@ -1,0 +1,29 @@
+{
+  "id": "67ccab99255a5af0239abe73",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 P.P i.T \ud83d\udc51 Speed Tour FINALS 30$ PRIZEPOOL",
+  "date": "2025-03-13T14:30:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

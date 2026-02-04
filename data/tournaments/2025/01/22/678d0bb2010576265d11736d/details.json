@@ -1,0 +1,32 @@
+{
+  "id": "678d0bb2010576265d11736d",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2694\ufe0f HORA DA BATALHA: NOEX  #2 \u2694\ufe0f",
+  "date": "2025-01-22T18:45:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2133,
+    "name": "Hora da Batalha"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

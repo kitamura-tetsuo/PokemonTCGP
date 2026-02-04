@@ -1,0 +1,29 @@
+{
+  "id": "67c6d1908f99a44fce3431e7",
+  "game": "POCKET",
+  "format": null,
+  "name": "#2 Draft Pack Booster \u2022 Pocket Winds",
+  "date": "2025-03-06T19:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

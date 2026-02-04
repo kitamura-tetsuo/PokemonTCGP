@@ -1,0 +1,29 @@
+{
+  "id": "677db70c7960ec710efe53bc",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\uddea COPA MEW #2 \ud83e\uddec| COPICLOL | $50USD",
+  "date": "2025-01-12T21:30:00.000Z",
+  "players": 368,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

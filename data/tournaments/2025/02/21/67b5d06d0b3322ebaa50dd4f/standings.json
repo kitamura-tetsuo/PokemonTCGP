@@ -1,0 +1,8184 @@
+[
+  {
+    "name": "purei",
+    "country": "JP",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "purei",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Hanzee",
+    "country": "DE",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "75",
+          "name": "Uxie"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "76",
+          "name": "Mesprit"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "77",
+          "name": "Azelf"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "uxie-mesprit-a2",
+      "name": "Uxie Mesprit",
+      "icons": [
+        "uxie",
+        "mesprit"
+      ]
+    },
+    "placing": null,
+    "player": "hanzee",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "javitkl",
+    "country": "AR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fire",
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-druddigon-a1a",
+      "name": "Dragonite Druddigon",
+      "icons": [
+        "dragonite",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "javitkl",
+    "record": {
+      "wins": 1,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Kromleck8",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "kromleck8",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "LIEBI",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": null,
+    "player": "liebi",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "MASTERKC",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "149",
+          "name": "Lum Berry"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "melmetal-a1-skarmory-a2",
+      "name": "Melmetal Skarmory",
+      "icons": [
+        "melmetal",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "masterkc",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "Mohamed_o72",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "skarmory-bastiodon-a2",
+      "name": "Skarmory Bastiodon",
+      "icons": [
+        "skarmory",
+        "bastiodon"
+      ]
+    },
+    "placing": null,
+    "player": "mohamed_o72",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "mtg_dbz",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "126",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "45",
+          "name": "Flareon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ],
+      "energy": [
+        "Fire",
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "greninja-flareon-a1",
+      "name": "Greninja Flareon",
+      "icons": [
+        "greninja",
+        "flareon"
+      ]
+    },
+    "placing": null,
+    "player": "mtg_dbz",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "nhoff92",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "64",
+          "name": "Seel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "65",
+          "name": "Dewgong"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "tentacruel-dewgong-a1",
+      "name": "Tentacruel Dewgong",
+      "icons": [
+        "tentacruel",
+        "dewgong"
+      ]
+    },
+    "placing": null,
+    "player": "nhoff92",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "PepTheDragon",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "79",
+          "name": "Cresselia"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2-druddigon-a1a",
+      "name": "Togekiss Druddigon",
+      "icons": [
+        "togekiss",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "pepthedragon",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "pimto",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-druddigon-a1a",
+      "name": "Dragonite Druddigon",
+      "icons": [
+        "dragonite",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "pimto",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Matias R",
+    "country": "CL",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "melmetal-a1-skarmory-a2",
+      "name": "Melmetal Skarmory",
+      "icons": [
+        "melmetal",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "matiasrivera",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "HD| RayDorM",
+    "country": "ES",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "raydorm",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "Tachaaan",
+    "country": "ES",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "10",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "44",
+          "name": "Magmar"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ],
+      "energy": [
+        "Fire"
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": null,
+    "player": "tachaaan",
+    "record": {
+      "wins": 0,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Themodelcitizen",
+    "country": "IM",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "121",
+          "name": "Gible"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "122",
+          "name": "Gabite"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "123",
+          "name": "Garchomp"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "garchomp-a2-kangaskhan-a1",
+      "name": "Garchomp Kangaskhan",
+      "icons": [
+        "garchomp",
+        "kangaskhan"
+      ]
+    },
+    "placing": null,
+    "player": "themodelcitizen",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "thunderlulz",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "120",
+          "name": "Heatran"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "154",
+          "name": "Dawn"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "thunderlulz",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 6
+  },
+  {
+    "name": "Tosko0",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "160",
+          "name": "Mienfoo"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "161",
+          "name": "Mienshao"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "172",
+          "name": "Zubat"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "173",
+          "name": "Golbat"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "126",
+          "name": "Eevee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "112",
+          "name": "Pincurchin"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "golbat-mienshao-a1",
+      "name": "Golbat Mienshao",
+      "icons": [
+        "golbat",
+        "mienshao"
+      ]
+    },
+    "placing": null,
+    "player": "tosko0",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 6
+  },
+  {
+    "name": "ttAwleek",
+    "country": "CZ",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "50",
+          "name": "Manaphy"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-manaphy-a2",
+      "name": "Dragonite Manaphy",
+      "icons": [
+        "dragonite",
+        "manaphy"
+      ]
+    },
+    "placing": null,
+    "player": "ttawleek",
+    "record": {
+      "wins": 2,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "Vinha",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "155",
+          "name": "Mars"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "vinha",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "[\ud835\ude4e\ud835\ude6b\ud835\ude46] | VinsGG",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": null,
+    "player": "vinsgg",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Xvasher",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "xvasher",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "YasserB",
+    "country": "PR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "1",
+          "name": "Bulbasaur"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "2",
+          "name": "Ivysaur"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "3",
+          "name": "Venusaur"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "22",
+          "name": "Shaymin"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Grass"
+      ]
+    },
+    "deck": {
+      "id": "venusaur-a1-shaymin-a2",
+      "name": "Venusaur Shaymin",
+      "icons": [
+        "venusaur",
+        "shaymin"
+      ]
+    },
+    "placing": null,
+    "player": "yasserb",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Arcticmonkeys",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "143",
+          "name": "Regigigas"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "22",
+          "name": "Shaymin"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "154",
+          "name": "Dawn"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fire",
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "regigigas-shaymin-a2",
+      "name": "Regigigas Shaymin",
+      "icons": [
+        "regigigas",
+        "shaymin"
+      ]
+    },
+    "placing": null,
+    "player": "arcticmonkeys",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Daan",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": null,
+    "player": "daan",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "DeividWasa",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "deividwasa",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Dragovink",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "43",
+          "name": "Geodude"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "44",
+          "name": "Graveler"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "45",
+          "name": "Golem"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "golem-druddigon-a1a",
+      "name": "Golem Druddigon",
+      "icons": [
+        "golem",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "dragovink",
+    "record": {
+      "wins": 0,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "Especialista22",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "121",
+          "name": "Gible"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "122",
+          "name": "Gabite"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "123",
+          "name": "Garchomp"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "78",
+          "name": "Giratina"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "garchomp-a2-hitmonlee-a1",
+      "name": "Garchomp Hitmonlee",
+      "icons": [
+        "garchomp",
+        "hitmonlee"
+      ]
+    },
+    "placing": null,
+    "player": "especialista22",
+    "record": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "champorlax",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-druddigon-a1a",
+      "name": "Dragonite Druddigon",
+      "icons": [
+        "dragonite",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "champorlax",
+    "record": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "FlavianoRamos",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-a2-hitmonlee-a1",
+      "name": "Rampardos Hitmonlee",
+      "icons": [
+        "rampardos",
+        "hitmonlee"
+      ]
+    },
+    "placing": null,
+    "player": "flavianoramos",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "BoostedAvian",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "62",
+          "name": "Rotom"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "50",
+          "name": "Manaphy"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "155",
+          "name": "Mars"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fire",
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "greninja-a1-druddigon-a1a",
+      "name": "Greninja Druddigon",
+      "icons": [
+        "greninja",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "boostedavian",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "furrfection24",
+    "country": "PH",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": null,
+    "player": "furrfection24",
+    "record": {
+      "wins": 0,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Benji1975",
+    "country": "SV",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "17",
+          "name": "Mankey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "142",
+          "name": "Primeape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "primeape-a1-lucario-a2",
+      "name": "Primeape Lucario",
+      "icons": [
+        "primeape",
+        "lucario"
+      ]
+    },
+    "placing": null,
+    "player": "benji1975",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "gani",
+    "country": "JP",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "43",
+          "name": "Geodude"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "44",
+          "name": "Graveler"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "45",
+          "name": "Golem"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "golem-druddigon-a1a",
+      "name": "Golem Druddigon",
+      "icons": [
+        "golem",
+        "druddigon"
+      ]
+    },
+    "placing": null,
+    "player": "gani",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "XertsBR91",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 1,
+    "player": "xertsbr91",
+    "record": {
+      "wins": 9,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "HiNMyT",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "10",
+          "name": "Ponyta"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "12",
+          "name": "Magmar"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fire"
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 2,
+    "player": "hinmyt",
+    "record": {
+      "wins": 8,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Isaacampos",
+    "country": "CL",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": 3,
+    "player": "isaacampos",
+    "record": {
+      "wins": 7,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Fab2006",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": 4,
+    "player": "fab2006",
+    "record": {
+      "wins": 7,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Shubham",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": 5,
+    "player": "shubham",
+    "record": {
+      "wins": 6,
+      "losses": 1,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "Pette9550",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "33",
+          "name": "Sigilyph"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "79",
+          "name": "Cresselia"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "65",
+          "name": "Mythical Slab"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2-sigilyph-a1a",
+      "name": "Togekiss Sigilyph",
+      "icons": [
+        "togekiss",
+        "sigilyph"
+      ]
+    },
+    "placing": 6,
+    "player": "pette9550",
+    "record": {
+      "wins": 6,
+      "losses": 1,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "RomPey",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 7,
+    "player": "rompey",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Victor13",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "35",
+          "name": "Piplup"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "36",
+          "name": "Prinplup"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "37",
+          "name": "Empoleon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "50",
+          "name": "Manaphy"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "61",
+          "name": "Eevee"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "19",
+          "name": "Vaporeon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "empoleon-a2-vaporeon-a1a",
+      "name": "Empoleon Vaporeon",
+      "icons": [
+        "empoleon",
+        "vaporeon"
+      ]
+    },
+    "placing": 8,
+    "player": "victor13",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "jaoaires",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "22",
+          "name": "Shaymin"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "78",
+          "name": "Giratina"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "33",
+          "name": "Sigilyph"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2",
+      "name": "Togekiss",
+      "icons": [
+        "togekiss"
+      ]
+    },
+    "placing": 9,
+    "player": "jaoaires",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Roleskett",
+    "country": "ES",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": 10,
+    "player": "roleskett",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Moccalatte",
+    "country": "CL",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "78",
+          "name": "Giratina"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "154",
+          "name": "Dawn"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-giratina-a2",
+      "name": "Togekiss Giratina",
+      "icons": [
+        "togekiss",
+        "giratina"
+      ]
+    },
+    "placing": 11,
+    "player": "moccalatte",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Peru1995",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "8",
+          "name": "Roselia"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "9",
+          "name": "Roserade"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "11",
+          "name": "Oddish"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "2",
+          "name": "Gloom"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "3",
+          "name": "Bellossom"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Grass"
+      ]
+    },
+    "deck": {
+      "id": "bellossom-roserade-a2",
+      "name": "Bellossom Roserade",
+      "icons": [
+        "bellossom",
+        "roserade"
+      ]
+    },
+    "placing": 12,
+    "player": "peru1995",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "GaBvoy",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "147",
+          "name": "Geodude"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "44",
+          "name": "Graveler"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "45",
+          "name": "Golem"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "golem-druddigon-a1a",
+      "name": "Golem Druddigon",
+      "icons": [
+        "golem",
+        "druddigon"
+      ]
+    },
+    "placing": 13,
+    "player": "gabvoy",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Lukienigma",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "27",
+          "name": "Electabuzz"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "57",
+          "name": "Electivire"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "58",
+          "name": "Shinx"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "59",
+          "name": "Luxio"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "60",
+          "name": "Luxray"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "153",
+          "name": "Volkner"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "luxray-electivire-a2",
+      "name": "Luxray Electivire",
+      "icons": [
+        "luxray",
+        "electivire"
+      ]
+    },
+    "placing": 14,
+    "player": "lukienigma",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "MonkeyDJaylen",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": 15,
+    "player": "monkeydjaylen",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "jeffsds",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 16,
+    "player": "jeffsds",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Machadinhobr",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 17,
+    "player": "machadinhobr",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "leonidias92",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "33",
+          "name": "Sigilyph"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "79",
+          "name": "Cresselia"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "65",
+          "name": "Mythical Slab"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2-sigilyph-a1a",
+      "name": "Togekiss Sigilyph",
+      "icons": [
+        "togekiss",
+        "sigilyph"
+      ]
+    },
+    "placing": 18,
+    "player": "leonidias92",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Shubruise",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "155",
+          "name": "Mars"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "melmetal-a1-skarmory-a2",
+      "name": "Melmetal Skarmory",
+      "icons": [
+        "melmetal",
+        "skarmory"
+      ]
+    },
+    "placing": 19,
+    "player": "shubruise",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Alekk94",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "27",
+          "name": "Electabuzz"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "57",
+          "name": "Electivire"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "58",
+          "name": "Shinx"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "59",
+          "name": "Luxio"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "60",
+          "name": "Luxray"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "153",
+          "name": "Volkner"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "luxray-electivire-a2",
+      "name": "Luxray Electivire",
+      "icons": [
+        "luxray",
+        "electivire"
+      ]
+    },
+    "placing": 20,
+    "player": "alekk94",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "OVERL1GHTY",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-druddigon-a1a",
+      "name": "Dragonite Druddigon",
+      "icons": [
+        "dragonite",
+        "druddigon"
+      ]
+    },
+    "placing": 21,
+    "player": "overl1ghty",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "SinDarma",
+    "country": "EC",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "kabutops-a1-lucario-a2",
+      "name": "Kabutops Lucario",
+      "icons": [
+        "kabutops",
+        "lucario"
+      ]
+    },
+    "placing": 22,
+    "player": "sindarma",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "DomOG",
+    "country": "PT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "62",
+          "name": "Rotom"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "lucario-a2-hitmonlee-a1",
+      "name": "Lucario Hitmonlee",
+      "icons": [
+        "lucario",
+        "hitmonlee"
+      ]
+    },
+    "placing": 23,
+    "player": "domog",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "jkflafutbr",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "141",
+          "name": "Mankey"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "42",
+          "name": "Primeape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "primeape-a1a-lucario-a2",
+      "name": "Primeape Lucario",
+      "icons": [
+        "primeape",
+        "lucario"
+      ]
+    },
+    "placing": 24,
+    "player": "jkflafutbr",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "MrRaptor",
+    "country": "AT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "147",
+          "name": "Geodude"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "44",
+          "name": "Graveler"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "45",
+          "name": "Golem"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "golem-druddigon-a1a",
+      "name": "Golem Druddigon",
+      "icons": [
+        "golem",
+        "druddigon"
+      ]
+    },
+    "placing": 25,
+    "player": "mrraptor",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Dieguera",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "50",
+          "name": "Manaphy"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-manaphy-a2",
+      "name": "Dragonite Manaphy",
+      "icons": [
+        "dragonite",
+        "manaphy"
+      ]
+    },
+    "placing": 26,
+    "player": "dieguera",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Andrezin01",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "62",
+          "name": "Chatot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "kabutops-a1-lucario-a2",
+      "name": "Kabutops Lucario",
+      "icons": [
+        "kabutops",
+        "lucario"
+      ]
+    },
+    "placing": 27,
+    "player": "andrezin01",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Shakthar",
+    "country": "PT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "186",
+          "name": "Pidgey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "187",
+          "name": "Pidgeotto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "188",
+          "name": "Pidgeot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "pidgeot-melmetal-a1",
+      "name": "Pidgeot Melmetal",
+      "icons": [
+        "pidgeot",
+        "melmetal"
+      ]
+    },
+    "placing": 28,
+    "player": "shakthar",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Gegiory",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 29,
+    "player": "gegiory",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "ShadowBR",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "139",
+          "name": "Diglett"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "140",
+          "name": "Dugtrio"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "lucario-a2-dugtrio-a1",
+      "name": "Lucario Dugtrio",
+      "icons": [
+        "lucario",
+        "dugtrio"
+      ]
+    },
+    "placing": 30,
+    "player": "shadowbr",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "jlteen",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "62",
+          "name": "Chatot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1-chatot-a1a",
+      "name": "Dragonite Chatot",
+      "icons": [
+        "dragonite",
+        "chatot"
+      ]
+    },
+    "placing": 31,
+    "player": "jlteen",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Gaviosa",
+    "country": "CL",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "25",
+          "name": "Pikachu"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "95",
+          "name": "Raichu"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "27",
+          "name": "Electabuzz"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "57",
+          "name": "Electivire"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "97",
+          "name": "Magnemite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "98",
+          "name": "Magneton"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "226",
+          "name": "Lt. Surge"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "154",
+          "name": "Dawn"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "153",
+          "name": "Volkner"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "raichu-magneton-a1",
+      "name": "Raichu Magneton",
+      "icons": [
+        "raichu",
+        "magneton"
+      ]
+    },
+    "placing": 32,
+    "player": "gaviosa",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Topix9494",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": 33,
+    "player": "topix9494",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "ronnyrmz",
+    "country": "CR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "33",
+          "name": "Sigilyph"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "79",
+          "name": "Cresselia"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "154",
+          "name": "Dawn"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2-sigilyph-a1a",
+      "name": "Togekiss Sigilyph",
+      "icons": [
+        "togekiss",
+        "sigilyph"
+      ]
+    },
+    "placing": 34,
+    "player": "ronnyrmz",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Ciaofratello",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "121",
+          "name": "Gible"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "122",
+          "name": "Gabite"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "123",
+          "name": "Garchomp"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "56",
+          "name": "Druddigon"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "garchomp-a2-druddigon-a1a",
+      "name": "Garchomp Druddigon",
+      "icons": [
+        "garchomp",
+        "druddigon"
+      ]
+    },
+    "placing": 35,
+    "player": "ciaofratello",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "criticzz",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-a2-hitmonlee-a1",
+      "name": "Rampardos Hitmonlee",
+      "icons": [
+        "rampardos",
+        "hitmonlee"
+      ]
+    },
+    "placing": 36,
+    "player": "criticzz",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "SleecK",
+    "country": "CL",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 37,
+    "player": "sleeck",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "hugandoro",
+    "country": "CO",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "58",
+          "name": "Shinx"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "60",
+          "name": "Luxray"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "56",
+          "name": "Electabuzz"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "101",
+          "name": "Electabuzz"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "57",
+          "name": "Electivire"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "26",
+          "name": "Raichu"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "103",
+          "name": "Zapdos"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "105",
+          "name": "Blitzle"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "153",
+          "name": "Volkner"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "electivire-a2-raichu-a1a",
+      "name": "Electivire Raichu",
+      "icons": [
+        "electivire",
+        "raichu"
+      ]
+    },
+    "placing": 38,
+    "player": "hugandoro",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Saurus",
+    "country": "ES",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 39,
+    "player": "saurus",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "otsutiyo",
+    "country": "JP",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "63",
+          "name": "Togepi"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "64",
+          "name": "Togetic"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "65",
+          "name": "Togekiss"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "33",
+          "name": "Sigilyph"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "152",
+          "name": "Cynthia"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A1a",
+          "number": "65",
+          "name": "Mythical Slab"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Psychic"
+      ]
+    },
+    "deck": {
+      "id": "togekiss-a2-sigilyph-a1a",
+      "name": "Togekiss Sigilyph",
+      "icons": [
+        "togekiss",
+        "sigilyph"
+      ]
+    },
+    "placing": 40,
+    "player": "otsutiyo",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "socbar",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "31",
+          "name": "Swinub"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "32",
+          "name": "Piloswine"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "33",
+          "name": "Mamoswine"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "50",
+          "name": "Manaphy"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "mamoswine-manaphy-a2",
+      "name": "Mamoswine Manaphy",
+      "icons": [
+        "mamoswine",
+        "manaphy"
+      ]
+    },
+    "placing": 41,
+    "player": "socbar",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "henrik_gpi",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "113",
+          "name": "Shieldon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "114",
+          "name": "Bastiodon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "145",
+          "name": "Armor Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "bastiodon-skarmory-a2",
+      "name": "Bastiodon Skarmory",
+      "icons": [
+        "bastiodon",
+        "skarmory"
+      ]
+    },
+    "placing": 42,
+    "player": "henrik_gpi",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Artemis_IV",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "94",
+          "name": "Pikachu"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "95",
+          "name": "Raichu"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "99",
+          "name": "Voltorb"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "100",
+          "name": "Electrode"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "97",
+          "name": "Magnemite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "98",
+          "name": "Magneton"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "226",
+          "name": "Lt. Surge"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "raichu-magneton-a1",
+      "name": "Raichu Magneton",
+      "icons": [
+        "raichu",
+        "magneton"
+      ]
+    },
+    "placing": 43,
+    "player": "artemis_iv",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Svagaldorsaux",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "38",
+          "name": "Buizel"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "39",
+          "name": "Floatzel"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "42",
+          "name": "Finneon"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "43",
+          "name": "Lumineon"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "31",
+          "name": "Swinub"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "32",
+          "name": "Piloswine"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "33",
+          "name": "Mamoswine"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Water",
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "mamoswine-floatzel-a2",
+      "name": "Mamoswine Floatzel",
+      "icons": [
+        "mamoswine",
+        "floatzel"
+      ]
+    },
+    "placing": 44,
+    "player": "svagaldorsaux",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Cui",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 45,
+    "player": "cui",
+    "record": {
+      "wins": 0,
+      "losses": 6,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Flipinton",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "15",
+          "name": "Burmy"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "115",
+          "name": "Wormadam"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "111",
+          "name": "Skarmory"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "22",
+          "name": "Shaymin"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Metal"
+      ]
+    },
+    "deck": {
+      "id": "wormadam-skarmory-a2",
+      "name": "Wormadam Skarmory",
+      "icons": [
+        "wormadam",
+        "skarmory"
+      ]
+    },
+    "placing": 46,
+    "player": "flipinton",
+    "record": {
+      "wins": 0,
+      "losses": 6,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "tingely44",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "48",
+          "name": "Stonjourner"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-lucario-a2",
+      "name": "Rampardos Lucario",
+      "icons": [
+        "rampardos",
+        "lucario"
+      ]
+    },
+    "placing": 47,
+    "player": "tingely44",
+    "record": {
+      "wins": 0,
+      "losses": 6,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "MaximusAle",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "88",
+          "name": "Cranidos"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "89",
+          "name": "Rampardos"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "155",
+          "name": "Hitmonchan"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "47",
+          "name": "Marshadow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "144",
+          "name": "Skull Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "148",
+          "name": "Rocky Helmet"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "rampardos-a2",
+      "name": "Rampardos",
+      "icons": [
+        "rampardos"
+      ]
+    },
+    "placing": 48,
+    "player": "maximusale",
+    "record": {
+      "wins": 0,
+      "losses": 6,
+      "ties": 0
+    },
+    "drop": null
+  }
+]

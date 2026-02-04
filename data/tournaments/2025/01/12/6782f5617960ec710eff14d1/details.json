@@ -1,0 +1,23 @@
+{
+  "id": "6782f5617960ec710eff14d1",
+  "game": "POCKET",
+  "format": null,
+  "name": "Japan Habba 2025 - TCG Pocket Tournament",
+  "date": "2025-01-12T08:50:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2131,
+    "name": "Japan Habba - TCG Pocket "
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

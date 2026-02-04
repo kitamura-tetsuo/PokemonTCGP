@@ -1,0 +1,29 @@
+{
+  "id": "67cabbff8f99a44fce346bb0",
+  "game": "POCKET",
+  "format": null,
+  "name": "HELEKKARI'S AURORA BOREALIS TOURNAMENTS OPEN",
+  "date": "2025-03-07T19:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2163,
+    "name": "Helekkari"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67529b6395f729096d713fa6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournament Pokemon TCG Pocket Indonesia 3",
+  "date": "2024-12-22T06:00:00.000Z",
+  "players": 264,
+  "organizer": {
+    "id": 1996,
+    "name": "God Deck IDN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

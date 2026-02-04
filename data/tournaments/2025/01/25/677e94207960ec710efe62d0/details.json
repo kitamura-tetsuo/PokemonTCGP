@@ -1,0 +1,29 @@
+{
+  "id": "677e94207960ec710efe62d0",
+  "game": "POCKET",
+  "format": null,
+  "name": "ThePokes - PTCGP Tournament #3",
+  "date": "2025-01-25T18:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 2067,
+    "name": "ThePokes"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

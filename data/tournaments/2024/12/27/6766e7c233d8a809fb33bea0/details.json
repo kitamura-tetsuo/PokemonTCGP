@@ -1,0 +1,29 @@
+{
+  "id": "6766e7c233d8a809fb33bea0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Polish Pocket League Sezon 1 Runda 3",
+  "date": "2024-12-27T16:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

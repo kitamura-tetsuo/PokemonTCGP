@@ -1,0 +1,32 @@
+{
+  "id": "6784207b7960ec710eff4855",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd25DBDrifter's Singleton Royale #2\ud83d\udd25",
+  "date": "2025-01-19T18:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2122,
+    "name": "DBDrifter"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON_NAME"
+  ]
+}

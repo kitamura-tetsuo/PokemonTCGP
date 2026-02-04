@@ -1,0 +1,29 @@
+{
+  "id": "67716c48ed2c78098c69effc",
+  "game": "POCKET",
+  "format": null,
+  "name": "the Dark League. Pikaverse got cancelled ;(",
+  "date": "2024-12-29T18:30:00.000Z",
+  "players": 391,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

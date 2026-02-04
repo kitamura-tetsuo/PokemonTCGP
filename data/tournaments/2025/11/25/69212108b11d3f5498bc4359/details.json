@@ -1,0 +1,114 @@
+{
+  "id": "69212108b11d3f5498bc4359",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX #10 (Banlist)",
+  "date": "2025-11-25T20:00:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Luxray",
+      "set": "B1",
+      "number": "88"
+    },
+    {
+      "name": "Ludicolo",
+      "set": "B1",
+      "number": "55"
+    },
+    {
+      "name": "Venusaur",
+      "set": "B1a",
+      "number": "3"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Charizard",
+      "set": "B1a",
+      "number": "13"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

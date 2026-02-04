@@ -1,0 +1,29 @@
+{
+  "id": "67f5090cd28716d7204d4c00",
+  "game": "POCKET",
+  "format": null,
+  "name": "EJC \u2013 Cartapalooza",
+  "date": "2025-04-12T14:30:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2240,
+    "name": "EJC \u2013 Emos Jogam Cartinhas"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": false,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

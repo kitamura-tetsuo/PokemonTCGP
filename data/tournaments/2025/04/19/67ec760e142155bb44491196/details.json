@@ -1,0 +1,30 @@
+{
+  "id": "67ec760e142155bb44491196",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hot Streak - Go for 3 Wins in a Row!",
+  "date": "2025-04-19T04:00:00.000Z",
+  "players": 50,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

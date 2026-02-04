@@ -1,0 +1,29 @@
+{
+  "id": "67166d6926bb4c6d2e6082fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Silver pocket #0.1",
+  "date": "2024-10-24T14:20:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 1701,
+    "name": "Silver Squad"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6921565eb11d3f5498bc45b9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #29 - $50 USD (Season 5)",
+  "date": "2025-11-26T21:00:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

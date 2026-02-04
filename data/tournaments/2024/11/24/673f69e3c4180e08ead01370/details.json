@@ -1,0 +1,38 @@
+{
+  "id": "673f69e3c4180e08ead01370",
+  "game": "POCKET",
+  "format": null,
+  "name": "Primer Torneo Invitacional Mayonesos TCG Pocket",
+  "date": "2024-11-24T16:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 1988,
+    "name": "Artikgg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

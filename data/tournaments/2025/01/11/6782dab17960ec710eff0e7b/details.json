@@ -1,0 +1,29 @@
+{
+  "id": "6782dab17960ec710eff0e7b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd21 LES PANTINS - WILD GRASS BATTLE! #1 \ud83c\udf43",
+  "date": "2025-01-11T22:30:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

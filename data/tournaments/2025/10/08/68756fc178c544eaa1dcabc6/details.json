@@ -1,0 +1,45 @@
+{
+  "id": "68756fc178c544eaa1dcabc6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Twinsies (3-Day Rounds)",
+  "date": "2025-10-08T19:00:00.000Z",
+  "players": 127,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

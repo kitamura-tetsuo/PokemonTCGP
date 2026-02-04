@@ -1,0 +1,29 @@
+{
+  "id": "67d8cdb99561463c33722573",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u7b2c\u4e00\u5c46V-Pocket\u5927\u8cfd",
+  "date": "2025-03-29T06:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2288,
+    "name": "Xiao v"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

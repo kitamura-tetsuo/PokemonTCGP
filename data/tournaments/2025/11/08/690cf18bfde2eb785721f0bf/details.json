@@ -1,0 +1,156 @@
+{
+  "id": "690cf18bfde2eb785721f0bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Tiny Titans #2 (70 HP or Less)",
+  "date": "2025-11-08T22:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Inflatable Boat",
+      "set": "A4a",
+      "number": "67"
+    },
+    {
+      "name": "Memory Light",
+      "set": "A4a",
+      "number": "68"
+    },
+    {
+      "name": "Steel Apron",
+      "set": "A4",
+      "number": "153"
+    },
+    {
+      "name": "Dark Pendant",
+      "set": "A4",
+      "number": "154"
+    },
+    {
+      "name": "Leftovers",
+      "set": "A3b",
+      "number": "67"
+    },
+    {
+      "name": "Electrical Cord",
+      "set": "A3a",
+      "number": "65"
+    },
+    {
+      "name": "Beastite",
+      "set": "A3a",
+      "number": "66"
+    },
+    {
+      "name": "Poison Barb",
+      "set": "A3",
+      "number": "146"
+    },
+    {
+      "name": "Leaf Cape",
+      "set": "A3",
+      "number": "147"
+    },
+    {
+      "name": "Giant Cape",
+      "set": "A2",
+      "number": "147"
+    },
+    {
+      "name": "Rocky Helmet",
+      "set": "A2",
+      "number": "148"
+    },
+    {
+      "name": "Lum Berry",
+      "set": "A2",
+      "number": "149"
+    },
+    {
+      "name": "Shaymin",
+      "set": "A2",
+      "number": "22"
+    },
+    {
+      "name": "Skiploom",
+      "set": "A4a",
+      "number": "2"
+    },
+    {
+      "name": "Skiploom",
+      "set": "A4",
+      "number": "14"
+    },
+    {
+      "name": "Golbat",
+      "set": "A4",
+      "number": "108"
+    },
+    {
+      "name": "Golbat",
+      "set": "A1",
+      "number": "173"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "42"
+    },
+    {
+      "name": "Smeargle",
+      "set": "A4",
+      "number": "148"
+    },
+    {
+      "name": "Dugtrio",
+      "set": "A1",
+      "number": "140"
+    },
+    {
+      "name": "Unown",
+      "set": "A4",
+      "number": "85"
+    },
+    {
+      "name": "Unown",
+      "set": "A4",
+      "number": "84"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Sophocles",
+      "set": "A3",
+      "number": "153"
+    },
+    {
+      "name": "Acerola",
+      "set": "A3",
+      "number": "148"
+    }
+  ]
+}

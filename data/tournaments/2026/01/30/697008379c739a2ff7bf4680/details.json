@@ -1,0 +1,29 @@
+{
+  "id": "697008379c739a2ff7bf4680",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "3+ Retreat Cost - Heavy Boulder #1 (FA Oak)",
+  "date": "2026-01-30T19:00:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

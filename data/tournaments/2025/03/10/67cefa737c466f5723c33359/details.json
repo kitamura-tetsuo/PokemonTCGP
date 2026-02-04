@@ -1,0 +1,29 @@
+{
+  "id": "67cefa737c466f5723c33359",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2b50\u2b50\u2b50Last Minute NOEX Quickie \u2b50\u2b50\u2b50",
+  "date": "2025-03-10T15:45:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

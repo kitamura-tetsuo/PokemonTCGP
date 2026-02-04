@@ -1,0 +1,29 @@
+{
+  "id": "6762d65995f729096d72f791",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Pandemonium #5 SECRET THURSDAY SPECIAL",
+  "date": "2024-12-19T17:00:00.000Z",
+  "players": 216,
+  "organizer": {
+    "id": 1074,
+    "name": "ArcanaMD"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

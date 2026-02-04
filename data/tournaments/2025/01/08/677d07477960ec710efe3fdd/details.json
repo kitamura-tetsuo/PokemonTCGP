@@ -1,0 +1,29 @@
+{
+  "id": "677d07477960ec710efe3fdd",
+  "game": "POCKET",
+  "format": null,
+  "name": "4# Open France Tournament",
+  "date": "2025-01-08T15:00:00.000Z",
+  "players": 120,
+  "organizer": {
+    "id": 1895,
+    "name": "PTCGP FRANCE"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "68fe6584dd7011c665c400cd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Normo360 X Lagoon Halloween Showdown! ($20)",
+  "date": "2025-10-27T18:00:00.000Z",
+  "players": 120,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

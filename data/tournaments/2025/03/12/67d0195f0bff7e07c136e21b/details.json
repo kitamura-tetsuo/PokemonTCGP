@@ -1,0 +1,29 @@
+{
+  "id": "67d0195f0bff7e07c136e21b",
+  "game": "POCKET",
+  "format": null,
+  "name": "BigBig Fujiyama cup #3",
+  "date": "2025-03-12T12:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2221,
+    "name": "Team Fujiyama"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "67bf8ede78c0b323188213c7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc1bTORNEO RUTA KANTO #05\ud83d\udc1bSTANDARD FORMAT \ud83d\udcb0$5USD",
+  "date": "2025-03-01T21:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": null
+    }
+  ]
+}

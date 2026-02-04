@@ -1,0 +1,29 @@
+{
+  "id": "67de645540ab762997ea9ee5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Starlit Pocket Cup #0",
+  "date": "2025-03-25T12:30:00.000Z",
+  "players": 152,
+  "organizer": {
+    "id": 2221,
+    "name": "Team Fujiyama"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

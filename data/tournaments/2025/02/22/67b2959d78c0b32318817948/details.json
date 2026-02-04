@@ -1,0 +1,23 @@
+{
+  "id": "67b2959d78c0b32318817948",
+  "game": "POCKET",
+  "format": null,
+  "name": "EX-treme Tournament #2 (USA)",
+  "date": "2025-02-22T18:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2207,
+    "name": "To The EX-treme"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

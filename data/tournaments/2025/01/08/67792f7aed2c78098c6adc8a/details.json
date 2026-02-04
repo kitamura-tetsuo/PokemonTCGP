@@ -1,0 +1,29 @@
+{
+  "id": "67792f7aed2c78098c6adc8a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 Pok\u00e9mon Pocket Italia \ud83d\udc51 Speed Tour #5",
+  "date": "2025-01-08T14:30:00.000Z",
+  "players": 145,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

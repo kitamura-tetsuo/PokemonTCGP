@@ -1,0 +1,29 @@
+{
+  "id": "67e4221d40ab762997eadd82",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL - Classic  Wednesday [PLS UPDATE]",
+  "date": "2025-03-26T20:00:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

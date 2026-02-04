@@ -1,0 +1,29 @@
+{
+  "id": "6772aec8ed2c78098c6a1531",
+  "game": "POCKET",
+  "format": null,
+  "name": "No Notice Tournament #1",
+  "date": "2024-12-30T17:00:00.000Z",
+  "players": 190,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

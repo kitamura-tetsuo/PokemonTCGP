@@ -1,0 +1,61 @@
+{
+  "id": "67de09e240ab762997ea9c59",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udca7\u200b TORNEO RUTA KANTO CASCADA \ud83d\udca7 \ud83d\udcb0$5USD",
+  "date": "2025-03-28T20:00:00.000Z",
+  "players": 106,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Probopass ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Tinkaton ex",
+      "set": "A2b",
+      "number": null
+    }
+  ]
+}

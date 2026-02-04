@@ -1,0 +1,136 @@
+{
+  "id": "673f9d16c4180e08ead01c13",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd2e Copa Sabrina #1 | TerremotoParaTodos",
+  "date": "2024-11-23T20:00:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "84"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "258"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "275"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "253"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "280"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "284"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "286"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "259"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "281"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "285"
+    },
+    {
+      "name": "Starmie ex",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Starmie ex",
+      "set": "A1",
+      "number": "257"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "268"
+    },
+    {
+      "name": "Erika",
+      "set": "A1",
+      "number": "219"
+    },
+    {
+      "name": "Erika",
+      "set": "A1",
+      "number": "266"
+    }
+  ]
+}

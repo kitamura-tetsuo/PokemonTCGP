@@ -1,0 +1,29 @@
+{
+  "id": "6977f03b9c739a2ff7bf8a49",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frapp\u00e9sdrinker's Ice Cold Clash (10$+Cards)",
+  "date": "2026-01-27T17:00:00.000Z",
+  "players": 156,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

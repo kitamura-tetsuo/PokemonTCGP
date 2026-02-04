@@ -1,0 +1,29 @@
+{
+  "id": "685e36cfc4596e8122363675",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\udda6 Capy Cup S2: Eevee Party #4",
+  "date": "2025-06-30T12:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

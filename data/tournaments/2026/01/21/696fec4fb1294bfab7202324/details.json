@@ -1,0 +1,36 @@
+{
+  "id": "696fec4fb1294bfab7202324",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon x Storm Mega Wars-($5 + FA)GRENINJA BAN",
+  "date": "2026-01-21T04:05:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ]
+}

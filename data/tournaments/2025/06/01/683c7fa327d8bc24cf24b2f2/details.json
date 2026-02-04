@@ -1,0 +1,49 @@
+{
+  "id": "683c7fa327d8bc24cf24b2f2",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "The Saga League \u2013 NOEX Showdown #5 \ud83c\udfc6",
+  "date": "2025-06-01T21:30:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "82"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cranidos",
+      "set": "A2",
+      "number": "88"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

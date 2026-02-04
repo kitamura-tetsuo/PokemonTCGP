@@ -1,0 +1,29 @@
+{
+  "id": "67bb7e940b3322ebaa51294f",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83e\udd21 LES PANTINS FEAT IMPERIUM \ud83d\udd31 NO EX !",
+  "date": "2025-02-28T18:30:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

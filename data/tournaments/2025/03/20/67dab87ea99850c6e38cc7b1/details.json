@@ -1,0 +1,29 @@
+{
+  "id": "67dab87ea99850c6e38cc7b1",
+  "game": "POCKET",
+  "format": null,
+  "name": "$50\ud83e\udd77BLINDFOLD MADNESS\ud83e\udd77 FREE ENTRY",
+  "date": "2025-03-20T19:00:00.000Z",
+  "players": 224,
+  "organizer": {
+    "id": 2055,
+    "name": "HC Tournaments"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

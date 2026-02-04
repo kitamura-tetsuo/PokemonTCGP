@@ -1,0 +1,55 @@
+{
+  "id": "697380859c739a2ff7bf5ebf",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Spark of Defiance Extreme:The Lords of the Void",
+  "date": "2026-01-26T01:30:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Chingling",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

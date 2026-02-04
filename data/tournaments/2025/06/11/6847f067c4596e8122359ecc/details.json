@@ -1,0 +1,23 @@
+{
+  "id": "6847f067c4596e8122359ecc",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\ude99 MASTER OF COIN TOURNAMENT #4 \ud83e\ude99",
+  "date": "2025-06-11T18:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

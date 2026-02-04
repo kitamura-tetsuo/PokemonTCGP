@@ -1,0 +1,29 @@
+{
+  "id": "6775e2b8ed2c78098c6a6b0d",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Thursday last minute",
+  "date": "2025-01-02T15:00:00.000Z",
+  "players": 213,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

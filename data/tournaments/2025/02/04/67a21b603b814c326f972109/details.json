@@ -1,0 +1,29 @@
+{
+  "id": "67a21b603b814c326f972109",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u00a1TORNEO REL\u00c1MPAGO HOKAGE! #2 \ud83c\udfc6 5 EUROS+DONACIONES",
+  "date": "2025-02-04T19:00:00.000Z",
+  "players": 67,
+  "organizer": {
+    "id": 2180,
+    "name": "HOKAGE KOMMUNITY"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

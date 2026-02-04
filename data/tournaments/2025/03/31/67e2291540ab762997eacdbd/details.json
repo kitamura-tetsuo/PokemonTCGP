@@ -1,0 +1,29 @@
+{
+  "id": "67e2291540ab762997eacdbd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Battle Park Pocket",
+  "date": "2025-03-31T21:00:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 1033,
+    "name": "Pok\u00e9mon Battle Park "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

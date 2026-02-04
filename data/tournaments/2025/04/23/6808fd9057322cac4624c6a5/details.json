@@ -1,0 +1,29 @@
+{
+  "id": "6808fd9057322cac4624c6a5",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL - Small Classic Wednesday [FAST]",
+  "date": "2025-04-23T18:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

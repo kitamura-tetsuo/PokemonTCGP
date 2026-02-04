@@ -1,0 +1,29 @@
+{
+  "id": "6748d1ba70c192088cf14553",
+  "game": "POCKET",
+  "format": null,
+  "name": "#02 KGEN League BRAZIL",
+  "date": "2024-12-02T17:00:00.000Z",
+  "players": 178,
+  "organizer": {
+    "id": 1960,
+    "name": "KGeN Brasil"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

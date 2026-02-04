@@ -1,0 +1,30 @@
+{
+  "id": "67516a8095f729096d71235e",
+  "game": "POCKET",
+  "format": null,
+  "name": "NHKorru Community Tournament - hosted by PTCGPT",
+  "date": "2024-12-22T16:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

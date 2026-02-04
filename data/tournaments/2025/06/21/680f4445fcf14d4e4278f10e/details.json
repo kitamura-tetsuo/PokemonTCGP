@@ -1,0 +1,49 @@
+{
+  "id": "680f4445fcf14d4e4278f10e",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udc51 Simbozz - NoEX'cuse - Community Cup #2",
+  "date": "2025-06-21T17:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2316,
+    "name": "Simbozz"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

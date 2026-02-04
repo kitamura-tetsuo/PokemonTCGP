@@ -1,0 +1,29 @@
+{
+  "id": "677818faed2c78098c6aa8f6",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd8a FoxCave Battle Arena #2 \ud83e\udd8a",
+  "date": "2025-01-10T17:00:00.000Z",
+  "players": 330,
+  "organizer": {
+    "id": 2076,
+    "name": "FoxCave Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

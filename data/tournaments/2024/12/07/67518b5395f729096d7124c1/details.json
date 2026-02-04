@@ -1,0 +1,91 @@
+{
+  "id": "67518b5395f729096d7124c1",
+  "game": "POCKET",
+  "format": null,
+  "name": "SpX NO META DECK Cup #2 (Live on Twitch)",
+  "date": "2024-12-07T14:30:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 1973,
+    "name": "Sparx"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "286"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "259"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "281"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "285"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "280"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "284"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "256"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    }
+  ]
+}

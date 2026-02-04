@@ -1,0 +1,29 @@
+{
+  "id": "67f548a58aba2f879d4332c2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31 IMPERIUM's FAST Tournament \ud83d\udd31",
+  "date": "2025-04-11T17:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

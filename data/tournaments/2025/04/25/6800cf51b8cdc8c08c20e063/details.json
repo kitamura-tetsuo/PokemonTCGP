@@ -1,0 +1,26 @@
+{
+  "id": "6800cf51b8cdc8c08c20e063",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1\ufe0f ENERGY EMPEROR TOURNAMENT\u26a1\ufe0f",
+  "date": "2025-04-25T18:30:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "MONOTYPE"
+  ]
+}

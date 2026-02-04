@@ -1,0 +1,23 @@
+{
+  "id": "673b33abc4180e08eacfb24b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket TCG \ud83c\udde7\ud83c\uddf7",
+  "date": "2024-12-01T21:00:00.000Z",
+  "players": 206,
+  "organizer": {
+    "id": 1956,
+    "name": "DarKingBR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "67352ca057dcc5a683fc0afb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Little Legends League #5 (Season 1)",
+  "date": "2024-11-21T00:00:00.000Z",
+  "players": 231,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

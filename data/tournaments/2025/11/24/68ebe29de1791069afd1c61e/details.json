@@ -1,0 +1,33 @@
+{
+  "id": "68ebe29de1791069afd1c61e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: F Tier (3-day Rounds)",
+  "date": "2025-11-24T00:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

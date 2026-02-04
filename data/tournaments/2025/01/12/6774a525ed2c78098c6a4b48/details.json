@@ -1,0 +1,30 @@
+{
+  "id": "6774a525ed2c78098c6a4b48",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Genetic Apex #5: Team Tournament",
+  "date": "2025-01-12T17:00:00.000Z",
+  "players": 75,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67d92ecea99850c6e38cb7c4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mogamoga Cup #9",
+  "date": "2025-03-25T10:00:00.000Z",
+  "players": 117,
+  "organizer": {
+    "id": 2172,
+    "name": "Mogamoga Family"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

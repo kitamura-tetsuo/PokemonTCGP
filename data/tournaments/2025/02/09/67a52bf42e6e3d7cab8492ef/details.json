@@ -1,0 +1,29 @@
+{
+  "id": "67a52bf42e6e3d7cab8492ef",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83d\udd25COPA BLAINE #8 NO-EX\u274cCOPICLOL | $10 USD",
+  "date": "2025-02-09T21:30:00.000Z",
+  "players": 166,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

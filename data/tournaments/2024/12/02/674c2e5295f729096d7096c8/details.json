@@ -1,0 +1,29 @@
+{
+  "id": "674c2e5295f729096d7096c8",
+  "game": "POCKET",
+  "format": null,
+  "name": "SpX League Mini Cup #3",
+  "date": "2024-12-02T15:00:00.000Z",
+  "players": 203,
+  "organizer": {
+    "id": 1973,
+    "name": "Sparx"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "68a704c23070784ce70c4b07",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc09RagingReDragons $25 Little Cup Tournament\ud83d\udc09",
+  "date": "2025-09-03T17:30:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2418,
+    "name": "RagingRedLeague"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6796e06f5229b408d3cee113",
+  "game": "POCKET",
+  "format": null,
+  "name": "Gabut Tournament #7",
+  "date": "2025-01-30T09:00:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2148,
+    "name": "hrsnfbrn"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

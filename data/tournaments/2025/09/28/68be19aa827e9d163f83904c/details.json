@@ -1,0 +1,32 @@
+{
+  "id": "68be19aa827e9d163f83904c",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "JPEG Burst! Special NO EX Cup #1 $20 POT",
+  "date": "2025-09-28T20:00:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2427,
+    "name": "JPEG Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

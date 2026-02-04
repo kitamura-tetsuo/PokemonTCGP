@@ -1,0 +1,32 @@
+{
+  "id": "673edab5c4180e08ead0093d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc51 Game Scales Crown - non EX - [EU] - 60\u20ac",
+  "date": "2024-11-27T18:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1894,
+    "name": "Pocket DACH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

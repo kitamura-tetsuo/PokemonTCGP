@@ -1,0 +1,29 @@
+{
+  "id": "676ddf5386f3dba534029982",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Masters Showdown",
+  "date": "2024-12-27T00:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

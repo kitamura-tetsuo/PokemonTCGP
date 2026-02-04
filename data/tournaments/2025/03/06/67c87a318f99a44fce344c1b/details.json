@@ -1,0 +1,29 @@
+{
+  "id": "67c87a318f99a44fce344c1b",
+  "game": "POCKET",
+  "format": null,
+  "name": "#18 Quick Unseen Tournament",
+  "date": "2025-03-06T14:00:00.000Z",
+  "players": 110,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

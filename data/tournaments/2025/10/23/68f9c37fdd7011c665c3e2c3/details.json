@@ -1,0 +1,109 @@
+{
+  "id": "68f9c37fdd7011c665c3e2c3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX Late Night Pop-up",
+  "date": "2025-10-23T11:00:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Dusk Mane Necrozma",
+      "set": "P-A",
+      "number": "79"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Altaria",
+      "set": "A4a",
+      "number": "55"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Garchomp",
+      "set": "A2",
+      "number": "123"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Miltank",
+      "set": "A4a",
+      "number": "62"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3b",
+      "number": "5"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

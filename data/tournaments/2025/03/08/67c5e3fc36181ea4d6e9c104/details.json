@@ -1,0 +1,35 @@
+{
+  "id": "67c5e3fc36181ea4d6e9c104",
+  "game": "POCKET",
+  "format": null,
+  "name": "Triumphant Light $100 Tournament - GODZLY",
+  "date": "2025-03-08T20:00:00.000Z",
+  "players": 307,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

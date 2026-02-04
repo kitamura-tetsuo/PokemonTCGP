@@ -1,0 +1,29 @@
+{
+  "id": "6755f18295f729096d71c466",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket League #5",
+  "date": "2024-12-11T18:00:00.000Z",
+  "players": 173,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

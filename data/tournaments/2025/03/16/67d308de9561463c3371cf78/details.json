@@ -1,0 +1,32 @@
+{
+  "id": "67d308de9561463c3371cf78",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Bezmeciak - czyli turniej No-EX",
+  "date": "2025-03-16T15:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

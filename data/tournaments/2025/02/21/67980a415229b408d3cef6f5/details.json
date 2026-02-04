@@ -1,0 +1,29 @@
+{
+  "id": "67980a415229b408d3cef6f5",
+  "game": "POCKET",
+  "format": null,
+  "name": "A2 Season of Time and Space #4",
+  "date": "2025-02-21T01:00:00.000Z",
+  "players": 113,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

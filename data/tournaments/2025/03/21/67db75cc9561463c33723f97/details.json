@@ -1,0 +1,29 @@
+{
+  "id": "67db75cc9561463c33723f97",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Glitch Pocket League - TOUR #4 NO EX",
+  "date": "2025-03-21T01:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 334,
+    "name": "Federaci\u00f3n Ecuatoriana de PKM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

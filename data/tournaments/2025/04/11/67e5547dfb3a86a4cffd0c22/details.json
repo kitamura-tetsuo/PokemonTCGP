@@ -1,0 +1,29 @@
+{
+  "id": "67e5547dfb3a86a4cffd0c22",
+  "game": "POCKET",
+  "format": null,
+  "name": "Standard Tournament - EZPIRIT REALM \ud83c\udfc6 #3",
+  "date": "2025-04-11T10:30:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

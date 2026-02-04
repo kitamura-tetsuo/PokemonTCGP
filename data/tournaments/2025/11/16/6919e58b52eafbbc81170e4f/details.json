@@ -1,0 +1,131 @@
+{
+  "id": "6919e58b52eafbbc81170e4f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Mega League - PTCG Pocket Special #2",
+  "date": "2025-11-16T20:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Mega Pinsir eX",
+      "set": "B1",
+      "number": "2"
+    },
+    {
+      "name": "Mega Blaziken eX",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Mega Gyarados eX",
+      "set": "B1",
+      "number": "52"
+    },
+    {
+      "name": "Mega Ampharos eX",
+      "set": "B1",
+      "number": "85"
+    },
+    {
+      "name": "Mega Altaria eX",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Absol eX",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Indeedee",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Suicune eX",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Decidueye eX",
+      "set": "A3",
+      "number": "12"
+    }
+  ]
+}

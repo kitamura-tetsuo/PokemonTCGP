@@ -1,0 +1,54 @@
+{
+  "id": "67d9bf759561463c33722cf8",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc5NO-EX\ud83c\udfc5$10 USD | Terremoto x Trainers TCG",
+  "date": "2025-03-20T00:00:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Magneton",
+      "set": "A2",
+      "number": "52"
+    },
+    {
+      "name": "Magneton",
+      "set": "A2a",
+      "number": "54"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "67fcaaed57322cac462468cc",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc6FINALE TOP 32 QUALIFICATION TOUR\ud83c\udfc6",
+  "date": "2025-04-17T19:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

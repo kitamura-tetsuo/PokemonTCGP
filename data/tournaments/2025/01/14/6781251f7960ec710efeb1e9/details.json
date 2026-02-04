@@ -1,0 +1,29 @@
+{
+  "id": "6781251f7960ec710efeb1e9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon GP Brasil #3 Todas as cartas",
+  "date": "2025-01-14T00:00:00.000Z",
+  "players": 51,
+  "organizer": {
+    "id": 2066,
+    "name": "Compartilhe Jogos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

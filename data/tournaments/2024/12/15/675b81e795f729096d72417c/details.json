@@ -1,0 +1,23 @@
+{
+  "id": "675b81e795f729096d72417c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneo #2 PokePocket - TCG CLUB",
+  "date": "2024-12-15T22:00:00.000Z",
+  "players": 5,
+  "organizer": {
+    "id": 1966,
+    "name": "TCG CLUB"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67832bf37960ec710eff1ec6",
+  "game": "POCKET",
+  "format": null,
+  "name": "GHXST CLAN CUP #1 - 15 USD Prizepool",
+  "date": "2025-02-09T20:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2132,
+    "name": "GHXST CLAN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

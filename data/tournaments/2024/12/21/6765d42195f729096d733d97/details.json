@@ -1,0 +1,29 @@
+{
+  "id": "6765d42195f729096d733d97",
+  "game": "POCKET",
+  "format": null,
+  "name": "Battle Royale (\ud83d\udcb025\u20ac) - Pok\u00e8mon Pocket ITALIA \ud83c\uddee\ud83c\uddf9",
+  "date": "2024-12-21T20:30:00.000Z",
+  "players": 121,
+  "organizer": {
+    "id": 2058,
+    "name": "Pok\u00e8mon Pocket ITALIA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

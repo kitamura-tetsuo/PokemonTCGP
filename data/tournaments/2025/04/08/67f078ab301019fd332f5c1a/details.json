@@ -1,0 +1,96 @@
+{
+  "id": "67f078ab301019fd332f5c1a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc1b TORNEO RUTA KANTO ALMA \ud83d\udc1b \ud83d\udcb0$5USD",
+  "date": "2025-04-08T20:30:00.000Z",
+  "players": 49,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Beedrill ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Lucario ex",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "Leafeon ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Garchomp ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Yanmega ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Venusaur ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Machamp ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Marowak ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": null
+    }
+  ]
+}

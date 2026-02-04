@@ -1,0 +1,29 @@
+{
+  "id": "67a4df7c3b814c326f97493b",
+  "game": "POCKET",
+  "format": null,
+  "name": "S2 2# Closed France Tournament 100\u20ac",
+  "date": "2025-02-08T15:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 1895,
+    "name": "PTCGP FRANCE"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

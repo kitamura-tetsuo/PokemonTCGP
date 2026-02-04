@@ -1,0 +1,29 @@
+{
+  "id": "676a4e4586f3dba534025345",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Kuyo\u676f #2 Kuyo Cup Pocket #2",
+  "date": "2024-12-29T05:00:00.000Z",
+  "players": 181,
+  "organizer": {
+    "id": 1259,
+    "name": "The shining lion club"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

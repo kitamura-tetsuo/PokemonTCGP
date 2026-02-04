@@ -1,0 +1,36 @@
+{
+  "id": "675528cc95f729096d71a3d4",
+  "game": "POCKET",
+  "format": null,
+  "name": "What's Your Status?",
+  "date": "2024-12-14T01:30:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "READ THE DETAILS ON ALLOWED POKEMON BELOW",
+      "set": "A1",
+      "number": "96"
+    }
+  ]
+}

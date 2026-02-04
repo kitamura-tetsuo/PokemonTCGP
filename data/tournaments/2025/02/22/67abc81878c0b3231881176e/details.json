@@ -1,0 +1,29 @@
+{
+  "id": "67abc81878c0b3231881176e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Pocket KT Challenge #2 \\\\ $30 USD",
+  "date": "2025-02-22T22:00:00.000Z",
+  "players": 189,
+  "organizer": {
+    "id": 2179,
+    "name": "Karagatan Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

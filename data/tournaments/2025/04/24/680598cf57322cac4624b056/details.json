@@ -1,0 +1,109 @@
+{
+  "id": "680598cf57322cac4624b056",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 THE SAGA LEAGUE SEASON #1 - 15 USD PRIZE \ud83c\udfc6",
+  "date": "2025-04-24T21:30:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Cranidos",
+      "set": "A2",
+      "number": "88"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "89"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "192"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "267"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "244"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "193"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "268"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

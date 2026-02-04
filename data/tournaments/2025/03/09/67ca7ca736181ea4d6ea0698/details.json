@@ -1,0 +1,29 @@
+{
+  "id": "67ca7ca736181ea4d6ea0698",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udca7 COPA IRIDA VR \ud83c\udf0a|COPICLOL| $50 USD - $250",
+  "date": "2025-03-09T21:00:00.000Z",
+  "players": 429,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

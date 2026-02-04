@@ -1,0 +1,29 @@
+{
+  "id": "67980a605229b408d3cef6fe",
+  "game": "POCKET",
+  "format": null,
+  "name": "A2 Season of Time and Space #7",
+  "date": "2025-03-16T00:00:00.000Z",
+  "players": 122,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

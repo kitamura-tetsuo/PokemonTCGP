@@ -1,0 +1,32 @@
+{
+  "id": "67874660010576265d10bd6d",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "NOEX SINGLETON\u2728FAST ROUNDS\u2728Testing new features!",
+  "date": "2025-01-15T08:05:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON_NAME"
+  ]
+}

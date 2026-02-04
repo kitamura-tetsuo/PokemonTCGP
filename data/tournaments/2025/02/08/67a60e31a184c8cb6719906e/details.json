@@ -1,0 +1,29 @@
+{
+  "id": "67a60e31a184c8cb6719906e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Rose Tower Pocket Saturday \ud83c\udfc6",
+  "date": "2025-02-08T12:00:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 405,
+    "name": "Rose Tower"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

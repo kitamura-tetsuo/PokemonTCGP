@@ -1,0 +1,29 @@
+{
+  "id": "67c19a26a1d5aaa96ff587e2",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25 Torneio TD PADR\u00c3O \u2714\ufe0f - 1#/Mar\u00e7o - Free - BR",
+  "date": "2025-03-07T00:00:00.000Z",
+  "players": 119,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

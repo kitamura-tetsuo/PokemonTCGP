@@ -1,0 +1,29 @@
+{
+  "id": "6740dceb612052096f61d3f9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Monday Meta Tourney",
+  "date": "2024-11-25T18:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6746b63c612052096f629a98",
+  "game": "POCKET",
+  "format": null,
+  "name": "Karin Cup \u6953\u9234\u76c3PTCGP\u5927\u8cfd",
+  "date": "2025-01-04T11:07:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2014,
+    "name": "Hatori Karin [HongKong Vtuber]"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

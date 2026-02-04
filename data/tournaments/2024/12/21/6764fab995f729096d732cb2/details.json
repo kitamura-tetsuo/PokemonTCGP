@@ -1,0 +1,29 @@
+{
+  "id": "6764fab995f729096d732cb2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\uddea COPA MEW \ud83e\uddec| COPICLOL",
+  "date": "2024-12-21T21:20:00.000Z",
+  "players": 103,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

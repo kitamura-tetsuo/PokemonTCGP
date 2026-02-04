@@ -1,0 +1,32 @@
+{
+  "id": "6744ce63612052096f626770",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC - Test Run (noEX) - 10\u00a3 prize.",
+  "date": "2024-11-29T17:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "6754fd0d95f729096d719ee7",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "TOP 16 | COPA BLAINE",
+  "date": "2024-12-08T02:10:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "19"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

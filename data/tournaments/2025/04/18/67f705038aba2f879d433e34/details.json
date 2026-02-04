@@ -1,0 +1,23 @@
+{
+  "id": "67f705038aba2f879d433e34",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfa5 $200 Pokemon Pocket Streamers\u2019 Showdown \ud83c\udfa5",
+  "date": "2025-04-18T19:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

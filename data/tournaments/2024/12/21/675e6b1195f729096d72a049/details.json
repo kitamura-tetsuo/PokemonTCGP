@@ -1,0 +1,29 @@
+{
+  "id": "675e6b1195f729096d72a049",
+  "game": "POCKET",
+  "format": null,
+  "name": "Road to Year-Ender: Mythical Island Awakens",
+  "date": "2024-12-21T01:30:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "67ce44580bff7e07c136c938",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wisnuwy Tournamen #2",
+  "date": "2025-03-13T12:00:00.000Z",
+  "players": 170,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

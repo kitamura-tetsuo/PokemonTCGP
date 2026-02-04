@@ -1,0 +1,29 @@
+{
+  "id": "675dbefc95f729096d727f5f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25 Torneio TD PADR\u00c3O \u2714\ufe0f - 3#/Dezembro - Free - BR",
+  "date": "2024-12-21T00:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

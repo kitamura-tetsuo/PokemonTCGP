@@ -1,0 +1,116 @@
+{
+  "id": "674ceabf95f729096d70b52e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udf40 Copa Erika ANTI-META #1 | TerremotoParaTodos",
+  "date": "2024-12-03T21:00:00.000Z",
+  "players": 151,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "262"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "282"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "286"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "253"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "280"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "284"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "259"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "281"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "285"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "84"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "258"
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": "275"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "268"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    }
+  ]
+}

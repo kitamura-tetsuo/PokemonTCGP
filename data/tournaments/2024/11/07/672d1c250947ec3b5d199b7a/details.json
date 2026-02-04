@@ -1,0 +1,29 @@
+{
+  "id": "672d1c250947ec3b5d199b7a",
+  "game": "POCKET",
+  "format": null,
+  "name": "NXG mini #1",
+  "date": "2024-11-07T23:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 1901,
+    "name": "NXG nextGen"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

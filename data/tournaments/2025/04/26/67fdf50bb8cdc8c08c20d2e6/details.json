@@ -1,0 +1,30 @@
+{
+  "id": "67fdf50bb8cdc8c08c20d2e6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League S2 Invitational - 100 USD",
+  "date": "2025-04-26T18:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

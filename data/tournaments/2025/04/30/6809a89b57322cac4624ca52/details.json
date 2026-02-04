@@ -1,0 +1,29 @@
+{
+  "id": "6809a89b57322cac4624ca52",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udf33 TORNEO RUTA KANTO\ud83c\udf33#10  NOEX\u274c \ud83d\udcb0$10USD",
+  "date": "2025-04-30T17:30:00.000Z",
+  "players": 62,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "697d759f9c739a2ff7bfbd95",
+  "game": "POCKET",
+  "format": null,
+  "name": "MLA Crew (B2) Rapid #2 (5 $ + 2 x FA Kangaskhan)",
+  "date": "2026-01-31T22:15:00.000Z",
+  "players": 191,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

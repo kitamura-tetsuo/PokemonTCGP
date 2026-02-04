@@ -1,0 +1,29 @@
+{
+  "id": "677ff37e7960ec710efe8a57",
+  "game": "POCKET",
+  "format": null,
+  "name": "IDEAVOLUTION Swiss Round Tournament \ud83c\uddee\ud83c\udde9",
+  "date": "2025-01-17T12:00:00.000Z",
+  "players": 333,
+  "organizer": {
+    "id": 70,
+    "name": "PTCGO-ID"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

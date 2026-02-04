@@ -1,0 +1,36 @@
+{
+  "id": "695d7ab9ba66621ba08b5deb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Rapid Special #3 [Greninja BAN\u274c] 5 USD",
+  "date": "2026-01-06T23:30:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ]
+}

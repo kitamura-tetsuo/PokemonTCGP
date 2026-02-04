@@ -1,0 +1,36 @@
+{
+  "id": "68d03bf77a2c388893caa80c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Crew Invitational Season 3 (50 USD)",
+  "date": "2025-11-05T03:00:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

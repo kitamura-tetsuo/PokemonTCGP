@@ -1,0 +1,29 @@
+{
+  "id": "67794ff7ed2c78098c6ae43e",
+  "game": "POCKET",
+  "format": null,
+  "name": "BEC Exeggutive Series! 2/8 1000$ USD",
+  "date": "2025-01-19T14:00:00.000Z",
+  "players": 533,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

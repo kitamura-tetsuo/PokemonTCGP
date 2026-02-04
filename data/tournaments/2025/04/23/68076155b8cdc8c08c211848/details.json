@@ -1,0 +1,23 @@
+{
+  "id": "68076155b8cdc8c08c211848",
+  "game": "POCKET",
+  "format": null,
+  "name": "[PL] Polish Pocket League - Sezon 3, Kolejka #5",
+  "date": "2025-04-23T17:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

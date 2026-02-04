@@ -1,0 +1,181 @@
+{
+  "id": "69685aedba66621ba08bc4b8",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "MLA Crew - Pocket No Ex #3 (FA Clemont or 5$)",
+  "date": "2026-01-27T22:05:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Alolan Exegutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Kiawe",
+      "set": "A3",
+      "number": "150"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Slurpuff",
+      "set": "A3b",
+      "number": "32"
+    },
+    {
+      "name": "Alcremie",
+      "set": "A3b",
+      "number": "37"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Shaymin",
+      "set": "A2",
+      "number": "22"
+    },
+    {
+      "name": "Crobat",
+      "set": "A2a",
+      "number": "50"
+    },
+    {
+      "name": "Ludicolo",
+      "set": "B1",
+      "number": "55"
+    },
+    {
+      "name": "Desidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3b",
+      "number": "5"
+    },
+    {
+      "name": "Heliolisk",
+      "set": "B1a",
+      "number": "29"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    },
+    {
+      "name": "Reuniclus",
+      "set": "B1a",
+      "number": "34"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    }
+  ]
+}

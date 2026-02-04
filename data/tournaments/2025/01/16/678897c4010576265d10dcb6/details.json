@@ -1,0 +1,41 @@
+{
+  "id": "678897c4010576265d10dcb6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Ban-Hammer Thursday #2",
+  "date": "2025-01-16T18:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2003,
+    "name": "Pocket Champions"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Starmie EX",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Electrode",
+      "set": "A1",
+      "number": "100"
+    }
+  ]
+}

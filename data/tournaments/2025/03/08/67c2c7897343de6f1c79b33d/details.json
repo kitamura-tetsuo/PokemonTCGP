@@ -1,0 +1,35 @@
+{
+  "id": "67c2c7897343de6f1c79b33d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Corsica Konquest 2025 500\u20ac CASH PRIZES",
+  "date": "2025-03-08T11:00:00.000Z",
+  "players": 309,
+  "organizer": {
+    "id": 1553,
+    "name": "Play!Porygon-Z"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

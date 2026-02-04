@@ -1,0 +1,85 @@
+{
+  "id": "67d25e7ba99850c6e38c5923",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd84\u200b Cabasho Champions League #01\ud83e\udd84 \ud83d\udcb015 USD",
+  "date": "2025-03-21T20:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Palkia ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Cranidos",
+      "set": "A2",
+      "number": "88"
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": null
+    }
+  ]
+}

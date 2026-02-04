@@ -1,0 +1,29 @@
+{
+  "id": "67cf60627c466f5723c33c78",
+  "game": "POCKET",
+  "format": null,
+  "name": "Glitch Pocket League - Tour #1",
+  "date": "2025-03-12T01:00:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 334,
+    "name": "Federaci\u00f3n Ecuatoriana de PKM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

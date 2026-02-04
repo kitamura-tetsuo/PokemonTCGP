@@ -1,0 +1,29 @@
+{
+  "id": "67ae5be10b3322ebaa50773b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\uddea COPA MEW #4 VR SPECIAL \ud83e\uddec|COPICLOL| $50 USD",
+  "date": "2025-02-16T21:30:00.000Z",
+  "players": 311,
+  "organizer": {
+    "id": 2022,
+    "name": "Copiclol"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

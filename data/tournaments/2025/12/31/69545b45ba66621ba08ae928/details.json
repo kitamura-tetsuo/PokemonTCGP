@@ -1,0 +1,36 @@
+{
+  "id": "69545b45ba66621ba08ae928",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Midnight Showdown-NO SUICUNE-$5",
+  "date": "2025-12-31T05:30:00.000Z",
+  "players": 133,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

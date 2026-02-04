@@ -1,0 +1,59 @@
+{
+  "id": "68f99bc5dd7011c665c3e24b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Crew No EX Halloween Showdown",
+  "date": "2025-10-25T02:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Flareon",
+      "set": "A3b",
+      "number": "8"
+    },
+    {
+      "name": "Flareon",
+      "set": "A1",
+      "number": "45"
+    },
+    {
+      "name": "Espeon",
+      "set": "A3b",
+      "number": "28"
+    },
+    {
+      "name": "Sylveon",
+      "set": "A3b",
+      "number": "33"
+    },
+    {
+      "name": "Umbreon",
+      "set": "A3b",
+      "number": "43"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

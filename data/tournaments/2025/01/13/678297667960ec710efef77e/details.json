@@ -1,0 +1,29 @@
+{
+  "id": "678297667960ec710efef77e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9Mike - Pocket Tournament #5",
+  "date": "2025-01-13T20:00:00.000Z",
+  "players": 128,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

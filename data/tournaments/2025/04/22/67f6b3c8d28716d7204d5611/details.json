@@ -1,0 +1,29 @@
+{
+  "id": "67f6b3c8d28716d7204d5611",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf19 50 \u20ac \u2022 TEAM OMBRA Fearless Journey \u2022 SWISS",
+  "date": "2025-04-22T17:00:00.000Z",
+  "players": 190,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

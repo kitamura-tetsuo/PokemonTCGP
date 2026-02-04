@@ -1,0 +1,29 @@
+{
+  "id": "67767f7ded2c78098c6a72e0",
+  "game": "POCKET",
+  "format": null,
+  "name": "#1 Step-Up - Pocket Winds \ud83d\udcb010 USD",
+  "date": "2025-02-28T18:00:00.000Z",
+  "players": 298,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

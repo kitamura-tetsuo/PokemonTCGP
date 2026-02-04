@@ -1,0 +1,29 @@
+{
+  "id": "67aec70e78c0b323188141cd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22President Pocket Turtle  \ud83d\udc22",
+  "date": "2025-02-18T22:30:00.000Z",
+  "players": 280,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

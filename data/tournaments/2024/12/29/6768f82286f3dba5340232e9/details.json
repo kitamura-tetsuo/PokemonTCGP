@@ -1,0 +1,29 @@
+{
+  "id": "6768f82286f3dba5340232e9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2663\ufe0f Pocket Aces Turbo Weekly #2 \u2663\ufe0f 10 USD",
+  "date": "2024-12-29T15:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 2064,
+    "name": "Pocket Aces"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}

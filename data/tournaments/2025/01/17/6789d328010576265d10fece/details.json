@@ -1,0 +1,29 @@
+{
+  "id": "6789d328010576265d10fece",
+  "game": "POCKET",
+  "format": null,
+  "name": "ETERNITY LEAGUE-GYM WATER-final batle 10$to100$",
+  "date": "2025-01-17T22:00:00.000Z",
+  "players": 101,
+  "organizer": {
+    "id": 2145,
+    "name": "Tander games"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "6721f3f30947ec3b5d18eaf7",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP League: Genetic Apex #3: Deck Switch",
+  "date": "2024-12-01T16:00:00.000Z",
+  "players": 72,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO5"
+    }
+  ]
+}

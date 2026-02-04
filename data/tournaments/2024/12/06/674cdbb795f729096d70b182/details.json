@@ -1,0 +1,29 @@
+{
+  "id": "674cdbb795f729096d70b182",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Millennium Pocket Free Tour #1",
+  "date": "2024-12-06T18:00:00.000Z",
+  "players": 458,
+  "organizer": {
+    "id": 684,
+    "name": "Pok\u00e9mon Millennium"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

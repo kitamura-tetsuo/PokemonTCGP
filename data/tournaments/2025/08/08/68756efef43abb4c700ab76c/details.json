@@ -1,0 +1,47 @@
+{
+  "id": "68756efef43abb4c700ab76c",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Deck Out! (3-Day Rounds)",
+  "date": "2025-08-08T04:00:00.000Z",
+  "players": 193,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Sylveon ex",
+      "set": "A3b",
+      "number": "34"
+    },
+    {
+      "name": "Rare Candy",
+      "set": "A3",
+      "number": "144"
+    },
+    {
+      "name": "Dark Pendant",
+      "set": "A4",
+      "number": "154"
+    }
+  ]
+}

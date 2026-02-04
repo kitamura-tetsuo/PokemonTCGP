@@ -1,0 +1,8135 @@
+[
+  {
+    "name": "mckeon",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-weezing-a1",
+      "name": "Greninja Weezing",
+      "icons": [
+        "greninja",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "mckeon",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Desaparecido",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "130",
+          "name": "Ralts"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "131",
+          "name": "Kirlia"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "132",
+          "name": "Gardevoir"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "128",
+          "name": "Mewtwo"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "gardevoir-mewtwo-a1",
+      "name": "Gardevoir Mewtwo",
+      "icons": [
+        "gardevoir",
+        "mewtwo"
+      ]
+    },
+    "placing": null,
+    "player": "desaparecido",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "Painpeko",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": null,
+    "player": "painpeko",
+    "record": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Donaire21",
+    "country": "BE",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": null,
+    "player": "donaire21",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Paco_arsn",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "186",
+          "name": "Pidgey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "187",
+          "name": "Pidgeotto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "188",
+          "name": "Pidgeot"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "pidgeot-dragonite-a1",
+      "name": "Pidgeot Dragonite",
+      "icons": [
+        "pidgeot",
+        "dragonite"
+      ]
+    },
+    "placing": null,
+    "player": "paco_arsn",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Dustlane",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": null,
+    "player": "dustlane",
+    "record": {
+      "wins": 1,
+      "losses": 0,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "elma",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "elma",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 1
+    },
+    "drop": 2
+  },
+  {
+    "name": "Nodra37",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": null,
+    "player": "nodra37",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 6
+  },
+  {
+    "name": "Mikeee",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": null,
+    "player": "mikeee",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 1
+    },
+    "drop": 6
+  },
+  {
+    "name": "PozzK",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": null,
+    "player": "pozzk",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Mattpoke",
+    "country": "PR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": null,
+    "player": "mattpoke",
+    "record": {
+      "wins": 5,
+      "losses": 0,
+      "ties": 1
+    },
+    "drop": 6
+  },
+  {
+    "name": "MardeCopas",
+    "country": "PE",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "57",
+          "name": "Psyduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "58",
+          "name": "Golduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "66",
+          "name": "Shellder"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "67",
+          "name": "Cloyster"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "79",
+          "name": "Lapras"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golduck-cloyster-a1",
+      "name": "Golduck Cloyster",
+      "icons": [
+        "golduck",
+        "cloyster"
+      ]
+    },
+    "placing": null,
+    "player": "mardecopas",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "Foudil",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "22",
+          "name": "Jigglypuff"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "194",
+          "name": "Wigglytuff"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "wigglytuff-melmetal-a1",
+      "name": "Wigglytuff Melmetal",
+      "icons": [
+        "wigglytuff",
+        "melmetal"
+      ]
+    },
+    "placing": null,
+    "player": "foudil",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "LukeDiddy1",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "186",
+          "name": "Pidgey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "187",
+          "name": "Pidgeotto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "188",
+          "name": "Pidgeot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "pidgeot-arbok-a1",
+      "name": "Pidgeot Arbok",
+      "icons": [
+        "pidgeot",
+        "arbok"
+      ]
+    },
+    "placing": null,
+    "player": "lukediddy1",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Gex",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "91",
+          "name": "Bruxish"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "83",
+          "name": "Articuno"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-bruxish-a1",
+      "name": "Greninja Bruxish",
+      "icons": [
+        "greninja",
+        "bruxish"
+      ]
+    },
+    "placing": null,
+    "player": "gex",
+    "record": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 5
+  },
+  {
+    "name": "Impact_Sunder",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "57",
+          "name": "Psyduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "58",
+          "name": "Golduck"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "53",
+          "name": "Squirtle"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "54",
+          "name": "Wartortle"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "55",
+          "name": "Blastoise"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "68",
+          "name": "Krabby"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "69",
+          "name": "Kingler"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "83",
+          "name": "Articuno"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golduck-blastoise-a1",
+      "name": "Golduck Blastoise",
+      "icons": [
+        "golduck",
+        "blastoise"
+      ]
+    },
+    "placing": null,
+    "player": "impact_sunder",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Higumi",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "174",
+          "name": "Grimer"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "175",
+          "name": "Muk"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "higumi",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "Wond3rboyJr",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": null,
+    "player": "wond3rboyjr",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Aang",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-a1",
+      "name": "Dragonite",
+      "icons": [
+        "dragonite"
+      ]
+    },
+    "placing": null,
+    "player": "aang",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": 4
+  },
+  {
+    "name": "aatsuh",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "22",
+          "name": "Jigglypuff"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "194",
+          "name": "Wigglytuff"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "aatsuh",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": 3
+  },
+  {
+    "name": "alberisrox",
+    "country": "BR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "alakazam-weezing-a1",
+      "name": "Alakazam Weezing",
+      "icons": [
+        "alakazam",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "alberisrox",
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": 1
+  },
+  {
+    "name": "Allanchuu",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "191",
+          "name": "Spearow"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "192",
+          "name": "Fearow"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-fearow-a1",
+      "name": "Greninja Fearow",
+      "icons": [
+        "greninja",
+        "fearow"
+      ]
+    },
+    "placing": null,
+    "player": "allanchuu",
+    "record": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Aphitana",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "5",
+          "name": "Caterpie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "6",
+          "name": "Metapod"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "7",
+          "name": "Butterfree"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "11",
+          "name": "Oddish"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "12",
+          "name": "Gloom"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "13",
+          "name": "Vileplume"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "butterfree-vileplume-a1",
+      "name": "Butterfree Vileplume",
+      "icons": [
+        "butterfree",
+        "vileplume"
+      ]
+    },
+    "placing": null,
+    "player": "aphitana",
+    "record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 1
+    },
+    "drop": 3
+  },
+  {
+    "name": "Julien Caceres",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "174",
+          "name": "Grimer"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "175",
+          "name": "Muk"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "arcaninosshiny",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": 5
+  },
+  {
+    "name": "Yassine Julien",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "79",
+          "name": "Lapras"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "91",
+          "name": "Bruxish"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-lapras-a1",
+      "name": "Greninja Lapras",
+      "icons": [
+        "greninja",
+        "lapras"
+      ]
+    },
+    "placing": null,
+    "player": "yass927",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Rambaud007",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "130",
+          "name": "Ralts"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "131",
+          "name": "Kirlia"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "132",
+          "name": "Gardevoir"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "128",
+          "name": "Mewtwo"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "gardevoir-kangaskhan-a1",
+      "name": "Gardevoir Kangaskhan",
+      "icons": [
+        "gardevoir",
+        "kangaskhan"
+      ]
+    },
+    "placing": null,
+    "player": "rambaud007",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Sparadrap",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "92",
+          "name": "Snom"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "93",
+          "name": "Frosmoth"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-frosmoth-a1",
+      "name": "Dragonite Frosmoth",
+      "icons": [
+        "dragonite",
+        "frosmoth"
+      ]
+    },
+    "placing": null,
+    "player": "sparadrap",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "BIGDUCK",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "147",
+          "name": "Geodude"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "148",
+          "name": "Graveler"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "149",
+          "name": "Golem"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "139",
+          "name": "Diglett"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "140",
+          "name": "Dugtrio"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "150",
+          "name": "Onix"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golem-dugtrio-a1",
+      "name": "Golem Dugtrio",
+      "icons": [
+        "golem",
+        "dugtrio"
+      ]
+    },
+    "placing": null,
+    "player": "bigduck",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 2
+  },
+  {
+    "name": "Biibou",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "160",
+          "name": "Mienfoo"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "161",
+          "name": "Mienshao"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "94",
+          "name": "Pikachu"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "95",
+          "name": "Raichu"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "226",
+          "name": "Lt. Surge"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "jolteon-mienshao-a1",
+      "name": "Jolteon Mienshao",
+      "icons": [
+        "jolteon",
+        "mienshao"
+      ]
+    },
+    "placing": null,
+    "player": "biibou",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "BMvK7",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "174",
+          "name": "Grimer"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "175",
+          "name": "Muk"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": null,
+    "player": "bmvk7",
+    "record": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": 3
+  },
+  {
+    "name": "Boukii",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "alakazam-greninja-a1",
+      "name": "Alakazam Greninja",
+      "icons": [
+        "alakazam",
+        "greninja"
+      ]
+    },
+    "placing": null,
+    "player": "boukii",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": 5
+  },
+  {
+    "name": "RomPey",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": null,
+    "player": "rompey",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": 6
+  },
+  {
+    "name": "Robyn",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": null,
+    "player": "robyn",
+    "record": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": 3
+  },
+  {
+    "name": "pimmo",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 1,
+    "player": "pimmo",
+    "record": {
+      "wins": 9,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "A2Lbabar08",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": 2,
+    "player": "a2lbabar08",
+    "record": {
+      "wins": 9,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Kelti",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 3,
+    "player": "kelti",
+    "record": {
+      "wins": 6,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Zoei",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "83",
+          "name": "Articuno"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-articuno-a1",
+      "name": "Dragonite Articuno",
+      "icons": [
+        "dragonite",
+        "articuno"
+      ]
+    },
+    "placing": 4,
+    "player": "zoei",
+    "record": {
+      "wins": 6,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "hoine",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "68",
+          "name": "Krabby"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "69",
+          "name": "Kingler"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "57",
+          "name": "Psyduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "58",
+          "name": "Golduck"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golduck-kingler-a1",
+      "name": "Golduck Kingler",
+      "icons": [
+        "golduck",
+        "kingler"
+      ]
+    },
+    "placing": 5,
+    "player": "hoine",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "KAIZO7025",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": 6,
+    "player": "kaizo7025",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Emir",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": 7,
+    "player": "emir",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Faker_on_TCG",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "174",
+          "name": "Grimer"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "175",
+          "name": "Muk"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-muk-a1",
+      "name": "Arbok Muk",
+      "icons": [
+        "arbok",
+        "muk"
+      ]
+    },
+    "placing": 8,
+    "player": "faker_on_tcg",
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Enzinho23",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "44",
+          "name": "Magmar"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 9,
+    "player": "enzinho23",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Exxus",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "91",
+          "name": "Bruxish"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "196",
+          "name": "Meowth"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-bruxish-a1",
+      "name": "Greninja Bruxish",
+      "icons": [
+        "greninja",
+        "bruxish"
+      ]
+    },
+    "placing": 10,
+    "player": "exxus",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Mora898",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 11,
+    "player": "mora898",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "JackErrer",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-weezing-a1",
+      "name": "Dragonite Weezing",
+      "icons": [
+        "dragonite",
+        "weezing"
+      ]
+    },
+    "placing": 12,
+    "player": "jackerrer",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Treza",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "90",
+          "name": "Pyukumuku"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 13,
+    "player": "treza",
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Alo",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": 14,
+    "player": "alo",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "cmls_chrns",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "90",
+          "name": "Pyukumuku"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 15,
+    "player": "cmls_chrns",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Pakku_u",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "8",
+          "name": "Weedle"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "9",
+          "name": "Kakuna"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "10",
+          "name": "Beedrill"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "16",
+          "name": "Venonat"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "17",
+          "name": "Venomoth"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "25",
+          "name": "Scyther"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "beedrill-venomoth-a1",
+      "name": "Beedrill Venomoth",
+      "icons": [
+        "beedrill",
+        "venomoth"
+      ]
+    },
+    "placing": 16,
+    "player": "pakku_u",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Nadal31",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 17,
+    "player": "nadal31",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "GuiGeek",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "57",
+          "name": "Psyduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "58",
+          "name": "Golduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golduck-tentacruel-a1",
+      "name": "Golduck Tentacruel",
+      "icons": [
+        "golduck",
+        "tentacruel"
+      ]
+    },
+    "placing": 18,
+    "player": "guigeek",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "MathisRabemanantsoa",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 19,
+    "player": "mathisrabemanantsoa",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Hellcatz30",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-weezing-a1",
+      "name": "Dragonite Weezing",
+      "icons": [
+        "dragonite",
+        "weezing"
+      ]
+    },
+    "placing": 20,
+    "player": "hellcatz30",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "gaimon1919",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "68",
+          "name": "Krabby"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "69",
+          "name": "Kingler"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-kingler-a1",
+      "name": "Greninja Kingler",
+      "icons": [
+        "greninja",
+        "kingler"
+      ]
+    },
+    "placing": 21,
+    "player": "gaimon1919",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Cafelajan",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 22,
+    "player": "cafelajan",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "djangoleblanc",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "127",
+          "name": "Jynx"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "83",
+          "name": "Articuno"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jynx-a1",
+      "name": "Greninja Jynx",
+      "icons": [
+        "greninja",
+        "jynx"
+      ]
+    },
+    "placing": 23,
+    "player": "djangoleblanc",
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Paps",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "18",
+          "name": "Bellsprout"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "19",
+          "name": "Weepinbell"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "20",
+          "name": "Victreebel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "21",
+          "name": "Exeggcute"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "22",
+          "name": "Exeggutor"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "victreebel-exeggutor-a1",
+      "name": "Victreebel Exeggutor",
+      "icons": [
+        "victreebel",
+        "exeggutor"
+      ]
+    },
+    "placing": 24,
+    "player": "paps",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "deasek",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "130",
+          "name": "Ralts"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "131",
+          "name": "Kirlia"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "132",
+          "name": "Gardevoir"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "128",
+          "name": "Mewtwo"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "gardevoir-mewtwo-a1",
+      "name": "Gardevoir Mewtwo",
+      "icons": [
+        "gardevoir",
+        "mewtwo"
+      ]
+    },
+    "placing": 25,
+    "player": "deasek",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "Bananna",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-weezing-a1",
+      "name": "Dragonite Weezing",
+      "icons": [
+        "dragonite",
+        "weezing"
+      ]
+    },
+    "placing": 26,
+    "player": "bananna",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "Guiggs",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "68",
+          "name": "Krabby"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "69",
+          "name": "Kingler"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "72",
+          "name": "Goldeen"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "73",
+          "name": "Seaking"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "kingler-seaking-a1",
+      "name": "Kingler Seaking",
+      "icons": [
+        "kingler",
+        "seaking"
+      ]
+    },
+    "placing": 27,
+    "player": "guiggs",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Cyrille",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 28,
+    "player": "cyrille",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "thunderlulz",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-weezing-a1",
+      "name": "Dragonite Weezing",
+      "icons": [
+        "dragonite",
+        "weezing"
+      ]
+    },
+    "placing": 29,
+    "player": "thunderlulz",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Lulu",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 30,
+    "player": "lulu",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Nantelor",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 31,
+    "player": "nantelor",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Valden",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "186",
+          "name": "Pidgey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "187",
+          "name": "Pidgeotto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "188",
+          "name": "Pidgeot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "pidgeot-arbok-a1",
+      "name": "Pidgeot Arbok",
+      "icons": [
+        "pidgeot",
+        "arbok"
+      ]
+    },
+    "placing": 32,
+    "player": "valden",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Yann Vaugeois",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "17",
+          "name": "Mankey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "142",
+          "name": "Primeape"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "primeape-kabutops-a1",
+      "name": "Primeape Kabutops",
+      "icons": [
+        "primeape",
+        "kabutops"
+      ]
+    },
+    "placing": 33,
+    "player": "mryannou",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Volrod59",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "186",
+          "name": "Pidgey"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "187",
+          "name": "Pidgeotto"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "188",
+          "name": "Pidgeot"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-greninja-a1",
+      "name": "Dragonite Greninja",
+      "icons": [
+        "dragonite",
+        "greninja"
+      ]
+    },
+    "placing": 34,
+    "player": "volrod59",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Arthurlaquiche",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "alakazam-farfetchd-a1",
+      "name": "Alakazam Farfetch'd",
+      "icons": [
+        "alakazam",
+        "farfetchd"
+      ]
+    },
+    "placing": 35,
+    "player": "arthurlaquiche",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Legendixo",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "141",
+          "name": "Mankey"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "142",
+          "name": "Primeape"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "143",
+          "name": "Machop"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "144",
+          "name": "Machoke"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "145",
+          "name": "Machamp"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "150",
+          "name": "Onix"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "machamp-primeape-a1",
+      "name": "Machamp Primeape",
+      "icons": [
+        "machamp",
+        "primeape"
+      ]
+    },
+    "placing": 36,
+    "player": "legendixo",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Knight_Bob",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "183",
+          "name": "Dratini"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "184",
+          "name": "Dragonair"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "185",
+          "name": "Dragonite"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dragonite-weezing-a1",
+      "name": "Dragonite Weezing",
+      "icons": [
+        "dragonite",
+        "weezing"
+      ]
+    },
+    "placing": 37,
+    "player": "knight_bob",
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Lezion",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "206",
+          "name": "Eevee"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "102",
+          "name": "Jolteon"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-jolteon-a1",
+      "name": "Greninja Jolteon",
+      "icons": [
+        "greninja",
+        "jolteon"
+      ]
+    },
+    "placing": 38,
+    "player": "lezion",
+    "record": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 2
+    },
+    "drop": null
+  },
+  {
+    "name": "volnarjr",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "5",
+          "name": "Caterpie"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "6",
+          "name": "Metapod"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "7",
+          "name": "Butterfree"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "4",
+          "name": "Pok\u00e9dex"
+        }
+      ]
+    },
+    "deck": {
+      "id": "melmetal-butterfree-a1",
+      "name": "Melmetal Butterfree",
+      "icons": [
+        "melmetal",
+        "butterfree"
+      ]
+    },
+    "placing": 39,
+    "player": "volnarjr",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "JaggerGrimm",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "79",
+          "name": "Lapras"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "83",
+          "name": "Articuno"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-lapras-a1",
+      "name": "Greninja Lapras",
+      "icons": [
+        "greninja",
+        "lapras"
+      ]
+    },
+    "placing": 40,
+    "player": "jaggergrimm",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "DresseurHops",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "alakazam-weezing-a1",
+      "name": "Alakazam Weezing",
+      "icons": [
+        "alakazam",
+        "weezing"
+      ]
+    },
+    "placing": 41,
+    "player": "dresseurhops",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Virgile RIVAS",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "150",
+          "name": "Onix"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "224",
+          "name": "Brock"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        }
+      ]
+    },
+    "deck": {
+      "id": "kabutops-onix-a1",
+      "name": "Kabutops Onix",
+      "icons": [
+        "kabutops",
+        "onix"
+      ]
+    },
+    "placing": 42,
+    "player": "virkil",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "WOOKIE",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "172",
+          "name": "Zubat"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "173",
+          "name": "Golbat"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "160",
+          "name": "Mienfoo"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "161",
+          "name": "Mienshao"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "103",
+          "name": "Zapdos"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golbat-mienshao-a1",
+      "name": "Golbat Mienshao",
+      "icons": [
+        "golbat",
+        "mienshao"
+      ]
+    },
+    "placing": 43,
+    "player": "wookie",
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "pingpong5000",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "164",
+          "name": "Ekans"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "165",
+          "name": "Arbok"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "arbok-weezing-a1",
+      "name": "Arbok Weezing",
+      "icons": [
+        "arbok",
+        "weezing"
+      ]
+    },
+    "placing": 44,
+    "player": "pingpong5000",
+    "record": {
+      "wins": 1,
+      "losses": 4,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "celestialord",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "62",
+          "name": "Tentacool"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "63",
+          "name": "Tentacruel"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-tentacruel-a1",
+      "name": "Greninja Tentacruel",
+      "icons": [
+        "greninja",
+        "tentacruel"
+      ]
+    },
+    "placing": 45,
+    "player": "celestialord",
+    "record": {
+      "wins": 1,
+      "losses": 4,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "Migueluquee01",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "42",
+          "name": "Ponyta"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "43",
+          "name": "Rapidash"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "37",
+          "name": "Vulpix"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "38",
+          "name": "Ninetales"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "221",
+          "name": "Blaine"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "ninetales-rapidash-a1",
+      "name": "Ninetales Rapidash",
+      "icons": [
+        "ninetales",
+        "rapidash"
+      ]
+    },
+    "placing": 46,
+    "player": "migueluquee01",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Sujii",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "196",
+          "name": "Meowth"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "197",
+          "name": "Persian"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "3",
+          "name": "Hand Scope"
+        }
+      ]
+    },
+    "deck": {
+      "id": "persian-alakazam-a1",
+      "name": "Persian Alakazam",
+      "icons": [
+        "persian",
+        "alakazam"
+      ]
+    },
+    "placing": 47,
+    "player": "sujii",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "leglouton",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "139",
+          "name": "Diglett"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "140",
+          "name": "Dugtrio"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "137",
+          "name": "Sandshrew"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "138",
+          "name": "Sandslash"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "160",
+          "name": "Mienfoo"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "161",
+          "name": "Mienshao"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "162",
+          "name": "Clobbopus"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "163",
+          "name": "Grapploct"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "158",
+          "name": "Kabuto"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "159",
+          "name": "Kabutops"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "217",
+          "name": "Dome Fossil"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "dugtrio-sandslash-a1",
+      "name": "Dugtrio Sandslash",
+      "icons": [
+        "dugtrio",
+        "sandslash"
+      ]
+    },
+    "placing": 48,
+    "player": "leglouton",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Kahoora",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "115",
+          "name": "Abra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "116",
+          "name": "Kadabra"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "117",
+          "name": "Alakazam"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "alakazam-kangaskhan-a1",
+      "name": "Alakazam Kangaskhan",
+      "icons": [
+        "alakazam",
+        "kangaskhan"
+      ]
+    },
+    "placing": 49,
+    "player": "kahoora",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Yugo64000",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "5",
+          "name": "Caterpie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "6",
+          "name": "Metapod"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "7",
+          "name": "Butterfree"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "11",
+          "name": "Oddish"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "12",
+          "name": "Gloom"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "13",
+          "name": "Vileplume"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "219",
+          "name": "Erika"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        }
+      ]
+    },
+    "deck": {
+      "id": "butterfree-vileplume-a1",
+      "name": "Butterfree Vileplume",
+      "icons": [
+        "butterfree",
+        "vileplume"
+      ]
+    },
+    "placing": 50,
+    "player": "yugo64000",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Evolver",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "57",
+          "name": "Psyduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "58",
+          "name": "Golduck"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "91",
+          "name": "Bruxish"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "198",
+          "name": "Farfetch'd"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "22",
+          "name": "Jigglypuff"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "220",
+          "name": "Misty"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "golduck-a1-jigglypuff-p-a",
+      "name": "Golduck Jigglypuff",
+      "icons": [
+        "golduck",
+        "jigglypuff"
+      ]
+    },
+    "placing": 51,
+    "player": "evolver",
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Arlanda",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "89",
+          "name": "Greninja"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "176",
+          "name": "Koffing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "177",
+          "name": "Weezing"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "91",
+          "name": "Bruxish"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "222",
+          "name": "Koga"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        }
+      ]
+    },
+    "deck": {
+      "id": "greninja-weezing-a1",
+      "name": "Greninja Weezing",
+      "icons": [
+        "greninja",
+        "weezing"
+      ]
+    },
+    "placing": 52,
+    "player": "arlanda",
+    "record": {
+      "wins": 0,
+      "losses": 5,
+      "ties": 1
+    },
+    "drop": null
+  },
+  {
+    "name": "Tos37ma",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "179",
+          "name": "Pawniard"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "180",
+          "name": "Bisharp"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "181",
+          "name": "Meltan"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "182",
+          "name": "Melmetal"
+        },
+        {
+          "count": 2,
+          "set": "A1",
+          "number": "203",
+          "name": "Kangaskhan"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "1",
+          "name": "Potion"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "6",
+          "name": "Red Card"
+        }
+      ]
+    },
+    "deck": {
+      "id": "bisharp-melmetal-a1",
+      "name": "Bisharp Melmetal",
+      "icons": [
+        "bisharp",
+        "melmetal"
+      ]
+    },
+    "placing": 53,
+    "player": "tos37ma",
+    "record": {
+      "wins": 0,
+      "losses": 6,
+      "ties": 0
+    },
+    "drop": null
+  }
+]

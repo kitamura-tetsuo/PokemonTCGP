@@ -1,0 +1,41 @@
+{
+  "id": "6955a0a8ba66621ba08af528",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Rapid Special #2 [Sui+Absol BAN\u274c]FA SERENA",
+  "date": "2026-01-01T00:11:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Mega Absol",
+      "set": "B1",
+      "number": "151"
+    }
+  ]
+}

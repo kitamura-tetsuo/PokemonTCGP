@@ -1,0 +1,32 @@
+{
+  "id": "675cc40595f729096d725d9c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26a1Torneio TD NOEX \u274c - 3#/Dezembro - Free - BR",
+  "date": "2024-12-18T00:00:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2069,
+    "name": "Thiago Donola "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

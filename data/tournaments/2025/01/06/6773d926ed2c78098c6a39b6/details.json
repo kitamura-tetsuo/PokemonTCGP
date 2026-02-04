@@ -1,0 +1,182 @@
+{
+  "id": "6773d926ed2c78098c6a39b6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #11 - 100 USD (Season 1)",
+  "date": "2025-01-06T18:00:00.000Z",
+  "players": 256,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pidgey",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pidgeotto",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pidgeot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pidgeot ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tauros",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Eevee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chatot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rattata",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Raticate",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Spearow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Fearow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Jigglypuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wigglytuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wigglytuff ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Meowth",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Persian",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Farfetch'd",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Doduo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dodrio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lickitung",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chansey",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kangaskhan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ditto",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Porygon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aerodactyl",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snorlax",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Minccino",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cinccino",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wooloo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dubwool",
+      "set": null,
+      "number": null
+    }
+  ]
+}

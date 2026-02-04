@@ -1,0 +1,29 @@
+{
+  "id": "674fc2e895f729096d70f64a",
+  "game": "POCKET",
+  "format": null,
+  "name": "PumaTour - TCGP ARG #1",
+  "date": "2024-12-07T22:05:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 1818,
+    "name": "Maurohvg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

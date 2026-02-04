@@ -1,0 +1,29 @@
+{
+  "id": "673d1cc5c4180e08eacfe16c",
+  "game": "POCKET",
+  "format": null,
+  "name": "#0 Pok\u00e9mon \ud55c\uad6d\uc11c\ubc84 \ud83c\uddf0\ud83c\uddf7 / 16\uc778 \ud14c\uc2a4\ud2b8 \ud1a0\ub108\uba3c\ud2b8",
+  "date": "2024-11-30T06:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 1971,
+    "name": "\ud3ec\ucf13\ubaac \ud55c\uad6d\uc11c\ubc84"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

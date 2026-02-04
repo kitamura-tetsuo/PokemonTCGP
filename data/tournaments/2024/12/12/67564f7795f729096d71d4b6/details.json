@@ -1,0 +1,29 @@
+{
+  "id": "67564f7795f729096d71d4b6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Mewtopia Pre-Season Tournament - Indonesia \ud83c\uddee\ud83c\udde9",
+  "date": "2024-12-12T12:30:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2044,
+    "name": "Mewtopia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

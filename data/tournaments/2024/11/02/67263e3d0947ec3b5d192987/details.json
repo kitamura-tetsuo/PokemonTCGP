@@ -1,0 +1,30 @@
+{
+  "id": "67263e3d0947ec3b5d192987",
+  "game": "POCKET",
+  "format": null,
+  "name": "Nino Pocket Fight #1",
+  "date": "2024-11-02T23:00:00.000Z",
+  "players": 99,
+  "organizer": {
+    "id": 327,
+    "name": "NinoPokeBros",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/q4tt2jym67akneth"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

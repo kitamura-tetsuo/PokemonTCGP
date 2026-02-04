@@ -1,0 +1,29 @@
+{
+  "id": "67d5f537e798a1c497d37a53",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22LEPRECHAUN TURTLE\ud83d\udc22 pocket",
+  "date": "2025-03-17T21:30:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

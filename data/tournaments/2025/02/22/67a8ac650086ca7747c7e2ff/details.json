@@ -1,0 +1,29 @@
+{
+  "id": "67a8ac650086ca7747c7e2ff",
+  "game": "POCKET",
+  "format": null,
+  "name": "Yosh Tournament #6 ( Rp 1.000.000,00 )",
+  "date": "2025-02-22T12:00:00.000Z",
+  "players": 281,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}

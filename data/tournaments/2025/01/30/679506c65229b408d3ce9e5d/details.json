@@ -1,0 +1,29 @@
+{
+  "id": "679506c65229b408d3ce9e5d",
+  "game": "POCKET",
+  "format": null,
+  "name": "The dark league thursday #5 NEW SET LEGAL",
+  "date": "2025-01-30T20:00:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

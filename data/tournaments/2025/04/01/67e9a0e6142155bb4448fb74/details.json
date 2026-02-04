@@ -1,0 +1,29 @@
+{
+  "id": "67e9a0e6142155bb4448fb74",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2022TORNEO\u26a1CLASIFICATORIO\u2022 18\ud83c\udfc6 5EUR+DONACIONES",
+  "date": "2025-04-01T14:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2180,
+    "name": "HOKAGE KOMMUNITY"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

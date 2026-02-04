@@ -1,0 +1,837 @@
+{
+  "id": "67a022c9f1a83f7924eb5a77",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #16 - 50 USD (Season 2)",
+  "date": "2025-02-19T18:00:00.000Z",
+  "players": 229,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Paras",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Venonat",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggcute",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tangela",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Scyther",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pinsir",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cottonee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Petilil",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skiddo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Vulpix",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Growlithe",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ponyta",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magmar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatmor",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Salandit",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sizzlipede",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Psyduck",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tentacool",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Seel",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Shellder",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Krabby",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Horsea",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Goldeen",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Staryu",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magikarp",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lapras",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lapras ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ducklett",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pyukumuku",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bruxish",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Voltorb",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Electabuzz",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zapdos ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Blitzle",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Helioptile",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pincurchin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Clefairy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Slowpoke",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Drowzee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mr. Mime",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Jynx",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Woobat",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Golett",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sandshrew",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Diglett",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mankey",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Onix",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cubone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonlee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmonchan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mienfoo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Clobbopus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ekans",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zubat",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Grimer",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Koffing",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mawile",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pawniard",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Meltan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rattata",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Spearow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Jigglypuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Meowth",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Farfetch'd",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Doduo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lickitung",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chansey",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kangaskhan",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Tauros",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Ditto",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Eevee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aerodactyl",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snorlax",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Minccino",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wooloo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celebi ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Morelull",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dhelmise",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Larvesta",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chewtle",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cramorant",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Joltik",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dedenne",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mew ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sigilyph",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Elgyem",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Swirlix",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Marshadow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Stonjourner",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Purrloin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chatot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Yanma",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Roselia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kricketot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Burmy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Combee",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Carnivine",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mow Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Shaymin",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Slugma",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heat Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regice",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Buizel",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Shellos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Snover",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Wash Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Frost Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Palkia ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Manaphy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misdreavus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Drifloon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Uxie",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mesprit",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Azelf",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cresselia",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cresselia ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gligar",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hitmontop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Nosepass",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regirock",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Riolu",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hippopotas",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Murkrow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Sneasel",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Poochyena",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Stunky",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Spiritomb",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skorupi",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Croagunk",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skarmory",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Registeel",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bronzor",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Heatran",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lickitung",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Aipom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bidoof",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Buneary",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Glameow",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Fan Rotom",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Finneon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Old Amber",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Regigigas",
+      "set": null,
+      "number": null
+    }
+  ]
+}

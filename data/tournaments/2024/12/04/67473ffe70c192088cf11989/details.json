@@ -1,0 +1,32 @@
+{
+  "id": "67473ffe70c192088cf11989",
+  "game": "POCKET",
+  "format": null,
+  "name": "Altered Creation #1/NOEX/INTERNATIONAL/30\u20ac",
+  "date": "2024-12-04T19:30:00.000Z",
+  "players": 304,
+  "organizer": {
+    "id": 1969,
+    "name": "TCG Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

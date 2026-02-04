@@ -1,0 +1,142 @@
+{
+  "id": "67b73bf90b3322ebaa50eda8",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #17 - 50 USD (Season 2)",
+  "date": "2025-02-27T00:00:00.000Z",
+  "players": 287,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pikachu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arcanine ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pachirisu ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Manaphy",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dialga ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Skarmory",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Druddigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Misty",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Erika",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Cyrus",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giant Cape",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rocky Helmet",
+      "set": null,
+      "number": null
+    }
+  ]
+}

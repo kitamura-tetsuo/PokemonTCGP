@@ -1,0 +1,29 @@
+{
+  "id": "6760961195f729096d72ce87",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Wednesday TCG",
+  "date": "2024-12-18T20:00:00.000Z",
+  "players": 139,
+  "organizer": {
+    "id": 2045,
+    "name": "EllieDarkTcgp"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

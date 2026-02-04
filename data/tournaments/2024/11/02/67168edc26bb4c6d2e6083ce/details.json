@@ -1,0 +1,30 @@
+{
+  "id": "67168edc26bb4c6d2e6083ce",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #5 - 80 USD (Season 1)",
+  "date": "2024-11-02T10:00:00.000Z",
+  "players": 240,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

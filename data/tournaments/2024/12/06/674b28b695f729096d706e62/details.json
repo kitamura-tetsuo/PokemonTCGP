@@ -1,0 +1,35 @@
+{
+  "id": "674b28b695f729096d706e62",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22Turtle Weekly \ud83d\udc22 (Pocket 2)",
+  "date": "2024-12-06T22:30:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

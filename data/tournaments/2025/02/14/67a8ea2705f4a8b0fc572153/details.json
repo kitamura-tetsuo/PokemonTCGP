@@ -1,0 +1,23 @@
+{
+  "id": "67a8ea2705f4a8b0fc572153",
+  "game": "POCKET",
+  "format": null,
+  "name": "February: Love Cup",
+  "date": "2025-02-14T15:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2002,
+    "name": "Pok\u00e9mon TCGP India Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

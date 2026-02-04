@@ -1,0 +1,29 @@
+{
+  "id": "67561d6395f729096d71cb9e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Biznaga Pocket Challenge #1",
+  "date": "2024-12-10T02:00:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 2054,
+    "name": "Biznaga Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

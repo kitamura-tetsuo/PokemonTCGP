@@ -1,0 +1,706 @@
+{
+  "id": "696ef04ab1294bfab7201ebf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Awesome E's Birthday Bash W/Banlist ($10 USD)",
+  "date": "2026-01-24T03:10:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Jolteon",
+      "set": "A3b",
+      "number": "25"
+    },
+    {
+      "name": "Ariados",
+      "set": "B1a",
+      "number": "6"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Decidueye",
+      "set": "A3a",
+      "number": "5"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "42"
+    },
+    {
+      "name": "Reuniclus",
+      "set": "B1a",
+      "number": "34"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Pichu",
+      "set": "A4",
+      "number": "66"
+    },
+    {
+      "name": "Magby",
+      "set": "A4",
+      "number": "32"
+    },
+    {
+      "name": "Mantyke",
+      "set": "A4a",
+      "number": "23"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Dusknoir",
+      "set": "B1",
+      "number": "105"
+    },
+    {
+      "name": "Archeops",
+      "set": "B1",
+      "number": "134"
+    },
+    {
+      "name": "Altaria",
+      "set": "A4a",
+      "number": "55"
+    },
+    {
+      "name": "Appletun",
+      "set": "A3b",
+      "number": "7"
+    },
+    {
+      "name": "Vanillite",
+      "set": "A3b",
+      "number": "18"
+    },
+    {
+      "name": "Vanillish",
+      "set": "A3b",
+      "number": "19"
+    },
+    {
+      "name": "Cherubi",
+      "set": "A4",
+      "number": "23"
+    },
+    {
+      "name": "Swirlix",
+      "set": "A3b",
+      "number": "37"
+    },
+    {
+      "name": "Slurpuff",
+      "set": "A3b",
+      "number": "32"
+    },
+    {
+      "name": "Milcery",
+      "set": "A3b",
+      "number": "36"
+    },
+    {
+      "name": "Alcremie",
+      "set": "A3b",
+      "number": "37"
+    },
+    {
+      "name": "Galvantula",
+      "set": "A3b",
+      "number": "27"
+    },
+    {
+      "name": "Luxray",
+      "set": "A2",
+      "number": "60"
+    },
+    {
+      "name": "Luxray",
+      "set": "A3a",
+      "number": "15"
+    },
+    {
+      "name": "Luxury",
+      "set": "B1",
+      "number": "88"
+    },
+    {
+      "name": "Banette",
+      "set": "A3",
+      "number": "75"
+    },
+    {
+      "name": "Meowscarada",
+      "set": "A2b",
+      "number": "7"
+    },
+    {
+      "name": "Crobat",
+      "set": "A2a",
+      "number": "50"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": "65"
+    },
+    {
+      "name": "Togekiss",
+      "set": "A4",
+      "number": "80"
+    },
+    {
+      "name": "Garchomp",
+      "set": "A2",
+      "number": "123"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": "6"
+    },
+    {
+      "name": "Gengar",
+      "set": "A1",
+      "number": "122"
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": "45"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Sunflora",
+      "set": "B1a",
+      "number": "8"
+    },
+    {
+      "name": "Heliolisk",
+      "set": "B1a",
+      "number": "29"
+    },
+    {
+      "name": "Xerneas",
+      "set": "B1a",
+      "number": "37"
+    },
+    {
+      "name": "Porygon-z",
+      "set": "A2",
+      "number": "129"
+    },
+    {
+      "name": "Porygon-z",
+      "set": "B1a",
+      "number": "58"
+    },
+    {
+      "name": "Aegislash",
+      "set": "B1",
+      "number": "172"
+    },
+    {
+      "name": "Blacephalon",
+      "set": "A3a",
+      "number": "9"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Rapidash",
+      "set": "A1a",
+      "number": "11"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Gyarados",
+      "set": "A4",
+      "number": "45"
+    },
+    {
+      "name": "Stoutland",
+      "set": "A3a",
+      "number": "56"
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": "20"
+    },
+    {
+      "name": "Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": "96"
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": "18"
+    },
+    {
+      "name": "Palkia ex",
+      "set": "A2",
+      "number": "49"
+    },
+    {
+      "name": "Weavile ex",
+      "set": "A2",
+      "number": "99"
+    },
+    {
+      "name": "Incineroar ex",
+      "set": "A3",
+      "number": "33"
+    },
+    {
+      "name": "Lanturn ex",
+      "set": "A4",
+      "number": "65"
+    },
+    {
+      "name": "Jumpluff ex",
+      "set": "A4a",
+      "number": "3"
+    },
+    {
+      "name": "Entei ex",
+      "set": "A4a",
+      "number": "10"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Raikou ex",
+      "set": "A4a",
+      "number": "25"
+    },
+    {
+      "name": "Poliwrath ex",
+      "set": "A4a",
+      "number": "42"
+    },
+    {
+      "name": "Venusaur ex",
+      "set": "A1",
+      "number": "4"
+    },
+    {
+      "name": "Beedrill ex",
+      "set": "A2b",
+      "number": "3"
+    },
+    {
+      "name": "Exeggutor ex",
+      "set": "A1",
+      "number": "23"
+    },
+    {
+      "name": "Yanmega ex",
+      "set": "A2",
+      "number": "7"
+    },
+    {
+      "name": "Celebi ex",
+      "set": "A1a",
+      "number": "3"
+    },
+    {
+      "name": "Leafeon ex",
+      "set": "A2a",
+      "number": "10"
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A3a",
+      "number": "12"
+    },
+    {
+      "name": "Buzzwole ex",
+      "set": "A3a",
+      "number": "6"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A2b",
+      "number": "10"
+    },
+    {
+      "name": "Flareon ex",
+      "set": "A3b",
+      "number": "9"
+    },
+    {
+      "name": "Ho-Oh ex",
+      "set": "A4",
+      "number": "34"
+    },
+    {
+      "name": "Infernape ex",
+      "set": "A2",
+      "number": "29"
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "A1",
+      "number": "56"
+    },
+    {
+      "name": "Starmie ex",
+      "set": "A1",
+      "number": "76"
+    },
+    {
+      "name": "Glaceon ex",
+      "set": "A2a",
+      "number": "22"
+    },
+    {
+      "name": "Primarina ex",
+      "set": "A3b",
+      "number": "88"
+    },
+    {
+      "name": "Wugtrio ex",
+      "set": "A2b",
+      "number": "19"
+    },
+    {
+      "name": "Alolan Raichu ex",
+      "set": "A3",
+      "number": "58"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A2b",
+      "number": "22"
+    },
+    {
+      "name": "Tapu koko ex",
+      "set": "A3a",
+      "number": "19"
+    },
+    {
+      "name": "Gengar ex",
+      "set": "A1",
+      "number": "123"
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": "129"
+    },
+    {
+      "name": "Mew ex",
+      "set": "A1a",
+      "number": "32"
+    },
+    {
+      "name": "Espeon ex",
+      "set": "A4",
+      "number": "83"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Sylveon ex",
+      "set": "A3b",
+      "number": "34"
+    },
+    {
+      "name": "Lunala ex",
+      "set": "A3",
+      "number": "87"
+    },
+    {
+      "name": "Aerodactyl ex",
+      "set": "A1a",
+      "number": "46"
+    },
+    {
+      "name": "Donphan ex",
+      "set": "A4",
+      "number": "100"
+    },
+    {
+      "name": "Garchomp ex",
+      "set": "A2a",
+      "number": "47"
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": "95"
+    },
+    {
+      "name": "Lycanroc ex",
+      "set": "A3a",
+      "number": "33"
+    },
+    {
+      "name": "Crobat ex",
+      "set": "A4",
+      "number": "109"
+    },
+    {
+      "name": "Alolan Muk ex",
+      "set": "A3",
+      "number": "111"
+    },
+    {
+      "name": "Paldean Clodsire ex",
+      "set": "A2b",
+      "number": "48"
+    },
+    {
+      "name": "Umbreon ex",
+      "set": "A4",
+      "number": "112"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": "A4a",
+      "number": "33"
+    },
+    {
+      "name": "Skarmory ex",
+      "set": "A4",
+      "number": "124"
+    },
+    {
+      "name": "Dialga ex",
+      "set": "A2",
+      "number": "119"
+    },
+    {
+      "name": "Solgaleo ex",
+      "set": "A3",
+      "number": "122"
+    },
+    {
+      "name": "Tinkaton ex",
+      "set": "A2b",
+      "number": "54"
+    },
+    {
+      "name": "Dragonite ex",
+      "set": "A3b",
+      "number": "53"
+    },
+    {
+      "name": "Snorlax ex",
+      "set": "A3b",
+      "number": "57"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Mega Pinsir ex",
+      "set": "B1",
+      "number": "2"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "B1",
+      "number": "16"
+    },
+    {
+      "name": "Mega Blaziken",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Mega Gyarados ex",
+      "set": "B1",
+      "number": "52"
+    },
+    {
+      "name": "Greninja ex",
+      "set": "B1",
+      "number": "73"
+    },
+    {
+      "name": "Jolteon ex",
+      "set": "B1",
+      "number": "81"
+    },
+    {
+      "name": "Mega Ampharos ex",
+      "set": "B1",
+      "number": "85"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Indeedee EX",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Hitmonchan ex",
+      "set": "B1",
+      "number": "124"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Dragalge ex",
+      "set": "B1",
+      "number": "160"
+    },
+    {
+      "name": "Melmetal ex",
+      "set": "B1",
+      "number": "174"
+    },
+    {
+      "name": "Mega Venusaur ex ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Mega Charizard y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Blastoise ex",
+      "set": "B1a",
+      "number": "20"
+    },
+    {
+      "name": "Rayquaza ex",
+      "set": "P-A",
+      "number": "64"
+    },
+    {
+      "name": "Raichu Ex",
+      "set": "P-A",
+      "number": "112"
+    }
+  ]
+}

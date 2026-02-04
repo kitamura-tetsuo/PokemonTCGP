@@ -1,0 +1,32 @@
+{
+  "id": "673fa8d8c4180e08ead01dab",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50\ufe0f ZeNith Cup - Singleton \u2b50\ufe0f",
+  "date": "2024-11-22T02:00:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 1962,
+    "name": "ZeNith"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

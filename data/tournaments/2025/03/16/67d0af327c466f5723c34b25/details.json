@@ -1,0 +1,29 @@
+{
+  "id": "67d0af327c466f5723c34b25",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pokemon Pocket Tour #3",
+  "date": "2025-03-16T18:30:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2175,
+    "name": "Urban Brigade"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

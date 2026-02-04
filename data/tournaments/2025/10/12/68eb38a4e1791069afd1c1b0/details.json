@@ -1,0 +1,66 @@
+{
+  "id": "68eb38a4e1791069afd1c1b0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Main Set Mixup (A1,A2,A3,A4 Only)",
+  "date": "2025-10-12T22:00:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A1a",
+      "number": null
+    }
+  ]
+}

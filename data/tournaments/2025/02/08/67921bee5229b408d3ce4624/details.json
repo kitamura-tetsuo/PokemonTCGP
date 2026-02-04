@@ -1,0 +1,29 @@
+{
+  "id": "67921bee5229b408d3ce4624",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\uddea\ud83c\uddf8 ByAshCup #1 | Torneo de habla hispana",
+  "date": "2025-02-08T15:00:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 2164,
+    "name": "ByAsh156"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

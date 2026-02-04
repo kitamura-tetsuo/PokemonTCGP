@@ -1,0 +1,201 @@
+{
+  "id": "67a021043b814c326f970756",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP CEBU Global Open #3 - Space-Time Smackdown",
+  "date": "2025-02-08T01:30:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Promo Pikachu",
+      "set": "P-A",
+      "number": "26"
+    },
+    {
+      "name": "Promo Mewtwo",
+      "set": "P-A",
+      "number": "10"
+    },
+    {
+      "name": "Promo Moltres ex",
+      "set": "P-A",
+      "number": "25"
+    },
+    {
+      "name": "Promo Piplup",
+      "set": "P-A",
+      "number": "34"
+    },
+    {
+      "name": "Promo Butterfree",
+      "set": "P-A",
+      "number": "13"
+    },
+    {
+      "name": "Promo Lapras ex",
+      "set": "P-A",
+      "number": "14"
+    },
+    {
+      "name": "Promo Pikachu",
+      "set": "P-A",
+      "number": "15"
+    },
+    {
+      "name": "Promo Clefairy",
+      "set": "P-A",
+      "number": "16"
+    },
+    {
+      "name": "Promo Mankey",
+      "set": "P-A",
+      "number": "17"
+    },
+    {
+      "name": "Promo Venusaur",
+      "set": "P-A",
+      "number": "18"
+    },
+    {
+      "name": "Promo Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Promo Haunter",
+      "set": "P-A",
+      "number": "20"
+    },
+    {
+      "name": "Promo Onix",
+      "set": "P-A",
+      "number": "21"
+    },
+    {
+      "name": "Promo Jigglypuff",
+      "set": "P-A",
+      "number": "22"
+    },
+    {
+      "name": "Promo Snivy",
+      "set": "P-A",
+      "number": "27"
+    },
+    {
+      "name": "Promo Volcarona",
+      "set": "P-A",
+      "number": "28"
+    },
+    {
+      "name": "Promo Blastoise",
+      "set": "P-A",
+      "number": "29"
+    },
+    {
+      "name": "Promo Eevee",
+      "set": "P-A",
+      "number": "30"
+    },
+    {
+      "name": "Promo Cinccino",
+      "set": "P-A",
+      "number": "31"
+    },
+    {
+      "name": "Promo Turtwig",
+      "set": "P-A",
+      "number": "35"
+    },
+    {
+      "name": "Promo Electivire",
+      "set": "P-A",
+      "number": "36"
+    },
+    {
+      "name": "Promo Cresselia ex",
+      "set": "P-A",
+      "number": "37"
+    },
+    {
+      "name": "Promo Misdreavus",
+      "set": "P-A",
+      "number": "38"
+    },
+    {
+      "name": "Promo Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Wonder Pick Chansey",
+      "set": "P-A",
+      "number": "11"
+    },
+    {
+      "name": "Wonder Pick Meowth",
+      "set": "P-A",
+      "number": "12"
+    },
+    {
+      "name": "Wonder Pick Bulbasaur",
+      "set": "P-A",
+      "number": "23"
+    },
+    {
+      "name": "Wonder Pick Magnemite",
+      "set": "P-A",
+      "number": "24"
+    },
+    {
+      "name": "Wonder Pick Charmander",
+      "set": "P-A",
+      "number": "32"
+    },
+    {
+      "name": "Wonder Pick Squirtle",
+      "set": "P-A",
+      "number": "33"
+    },
+    {
+      "name": "Wonder Pick Chimchar",
+      "set": "P-A",
+      "number": "40"
+    },
+    {
+      "name": "Wonder Pick Togepi",
+      "set": "P-A",
+      "number": "41"
+    }
+  ]
+}

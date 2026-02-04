@@ -1,0 +1,29 @@
+{
+  "id": "67b4785e78c0b323188189bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Blitz Monday (UPDATE TCG TO 1.1.2)",
+  "date": "2025-02-18T18:00:00.000Z",
+  "players": 287,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "68feea8d24b8f37ae93c8943",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "VoidPocket NoEx Mega Rising #01 ($15 USD)",
+  "date": "2025-11-06T01:00:00.000Z",
+  "players": 67,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

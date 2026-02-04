@@ -1,0 +1,35 @@
+{
+  "id": "679f7612aefa8d3c809f29cc",
+  "game": "POCKET",
+  "format": null,
+  "name": "Freaky Friday [5\u20ac] | Dialga x Palkia",
+  "date": "2025-02-14T18:00:00.000Z",
+  "players": 127,
+  "organizer": {
+    "id": 2107,
+    "name": "CGL"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

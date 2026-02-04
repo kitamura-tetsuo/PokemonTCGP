@@ -1,0 +1,29 @@
+{
+  "id": "6969ba7cba66621ba08bd01c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Wednesday Showdown (5 USD)",
+  "date": "2026-01-28T17:15:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6788f685010576265d10df76",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "#1 NOEX Quick Unseen Tournament",
+  "date": "2025-01-16T14:00:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

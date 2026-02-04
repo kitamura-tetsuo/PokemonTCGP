@@ -1,0 +1,29 @@
+{
+  "id": "67299ef10947ec3b5d196aba",
+  "game": "POCKET",
+  "format": null,
+  "name": "1st Pokemon TCG Pocket CEBU Mini-Tournament",
+  "date": "2024-11-09T10:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

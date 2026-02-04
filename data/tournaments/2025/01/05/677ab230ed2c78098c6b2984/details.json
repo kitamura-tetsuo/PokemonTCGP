@@ -1,0 +1,29 @@
+{
+  "id": "677ab230ed2c78098c6b2984",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd2cPocket Rejects \u2663\ufe0f Bo1 Sudden Death Standard \ud83d\ude21",
+  "date": "2025-01-05T17:58:00.000Z",
+  "players": 115,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

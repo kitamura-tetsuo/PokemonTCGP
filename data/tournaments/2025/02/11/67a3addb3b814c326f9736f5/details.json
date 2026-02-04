@@ -1,0 +1,29 @@
+{
+  "id": "67a3addb3b814c326f9736f5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Le Bourg Fighting #3",
+  "date": "2025-02-11T19:00:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

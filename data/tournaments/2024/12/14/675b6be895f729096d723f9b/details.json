@@ -1,0 +1,29 @@
+{
+  "id": "675b6be895f729096d723f9b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u54f2\u76dfBiiMiu\u8a66\u8fa6\u8cfd #1",
+  "date": "2024-12-14T05:00:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 1884,
+    "name": "BiiMiu"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

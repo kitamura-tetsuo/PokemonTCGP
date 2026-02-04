@@ -1,0 +1,29 @@
+{
+  "id": "6740d229612052096f61d238",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournoi - @MrYannou (Twitch) // - FR SEULEMENT",
+  "date": "2024-11-24T16:00:00.000Z",
+  "players": 67,
+  "organizer": {
+    "id": 2004,
+    "name": "MrYannou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

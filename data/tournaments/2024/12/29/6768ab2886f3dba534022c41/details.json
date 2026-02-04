@@ -1,0 +1,29 @@
+{
+  "id": "6768ab2886f3dba534022c41",
+  "game": "POCKET",
+  "format": null,
+  "name": "#2 TCGP Brazil Amazon Cup \ud83d\udcb0 R$ 300,00",
+  "date": "2024-12-29T18:05:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2034,
+    "name": "TCGP Brazil Amazon Cup"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

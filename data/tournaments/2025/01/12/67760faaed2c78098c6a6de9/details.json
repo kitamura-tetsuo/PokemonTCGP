@@ -1,0 +1,29 @@
+{
+  "id": "67760faaed2c78098c6a6de9",
+  "game": "POCKET",
+  "format": null,
+  "name": "140$ Prize PGR Live!  Join Discord For Code",
+  "date": "2025-01-12T18:00:00.000Z",
+  "players": 473,
+  "organizer": {
+    "id": 2030,
+    "name": "Pokemon Go Raiders"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

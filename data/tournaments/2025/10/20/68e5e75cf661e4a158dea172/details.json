@@ -1,0 +1,59 @@
+{
+  "id": "68e5e75cf661e4a158dea172",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udf11 VoidPocket NoEx Showdown #04 \ud83c\udf11 ($30 USD)",
+  "date": "2025-10-20T00:30:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zeraora",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

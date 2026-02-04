@@ -1,0 +1,54 @@
+{
+  "id": "68f9128824b8f37ae93c5ddb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX Pop Up Tsareena Banned",
+  "date": "2025-10-22T21:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3",
+      "number": "20"
+    },
+    {
+      "name": "Tsareena",
+      "set": "A3b",
+      "number": "5"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

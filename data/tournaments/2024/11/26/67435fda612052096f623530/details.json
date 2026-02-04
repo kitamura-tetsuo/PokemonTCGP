@@ -1,0 +1,29 @@
+{
+  "id": "67435fda612052096f623530",
+  "game": "POCKET",
+  "format": null,
+  "name": "[PL] Kwalifikacje #2 do Polish Pocket Cup 11/2024",
+  "date": "2024-11-26T17:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

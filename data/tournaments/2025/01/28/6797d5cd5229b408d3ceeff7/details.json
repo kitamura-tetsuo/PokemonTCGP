@@ -1,0 +1,29 @@
+{
+  "id": "6797d5cd5229b408d3ceeff7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Biznaga Pocket Challenge #4",
+  "date": "2025-01-28T01:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2054,
+    "name": "Biznaga Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

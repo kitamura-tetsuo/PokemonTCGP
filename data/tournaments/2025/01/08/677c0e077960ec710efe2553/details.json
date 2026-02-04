@@ -1,0 +1,23 @@
+{
+  "id": "677c0e077960ec710efe2553",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Jefferson Gym Pok\u00e9mon Pocket Tournament #1",
+  "date": "2025-01-08T01:30:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 1368,
+    "name": "The Jefferson Gym"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

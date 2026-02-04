@@ -1,0 +1,35 @@
+{
+  "id": "675c49ce95f729096d7249be",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51 Pok\u00e9mon Pocket Italia \ud83d\udc51 Speed Tour #2",
+  "date": "2024-12-18T14:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

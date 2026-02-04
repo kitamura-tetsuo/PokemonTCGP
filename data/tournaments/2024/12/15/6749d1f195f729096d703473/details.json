@@ -1,0 +1,29 @@
+{
+  "id": "6749d1f195f729096d703473",
+  "game": "POCKET",
+  "format": null,
+  "name": "DECEMBER: HOLIDAY CUP \u22c6\u207a\u208a\u2745.",
+  "date": "2024-12-15T15:00:00.000Z",
+  "players": 193,
+  "organizer": {
+    "id": 2002,
+    "name": "Pok\u00e9mon TCGP India Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

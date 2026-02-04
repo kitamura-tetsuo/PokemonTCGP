@@ -1,0 +1,29 @@
+{
+  "id": "675b6ba495f729096d723f88",
+  "game": "POCKET",
+  "format": null,
+  "name": "CUT THROAT POKEMON POCKET CUP 1.5",
+  "date": "2024-12-14T16:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2052,
+    "name": "Sinners Now Saints LLC"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

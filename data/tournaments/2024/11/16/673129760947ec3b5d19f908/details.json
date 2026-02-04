@@ -1,0 +1,29 @@
+{
+  "id": "673129760947ec3b5d19f908",
+  "game": "POCKET",
+  "format": null,
+  "name": "Konjic Cup #1 | Prize Pool: 30$ | Entry: 1$",
+  "date": "2024-11-16T20:20:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 1917,
+    "name": "Konjic"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

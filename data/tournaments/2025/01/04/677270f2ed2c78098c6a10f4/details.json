@@ -1,0 +1,29 @@
+{
+  "id": "677270f2ed2c78098c6a10f4",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "The 2025 Kickoff: A NOEX Challenge",
+  "date": "2025-01-04T01:30:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

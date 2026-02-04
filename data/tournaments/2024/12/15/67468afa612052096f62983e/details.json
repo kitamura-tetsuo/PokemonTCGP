@@ -1,0 +1,29 @@
+{
+  "id": "67468afa612052096f62983e",
+  "game": "POCKET",
+  "format": null,
+  "name": "POCKET TOUR TOURNAMENT #4 (Best of 3)",
+  "date": "2024-12-15T15:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

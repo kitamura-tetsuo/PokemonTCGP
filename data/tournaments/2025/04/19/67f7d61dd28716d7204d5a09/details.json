@@ -1,0 +1,29 @@
+{
+  "id": "67f7d61dd28716d7204d5a09",
+  "game": "POCKET",
+  "format": null,
+  "name": "KaBuM! TCG Pocket | Classificat\u00f3ria 1",
+  "date": "2025-04-19T18:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2325,
+    "name": "KaBuM!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

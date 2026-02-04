@@ -1,0 +1,36 @@
+{
+  "id": "673c9f87c4180e08eacfd173",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #8 - 50USD (Season 1)",
+  "date": "2024-11-23T00:00:00.000Z",
+  "players": 634,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

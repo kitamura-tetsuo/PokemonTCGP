@@ -1,0 +1,29 @@
+{
+  "id": "68d6c9b7f661e4a158de1608",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfc6P.P.i.T\ud83c\udfc63V3 TOURNAMENT\ud83c\udfc6WITH PRIZES",
+  "date": "2025-10-12T19:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO5"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO5"
+    }
+  ]
+}

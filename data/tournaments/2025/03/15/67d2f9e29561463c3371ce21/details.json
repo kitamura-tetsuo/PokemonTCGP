@@ -1,0 +1,29 @@
+{
+  "id": "67d2f9e29561463c3371ce21",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf19 OMBRA CUP: The Beginning \u2022 50 $ \u2022 Free Entry",
+  "date": "2025-03-15T11:00:00.000Z",
+  "players": 269,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

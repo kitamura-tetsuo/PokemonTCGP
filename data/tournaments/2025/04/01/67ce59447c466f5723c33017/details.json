@@ -1,0 +1,28 @@
+{
+  "id": "67ce59447c466f5723c33017",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Pelad\u00e3o Pocket Special \u2022 Gym Leader Challenge",
+  "date": "2025-04-01T23:30:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 72,
+    "name": "Battle Factory & Pok\u00e9pauper BR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

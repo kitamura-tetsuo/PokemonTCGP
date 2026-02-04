@@ -1,0 +1,29 @@
+{
+  "id": "677ab56eed2c78098c6b2a04",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon GP Brasil #2 Todas as cartas",
+  "date": "2025-01-09T01:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2066,
+    "name": "Compartilhe Jogos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "677b3f5ded2c78098c6b43c6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket League #7 (HAPPY NEW YEAR)",
+  "date": "2025-01-08T18:00:00.000Z",
+  "players": 180,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "phase": 1,
+    "table": null,
+    "winner": -1,
+    "player1": "fede_pocket"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 1,
+    "winner": -1,
+    "player1": "mr_light",
+    "player2": "slowbrother"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 2,
+    "winner": "yivensky",
+    "player1": "yivensky"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 1,
+    "winner": "mr_light",
+    "player1": "yivensky",
+    "player2": "mr_light"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 2,
+    "winner": "slowbrother",
+    "player1": "slowbrother"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 1,
+    "winner": "yivensky",
+    "player1": "yivensky"
+  },
+  {
+    "phase": 2,
+    "round": 4,
+    "winner": "mr_light",
+    "match": "T2-1",
+    "player1": "fede_pocket",
+    "player2": "mr_light"
+  },
+  {
+    "phase": 2,
+    "round": 4,
+    "winner": "mr_light",
+    "match": "T4-2",
+    "player1": "mr_light",
+    "player2": "slowbrother"
+  },
+  {
+    "phase": 2,
+    "round": 4,
+    "winner": "fede_pocket",
+    "match": "T4-1",
+    "player1": "yivensky",
+    "player2": "fede_pocket"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "67c1338278c0b323188228cf",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP CEBU Global Open #5 - Triumphant Smackdown",
+  "date": "2025-03-08T01:30:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 1899,
+    "name": "Pokemon TCG Pocket CEBU"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A1a",
+      "number": null
+    }
+  ]
+}

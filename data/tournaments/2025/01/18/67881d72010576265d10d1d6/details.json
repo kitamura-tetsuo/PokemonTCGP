@@ -1,0 +1,29 @@
+{
+  "id": "67881d72010576265d10d1d6",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\u2b50\u2b50\u2b50NOEX Saturday\u2b50\u2b50\u2b50",
+  "date": "2025-01-18T08:05:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

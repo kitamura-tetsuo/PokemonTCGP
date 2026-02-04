@@ -1,0 +1,30 @@
+{
+  "id": "670f5a88e1a875097763ba8d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon TCG Pocket Pre-Launch Tournament",
+  "date": "2024-10-27T17:00:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

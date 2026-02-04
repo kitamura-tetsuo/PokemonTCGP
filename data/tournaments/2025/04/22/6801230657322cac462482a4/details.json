@@ -1,0 +1,43 @@
+{
+  "id": "6801230657322cac462482a4",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 NON-EX GRAND TOURNAMENT \ud83c\udfc6",
+  "date": "2025-04-22T18:30:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

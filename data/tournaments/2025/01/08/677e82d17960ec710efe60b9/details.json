@@ -1,0 +1,29 @@
+{
+  "id": "677e82d17960ec710efe60b9",
+  "game": "POCKET",
+  "format": null,
+  "name": "#5 Quick Unseen Tournament",
+  "date": "2025-01-08T15:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "693229c31b3b036ef6db98dd",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfaf 3v3 Team Tournament - \ud83c\udde7\ud83c\uddf7 Bolados TCG",
+  "date": "2025-12-15T15:00:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

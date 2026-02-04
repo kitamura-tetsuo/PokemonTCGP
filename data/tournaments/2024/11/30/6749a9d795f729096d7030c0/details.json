@@ -1,0 +1,29 @@
+{
+  "id": "6749a9d795f729096d7030c0",
+  "game": "POCKET",
+  "format": null,
+  "name": "BFM TEST TOURNAMENT #1",
+  "date": "2024-11-30T13:00:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2024,
+    "name": "Battle Front Manila"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

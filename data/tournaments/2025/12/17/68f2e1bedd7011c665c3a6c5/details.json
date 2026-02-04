@@ -1,0 +1,35 @@
+{
+  "id": "68f2e1bedd7011c665c3a6c5",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CPL Invitational #1 [$30 for Winner]",
+  "date": "2025-12-17T11:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "B1a",
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

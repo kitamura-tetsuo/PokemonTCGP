@@ -1,0 +1,77 @@
+{
+  "id": "6845953827d8bc24cf250a6a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #24- 50 USD (Season 3)",
+  "date": "2025-06-14T00:00:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Celesteela",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rare Candy",
+      "set": null,
+      "number": null
+    }
+  ]
+}

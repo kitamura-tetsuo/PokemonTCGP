@@ -1,0 +1,32 @@
+{
+  "id": "67319a990947ec3b5d1a0401",
+  "game": "POCKET",
+  "format": null,
+  "name": "Casual Pocket Gym PH #2",
+  "date": "2024-11-11T13:00:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 1898,
+    "name": "Pocket Gym PH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

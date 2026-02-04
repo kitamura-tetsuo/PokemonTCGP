@@ -1,0 +1,29 @@
+{
+  "id": "67ebde66861824980936909a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31 HAPPY BIRTHDAY BANANNA !! IMP #3 50 USD\ud83d\udd31",
+  "date": "2025-04-08T17:00:00.000Z",
+  "players": 178,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

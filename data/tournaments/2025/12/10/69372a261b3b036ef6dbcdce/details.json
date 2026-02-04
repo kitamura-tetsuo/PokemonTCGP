@@ -1,0 +1,151 @@
+{
+  "id": "69372a261b3b036ef6dbcdce",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Serenity Format #5 (Standard Banlist)",
+  "date": "2025-12-10T03:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A2",
+      "number": "110"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Arceus ex",
+      "set": "A2a",
+      "number": "71"
+    },
+    {
+      "name": "Greninja ex",
+      "set": "B1",
+      "number": "73"
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A3",
+      "number": "12"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Guzzlord ex",
+      "set": "A3a",
+      "number": "43"
+    },
+    {
+      "name": "Mega Charizard ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Venusaur",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "B1",
+      "number": "16"
+    },
+    {
+      "name": "Jolteon ex",
+      "set": "B1",
+      "number": "81"
+    },
+    {
+      "name": "Tyrogue",
+      "set": "A4",
+      "number": "101"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "672f53ba0947ec3b5d19c3f5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Official Pocket Johto League [MANILA PH]",
+  "date": "2024-11-20T06:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1898,
+    "name": "Pocket Gym PH"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

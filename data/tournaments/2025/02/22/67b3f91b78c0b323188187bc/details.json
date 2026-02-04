@@ -1,0 +1,29 @@
+{
+  "id": "67b3f91b78c0b323188187bc",
+  "game": "POCKET",
+  "format": null,
+  "name": "DragonPro\u555f\u7a0b\u76c3",
+  "date": "2025-02-22T11:00:00.000Z",
+  "players": 75,
+  "organizer": {
+    "id": 2241,
+    "name": "DragonPro\u904a\u6232\u793e\u7fa4"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

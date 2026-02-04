@@ -1,0 +1,71 @@
+{
+  "id": "68de19d67a2c388893cb0f3d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon Classic Old School A1/A2 (10 USD)",
+  "date": "2025-10-12T02:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2a",
+      "number": null
+    }
+  ]
+}

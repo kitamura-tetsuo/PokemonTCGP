@@ -1,0 +1,29 @@
+{
+  "id": "67641e9795f729096d73164a",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "BEC No EX No problem tournament! 50$ Prize!",
+  "date": "2025-01-04T13:00:00.000Z",
+  "players": 361,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

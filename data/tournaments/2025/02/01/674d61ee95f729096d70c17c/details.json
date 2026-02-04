@@ -1,0 +1,29 @@
+{
+  "id": "674d61ee95f729096d70c17c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 GAMERS CLASH #2 - Standard Tournament  \ud83c\udfc6",
+  "date": "2025-02-01T10:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 1985,
+    "name": "Ezpirit's Realm"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "ROUND_ROBIN",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

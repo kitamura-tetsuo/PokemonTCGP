@@ -1,0 +1,29 @@
+{
+  "id": "6779cb83ed2c78098c6b0d79",
+  "game": "POCKET",
+  "format": null,
+  "name": "[PL-Only] \u2744\ufe0fStyczniowa Rozgrzewka\ud83d\udd25",
+  "date": "2025-01-12T15:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

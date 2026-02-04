@@ -1,0 +1,296 @@
+{
+  "id": "68d9b3c77a2c388893caedf7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No Supporters Challenge (15 USD)",
+  "date": "2025-10-09T02:00:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Whitney",
+      "set": "A4a",
+      "number": "69"
+    },
+    {
+      "name": "Traveling Merch",
+      "set": "A4a",
+      "number": "70"
+    },
+    {
+      "name": "Morty",
+      "set": "A4a",
+      "number": "71"
+    },
+    {
+      "name": "Will",
+      "set": "A4",
+      "number": "156"
+    },
+    {
+      "name": "Lyra",
+      "set": "A4",
+      "number": "157"
+    },
+    {
+      "name": "Silver",
+      "set": "A4",
+      "number": "158"
+    },
+    {
+      "name": "Fisher",
+      "set": "A4",
+      "number": "159"
+    },
+    {
+      "name": "Jasmine",
+      "set": "A4",
+      "number": "160"
+    },
+    {
+      "name": "Hiker",
+      "set": "A4",
+      "number": "161"
+    },
+    {
+      "name": "Penny",
+      "set": "A3b",
+      "number": "69"
+    },
+    {
+      "name": "Hau",
+      "set": "A3b",
+      "number": "68"
+    },
+    {
+      "name": "Gladion",
+      "set": "A3a",
+      "number": "67"
+    },
+    {
+      "name": "Looker",
+      "set": "A3a",
+      "number": "68"
+    },
+    {
+      "name": "Lusamine",
+      "set": "A3a",
+      "number": "69"
+    },
+    {
+      "name": "Acerola",
+      "set": "A3",
+      "number": "148"
+    },
+    {
+      "name": "Ilima",
+      "set": "A3",
+      "number": "149"
+    },
+    {
+      "name": "Kiawe",
+      "set": "A3",
+      "number": "150"
+    },
+    {
+      "name": "Guzma",
+      "set": "A3",
+      "number": "151"
+    },
+    {
+      "name": "Lana",
+      "set": "A3",
+      "number": "152"
+    },
+    {
+      "name": "Sophocles",
+      "set": "A3",
+      "number": "153"
+    },
+    {
+      "name": "Mallow",
+      "set": "A3",
+      "number": "154"
+    },
+    {
+      "name": "Lillie",
+      "set": "A3",
+      "number": "155"
+    },
+    {
+      "name": "Iono",
+      "set": "A2b",
+      "number": "69"
+    },
+    {
+      "name": "Poke Center Lady",
+      "set": "A2b",
+      "number": "70"
+    },
+    {
+      "name": "Red",
+      "set": "A2b",
+      "number": "71"
+    },
+    {
+      "name": "Team Rocket",
+      "set": "A2b",
+      "number": "72"
+    },
+    {
+      "name": "Team Galactic",
+      "set": "A2",
+      "number": "151"
+    },
+    {
+      "name": "Irida",
+      "set": "A2a",
+      "number": "72"
+    },
+    {
+      "name": "Celestic Elder",
+      "set": "A2a",
+      "number": "73"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Adaman",
+      "set": "A2a",
+      "number": "75"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    },
+    {
+      "name": "Cynthia",
+      "set": "A2",
+      "number": "152"
+    },
+    {
+      "name": "Volkner",
+      "set": "A2",
+      "number": "153"
+    },
+    {
+      "name": "Dawn",
+      "set": "A2",
+      "number": "154"
+    },
+    {
+      "name": "Mars",
+      "set": "A2",
+      "number": "155"
+    },
+    {
+      "name": "Blue",
+      "set": "A1a",
+      "number": "67"
+    },
+    {
+      "name": "Budding Expeditioner",
+      "set": "A1a",
+      "number": "66"
+    },
+    {
+      "name": "Leaf",
+      "set": "A1a",
+      "number": "68"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Blaine",
+      "set": "A1",
+      "number": "221"
+    },
+    {
+      "name": "Erika",
+      "set": "A1",
+      "number": "219"
+    },
+    {
+      "name": "Koga",
+      "set": "A1",
+      "number": "222"
+    },
+    {
+      "name": "Giovanni",
+      "set": "A1",
+      "number": "223"
+    },
+    {
+      "name": "Brock",
+      "set": "A1",
+      "number": "224"
+    },
+    {
+      "name": "Sabrina",
+      "set": "A1",
+      "number": "225"
+    },
+    {
+      "name": "Surge",
+      "set": "A1",
+      "number": "226"
+    },
+    {
+      "name": "Research",
+      "set": "P-A",
+      "number": "7"
+    },
+    {
+      "name": "Barb",
+      "set": "A3",
+      "number": "146"
+    },
+    {
+      "name": "Helmet",
+      "set": "A2",
+      "number": "148"
+    },
+    {
+      "name": "Leaf Cape",
+      "set": "A3",
+      "number": "147"
+    },
+    {
+      "name": "Giant Cape",
+      "set": "A2",
+      "number": "147"
+    },
+    {
+      "name": "Leftovers",
+      "set": "A3b",
+      "number": "67"
+    }
+  ]
+}

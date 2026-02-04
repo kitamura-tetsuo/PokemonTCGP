@@ -1,0 +1,29 @@
+{
+  "id": "67a4c1713b814c326f97476d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pok\u00e9mon Millennium Pocket Free Tour #7",
+  "date": "2025-02-07T17:20:00.000Z",
+  "players": 305,
+  "organizer": {
+    "id": 684,
+    "name": "Pok\u00e9mon Millennium"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

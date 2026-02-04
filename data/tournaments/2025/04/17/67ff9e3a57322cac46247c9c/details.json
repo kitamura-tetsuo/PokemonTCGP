@@ -1,0 +1,123 @@
+{
+  "id": "67ff9e3a57322cac46247c9c",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 THE SAGA LEAGUE SEASON #1 - 10 USD PRIZE \ud83c\udfc6",
+  "date": "2025-04-17T21:00:00.000Z",
+  "players": 49,
+  "organizer": {
+    "id": 2337,
+    "name": "The SAGA Cup"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "50"
+    },
+    {
+      "name": "Manaphy",
+      "set": "P-A",
+      "number": "48"
+    },
+    {
+      "name": "Manaphy",
+      "set": "A2",
+      "number": "162"
+    },
+    {
+      "name": "Electivire",
+      "set": "A2",
+      "number": "57"
+    },
+    {
+      "name": "Electivire",
+      "set": "P-A",
+      "number": "36"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "267"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Skarmory",
+      "set": "A2",
+      "number": "111"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "skull fossil",
+      "set": "A2",
+      "number": "144"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "luxray",
+      "set": "A2",
+      "number": "60"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "89"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "92"
+    },
+    {
+      "name": "Lucario",
+      "set": "A2",
+      "number": "170"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

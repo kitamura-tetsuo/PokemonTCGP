@@ -1,0 +1,29 @@
+{
+  "id": "678856a7010576265d10d817",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket League #9",
+  "date": "2025-01-22T18:00:00.000Z",
+  "players": 180,
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

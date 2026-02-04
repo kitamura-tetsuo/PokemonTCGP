@@ -1,0 +1,29 @@
+{
+  "id": "67dd38ca2a1c0ece908054d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31 IMPERIUM's Weekly Tournament 20 USD\ud83d\udd31",
+  "date": "2025-03-25T18:00:00.000Z",
+  "players": 283,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

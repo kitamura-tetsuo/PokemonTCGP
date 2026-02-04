@@ -1,0 +1,29 @@
+{
+  "id": "678c5d44010576265d1167a5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Gabut Tournament #1",
+  "date": "2025-01-22T07:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2148,
+    "name": "HRSNFBRN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

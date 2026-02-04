@@ -1,0 +1,29 @@
+{
+  "id": "678da276010576265d118a5e",
+  "game": "POCKET",
+  "format": null,
+  "name": "God Deck Indonesia League #1",
+  "date": "2025-02-09T06:00:00.000Z",
+  "players": 192,
+  "organizer": {
+    "id": 1996,
+    "name": "God Deck IDN"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

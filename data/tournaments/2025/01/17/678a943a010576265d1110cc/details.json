@@ -1,0 +1,29 @@
+{
+  "id": "678a943a010576265d1110cc",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\udd21 LES PANTINS \u26a1\ufe0f WILD FAST TOURNAMENT\u26a1\ufe0f#2",
+  "date": "2025-01-17T20:05:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2134,
+    "name": "Les Pantins"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

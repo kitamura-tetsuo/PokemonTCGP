@@ -1,0 +1,30 @@
+{
+  "id": "6733e5af57dcc5a683fbf1ac",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCGP League: Genetic Apex #2B: Turbo Edition",
+  "date": "2024-11-19T00:00:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/8ubfv4ked2mkf3my"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

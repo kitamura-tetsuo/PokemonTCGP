@@ -1,0 +1,23 @@
+{
+  "id": "68012057b8cdc8c08c20e1ae",
+  "game": "POCKET",
+  "format": null,
+  "name": "PTCG pocket test",
+  "date": "2025-04-17T03:45:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 2342,
+    "name": "CardLab\u5361\u7814\u793e"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

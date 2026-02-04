@@ -1,0 +1,29 @@
+{
+  "id": "676b1aa886f3dba534026299",
+  "game": "POCKET",
+  "format": null,
+  "name": "Nalu's Cup Prize R$50 (Premium Pass)",
+  "date": "2024-12-26T19:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 1984,
+    "name": "Brasil TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

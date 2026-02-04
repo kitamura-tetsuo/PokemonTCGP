@@ -1,0 +1,29 @@
+{
+  "id": "68123afb7884c9a104b2293b",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League FIRST TOURNEY OF SUN AND MOON",
+  "date": "2025-04-30T16:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

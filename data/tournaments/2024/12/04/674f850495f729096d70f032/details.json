@@ -1,0 +1,71 @@
+{
+  "id": "674f850495f729096d70f032",
+  "game": "POCKET",
+  "format": null,
+  "name": "SpX NO META DECK Cup #1 (Live on Twitch)",
+  "date": "2024-12-04T15:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 1973,
+    "name": "Sparx"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Mewtwo ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "A1",
+      "number": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "68da55ad7a2c388893caf251",
+  "game": "POCKET",
+  "format": null,
+  "name": "BBT Qualifier up to 4800$ prizepool",
+  "date": "2025-10-26T13:00:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Giratina EX",
+      "set": "A4b",
+      "number": "172"
+    },
+    {
+      "name": "Darkrai EX",
+      "set": "A4b",
+      "number": "245"
+    },
+    {
+      "name": "Guzzlord EX",
+      "set": "A4b",
+      "number": "248"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "A4b",
+      "number": "60"
+    },
+    {
+      "name": "Sylveon EX",
+      "set": "A4b",
+      "number": "177"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A4b",
+      "number": "146"
+    },
+    {
+      "name": "Silvally",
+      "set": "A4b",
+      "number": "302"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "114"
+    },
+    {
+      "name": "Arceus EX",
+      "set": "A4b",
+      "number": "299"
+    }
+  ]
+}

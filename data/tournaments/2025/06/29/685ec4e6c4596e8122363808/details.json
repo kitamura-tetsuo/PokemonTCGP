@@ -1,0 +1,28 @@
+{
+  "id": "685ec4e6c4596e8122363808",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Crisis Punch League #0 [Invite only]",
+  "date": "2025-06-29T14:10:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

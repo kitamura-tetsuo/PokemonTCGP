@@ -1,0 +1,44 @@
+{
+  "id": "6846ef7bc4596e8122359593",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "The Saga x Heaven Tournament Series 2/6 130$ USD",
+  "date": "2025-06-15T15:00:00.000Z",
+  "players": 125,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

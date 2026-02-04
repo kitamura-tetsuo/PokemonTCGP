@@ -1,0 +1,29 @@
+{
+  "id": "6973fda1b1294bfab72045ff",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hype Packs! Fantastical Parade! 6x new FA  top 4",
+  "date": "2026-02-01T19:05:00.000Z",
+  "players": 183,
+  "organizer": {
+    "id": 2515,
+    "name": "Hype Packs!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

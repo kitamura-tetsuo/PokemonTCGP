@@ -1,0 +1,29 @@
+{
+  "id": "6769c60786f3dba534024358",
+  "game": "POCKET",
+  "format": null,
+  "name": "Christmas eve The Dark League",
+  "date": "2024-12-24T20:00:00.000Z",
+  "players": 208,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

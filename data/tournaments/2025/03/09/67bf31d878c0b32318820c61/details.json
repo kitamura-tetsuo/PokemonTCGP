@@ -1,0 +1,35 @@
+{
+  "id": "67bf31d878c0b32318820c61",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udde8\ud83c\udded\ud83c\udf89 SU\u00cd\u00c7O DE CARNAVAL 2025",
+  "date": "2025-03-09T16:56:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2240,
+    "name": "EJC \u2013 Emos Jogam Cartinhas"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": false,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "690fcc7152eafbbc8116a50d",
+  "game": "POCKET",
+  "format": null,
+  "name": "xPabsy Birthday Bash \ud83e\udd47 = FA Prof. Research",
+  "date": "2025-11-12T17:30:00.000Z",
+  "players": 316,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "A3a",
+      "number": "93"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "114"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "115"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "356"
+    }
+  ]
+}

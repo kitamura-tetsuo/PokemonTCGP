@@ -1,0 +1,54 @@
+{
+  "id": "6879f387164bc0b1384062a5",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 MONOMETA NoEX - \ud83d\udcb0 30$ Clash of Titans [S1-1/8]",
+  "date": "2025-08-15T17:00:00.000Z",
+  "players": 139,
+  "organizer": {
+    "id": 2410,
+    "name": "MONOMETA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "74"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

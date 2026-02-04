@@ -1,0 +1,35 @@
+{
+  "id": "673b57e1c4180e08eacfb453",
+  "game": "POCKET",
+  "format": null,
+  "name": "TCG POCKET SPEEDTOURNAMENT \ud83c\udfc6",
+  "date": "2024-11-18T17:30:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

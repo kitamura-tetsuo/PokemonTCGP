@@ -1,0 +1,27 @@
+{
+  "id": "67119b3ae1a875097763d2d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Little Legends League #2 (Season 1)",
+  "date": "2024-10-30T16:00:00.000Z",
+  "players": 113,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/51boj70cqu1qhdjg"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON"
+  ]
+}

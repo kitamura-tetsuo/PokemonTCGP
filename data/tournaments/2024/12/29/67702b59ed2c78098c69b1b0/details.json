@@ -1,0 +1,29 @@
+{
+  "id": "67702b59ed2c78098c69b1b0",
+  "game": "POCKET",
+  "format": null,
+  "name": "NEO 2024 Year End Cup",
+  "date": "2024-12-29T06:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2017,
+    "name": "NEO Pokemon VGC"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

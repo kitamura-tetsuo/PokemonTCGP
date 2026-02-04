@@ -1,0 +1,29 @@
+{
+  "id": "679abf1d5229b408d3cf3001",
+  "game": "POCKET",
+  "format": null,
+  "name": "Digital Shield Gaming Arena #1 - 540-2200\u20ac",
+  "date": "2025-02-15T10:00:00.000Z",
+  "players": 184,
+  "organizer": {
+    "id": 329,
+    "name": "OrpoTeam"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}

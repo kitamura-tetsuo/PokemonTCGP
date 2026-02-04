@@ -1,0 +1,29 @@
+{
+  "id": "672a3e850947ec3b5d196fe3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Bricktoria Pocket #1 ONLINE",
+  "date": "2024-11-07T01:30:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 1105,
+    "name": "Bricktoria"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

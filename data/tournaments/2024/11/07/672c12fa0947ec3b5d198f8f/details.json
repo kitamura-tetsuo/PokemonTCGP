@@ -1,0 +1,29 @@
+{
+  "id": "672c12fa0947ec3b5d198f8f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hoarders Pok\u00e9mon TCG Pocket #1",
+  "date": "2024-11-07T02:00:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 428,
+    "name": "Hoarders Collectibles & Games"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

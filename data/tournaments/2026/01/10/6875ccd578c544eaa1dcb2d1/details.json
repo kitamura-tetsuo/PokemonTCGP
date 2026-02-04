@@ -1,0 +1,30 @@
+{
+  "id": "6875ccd578c544eaa1dcb2d1",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "PTCGP League: Season 2 Finale (3-Day Rounds)",
+  "date": "2026-01-10T05:00:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 1858,
+    "name": "PTCGP League",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/hukkbtybnjo4q2al"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO5"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

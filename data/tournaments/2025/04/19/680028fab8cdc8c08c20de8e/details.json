@@ -1,0 +1,29 @@
+{
+  "id": "680028fab8cdc8c08c20de8e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Blazing Battle Tower 5",
+  "date": "2025-04-19T12:00:00.000Z",
+  "players": 51,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

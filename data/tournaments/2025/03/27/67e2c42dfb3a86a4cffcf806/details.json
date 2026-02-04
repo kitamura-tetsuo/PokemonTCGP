@@ -1,0 +1,29 @@
+{
+  "id": "67e2c42dfb3a86a4cffcf806",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBBL-Shining Revelry (A2b) [10 Euro]",
+  "date": "2025-03-27T20:00:00.000Z",
+  "players": 99,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

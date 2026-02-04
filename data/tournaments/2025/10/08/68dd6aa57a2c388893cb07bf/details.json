@@ -1,0 +1,76 @@
+{
+  "id": "68dd6aa57a2c388893cb07bf",
+  "game": "POCKET",
+  "format": null,
+  "name": "Jules x Pabsy Cup#9 - (Suicune & Greninja ban) $20",
+  "date": "2025-10-08T16:00:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "80"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "90"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Greninja",
+      "set": "A3a",
+      "number": "93"
+    },
+    {
+      "name": "Greninja",
+      "set": "P-A",
+      "number": "19"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "114"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "115"
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": "356"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6792555e5229b408d3ce4b1e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc22Turtle Season 1 Invitational Pocket\ud83d\udc22",
+  "date": "2025-03-28T21:40:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "679d5dc3755755d8a172a8d1",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Rainbow Badge Tournament #2025 02#",
+  "date": "2025-02-04T23:30:00.000Z",
+  "players": 94,
+  "organizer": {
+    "id": 2146,
+    "name": "Celadon City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Venusaur ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gengar ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Machamp ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pidgeot ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Infernape ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Gallade ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Venusaur",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Butterfree",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Beedrill",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Vileplume",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Victreebel",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Charizard",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Blastoise",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Poliwrath",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Omastar",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Eelektross",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Alakazam",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gengar",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Gardevoir",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Machamp",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Kabutops",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Nidoqueen",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Nidoking",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Pidgeot",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Serperior",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Golem",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Torterra",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Mamoswine",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Empoleon",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Luxray",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Togekiss",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Dusknoir",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Rhyperior",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Bastiodon",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Garchomp",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Porygon-Z",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Scolipede",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Bellossom",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Staraptor",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Butterfree",
+      "set": "P-A",
+      "number": null
+    },
+    {
+      "name": "Venusaur",
+      "set": "P-A",
+      "number": null
+    },
+    {
+      "name": "Blastoise",
+      "set": "P-A",
+      "number": null
+    }
+  ]
+}

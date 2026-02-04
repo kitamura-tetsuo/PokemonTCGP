@@ -1,0 +1,30 @@
+{
+  "id": "6914d65352eafbbc8116db50",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #44 (Season 5) - 250 USD",
+  "date": "2025-11-15T13:00:00.000Z",
+  "players": 360,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

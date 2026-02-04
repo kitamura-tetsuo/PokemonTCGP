@@ -1,0 +1,35 @@
+{
+  "id": "67a9483f05f4a8b0fc572c2f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\uddea\ud83c\uddf8ByAshCup #2 \u2022 Torneo de HablaHispana \u2022 $15 USD",
+  "date": "2025-02-15T15:00:00.000Z",
+  "players": 232,
+  "organizer": {
+    "id": 2164,
+    "name": "ByAsh156"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

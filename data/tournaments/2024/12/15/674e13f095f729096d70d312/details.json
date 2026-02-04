@@ -1,0 +1,29 @@
+{
+  "id": "674e13f095f729096d70d312",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf85Pok\u00e8mon Pocket Italia\ud83c\udf85 Santa Claus Event \ud83c\udf85",
+  "date": "2024-12-15T19:45:00.000Z",
+  "players": 72,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

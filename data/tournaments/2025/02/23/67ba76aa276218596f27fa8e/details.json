@@ -1,0 +1,29 @@
+{
+  "id": "67ba76aa276218596f27fa8e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udfe2\u26aa\ud83d\udd34NeverLollo - \ud83c\udfc6 Torneo Pokemon Pocket Ita \ud83c\udfc6",
+  "date": "2025-02-23T14:00:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2037,
+    "name": "NeverLollo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}

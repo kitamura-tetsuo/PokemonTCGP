@@ -1,0 +1,32 @@
+{
+  "id": "6797511c5229b408d3cee5f9",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Greedy Town Regional Tournament - Eelda's League",
+  "date": "2025-02-01T11:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 1886,
+    "name": "Eelda's League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

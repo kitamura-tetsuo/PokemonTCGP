@@ -1,0 +1,29 @@
+{
+  "id": "681268f67884c9a104b22a72",
+  "game": "POCKET",
+  "format": null,
+  "name": "Jeudy's Blitz",
+  "date": "2025-04-30T19:30:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2208,
+    "name": "Jeudy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

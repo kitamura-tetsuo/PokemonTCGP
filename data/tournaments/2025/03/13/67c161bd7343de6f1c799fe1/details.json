@@ -1,0 +1,29 @@
+{
+  "id": "67c161bd7343de6f1c799fe1",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6POCKET TOUR TOURNAMENT #15 (Best of 1)\ud83c\udfc6",
+  "date": "2025-03-13T15:00:00.000Z",
+  "players": 107,
+  "organizer": {
+    "id": 1723,
+    "name": "Die Kampfstube"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

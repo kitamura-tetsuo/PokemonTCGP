@@ -1,0 +1,29 @@
+{
+  "id": "67ba23e7276218596f27f74d",
+  "game": "POCKET",
+  "format": null,
+  "name": "3v3 Pok\u00e9Mike - Pocket Tournament #6",
+  "date": "2025-02-24T20:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2057,
+    "name": "just_samuele"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

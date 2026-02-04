@@ -1,0 +1,32 @@
+{
+  "id": "67e041d1fb3a86a4cffcdd2d",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 Heaven\u00b4s Spring Cup #7  NOEX BO3\ud83c\udfc6",
+  "date": "2025-04-13T14:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2181,
+    "name": "Heaven "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

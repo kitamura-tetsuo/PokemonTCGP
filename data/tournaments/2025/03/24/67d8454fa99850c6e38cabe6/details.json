@@ -1,0 +1,121 @@
+{
+  "id": "67d8454fa99850c6e38cabe6",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "MST's Throwback Cup - Mythical Island Format",
+  "date": "2025-03-24T18:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2291,
+    "name": "TCG_MST"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Piplup",
+      "set": "P-A",
+      "number": "34"
+    },
+    {
+      "name": "Turtwig",
+      "set": "P-A",
+      "number": "35"
+    },
+    {
+      "name": "Electivire",
+      "set": "P-A",
+      "number": "36"
+    },
+    {
+      "name": "Cresselia EX",
+      "set": "P-A",
+      "number": "37"
+    },
+    {
+      "name": "Misdreavus",
+      "set": "P-A",
+      "number": "38"
+    },
+    {
+      "name": "Skarmory",
+      "set": "P-A",
+      "number": "39"
+    },
+    {
+      "name": "Chimchar",
+      "set": "P-A",
+      "number": "40"
+    },
+    {
+      "name": "Togepi",
+      "set": "P-A",
+      "number": "41"
+    },
+    {
+      "name": "Darkrai EX",
+      "set": "P-A",
+      "number": "42"
+    },
+    {
+      "name": "Cherrim",
+      "set": "P-A",
+      "number": "43"
+    },
+    {
+      "name": "Raichu",
+      "set": "P-A",
+      "number": "44"
+    },
+    {
+      "name": "Nosepass",
+      "set": "P-A",
+      "number": "45"
+    },
+    {
+      "name": "Gible",
+      "set": "P-A",
+      "number": "46"
+    },
+    {
+      "name": "Staraptor",
+      "set": "P-A",
+      "number": "47"
+    },
+    {
+      "name": "Manaphy",
+      "set": "P-A",
+      "number": "48"
+    },
+    {
+      "name": "Snorlax",
+      "set": "P-A",
+      "number": "49"
+    }
+  ]
+}

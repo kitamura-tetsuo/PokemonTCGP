@@ -1,0 +1,29 @@
+{
+  "id": "68551aa227d8bc24cf2573ab",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "The Saga x Heaven Tournament Series 3/6 130$ USD",
+  "date": "2025-06-22T15:00:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 2337,
+    "name": "THESAGA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

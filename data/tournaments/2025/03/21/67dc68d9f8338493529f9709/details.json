@@ -1,0 +1,41 @@
+{
+  "id": "67dc68d9f8338493529f9709",
+  "game": "POCKET",
+  "format": null,
+  "name": "Heyfoxes cup STANDART",
+  "date": "2025-03-21T22:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2155,
+    "name": "Heyfoxes Torneio "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

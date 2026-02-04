@@ -1,0 +1,32 @@
+{
+  "id": "67b95d090b3322ebaa510b29",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83e\udda6 Capy Tournament: Singleton Conquest Format #2",
+  "date": "2025-02-26T12:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2183,
+    "name": "Global Capy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "SINGLETON_NAME"
+  ]
+}

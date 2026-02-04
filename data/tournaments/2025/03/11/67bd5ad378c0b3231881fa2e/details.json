@@ -1,0 +1,29 @@
+{
+  "id": "67bd5ad378c0b3231881fa2e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Biznaga Pocket Challenge #6",
+  "date": "2025-03-11T02:00:00.000Z",
+  "players": 153,
+  "organizer": {
+    "id": 2054,
+    "name": "Biznaga Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

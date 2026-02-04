@@ -1,0 +1,41 @@
+{
+  "id": "6726f3250947ec3b5d193702",
+  "game": "POCKET",
+  "format": null,
+  "name": "Redacted Crown #10 (100 Codes) (POCKET)",
+  "date": "2024-12-08T00:05:00.000Z",
+  "players": 98,
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

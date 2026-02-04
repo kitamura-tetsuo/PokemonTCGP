@@ -1,0 +1,29 @@
+{
+  "id": "67515c6895f729096d7122ea",
+  "game": "POCKET",
+  "format": null,
+  "name": "No restrictions f2p chill games",
+  "date": "2024-12-05T09:30:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2045,
+    "name": "EllieDarkTcgp"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "6910bcbd52eafbbc8116ac54",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc38FrogEX Old School \u2022 50 USD Prize [S4]\ud83d\udc38",
+  "date": "2025-11-16T17:00:00.000Z",
+  "players": 207,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A2b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A3b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "P-B",
+      "number": null
+    }
+  ]
+}

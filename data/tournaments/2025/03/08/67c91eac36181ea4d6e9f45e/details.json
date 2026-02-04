@@ -1,0 +1,66 @@
+{
+  "id": "67c91eac36181ea4d6e9f45e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd25TORNEO RUTA KANTO #07 \ud83d\udd25 STANDARD \ud83d\udcb0$5USD",
+  "date": "2025-03-08T16:00:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 2187,
+    "name": "Cabasho Champions League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Glaceon ex",
+      "set": "A2a",
+      "number": null
+    },
+    {
+      "name": "Palkia ex",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Gyarados ex",
+      "set": "A1a",
+      "number": null
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Starmie ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Articuno ex",
+      "set": "A1 ",
+      "number": null
+    },
+    {
+      "name": "Lapras ex",
+      "set": null,
+      "number": "14"
+    }
+  ]
+}
