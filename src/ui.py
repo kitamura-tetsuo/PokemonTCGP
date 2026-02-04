@@ -75,6 +75,34 @@ def _enrich_and_sort_cards(cards):
     )
     return cards
 
+def _render_card_grid(cards):
+    """Render a responsive grid of card images."""
+    if not cards:
+        return
+    
+    enriched_cards = _enrich_and_sort_cards(cards)
+    
+    all_copies = []
+    for c in enriched_cards:
+        count = c.get("count", 1)
+        for _ in range(count):
+            all_copies.append(c)
+
+    if not all_copies:
+        return
+
+    html = '<div class="card-grid">'
+    for c in all_copies:
+        c_set = c.get("set", "")
+        c_num = c.get("number", "")
+        try: p_num = f"{int(c_num):03d}"
+        except: p_num = c_num
+        img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+        name = get_display_name(c)
+        html += f'<div class="card-item"><img src="{img}" class="card-img" title="{name}" alt="{name}" onerror="this.style.display=\'none\'"></div>'
+    html += '</div>'
+    st.markdown(html, unsafe_allow_html=True)
+
 def render_filtered_cards(card_ids):
     """Render small card images for a list of card IDs (SetID_Number)."""
     if not card_ids:
@@ -289,6 +317,37 @@ def render_meta_trend_page():
     .archetype-name { font-weight: 600; color: #1ed760; text-decoration: none; display: inline-block; }
     .archetype-name:hover { text-decoration: underline; color: #1fdf64; }
     [data-testid="stMetricValue"] { font-size: 1.5rem !important; }
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 8px;
+        margin-top: 10px;
+    }
+    .card-item {
+        width: 100%;
+        position: relative;
+    }
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        display: block;
+        transition: transform 0.2s;
+    }
+    .card-img:hover {
+        transform: scale(1.05);
+        z-index: 10;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    @media (max-width: 1200px) {
+        .card-grid { grid-template-columns: repeat(8, 1fr); }
+    }
+    @media (max-width: 900px) {
+        .card-grid { grid-template-columns: repeat(6, 1fr); }
+    }
+    @media (max-width: 600px) {
+        .card-grid { grid-template-columns: repeat(4, 1fr); }
+    }
     """
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
@@ -749,28 +808,7 @@ def _render_deck_detail_view(sig, selected_period):
 
     st.subheader("Card List")
     cards = deck.get("cards", [])
-    if cards:
-        enriched_cards = _enrich_and_sort_cards(cards)
-        
-        all_copies = []
-        for c in enriched_cards:
-            count = c.get("count", 1)
-            for _ in range(count):
-                all_copies.append(c)
-
-        if all_copies:
-            cols_per_row = 10
-            for i in range(0, len(all_copies), cols_per_row):
-                row_cards = all_copies[i : i + cols_per_row]
-                cols = st.columns(cols_per_row)
-                for j, c in enumerate(row_cards):
-                    c_set = c.get("set", "")
-                    c_num = c.get("number", "")
-                    try: p_num = f"{int(c_num):03d}"
-                    except: p_num = c_num
-                    img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-                    with cols[j]:
-                        st.image(img, caption=get_display_name(c), width="stretch")
+    _render_card_grid(cards)
 
     st.subheader("Match History")
     _render_match_history_table(deck.get("appearances", []))
@@ -936,25 +974,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     rep_deck = get_deck_details(rep_sig)
     
     if rep_deck and "cards" in rep_deck:
-        enriched_cards = _enrich_and_sort_cards(rep_deck["cards"])
-        all_copies = []
-        for c in enriched_cards:
-            for _ in range(c.get("count", 1)):
-                all_copies.append(c)
-
-        if all_copies:
-            cols_per_row = 10
-            for i in range(0, len(all_copies), cols_per_row):
-                row_cards = all_copies[i : i + cols_per_row]
-                cols = st.columns(cols_per_row)
-                for j, c in enumerate(row_cards):
-                    c_set = c.get("set", "")
-                    c_num = c.get("number", "")
-                    try: p_num = f"{int(c_num):03d}"
-                    except: p_num = c_num
-                    img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-                    with cols[j]:
-                        st.image(img, caption=get_display_name(c), width="stretch")
+        _render_card_grid(rep_deck["cards"])
 
     st.subheader("Variants in Cluster")
     variants = cluster["signatures"]
