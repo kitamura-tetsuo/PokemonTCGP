@@ -75,6 +75,32 @@ def _enrich_and_sort_cards(cards):
     )
     return cards
 
+def sort_card_ids(card_ids):
+    """Sort card IDs based on deck list order (Pokemon > Trainer > Energy)."""
+    if not card_ids:
+        return []
+    
+    from src.data import get_card_info_by_id
+    enriched = []
+    for cid in card_ids:
+        info = get_card_info_by_id(cid)
+        if info:
+            # We need a dict with 'type' and 'name' for _enrich_and_sort_cards
+            enriched.append({
+                "id": cid,
+                "type": info.get("type", "Unknown"),
+                "name": info.get("name", "")
+            })
+        else:
+            enriched.append({
+                "id": cid,
+                "type": "Unknown",
+                "name": cid
+            })
+            
+    sorted_enriched = _enrich_and_sort_cards(enriched)
+    return [item["id"] for item in sorted_enriched]
+
 def _render_card_grid(cards):
     """Render a responsive grid of card images."""
     if not cards:

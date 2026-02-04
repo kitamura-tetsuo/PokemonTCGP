@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import itertools
 from src.data import get_multi_group_trend_data, get_all_card_ids
-from src.ui import _get_set_periods, format_card_name, render_filtered_cards
+from src.ui import _get_set_periods, format_card_name, render_filtered_cards, sort_card_ids
 from src.visualizations import display_chart, create_echarts_line_comparison
 
 def render_combinations_page():
@@ -58,6 +58,7 @@ def render_combinations_page():
     col_g1, col_g2 = st.columns(2)
     with col_g1:
         global_include = st.multiselect("Always Include (AND)", options=all_card_ids, default=q_include, help="Decks must contain ALL of these cards.", format_func=format_card_name)
+        global_include = sort_card_ids(global_include)
         render_filtered_cards(global_include)
     with col_g2:
         # Filter options to exclude already included cards
@@ -66,6 +67,7 @@ def render_combinations_page():
         curr_exclude_default = [c for c in q_exclude if c in exclude_options]
         
         global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, default=curr_exclude_default, help="Decks must NOT contain ANY of these cards.", format_func=format_card_name)
+        global_exclude = sort_card_ids(global_exclude)
         render_filtered_cards(global_exclude)
 
     st.divider()
@@ -79,6 +81,7 @@ def render_combinations_page():
     curr_vars_default = [c for c in q_vars if c in var_options]
 
     var_cards = st.multiselect("Select Variables", options=var_options, default=curr_vars_default, format_func=format_card_name)
+    var_cards = sort_card_ids(var_cards)
     render_filtered_cards(var_cards)
 
     # --- Sync to URL ---
