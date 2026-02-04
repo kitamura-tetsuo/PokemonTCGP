@@ -477,6 +477,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
             "Win Rate": f"{v_wr:.1f}%",
             "wr_raw": v_wr,
             "Players": v_stats.get("players", 0),
+            "Matches": vt_total,
             "added": added_html,
             "removed": removed_html,
             "link": deck_link
@@ -488,7 +489,8 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
     
     sort_key_map = {
         "players": lambda x: x["Players"],
-        "wr": lambda x: x["wr_raw"]
+        "wr": lambda x: x["wr_raw"],
+        "matches": lambda x: x["Matches"]
     }
     if v_sort in sort_key_map:
         v_data.sort(key=sort_key_map[v_sort], reverse=(v_order == "desc"))
@@ -511,16 +513,26 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
         return ''
 
     # Display variants as custom HTML table for links
+    
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+    col_wr = "勝率" if show_ja else "Win Rate"
+    col_players = "使用者数" if show_ja else "Players"
+    col_matches = "試合数" if show_ja else "Matches"
+    col_removed = "除外" if show_ja else "Removed"
+    col_added = "追加" if show_ja else "Added"
+    col_name = "デッキ名" if show_ja else "Name"
+    
     v_html = textwrap.dedent(f"""
         <table class="meta-table">
         <thead>
         <tr class="meta-header-row">
             <th>Signature</th>
-            <th>Name</th>
-            <th>Removed</th>
-            <th>Added</th>
-            <th style="text-align: right;" {get_v_header_style('wr')}><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">Win Rate{get_v_sort_indicator('wr')}</a></th>
-            <th style="text-align: right;" {get_v_header_style('players')}><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">Players{get_v_sort_indicator('players')}</a></th>
+            <th>{col_name}</th>
+            <th>{col_removed}</th>
+            <th>{col_added}</th>
+            <th style="text-align: right;" {get_v_header_style('wr')}><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">{col_wr}{get_v_sort_indicator('wr')}</a></th>
+            <th style="text-align: right;" {get_v_header_style('players')}><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">{col_players}{get_v_sort_indicator('players')}</a></th>
+            <th style="text-align: right;" {get_v_header_style('matches')}><a href="{get_v_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">{col_matches}{get_v_sort_indicator('matches')}</a></th>
         </tr>
         </thead>
         <tbody>
@@ -534,6 +546,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
                 <td>{v['added']}</td>
                 <td style="text-align: right;">{v['Win Rate']}</td>
                 <td style="text-align: right;">{v['Players']}</td>
+                <td style="text-align: right;">{v['Matches']}</td>
             </tr>
         """).strip()
         v_html += row_html
