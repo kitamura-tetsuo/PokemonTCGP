@@ -33,7 +33,8 @@ def get_binary_features_and_buckets(signatures):
     # 1. Collect keys
     for sig in sigs:
         for c in signatures[sig]["cards"]:
-            all_card_keys.add((c["name"], c.get("type", "Unknown")))
+            # Use (set, number, type) as unique key instead of (name, type)
+            all_card_keys.add((c.get("set", ""), str(c.get("number", "")), c.get("type", "Unknown")))
             
     sorted_keys = sorted(list(all_card_keys))
     key_to_idx = {k: i for i, k in enumerate(sorted_keys)}
@@ -46,7 +47,7 @@ def get_binary_features_and_buckets(signatures):
     base_weights = np.zeros(n_features, dtype=np.float32)
     feature_weights = np.zeros(2*n_features, dtype=np.float32)
     
-    for i, (name, c_type) in enumerate(sorted_keys):
+    for i, (c_set, c_num, c_type) in enumerate(sorted_keys):
         if c_type == "Pokemon":
             w = 0.5
         else:
@@ -71,12 +72,12 @@ def get_binary_features_and_buckets(signatures):
         pokemon_set = set()
         
         for c in cards:
-            key = (c["name"], c.get("type", "Unknown"))
+            key = (c.get("set", ""), str(c.get("number", "")), c.get("type", "Unknown"))
             if key in key_to_idx:
                 k = key_to_idx[key]
                 count = c.get("count", 1)
                 
-                if key[1] == "Pokemon":
+                if key[2] == "Pokemon":
                     pokemon_set.add(k)
 
                 if count >= 1:
