@@ -1041,6 +1041,50 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
         "totals": pd.Series(daily_totals)
     }
 
+def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
+    """
+    Calculate period-wide statistics from the daily share dataframe and total counts.
+    Returns: { label: { avg_share, total_stats } }
+    """
+    if df.empty:
+        return {}
+    
+    # We aggregate stats (Matches, Players, WR)
+    stats_map = {}
+    
+    total_period_players_in_view = 0
+    all_details = {}
+    
+    for label in df.columns:
+        sig = None
+        cid = None
+        if clustered:
+            if "Cluster" in label:
+                cid = label.split("Cluster ")[1].split(")")[0]
+                details = get_cluster_details(cid, start_date=start_date, end_date=end_date)
+            else:
+                match = re.search(r"\((\w+)\)$", label)
+                sig = match.group(1) if match else None
+                details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
+        else:
+            match = re.search(r"\((\w+)\)$", label)
+            sig = match.group(1) if match else None
+            details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
+        
+        if details:
+            all_details[label] = details
+            total_period_players_in_view += details.get("stats", {}).get("players", 0)
+            
+    for label, details in all_details.items():
+        deck_players = details.get("stats", {}).get("players", 0)
+        avg_share = (deck_players / total_period_players_in_view * 100) if total_period_players_in_view > 0 else 0
+        
+        stats_map[label] = {
+            "avg_share": avg_share,
+            "stats": details.get("stats", {}),
+            "deck_info": details
+        }
+            
     return stats_map
 
 def get_group_details(include_cards, exclude_cards, start_date=None, end_date=None, standard_only=False):
