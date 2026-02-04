@@ -383,7 +383,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
     
     # Baseline for diffs: Representative Deck
     def cards_to_bag(c_list):
-        return Counter({c["name"]: c.get("count", 1) for c in c_list})
+        return Counter({(c.get("set"), c.get("number")): c.get("count", 1) for c in c_list})
     
     ref_cards = details.get("cards", [])
     ref_bag = cards_to_bag(ref_cards)
@@ -405,13 +405,14 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
         # Build lookup for images from both ref and curr
         lookup = {}
         for c in ref_cards + curr_cards:
-            lookup[c["name"]] = (c.get("set"), c.get("number"))
+            key = (c.get("set"), c.get("number"))
+            lookup[key] = (c.get("set"), c.get("number"), c.get("name"))
             
         def render_mini(ctr):
             h = ""
-            for name, count in sorted(ctr.items()):
-                if name in lookup:
-                    c_set, c_num = lookup[name]
+            for key, count in sorted(ctr.items()):
+                if key in lookup:
+                    c_set, c_num, name = lookup[key]
                     try: p_num = f"{int(c_num):03d}"
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"

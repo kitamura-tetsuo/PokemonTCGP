@@ -699,7 +699,7 @@ def render_meta_trend_page():
         ref_cards = top_row["deck_info"].get("cards", [])
     
     def cards_to_bag(c_list):
-        return Counter({c["name"]: c.get("count", 1) for c in c_list})
+        return Counter({(c.get("set"), c.get("number")): c.get("count", 1) for c in c_list})
 
     ref_bag = cards_to_bag(ref_cards) if ref_cards else Counter()
 
@@ -759,13 +759,14 @@ def render_meta_trend_page():
                 # We can build a mini lookup from current_cards + ref_cards
                 lookup = {}
                 for c in current_cards + ref_cards:
-                    lookup[c["name"]] = (c.get("set"), c.get("number"), c.get("image"))
+                    key = (c.get("set"), c.get("number"))
+                    lookup[key] = (c.get("set"), c.get("number"), c.get("image"), c.get("name"))
                 
                 def render_mini(ctr):
                     h = ""
-                    for name, count in sorted(ctr.items()):
-                        if name in lookup:
-                            c_set, c_num, _ = lookup[name]
+                    for key, count in sorted(ctr.items()):
+                        if key in lookup:
+                            c_set, c_num, _, name = lookup[key]
                             try: p_num = f"{int(c_num):03d}"
                             except: p_num = c_num
                             img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
@@ -1013,26 +1014,145 @@ def _render_cluster_detail_view(cluster_id, selected_period):
 
     st.subheader("Variants in Cluster")
     variants = cluster["signatures"]
-    v_data = []
+    
+    # Identify Reference Cards for Diff (Cluster Representative)
+    rep_deck = get_deck_details(cluster["representative_sig"])
+    ref_cards = rep_deck.get("cards", []) if rep_deck else []
+    
+    def cards_to_bag(c_list):
+        return Counter({(c.get("set"), c.get("number")): c.get("count", 1) for c in c_list})
+    
+    ref_bag = cards_to_bag(ref_cards)
+
+    v_rows = []
     for sig, info in variants.items():
         v_stats = info.get("stats", {})
         vw, vl, vt = v_stats.get("wins", 0), v_stats.get("losses", 0), v_stats.get("ties", 0)
         v_total = vw + vl + vt
         v_wr = (vw / v_total * 100) if v_total > 0 else 0
-        v_data.append({
-            "Signature": sig,
-            "Name": info.get("name", "Unknown"),
-            "Win Rate": f"{v_wr:.1f}%",
-            "Record": f"{vw}W-{vl}L-{vt}T",
-            "Matches": v_total,
-            "Players": v_stats.get("players", 0)
+        
+        v_rows.append({
+            "sig": sig,
+            "name": info.get("name", "Unknown"),
+            "wr": v_wr,
+            "matches": v_total,
+            "players": v_stats.get("players", 0),
+            "cards": info.get("cards", [])
         })
     
-    # Sort variants by players
-    v_data.sort(key=lambda x: x["Players"], reverse=True)
+    # Sorting logic for variants
+    v_sort = st.query_params.get("v_sort", "players")
+    v_order = st.query_params.get("v_order", "desc")
     
-    # Display as table
-    st.table(pd.DataFrame(v_data))
+    v_sort_key_map = {
+        "name": lambda x: x["name"].lower(),
+        "wr": lambda x: x["wr"],
+        "matches": lambda x: x["matches"],
+        "players": lambda x: x["players"]
+    }
+    
+    if v_sort in v_sort_key_map:
+        v_rows.sort(key=v_sort_key_map[v_sort], reverse=(v_order == "desc"))
+
+    def get_v_sort_link(col_name):
+        new_order = "desc"
+        if v_sort == col_name:
+            new_order = "asc" if v_order == "desc" else "desc"
+        params = {k: st.query_params.get_all(k) for k in st.query_params}
+        params["v_sort"] = [col_name]
+        params["v_order"] = [new_order]
+        from urllib.parse import urlencode
+        return "?" + urlencode(params, doseq=True)
+
+    def get_v_sort_indicator(col_name):
+        if v_sort == col_name: return " ▲" if v_order == "asc" else " ▼"
+        return " ▴▾"
+
+    def get_v_header_style(col_name):
+        if v_sort == col_name: return 'style="color: #1ed760;"'
+        return ''
+
+    html = textwrap.dedent(f"""
+        <table class="meta-table">
+        <thead>
+        <tr class="meta-header-row">
+            <th {get_v_header_style('name')}><a href="{get_v_sort_link('name')}" target="_self" style="color: inherit; text-decoration: none;">VARIANT{get_v_sort_indicator('name')}</a></th>
+            <th class="header-link">REMOVED</th>
+            <th class="header-link">ADDED</th>
+            <th {get_v_header_style('wr')} style="text-align: right;"><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">WIN RATE{get_v_sort_indicator('wr')}</a></th>
+            <th {get_v_header_style('players')} style="text-align: right;"><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">PLAYERS{get_v_sort_indicator('players')}</a></th>
+            <th {get_v_header_style('matches')} style="text-align: right;"><a href="{get_v_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">MATCHES{get_v_sort_indicator('matches')}</a></th>
+        </tr>
+        </thead>
+        <tbody>
+    """)
+
+    for row in v_rows:
+        link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        link_params["deck_sig"] = [row["sig"]]
+        if "cluster_id" in link_params: del link_params["cluster_id"]
+        link_params["page"] = ["trends"]
+        from urllib.parse import urlencode
+        link = "?" + urlencode(link_params, doseq=True)
+        
+        # Diff Calculation
+        current_bag = cards_to_bag(row["cards"])
+        added_ctr = current_bag - ref_bag
+        removed_ctr = ref_bag - current_bag
+        
+        lookup = {}
+        for c in row["cards"] + ref_cards:
+            key = (c.get("set"), c.get("number"))
+            lookup[key] = (c.get("set"), c.get("number"), c.get("name"))
+            
+        def render_mini(ctr):
+            h = ""
+            for key, count in sorted(ctr.items()):
+                if key in lookup:
+                    c_set, c_num, name = lookup[key]
+                    if not c_set or not c_num: continue
+                    try: p_num = f"{int(c_num):03d}"
+                    except: p_num = c_num
+                    img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                    for _ in range(count):
+                        h += f'<img src="{img}" class="diff-img" title="{name}" onerror="this.style.display=\'none\'">'
+            return h
+            
+        added_html = render_mini(added_ctr)
+        removed_html = render_mini(removed_ctr)
+        
+        wr_color = '#1ed760' if row['wr'] > 50 else '#ff4b4b'
+        
+        # Tooltip for Variant (Deck List)
+        tooltip_html = ""
+        enriched_cards = _enrich_and_sort_cards(row["cards"])
+        img_count, MAX = 0, 30
+        for card in enriched_cards:
+            if img_count >= MAX: break
+            c_set, c_num = card.get("set", ""), card.get("number", "")
+            if not c_set or not c_num: continue
+            try: p_num = f"{int(c_num):03d}"
+            except: p_num = c_num
+            img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+            for _ in range(card.get("count", 1)):
+                if img_count >= MAX: break
+                tooltip_html += f'<img src="{img}" class="tooltip-card" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
+                img_count += 1
+        tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
+
+        html += textwrap.dedent(f"""
+            <tr class="meta-row-link" onclick="if(!event.target.closest('a')) {{ window.location.href='{link}'; }}">
+                <td><div class="tooltip"><a href="{link}" target="_self" class="archetype-name">{row['name']} ({row['sig']})</a><div class="tooltiptext">{tooltip_html}</div></div></td>
+                <td>{removed_html}</td>
+                <td>{added_html}</td>
+                <td style="text-align: right; color: {wr_color}; font-weight: bold;">{row['wr']:.1f}%</td>
+                <td style="text-align: right; color: #888;">{int(row['players'])}</td>
+                <td style="text-align: right; color: #888;">{int(row['matches'])}</td>
+            </tr>
+        """)
+
+    html += "</tbody></table>"
+    st.markdown(html, unsafe_allow_html=True)
 
     st.subheader("Aggregated Match History")
     render_match_history_table(cluster["appearances"])
