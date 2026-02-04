@@ -32,12 +32,20 @@ def render_combinations_page():
              period_options = [p["label"] for p in periods]
              # Determine index
              default_idx = 1 if len(periods) > 1 else 0
-             if q_period in period_options:
-                 default_idx = period_options.index(q_period)
+             if q_period:
+                 # Try finding by code
+                 for i, p in enumerate(periods):
+                     if p["code"] == q_period:
+                         default_idx = i
+                         break
+                 else:
+                     # Fallback to label match
+                     if q_period in period_options:
+                         default_idx = period_options.index(q_period)
              
              selected_period_label = st.selectbox("Aggregation Period", options=period_options, index=default_idx)
              selected_period = next(p for p in periods if p["label"] == selected_period_label)
-             standard_only = selected_period["label"] != "All"
+             standard_only = selected_period["code"] != "All"
         with col2:
              window = st.slider("Moving Average Window (Days)", min_value=1, max_value=14, value=q_window)
 
@@ -74,7 +82,7 @@ def render_combinations_page():
     render_filtered_cards(var_cards)
 
     # --- Sync to URL ---
-    st.query_params["period"] = selected_period_label
+    st.query_params["period"] = selected_period["code"]
     st.query_params["window"] = window
     st.query_params["include"] = global_include
     st.query_params["exclude"] = global_exclude

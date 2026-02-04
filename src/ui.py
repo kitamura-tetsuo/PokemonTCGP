@@ -181,12 +181,12 @@ def _get_set_periods():
                 end = end_dt.strftime("%Y-%m-%d")
             
             label = f"{name} ({start} ~ {end if end else 'Now'})"
-            processed_periods.append({"label": label, "start": start, "end": end, "name": name, "release": start})
+            processed_periods.append({"label": label, "start": start, "end": end, "name": name, "release": start, "code": s.get("code")})
         
         # Newest first
         processed_periods.sort(key=lambda x: x["release"], reverse=True)
         
-        return [{"label": "All", "start": None, "end": None}] + processed_periods
+        return [{"label": "All", "start": None, "end": None, "code": "All"}] + processed_periods
     except Exception as e:
         logger.error(f"Error loading set periods: {e}")
         return []
@@ -226,11 +226,20 @@ def render_meta_trend_page():
             period_options = [p["label"] for p in periods]
             # Default to the latest set (index 1) if available, otherwise "All" (index 0)
             
-            # Find index of default period label
-            try:
-                period_idx = period_options.index(default_period_label)
-            except ValueError:
-                period_idx = 1 if len(period_options) > 1 else 0
+            # Find index of default period label via code lookup
+            period_idx = 1 if len(period_options) > 1 else 0
+            if default_period_label:
+                # Try finding by code
+                for i, p in enumerate(periods):
+                    if p["code"] == default_period_label:
+                        period_idx = i
+                        break
+                else:
+                    # Fallback to label match if code didn't work (for old URLs)
+                    try:
+                        period_idx = period_options.index(default_period_label)
+                    except ValueError:
+                        pass
 
             selected_period_label = st.selectbox("Aggregation Period", options=period_options, index=period_idx)
             selected_period = next(p for p in periods if p["label"] == selected_period_label)
@@ -248,7 +257,7 @@ def render_meta_trend_page():
         # but for simple assignment, it replaces.
         st.query_params["cards"] = selected_cards
         st.query_params["exclude"] = exclude_cards
-        st.query_params["period"] = selected_period_label
+        st.query_params["period"] = selected_period["code"]
         st.query_params["window"] = window
         st.query_params["clustered"] = str(clustered).lower()
 
