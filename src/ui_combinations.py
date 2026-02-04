@@ -157,6 +157,7 @@ def render_combinations_page():
         
         df_share = results["share"]
         df_wr = results["wr"]
+        df_match = results["matches"]
         
         if df_share.empty:
             st.warning("No data found matching the criteria.")
@@ -174,17 +175,30 @@ def render_combinations_page():
             # Summary Table
             st.subheader("Period Statistics")
             summary = []
+            show_ja = st.session_state.get("show_japanese_toggle", False)
+            
+            # Columns
+            col_group = "グループ" if show_ja else "Group"
+            col_share = "平均シェア" if show_ja else "Avg Share"
+            col_wr = "平均勝率" if show_ja else "Avg Win Rate"
+            col_matches = "試合数" if show_ja else "Matches"
+            col_inc = "含むカード" if show_ja else "Includes"
+            col_exc = "除外カード" if show_ja else "Excludes"
+
             for g in groups:
                 lbl = g["label"]
                 if lbl in df_share.columns:
                     avg_share = df_share[lbl].mean()
                     avg_wr = df_wr[lbl].mean()
+                    total_matches = df_match[lbl].sum()
+                    
                     summary.append({
-                        "Group": lbl,
-                        "Avg Share": f"{avg_share:.2f}%",
-                        "Avg Win Rate": f"{avg_wr:.2f}%",
-                        "Includes": ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
-                        "Excludes": ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
+                        col_group: lbl,
+                        col_share: f"{avg_share:.2f}%",
+                        col_wr: f"{avg_wr:.2f}%",
+                        col_matches: int(total_matches),
+                        col_inc: ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
+                        col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards"
                     })
             if summary:
                 st.dataframe(pd.DataFrame(summary), use_container_width=True)

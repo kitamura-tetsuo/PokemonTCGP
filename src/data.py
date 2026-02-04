@@ -1001,10 +1001,12 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
     # 4. Build DataFrames
     share_data = {}
     wr_data = {}
+    match_data = {}
     
     for label in group_daily_agg:
         shares = {}
         wrs = {}
+        matches = {}
         for d, stats in group_daily_agg[label].items():
             total_matches = stats["wins"] + stats["losses"] + stats["ties"]
             wr = (stats["wins"] / total_matches * 100) if total_matches > 0 else 0
@@ -1014,20 +1016,28 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
             
             shares[d] = share
             wrs[d] = wr
+            matches[d] = total_matches
             
         share_data[label] = shares
         wr_data[label] = wrs
+        match_data[label] = matches
         
     df_share = pd.DataFrame(share_data).fillna(0)
     df_wr = pd.DataFrame(wr_data).fillna(0)
+    df_match = pd.DataFrame(match_data).fillna(0)
     
     if window > 1:
         df_share = df_share.rolling(window=window, min_periods=1).mean()
         df_wr = df_wr.rolling(window=window, min_periods=1).mean()
+        # We don't roll match counts as they are absolute totals for the day?
+        # Actually, for the table we want the sum of matches over the period.
+        # Rolling matches might be confusing for charts if we ever use it.
+        # Let's keep raw counts for matches.
         
     return {
         "share": df_share, 
         "wr": df_wr, 
+        "matches": df_match,
         "totals": pd.Series(daily_totals)
     }
 
