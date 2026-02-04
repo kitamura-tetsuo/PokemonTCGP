@@ -26,16 +26,16 @@ def main():
     if not run_script("scripts/update_tournaments.py"):
         sys.exit(1)
         
-    # 2. Cleanup cards (remove duplicates, filter sets)
-    if not run_script("scripts/cleanup_cards.py"):
-        sys.exit(1)
-
-    # 3. Enrich sets (localize set names)
+    # 2. Enrich sets (localize set names)
     if not run_script("scripts/enrich_sets.py"):
         sys.exit(1)
 
-    # 4. Enrich cards (ensure translations and types are up to date)
+    # 3. Enrich cards (ensure translations and types are up to date)
     if not run_script("scripts/enrich_cards.py"):
+        sys.exit(1)
+
+    # 4. Cleanup cards (remove duplicates, filter sets)
+    if not run_script("scripts/cleanup_cards.py"):
         sys.exit(1)
 
     # 5. Refresh cache (scan and aggregate)

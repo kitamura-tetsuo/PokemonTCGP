@@ -5,6 +5,7 @@ import argparse
 import logging
 import time
 import numpy as np
+import pandas as pd
 from scipy.sparse import csr_matrix, lil_matrix, diags
 from scipy.sparse.csgraph import connected_components
 from collections import defaultdict
@@ -15,7 +16,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 # Constants
-CACHE_FILE = "data/cache/daily_exact_stats.json"
+CACHE_FILE = "data/cache/daily_exact_stats.pkl.gz"
 
 # Globals for workers
 worker_context = {}
@@ -316,8 +317,11 @@ def main():
         return
 
     logger.info(f"Loading {CACHE_FILE}...")
-    with open(CACHE_FILE, "r") as f:
-        data = json.load(f)
+    try:
+        data = pd.read_pickle(CACHE_FILE)
+    except Exception as e:
+        logger.error(f"Failed to load cache: {e}")
+        return
 
     signatures = data.get("signatures", {})
     if not signatures:
