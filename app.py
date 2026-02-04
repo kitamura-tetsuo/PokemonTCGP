@@ -31,6 +31,12 @@ def main():
         
     page = st.sidebar.radio("Go to", ["Metagame Trends", "Card Combinations"], index=idx)
     
+    # Global Japanese toggle
+    show_ja_default = qp.get("ja", "false").lower() == "true"
+    show_ja = st.sidebar.toggle("Show Japanese Card Names", value=show_ja_default)
+    st.session_state["show_japanese_toggle"] = show_ja
+    st.query_params["ja"] = str(show_ja).lower()
+
     if page == "Metagame Trends":
         st.query_params["page"] = "trends"
         render_meta_trend_page()

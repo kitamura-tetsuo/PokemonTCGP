@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import streamlit as st
 from src.config import CHART_COLORS, PLOTLY_CONFIG, IMAGE_BASE_URL
+from src.data import get_card_name
 from streamlit_echarts import st_echarts, JsCode
 
 def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over Time"):
@@ -29,6 +30,8 @@ def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over
     # We need to build a map of archetype -> card HTML for the tooltip formatter
     tooltip_data = {}
     
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+
     for i, archetype in enumerate(reversed(sorted_cols)):
         values = df[archetype].tolist()
         # Round values for display
@@ -59,9 +62,13 @@ def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over
                 
                 img_url = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 
+                c_name = c.get("name")
+                if show_ja:
+                    c_name = get_card_name(c_name, "ja")
+
                 for _ in range(c.get("count", 1)):
                     if count >= MAX_IMGS: break
-                    imgs_html += f"<img src='{img_url}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
+                    imgs_html += f"<img src='{img_url}' title='{c_name}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
                     count += 1
             
             if imgs_html:

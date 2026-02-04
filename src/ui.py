@@ -12,11 +12,29 @@ from collections import Counter
 from src.data import (
     get_daily_share_data, get_deck_details, get_all_card_names, 
     get_match_history, enrich_card_data, get_clustered_daily_share_data,
-    get_cluster_details, get_cluster_mapping
+    get_cluster_details, get_cluster_mapping, get_card_info_by_name
 )
 from src.visualizations import create_echarts_stacked_area, display_chart
 from src.config import IMAGE_BASE_URL
 from src.utils import format_deck_name
+
+def get_display_name(c):
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+    if show_ja and c.get("name_ja"):
+        return c.get("name_ja")
+    return c.get("name", "")
+
+def format_card_name(english_name):
+    if not english_name:
+        return ""
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+    if show_ja:
+        from src.data import get_card_name
+        ja_name = get_card_name(english_name, lang="ja")
+        if ja_name != english_name:
+            return ja_name
+    return english_name
+
 
 logger = logging.getLogger(__name__)
 
@@ -27,10 +45,7 @@ def _get_card_type_map():
     pass
 
 def _enrich_and_sort_cards(cards):
-    """Sort cards by Pokemon > Item > Tool > Stadium > Supporter."""
-    # First, ensure types are correct/enriched using our new logic
-    cards = enrich_card_data(cards)
-    
+    """Sort cards by Pokemon > Item > Tool > Stadium > Supporter. Cards are already enriched in data.py."""
     type_order = {
         "Pokemon": 0,
         "Goods": 1,
@@ -41,10 +56,37 @@ def _enrich_and_sort_cards(cards):
     }
 
     # Sort: type_order, then name
+    # We use .get("type") directly as it's already enriched/normalized
     cards.sort(
         key=lambda x: (type_order.get(x.get("type", "Unknown"), 5), x.get("name", ""))
     )
     return cards
+
+def render_filtered_cards(card_names):
+    """Render small card images for a list of card names."""
+    if not card_names:
+        return
+    
+    css = """
+    <style>
+    .filter-card-container { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; margin-bottom: 10px; }
+    .filter-card { width: 45px; height: auto; border-radius: 4px; border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+    """
+    st.markdown(css, unsafe_allow_html=True)
+    
+    h = '<div class="filter-card-container">'
+    for name in card_names:
+        info = get_card_info_by_name(name)
+        if info:
+            c_set = info.get("set", "")
+            c_num = info.get("number", "")
+            try: p_num = f"{int(c_num):03d}"
+            except: p_num = c_num
+            img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+            h += f'<img src="{img}" class="filter-card" title="{format_card_name(name)}">'
+    h += '</div>'
+    st.markdown(h, unsafe_allow_html=True)
 
 @st.cache_data(ttl=600)
 def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False, clustered=False):
@@ -147,8 +189,11 @@ def render_meta_trend_page():
             default_window = 7
 
         with col1:
-            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_cards, default=[c for c in default_cards if c in all_cards])
-            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_cards, default=[c for c in default_exclude if c in all_cards])
+            selected_cards = st.multiselect("Filter by Cards (AND)", options=all_cards, default=[c for c in default_cards if c in all_cards], format_func=format_card_name)
+            render_filtered_cards(selected_cards)
+
+            exclude_cards = st.multiselect("Exclude Cards (NOT)", options=all_cards, default=[c for c in default_exclude if c in all_cards], format_func=format_card_name)
+            render_filtered_cards(exclude_cards)
 
         with col2:
             period_options = [p["label"] for p in periods]
@@ -322,12 +367,8 @@ def render_meta_trend_page():
     )
     
     # details_map for chart: label -> {name, stats, cards}
-    details_map = {}
-    for label, info in stats_map.items():
-        d_info = info["deck_info"]
-        if "cards" in d_info:
-            d_info["cards"] = enrich_card_data(d_info["cards"])
-        details_map[label] = d_info
+    # cards are already enriched in data.py via get_period_statistics
+    details_map = {label: info["deck_info"] for label, info in stats_map.items()}
 
     fig_options = create_echarts_stacked_area(
         df_display, details_map=details_map, title=f"Daily Metagame Share (window={window}d)"
@@ -358,7 +399,9 @@ def render_meta_trend_page():
 
     # Prepare Data for Table
     # Show diffs always if there is data (against the #1 archetype)
-    show_diffs = not df.empty
+    is_filtered = selected_cards is not None and len(selected_cards) > 0
+    show_diffs = not df.empty and is_filtered
+    # st.write(f"DEBUG: selected_cards={selected_cards}, show_diffs={show_diffs}")
     latest_shares = df.iloc[-1].to_dict() if not df.empty else {}
     rows_data = []
     
@@ -532,7 +575,7 @@ def render_meta_trend_page():
                 
                 for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{card.get("name")}" onerror="this.style.display=\'none\'">'
+                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
@@ -585,7 +628,7 @@ def render_meta_trend_page():
                     try: p_num = f"{int(c_num):03d}"
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-                    cards_html += f'<img src="{img}" class="diff-img" title="{card.get("name")}" onerror="this.style.display=\'none\'">'
+                    cards_html += f'<img src="{img}" class="diff-img" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
 
         row_html = (
             f'<tr class="meta-row-link" data-name="{row["name"].lower()}" '
@@ -619,8 +662,7 @@ def _render_deck_detail_view(sig, selected_period):
         st.warning("Deck detail not found.")
         return
         
-    if "cards" in deck:
-        deck["cards"] = enrich_card_data(deck["cards"])
+    # cards are already enriched in data.py
 
     st.title(deck.get("name", "Unknown Archetype"))
     st.caption(f"Signature: {sig}")
@@ -659,7 +701,7 @@ def _render_deck_detail_view(sig, selected_period):
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                     with cols[j]:
-                        st.image(img, caption=c.get("name"), width="stretch")
+                        st.image(img, caption=get_display_name(c), width="stretch")
 
     st.subheader("Match History")
     _render_match_history_table(deck.get("appearances", []))
@@ -674,9 +716,7 @@ def _render_match_history_table(appearances):
     # Pre-fetch details for all opponents to build tooltips/checks
     opp_sigs = list(set([m["opponent_sig"] for m in matches if m.get("opponent_sig")]))
     opp_details = get_deck_details_by_signature(opp_sigs)
-    for s in opp_details:
-        if "cards" in opp_details[s]:
-            opp_details[s]["cards"] = enrich_card_data(opp_details[s]["cards"])
+    # Cards are already enriched in data.py
 
     def format_player_link(row, role):
         t_id, name = row.get("t_id"), row.get(role)
@@ -716,7 +756,7 @@ def _render_match_history_table(appearances):
                 img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    tooltip_html += f'<img src="{img}" class="tooltip-card">'
+                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{get_display_name(card)}">'
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
@@ -845,7 +885,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                     with cols[j]:
-                        st.image(img, caption=c.get("name"), width="stretch")
+                        st.image(img, caption=get_display_name(c), width="stretch")
 
     st.subheader("Variants in Cluster")
     variants = cluster["signatures"]

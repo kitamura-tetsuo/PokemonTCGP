@@ -16,6 +16,33 @@ TOURNAMENTS_DIR = os.path.join(DATA_DIR, "tournaments")
 CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.json")
 CLUSTERS_FILE = os.path.join(DATA_DIR, "cache", "clusters.json")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
+ENRICHED_CARDS_FILE = os.path.join(CARDS_DIR, "enriched_cards.json")
+_ENRICHED_CARDS_CACHE = None
+
+def normalize_card_name(name):
+    """Normalize apostrophes in card names to straight single quotes."""
+    if not name or not isinstance(name, str):
+        return name
+    return name.replace('’', "'").replace('‘', "'")
+
+def load_enriched_cards():
+    """Load enriched card database from JSON. Errors if missing."""
+    global _ENRICHED_CARDS_CACHE
+    if _ENRICHED_CARDS_CACHE is not None:
+        return _ENRICHED_CARDS_CACHE
+    
+    if not os.path.exists(ENRICHED_CARDS_FILE):
+        error_msg = f"Enriched card data not found at {ENRICHED_CARDS_FILE}. Please run 'python3 scripts/enrich_cards.py' first."
+        logger.error(error_msg)
+        raise FileNotFoundError(error_msg)
+    
+    try:
+        with open(ENRICHED_CARDS_FILE, "r") as f:
+            _ENRICHED_CARDS_CACHE = json.load(f)
+        return _ENRICHED_CARDS_CACHE
+    except Exception as e:
+        logger.error(f"Error loading enriched cards: {e}")
+        raise
 
 def _normalize_type(t):
     """Normalize various type names to a consistent set: Pokemon, Goods, Item, Stadium, Support."""
@@ -38,149 +65,46 @@ def _normalize_type(t):
     return t.capitalize()
 
 def load_card_database():
-    """Load card database from JSON."""
+    """Load card database from enriched JSON."""
+    db = load_enriched_cards()
     cards = []
-    
-    # Load unknown cards CSV if exists
-    unknown_csv = os.path.join(CARDS_DIR, "unknown_cards.csv")
-    csv_overrides = {}
-    if os.path.exists(unknown_csv):
-        try:
-            import csv
-            with open(unknown_csv, "r", encoding="utf-8") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    c_set = row.get("set")
-                    c_num = row.get("number")
-                    manual_type = row.get("manual_type")
-                    if c_set and c_num and manual_type:
-                        # User's manual type is prioritized and normalized
-                        t = manual_type.strip()
-                        if t:
-                            # Direct mapping for user terms
-                            if t.lower() == "goods": normalized = "Goods"
-                            elif t.lower() == "item": normalized = "Item"
-                            elif t.lower() == "support": normalized = "Support"
-                            elif t.lower() == "stadium": normalized = "Stadium"
-                            else: normalized = _normalize_type(t)
-                            csv_overrides[(c_set, str(c_num))] = normalized
-        except Exception as e:
-            logger.error(f"Error loading unknown_cards.csv: {e}")
-
-    cards_map = {}
-    
-    # Reorder paths to load main first, then extra (so extra overrides)
-    paths = [
-        os.path.join(CARDS_DIR, "cards.json"),
-        os.path.join(CARDS_DIR, "cards.extra.json"),
-    ]
-
-    for path in paths:
-        if os.path.exists(path):
-            try:
-                with open(path, "r") as f:
-                    data = json.load(f)
-                    for item in data:
-                        c_set = item.get("set")
-                        c_num = str(item.get("number"))
-                        cards_map[(c_set, c_num)] = item
-            except Exception as e:
-                logger.error(f"Error loading {path}: {e}")
-    
-    # Now process the merged map
-    for (c_set, c_num), item in cards_map.items():
-        # Priority 1: CSV Override
-        c_type = csv_overrides.get((c_set, c_num))
-        
-        # Priority 2: JSON Type
-        if not c_type:
-            c_type = item.get("type")
-            if c_type:
-                # Standard JSON types like 'item' -> 'Goods'
-                c_type = _normalize_type(c_type)
-        
-        # Priority 3: Image Heuristic
-        if not c_type or c_type == "Unknown":
-            img = item.get("image", "")
-            if img.startswith("cPK"):
-                c_type = "Pokemon"
-            elif img.startswith("cTR"):
-                c_type = "Goods" # Default generic trainer/item
-        
+    for key, item in db.items():
         cards.append({
             "card_name": item.get("name"),
-            "set": c_set,
-            "num": c_num,
-            "type": c_type or "Unknown",
+            "set": item.get("set"),
+            "num": item.get("number"),
+            "type": item.get("type") or "Unknown",
             "image": item.get("image")
         })
-
     return cards
 
 def enrich_card_data(cards):
     """
-    Enrich a list of card dictionaries with the latest type information from the database.
-    This fixes 'Unknown' types in cached data.
+    Enrich a list of card dictionaries with the latest information from the enriched database.
     """
-    db_cards = load_card_database()
-    # Build a lookup map: (set, number) -> {type, image}
-    card_lookup = {
-        (c.get("set"), str(c.get("num"))): {
-            "type": c.get("type"),
-            "image": c.get("image")
-        } for c in db_cards if c.get("set") and c.get("num")
-    }
+    db = load_enriched_cards()
     
-    # Load CSV overrides explicitly
-    unknown_csv = os.path.join(CARDS_DIR, "unknown_cards.csv")
-    csv_overrides = {}
-    if os.path.exists(unknown_csv):
-        try:
-            import csv
-            with open(unknown_csv, "r", encoding="utf-8") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    c_set = row.get("set")
-                    c_num = row.get("number")
-                    manual_type = row.get("manual_type")
-                    if c_set and c_num and manual_type:
-                        t = manual_type.strip()
-                        if t:
-                            if t.lower() == "goods": normalized = "Goods"
-                            elif t.lower() == "item": normalized = "Item"
-                            elif t.lower() == "support": normalized = "Support"
-                            elif t.lower() == "stadium": normalized = "Stadium"
-                            else: normalized = _normalize_type(t)
-                            csv_overrides[(c_set, str(c_num))] = normalized
-        except: pass
-
     enriched = []
     for c in cards:
         new_c = c.copy()
-        key = (new_c.get("set"), str(new_c.get("number")))
+        c_set = new_c.get("set")
+        c_num = new_c.get("number")
+        key = f"{c_set}_{c_num}"
         
-        db_info = card_lookup.get(key, {})
-        
-        # Priority 1: CSV Override for Type
-        if key in csv_overrides:
-            new_c["type"] = csv_overrides[key]
-        elif db_info.get("type"):
-            new_c["type"] = _normalize_type(db_info["type"])
+        info = db.get(key)
+        if info:
+            new_c["type"] = info["type"]
+            new_c["image"] = info["image"]
+            new_c["name_ja"] = info["name_ja"]
         else:
-            # Fallback normalization of existing type
-            new_c["type"] = _normalize_type(new_c.get("type", "Unknown"))
+            # Fallback for name_ja if not in DB (should be rare)
+            c_name = new_c.get("name") or new_c.get("card_name")
+            if c_name:
+                new_c["name_ja"] = get_card_name(c_name, "ja")
             
-        # Prioritize image from DB if available
-        if db_info.get("image"):
-            new_c["image"] = db_info["image"]
-        
-        # Final heuristic fallback for type if still Unknown
-        if new_c.get("type") == "Unknown":
-            img = new_c.get("image", "")
-            if img.startswith("cPK"):
-                new_c["type"] = "Pokemon"
-            elif img.startswith("cTR"):
-                new_c["type"] = "Goods"
+            # Normalize type if missing
+            if not new_c.get("type") or new_c.get("type") == "Unknown":
+                new_c["type"] = _normalize_type(new_c.get("type"))
 
         enriched.append(new_c)
     return enriched
@@ -190,6 +114,15 @@ def get_all_card_names():
     cards = load_card_database()
     names = set(c["card_name"] for c in cards if c.get("card_name"))
     return sorted(list(names))
+
+def get_card_info_by_name(name):
+    """Return enriched card info for a given name. Returns the first match found."""
+    db = load_enriched_cards()
+    norm_name = normalize_card_name(name)
+    for info in db.values():
+        if normalize_card_name(info.get("name")) == norm_name:
+            return info
+    return None
 
 def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_date=None):
     """
@@ -493,6 +426,10 @@ def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
     for sig in signatures:
         if sig in all_sigs:
             info = all_sigs[sig].copy()
+            
+            # Enrich cards
+            if "cards" in info:
+                info["cards"] = enrich_card_data(info["cards"])
             
             # Filter appearances and recalculate stats if dates provided
             if start_date or end_date:
@@ -970,3 +907,31 @@ def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
         }
             
     return stats_map
+
+_TRANSLATIONS = None
+
+def load_translations():
+    """Load the English -> Japanese translation map."""
+    global _TRANSLATIONS
+    if _TRANSLATIONS is not None:
+        return _TRANSLATIONS
+    path = os.path.join(DATA_DIR, "card_translations.json")
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                # Normalize keys upon loading
+                _TRANSLATIONS = {normalize_card_name(k): v for k, v in data.items()}
+        except Exception as e:
+            logger.error(f"Error loading translations: {e}")
+            _TRANSLATIONS = {}
+    else:
+        _TRANSLATIONS = {}
+    return _TRANSLATIONS
+
+def get_card_name(english_name, lang="en"):
+    """Get the card name in the specified language."""
+    if lang == "ja":
+        trans = load_translations()
+        return trans.get(normalize_card_name(english_name), english_name)
+    return english_name

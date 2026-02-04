@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import itertools
 from src.data import get_multi_group_trend_data, get_all_card_names
-from src.ui import _get_set_periods
+from src.ui import _get_set_periods, format_card_name, render_filtered_cards
 from src.visualizations import display_chart, create_echarts_line_comparison
 
 def render_combinations_page():
@@ -33,11 +33,13 @@ def render_combinations_page():
     
     col_g1, col_g2 = st.columns(2)
     with col_g1:
-        global_include = st.multiselect("Always Include (AND)", options=all_cards, help="Decks must contain ALL of these cards.")
+        global_include = st.multiselect("Always Include (AND)", options=all_cards, help="Decks must contain ALL of these cards.", format_func=format_card_name)
+        render_filtered_cards(global_include)
     with col_g2:
         # Filter options to exclude already included cards
         exclude_options = [c for c in all_cards if c not in global_include]
-        global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, help="Decks must NOT contain ANY of these cards.")
+        global_exclude = st.multiselect("Always Exclude (NOT)", options=exclude_options, help="Decks must NOT contain ANY of these cards.", format_func=format_card_name)
+        render_filtered_cards(global_exclude)
 
     st.divider()
 
@@ -47,7 +49,8 @@ def render_combinations_page():
     
     # Filter options to exclude global filters
     var_options = [c for c in all_cards if c not in global_include and c not in global_exclude]
-    var_cards = st.multiselect("Select Variables", options=var_options)
+    var_cards = st.multiselect("Select Variables", options=var_options, format_func=format_card_name)
+    render_filtered_cards(var_cards)
     
     if len(var_cards) > 4:
         st.warning(f"You have selected {len(var_cards)} variables. This will generate {2**len(var_cards)} lines on the chart, which may be hard to read.")
