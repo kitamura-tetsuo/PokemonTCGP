@@ -12,6 +12,7 @@ from src.ui import (
 )
 from src.config import IMAGE_BASE_URL
 from src.visualizations import display_chart, create_echarts_line_comparison
+from src.utils import calculate_confidence_interval
 
 def render_combinations_page():
     st.header("Card Combination Analysis")
@@ -186,7 +187,8 @@ def render_combinations_page():
             groups.append({
                 "label": "Base Group",
                 "include": global_include,
-                "exclude": global_exclude
+                "exclude": global_exclude,
+                "display_cards": []
             })
         else:
             # Generate Power Set of inclusions/exclusions for var_cards
@@ -229,7 +231,8 @@ def render_combinations_page():
                     "label": label,
                     "include": final_include,
                     "exclude": final_exclude,
-                    "sort_key": len(local_inc) 
+                    "sort_key": len(local_inc),
+                    "display_cards": local_inc  # Store specific cards for display
                 })
             
             # Sort groups
@@ -283,6 +286,8 @@ def render_combinations_page():
             col_group = "グループ" if show_ja else "Group"
             col_share = "平均シェア" if show_ja else "Avg Share"
             col_wr = "勝率" if show_ja else "Win Rate"
+            col_lower = "下 (95%)" if show_ja else "Lower"
+            col_upper = "上 (95%)" if show_ja else "Upper"
             col_matches = "試合数" if show_ja else "Matches"
             col_inc = "含むカード" if show_ja else "Includes"
             col_exc = "除外カード" if show_ja else "Excludes"
@@ -295,15 +300,19 @@ def render_combinations_page():
                     total_wins = df_wins[lbl].sum()
                     
                     avg_wr = (total_wins / total_matches * 100) if total_matches > 0 else 0
+                    lower_ci, upper_ci = calculate_confidence_interval(total_wins, total_matches)
                     
                     summary.append({
                         col_group: lbl,
                         col_share: avg_share,
                         col_wr: avg_wr,
+                        col_lower: lower_ci,
+                        col_upper: upper_ci,
                         col_matches: int(total_matches),
                         col_inc: ", ".join(g["include"]) if len(g["include"]) <= 3 else f"{len(g['include'])} cards",
                         col_exc: ", ".join(g["exclude"]) if len(g["exclude"]) <= 3 else f"{len(g['exclude'])} cards",
-                        "_group_ref": g # Store reference for sorting-safe access
+                        "_group_ref": g, # Store reference for sorting-safe access
+                        "_display_cards": g.get("display_cards", [])
                     })
             # Sorting Logic for Summary
             p_sort = st.query_params.get("p_sort", "share")
@@ -312,7 +321,10 @@ def render_combinations_page():
             sort_key_map = {
                 "share": col_share,
                 "wr": col_wr,
-                "matches": col_matches
+                "lower": col_lower,
+                "upper": col_upper,
+                "matches": col_matches,
+                "group": col_group # Added for sorting
             }
             
             # Helper for sort links
@@ -361,9 +373,11 @@ def render_combinations_page():
                 <table class="meta-table">
                     <thead>
                     <tr class="meta-header-row">
-                        <th>{col_group}</th>
+                        <th {get_p_header_style('group')}><a href="{get_p_sort_link('group')}" target="_self" style="color: inherit; text-decoration: none;">{col_group}{get_p_sort_indicator('group')}</a></th>
                         <th {get_p_header_style('share')}><a href="{get_p_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">{col_share}{get_p_sort_indicator('share')}</a></th>
                         <th {get_p_header_style('wr')}><a href="{get_p_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">{col_wr}{get_p_sort_indicator('wr')}</a></th>
+                        <th {get_p_header_style('lower')}><a href="{get_p_sort_link('lower')}" target="_self" style="color: inherit; text-decoration: none;">{col_lower}{get_p_sort_indicator('lower')}</a></th>
+                        <th {get_p_header_style('upper')}><a href="{get_p_sort_link('upper')}" target="_self" style="color: inherit; text-decoration: none;">{col_upper}{get_p_sort_indicator('upper')}</a></th>
                         <th {get_p_header_style('matches')}><a href="{get_p_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">{col_matches}{get_p_sort_indicator('matches')}</a></th>
                         <th>{col_inc}</th>
                         <th>{col_exc}</th>
@@ -383,11 +397,34 @@ def render_combinations_page():
                     
                     wr_color = '#1ed760' if row[col_wr] > 50 else '#ff4b4b'
                     
+                    
+                    # Generate Group HTML (Images or Text)
+                    group_content = row[col_group]
+                    if row["_display_cards"]:
+                        imgs_html = ""
+                        for c_id in row["_display_cards"]:
+                            try:
+                                parts = c_id.split('_')
+                                if len(parts) >= 2:
+                                    c_set = parts[0]
+                                    c_num = parts[1]
+                                    # Basic logic to handle potential non-int formatting if needed, but standard logic usually OK
+                                    # Using standard img url pattern
+                                    img_url = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{int(c_num):03d}_EN_SM.webp"
+                                    imgs_html += f'<img src="{img_url}" class="diff-img" title="{c_id}">'
+                                else:
+                                    imgs_html += f"<span>{c_id}</span>"
+                            except:
+                                imgs_html += f"<span>{c_id}</span>"
+                        group_content = imgs_html if imgs_html else row[col_group]
+
                     html += textwrap.dedent(f"""
                     <tr class="meta-row-link" onclick="window.location.href='{query_str}'">
-                        <td><a href="{query_str}" target="_self" class="archetype-name">{row[col_group]}</a></td>
+                        <td><a href="{query_str}" target="_self" class="archetype-name">{group_content}</a></td>
                         <td style="text-align: right;">{row[col_share]:.2f}%</td>
                         <td style="text-align: right; color: {wr_color};">{row[col_wr]:.2f}%</td>
+                        <td style="text-align: right; opacity: 0.8;">{row[col_lower]:.1f}%</td>
+                        <td style="text-align: right; opacity: 0.8;">{row[col_upper]:.1f}%</td>
                         <td style="text-align: right;">{row[col_matches]}</td>
                         <td style="font-size: 0.85em; opacity: 0.7;">{row[col_inc]}</td>
                         <td style="font-size: 0.85em; opacity: 0.7;">{row[col_exc]}</td>
@@ -454,6 +491,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
         vw, vl, vt = v_stats.get("wins", 0), v_stats.get("losses", 0), v_stats.get("ties", 0)
         vt_total = vw + vl + vt
         v_wr = (vw / vt_total * 100) if vt_total > 0 else 0
+        v_lower, v_upper = calculate_confidence_interval(vw, vt_total)
         
         # Calculate Diffs
         curr_cards = info.get("cards", [])
@@ -494,6 +532,10 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
             "Name": info.get("name", "Unknown"),
             "Win Rate": f"{v_wr:.1f}%",
             "wr_raw": v_wr,
+            "Lower": f"{v_lower:.1f}%",
+            "lower_raw": v_lower,
+            "Upper": f"{v_upper:.1f}%",
+            "upper_raw": v_upper,
             "Players": v_stats.get("players", 0),
             "Matches": vt_total,
             "added": added_html,
@@ -508,6 +550,8 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
     sort_key_map = {
         "players": lambda x: x["Players"],
         "wr": lambda x: x["wr_raw"],
+        "lower": lambda x: x["lower_raw"],
+        "upper": lambda x: x["upper_raw"],
         "matches": lambda x: x["Matches"]
     }
     if v_sort in sort_key_map:
@@ -549,6 +593,8 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
             <th>{col_removed}</th>
             <th>{col_added}</th>
             <th style="text-align: right;" {get_v_header_style('wr')}><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">{col_wr}{get_v_sort_indicator('wr')}</a></th>
+            <th style="text-align: right;" {get_v_header_style('lower')}><a href="{get_v_sort_link('lower')}" target="_self" style="color: inherit; text-decoration: none; white-space: nowrap;">{'下' if show_ja else 'Lower'}{get_v_sort_indicator('lower')}</a></th>
+            <th style="text-align: right;" {get_v_header_style('upper')}><a href="{get_v_sort_link('upper')}" target="_self" style="color: inherit; text-decoration: none; white-space: nowrap;">{'上' if show_ja else 'Upper'}{get_v_sort_indicator('upper')}</a></th>
             <th style="text-align: right;" {get_v_header_style('players')}><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">{col_players}{get_v_sort_indicator('players')}</a></th>
             <th style="text-align: right;" {get_v_header_style('matches')}><a href="{get_v_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">{col_matches}{get_v_sort_indicator('matches')}</a></th>
         </tr>
@@ -563,6 +609,8 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
                 <td>{v['removed']}</td>
                 <td>{v['added']}</td>
                 <td style="text-align: right;">{v['Win Rate']}</td>
+                <td style="text-align: right; opacity: 0.8;">{v['Lower']}</td>
+                <td style="text-align: right; opacity: 0.8;">{v['Upper']}</td>
                 <td style="text-align: right;">{v['Players']}</td>
                 <td style="text-align: right;">{v['Matches']}</td>
             </tr>

@@ -17,7 +17,7 @@ from src.data import (
 )
 from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
 from src.config import IMAGE_BASE_URL
-from src.utils import format_deck_name
+from src.utils import format_deck_name, calculate_confidence_interval
 
 def get_display_name(c):
     show_ja = st.session_state.get("show_japanese_toggle", False)
@@ -515,6 +515,7 @@ def render_meta_trend_page():
         w, l, t = stats.get("wins", 0), stats.get("losses", 0), stats.get("ties", 0)
         mtch = w + l + t
         wr = (w / mtch * 100) if mtch > 0 else 0.0
+        lower_ci, upper_ci = calculate_confidence_interval(w, mtch)
         
         # Determine ID (sig or cluster_id)
         sig = None
@@ -533,7 +534,10 @@ def render_meta_trend_page():
             "share": share,
             "overall_share": overall_share,
             "period_share": avg_share,
+            "period_share": avg_share,
             "wr": wr,
+            "lower_ci": lower_ci,
+            "upper_ci": upper_ci,
             "players": stats.get("players", 0),
             "matches": mtch,
             "deck_info": deck_info
@@ -547,7 +551,10 @@ def render_meta_trend_page():
     sort_options = {
         "share": "Latest Share (Window)",
         "period_share": "Period Avg Share",
+        "period_share": "Period Avg Share",
         "wr": "Win Rate (Period)",
+        "lower_ci": "Lower 95% CI",
+        "upper_ci": "Upper 95% CI",
         "players": "Total Players (Period)",
         "matches": "Total Matches (Period)"
     }
@@ -565,6 +572,8 @@ def render_meta_trend_page():
         "overall_share": lambda x: x["overall_share"],
         "period_share": lambda x: x["period_share"],
         "wr": lambda x: x["wr"],
+        "lower_ci": lambda x: x["lower_ci"],
+        "upper_ci": lambda x: x["upper_ci"],
         "players": lambda x: x["players"],
         "matches": lambda x: x["matches"]
     }
@@ -698,6 +707,12 @@ def render_meta_trend_page():
 </th>
 <th class="header-link" {get_header_style('wr')} style="text-align: right;">
     <a href="{get_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>WIN RATE<span class="sort-indicator">{get_sort_indicator('wr')}</span></a>
+</th>
+<th class="header-link" {get_header_style('lower_ci')} style="text-align: right;">
+    <a href="{get_sort_link('lower_ci')}" target="_self" style="color: inherit; text-decoration: none;">LOWER<br>(95%)<span class="sort-indicator">{get_sort_indicator('lower_ci')}</span></a>
+</th>
+<th class="header-link" {get_header_style('upper_ci')} style="text-align: right;">
+    <a href="{get_sort_link('upper_ci')}" target="_self" style="color: inherit; text-decoration: none;">UPPER<br>(95%)<span class="sort-indicator">{get_sort_indicator('upper_ci')}</span></a>
 </th>
 <th class="header-link" {get_header_style('players')} style="text-align: right;">
     <a href="{get_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>PLAYERS<span class="sort-indicator">{get_sort_indicator('players')}</span></a>
@@ -833,6 +848,8 @@ def render_meta_trend_page():
             f'{overall_share_cell}'
             f'<td style="text-align: right; opacity: 0.8;">{row["period_share"]:.1f}%</td>'
             f'<td style="text-align: right; color: {wr_color};">{row["wr"]:.1f}%</td>'
+            f'<td style="text-align: right; opacity: 0.8;">{row["lower_ci"]:.1f}%</td>'
+            f'<td style="text-align: right; opacity: 0.8;">{row["upper_ci"]:.1f}%</td>'
             f'<td style="text-align: right; color: #888;">{int(row["players"])}</td>'
             f'<td style="text-align: right; color: #888;">{int(row["matches"])}</td>'
             '</tr>\n'
@@ -1061,11 +1078,14 @@ def _render_cluster_detail_view(cluster_id, selected_period):
         vw, vl, vt = v_stats.get("wins", 0), v_stats.get("losses", 0), v_stats.get("ties", 0)
         v_total = vw + vl + vt
         v_wr = (vw / v_total * 100) if v_total > 0 else 0
+        v_lower, v_upper = calculate_confidence_interval(vw, v_total)
         
         v_rows.append({
             "sig": sig,
             "name": info.get("name", "Unknown"),
             "wr": v_wr,
+            "lower": v_lower,
+            "upper": v_upper,
             "matches": v_total,
             "players": v_stats.get("players", 0),
             "cards": info.get("cards", [])
@@ -1078,6 +1098,8 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     v_sort_key_map = {
         "name": lambda x: x["name"].lower(),
         "wr": lambda x: x["wr"],
+        "lower": lambda x: x["lower"],
+        "upper": lambda x: x["upper"],
         "matches": lambda x: x["matches"],
         "players": lambda x: x["players"]
     }
@@ -1111,6 +1133,8 @@ def _render_cluster_detail_view(cluster_id, selected_period):
             <th class="header-link">REMOVED</th>
             <th class="header-link">ADDED</th>
             <th {get_v_header_style('wr')} style="text-align: right;"><a href="{get_v_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">WIN RATE{get_v_sort_indicator('wr')}</a></th>
+            <th {get_v_header_style('lower')} style="text-align: right;"><a href="{get_v_sort_link('lower')}" target="_self" style="color: inherit; text-decoration: none;">LOWER{get_v_sort_indicator('lower')}</a></th>
+            <th {get_v_header_style('upper')} style="text-align: right;"><a href="{get_v_sort_link('upper')}" target="_self" style="color: inherit; text-decoration: none;">UPPER{get_v_sort_indicator('upper')}</a></th>
             <th {get_v_header_style('players')} style="text-align: right;"><a href="{get_v_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">PLAYERS{get_v_sort_indicator('players')}</a></th>
             <th {get_v_header_style('matches')} style="text-align: right;"><a href="{get_v_sort_link('matches')}" target="_self" style="color: inherit; text-decoration: none;">MATCHES{get_v_sort_indicator('matches')}</a></th>
         </tr>
@@ -1177,6 +1201,8 @@ def _render_cluster_detail_view(cluster_id, selected_period):
                 <td>{removed_html}</td>
                 <td>{added_html}</td>
                 <td style="text-align: right; color: {wr_color}; font-weight: bold;">{row['wr']:.1f}%</td>
+                <td style="text-align: right; opacity: 0.8;">{row['lower']:.1f}%</td>
+                <td style="text-align: right; opacity: 0.8;">{row['upper']:.1f}%</td>
                 <td style="text-align: right; color: #888;">{int(row['players'])}</td>
                 <td style="text-align: right; color: #888;">{int(row['matches'])}</td>
             </tr>
