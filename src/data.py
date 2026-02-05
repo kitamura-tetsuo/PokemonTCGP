@@ -1211,3 +1211,155 @@ def get_card_name(english_name, lang="en"):
         trans = load_translations()
         return trans.get(normalize_card_name(english_name), english_name)
     return english_name
+def get_comparison_stats(signatures, window=7, start_date=None, end_date=None):
+    """
+    Get detailed comparison statistics for specific deck signatures.
+    Returns: dict of DataFrames, one for each deck.
+    Each DataFrame has columns: [share, wr, wilson_cumulative, wilson_moving]
+    """
+    scan_start = start_date
+    if not scan_start:
+        scan_days = window + 14 # Extra buffer for rolling
+        scan_start = (datetime.now() - timedelta(days=scan_days)).strftime("%Y-%m-%d")
+
+    daily_raw, sig_lookup = _scan_and_aggregate(start_date=scan_start, end_date=None) # Always scan to latest for trends
+    
+    if not daily_raw:
+        return {}
+
+    all_dates = sorted(daily_raw.keys())
+    date_grid = [d for d in all_dates if (not start_date or d >= start_date) and (not end_date or d <= end_date)]
+    if not date_grid:
+        return {}
+
+    # 1. Daily Metagame Totals (Denominator for Share)
+    daily_metagame_totals = {}
+    for date_str in all_dates:
+        day_entry = daily_raw[date_str]
+        day_total = 0
+        if "tournaments" in day_entry:
+            for t_id, t_data in day_entry["tournaments"].items():
+                # We assume comparison is across all formats or matches main format
+                day_total += sum(t_data.get("decks", {}).values())
+        elif "decks" in day_entry:
+            day_total += sum(day_entry["decks"].values())
+        daily_metagame_totals[date_str] = day_total
+
+    from src.utils import calculate_confidence_interval
+    _, id_to_cluster = get_cluster_mapping()
+
+    result = {}
+    for ident in signatures:
+        # Resolve identifier to signatures
+        target_sigs = []
+        if ident.startswith("Cluster "):
+            try:
+                # Format: "Cluster {id} ({name})" or "Cluster {id}"
+                cid = ident.split("Cluster ")[1].split(")")[0]
+                if cid in id_to_cluster:
+                    target_sigs = id_to_cluster[cid]["signatures"]
+            except: pass
+        elif ident in id_to_cluster:
+            target_sigs = id_to_cluster[ident]["signatures"]
+        else:
+            target_sigs = [ident]
+            
+        if not target_sigs:
+            continue
+            
+        # date -> {count, wins, matches}
+        daily_counts = {d: {"c": 0, "w": 0, "m": 0} for d in all_dates}
+        
+        found_any = False
+        for sig in target_sigs:
+            info = sig_lookup.get(sig)
+            if not info:
+                continue
+            found_any = True
+                
+            # Aggregate daily
+            for date_str, day_entry in daily_raw.items():
+                count = 0
+                if "tournaments" in day_entry:
+                    for t_id, t_data in day_entry["tournaments"].items():
+                        count += t_data.get("decks", {}).get(sig, 0)
+                elif "decks" in day_entry:
+                    count += day_entry["decks"].get(sig, 0)
+                daily_counts[date_str]["c"] += count
+
+            # Use appearances for win/loss
+            for app in info.get("appearances", []):
+                d = app.get("date")
+                if d in daily_counts:
+                    rec = app.get("record", {})
+                    w = rec.get("wins", 0)
+                    l = rec.get("losses", 0)
+                    t = rec.get("ties", 0)
+                    daily_counts[d]["w"] += w
+                    daily_counts[d]["m"] += (w + l + t)
+
+        if not found_any:
+            continue
+
+        # Build Stats
+        rows = []
+        cum_wins = 0
+        cum_matches = 0
+        
+        window_wins = []
+        window_matches = []
+
+        for d in all_dates:
+            stats = daily_counts[d]
+            
+            # Share
+            total_meta = daily_metagame_totals.get(d, 0)
+            share = (stats["c"] / total_meta * 100) if total_meta > 0 else 0
+            
+            # Win Rate
+            wr = (stats["w"] / stats["m"] * 100) if stats["m"] > 0 else float('nan')
+            
+            # Cumulative Wilson
+            cum_wins += stats["w"]
+            cum_matches += stats["m"]
+            if cum_matches > 0:
+                wilson_cum, _ = calculate_confidence_interval(cum_wins, cum_matches)
+            else:
+                wilson_cum = float('nan')
+            
+            # Moving Wilson
+            window_wins.append(stats["w"])
+            window_matches.append(stats["m"])
+            if len(window_wins) > window:
+                window_wins.pop(0)
+                window_matches.pop(0)
+            
+            mov_wins = sum(window_wins)
+            mov_matches = sum(window_matches)
+            if mov_matches > 0:
+                wilson_mov, _ = calculate_confidence_interval(mov_wins, mov_matches)
+            else:
+                wilson_mov = float('nan')
+            
+            rows.append({
+                "date": d,
+                "share": share,
+                "wr": wr,
+                "wilson_cumulative": wilson_cum,
+                "wilson_moving": wilson_mov,
+                "matches_daily": stats["m"],
+                "matches_moving": mov_matches,
+                "matches_cumulative": cum_matches
+            })
+
+        df = pd.DataFrame(rows).set_index("date")
+        
+        if window > 1:
+            df["share"] = df["share"].rolling(window=window, min_periods=1).mean()
+            df["wr"] = df["wr"].rolling(window=window, min_periods=1).mean()
+
+        # Filter to requested date window
+        df = df.reindex(date_grid)
+        result[ident] = df
+
+    return result

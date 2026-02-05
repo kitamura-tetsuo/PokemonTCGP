@@ -106,6 +106,36 @@ def render_card_grid(cards):
     if not cards:
         return
     
+    # Inject required CSS for the grid and card items
+    css = """
+    <style>
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 30px);
+        gap: 2px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .card-item {
+        width: 30px;
+        position: relative;
+    }
+    .card-img {
+        width: 30px;
+        height: auto;
+        border-radius: 2px;
+        display: block;
+        transition: transform 0.2s;
+    }
+    .card-img:hover {
+        transform: scale(1.5);
+        z-index: 10;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    </style>
+    """
+    st.markdown(css, unsafe_allow_html=True)
+    
     enriched_cards = _enrich_and_sort_cards(cards)
     
     all_copies = []
@@ -354,8 +384,8 @@ def render_meta_trend_page():
     [data-testid="stMetricValue"] { font-size: 1.5rem !important; }
     .card-grid {
         display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        gap: 8px;
+        grid-template-columns: repeat(auto-fill, 30px);
+        gap: 2px;
         margin-top: 10px;
     }
     .card-item {
@@ -649,6 +679,51 @@ def render_meta_trend_page():
                          st.query_params["page"] = "trends"
                          st.rerun()
                 st.divider()
+
+    # Comparison Bridge UI: Compare Button (Relocated)
+    comp_btn_html = """
+    <div style="margin-bottom: 20px; position: sticky; top: 10px; z-index: 1001; display: flex; justify-content: flex-end;">
+        <button id="compare-btn" style="
+            background-color: #1ed760;
+            color: #000;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        " onmouseover="this.style.backgroundColor='#1fdf64'; this.style.transform='scale(1.05)';" 
+           onmouseout="this.style.backgroundColor='#1ed760'; this.style.transform='scale(1)';">
+            COMPARE SELECTED
+        </button>
+    </div>
+    """
+    st.markdown(comp_btn_html, unsafe_allow_html=True)
+
+    # Inject script to handle click safely (avoids React #231)
+    import streamlit.components.v1 as components
+    components.html("""
+    <script>
+    const parentDoc = window.parent.document;
+    const btn = parentDoc.getElementById("compare-btn");
+    if (btn) {
+        btn.onclick = function() {
+            const selected = Array.from(parentDoc.querySelectorAll('.deck-checkbox:checked')).map(cb => cb.value);
+            if (selected.length === 0) {
+                alert('Please select at least one deck to compare.');
+                return;
+            }
+            const params = new URLSearchParams(window.parent.location.search);
+            params.set('page', 'comparison');
+            params.delete('sigs');
+            selected.forEach(s => params.append('sigs', s));
+            const url = window.parent.location.pathname + '?' + params.toString();
+            window.parent.open(url, '_blank');
+        };
+    }
+    </script>
+    """, height=0)
     # -----------------------------
 
     def get_sort_link(col_name):
@@ -694,6 +769,10 @@ def render_meta_trend_page():
 <table class="meta-table">
 <thead>
 <tr class="meta-header-row">
+<th style="width: 30px; text-align: center;">
+    <input type="checkbox" id="select-all-decks" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1ed760;" 
+           onclick="document.querySelectorAll('.deck-checkbox').forEach(cb => cb.checked = this.checked)">
+</th>
 <th class="header-link" {get_header_style('name')}>
     <a href="{get_sort_link('name')}" target="_self" style="color: inherit; text-decoration: none;">ARCHETYPE<span class="sort-indicator">{get_sort_indicator('name')}</span></a>
 </th>
@@ -836,11 +915,15 @@ def render_meta_trend_page():
         if is_filtered:
             overall_share_cell = f'<td style="text-align: right; color: #888;">{row.get("overall_share", 0.0):.1f}%</td>'
 
+        identifier = row["cid"] if row.get("cid") else row["sig"]
+        checkbox_html = f'<td style="text-align: center; vertical-align: middle;"><input type="checkbox" class="deck-checkbox" value="{identifier}" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1ed760;"></td>'
+
         row_html = (
             f'<tr class="meta-row-link" data-name="{row["name"].lower()}" '
             f'data-share="{row["share"]}" data-overall-share="{row.get("overall_share", 0)}"'
             f'data-period-share="{row["period_share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" data-players="{row["players"]}" '
-            f'onclick="if(!event.target.closest(\'a\')) {{ window.location.href=\'{link}\'; }}">'
+            f'onclick="if(!event.target.closest(\'a\') && !event.target.closest(\'input\')) {{ window.location.href=\'{link}\'; }}">'
+            f'{checkbox_html}'
             f'<td><div class="tooltip"><a href="{link}" target="_self" class="archetype-name">{row["full_name"]}</a>'
             f'<div class="tooltiptext">{tooltip_html}</div></div></td>'
             f'{diff_cols_html}'

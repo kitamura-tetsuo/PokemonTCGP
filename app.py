@@ -17,6 +17,7 @@ st.set_page_config(
 
 from src.ui import render_meta_trend_page
 from src.ui_combinations import render_combinations_page
+from src.ui_comparison import render_comparison_page
 
 def main():
     st.sidebar.title("Navigation")
@@ -29,7 +30,7 @@ def main():
     else:
         idx = 0
         
-    page = st.sidebar.radio("Go to", ["Metagame Trends", "Card Combinations"], index=idx)
+    page = st.sidebar.radio("Go to", ["Metagame Trends", "Card Combinations", "Deck Comparison"], index=2 if default_page == "comparison" else idx)
     
     # Global Japanese toggle
     show_ja_default = qp.get("ja", "false").lower() == "true"
@@ -43,6 +44,9 @@ def main():
     elif page == "Card Combinations":
         st.query_params["page"] = "combinations"
         render_combinations_page()
+    elif page == "Deck Comparison":
+        st.query_params["page"] = "comparison"
+        render_comparison_page()
 
 if __name__ == "__main__":
     main()
