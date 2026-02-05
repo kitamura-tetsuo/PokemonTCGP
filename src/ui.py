@@ -496,10 +496,17 @@ def render_meta_trend_page():
     show_diffs = not df.empty and is_filtered
     # st.write(f"DEBUG: selected_cards={selected_cards}, show_diffs={show_diffs}")
     latest_shares = df.iloc[-1].to_dict() if not df.empty else {}
+    
+    # Global shares for "Overall Share" column
+    global_latest_shares = {}
+    if is_filtered and global_df is not None and not global_df.empty:
+        global_latest_shares = global_df.iloc[-1].to_dict()
+
     rows_data = []
     
     for label, info in stats_map.items():
         share = latest_shares.get(label, 0.0)
+        overall_share = global_latest_shares.get(label, 0.0)
         avg_share = info["avg_share"]
         stats = info["stats"]
         deck_info = info["deck_info"]
@@ -524,6 +531,7 @@ def render_meta_trend_page():
             "full_name": label,
             "name": label.split("(")[0].strip(),
             "share": share,
+            "overall_share": overall_share,
             "period_share": avg_share,
             "wr": wr,
             "players": stats.get("players", 0),
@@ -543,6 +551,9 @@ def render_meta_trend_page():
         "players": "Total Players (Period)",
         "matches": "Total Matches (Period)"
     }
+    if is_filtered:
+        sort_options["overall_share"] = "Overall Share"
+
     # Read from query params
     q_sort = st.query_params.get("sort", "period_share")
     q_order = st.query_params.get("order", "desc")
@@ -551,6 +562,7 @@ def render_meta_trend_page():
     sort_key_map = {
         "name": lambda x: x["name"].lower(),
         "share": lambda x: x["share"],
+        "overall_share": lambda x: x["overall_share"],
         "period_share": lambda x: x["period_share"],
         "wr": lambda x: x["wr"],
         "players": lambda x: x["players"],
@@ -659,6 +671,15 @@ def render_meta_trend_page():
     if show_diffs:
         diff_headers = '<th class="header-link">REMOVED</th><th class="header-link">ADDED</th>'
 
+    # Add Overall Share Header
+    overall_share_header = ""
+    if is_filtered:
+        overall_share_header = (
+            f'<th class="header-link" {get_header_style("overall_share")} style="text-align: right;">'
+            f'<a href="{get_sort_link("overall_share")}" target="_self" style="color: inherit; text-decoration: none;">OVERALL<br>SHARE <span class="sort-indicator">{get_sort_indicator("overall_share")}</span></a>'
+            f'</th>'
+        )
+
     html = textwrap.dedent(
         f"""
 <table class="meta-table">
@@ -671,6 +692,7 @@ def render_meta_trend_page():
 <th class="header-link" {get_header_style('share')} style="text-align: right;">
     <a href="{get_sort_link('share')}" target="_self" style="color: inherit; text-decoration: none;">LATEST<br>SHARE <span class="sort-indicator">{get_sort_indicator('share')}</span></a>
 </th>
+{overall_share_header}
 <th class="header-link" {get_header_style('period_share')} style="text-align: right;">
     <a href="{get_sort_link('period_share')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>SHARE <span class="sort-indicator">{get_sort_indicator('period_share')}</span></a>
 </th>
@@ -794,14 +816,21 @@ def render_meta_trend_page():
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                     cards_html += f'<img src="{img}" class="diff-img" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
 
+        # Overall Share Cell
+        overall_share_cell = ""
+        if is_filtered:
+            overall_share_cell = f'<td style="text-align: right; color: #888;">{row.get("overall_share", 0.0):.1f}%</td>'
+
         row_html = (
             f'<tr class="meta-row-link" data-name="{row["name"].lower()}" '
-            f'data-share="{row["share"]}" data-period-share="{row["period_share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" data-players="{row["players"]}" '
+            f'data-share="{row["share"]}" data-overall-share="{row.get("overall_share", 0)}"'
+            f'data-period-share="{row["period_share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" data-players="{row["players"]}" '
             f'onclick="if(!event.target.closest(\'a\')) {{ window.location.href=\'{link}\'; }}">'
             f'<td><div class="tooltip"><a href="{link}" target="_self" class="archetype-name">{row["full_name"]}</a>'
             f'<div class="tooltiptext">{tooltip_html}</div></div></td>'
             f'{diff_cols_html}'
             f'<td style="text-align: right; color: #1ed760; font-weight: bold;">{row["share"]:.1f}%</td>'
+            f'{overall_share_cell}'
             f'<td style="text-align: right; opacity: 0.8;">{row["period_share"]:.1f}%</td>'
             f'<td style="text-align: right; color: {wr_color};">{row["wr"]:.1f}%</td>'
             f'<td style="text-align: right; color: #888;">{int(row["players"])}</td>'
