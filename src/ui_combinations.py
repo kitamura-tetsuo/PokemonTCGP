@@ -246,6 +246,7 @@ def render_combinations_page():
         df_share = results["share"]
         df_wr = results["wr"]
         df_match = results["matches"]
+        df_wins = results["wins"]
         
         if df_share.empty:
             st.warning("No data found matching the criteria.")
@@ -281,7 +282,7 @@ def render_combinations_page():
             # Columns
             col_group = "グループ" if show_ja else "Group"
             col_share = "平均シェア" if show_ja else "Avg Share"
-            col_wr = "平均勝率" if show_ja else "Avg Win Rate"
+            col_wr = "勝率" if show_ja else "Win Rate"
             col_matches = "試合数" if show_ja else "Matches"
             col_inc = "含むカード" if show_ja else "Includes"
             col_exc = "除外カード" if show_ja else "Excludes"
@@ -290,8 +291,10 @@ def render_combinations_page():
                 lbl = g["label"]
                 if lbl in df_share.columns:
                     avg_share = df_share[lbl].mean()
-                    avg_wr = df_wr[lbl].mean()
                     total_matches = df_match[lbl].sum()
+                    total_wins = df_wins[lbl].sum()
+                    
+                    avg_wr = (total_wins / total_matches * 100) if total_matches > 0 else 0
                     
                     summary.append({
                         col_group: lbl,
