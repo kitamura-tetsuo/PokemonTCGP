@@ -1347,6 +1347,8 @@ def get_comparison_stats(signatures, window=7, start_date=None, end_date=None):
                 "wr": wr,
                 "wilson_cumulative": wilson_cum,
                 "wilson_moving": wilson_mov,
+                "wins_daily": stats["w"],
+                "wins_cumulative": cum_wins,
                 "matches_daily": stats["m"],
                 "matches_moving": mov_matches,
                 "matches_cumulative": cum_matches
