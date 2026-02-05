@@ -1,0 +1,29 @@
+{
+  "id": "697fc312bd2fb45595559068",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2654 \u265a King Solomon x MLAC First Leer $5 + OAK & FA",
+  "date": "2026-02-04T16:10:00.000Z",
+  "players": 196,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

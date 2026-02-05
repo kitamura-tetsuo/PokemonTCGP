@@ -1,0 +1,29 @@
+{
+  "id": "69822994287864eaf0dc5125",
+  "game": "POCKET",
+  "format": null,
+  "name": "iluchien VS ErickoTCG VS Nuggie",
+  "date": "2026-02-04T03:00:00.000Z",
+  "players": 148,
+  "organizer": {
+    "id": 2532,
+    "name": "iluchien"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

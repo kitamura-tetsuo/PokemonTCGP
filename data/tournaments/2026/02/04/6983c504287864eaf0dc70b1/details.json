@@ -1,0 +1,29 @@
+{
+  "id": "6983c504287864eaf0dc70b1",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rapid - Random Pop Up (B2) #4 (M. Venu/Inciny FA)",
+  "date": "2026-02-04T23:15:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

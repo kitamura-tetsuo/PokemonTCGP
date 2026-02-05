@@ -1,0 +1,29 @@
+{
+  "id": "6978d20c9c739a2ff7bf8fdc",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc26\u200d\ud83d\udd25 Batalha de Galar \u2022 FREE ENTRY \u2022 $150 BRL",
+  "date": "2026-02-03T22:00:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 2442,
+    "name": "TEAM GALAR"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}
