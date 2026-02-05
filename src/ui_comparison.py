@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import re
+import html
 import textwrap
 from collections import Counter
 from urllib.parse import urlencode
 from src.data import get_comparison_stats, get_deck_details_by_signature
 from src.ui import (
     _get_set_periods, format_card_name, render_filtered_cards, 
-    sort_card_ids, render_card_grid
+    sort_card_ids, render_card_grid, get_display_name
 )
 from src.visualizations import create_echarts_line_comparison, display_chart
 from src.utils import calculate_confidence_interval
@@ -346,11 +347,12 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                     for _ in range(count):
-                        h += f'<img src="{img}" style="height: 24px; width: auto; border-radius: 2px; margin: 1px;" title="{name}" onerror="this.style.display=\'none\'">'
+                        h += f'<img src="{img}" style="height: 24px; width: auto; border-radius: 2px; margin: 1px;" title="{html.escape(name)}" onerror="this.style.display=\'none\'">'
             return h or "-"
 
         # Link to trends
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        if "sig" in link_params: del link_params["sig"]
         link_params["deck_sig"] = [sig]
         link_params["page"] = ["trends"]
         # Clear comparison params to make it a clean jump
@@ -664,7 +666,8 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                 img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 count = c.get("count", 1)
                 for _ in range(count):
-                    card_html += f'<img src="{img}" class="tooltip-card-img">'
+                    safe_c_name = html.escape(get_display_name(c))
+                    card_html += f'<img src="{img}" class="tooltip-card-img" title="{safe_c_name}">'
         card_html += '</div>'
         
         html += textwrap.dedent(f"""

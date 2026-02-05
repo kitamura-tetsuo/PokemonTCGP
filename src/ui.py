@@ -7,6 +7,7 @@ import re
 import textwrap
 import pandas as pd
 import streamlit as st
+import html
 from collections import Counter
 
 from src.data import (
@@ -147,7 +148,7 @@ def render_card_grid(cards):
     if not all_copies:
         return
 
-    html = '<div class="card-grid">'
+    table_html = '<div class="card-grid">'
     for c in all_copies:
         c_set = c.get("set", "")
         c_num = c.get("number", "")
@@ -155,9 +156,10 @@ def render_card_grid(cards):
         except: p_num = c_num
         img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
         name = get_display_name(c)
-        html += f'<div class="card-item"><img src="{img}" class="card-img" title="{name}" alt="{name}" onerror="this.style.display=\'none\'"></div>'
-    html += '</div>'
-    st.markdown(html, unsafe_allow_html=True)
+        safe_name = html.escape(name)
+        table_html += f'<div class="card-item"><img src="{img}" class="card-img" title="{safe_name}" alt="{safe_name}" onerror="this.style.display=\'none\'"></div>'
+    table_html += '</div>'
+    st.markdown(table_html, unsafe_allow_html=True)
 
 def render_filtered_cards(card_ids):
     """Render small card images for a list of card IDs (SetID_Number)."""
@@ -182,7 +184,7 @@ def render_filtered_cards(card_ids):
             try: p_num = f"{int(c_num):03d}"
             except: p_num = c_num
             img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-            h += f'<img src="{img}" class="filter-card" title="{format_card_name(card_id)}">'
+            h += f'<img src="{img}" class="filter-card" title="{html.escape(format_card_name(card_id))}">'
     h += '</div>'
     st.markdown(h, unsafe_allow_html=True)
 
@@ -418,6 +420,13 @@ def render_meta_trend_page():
 
     # Check for Drill-Down
     query_params = st.query_params
+    
+    # Normalize 'sig' to 'deck_sig' if provided (legacy or redundant)
+    if "sig" in query_params:
+        if "deck_sig" not in query_params:
+            st.query_params["deck_sig"] = query_params["sig"]
+        del st.query_params["sig"]
+
     selected_sig = query_params.get("deck_sig", None)
     selected_cluster_id = query_params.get("cluster_id", None)
     
@@ -764,7 +773,7 @@ def render_meta_trend_page():
             f'</th>'
         )
 
-    html = textwrap.dedent(
+    table_html = textwrap.dedent(
         f"""
 <table class="meta-table">
 <thead>
@@ -822,6 +831,10 @@ def render_meta_trend_page():
     for row in rows_data:
         # Build Link preserving existing params
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        # Clean up legacy/conflicting 'sig' parameter
+        if "sig" in link_params:
+            del link_params["sig"]
+
         if row.get("cid"):
             link_params["cluster_id"] = [row["cid"]]
             if "deck_sig" in link_params: del link_params["deck_sig"]
@@ -854,7 +867,7 @@ def render_meta_trend_page():
                 
                 for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
+                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{html.escape(get_display_name(card))}" onerror="this.style.display=\'none\'">'
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
@@ -908,7 +921,7 @@ def render_meta_trend_page():
                     try: p_num = f"{int(c_num):03d}"
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
-                    cards_html += f'<img src="{img}" class="diff-img" title="{get_display_name(card)}" onerror="this.style.display=\'none\'">'
+                    cards_html += f'<img src="{img}" class="diff-img" title="{html.escape(get_display_name(card))}" onerror="this.style.display=\'none\'">'
 
         # Overall Share Cell
         overall_share_cell = ""
@@ -937,10 +950,10 @@ def render_meta_trend_page():
             f'<td style="text-align: right; color: #888;">{int(row["matches"])}</td>'
             '</tr>\n'
         )
-        html += textwrap.dedent(row_html)
+        table_html += textwrap.dedent(row_html)
         
-    html += "</tbody></table>"
-    st.markdown(html, unsafe_allow_html=True)
+    table_html += "</tbody></table>"
+    st.markdown(table_html, unsafe_allow_html=True)
 
 
 def _render_deck_detail_view(sig, selected_period):
@@ -1005,6 +1018,9 @@ def render_match_history_table(appearances):
 
         # Build Link preserving existing params
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        # Remove redundant/legacy 'sig' if it exists to avoid conflicts
+        if "sig" in link_params:
+            del link_params["sig"]
         link_params["deck_sig"] = [sig]
         link_params["page"] = ["trends"]
         from urllib.parse import urlencode
@@ -1030,7 +1046,7 @@ def render_match_history_table(appearances):
                 img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 for _ in range(card.get("count", 1)):
                     if img_count >= MAX: break
-                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{get_display_name(card)}">'
+                    tooltip_html += f'<img src="{img}" class="tooltip-card" title="{html.escape(get_display_name(card))}">'
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
@@ -1073,7 +1089,7 @@ def render_match_history_table(appearances):
         if m_sort == col_name: return 'style="color: #1ed760;"'
         return ''
 
-    html = textwrap.dedent(f"""
+    table_html = textwrap.dedent(f"""
         <table class="meta-table">
         <thead>
         <tr class="meta-header-row">
@@ -1095,7 +1111,7 @@ def render_match_history_table(appearances):
         d_cell = format_opponent_deck_cell(m)
         res = m.get("result", "T")
         res_color = "#1ed760" if res == "W" else "#ff4b4b" if res == "L" else "#888"
-        html += textwrap.dedent(f"""
+        table_html += textwrap.dedent(f"""
             <tr class="meta-row-link">
                 <td>{m.get('date', '')}</td>
                 <td style="font-size: 0.9em; opacity: 0.8;">{m.get('tournament', '')}</td>
@@ -1106,8 +1122,8 @@ def render_match_history_table(appearances):
                 <td style="color: {res_color}; font-weight: bold;">{res}</td>
             </tr>
         """)
-    html += "</tbody></table>"
-    st.markdown(html, unsafe_allow_html=True)
+    table_html += "</tbody></table>"
+    st.markdown(table_html, unsafe_allow_html=True)
 
 def _render_cluster_detail_view(cluster_id, selected_period):
     if st.button("← Back to Trends"):
@@ -1208,7 +1224,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
         if v_sort == col_name: return 'style="color: #1ed760;"'
         return ''
 
-    html = textwrap.dedent(f"""
+    table_html = textwrap.dedent(f"""
         <table class="meta-table">
         <thead>
         <tr class="meta-header-row">
@@ -1278,7 +1294,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
                 img_count += 1
         tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
 
-        html += textwrap.dedent(f"""
+        table_html += textwrap.dedent(f"""
             <tr class="meta-row-link" onclick="if(!event.target.closest('a')) {{ window.location.href='{link}'; }}">
                 <td><div class="tooltip"><a href="{link}" target="_self" class="archetype-name">{row['name']} ({row['sig']})</a><div class="tooltiptext">{tooltip_html}</div></div></td>
                 <td>{removed_html}</td>
@@ -1291,8 +1307,8 @@ def _render_cluster_detail_view(cluster_id, selected_period):
             </tr>
         """)
 
-    html += "</tbody></table>"
-    st.markdown(html, unsafe_allow_html=True)
+    table_html += "</tbody></table>"
+    st.markdown(table_html, unsafe_allow_html=True)
 
     st.subheader("Aggregated Match History")
     render_match_history_table(cluster["appearances"])

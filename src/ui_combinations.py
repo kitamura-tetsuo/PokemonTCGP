@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import itertools
 import textwrap
+import html
 from collections import Counter
 from urllib.parse import urlencode
 from src.data import get_multi_group_trend_data, get_all_card_ids, get_group_details
@@ -411,9 +412,9 @@ def render_combinations_page():
                                     # Basic logic to handle potential non-int formatting if needed, but standard logic usually OK
                                     # Using standard img url pattern
                                     img_url = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{int(c_num):03d}_EN_SM.webp"
-                                    imgs_html += f'<img src="{img_url}" class="diff-img" title="{c_id}">'
+                                    imgs_html += f'<img src="{img_url}" class="diff-img" title="{html.escape(c_id)}">'
                                 else:
-                                    imgs_html += f"<span>{c_id}</span>"
+                                    imgs_html += f"<span>{html.escape(c_id)}</span>"
                             except:
                                 imgs_html += f"<span>{c_id}</span>"
                         group_content = imgs_html if imgs_html else row[col_group]
@@ -515,7 +516,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
                     except: p_num = c_num
                     img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                     for _ in range(count):
-                        h += f'<img src="{img}" class="diff-img" title="{name}" onerror="this.style.display=\'none\'">'
+                        h += f'<img src="{img}" class="diff-img" title="{html.escape(name)}" onerror="this.style.display=\'none\'">'
             return h or "-"
 
         added_html = render_mini(added_ctr)
@@ -523,6 +524,7 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
         
         # Link to deck detail view
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
+        if "sig" in link_params: del link_params["sig"]
         link_params["deck_sig"] = [sig]
         link_params["page"] = ["trends"]
         deck_link = "?" + urlencode(link_params, doseq=True)
