@@ -1,0 +1,32 @@
+{
+  "id": "698000d8bd2fb45595559707",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "VoidPocket & Storms Fantastical NoEx ($20)",
+  "date": "2026-02-05T01:10:00.000Z",
+  "players": 133,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
