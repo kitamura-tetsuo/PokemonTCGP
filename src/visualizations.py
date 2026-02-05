@@ -3,9 +3,18 @@ import json
 import plotly.graph_objects as go
 import pandas as pd
 import streamlit as st
+import html
 from src.config import CHART_COLORS, PLOTLY_CONFIG, IMAGE_BASE_URL
 from src.data import get_card_name
 from streamlit_echarts import st_echarts, JsCode
+import numpy as np
+
+def _clean_data(values):
+    """Ensure all values are JSON-compatible (no NaN or Infinity)."""
+    return [
+        v if (pd.notna(v) and not np.isinf(v)) else None 
+        for v in values
+    ]
 
 def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over Time"):
     """
@@ -35,8 +44,8 @@ def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over
 
     for i, archetype in enumerate(reversed(sorted_cols)):
         values = df[archetype].tolist()
-        # Round values for display
-        values = [round(v, 1) for v in values]
+        # Clean and round values for display
+        values = [round(v, 1) if v is not None else None for v in _clean_data(values)]
         
         # Build tooltip content for this archetype (Static HTML Images)
         sig = ""
@@ -72,10 +81,12 @@ def create_echarts_stacked_area(df, details_map=None, title="Metagame Share Over
                 c_name = c.get("name")
                 if show_ja:
                     c_name = get_card_name(c_name, "ja")
+                
+                safe_name = html.escape(c_name or "")
 
                 for _ in range(c.get("count", 1)):
                     if count >= MAX_IMGS: break
-                    imgs_html += f"<img src='{img_url}' title='{c_name}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
+                    imgs_html += f"<img src='{img_url}' title='{safe_name}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
                     count += 1
             
             if imgs_html:
@@ -198,10 +209,11 @@ def create_echarts_line_comparison(df, details_map=None, title="", y_axis_label=
                 except: p_num = c_num
                 img_url = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 c_name = get_card_name(c.get("name"), "ja") if show_ja else c.get("name")
+                safe_name = html.escape(c_name or "")
 
                 for _ in range(c.get("count", 1)):
                     if count >= MAX_IMGS: break
-                    imgs_html += f"<img src='{img_url}' title='{c_name}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
+                    imgs_html += f"<img src='{img_url}' title='{safe_name}' style='width: 30px; height: auto; margin: 1px; border-radius: 2px;'>"
                     count += 1
             if imgs_html:
                  card_html = f"<div style='margin-top: 5px; width: 170px; display: flex; flex-wrap: wrap; line-height: 0;'>{imgs_html}</div>"
@@ -211,15 +223,15 @@ def create_echarts_line_comparison(df, details_map=None, title="", y_axis_label=
         p_label = y_axis_label.replace(" (%)", "")
         s_label = secondary_label if secondary_label else ""
         
-        primary_vals = df[col].tolist()
-        secondary_vals = secondary_df[col].tolist() if (secondary_df is not None and col in secondary_df.columns) else [None] * len(primary_vals)
+        primary_vals = _clean_data(df[col].tolist())
+        secondary_vals = _clean_data(secondary_df[col].tolist()) if (secondary_df is not None and col in secondary_df.columns) else [None] * len(primary_vals)
         
         for i, (p, s) in enumerate(zip(primary_vals, secondary_vals)):
-            p_val = round(p, 2) if pd.notna(p) else None
+            p_val = round(p, 2) if p is not None else None
             
             # If we have secondary data, we create a per-point tooltip
             if has_secondary:
-                s_val = round(s, 2) if pd.notna(s) else None
+                s_val = round(s, 2) if s is not None else None
                 date_str = dates[i]
                 
                 # Determine display order: Share should come first
@@ -259,7 +271,7 @@ def create_echarts_line_comparison(df, details_map=None, title="", y_axis_label=
         p_series = {
             "name": col,
             "type": "line",
-            "data": line_data,
+            "data": [round(v, 2) if v is not None else None for v in primary_vals] if not has_secondary else line_data,
             "smooth": True,
             "showSymbol": True,
             "symbol": "circle",

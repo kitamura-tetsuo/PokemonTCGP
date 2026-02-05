@@ -443,7 +443,7 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
     df.columns = [f"{sig_lookup.get(s, {}).get('name', 'Unknown')} ({s})" for s in df.columns]
 
     # Normalize by the sum of FILTERED decks on each day (back to 100% within the view)
-    df_normalized = df.div(df.sum(axis=1), axis=0) * 100
+    df_normalized = df.div(df.sum(axis=1), axis=0).fillna(0) * 100
     
     if window > 1:
         df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
@@ -755,7 +755,7 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
         df = df[list(filtered_labels)]
         
     # Normalize by the sum of FILTERED clusters on each day (back to 100% within the view)
-    df_normalized = df.div(df.sum(axis=1), axis=0) * 100
+    df_normalized = df.div(df.sum(axis=1), axis=0).fillna(0) * 100
     
     if window > 1:
         df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
