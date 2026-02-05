@@ -525,25 +525,22 @@ def get_match_history(appearances):
     """
     Look up detailed matches for a list of player appearances.
     """
-    matches = []
-    
-    # Load all signatures for opponent lookup
-    if not os.path.exists(CACHE_FILE):
+    if not appearances:
         return []
         
-    try:
-        full_cache = pd.read_pickle(CACHE_FILE)
-        sig_lookup = full_cache.get("signatures", {})
-    except:
-        sig_lookup = {}
-
+    # Group appearances by tournament to avoid redundant IO
+    from collections import defaultdict
+    tournaments_to_players = defaultdict(set)
     for app in appearances:
         t_id = app.get("t_id")
-        p_name = app.get("player_id")
         date_str = app.get("date")
-        if not t_id or not date_str:
-            continue
+        p_name = app.get("player_id")
+        if t_id and date_str and p_name:
+            tournaments_to_players[(date_str, t_id)].add(p_name)
 
+    matches = []
+    
+    for (date_str, t_id), target_players in tournaments_to_players.items():
         year, month, day = date_str.split("-")
         t_path = os.path.join(TOURNAMENTS_DIR, year, month, day, t_id)
 
@@ -557,10 +554,10 @@ def get_match_history(appearances):
                 with open(standings_path, "r") as f:
                     standings = json.load(f)
 
-                # Map names to deck info for this tournament
+                # Map names to deck info for ALL players in this tournament
+                # We can pre-filter standings slightly if we want, but usually it's small enough
                 player_deck_info = {}
                 for p in standings:
-                    p_name_standings = p.get("name")
                     dlist = p.get("decklist", {})
                     if not dlist: continue
                     
@@ -588,41 +585,51 @@ def get_match_history(appearances):
                     with open(det_path, "r") as f:
                         t_name = json.load(f).get("name", t_id)
 
+                # Normalize target players for matching
+                target_players_lower = {p.lower() for p in target_players}
+
                 for m in pairings:
                     if not isinstance(m, dict): continue
                     p1, p2 = m.get("player1"), m.get("player2")
                     if not p1: continue # Bye or invalid
                     
-                    # Normalize for match
                     p1_match = p1.lower() if isinstance(p1, str) else p1
                     p2_match = p2.lower() if isinstance(p2, str) else p2
-                    target_match = p_name.lower() if isinstance(p_name, str) else p_name
 
-                    if p1_match == target_match or p2_match == target_match:
-                        opp_name = p2 if p1_match == target_match else p1
-                        opp_id = opp_name.lower() if isinstance(opp_name, str) else opp_name
-                        winner = m.get("winner")
-                        winner_match = winner.lower() if isinstance(winner, str) else winner
-                        
-                        res = "Tie"
-                        if winner_match == target_match: res = "Win"
-                        elif winner_match == opp_id: res = "Loss"
-                        
-                        opp_info = player_deck_info.get(opp_id, {})
-                        opp_sig = opp_info.get("sig")
+                    # Check if either player is one of our targets
+                    is_p1_target = p1_match in target_players_lower
+                    is_p2_target = p2_match in target_players_lower
+
+                    if is_p1_target or is_p2_target:
+                        # Process for EVERY target player involved (could be both in a mirror match)
+                        for target_match, original_p_name in zip([p1_match, p2_match], [p1, p2]):
+                            if target_match not in target_players_lower:
+                                continue
+                                
+                            opp_name = p2 if target_match == p1_match else p1
+                            opp_id = opp_name.lower() if isinstance(opp_name, str) else opp_name
+                            winner = m.get("winner")
+                            winner_match = winner.lower() if isinstance(winner, str) else winner
                             
-                        matches.append({
-                            "date": date_str,
-                            "tournament": t_name,
-                            "t_id": t_id,
-                            "player": p_name,
-                            "round": m.get("round", "?"),
-                            "opponent": opp_name,
-                            "opponent_deck": f"{opp_info.get('deck_name', 'Unknown')} ({opp_sig})" if opp_sig else "Unknown",
-                            "opponent_sig": opp_sig,
-                            "opponent_cards": opp_info.get("cards", []),
-                            "result": res
-                        })
+                            res = "Tie"
+                            if winner_match == target_match: res = "Win"
+                            elif winner_match == opp_id: res = "Loss"
+                            
+                            opp_info = player_deck_info.get(opp_id, {})
+                            opp_sig = opp_info.get("sig")
+                                
+                            matches.append({
+                                "date": date_str,
+                                "tournament": t_name,
+                                "t_id": t_id,
+                                "player": original_p_name,
+                                "round": m.get("round", "?"),
+                                "opponent": opp_name,
+                                "opponent_deck": f"{opp_info.get('deck_name', 'Unknown')} ({opp_sig})" if opp_sig else "Unknown",
+                                "opponent_sig": opp_sig,
+                                "opponent_cards": opp_info.get("cards", []),
+                                "result": res
+                            })
             except Exception as e:
                 logger.error(f"Error lookup pairings for {t_id}: {e}")
     return matches

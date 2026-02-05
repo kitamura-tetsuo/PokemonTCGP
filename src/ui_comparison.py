@@ -247,7 +247,7 @@ def render_comparison_page():
             link_params["cluster_id"] = [sig]
         else:
             link_params["page"] = ["details"]
-            link_params["sig"] = [sig]
+            link_params["deck_sig"] = [sig]
         
         from urllib.parse import urlencode
         query_str = "?" + urlencode(link_params, doseq=True)
@@ -542,6 +542,12 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         # We need appearances for each selected deck to get their matches
         matrix_data = {} # (selected_sig, opponent_cluster_id) -> {w, l, t}
         
+        from src.data import _get_all_signatures
+        all_sigs_data = _get_all_signatures()
+        
+        all_appearances_to_lookup = []
+        app_to_sig_map = {} # (t_id, player_id, date) -> list of comparison_sigs
+        
         for sig in sigs:
             # Resolve sig to target signatures (if it's a cluster)
             target_sigs = []
@@ -557,35 +563,38 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                 target_sigs = [sig]
             
             # Get appearances for these signatures in the period
-            all_apps = []
-            from src.data import _get_all_signatures
-            all_sigs_data = _get_all_signatures()
-            
             for t_sig in target_sigs:
                 if t_sig in all_sigs_data:
                     apps = all_sigs_data[t_sig].get("appearances", [])
                     # Filter by period
-                    apps = [a for a in apps if (not period["start"] or a["date"] >= period["start"]) and (not period["end"] or a["date"] <= period["end"])]
-                    all_apps.extend(apps)
+                    for a in apps:
+                        d = a["date"]
+                        if (not period["start"] or d >= period["start"]) and (not period["end"] or d <= period["end"]):
+                            app_key = (a["t_id"], a["player_id"], d)
+                            if app_key not in app_to_sig_map:
+                                app_to_sig_map[app_key] = []
+                                all_appearances_to_lookup.append(a)
+                            app_to_sig_map[app_key].append(sig)
             
-            if not all_apps:
-                continue
-                
-            matches = get_match_history(all_apps)
+        if all_appearances_to_lookup:
+            all_matches = get_match_history(all_appearances_to_lookup)
             
-            for m in matches:
+            for m in all_matches:
                 opp_sig = m.get("opponent_sig")
                 if opp_sig in sig_to_cluster_id:
                     cid = sig_to_cluster_id[opp_sig]
                     res = m.get("result")
                     
-                    key = (sig, cid)
-                    if key not in matrix_data:
-                        matrix_data[key] = {"w": 0, "l": 0, "t": 0}
-                    
-                    if res == "Win": matrix_data[key]["w"] += 1
-                    elif res == "Loss": matrix_data[key]["l"] += 1
-                    elif res == "Tie": matrix_data[key]["t"] += 1
+                    # Map this match back to all comparison sigs that share this appearance
+                    app_key = (m["t_id"], m["player"], m["date"])
+                    for comp_sig in app_to_sig_map.get(app_key, []):
+                        key = (comp_sig, cid)
+                        if key not in matrix_data:
+                            matrix_data[key] = {"w": 0, "l": 0, "t": 0}
+                        
+                        if res == "Win": matrix_data[key]["w"] += 1
+                        elif res == "Loss": matrix_data[key]["l"] += 1
+                        elif res == "Tie": matrix_data[key]["t"] += 1
 
     # 3. Render Matrix
     from src.data import load_translations
