@@ -290,9 +290,13 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
                             
                             # Stats are re-derived from appearances at the end to avoid double-counting
                             
+                            p_id = player.get("player") or player.get("name")
+                            if isinstance(p_id, dict):
+                                p_id = p_id.get("name") or p_id.get("id") or str(p_id)
+                                
                             signatures[sig]["appearances"].append({
                                 "t_id": t_id,
-                                "player_id": player.get("player") or player.get("name"),
+                                "player_id": str(p_id) if p_id else "Unknown",
                                 "record": {"wins": w, "losses": l, "ties": t},
                                 "date": date_str
                             })
@@ -535,8 +539,10 @@ def get_match_history(appearances):
         t_id = app.get("t_id")
         date_str = app.get("date")
         p_name = app.get("player_id")
+        if isinstance(p_name, dict):
+            p_name = p_name.get("name") or p_name.get("id") or str(p_name)
         if t_id and date_str and p_name:
-            tournaments_to_players[(date_str, t_id)].add(p_name)
+            tournaments_to_players[(date_str, t_id)].add(str(p_name))
 
     matches = []
     
@@ -592,6 +598,9 @@ def get_match_history(appearances):
                     if not isinstance(m, dict): continue
                     p1, p2 = m.get("player1"), m.get("player2")
                     if not p1: continue # Bye or invalid
+                    
+                    if isinstance(p1, dict): p1 = p1.get("name") or p1.get("id") or str(p1)
+                    if isinstance(p2, dict): p2 = p2.get("name") or p2.get("id") or str(p2)
                     
                     p1_match = p1.lower() if isinstance(p1, str) else p1
                     p2_match = p2.lower() if isinstance(p2, str) else p2

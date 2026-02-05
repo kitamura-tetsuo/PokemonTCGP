@@ -396,7 +396,7 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
         if sort_key == key: return " ▲" if sort_order == "asc" else " ▼"
         return " ▴▾"
 
-    html = textwrap.dedent(f"""
+    table_html = textwrap.dedent(f"""
         <style>
         .comp-table {{ font-family: sans-serif; font-size: 13px; width: 100%; color: #eee; border-collapse: collapse; margin-top: 10px; }}
         .comp-header-row {{ font-weight: bold; border-bottom: 2px solid rgba(255,255,255,0.2); background-color: #1a1c24; }}
@@ -430,7 +430,7 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
         
         wr_latest_str = f"{row['wr_latest']:.1f}%" if pd.notna(row['wr_latest']) else "-"
         
-        html += textwrap.dedent(f"""
+        table_html += textwrap.dedent(f"""
             <tr class="comp-row-link" onclick="window.location.href='{row['link']}'">
                 <td>
                     <div style="display: flex; align-items: center;">
@@ -452,8 +452,8 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
             </tr>
         """).strip()
 
-    html += "</tbody></table>"
-    st.markdown(html, unsafe_allow_html=True)
+    table_html += "</tbody></table>"
+    st.markdown(table_html, unsafe_allow_html=True)
 
 def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
     st.divider()
@@ -607,7 +607,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         details = deck_details.get(ident, {}) or {}
         return details.get("name", ident)
 
-    html = textwrap.dedent(f"""
+    table_html = textwrap.dedent(f"""
         <style>
         .matchup-matrix th, .matchup-matrix td {{ padding: 8px 4px; text-align: center; vertical-align: middle; min-width: 65px; }}
         .matchup-header-row th {{ background-color: #1a1c24; color: #888; text-transform: uppercase; font-size: 9px; letter-spacing: 0.05em; position: relative; }}
@@ -666,11 +666,11 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                 img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
                 count = c.get("count", 1)
                 for _ in range(count):
-                    safe_c_name = html.escape(get_display_name(c))
+                    safe_c_name = html.escape(c.get("name") or c.get("card_name") or "Unknown")
                     card_html += f'<img src="{img}" class="tooltip-card-img" title="{safe_c_name}">'
         card_html += '</div>'
         
-        html += textwrap.dedent(f"""
+        table_html += textwrap.dedent(f"""
             <th>
                 <div class="header-tooltip">
                     <a href="{query_str}" target="_self" style="color: #1ed760; text-decoration: none;">{name}</a>
@@ -681,7 +681,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                 </div>
             </th>
         """).strip()
-    html += "</tr></thead><tbody>"
+    table_html += "</tr></thead><tbody>"
 
     for sig in sigs:
         row_name = get_display_name(sig)
@@ -689,7 +689,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         color = sig_to_color.get(sig, "#ccc")
         
         # Row header with dot and signature
-        html += textwrap.dedent(f"""
+        table_html += textwrap.dedent(f"""
             <tr>
                 <td class="matchup-side-col">
                     <div style="display: flex; align-items: center; margin-bottom: 2px;">
@@ -737,17 +737,17 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                     alpha = min(0.8, 0.1 + (total / 50) * 0.7)
                     bg_color = f"rgba(145, 204, 117, {alpha})" # Green-ish for volume
             
-            html += f'<td class="matchup-cell" style="background-color: {bg_color};">'
+            table_html += f'<td class="matchup-cell" style="background-color: {bg_color};">'
             if total > 0:
                 # Order: Win Prob, WR, Matches
-                html += f'<span class="cell-main" title="Win Probability">{prob:.1f}%</span>'
-                html += f'<span class="cell-sub" title="Win Rate">{wr:.1f}%</span>'
-                html += f'<span class="cell-matches">{total} matches</span>'
+                table_html += f'<span class="cell-main" title="Win Probability">{prob:.1f}%</span>'
+                table_html += f'<span class="cell-sub" title="Win Rate">{wr:.1f}%</span>'
+                table_html += f'<span class="cell-matches">{total} matches</span>'
             else:
-                html += '<span style="opacity: 0.2;">-</span>'
-            html += "</td>"
+                table_html += '<span style="opacity: 0.2;">-</span>'
+            table_html += "</td>"
             
-        html += "</tr>"
+        table_html += "</tr>"
         
-    html += "</tbody></table></div>"
-    st.markdown(html, unsafe_allow_html=True)
+    table_html += "</tbody></table></div>"
+    st.markdown(table_html, unsafe_allow_html=True)

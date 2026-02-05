@@ -370,7 +370,7 @@ def render_combinations_page():
                 # Actually, navigating to detail and back usually resets unless we explicitly pass them.
                 # For now, let's just make sure the table headers work.
 
-                html = textwrap.dedent(f"""
+                table_html = textwrap.dedent(f"""
                 <table class="meta-table">
                     <thead>
                     <tr class="meta-header-row">
@@ -419,7 +419,7 @@ def render_combinations_page():
                                 imgs_html += f"<span>{c_id}</span>"
                         group_content = imgs_html if imgs_html else row[col_group]
 
-                    html += textwrap.dedent(f"""
+                    table_html += textwrap.dedent(f"""
                     <tr class="meta-row-link" onclick="window.location.href='{query_str}'">
                         <td><a href="{query_str}" target="_self" class="archetype-name">{group_content}</a></td>
                         <td style="text-align: right;">{row[col_share]:.2f}%</td>
@@ -432,8 +432,8 @@ def render_combinations_page():
                     </tr>
                     """)
                 
-                html += "</tbody></table>"
-                st.markdown(html, unsafe_allow_html=True)
+                table_html += "</tbody></table>"
+                st.markdown(table_html, unsafe_allow_html=True)
 
 
 def _render_group_variants_view(include_cards, exclude_cards, period):
