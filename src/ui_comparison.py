@@ -110,8 +110,6 @@ def render_comparison_page():
     sig_to_color = {sig: ECHARTS_COLORS[i % len(ECHARTS_COLORS)] for i, sig in enumerate(sigs)}
 
     def get_label(ident):
-        if ident.startswith("Cluster "): 
-            return ident
         details = deck_details.get(ident, {}) or {}
         name = details.get("name", "Unknown")
         return f"{name} ({ident})"
@@ -227,15 +225,39 @@ def render_comparison_page():
     # 4. Comparison Table
     _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color)
 
+    # 5. Matchup Matrix
+    _render_matchup_matrix(sigs, selected_period, deck_details, sig_to_color)
+
     # Show Deck Details (Cards)
     st.divider()
     st.subheader("Deck Details")
     for i, sig in enumerate(sigs):
         color = sig_to_color.get(sig, "#ccc")
+        
+        # Construct Link
+        link_params = {"period": [selected_period["code"]]}
+        if sig.startswith("Cluster "):
+            try:
+                cid = sig.split("Cluster ")[1].split(")")[0]
+                link_params["page"] = ["trends"]
+                link_params["cluster_id"] = [cid]
+            except: pass
+        elif sig in id_to_cluster:
+            link_params["page"] = ["trends"]
+            link_params["cluster_id"] = [sig]
+        else:
+            link_params["page"] = ["details"]
+            link_params["sig"] = [sig]
+        
+        from urllib.parse import urlencode
+        query_str = "?" + urlencode(link_params, doseq=True)
+        
         st.markdown(
             f'<div style="display: flex; align-items: center; margin-bottom: 5px;">'
             f'<div style="width: 12px; height: 12px; background-color: {color}; border-radius: 50%; margin-right: 8px;"></div>'
-            f'<span style="font-weight: bold; font-size: 1.1em;">{get_label(sig)}</span>'
+            f'<a href="{query_str}" target="_blank" style="text-decoration: none; color: inherit;">'
+            f'<span style="font-weight: bold; font-size: 1.1em; border-bottom: 1px dashed #666;">{get_label(sig)}</span>'
+            f'</a>'
             f'</div>',
             unsafe_allow_html=True
         )
@@ -429,4 +451,291 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
         """).strip()
 
     html += "</tbody></table>"
+    st.markdown(html, unsafe_allow_html=True)
+
+def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
+    st.divider()
+    st.subheader("Matchup Matrix (vs Top Meta Decks)")
+    caption_text = "Matches between your selected decks and the top 8 distinct deck clusters in the metagame for this period."
+    if st.session_state.get("show_japanese_toggle", False):
+        caption_text += " (セル内: 勝ち越し確率、勝率、試合数)"
+    else:
+        caption_text += " (Cell: Win Probability, Win Rate, Matches)"
+    st.caption(caption_text)
+
+    # Move Heatmap Basis selector here
+    col_m1, col_m2 = st.columns([1, 2])
+    with col_m1:
+        metric_options = ["Win Probability (Bayesian)", "Win Rate", "Matches"]
+        if st.session_state.get("show_japanese_toggle", False):
+            metric_options = ["勝ち越し確率 (ベイズ)", "勝率", "試合数"]
+        
+        heatmap_metric = st.selectbox(
+            "Heatmap Basis", 
+            options=["Prob", "WR", "Matches"],
+            format_func=lambda x: metric_options[["Prob", "WR", "Matches"].index(x)],
+            key="matchup_heatmap_metric"
+        )
+
+    with st.spinner("Calculating matchup statistics..."):
+        from src.data import (
+            get_clustered_daily_share_data, get_period_statistics, 
+            get_cluster_mapping, get_match_history
+        )
+        
+        # 1. Get Top 8 Clusters (Opponents)
+        share_df = get_clustered_daily_share_data(
+            start_date=period["start"], 
+            end_date=period["end"]
+        )
+        period_stats = get_period_statistics(
+            share_df, 
+            start_date=period["start"], 
+            end_date=period["end"], 
+            clustered=True
+        )
+        
+        # Sort by share and pick top 8
+        sorted_clusters = sorted(
+            period_stats.items(), 
+            key=lambda x: x[1].get("avg_share", 0), 
+            reverse=True
+        )[:8]
+        
+        opponents = []
+        sig_to_cluster_id = {}
+        cluster_id_to_name = {}
+        
+        sig_to_cluster, id_to_cluster = get_cluster_mapping()
+        
+        for label, info in sorted_clusters:
+            # label is "Cluster {id} ({name})"
+            try:
+                cid = label.split("Cluster ")[1].split(")")[0]
+                if cid in id_to_cluster:
+                    rep_sig = id_to_cluster[cid]["representative_sig"]
+                    name = id_to_cluster[cid].get("representative_name", "Unknown")
+                    opponents.append({
+                        "id": cid,
+                        "name": name,
+                        "rep_sig": rep_sig,
+                        "label": label
+                    })
+                    cluster_id_to_name[cid] = name
+                    # Map all signatures in this cluster to this cluster ID
+                    for s in id_to_cluster[cid].get("signatures", []):
+                        sig_to_cluster_id[s] = cid
+            except: continue
+
+        if not opponents:
+            st.warning("Could not identify top metagame decks for this period.")
+            return
+            
+        # Fetch cards for opponents' representative decks for tooltips
+        opp_rep_sigs = [opp["rep_sig"] for opp in opponents]
+        opp_rep_details = get_deck_details_by_signature(opp_rep_sigs)
+        for opp in opponents:
+            opp_info = opp_rep_details.get(opp["rep_sig"]) or {}
+            opp["cards"] = opp_info.get("cards", [])
+
+        # 2. Get Match History for selected decks
+        # We need appearances for each selected deck to get their matches
+        matrix_data = {} # (selected_sig, opponent_cluster_id) -> {w, l, t}
+        
+        for sig in sigs:
+            # Resolve sig to target signatures (if it's a cluster)
+            target_sigs = []
+            if sig.startswith("Cluster "):
+                try:
+                    cid = sig.split("Cluster ")[1].split(")")[0]
+                    if cid in id_to_cluster:
+                        target_sigs = id_to_cluster[cid]["signatures"]
+                except: pass
+            elif sig in id_to_cluster:
+                target_sigs = id_to_cluster[sig]["signatures"]
+            else:
+                target_sigs = [sig]
+            
+            # Get appearances for these signatures in the period
+            all_apps = []
+            from src.data import _get_all_signatures
+            all_sigs_data = _get_all_signatures()
+            
+            for t_sig in target_sigs:
+                if t_sig in all_sigs_data:
+                    apps = all_sigs_data[t_sig].get("appearances", [])
+                    # Filter by period
+                    apps = [a for a in apps if (not period["start"] or a["date"] >= period["start"]) and (not period["end"] or a["date"] <= period["end"])]
+                    all_apps.extend(apps)
+            
+            if not all_apps:
+                continue
+                
+            matches = get_match_history(all_apps)
+            
+            for m in matches:
+                opp_sig = m.get("opponent_sig")
+                if opp_sig in sig_to_cluster_id:
+                    cid = sig_to_cluster_id[opp_sig]
+                    res = m.get("result")
+                    
+                    key = (sig, cid)
+                    if key not in matrix_data:
+                        matrix_data[key] = {"w": 0, "l": 0, "t": 0}
+                    
+                    if res == "Win": matrix_data[key]["w"] += 1
+                    elif res == "Loss": matrix_data[key]["l"] += 1
+                    elif res == "Tie": matrix_data[key]["t"] += 1
+
+    # 3. Render Matrix
+    from src.data import load_translations
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+    trans = load_translations() if show_ja else {}
+
+    def get_display_name(ident):
+        details = deck_details.get(ident, {}) or {}
+        return details.get("name", ident)
+
+    html = textwrap.dedent(f"""
+        <style>
+        .matchup-matrix th, .matchup-matrix td {{ padding: 8px 4px; text-align: center; vertical-align: middle; min-width: 65px; }}
+        .matchup-header-row th {{ background-color: #1a1c24; color: #888; text-transform: uppercase; font-size: 9px; letter-spacing: 0.05em; position: relative; }}
+        .matchup-side-col {{ background-color: #1a1c24; text-align: left !important; font-weight: 500; min-width: 140px !important; }}
+        .matchup-cell {{ border-radius: 3px; position: relative; }}
+        .cell-main {{ font-size: 1.1em; font-weight: bold; display: block; }}
+        .cell-sub {{ font-size: 0.85em; opacity: 0.8; display: block; }}
+        .cell-matches {{ font-size: 0.75em; opacity: 0.5; display: block; }}
+        
+        /* Tooltip styles */
+        .header-tooltip {{ position: relative; display: inline-block; width: 100%; height: 100%; }}
+        .tooltiptext {{
+            visibility: hidden; width: 340px; background-color: #1e1e1e; color: #fff;
+            text-align: center; border-radius: 8px; padding: 10px; position: absolute;
+            z-index: 1000; top: 110%; left: 50%; transform: translateX(-50%);
+            opacity: 0; transition: opacity 0.3s, transform 0.3s; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            pointer-events: none;
+            border: 1px solid rgba(255,255,255,0.1);
+        }}
+        .matchup-header-row th:hover .tooltiptext {{ visibility: visible; opacity: 1; transform: translateX(-50%) translateY(5px); }}
+        .tooltip-grid {{ display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; justify-items: center; margin-top: 5px; }}
+        .tooltip-card-img {{ width: 30px; height: auto; border-radius: 2px; }}
+        </style>
+        <div style="overflow-x: auto;">
+        <table class="matchup-matrix">
+            <thead>
+                <tr class="matchup-header-row">
+                    <th style="background: none;"></th>
+    """).strip()
+    
+    for opp in opponents:
+        name = opp["name"]
+        if show_ja: name = trans.get(name, name)
+        
+        # Link to cluster detail
+        link_params = {
+            "page": ["trends"],
+            "cluster_id": [opp["id"]],
+            "period": [period["code"]]
+        }
+        query_str = "?" + urlencode(link_params, doseq=True)
+        
+        query_str = "?" + urlencode(link_params, doseq=True)
+        
+        # Build cards grid for tooltip
+        card_html = '<div class="tooltip-grid">'
+        if opp.get("cards"):
+            from src.ui import _enrich_and_sort_cards
+            sorted_cards = _enrich_and_sort_cards(opp["cards"])
+            for c in sorted_cards:
+                c_set = c.get("set", "")
+                c_num = c.get("number", "")
+                try: p_num = f"{int(c_num):03d}"
+                except: p_num = c_num
+                img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                count = c.get("count", 1)
+                for _ in range(count):
+                    card_html += f'<img src="{img}" class="tooltip-card-img">'
+        card_html += '</div>'
+        
+        html += textwrap.dedent(f"""
+            <th>
+                <div class="header-tooltip">
+                    <a href="{query_str}" target="_self" style="color: #1ed760; text-decoration: none;">{name}</a>
+                    <div class="tooltiptext">
+                        <div style="font-weight: bold; margin-bottom: 5px;">{name}</div>
+                        {card_html}
+                    </div>
+                </div>
+            </th>
+        """).strip()
+    html += "</tr></thead><tbody>"
+
+    for sig in sigs:
+        row_name = get_display_name(sig)
+        if show_ja: row_name = trans.get(row_name, row_name)
+        color = sig_to_color.get(sig, "#ccc")
+        
+        # Row header with dot and signature
+        html += textwrap.dedent(f"""
+            <tr>
+                <td class="matchup-side-col">
+                    <div style="display: flex; align-items: center; margin-bottom: 2px;">
+                        <span style="width: 8px; height: 8px; border-radius: 50%; background-color: {color}; margin-right: 6px; display: inline-block;"></span>
+                        <span style="font-weight: 600;">{row_name}</span>
+                    </div>
+                    <div style="font-size: 0.8em; opacity: 0.5; margin-left: 14px;">{sig}</div>
+                </td>
+        """).strip()
+        
+        for opp in opponents:
+            cid = opp["id"]
+            stats = matrix_data.get((sig, cid), {"w": 0, "l": 0, "t": 0})
+            w, l, t = stats["w"], stats["l"], stats["t"]
+            total = w + l + t
+            
+            wr = (w / total * 100) if total > 0 else 0
+            from src.utils import calculate_confidence_interval, calculate_bayesian_win_probability
+            lower, _ = calculate_confidence_interval(w, total)
+            prob = calculate_bayesian_win_probability(w, total)
+            
+            # Heatmap Color
+            bg_color = "rgba(40, 42, 54, 0.8)" # Default gray-ish
+            if total > 0:
+                if heatmap_metric == "Prob":
+                    if prob > 50:
+                        alpha = min(0.8, 0.2 + (prob - 50) / 50)
+                        bg_color = f"rgba(84, 112, 198, {alpha})" # Blue
+                    elif prob < 50:
+                        alpha = min(0.8, 0.2 + (50 - prob) / 50)
+                        bg_color = f"rgba(238, 102, 102, {alpha})" # Red
+                    else:
+                        bg_color = "rgba(255, 255, 255, 0.1)" # White/Neutral
+                elif heatmap_metric == "WR":
+                    if wr > 50:
+                        alpha = min(0.8, 0.2 + (wr - 50) / 50)
+                        bg_color = f"rgba(84, 112, 198, {alpha})" # Blue
+                    elif wr < 50:
+                        alpha = min(0.8, 0.2 + (50 - wr) / 50)
+                        bg_color = f"rgba(238, 102, 102, {alpha})" # Red
+                    else:
+                        bg_color = "rgba(255, 255, 255, 0.1)" # White/Neutral
+                elif heatmap_metric == "Matches":
+                    # For matches, we use a simple linear scale relative to a reasonable "high" value (e.g., 50)
+                    alpha = min(0.8, 0.1 + (total / 50) * 0.7)
+                    bg_color = f"rgba(145, 204, 117, {alpha})" # Green-ish for volume
+            
+            html += f'<td class="matchup-cell" style="background-color: {bg_color};">'
+            if total > 0:
+                # Order: Win Prob, WR, Matches
+                html += f'<span class="cell-main" title="Win Probability">{prob:.1f}%</span>'
+                html += f'<span class="cell-sub" title="Win Rate">{wr:.1f}%</span>'
+                html += f'<span class="cell-matches">{total} matches</span>'
+            else:
+                html += '<span style="opacity: 0.2;">-</span>'
+            html += "</td>"
+            
+        html += "</tr>"
+        
+    html += "</tbody></table></div>"
     st.markdown(html, unsafe_allow_html=True)

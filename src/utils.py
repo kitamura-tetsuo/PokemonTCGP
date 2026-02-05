@@ -37,3 +37,37 @@ def calculate_confidence_interval(wins, total, z=1.96):
     upper_bound = max(0.0, min(upper_bound, 1.0)) * 100
     
     return lower_bound, upper_bound
+
+def calculate_bayesian_win_probability(wins, total):
+    """
+    Calculate the probability that the true win rate is > 50% using Bayesian estimation.
+    Assumes a Beta(1,1) prior, so the posterior is Beta(wins+1, total-wins+1).
+    We use a normal approximation for $P(X > 0.5)$.
+    """
+    if total == 0:
+        return 50.0 # Neutral
+
+    # For Beta(a, b):
+    # Mean = a / (a + b)
+    # Var = ab / ((a+b)^2 * (a+b+1))
+    a = wins + 1
+    b = (total - wins) + 1
+    
+    mean = a / (a + b)
+    var = (a * b) / ((a + b)**2 * (a + b + 1))
+    sd = math.sqrt(var)
+    
+    if sd == 0:
+        return 100.0 if mean > 0.5 else 0.0
+    
+    # Z-score for 0.5
+    z = (0.5 - mean) / sd
+    
+    # Normal CDF approximation using erf
+    # Phi(x) = 0.5 * (1 + erf(x / sqrt(2)))
+    def phi(x):
+        return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+    
+    # Probability (X > 0.5) = 1 - Phi(z) = Phi(-z)
+    prob = phi(-z)
+    return prob * 100
