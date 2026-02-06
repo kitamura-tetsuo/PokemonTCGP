@@ -7,6 +7,7 @@ from collections import Counter, defaultdict
 from src.data import load_enriched_sets, get_deck_details_by_signature, _scan_and_aggregate
 from src.hashing import compute_deck_signature
 from src.simulator import run_simulation, convert_signature_to_deckgym
+from scipy.stats import chi2_contingency
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -132,17 +133,26 @@ def analyze_matchups():
     top_matchups = {}
     if os.path.exists(TOP_MATCHUPS_CACHE_FILE):
         with open(TOP_MATCHUPS_CACHE_FILE, "r") as f:
-            top_matchups = json.load(f)
-            # JSON keys are strings, but we might want to keep the structure
-            
-    periods = get_set_periods()
-    
-    # If cache is empty or incomplete, we need to scan
+            raw_top_matchups = json.load(f)
+            # Filter out mirror matches from cache in case they were already there
+            for code, entries in raw_top_matchups.items():
+                filtered_entries = [e for e in entries if e["pair"][0] != e["pair"][1]]
+                if filtered_entries:
+                    top_matchups[code] = filtered_entries
+            # If cache is empty or incomplete, we need to scan
+    # Also re-scan if we want to ensure 300+ match filter is applied across all periods
     needs_scan = False
+    periods = get_set_periods() # This line was moved here from below the needs_scan block
     for p in periods:
         if p["code"] not in top_matchups:
             needs_scan = True
             break
+        # Check if cached matches meet the 300 criteria (if we can verify it easily)
+        # For now, let's just force a scan if we're changing the rules, 
+        # but the logic below will already re-evaluate anyway if we don't return early.
+    
+    # Actually, let's force a scan this time to apply the 300 filter.
+    needs_scan = True
             
     # Also need all-time stats for the selected pairs
     # Wait, the requirement says "tournament win rates はペアの選出期間に限らず、全期間を対象にして算出して下さい。"
@@ -181,16 +191,22 @@ def analyze_matchups():
             if (not p["start"] or date_str >= p["start"]) and (not p["end"] or date_str <= p["end"]):
                 period_matchup_counts[p["code"]][pair_key] += 1
                 
-    # Determine top 3 matchups per period (excluding mirror matches)
+    # Determine top 3 matchups per period (excluding mirror matches and < 300 total matches)
+    top_matchups = {} # Reset to apply new filters
     for p in periods:
         code = p["code"]
-        if code not in top_matchups:
-            counts = period_matchup_counts[code]
-            # Filter out mirror matches (same deck vs same deck)
-            non_mirror_pairs = [(pair, count) for pair, count in counts.items() if pair[0] != pair[1]]
-            # Sort by count descending and take top 3
-            non_mirror_pairs.sort(key=lambda x: x[1], reverse=True)
-            top_3 = non_mirror_pairs[:3]
+        counts = period_matchup_counts[code]
+        # Filter out mirror matches AND ensure total all-time matches >= 300
+        valid_pairs = []
+        for pair, count in counts.items():
+            if pair[0] != pair[1] and all_time_matchup_stats[pair]["total"] >= 300:
+                valid_pairs.append((pair, count))
+        
+        # Sort by count (period frequency) descending and take top 3
+        valid_pairs.sort(key=lambda x: x[1], reverse=True)
+        top_3 = valid_pairs[:3]
+        
+        if top_3:
             # Convert keys to list of strings for JSON
             top_matchups[code] = [{
                 "pair": list(pair),
@@ -239,11 +255,11 @@ def run_and_report():
         # For this script, let's ensure at least 100 games in total.
         
         current_total = cached.get("total", 0)
-        needed = max(0, 100 - current_total)
+        needed = max(0, 1000 - current_total)
         
         if needed > 0:
-            logger.info(f"Simulating {sig1} vs {sig2} for {needed} games (already have {current_total})...")
-            print(f"[{len(results)+1}/{len(unique_pairs_to_simulate)}] Simulating {sig1} vs {sig2}...")
+            logger.info(f"Simulating {sig1} vs {sig2} for {needed} games (already have {current_total}, target 1000)...")
+            print(f"[{len(results)+1}/{len(unique_pairs_to_simulate)}] Simulating {sig1} vs {sig2} (need {needed} more)...")
             try:
                 deck1_path = convert_signature_to_deckgym(sig1)
                 deck2_path = convert_signature_to_deckgym(sig2)
@@ -279,11 +295,30 @@ def run_and_report():
             
             # Tournament Stats (p1 vs p2)
             stats = all_time_stats.get(pair_key, {"wins": 0, "total": 0})
-            t_wr = (stats["wins"] / stats["total"] * 100) if stats["total"] > 0 else 0
+            t_wins = stats["wins"]
+            t_total = stats["total"]
+            t_wr = (t_wins / t_total * 100) if t_total > 0 else 0
             
             # Simulation Stats
             s_cached = sim_cache.get(pair_key_str, {"wins": 0, "total": 0})
-            s_wr = (s_cached["wins"] / s_cached["total"] * 100) if s_cached["total"] > 0 else 0
+            s_wins = s_cached["wins"]
+            s_total = s_cached["total"]
+            s_wr = (s_wins / s_total * 100) if s_total > 0 else 0
+
+            # Chi-squared test
+            p_val = "-"
+            if t_total > 0 and s_total > 0:
+                # 2x2 contingency table: [[Tournament Wins, Tournament Losses], [Sim Wins, Sim Losses]]
+                # Using max(0, ...) to ensure no negative counts due to tie handling (0.5 wins)
+                table = [
+                    [t_wins, max(0, t_total - t_wins)],
+                    [s_wins, max(0, s_total - s_wins)]
+                ]
+                try:
+                    chi2, p, dof, ex = chi2_contingency(table)
+                    p_val = f"{p:.3f}"
+                except Exception:
+                    p_val = "Error"
             
             name1 = deck_details.get(sig1, {}).get("name", sig1)
             name2 = deck_details.get(sig2, {}).get("name", sig2)
@@ -293,10 +328,11 @@ def run_and_report():
                 "Deck 1": f"{name1} ({sig1[:6]})",
                 "Deck 2": f"{name2} ({sig2[:6]})",
                 "Matches": entry["count"],
-                "Total T-Matches": stats["total"],
+                "Total T-Matches": t_total,
                 "T-WinRate %": f"{t_wr:.1f}%",
                 "S-WinRate %": f"{s_wr:.1f}%",
-                "Diff": f"{abs(t_wr - s_wr):.1f}%"
+                "Diff": f"{abs(t_wr - s_wr):.1f}%",
+                "Chi2 p-value": p_val
             })
             
     df = pd.DataFrame(all_rows)

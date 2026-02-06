@@ -71,3 +71,20 @@ def calculate_bayesian_win_probability(wins, total):
     # Probability (X > 0.5) = 1 - Phi(z) = Phi(-z)
     prob = phi(-z)
     return prob * 100
+
+def is_local():
+    """
+    Detect if the application is running in a local/development environment.
+    """
+    import os
+    # Check for common dev environment indicators
+    if os.environ.get("IS_LOCAL_DEV") == "true":
+        return True
+    if os.environ.get("TERM_PROGRAM") == "vscode":
+        return True
+    
+    # Check for DeckGym directory which is usually only mapped in local dev
+    if os.path.exists("/workspaces/deckgym-core"):
+        return True
+        
+    return False

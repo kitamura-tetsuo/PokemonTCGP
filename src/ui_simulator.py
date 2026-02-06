@@ -11,13 +11,17 @@ from src.data import (
     get_period_statistics,
     get_cluster_mapping
 )
-from src.ui import (
-    _get_set_periods, render_card_grid, _enrich_and_sort_cards
+from src.utils import (
+    format_deck_name, calculate_confidence_interval, is_local
 )
 from src.simulator import convert_signature_to_deckgym, run_simulation, DECKS_DIR
 from src.config import IMAGE_BASE_URL
 
 def render_simulator_page():
+    if not is_local():
+        st.error("The Simulator is only available in local/development environments.")
+        return
+
     st.header("Deck Simulator")
     st.markdown("Simulate matches between your custom deck and the top meta decks using **DeckGym**.")
 
