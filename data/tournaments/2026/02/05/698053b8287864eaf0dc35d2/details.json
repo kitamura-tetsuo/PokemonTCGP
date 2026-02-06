@@ -1,0 +1,29 @@
+{
+  "id": "698053b8287864eaf0dc35d2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x \ud83e\uddcbdrinker Mega Series #1-$10 + OAK",
+  "date": "2026-02-05T19:10:00.000Z",
+  "players": 287,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
