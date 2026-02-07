@@ -1,0 +1,29 @@
+{
+  "id": "69856ee0bd2fb4559555e48f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc9d(Rapid) Pocket Warm Up (B2) #3\ud83d\udc9d5\ud83d\udcb0+Lotto",
+  "date": "2026-02-06T20:40:00.000Z",
+  "players": 136,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}
