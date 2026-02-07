@@ -1,0 +1,29 @@
+{
+  "id": "6970134f9c739a2ff7bf46db",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "3+ Retreat Cost - Heavy Boulder #2 (FA Cyrus)",
+  "date": "2026-02-06T19:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

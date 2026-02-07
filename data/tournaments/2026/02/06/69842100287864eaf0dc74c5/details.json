@@ -1,0 +1,29 @@
+{
+  "id": "69842100287864eaf0dc74c5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Friday Showdown ($5 USD) + RR",
+  "date": "2026-02-06T18:00:00.000Z",
+  "players": 210,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
