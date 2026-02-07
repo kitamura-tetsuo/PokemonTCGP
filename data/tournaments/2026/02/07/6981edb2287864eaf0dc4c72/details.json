@@ -1,0 +1,29 @@
+{
+  "id": "6981edb2287864eaf0dc4c72",
+  "game": "POCKET",
+  "format": null,
+  "name": "Hype Packs! Fantastical Friday! 6x FA for top 4!",
+  "date": "2026-02-07T00:15:00.000Z",
+  "players": 157,
+  "organizer": {
+    "id": 2515,
+    "name": "Hype Packs!"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
