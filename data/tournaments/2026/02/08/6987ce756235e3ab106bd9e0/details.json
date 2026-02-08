@@ -1,0 +1,29 @@
+{
+  "id": "6987ce756235e3ab106bd9e0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rapid - Random Pop Up (B2) #5 (5$ + Lotto)",
+  "date": "2026-02-08T00:45:00.000Z",
+  "players": 61,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
