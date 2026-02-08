@@ -1,0 +1,29 @@
+{
+  "id": "69879e9b6235e3ab106bd644",
+  "game": "POCKET",
+  "format": null,
+  "name": "[20$ PRIZEPOOL] Pop Up Tourney :/",
+  "date": "2026-02-07T22:04:00.000Z",
+  "players": 92,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
