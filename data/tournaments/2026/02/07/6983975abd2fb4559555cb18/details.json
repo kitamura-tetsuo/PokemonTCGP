@@ -1,0 +1,29 @@
+{
+  "id": "6983975abd2fb4559555cb18",
+  "game": "POCKET",
+  "format": null,
+  "name": "Chaos League Pocket Saturdays #53",
+  "date": "2026-02-07T22:30:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 1254,
+    "name": "Chaos League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
