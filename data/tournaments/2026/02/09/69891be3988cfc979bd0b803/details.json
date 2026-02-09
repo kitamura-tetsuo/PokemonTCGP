@@ -1,0 +1,29 @@
+{
+  "id": "69891be3988cfc979bd0b803",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm's Late Night Pop Up #6-$10",
+  "date": "2026-02-09T05:20:00.000Z",
+  "players": 130,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
