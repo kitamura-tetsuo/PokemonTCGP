@@ -1,0 +1,35 @@
+{
+  "id": "698415d1287864eaf0dc749a",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "VoidPocket NoEx League #01($50)",
+  "date": "2026-02-09T01:25:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
