@@ -1,0 +1,91 @@
+{
+  "id": "6989454b988cfc979bd0b9ac",
+  "game": "POCKET",
+  "format": null,
+  "name": "XTREM SERIES Tournament COIN FLIP BANNED",
+  "date": "2026-02-09T16:00:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2188,
+    "name": "Legendixo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Will",
+      "set": "A4",
+      "number": "156"
+    },
+    {
+      "name": "Lucky ice pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Misty",
+      "set": "A1",
+      "number": "220"
+    },
+    {
+      "name": "Team rocket grunt",
+      "set": "A2b",
+      "number": "91"
+    },
+    {
+      "name": "Swablu",
+      "set": "B1",
+      "number": "196"
+    },
+    {
+      "name": "Mega lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Alolan exeggutor",
+      "set": "A3",
+      "number": "156"
+    },
+    {
+      "name": "exeggutor ex",
+      "set": "A4b",
+      "number": "13"
+    },
+    {
+      "name": "exeggutor",
+      "set": "A1",
+      "number": "22"
+    },
+    {
+      "name": "Type: null",
+      "set": "B1a",
+      "number": "96"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Bastidon",
+      "set": "A2",
+      "number": "114"
+    }
+  ]
+}
