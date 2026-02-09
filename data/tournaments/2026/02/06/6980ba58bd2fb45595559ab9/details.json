@@ -1,0 +1,29 @@
+{
+  "id": "6980ba58bd2fb45595559ab9",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf89 BEC'S 25$ CARNIVAL CUP- M GARDEVOIR FA",
+  "date": "2026-02-06T14:30:00.000Z",
+  "players": 187,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
