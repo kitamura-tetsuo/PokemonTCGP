@@ -1,0 +1,29 @@
+{
+  "id": "698b09c86235e3ab106bfd53",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6(B2) Ranked\ud83c\udfc6Pocket Warm Up #4 (10$/2xCopy Cat)",
+  "date": "2026-02-10T14:45:00.000Z",
+  "players": 168,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}
