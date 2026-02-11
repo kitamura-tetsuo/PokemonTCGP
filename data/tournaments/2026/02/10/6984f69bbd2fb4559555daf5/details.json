@@ -1,0 +1,29 @@
+{
+  "id": "6984f69bbd2fb4559555daf5",
+  "game": "POCKET",
+  "format": null,
+  "name": "El Super TAZON de zVerum 5$ o FA Para la Comunidad",
+  "date": "2026-02-10T19:00:00.000Z",
+  "players": 42,
+  "organizer": {
+    "id": 2550,
+    "name": "zVerum"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
