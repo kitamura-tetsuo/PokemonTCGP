@@ -1,0 +1,29 @@
+{
+  "id": "698b57df988cfc979bd0ce58",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Mega Wars (FA OAK + Copycat Prize)",
+  "date": "2026-02-11T03:00:00.000Z",
+  "players": 122,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
