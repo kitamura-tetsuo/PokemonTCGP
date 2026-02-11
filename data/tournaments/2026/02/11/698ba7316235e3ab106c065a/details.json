@@ -1,0 +1,29 @@
+{
+  "id": "698ba7316235e3ab106c065a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storms Mega Standard #17-$5 + FA Serena",
+  "date": "2026-02-11T04:30:00.000Z",
+  "players": 102,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

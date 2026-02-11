@@ -1,0 +1,29 @@
+{
+  "id": "69853519287864eaf0dc8043",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket showdown #4 20$",
+  "date": "2026-02-10T22:15:00.000Z",
+  "players": 220,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
