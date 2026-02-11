@@ -1,0 +1,23 @@
+{
+  "id": "696127e54500833d87027ba9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udfaf 3v3 Team Tournament #3 - \ud83c\udde7\ud83c\uddf7 Bolados TCG",
+  "date": "2026-02-02T15:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
