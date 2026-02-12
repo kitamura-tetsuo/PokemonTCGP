@@ -52,33 +52,60 @@ def convert_signature_to_deckgym(signature, output_filename=None):
         raise ValueError(f"Could not find details for signature: {signature}")
         
     cards = details["cards"]
-    db = load_deckgym_db()
-    
-    # Determine primary energy type (heuristic)
-    energy_counts = {}
+    # Load extra card data for energy types
+    extra_cards_path = os.path.join(os.getcwd(), "data", "cards", "cards.extra.json")
+    element_map = {}
+    if os.path.exists(extra_cards_path):
+        try:
+            with open(extra_cards_path, "r") as f:
+                extra_data = json.load(f)
+                for item in extra_data:
+                    c_set = item.get("set")
+                    c_num = str(item.get("number"))
+                    element = item.get("element")
+                    if c_set and c_num and element:
+                        element_map[(c_set, c_num)] = element.capitalize()
+        except Exception as e:
+            logger.warning(f"Failed to load extra card data: {e}")
+
+    # Determine all energy types from Pokemon
+    energy_types = set()
+    dg_db = load_deckgym_db()
     for c in cards:
         if c.get("type") == "Pokemon":
-            e_type = get_energy_type_from_db(c.get("name"), c.get("set"), c.get("number"), db)
-            if e_type:
-                energy_counts[e_type] = energy_counts.get(e_type, 0) + c.get("count", 1)
+            # Try element_map first
+            e_type = element_map.get((c.get("set"), str(c.get("number"))))
+            if not e_type:
+                # Fallback to DeckGym DB heuristic
+                e_type = get_energy_type_from_db(c.get("name"), c.get("set"), c.get("number"), dg_db)
+            
+            if e_type and e_type != "Colorless":
+                energy_types.add(e_type)
     
-    primary_energy = "Colorless"
-    if energy_counts:
-        primary_energy = max(energy_counts, key=energy_counts.get)
+    energy_header = ", ".join(sorted(list(energy_types)))
         
     # Write file
-    with open(output_path, "w") as f:
-        f.write(f"Energy: {primary_energy}\n")
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(f"Energy: {energy_header}\n")
         for c in cards:
             c_set = c.get("set")
             c_num = c.get("number")
             count = c.get("count", 1)
-            # DeckGym expects "A1 001" format
+            
+            # Get names
+            name_en = c.get("name") or c.get("card_name") or "Unknown"
+            name_ja = c.get("name_ja")
+            if name_ja and name_ja != name_en:
+                full_name = f"{name_en} ({name_ja})"
+            else:
+                full_name = name_en
+
+            # DeckGym ID format with Name
             try:
                 formatted_num = f"{int(c_num):03d}"
             except:
                 formatted_num = c_num
-            f.write(f"{count} {c_set} {formatted_num}\n")
+            f.write(f"{count} {full_name} {c_set} {formatted_num}\n")
             
     return output_path
 

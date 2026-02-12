@@ -239,13 +239,15 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
                     if not os.path.exists(standings_path):
                         continue
                         
-                    # Get tournament format
+                    # Get tournament format and banned cards
                     t_format = None
+                    t_banned = None
                     if os.path.exists(details_path):
                         try:
                             with open(details_path, "r") as dfp:
                                 det = json.load(dfp)
                                 t_format = det.get("format")
+                                t_banned = det.get("bannedCards")
                         except: pass
                     
                     try:
@@ -304,7 +306,11 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
                             t_decks[sig] = t_decks.get(sig, 0) + 1
                         
                         if t_decks:
-                            day_tournaments[t_id] = {"format": t_format, "decks": t_decks}
+                            day_tournaments[t_id] = {
+                                "format": t_format,
+                                "bannedCards": t_banned,
+                                "decks": t_decks
+                            }
                             
                     except Exception as e:
                         logger.error(f"Error reading {standings_path}: {e}")
@@ -404,6 +410,8 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
         if "tournaments" in day_entry:
             for t_id, t_data in day_entry["tournaments"].items():
                 if standard_only and t_data.get("format") is not None:
+                    continue
+                if t_data.get("bannedCards") is not None:
                     continue
                 day_decks.update(t_data.get("decks", {}))
         elif "decks" in day_entry:
@@ -709,6 +717,8 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
             for t_id, t_data in day_entry["tournaments"].items():
                 if standard_only and t_data.get("format") is not None:
                     continue
+                if t_data.get("bannedCards") is not None:
+                    continue
                 for sig, count in t_data.get("decks", {}).items():
                     c_info = sig_to_cluster.get(sig)
                     c_label = f"{c_info['representative_name']} (Cluster {c_info['id']})" if c_info else f"Unclustered ({sig})"
@@ -964,6 +974,8 @@ def get_multi_group_trend_data(groups, window=7, start_date=None, end_date=None,
         if "tournaments" in day_entry:
             for t_id, t_data in day_entry["tournaments"].items():
                 if standard_only and t_data.get("format") is not None:
+                    continue
+                if t_data.get("bannedCards") is not None:
                     continue
                 day_total += sum(t_data.get("decks", {}).values())
         elif "decks" in day_entry:
