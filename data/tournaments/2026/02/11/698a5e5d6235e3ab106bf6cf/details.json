@@ -1,0 +1,29 @@
+{
+  "id": "698a5e5d6235e3ab106bf6cf",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Tournament",
+  "date": "2026-02-11T20:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
