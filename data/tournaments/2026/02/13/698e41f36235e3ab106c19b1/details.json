@@ -1,0 +1,29 @@
+{
+  "id": "698e41f36235e3ab106c19b1",
+  "game": "POCKET",
+  "format": null,
+  "name": "HC #1 - Prize \ud83c\udfc6 Mega Absol/Steelix rainbow \ud83c\udfc6",
+  "date": "2026-02-13T13:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2055,
+    "name": "HC Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

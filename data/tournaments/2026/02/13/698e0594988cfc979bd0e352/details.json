@@ -1,0 +1,29 @@
+{
+  "id": "698e0594988cfc979bd0e352",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Mega Wars (FA OAK Prize)",
+  "date": "2026-02-13T03:00:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
