@@ -1,0 +1,29 @@
+{
+  "id": "698ca71f988cfc979bd0db00",
+  "game": "POCKET",
+  "format": null,
+  "name": "Ranked (B2) Practice Day #2 [BO3] (FA Ninja/Irida)",
+  "date": "2026-02-12T22:05:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
