@@ -1,0 +1,29 @@
+{
+  "id": "6970134b9c739a2ff7bf46da",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "3+ Retreat Cost - Heavy Boulder #3 (DLX Lusamine)",
+  "date": "2026-02-13T19:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

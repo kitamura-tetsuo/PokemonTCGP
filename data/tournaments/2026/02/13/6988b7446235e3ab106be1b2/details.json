@@ -1,0 +1,29 @@
+{
+  "id": "6988b7446235e3ab106be1b2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans Pok\u00e9mon TCGP Chile Open #2",
+  "date": "2026-02-13T22:05:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 2364,
+    "name": "Fan Pok\u00e9mon TCG Pocket LATAM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}
