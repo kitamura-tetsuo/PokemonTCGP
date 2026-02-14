@@ -1,0 +1,29 @@
+{
+  "id": "698cab4a988cfc979bd0db15",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf89 25$ + 1-4 FA PRIZES -BEC'S 25$ CARNIVAL CUP \ud83c\udf89",
+  "date": "2026-02-13T14:30:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
