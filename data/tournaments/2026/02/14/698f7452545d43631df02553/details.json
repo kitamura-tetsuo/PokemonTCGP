@@ -1,0 +1,29 @@
+{
+  "id": "698f7452545d43631df02553",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Friday Nite Mashup ($5 USD)",
+  "date": "2026-02-14T03:25:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
