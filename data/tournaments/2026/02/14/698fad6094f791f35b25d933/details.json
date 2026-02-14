@@ -1,0 +1,36 @@
+{
+  "id": "698fad6094f791f35b25d933",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Rapid Special#4[Indeedee BAN\u274c]RR Mega Absol",
+  "date": "2026-02-14T00:05:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Ineedee EX",
+      "set": "B1",
+      "number": "121"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6987842f988cfc979bd0a201",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker PopUp#2 FA Cyrus& RR Kang",
+  "date": "2026-02-13T16:40:00.000Z",
+  "players": 62,
+  "organizer": {
+    "id": 2544,
+    "name": "hvk Takeover"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
