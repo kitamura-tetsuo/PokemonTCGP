@@ -1,0 +1,35 @@
+{
+  "id": "698bb287988cfc979bd0d376",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Format : no ex, monotype, singleton",
+  "date": "2026-02-14T19:30:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 371,
+    "name": "Dodo's tournament"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON",
+    "SINGLETON_NAME"
+  ]
+}
