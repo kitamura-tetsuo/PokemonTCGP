@@ -1,0 +1,29 @@
+{
+  "id": "698ca784988cfc979bd0db04",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2764\ufe0fHappy Valentine's Day (5$/Lisia/A.9tales)\u2764\ufe0f",
+  "date": "2026-02-14T22:15:00.000Z",
+  "players": 73,
+  "organizer": {
+    "id": 2487,
+    "name": "Mega League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
