@@ -1,0 +1,29 @@
+{
+  "id": "69856135287864eaf0dc82d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rare Candy Cartel SHADOW SHOWDOWN #5 $105 + OAK",
+  "date": "2026-02-15T18:00:00.000Z",
+  "players": 222,
+  "organizer": {
+    "id": 2486,
+    "name": "Rare Candy Cartel "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
