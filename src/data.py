@@ -244,14 +244,16 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
                     t_banned = None
                     if os.path.exists(details_path):
                         try:
-                            with open(details_path, "r") as dfp:
+                            with open(details_path, "r", encoding="utf-8") as dfp:
                                 det = json.load(dfp)
                                 t_format = det.get("format")
                                 t_banned = det.get("bannedCards")
-                        except: pass
+                        except Exception as e:
+                            logger.warning(f"Failed to read details for {t_id}: {e}")
+                            continue
                     
                     try:
-                        with open(standings_path, "r") as f:
+                        with open(standings_path, "r", encoding="utf-8") as f:
                             standings = json.load(f)
                             
                         t_decks = {}
@@ -411,7 +413,7 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
             for t_id, t_data in day_entry["tournaments"].items():
                 if standard_only and t_data.get("format") is not None:
                     continue
-                if t_data.get("bannedCards") is not None:
+                if t_data.get("bannedCards"):
                     continue
                 day_decks.update(t_data.get("decks", {}))
         elif "decks" in day_entry:
@@ -717,7 +719,7 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
             for t_id, t_data in day_entry["tournaments"].items():
                 if standard_only and t_data.get("format") is not None:
                     continue
-                if t_data.get("bannedCards") is not None:
+                if t_data.get("bannedCards"):
                     continue
                 for sig, count in t_data.get("decks", {}).items():
                     c_info = sig_to_cluster.get(sig)
