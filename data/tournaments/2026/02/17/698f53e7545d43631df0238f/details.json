@@ -1,0 +1,29 @@
+{
+  "id": "698f53e7545d43631df0238f",
+  "game": "POCKET",
+  "format": null,
+  "name": "HC #2 - Prize \ud83c\udfc6\ud83c\udccfChoose a card in description\ud83c\udccf\ud83c\udfc6",
+  "date": "2026-02-17T16:00:00.000Z",
+  "players": 71,
+  "organizer": {
+    "id": 2055,
+    "name": "HC Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
