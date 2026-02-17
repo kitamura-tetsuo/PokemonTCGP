@@ -1,0 +1,29 @@
+{
+  "id": "6992f34994f791f35b25f924",
+  "game": "POCKET",
+  "format": null,
+  "name": "#2 2026 - 16.02.2025 [PL-only]",
+  "date": "2026-02-16T18:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
