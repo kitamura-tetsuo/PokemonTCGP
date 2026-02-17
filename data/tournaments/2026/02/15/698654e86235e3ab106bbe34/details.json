@@ -1,0 +1,29 @@
+{
+  "id": "698654e86235e3ab106bbe34",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Nalu's Cup #02 Double Decks R$ 100 / U$ 20",
+  "date": "2026-02-15T19:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 1984,
+    "name": "Brasil TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
