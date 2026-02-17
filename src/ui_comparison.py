@@ -226,8 +226,11 @@ def render_comparison_page():
     # 4. Comparison Table
     _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color)
 
-    # 5. Matchup Matrix
+    # 5. Matchup Matrix (vs Top Meta)
     _render_matchup_matrix(sigs, selected_period, deck_details, sig_to_color)
+
+    # 6. Matchup Matrix (Selected vs Selected)
+    _render_selected_matchup_matrix(sigs, selected_period, deck_details, sig_to_color)
 
     # Show Deck Details (Cards)
     st.divider()
@@ -747,7 +750,264 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                 table_html += '<span style="opacity: 0.2;">-</span>'
             table_html += "</td>"
             
-        table_html += "</tr>"
+    table_html += "</tbody></table></div>"
+    st.markdown(table_html, unsafe_allow_html=True)
+
+def _render_selected_matchup_matrix(sigs, period, deck_details, sig_to_color):
+    st.divider()
+    title = "Matchup Matrix (Selected Decks)"
+    caption_text = "Matches between the decks you have selected."
+
+    show_ja = st.session_state.get("show_japanese_toggle", False)
+    if show_ja:
+        title = "選択デッキ間マトリクス"
+        caption_text = "選択したデッキ同士の対戦成績"
+        caption_text += " (セル内: 勝ち越し確率、勝率、試合数)"
+    else:
+        caption_text += " (Cell: Win Probability, Win Rate, Matches)"
+    
+    st.subheader(title)
+    st.caption(caption_text)
+
+    # Metric Selector (reuse key with unique suffix)
+    col_m1, col_m2 = st.columns([1, 2])
+    with col_m1:
+        metric_options = ["Win Probability (Bayesian)", "Win Rate", "Matches"]
+        if show_ja:
+            metric_options = ["勝ち越し確率 (ベイズ)", "勝率", "試合数"]
         
+        heatmap_metric = st.selectbox(
+            "Heatmap Basis", 
+            options=["Prob", "WR", "Matches"],
+            format_func=lambda x: metric_options[["Prob", "WR", "Matches"].index(x)],
+            key="selected_matchup_heatmap_metric"
+        )
+
+    with st.spinner("Calculating selected matchup statistics..."):
+        from src.data import (
+            get_cluster_mapping, get_match_history, _get_all_signatures
+        )
+        
+        sig_to_cluster, id_to_cluster = get_cluster_mapping()
+        all_sigs_data = _get_all_signatures()
+
+        # Build Lookups
+        # We need to map any observed signature to one of our selected 'columns' (which are also 'rows')
+        # sig_to_col_indices = {signature: [index_in_sigs, ...]}
+        sig_to_col_indices = {}
+        
+        # Also need appearances to fetch matches
+        all_appearances_to_lookup = []
+        app_to_sig_map = {} # (t_id, player_id, date) -> list of [row_idx]
+
+        for idx, sig in enumerate(sigs):
+            # Resolve sig to target signatures (if it's a cluster)
+            target_sigs = []
+            if sig.startswith("Cluster "):
+                try:
+                    cid = sig.split("Cluster ")[1].split(")")[0]
+                    if cid in id_to_cluster:
+                        target_sigs = id_to_cluster[cid]["signatures"]
+                except: pass
+            elif sig in id_to_cluster:
+                target_sigs = id_to_cluster[sig]["signatures"]
+            else:
+                target_sigs = [sig]
+            
+            # Update Mapping
+            for ts in target_sigs:
+                if ts not in sig_to_col_indices:
+                    sig_to_col_indices[ts] = []
+                sig_to_col_indices[ts].append(idx)
+
+            # Get appearances for these signatures in the period
+            for t_sig in target_sigs:
+                if t_sig in all_sigs_data:
+                    apps = all_sigs_data[t_sig].get("appearances", [])
+                    for a in apps:
+                        d = a["date"]
+                        if (not period["start"] or d >= period["start"]) and (not period["end"] or d <= period["end"]):
+                            app_key = (a["t_id"], a["player_id"], d)
+                            if app_key not in app_to_sig_map:
+                                app_to_sig_map[app_key] = []
+                                all_appearances_to_lookup.append(a)
+                            # Avoid duplicates if multiple target sets map to same row (unlikely but possible)
+                            if idx not in app_to_sig_map[app_key]:
+                                app_to_sig_map[app_key].append(idx)
+
+        # Fetch Matches
+        matrix_data = {} # (row_idx, col_idx) -> {w, l, t}
+
+        if all_appearances_to_lookup:
+            all_matches = get_match_history(all_appearances_to_lookup)
+            
+            for m in all_matches:
+                opp_sig = m.get("opponent_sig")
+                
+                # Check if opponent belongs to one of our selected groups
+                if opp_sig in sig_to_col_indices:
+                    res = m.get("result")
+                    
+                    # Map this match back to all comparison groups that share this appearance (players)
+                    app_key = (m["t_id"], m["player"], m["date"])
+                    for row_idx in app_to_sig_map.get(app_key, []):
+                        
+                        # And map opponent to all matching columns
+                        for col_idx in sig_to_col_indices[opp_sig]:
+                            key = (row_idx, col_idx)
+                            if key not in matrix_data:
+                                matrix_data[key] = {"w": 0, "l": 0, "t": 0}
+                            
+                            if res == "Win": matrix_data[key]["w"] += 1
+                            elif res == "Loss": matrix_data[key]["l"] += 1
+                            elif res == "Tie": matrix_data[key]["t"] += 1
+
+    # Render Table
+    from src.data import load_translations
+    trans = load_translations() if show_ja else {}
+
+    def get_display_name(ident):
+        details = deck_details.get(ident, {}) or {}
+        return details.get("name", ident)
+
+    table_html = textwrap.dedent(f"""
+        <style>
+        .matchup-matrix th, .matchup-matrix td {{ padding: 8px 4px; text-align: center; vertical-align: middle; min-width: 65px; }}
+        .matchup-header-row th {{ background-color: #1a1c24; color: #888; text-transform: uppercase; font-size: 9px; letter-spacing: 0.05em; position: relative; }}
+        .matchup-side-col {{ background-color: #1a1c24; text-align: left !important; font-weight: 500; min-width: 140px !important; }}
+        .matchup-cell {{ border-radius: 3px; position: relative; }}
+        .cell-main {{ font-size: 1.1em; font-weight: bold; display: block; }}
+        .cell-sub {{ font-size: 0.85em; opacity: 0.8; display: block; }}
+        .cell-matches {{ font-size: 0.75em; opacity: 0.5; display: block; }}
+        
+        .header-tooltip {{ position: relative; display: inline-block; width: 100%; height: 100%; }}
+        .tooltiptext {{
+            visibility: hidden; width: 340px; background-color: #1e1e1e; color: #fff;
+            text-align: center; border-radius: 8px; padding: 10px; position: absolute;
+            z-index: 1000; top: 110%; left: 50%; transform: translateX(-50%);
+            opacity: 0; transition: opacity 0.3s, transform 0.3s; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            pointer-events: none;
+            border: 1px solid rgba(255,255,255,0.1);
+        }}
+        .matchup-header-row th:hover .tooltiptext {{ visibility: visible; opacity: 1; transform: translateX(-50%) translateY(5px); }}
+        .tooltip-grid {{ display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; justify-items: center; margin-top: 5px; }}
+        .tooltip-card-img {{ width: 30px; height: auto; border-radius: 2px; }}
+        </style>
+        <div style="overflow-x: auto;">
+        <table class="matchup-matrix">
+            <thead>
+                <tr class="matchup-header-row">
+                    <th style="background: none;"></th>
+    """).strip()
+
+    # Header Row (Columns)
+    for col_sig in sigs:
+        name = get_display_name(col_sig)
+        if show_ja: name = trans.get(name, name)
+        color = sig_to_color.get(col_sig, "#ccc")
+        
+        # Tooltip content (cards)
+        card_html = '<div class="tooltip-grid">'
+        details = deck_details.get(col_sig, {})
+        if details.get("cards"):
+            from src.ui import _enrich_and_sort_cards
+            sorted_cards = _enrich_and_sort_cards(details["cards"])
+            for c in sorted_cards:
+                c_set = c.get("set", "")
+                c_num = c.get("number", "")
+                try: p_num = f"{int(c_num):03d}"
+                except: p_num = c_num
+                img = f"{IMAGE_BASE_URL}/{c_set}/{c_set}_{p_num}_EN_SM.webp"
+                count = c.get("count", 1)
+                for _ in range(count):
+                    safe_c_name = html.escape(c.get("name") or c.get("card_name") or "Unknown")
+                    card_html += f'<img src="{img}" class="tooltip-card-img" title="{safe_c_name}">'
+        card_html += '</div>'
+
+        table_html += textwrap.dedent(f"""
+            <th>
+                <div class="header-tooltip">
+                    <span style="color: {color}; font-weight: bold;">{name}</span>
+                    <div class="tooltiptext">
+                        <div style="font-weight: bold; margin-bottom: 5px;">{name}</div>
+                        {card_html}
+                    </div>
+                </div>
+            </th>
+        """).strip()
+    
+    table_html += "</tr></thead><tbody>"
+
+    # Data Rows
+    for row_idx, row_sig in enumerate(sigs):
+        row_name = get_display_name(row_sig)
+        if show_ja: row_name = trans.get(row_name, row_name)
+        color = sig_to_color.get(row_sig, "#ccc")
+        
+        table_html += textwrap.dedent(f"""
+            <tr>
+                <td class="matchup-side-col">
+                    <div style="display: flex; align-items: center; margin-bottom: 2px;">
+                        <span style="width: 8px; height: 8px; border-radius: 50%; background-color: {color}; margin-right: 6px; display: inline-block;"></span>
+                        <span style="font-weight: 600;">{row_name}</span>
+                    </div>
+                </td>
+        """).strip()
+        
+        for col_idx, col_sig in enumerate(sigs):
+            stats = matrix_data.get((row_idx, col_idx), {"w": 0, "l": 0, "t": 0})
+            w, l, t = stats["w"], stats["l"], stats["t"]
+            total = w + l + t
+            
+            # Diagonal handling: Mirror matches are included, but we might want to grey them out or handle differently?
+            # Standard matrix usually shows them.
+            
+            wr = (w / total * 100) if total > 0 else 0
+            from src.utils import calculate_confidence_interval, calculate_bayesian_win_probability
+            prob = calculate_bayesian_win_probability(w, total)
+            
+            # Heatmap Color
+            bg_color = "rgba(40, 42, 54, 0.8)" 
+            if total > 0:
+                if heatmap_metric == "Prob":
+                    if prob > 50:
+                        alpha = min(0.8, 0.2 + (prob - 50) / 50)
+                        bg_color = f"rgba(84, 112, 198, {alpha})" 
+                    elif prob < 50:
+                        alpha = min(0.8, 0.2 + (50 - prob) / 50)
+                        bg_color = f"rgba(238, 102, 102, {alpha})"
+                    else:
+                        bg_color = "rgba(255, 255, 255, 0.1)"
+                elif heatmap_metric == "WR":
+                    if wr > 50:
+                        alpha = min(0.8, 0.2 + (wr - 50) / 50)
+                        bg_color = f"rgba(84, 112, 198, {alpha})"
+                    elif wr < 50:
+                        alpha = min(0.8, 0.2 + (50 - wr) / 50)
+                        bg_color = f"rgba(238, 102, 102, {alpha})"
+                    else:
+                        bg_color = "rgba(255, 255, 255, 0.1)"
+                elif heatmap_metric == "Matches":
+                    alpha = min(0.8, 0.1 + (total / 20) * 0.7) # Lower threshold for selected decks as counts might be lower
+                    bg_color = f"rgba(145, 204, 117, {alpha})"
+
+            # If diagonal (Mirror), maybe different style?
+            if row_idx == col_idx and total > 0:
+                # Mirror match defaults to 50% WR if logic holds, but 'Prob' might slightly vary due to priors if stats are small? 
+                # Bayesian prob for 1W 1L is 50%.
+                pass
+
+            table_html += f'<td class="matchup-cell" style="background-color: {bg_color};">'
+            if total > 0:
+                table_html += f'<span class="cell-main" title="Win Probability">{prob:.1f}%</span>'
+                table_html += f'<span class="cell-sub" title="Win Rate">{wr:.1f}%</span>'
+                table_html += f'<span class="cell-matches">{total} matches</span>'
+            else:
+                table_html += '<span style="opacity: 0.2;">-</span>'
+            table_html += "</td>"
+            
+        table_html += "</tr>"
+    
     table_html += "</tbody></table></div>"
     st.markdown(table_html, unsafe_allow_html=True)
