@@ -18,7 +18,7 @@ from src.data import (
 )
 from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
 from src.config import IMAGE_BASE_URL
-from src.utils import format_deck_name, calculate_confidence_interval
+from src.utils import format_deck_name, calculate_confidence_interval, paginate_data
 
 def get_display_name(c):
     show_ja = st.session_state.get("show_japanese_toggle", False)
@@ -828,7 +828,10 @@ def render_meta_trend_page():
 
     ref_bag = cards_to_bag(ref_cards) if ref_cards else Counter()
 
-    for row in rows_data:
+    # Apply Pagination
+    displayed_rows, _, _, _ = paginate_data(rows_data, page_size=20, key_prefix="meta_stats")
+
+    for row in displayed_rows:
         # Build Link preserving existing params
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
         # Clean up legacy/conflicting 'sig' parameter
@@ -989,9 +992,9 @@ def _render_deck_detail_view(sig, selected_period):
     render_card_grid(cards)
 
     st.subheader("Match History")
-    render_match_history_table(deck.get("appearances", []))
+    render_match_history_table(deck.get("appearances", []), pagination_key=f"mh_{sig}")
 
-def render_match_history_table(appearances):
+def render_match_history_table(appearances, pagination_key="match_history"):
     from src.data import get_match_history, get_deck_details_by_signature
     matches = get_match_history(appearances)
     if not matches:
@@ -1105,7 +1108,10 @@ def render_match_history_table(appearances):
         <tbody>
     """)
 
-    for m in matches_to_sort:
+    # Apply Pagination
+    displayed_matches, _, _, _ = paginate_data(matches_to_sort, page_size=20, key_prefix=pagination_key)
+
+    for m in displayed_matches:
         p_link = format_player_link(m, "player")
         o_link = format_player_link(m, "opponent")
         d_cell = format_opponent_deck_cell(m)
@@ -1241,7 +1247,10 @@ def _render_cluster_detail_view(cluster_id, selected_period):
         <tbody>
     """)
 
-    for row in v_rows:
+    # Apply Pagination
+    displayed_v_rows, _, _, _ = paginate_data(v_rows, page_size=20, key_prefix=f"cluster_variants_{cluster_id}")
+
+    for row in displayed_v_rows:
         link_params = {k: st.query_params.get_all(k) for k in st.query_params}
         link_params["deck_sig"] = [row["sig"]]
         if "cluster_id" in link_params: del link_params["cluster_id"]
@@ -1311,4 +1320,4 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     st.markdown(table_html, unsafe_allow_html=True)
 
     st.subheader("Aggregated Match History")
-    render_match_history_table(cluster["appearances"])
+    render_match_history_table(cluster["appearances"], pagination_key=f"cluster_matches_{cluster_id}")
