@@ -177,14 +177,25 @@ def render_comparison_page():
 
     display_chart(cum_wr_opt, height="400px")
 
-    # 3. Daily Win Rate Chart
-    st.subheader("Daily Win Rate (%)")
-    wr_df = pd.DataFrame({get_label(s): df["wr"] for s, df in stats_dict.items()})
-    wr_opt = create_echarts_line_comparison(wr_df, title="", y_axis_label="Win Rate (%)")
+    # 3. Moving Average Win Rate Chart
+    st.subheader("Moving Average Win Rate (%)")
+    st.caption(f"Win Rate over the last {window} days (Pooled).")
+
+    ma_wr_data = {}
+    for s, df in stats_dict.items():
+        # Calculate pooled moving average for better accuracy
+        # (Total Wins in Window) / (Total Matches in Window)
+        w_mov = df["wins_daily"].rolling(window=window, min_periods=1).sum()
+        m_mov = df["matches_daily"].rolling(window=window, min_periods=1).sum()
+        ma_wr = (w_mov / m_mov * 100).fillna(0)
+        ma_wr_data[get_label(s)] = ma_wr
+
+    ma_wr_df = pd.DataFrame(ma_wr_data)
+    ma_wr_opt = create_echarts_line_comparison(ma_wr_df, title="", y_axis_label="Moving Avg WR (%)")
     
     # Apply consistent colors and add match counts to tooltips
-    if "series" in wr_opt:
-        for series in wr_opt["series"]:
+    if "series" in ma_wr_opt:
+        for series in ma_wr_opt["series"]:
             name = series.get("name", "")
             match = re.search(r"\(([\w ]+)\)$", name)
             if match and match.group(1) in sig_to_color:
@@ -193,28 +204,36 @@ def render_comparison_page():
                 
                 # Add Matches to tooltip
                 df = stats_dict[sig]
+                # Re-calculate matches moving to match our logic exactly if needed,
+                # but 'matches_moving' in df should be rolling sum of matches_daily (window=window)
+                # Let's use our calculated m_mov just in case
+                m_mov = df["matches_daily"].rolling(window=window, min_periods=1).sum()
+
                 new_data = []
                 for d_idx, val in enumerate(series["data"]):
-                    date = wr_df.index[d_idx]
-                    m = df.loc[date, "matches_moving"]
-                    wr_val = f"{val:.2f}%" if pd.notna(val) else "-"
-                    tooltip_str = (
-                        f"<div style='font-family: sans-serif; padding: 5px;'>"
-                        f"<div style='font-weight: bold;'>{name}</div>"
-                        f"<div>{date}</div>"
-                        f"<div>Win Rate (avg): {wr_val}</div>"
-                        f"<div>Matches (Window): {int(m)}</div>"
-                        f"</div>"
-                    )
-                    new_data.append({
-                        "value": val,
-                        "tooltip": {"formatter": tooltip_str}
-                    })
+                    date = ma_wr_df.index[d_idx]
+                    if date in df.index:
+                        m = m_mov.loc[date]
+                        wr_val = f"{val:.2f}%" if pd.notna(val) else "-"
+                        tooltip_str = (
+                            f"<div style='font-family: sans-serif; padding: 5px;'>"
+                            f"<div style='font-weight: bold;'>{name}</div>"
+                            f"<div>{date}</div>"
+                            f"<div>Moving Avg WR: {wr_val}</div>"
+                            f"<div>Matches (Window): {int(m)}</div>"
+                            f"</div>"
+                        )
+                        new_data.append({
+                            "value": val,
+                            "tooltip": {"formatter": tooltip_str}
+                        })
+                    else:
+                        new_data.append(val)
                 series["data"] = new_data
 
-    display_chart(wr_opt, height="400px")
+    display_chart(ma_wr_opt, height="400px")
 
-    # 3. Wilson Lower Bounds Chart
+    # 4. Wilson Lower Bounds Chart
     st.subheader("Wilson Score Interval (Lower Bound)")
     st.caption("Cumulative vs. Moving Lower Bound. Cumulative (solid) shows overall reliability, Moving (dashed) shows recent performance.")
     
