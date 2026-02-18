@@ -11,7 +11,7 @@ from src.ui import (
     sort_card_ids, render_card_grid, get_display_name
 )
 from src.visualizations import create_echarts_line_comparison, display_chart
-from src.utils import calculate_confidence_interval
+from src.utils import calculate_confidence_interval, paginate_data
 from src.config import IMAGE_BASE_URL
 
 def render_comparison_page():
@@ -427,7 +427,10 @@ def _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color):
             <tbody>
     """).strip()
 
-    for row in table_data:
+    # Apply Pagination
+    displayed_table_data, _, _, _ = paginate_data(table_data, page_size=20, key_prefix="comparison_table")
+
+    for row in displayed_table_data:
         wr_color = '#1ed760' if row['wr_avg'] > 50 else '#ff4b4b'
         l_wr_color = '#1ed760' if row['wr_latest'] > 50 else '#ff4b4b'
         

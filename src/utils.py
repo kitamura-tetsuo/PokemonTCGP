@@ -1,5 +1,6 @@
 
 import math
+import streamlit as st
 
 def format_deck_name(name):
     # Just capitalize first letter of words
@@ -88,3 +89,77 @@ def is_local():
         return True
         
     return False
+
+def paginate_data(data, page_size=20, key_prefix="pagination"):
+    """
+    Paginates a list of data using Streamlit session state.
+
+    Args:
+        data: List of items to paginate.
+        page_size: Number of items per page.
+        key_prefix: Unique key prefix for session state to handle multiple paginations.
+
+    Returns:
+        tuple: (displayed_data, start_index, end_index, total_rows)
+    """
+    total_rows = len(data)
+
+    # If no data or fit in one page, return all
+    if total_rows <= page_size:
+        return data, 0, total_rows, total_rows
+
+    # Current page state
+    page_key = f"{key_prefix}_page"
+    if page_key not in st.session_state:
+        st.session_state[page_key] = 1
+
+    current_page = st.session_state[page_key]
+    total_pages = math.ceil(total_rows / page_size)
+
+    # Validation
+    if current_page > total_pages:
+        current_page = total_pages
+        st.session_state[page_key] = current_page
+    if current_page < 1:
+        current_page = 1
+        st.session_state[page_key] = current_page
+
+    start_index = (current_page - 1) * page_size
+    end_index = min(start_index + page_size, total_rows)
+
+    # Slice data
+    displayed_data = data[start_index:end_index]
+
+    # Render Pagination Controls
+    # Layout: [First] [Prev] [Page Info] [Next] [Last]
+    # Adjust column ratios for better alignment
+    col1, col2, col3, col4, col5 = st.columns([0.6, 0.6, 1.5, 0.6, 0.6])
+
+    with col1:
+        if st.button("First", key=f"{key_prefix}_first", disabled=(current_page == 1)):
+            st.session_state[page_key] = 1
+            st.rerun()
+
+    with col2:
+        if st.button("Prev", key=f"{key_prefix}_prev", disabled=(current_page == 1)):
+            st.session_state[page_key] -= 1
+            st.rerun()
+
+    with col3:
+        st.markdown(
+            f"<div style='text-align: center; padding-top: 5px; color: #888; font-size: 0.9em; white-space: nowrap;'>"
+            f"Page {current_page} of {total_pages} ({total_rows} items)</div>",
+            unsafe_allow_html=True
+        )
+
+    with col4:
+        if st.button("Next", key=f"{key_prefix}_next", disabled=(current_page == total_pages)):
+            st.session_state[page_key] += 1
+            st.rerun()
+
+    with col5:
+        if st.button("Last", key=f"{key_prefix}_last", disabled=(current_page == total_pages)):
+            st.session_state[page_key] = total_pages
+            st.rerun()
+
+    return displayed_data, start_index, end_index, total_rows

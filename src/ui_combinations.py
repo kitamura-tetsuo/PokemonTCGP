@@ -13,7 +13,7 @@ from src.ui import (
 )
 from src.config import IMAGE_BASE_URL
 from src.visualizations import display_chart, create_echarts_line_comparison
-from src.utils import calculate_confidence_interval
+from src.utils import calculate_confidence_interval, paginate_data
 
 def render_combinations_page():
     st.header("Card Combination Analysis")
@@ -387,7 +387,10 @@ def render_combinations_page():
                     <tbody>
                 """).strip()
 
-                for i, row in enumerate(summary):
+                # Apply Pagination
+                displayed_summary, _, _, _ = paginate_data(summary, page_size=20, key_prefix="combinations_summary")
+
+                for i, row in enumerate(displayed_summary):
                     g = row["_group_ref"]
 
                     
@@ -603,7 +606,11 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
         </thead>
         <tbody>
     """).strip()
-    for v in v_data:
+
+    # Apply Pagination
+    displayed_v_data, _, _, _ = paginate_data(v_data, page_size=20, key_prefix="group_variants")
+
+    for v in displayed_v_data:
         row_html = textwrap.dedent(f"""
             <tr class="meta-row-link" onclick="window.location.href='{v['link']}'">
                 <td style="font-family: monospace; font-size: 0.9em;">{v['Signature']}</td>
@@ -623,4 +630,4 @@ def _render_group_variants_view(include_cards, exclude_cards, period):
     st.markdown(v_html, unsafe_allow_html=True)
 
     st.subheader("Match History for Group")
-    render_match_history_table(details["appearances"])
+    render_match_history_table(details["appearances"], pagination_key="group_matches")
