@@ -130,7 +130,54 @@ def render_comparison_page():
 
     display_chart(share_opt, height="400px")
 
-    # 2. Win Rate Chart
+    # 2. Cumulative Win Rate Chart
+    st.subheader("Cumulative Win Rate (%)")
+
+    cum_wr_data = {}
+    for s, df in stats_dict.items():
+        # Calculate Cumulative WR
+        # Handle division by zero automatically (results in inf or nan), then fill
+        c_wr = (df["wins_cumulative"] / df["matches_cumulative"] * 100).fillna(0)
+        cum_wr_data[get_label(s)] = c_wr
+
+    cum_wr_df = pd.DataFrame(cum_wr_data)
+    cum_wr_opt = create_echarts_line_comparison(cum_wr_df, title="", y_axis_label="Cumulative WR (%)")
+
+    # Apply consistent colors and tooltips
+    if "series" in cum_wr_opt:
+        for series in cum_wr_opt["series"]:
+            name = series.get("name", "")
+            match = re.search(r"\(([\w ]+)\)$", name)
+            if match and match.group(1) in sig_to_color:
+                sig = match.group(1)
+                series["itemStyle"] = {"color": sig_to_color[sig]}
+
+                df = stats_dict[sig]
+                new_data = []
+                for d_idx, val in enumerate(series["data"]):
+                    date = cum_wr_df.index[d_idx]
+                    if date in df.index:
+                        m = df.loc[date, "matches_cumulative"]
+                        wr_val = f"{val:.2f}%" if pd.notna(val) else "-"
+                        tooltip_str = (
+                            f"<div style='font-family: sans-serif; padding: 5px;'>"
+                            f"<div style='font-weight: bold;'>{name}</div>"
+                            f"<div>{date}</div>"
+                            f"<div>Cumulative WR: {wr_val}</div>"
+                            f"<div>Matches (Cumulative): {int(m)}</div>"
+                            f"</div>"
+                        )
+                        new_data.append({
+                            "value": val,
+                            "tooltip": {"formatter": tooltip_str}
+                        })
+                    else:
+                        new_data.append(val)
+                series["data"] = new_data
+
+    display_chart(cum_wr_opt, height="400px")
+
+    # 3. Daily Win Rate Chart
     st.subheader("Daily Win Rate (%)")
     wr_df = pd.DataFrame({get_label(s): df["wr"] for s, df in stats_dict.items()})
     wr_opt = create_echarts_line_comparison(wr_df, title="", y_axis_label="Win Rate (%)")
