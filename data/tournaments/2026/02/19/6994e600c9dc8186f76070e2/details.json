@@ -1,0 +1,75 @@
+{
+  "id": "6994e600c9dc8186f76070e2",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "VoidPocket Wednesdays Night Clash ($55)",
+  "date": "2026-02-19T01:15:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magcargo",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chingling",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
