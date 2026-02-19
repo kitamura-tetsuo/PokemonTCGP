@@ -1,0 +1,36 @@
+{
+  "id": "698fd56594f791f35b25dae4",
+  "game": "POCKET",
+  "format": null,
+  "name": "PRIZES Dark League Tournament (HYDREGION BANNED)",
+  "date": "2026-02-18T20:30:00.000Z",
+  "players": 49,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    }
+  ]
+}
