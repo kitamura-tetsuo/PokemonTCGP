@@ -1,0 +1,29 @@
+{
+  "id": "698f38b0545d43631df02224",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY\u1bd3\u2605ZONE FORMAT (PRIZE FA CLEMONT)",
+  "date": "2026-02-19T22:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2553,
+    "name": "Sekkarou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
