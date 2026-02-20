@@ -1,0 +1,29 @@
+{
+  "id": "6993aa6a94f791f35b26018f",
+  "game": "POCKET",
+  "format": null,
+  "name": "King SolomonxZero Gravity Second Time Chamber\u23f3",
+  "date": "2026-02-19T15:10:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 2551,
+    "name": "Zero Gravity Gaming "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

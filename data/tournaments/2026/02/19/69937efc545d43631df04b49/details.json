@@ -1,0 +1,29 @@
+{
+  "id": "69937efc545d43631df04b49",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker Weekly#3 10$, OAK & MoreTop8 Prize",
+  "date": "2026-02-19T18:05:00.000Z",
+  "players": 148,
+  "organizer": {
+    "id": 2544,
+    "name": "hvk Takeover"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
