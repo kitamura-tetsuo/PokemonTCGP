@@ -1,0 +1,29 @@
+{
+  "id": "6995aef63ef65252b0571a77",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfaf 20$ BEC'S BOUNTY HUNTERS + 1-8 RR AND FA PRIZES",
+  "date": "2026-02-20T14:30:00.000Z",
+  "players": 120,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
