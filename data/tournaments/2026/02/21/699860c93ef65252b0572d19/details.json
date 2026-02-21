@@ -1,0 +1,40 @@
+{
+  "id": "699860c93ef65252b0572d19",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "VoidPocket Gym Challenge ($20)",
+  "date": "2026-02-21T02:30:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}
