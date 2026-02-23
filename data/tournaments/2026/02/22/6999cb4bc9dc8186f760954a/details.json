@@ -1,0 +1,66 @@
+{
+  "id": "6999cb4bc9dc8186f760954a",
+  "game": "POCKET",
+  "format": null,
+  "name": "VoidPocket Sunday Night Throwdown (Oaks 2 star)",
+  "date": "2026-02-22T23:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A3a",
+      "number": null
+    }
+  ]
+}

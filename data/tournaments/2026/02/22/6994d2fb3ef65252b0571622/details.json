@@ -1,0 +1,29 @@
+{
+  "id": "6994d2fb3ef65252b0571622",
+  "game": "POCKET",
+  "format": null,
+  "name": "Zero Gravity Gaming FA Cards + Professors Research",
+  "date": "2026-02-22T22:15:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2551,
+    "name": "Zero Gravity Gaming "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
