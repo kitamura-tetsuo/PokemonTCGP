@@ -1,0 +1,29 @@
+{
+  "id": "698cba12988cfc979bd0dba9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Wednesday Showdown ($5 USD) + Ilima",
+  "date": "2026-02-25T18:00:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
