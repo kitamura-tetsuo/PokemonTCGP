@@ -14,7 +14,7 @@ from src.data import (
     get_daily_share_data, get_deck_details, get_all_card_names, 
     get_match_history, enrich_card_data, get_clustered_daily_share_data,
     get_cluster_details, get_cluster_mapping, get_card_info_by_name,
-    load_enriched_sets, get_daily_winrate_for_decks
+    load_enriched_sets, get_daily_winrate_for_decks, get_daily_wilson_for_decks
 )
 from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
 from src.config import IMAGE_BASE_URL
@@ -502,28 +502,130 @@ def render_meta_trend_page():
     # cards are already enriched in data.py via get_period_statistics
     details_map = {label: info["deck_info"] for label, info in stats_map.items()}
 
-    fig_options = create_echarts_stacked_area(
-        df_display, details_map=details_map, title=f"Daily Metagame Share (window={window}d)"
+    # Extract identifiers for WR and Wilson fetch
+    chart_identifiers = set()
+    # Use df_display columns (which exclude "Others" if we are careful, or we handle it)
+    cols_to_fetch = [c for c in df_display.columns if c != "Others"]
+
+    for col in cols_to_fetch:
+        if "Cluster" in col:
+            try:
+                cid = col.split("Cluster ")[1].split(")")[0]
+                chart_identifiers.add(cid)
+            except: pass
+        else:
+            match = re.search(r"\(([\da-f]{8})\)$", col)
+            if match:
+                chart_identifiers.add(match.group(1))
+
+    # --- 1. Daily Metagame Share (Line Chart) ---
+    st.subheader("Daily Metagame Share (%)")
+
+    # We want line chart, not stacked area
+    # Exclude "Others" from chart usually? Or keep it? Stacked area keeps it.
+    # Line comparison usually shows specific decks. "Others" as a line is fine too.
+    # But get_daily_wilson/wr won't have Others.
+
+    share_options = create_echarts_line_comparison(
+        df_display, details_map=details_map, title=f"Daily Metagame Share (window={window}d)", y_axis_label="Share (%)"
     )
-    if fig_options:
-        # Define click event to return series name
-        events = {
-            "click": "function(params) { return params.seriesName; }"
-        }
-        clicked_series = display_chart(fig_options, height="450px", events=events)
-        
+
+    events = {"click": "function(params) { return params.seriesName; }"}
+
+    if share_options:
+        clicked_series = display_chart(share_options, height="450px", events=events)
         if clicked_series:
-            # Extract sig or cluster id
             if "Cluster" in clicked_series:
-                cid = clicked_series.split("Cluster ")[1].split(")")[0]
-                st.query_params["cluster_id"] = cid
+                try:
+                    cid = clicked_series.split("Cluster ")[1].split(")")[0]
+                    st.query_params["cluster_id"] = cid
+                    st.query_params["page"] = "trends"
+                    st.rerun()
+                except: pass
             else:
-                match = re.search(r"\((\w+)\)$", clicked_series)
+                match = re.search(r"\(([\da-f]{8})\)$", clicked_series)
                 if match:
-                    sig = match.group(1)
-                    st.query_params["deck_sig"] = sig
-            st.query_params["page"] = "trends"
-            st.rerun()
+                    st.query_params["deck_sig"] = match.group(1)
+                    st.query_params["page"] = "trends"
+                    st.rerun()
+
+    # --- 2. Daily Win Rate (%) ---
+    if chart_identifiers:
+        with st.spinner("Calculating win rates..."):
+            wr_df = get_daily_winrate_for_decks(
+                list(chart_identifiers),
+                window=window,
+                start_date=selected_period["start"],
+                end_date=selected_period["end"],
+                clustered=clustered
+            )
+
+        if not wr_df.empty:
+            st.subheader("Daily Win Rate (%)")
+            # Sort columns to match df_display order if possible
+            sorted_cols = [c for c in df_display.columns if c in wr_df.columns]
+            if sorted_cols:
+                wr_df = wr_df[sorted_cols]
+
+            wr_options = create_echarts_line_comparison(
+                wr_df, details_map=details_map, title=f"Daily Win Rate (window={window}d)", y_axis_label="Win Rate (%)"
+            )
+
+            clicked_series_wr = display_chart(wr_options, height="400px", events=events)
+            if clicked_series_wr:
+                if "Cluster" in clicked_series_wr:
+                    try:
+                        cid = clicked_series_wr.split("Cluster ")[1].split(")")[0]
+                        st.query_params["cluster_id"] = cid
+                        st.query_params["page"] = "trends"
+                        st.rerun()
+                    except: pass
+                else:
+                    match = re.search(r"\(([\da-f]{8})\)$", clicked_series_wr)
+                    if match:
+                        st.query_params["deck_sig"] = match.group(1)
+                        st.query_params["page"] = "trends"
+                        st.rerun()
+
+    # --- 3. Wilson Score Interval (Lower Bound) ---
+    if chart_identifiers:
+        with st.spinner("Calculating Wilson scores..."):
+            wilson_df = get_daily_wilson_for_decks(
+                list(chart_identifiers),
+                window=window,
+                start_date=selected_period["start"],
+                end_date=selected_period["end"],
+                clustered=clustered
+            )
+
+        if not wilson_df.empty:
+            st.subheader("Wilson Score Interval (Lower Bound)")
+            # Sort columns to match df_display order
+            sorted_cols = [c for c in df_display.columns if c in wilson_df.columns]
+            if sorted_cols:
+                wilson_df = wilson_df[sorted_cols]
+
+            wilson_options = create_echarts_line_comparison(
+                wilson_df, details_map=details_map, title=f"Wilson Lower Bound (window={window}d)", y_axis_label="Lower Bound (%)"
+            )
+
+            clicked_series_w = display_chart(wilson_options, height="400px", events=events)
+            if clicked_series_w:
+                if "Cluster" in clicked_series_w:
+                    try:
+                        cid = clicked_series_w.split("Cluster ")[1].split(")")[0]
+                        st.query_params["cluster_id"] = cid
+                        st.query_params["page"] = "trends"
+                        st.rerun()
+                    except: pass
+                else:
+                    match = re.search(r"\(([\da-f]{8})\)$", clicked_series_w)
+                    if match:
+                        st.query_params["deck_sig"] = match.group(1)
+                        st.query_params["page"] = "trends"
+                        st.rerun()
+
+    st.divider()
 
     # Table
     st.subheader("Metagame Statistics")
@@ -620,74 +722,6 @@ def render_meta_trend_page():
     if q_sort in sort_key_map:
         rows_data.sort(key=sort_key_map[q_sort], reverse=(q_order == "desc"))
 
-    # --- Win Rate Chart Section ---
-    wr_identifiers = set()
-    
-    # 1. From Share Chart
-    # df_display columns are formatted as "Name (Sig)" or "Name (Cluster ID)"
-    if not df_display.empty:
-        for col in df_display.columns:
-            if "Cluster" in col:
-                # Format: Name (Cluster ID)
-                try:
-                    cid = col.split("Cluster ")[1].split(")")[0]
-                    wr_identifiers.add(cid)
-                except: pass
-            else:
-                match = re.search(r"\(([\da-f]{8})\)$", col)
-                if match:
-                    wr_identifiers.add(match.group(1))
-    
-    # 2. From Table Top 10
-    for row in rows_data[:10]:
-        if row.get("cid"):
-            wr_identifiers.add(str(row["cid"]))
-        elif row.get("sig"):
-            wr_identifiers.add(str(row["sig"]))
-            
-    if wr_identifiers:
-        with st.spinner("Calculating win rates..."):
-            wr_df = get_daily_winrate_for_decks(
-                list(wr_identifiers),
-                window=window,
-                start_date=selected_period["start"],
-                end_date=selected_period["end"],
-                clustered=clustered
-            )
-            
-            if not wr_df.empty:
-                st.subheader("Daily Win Rate")
-                wr_options = create_echarts_line_comparison(wr_df, details_map=details_map, title=f"Daily Win Rate (window={window}d)", y_axis_label="Win Rate (%)")
-                
-                # Define click event to return series name
-                events = {
-                    "click": "function(params) { return params.seriesName; }"
-                }
-                
-                clicked_series_wr = display_chart(wr_options, height="400px", events=events)
-                if clicked_series_wr:
-                    # Extract sig or cluster id
-                    target_sig = None
-                    target_cid = None
-                    
-                    if "Cluster" in clicked_series_wr:
-                        try:
-                            target_cid = clicked_series_wr.split("Cluster ")[1].split(")")[0]
-                        except: pass
-                    else:
-                        match = re.search(r"\(([\da-f]{8})\)$", clicked_series_wr)
-                        if match:
-                            target_sig = match.group(1)
-                    
-                    if target_cid:
-                         st.query_params["cluster_id"] = target_cid
-                         st.query_params["page"] = "trends"
-                         st.rerun()
-                    elif target_sig:
-                         st.query_params["deck_sig"] = target_sig
-                         st.query_params["page"] = "trends"
-                         st.rerun()
-                st.divider()
 
     # Comparison Bridge UI: Compare Button (Relocated)
     comp_btn_html = """

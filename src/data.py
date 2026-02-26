@@ -532,6 +532,125 @@ def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
             result[sig] = info
     return result
 
+def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=None, clustered=False):
+    """
+    Get daily Wilson score interval (lower bound) for specific decks or clusters.
+    identifiers: List of raw signatures or cluster IDs (strings).
+    Returns: pd.DataFrame where columns are formatted names and values are lower bound %.
+    """
+    from src.utils import calculate_confidence_interval
+
+    scan_start = start_date
+    if not scan_start:
+        scan_days = window + 7
+        scan_start = (datetime.now() - timedelta(days=scan_days)).strftime("%Y-%m-%d")
+
+    daily_raw, sig_lookup = _scan_and_aggregate(start_date=scan_start, end_date=end_date)
+    sig_to_cluster, id_to_cluster = get_cluster_mapping()
+
+    if not daily_raw:
+        return pd.DataFrame()
+
+    all_dates = sorted(daily_raw.keys())
+
+    # Pre-calculate set of sigs we care about to speed up processing
+    relevant_sigs = set()
+    sig_to_target_id = {} # sig -> target_identifier (sig or cluster_id)
+
+    if clustered:
+        for cid in identifiers:
+            c_info = id_to_cluster.get(str(cid))
+            if c_info:
+                for s in c_info["signatures"]:
+                    relevant_sigs.add(s)
+                    sig_to_target_id[s] = str(cid)
+    else:
+        for sig in identifiers:
+            relevant_sigs.add(sig)
+            sig_to_target_id[sig] = sig
+
+    # identifier -> date -> {w, m}
+    agg_data = {ident: {d: {"w": 0, "m": 0} for d in all_dates} for ident in identifiers}
+
+    for sig in relevant_sigs:
+        info = sig_lookup.get(sig)
+        if not info: continue
+
+        target_id = sig_to_target_id.get(sig)
+        if target_id not in agg_data: continue
+
+        for app in info.get("appearances", []):
+            d = app.get("date")
+            if d in agg_data[target_id]:
+                rec = app.get("record", {})
+                w = rec.get("wins", 0)
+                l = rec.get("losses", 0)
+                t = rec.get("ties", 0)
+                mtch = w + l + t
+
+                agg_data[target_id][d]["w"] += w
+                agg_data[target_id][d]["m"] += mtch
+
+    # Build DataFrame
+    final_data = {}
+
+    # Define date grid for output
+    date_grid = [d for d in all_dates if (not start_date or d >= start_date) and (not end_date or d <= end_date)]
+    date_grid_set = set(date_grid)
+
+    for ident in identifiers:
+        # Determine Name
+        name_label = ident
+        if clustered:
+             c_info = id_to_cluster.get(str(ident))
+             if c_info:
+                 name_label = f"{c_info['representative_name']} (Cluster {ident})"
+        else:
+             info = sig_lookup.get(ident)
+             if info:
+                 name_label = f"{info.get('name', 'Unknown')} ({ident})"
+
+        # Build Series
+        # Since we want to output only date_grid, we collect results for date_grid only
+        # BUT we must iterate through all_dates to maintain correct window state
+
+        output_wilsons = []
+        output_dates = []
+
+        window_wins = []
+        window_matches = []
+
+        for d in all_dates:
+            stats = agg_data[ident][d]
+            w = stats["w"]
+            m = stats["m"]
+
+            window_wins.append(w)
+            window_matches.append(m)
+            if len(window_wins) > window:
+                window_wins.pop(0)
+                window_matches.pop(0)
+
+            if d in date_grid_set:
+                mov_wins = sum(window_wins)
+                mov_matches = sum(window_matches)
+
+                lower = 0.0
+                if mov_matches > 0:
+                    lower, _ = calculate_confidence_interval(mov_wins, mov_matches)
+                else:
+                    lower = float('nan')
+
+                output_dates.append(d)
+                output_wilsons.append(lower)
+
+        final_series = pd.Series(data=output_wilsons, index=output_dates)
+        final_data[name_label] = final_series
+
+    df = pd.DataFrame(final_data)
+
+    return df
+
 def get_deck_details(sig, start_date=None, end_date=None):
     return get_deck_details_by_signature([sig], start_date=start_date, end_date=end_date).get(sig)
 
