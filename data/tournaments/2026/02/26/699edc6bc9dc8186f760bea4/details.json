@@ -1,0 +1,29 @@
+{
+  "id": "699edc6bc9dc8186f760bea4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a uwu tournament #11 \u025e \u2503 15 USD + B2a FA of choice",
+  "date": "2026-02-26T19:00:00.000Z",
+  "players": 115,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
