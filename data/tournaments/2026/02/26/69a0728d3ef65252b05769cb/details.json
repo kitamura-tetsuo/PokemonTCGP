@@ -1,0 +1,29 @@
+{
+  "id": "69a0728d3ef65252b05769cb",
+  "game": "POCKET",
+  "format": null,
+  "name": "Paldean Pop Up (FA Nemona & FA Meowscarada)",
+  "date": "2026-02-26T22:00:00.000Z",
+  "players": 102,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

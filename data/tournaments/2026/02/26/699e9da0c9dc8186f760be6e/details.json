@@ -1,0 +1,29 @@
+{
+  "id": "699e9da0c9dc8186f760be6e",
+  "game": "POCKET",
+  "format": null,
+  "name": "MetaBreaker Thursday #1 5$+FACyrus 1st&FAMars 2nd",
+  "date": "2026-02-26T18:00:00.000Z",
+  "players": 110,
+  "organizer": {
+    "id": 2544,
+    "name": "hvk Takeover"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
