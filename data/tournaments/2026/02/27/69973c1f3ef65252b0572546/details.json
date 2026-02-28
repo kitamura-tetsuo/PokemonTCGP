@@ -1,0 +1,29 @@
+{
+  "id": "69973c1f3ef65252b0572546",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #1 - Gholdengo Frenzy ($20 USD)",
+  "date": "2026-02-27T19:00:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
