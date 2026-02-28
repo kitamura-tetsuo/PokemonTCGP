@@ -1,0 +1,29 @@
+{
+  "id": "69a18d9ba0282967a730d75a",
+  "game": "POCKET",
+  "format": null,
+  "name": "PGL Surprise 30th Anniversary! 200$ + 10 Prof Oaks",
+  "date": "2026-02-27T17:00:00.000Z",
+  "players": 266,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
