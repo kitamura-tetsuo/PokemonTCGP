@@ -1,0 +1,23 @@
+{
+  "id": "699f49563ef65252b05762fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Glitch Pocket Tournament",
+  "date": "2026-02-28T01:00:00.000Z",
+  "players": 3,
+  "organizer": {
+    "id": 334,
+    "name": "Federaci\u00f3n Ecuatoriana de PKM"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    }
+  ]
+}
