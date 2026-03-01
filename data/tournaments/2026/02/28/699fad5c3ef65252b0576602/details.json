@@ -1,0 +1,29 @@
+{
+  "id": "699fad5c3ef65252b0576602",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\ude4f\ud83c\udffb S.O.S Ub\u00e1 - MG \ud83d\ude4f\ud83c\udffb",
+  "date": "2026-02-28T20:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2442,
+    "name": "TEAM GALAR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

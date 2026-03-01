@@ -1,0 +1,30 @@
+{
+  "id": "699cc6a13ef65252b05754d8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League #51 - $100 USD",
+  "date": "2026-02-27T21:00:00.000Z",
+  "players": 221,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/n9dqd84yc4099qlr"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}
