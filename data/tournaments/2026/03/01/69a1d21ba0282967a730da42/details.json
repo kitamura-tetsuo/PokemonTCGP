@@ -1,0 +1,29 @@
+{
+  "id": "69a1d21ba0282967a730da42",
+  "game": "POCKET",
+  "format": null,
+  "name": "Latam Pocket Weekly #3",
+  "date": "2026-03-01T18:00:00.000Z",
+  "players": 91,
+  "organizer": {
+    "id": 2329,
+    "name": "Latam Games"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

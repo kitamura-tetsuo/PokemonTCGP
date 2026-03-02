@@ -1,0 +1,29 @@
+{
+  "id": "69a31a38d92ee137f4d1cbea",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Counter Pop-Up Station | Coin Flips | Prizes",
+  "date": "2026-03-01T18:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
