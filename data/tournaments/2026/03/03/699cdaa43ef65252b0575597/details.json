@@ -1,0 +1,29 @@
+{
+  "id": "699cdaa43ef65252b0575597",
+  "game": "POCKET",
+  "format": null,
+  "name": "Russ_II's Standard Pop Up",
+  "date": "2026-03-03T04:30:00.000Z",
+  "players": 103,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
