@@ -1,0 +1,29 @@
+{
+  "id": "69a880266a05f00a8c4a416b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker MidWeek PopUp 1st Any Card B2a",
+  "date": "2026-03-04T20:25:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2544,
+    "name": "hvk Takeover"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
