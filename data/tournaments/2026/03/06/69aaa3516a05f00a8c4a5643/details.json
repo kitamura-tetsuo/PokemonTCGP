@@ -1,0 +1,29 @@
+{
+  "id": "69aaa3516a05f00a8c4a5643",
+  "game": "POCKET",
+  "format": null,
+  "name": "Frappesbricker Pop Up (FA cards)",
+  "date": "2026-03-06T11:00:00.000Z",
+  "players": 41,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
