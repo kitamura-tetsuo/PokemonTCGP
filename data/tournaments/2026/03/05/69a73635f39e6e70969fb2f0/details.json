@@ -1,0 +1,29 @@
+{
+  "id": "69a73635f39e6e70969fb2f0",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker Thursday #2 10USD + 10 FA Cards",
+  "date": "2026-03-05T19:30:00.000Z",
+  "players": 219,
+  "organizer": {
+    "id": 2544,
+    "name": "hvk Takeover"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
