@@ -1,0 +1,35 @@
+{
+  "id": "69a0baf9c9dc8186f760cc0e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX JaggerGrimm's Cup \u2022 50 USD [1/3]\ud83d\udc38",
+  "date": "2026-03-04T18:00:00.000Z",
+  "players": 326,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
