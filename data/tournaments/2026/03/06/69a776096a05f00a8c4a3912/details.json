@@ -1,0 +1,29 @@
+{
+  "id": "69a776096a05f00a8c4a3912",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfdd 20$ BEC'S PALDEA PARTY + 1-8 FA PRIZES",
+  "date": "2026-03-06T14:35:00.000Z",
+  "players": 231,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
