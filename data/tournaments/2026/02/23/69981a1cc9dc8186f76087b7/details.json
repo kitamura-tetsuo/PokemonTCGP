@@ -1,0 +1,150 @@
+{
+  "id": "69981a1cc9dc8186f76087b7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Warlords Tournament of Conquest",
+  "date": "2026-02-23T09:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Celesteela",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": null
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": null
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": null
+    },
+    {
+      "name": "Venusaur ex",
+      "set": "A1",
+      "number": null
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Magneton",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Mega Swampert ex",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "Mega Gardevoir ex",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "Mega Mawile ex",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "Incineroar ex",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Decidueye ex",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "Jolteon ex",
+      "set": "B1",
+      "number": null
+    }
+  ]
+}

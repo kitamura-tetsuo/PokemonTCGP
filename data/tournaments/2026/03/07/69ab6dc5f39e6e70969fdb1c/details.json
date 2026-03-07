@@ -1,0 +1,29 @@
+{
+  "id": "69ab6dc5f39e6e70969fdb1c",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Late Night #2 FA Arven",
+  "date": "2026-03-07T05:35:00.000Z",
+  "players": 101,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
