@@ -1,0 +1,29 @@
+{
+  "id": "699af3453ef65252b057440b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Fans Pok\u00e9mon TCGP Chile Open #4",
+  "date": "2026-03-06T22:10:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2364,
+    "name": "Fan Pok\u00e9mon TCG Pocket LATAM"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}
