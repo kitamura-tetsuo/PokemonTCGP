@@ -1,0 +1,29 @@
+{
+  "id": "69ab00016a05f00a8c4a587c",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY FRIDAY\u208a\u22b9\u2040\u27b4prizes: FA CARDS",
+  "date": "2026-03-07T01:00:00.000Z",
+  "players": 135,
+  "organizer": {
+    "id": 2553,
+    "name": "Sekkarou"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
