@@ -1,0 +1,41 @@
+{
+  "id": "69a31ee1d92ee137f4d1cc68",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Invitational Season 5 (FA Prizes)",
+  "date": "2026-03-08T03:05:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ]
+}
