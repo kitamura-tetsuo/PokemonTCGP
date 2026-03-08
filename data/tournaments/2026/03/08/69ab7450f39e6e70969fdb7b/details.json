@@ -1,0 +1,29 @@
+{
+  "id": "69ab7450f39e6e70969fdb7b",
+  "game": "POCKET",
+  "format": null,
+  "name": "3v3 TEST TOURNAMENT",
+  "date": "2026-03-08T01:05:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

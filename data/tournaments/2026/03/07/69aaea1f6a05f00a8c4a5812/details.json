@@ -1,0 +1,36 @@
+{
+  "id": "69aaea1f6a05f00a8c4a5812",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League\u2122 #02 | Prize: (Prof.Oak & Cyrus)",
+  "date": "2026-03-07T21:30:00.000Z",
+  "players": 86,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ]
+}
