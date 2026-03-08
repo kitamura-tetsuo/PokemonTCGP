@@ -1,0 +1,29 @@
+{
+  "id": "69aca4b66a05f00a8c4a74d3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm's Saturday Late Night-$5",
+  "date": "2026-03-08T06:00:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
