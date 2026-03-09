@@ -1,0 +1,29 @@
+{
+  "id": "69ade825f39e6e70969ff6b8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pocket Pop Up $5USD",
+  "date": "2026-03-09T00:35:00.000Z",
+  "players": 68,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

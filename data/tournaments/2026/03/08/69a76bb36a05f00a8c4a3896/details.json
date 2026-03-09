@@ -1,0 +1,32 @@
+{
+  "id": "69a76bb36a05f00a8c4a3896",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "NoEx Breakfast \ud83c\udf73 League #2 ($25) + RR\ud83c\udf08",
+  "date": "2026-03-08T23:30:00.000Z",
+  "players": 133,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
