@@ -1,0 +1,29 @@
+{
+  "id": "69a07bdbc9dc8186f760c7ac",
+  "game": "POCKET",
+  "format": null,
+  "name": "PGL 30th Anniversary (1500 USD +30 Oak FA)",
+  "date": "2026-03-07T15:00:00.000Z",
+  "players": 1172,
+  "organizer": {
+    "id": 2057,
+    "name": "Pocket Winds"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
