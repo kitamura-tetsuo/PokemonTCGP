@@ -1,0 +1,29 @@
+{
+  "id": "69a847b2f39e6e70969fba27",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a the final uwu tournament (#12) \u025e \u2503 50 USD",
+  "date": "2026-03-10T11:00:00.000Z",
+  "players": 179,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
