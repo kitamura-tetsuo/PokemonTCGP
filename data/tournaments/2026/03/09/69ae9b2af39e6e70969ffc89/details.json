@@ -1,0 +1,29 @@
+{
+  "id": "69ae9b2af39e6e70969ffc89",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker Monday PopUp#1 1st Shiny Suicune",
+  "date": "2026-03-09T12:10:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2544,
+    "name": "Meta Breaker"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
