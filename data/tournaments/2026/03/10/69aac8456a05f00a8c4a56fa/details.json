@@ -1,0 +1,29 @@
+{
+  "id": "69aac8456a05f00a8c4a56fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfb4Nuggie's POG Tournament #3\ud83c\udfb4 FA CYRUS for 1st",
+  "date": "2026-03-10T09:05:00.000Z",
+  "players": 123,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
