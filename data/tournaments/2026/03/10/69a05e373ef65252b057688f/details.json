@@ -1,0 +1,29 @@
+{
+  "id": "69a05e373ef65252b057688f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Tuesday Showdown #4 ($10 USD) + Oak",
+  "date": "2026-03-10T17:00:00.000Z",
+  "players": 273,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
