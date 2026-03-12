@@ -1,0 +1,29 @@
+{
+  "id": "69ae1015f39e6e70969ff85d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd0cKingSolomon|ZGG Rank Up Season",
+  "date": "2026-03-12T14:05:00.000Z",
+  "players": 75,
+  "organizer": {
+    "id": 2551,
+    "name": "Zero Gravity Gaming "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
