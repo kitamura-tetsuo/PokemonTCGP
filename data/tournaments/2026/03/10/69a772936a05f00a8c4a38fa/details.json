@@ -1,0 +1,35 @@
+{
+  "id": "69a772936a05f00a8c4a38fa",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket 50$ (prize\u00d72 look desc)",
+  "date": "2026-03-10T22:00:00.000Z",
+  "players": 224,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 1,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
