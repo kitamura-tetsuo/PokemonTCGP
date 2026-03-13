@@ -1,0 +1,39 @@
+{
+  "id": "69a755f1f39e6e70969fb43b",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #2 - Villain Showdown ($30 USD)",
+  "date": "2026-03-12T21:30:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

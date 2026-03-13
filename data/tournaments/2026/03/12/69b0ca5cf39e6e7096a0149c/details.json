@@ -1,0 +1,29 @@
+{
+  "id": "69b0ca5cf39e6e7096a0149c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wicked\u2019s Weekly Wipeout #00 Season Opener",
+  "date": "2026-03-12T23:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
