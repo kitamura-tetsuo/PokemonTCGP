@@ -1,0 +1,29 @@
+{
+  "id": "69a51463d92ee137f4d1de95",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Little Legends League #31 - $50 USD (Season 5)",
+  "date": "2026-03-12T23:00:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

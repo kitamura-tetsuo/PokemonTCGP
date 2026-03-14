@@ -1,0 +1,29 @@
+{
+  "id": "69b389bef39e6e7096a0261e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "The Breakfast Club-Electric Sales\u26a1(RR Bellibolt)",
+  "date": "2026-03-14T01:50:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
