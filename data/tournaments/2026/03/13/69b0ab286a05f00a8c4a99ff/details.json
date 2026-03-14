@@ -1,0 +1,29 @@
+{
+  "id": "69b0ab286a05f00a8c4a99ff",
+  "game": "POCKET",
+  "format": null,
+  "name": "20$ BEC'S FRIDAY CHALLENGER + 1-8 FA PRIZES",
+  "date": "2026-03-13T14:35:00.000Z",
+  "players": 137,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
