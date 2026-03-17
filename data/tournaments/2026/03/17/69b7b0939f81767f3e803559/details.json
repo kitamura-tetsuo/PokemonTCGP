@@ -1,0 +1,29 @@
+{
+  "id": "69b7b0939f81767f3e803559",
+  "game": "POCKET",
+  "format": null,
+  "name": "BOAT Cup \u26f4 Flagship Format #01",
+  "date": "2026-03-17T04:00:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2598,
+    "name": "BOAT Trainer Cup"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}
