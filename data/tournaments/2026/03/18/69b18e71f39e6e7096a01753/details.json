@@ -1,0 +1,29 @@
+{
+  "id": "69b18e71f39e6e7096a01753",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wicked's Weekly Wipeout #01 Paldean Wonder",
+  "date": "2026-03-18T23:30:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
