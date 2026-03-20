@@ -1,0 +1,29 @@
+{
+  "id": "69b46d78ccdfe3b78e573924",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc5SPRING OPEN\ud83c\udfc5$100 USD | Terremoto x Trainers TCG",
+  "date": "2026-03-19T19:00:00.000Z",
+  "players": 163,
+  "organizer": {
+    "id": 1990,
+    "name": "Terremotoparatodos"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}
