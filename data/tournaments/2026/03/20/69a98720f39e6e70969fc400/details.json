@@ -1,0 +1,29 @@
+{
+  "id": "69a98720f39e6e70969fc400",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Friday Clash #2 ($10 USD)",
+  "date": "2026-03-20T17:05:00.000Z",
+  "players": 121,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
