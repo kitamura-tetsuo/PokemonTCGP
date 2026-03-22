@@ -1,0 +1,36 @@
+{
+  "id": "69b5635b9f81767f3e802126",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket 20$ (\u00d72 prize challenge)",
+  "date": "2026-03-21T22:30:00.000Z",
+  "players": 79,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    }
+  ]
+}
