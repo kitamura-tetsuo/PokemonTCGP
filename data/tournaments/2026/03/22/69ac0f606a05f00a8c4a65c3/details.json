@@ -1,0 +1,41 @@
+{
+  "id": "69ac0f606a05f00a8c4a65c3",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Godzly's March Madness Paldean $1,500 Rumble",
+  "date": "2026-03-22T16:00:00.000Z",
+  "players": 508,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 10,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

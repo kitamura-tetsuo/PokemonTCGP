@@ -1,0 +1,29 @@
+{
+  "id": "69c000ec36f5b5c303dbb6ef",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Old School Apex / Mystical \ud83d\udd25\ud83d\udd2e\u26a1\ufe0f",
+  "date": "2026-03-23T02:15:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

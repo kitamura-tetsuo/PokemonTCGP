@@ -1,0 +1,35 @@
+{
+  "id": "69bafd6b36f5b5c303db94fd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pocket weekly #1",
+  "date": "2026-03-22T22:30:00.000Z",
+  "players": 69,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
