@@ -1,0 +1,32 @@
+{
+  "id": "69c0744bd478313a15a31210",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "NoEx \ud83c\udf73 Breakfast #3 \ud83d\udcb0$35\ud83d\udcb0",
+  "date": "2026-03-24T00:15:00.000Z",
+  "players": 75,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
