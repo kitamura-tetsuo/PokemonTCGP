@@ -1,0 +1,46 @@
+{
+  "id": "69c2a284d478313a15a31e43",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "BRICKCITY\u208a\u22b9\u2040\u27b4TRINITY BAN FORMAT",
+  "date": "2026-03-25T01:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Swablu",
+      "set": "B1",
+      "number": "196"
+    },
+    {
+      "name": "Meowth",
+      "set": "B2",
+      "number": "124"
+    }
+  ]
+}

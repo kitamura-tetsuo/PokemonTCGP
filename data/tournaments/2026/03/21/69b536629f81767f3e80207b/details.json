@@ -1,0 +1,29 @@
+{
+  "id": "69b536629f81767f3e80207b",
+  "game": "POCKET",
+  "format": null,
+  "name": "$250 USD + 2* FA | \u5deb\u7345\u76c3 LeoWizard Pocket League #6",
+  "date": "2026-03-21T13:00:00.000Z",
+  "players": 241,
+  "organizer": {
+    "id": 2546,
+    "name": "Leowizard League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
