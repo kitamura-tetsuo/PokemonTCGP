@@ -1,0 +1,29 @@
+{
+  "id": "69c497f636f5b5c303dbdaf6",
+  "game": "POCKET",
+  "format": null,
+  "name": "MegaShine PopUp!",
+  "date": "2026-03-26T03:30:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
