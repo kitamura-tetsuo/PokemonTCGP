@@ -1,0 +1,36 @@
+{
+  "id": "69be1b0436f5b5c303dba8bc",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\u2668\ufe0fSauna's POG Tournament #2|15USD & Top 4 Prizes!",
+  "date": "2026-03-27T04:00:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}
