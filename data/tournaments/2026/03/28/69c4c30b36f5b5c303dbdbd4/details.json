@@ -1,0 +1,29 @@
+{
+  "id": "69c4c30b36f5b5c303dbdbd4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfb4Nuggie's POG Tournament #4 FA | OAK & B2B CARD\ud83c\udfb4",
+  "date": "2026-03-28T09:00:00.000Z",
+  "players": 102,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
