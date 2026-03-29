@@ -1,0 +1,29 @@
+{
+  "id": "69c4adab36f5b5c303dbdb8a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League #05 Mega Shine!! |Prize: RR,FA Cards",
+  "date": "2026-03-28T22:00:00.000Z",
+  "players": 126,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
