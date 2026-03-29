@@ -1,0 +1,56 @@
+{
+  "id": "69c2a347d478313a15a31e46",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League & Siahz Collab |Prize: Pokopia or $50",
+  "date": "2026-03-29T15:00:00.000Z",
+  "players": 171,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    }
+  ]
+}
