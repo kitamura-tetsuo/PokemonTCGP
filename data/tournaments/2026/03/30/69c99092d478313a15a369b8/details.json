@@ -1,0 +1,156 @@
+{
+  "id": "69c99092d478313a15a369b8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Serenity Format | FA Prizes",
+  "date": "2026-03-30T02:30:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Indeedee ex",
+      "set": "B1",
+      "number": "121"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "B2",
+      "number": "127"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Bellibolt ex",
+      "set": "B2a",
+      "number": "42"
+    },
+    {
+      "name": "Chien-Pao ex",
+      "set": "B2a",
+      "number": "37"
+    },
+    {
+      "name": "Gholdengo ex",
+      "set": "B2a",
+      "number": "78"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Mega Gardevoir ex",
+      "set": "B2",
+      "number": "66"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Alolan Ninetails ex",
+      "set": "B2",
+      "number": "29"
+    },
+    {
+      "name": "Meowth",
+      "set": "B2",
+      "number": "124"
+    },
+    {
+      "name": "Vanilluxe",
+      "set": "B2",
+      "number": "39"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "B2b",
+      "number": "9"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
