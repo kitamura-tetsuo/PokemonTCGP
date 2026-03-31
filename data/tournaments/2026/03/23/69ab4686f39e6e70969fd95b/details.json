@@ -1,0 +1,101 @@
+{
+  "id": "69ab4686f39e6e70969fd95b",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udd04 Torneio EXchange #1 - Prize $144 BRL",
+  "date": "2026-03-23T15:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Silvally",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "165"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A4b",
+      "number": "147"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A4b",
+      "number": "146"
+    },
+    {
+      "name": "Oricorio",
+      "set": "B1",
+      "number": "303"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A4b",
+      "number": "137"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A4b",
+      "number": "138"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Chingling",
+      "set": null,
+      "number": null
+    }
+  ]
+}
