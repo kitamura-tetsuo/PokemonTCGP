@@ -1,0 +1,29 @@
+{
+  "id": "69cc273e36f5b5c303dc399b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u208d\ud834\udd10 \u032b\ud834\udd10\u208e BOAT CLAN TOURNAMENT \u208d\ud834\udd10 \u032b\ud834\udd10\u208e",
+  "date": "2026-04-01T00:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
