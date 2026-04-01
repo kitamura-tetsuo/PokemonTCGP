@@ -1,0 +1,29 @@
+{
+  "id": "69c40e7ad478313a15a3268a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pregio Tournament Pocket #03",
+  "date": "2026-04-01T13:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 1529,
+    "name": "Pregio Tournament"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}
