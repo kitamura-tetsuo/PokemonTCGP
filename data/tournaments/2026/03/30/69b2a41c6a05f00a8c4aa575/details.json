@@ -1,0 +1,29 @@
+{
+  "id": "69b2a41c6a05f00a8c4aa575",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Sagittarian Open #1 | $50 Prize Pool",
+  "date": "2026-03-30T18:30:00.000Z",
+  "players": 239,
+  "organizer": {
+    "id": 2589,
+    "name": "Sagittarian Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
