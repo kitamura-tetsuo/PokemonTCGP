@@ -1,0 +1,29 @@
+{
+  "id": "69bacad536f5b5c303db923f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wicked's Weekly Wipeout #02 MegaShine FA Oak",
+  "date": "2026-04-01T23:30:00.000Z",
+  "players": 142,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
