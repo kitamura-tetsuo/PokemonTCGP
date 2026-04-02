@@ -1,0 +1,29 @@
+{
+  "id": "69c6826036f5b5c303dbea4e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Breakfast Club Rank Championship",
+  "date": "2026-03-29T11:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
