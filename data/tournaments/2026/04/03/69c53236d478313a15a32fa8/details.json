@@ -1,0 +1,23 @@
+{
+  "id": "69c53236d478313a15a32fa8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Legends League S5 Invitational",
+  "date": "2026-04-03T01:00:00.000Z",
+  "players": 30,
+  "organizer": {
+    "id": 1864,
+    "name": "PTCGPT"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
