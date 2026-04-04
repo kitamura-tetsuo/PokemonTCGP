@@ -3947,8 +3947,8 @@
       "006574f8",
       "c802ec49",
       "5e9188f6",
-      "5c7a5f61",
       "0d9c81b2",
+      "5c7a5f61",
       "4ffbd8f8",
       "ee296cfd",
       "91d92cae",
@@ -23818,9 +23818,10 @@
       "6d836f5d",
       "bd60e72e",
       "5cbd92c7",
-      "8ad1709b"
+      "8ad1709b",
+      "01dc20c7"
     ],
-    "count": 96
+    "count": 97
   },
   {
     "id": 51840,
@@ -28878,36 +28879,6 @@
     "count": 78
   },
   {
-    "id": 20389,
-    "representative_name": "Aerodactyl ex Primeape",
-    "representative_sig": "74e42aaf",
-    "signatures": [
-      "74e42aaf",
-      "7397f675",
-      "2db00480",
-      "2a95cb3f",
-      "fce2912c",
-      "aa41b49a",
-      "e8bb325e",
-      "e3406955",
-      "bb70da1a",
-      "01bf742b",
-      "b97405b3",
-      "e5adba86",
-      "6ddf640b",
-      "13157ed4",
-      "12014092",
-      "9cf4d3c5",
-      "ab34792a",
-      "18e50eed",
-      "8be96068",
-      "daf8c54c",
-      "013738c0",
-      "cabf9d5f"
-    ],
-    "count": 22
-  },
-  {
     "id": 65206,
     "representative_name": "Mega Manectric ex Zeraora",
     "representative_sig": "6c510e67",
@@ -28998,9 +28969,40 @@
       "4c366012",
       "c685f3ed",
       "698b2e22",
-      "b980bbd6"
+      "b980bbd6",
+      "8ba10b41"
     ],
-    "count": 87
+    "count": 88
+  },
+  {
+    "id": 20389,
+    "representative_name": "Aerodactyl ex Primeape",
+    "representative_sig": "74e42aaf",
+    "signatures": [
+      "74e42aaf",
+      "7397f675",
+      "2db00480",
+      "2a95cb3f",
+      "fce2912c",
+      "aa41b49a",
+      "e8bb325e",
+      "e3406955",
+      "bb70da1a",
+      "01bf742b",
+      "b97405b3",
+      "e5adba86",
+      "6ddf640b",
+      "13157ed4",
+      "12014092",
+      "9cf4d3c5",
+      "ab34792a",
+      "18e50eed",
+      "8be96068",
+      "daf8c54c",
+      "013738c0",
+      "cabf9d5f"
+    ],
+    "count": 22
   },
   {
     "id": 823,
@@ -37468,6 +37470,32 @@
     "count": 11
   },
   {
+    "id": 65502,
+    "representative_name": "Magnezone Teal Mask Ogerpon ex",
+    "representative_sig": "68c0ceb4",
+    "signatures": [
+      "68c0ceb4",
+      "08032658",
+      "6554dc4b",
+      "66a95972",
+      "f7a286c0",
+      "a70ad349",
+      "cf2c1748",
+      "675cca9c",
+      "bf6863f4",
+      "53ed0b17",
+      "a7a35ecf",
+      "1f7e27e7",
+      "58dd2bfb",
+      "2cfb3927",
+      "8d2aa202",
+      "c188dbb1",
+      "0eff1f9b",
+      "d8e310b9"
+    ],
+    "count": 18
+  },
+  {
     "id": 290,
     "representative_name": "Crobat ex Mega Absol ex",
     "representative_sig": "a93673f1",
@@ -37547,32 +37575,6 @@
       "eb1ac292"
     ],
     "count": 49
-  },
-  {
-    "id": 65502,
-    "representative_name": "Magnezone Teal Mask Ogerpon ex",
-    "representative_sig": "68c0ceb4",
-    "signatures": [
-      "68c0ceb4",
-      "08032658",
-      "6554dc4b",
-      "66a95972",
-      "f7a286c0",
-      "a70ad349",
-      "cf2c1748",
-      "675cca9c",
-      "bf6863f4",
-      "53ed0b17",
-      "a7a35ecf",
-      "1f7e27e7",
-      "58dd2bfb",
-      "2cfb3927",
-      "8d2aa202",
-      "c188dbb1",
-      "0eff1f9b",
-      "d8e310b9"
-    ],
-    "count": 18
   },
   {
     "id": 1950,
@@ -38147,17 +38149,6 @@
     "count": 12
   },
   {
-    "id": 5082,
-    "representative_name": "Articuno ex",
-    "representative_sig": "58fcd064",
-    "signatures": [
-      "58fcd064",
-      "9d598062",
-      "d409afb5"
-    ],
-    "count": 3
-  },
-  {
     "id": 65693,
     "representative_name": "Mega Manectric ex Oricorio",
     "representative_sig": "16efbc21",
@@ -38178,6 +38169,17 @@
       "e5516972"
     ],
     "count": 14
+  },
+  {
+    "id": 5082,
+    "representative_name": "Articuno ex",
+    "representative_sig": "58fcd064",
+    "signatures": [
+      "58fcd064",
+      "9d598062",
+      "d409afb5"
+    ],
+    "count": 3
   },
   {
     "id": 52337,
@@ -41767,6 +41769,71 @@
     "count": 53
   },
   {
+    "id": 6790,
+    "representative_name": "Mega Blaziken ex Entei ex",
+    "representative_sig": "1b6417d7",
+    "signatures": [
+      "1b6417d7",
+      "6e25ad13",
+      "f4a78f68",
+      "4664845b",
+      "9cbeb5cb",
+      "dc04e78a",
+      "0b5cca44",
+      "47d2acb3",
+      "fb111d6d",
+      "aade7010",
+      "084ce805",
+      "844805ae",
+      "09fd9ea8",
+      "6cd95182",
+      "9ab94c80",
+      "777b7f27",
+      "0123dcc4",
+      "3873f0f3",
+      "9be4949d",
+      "684662ba",
+      "2bb9728d",
+      "618b89d9",
+      "2ce8f719",
+      "2ba6b781",
+      "a35ff3f2",
+      "fdbcad9a",
+      "946b5dfc",
+      "84a14bbd",
+      "6b1c06cd",
+      "7264ac8f",
+      "41a974a7",
+      "19c4c0f6",
+      "1d7b36f3",
+      "b1cf69de",
+      "5e5416bb",
+      "9ba86014",
+      "60101f87",
+      "33905f4b",
+      "9027f55b",
+      "5ac7ef9e",
+      "7b1afdc7",
+      "252411ec",
+      "66affde2",
+      "af7bceec",
+      "5351f0af",
+      "a06b8f39",
+      "719f71e4",
+      "4cd2659f",
+      "e2615149",
+      "2fee3d61",
+      "c9ab8b75",
+      "26431514",
+      "924d2670",
+      "290c05fc",
+      "159dfcfa",
+      "b25baf08",
+      "382cff67"
+    ],
+    "count": 57
+  },
+  {
     "id": 8539,
     "representative_name": "Weavile ex Darkrai ex",
     "representative_sig": "60c0bb89",
@@ -42122,70 +42189,6 @@
       "6aae2f79"
     ],
     "count": 34
-  },
-  {
-    "id": 6790,
-    "representative_name": "Mega Blaziken ex Entei ex",
-    "representative_sig": "1b6417d7",
-    "signatures": [
-      "1b6417d7",
-      "6e25ad13",
-      "f4a78f68",
-      "4664845b",
-      "9cbeb5cb",
-      "dc04e78a",
-      "0b5cca44",
-      "47d2acb3",
-      "fb111d6d",
-      "aade7010",
-      "084ce805",
-      "844805ae",
-      "09fd9ea8",
-      "6cd95182",
-      "9ab94c80",
-      "777b7f27",
-      "0123dcc4",
-      "3873f0f3",
-      "9be4949d",
-      "684662ba",
-      "2bb9728d",
-      "618b89d9",
-      "2ce8f719",
-      "2ba6b781",
-      "a35ff3f2",
-      "fdbcad9a",
-      "946b5dfc",
-      "84a14bbd",
-      "6b1c06cd",
-      "7264ac8f",
-      "41a974a7",
-      "19c4c0f6",
-      "1d7b36f3",
-      "b1cf69de",
-      "5e5416bb",
-      "9ba86014",
-      "60101f87",
-      "33905f4b",
-      "9027f55b",
-      "5ac7ef9e",
-      "7b1afdc7",
-      "252411ec",
-      "66affde2",
-      "af7bceec",
-      "5351f0af",
-      "a06b8f39",
-      "719f71e4",
-      "4cd2659f",
-      "e2615149",
-      "2fee3d61",
-      "c9ab8b75",
-      "26431514",
-      "924d2670",
-      "290c05fc",
-      "159dfcfa",
-      "b25baf08"
-    ],
-    "count": 56
   },
   {
     "id": 8548,
@@ -43245,6 +43248,54 @@
     "count": 33
   },
   {
+    "id": 65250,
+    "representative_name": "Magnezone Mega Manectric ex",
+    "representative_sig": "23925b9a",
+    "signatures": [
+      "23925b9a",
+      "73a47010",
+      "2df049d4",
+      "2a63cf2c",
+      "52115ecd",
+      "4bd654d3",
+      "04578322",
+      "e4bfc511",
+      "008dfacd",
+      "3de2ea46",
+      "473e5428",
+      "7288f9e4",
+      "31aabeda",
+      "879ada1c",
+      "93d8befb",
+      "e310358a",
+      "ed788066",
+      "7ea24cd1",
+      "ee6ee7ca",
+      "a9fab801",
+      "1b91c7da",
+      "3cff35e1",
+      "59ca25e7",
+      "d890e0e2",
+      "884b1847",
+      "adfdb325",
+      "1e9515ad",
+      "6e2cc66d",
+      "2ed7c40c",
+      "66fe237a",
+      "2123179a",
+      "de84ce53",
+      "1f96bd8c",
+      "b3290f20",
+      "c0587d70",
+      "379aadae",
+      "ea433ce6",
+      "e795f84b",
+      "a363f2fe",
+      "610fa0f3"
+    ],
+    "count": 40
+  },
+  {
     "id": 960,
     "representative_name": "Mega Blaziken ex Entei ex",
     "representative_sig": "1f02f967",
@@ -43401,54 +43452,6 @@
       "82c26cd2"
     ],
     "count": 48
-  },
-  {
-    "id": 65250,
-    "representative_name": "Magnezone Mega Manectric ex",
-    "representative_sig": "23925b9a",
-    "signatures": [
-      "23925b9a",
-      "73a47010",
-      "2df049d4",
-      "2a63cf2c",
-      "52115ecd",
-      "4bd654d3",
-      "04578322",
-      "e4bfc511",
-      "008dfacd",
-      "3de2ea46",
-      "473e5428",
-      "7288f9e4",
-      "31aabeda",
-      "879ada1c",
-      "93d8befb",
-      "e310358a",
-      "ed788066",
-      "7ea24cd1",
-      "ee6ee7ca",
-      "a9fab801",
-      "1b91c7da",
-      "3cff35e1",
-      "59ca25e7",
-      "d890e0e2",
-      "884b1847",
-      "adfdb325",
-      "1e9515ad",
-      "6e2cc66d",
-      "2ed7c40c",
-      "66fe237a",
-      "2123179a",
-      "de84ce53",
-      "1f96bd8c",
-      "b3290f20",
-      "c0587d70",
-      "379aadae",
-      "ea433ce6",
-      "e795f84b",
-      "a363f2fe",
-      "610fa0f3"
-    ],
-    "count": 40
   },
   {
     "id": 26918,
@@ -57453,6 +57456,25 @@
     "count": 13
   },
   {
+    "id": 65339,
+    "representative_name": "Mega Charizard Y ex Mega Charizard X ex",
+    "representative_sig": "213f317a",
+    "signatures": [
+      "213f317a",
+      "cad13848",
+      "7c15ca6b",
+      "4dcd8342",
+      "b3cab134",
+      "d71b954d",
+      "d9cb028e",
+      "d6643766",
+      "8d7e4d73",
+      "8fbcbb08",
+      "6e81d459"
+    ],
+    "count": 11
+  },
+  {
     "id": 697,
     "representative_name": "Hydreigon Mega Absol ex",
     "representative_sig": "ade7fb95",
@@ -58113,25 +58135,6 @@
       "237b940b"
     ],
     "count": 8
-  },
-  {
-    "id": 65339,
-    "representative_name": "Mega Charizard Y ex Mega Charizard X ex",
-    "representative_sig": "213f317a",
-    "signatures": [
-      "213f317a",
-      "cad13848",
-      "7c15ca6b",
-      "4dcd8342",
-      "b3cab134",
-      "d71b954d",
-      "d9cb028e",
-      "d6643766",
-      "8d7e4d73",
-      "8fbcbb08",
-      "6e81d459"
-    ],
-    "count": 11
   },
   {
     "id": 600,
@@ -62138,6 +62141,24 @@
     "count": 4
   },
   {
+    "id": 65563,
+    "representative_name": "Mega Manectric ex Igglybuff",
+    "representative_sig": "9674c4b6",
+    "signatures": [
+      "9674c4b6",
+      "0bfe93ac",
+      "03091f01",
+      "34e3c5c1",
+      "41d90437",
+      "a8ec66f6",
+      "61792a0f",
+      "a53a101f",
+      "b0cc55c2",
+      "04058516"
+    ],
+    "count": 10
+  },
+  {
     "id": 138,
     "representative_name": "Magnezone Ditto",
     "representative_sig": "a6300f8f",
@@ -62853,23 +62874,6 @@
       "c1dedef4"
     ],
     "count": 10
-  },
-  {
-    "id": 65563,
-    "representative_name": "Mega Manectric ex Igglybuff",
-    "representative_sig": "9674c4b6",
-    "signatures": [
-      "9674c4b6",
-      "0bfe93ac",
-      "03091f01",
-      "34e3c5c1",
-      "41d90437",
-      "a8ec66f6",
-      "61792a0f",
-      "a53a101f",
-      "b0cc55c2"
-    ],
-    "count": 9
   },
   {
     "id": 846,
@@ -75213,6 +75217,22 @@
     "count": 2
   },
   {
+    "id": 65254,
+    "representative_name": "Mega Scizor ex Revavroom",
+    "representative_sig": "589154d7",
+    "signatures": [
+      "589154d7",
+      "7ea2c4b9",
+      "2a9bcf0a",
+      "f77deec2",
+      "616e29eb",
+      "6248a369",
+      "518818c1",
+      "3833236f"
+    ],
+    "count": 8
+  },
+  {
     "id": 65298,
     "representative_name": "Mega Altaria ex",
     "representative_sig": "59305736",
@@ -77142,21 +77162,6 @@
       "27037b9c"
     ],
     "count": 3
-  },
-  {
-    "id": 65254,
-    "representative_name": "Mega Scizor ex Revavroom",
-    "representative_sig": "589154d7",
-    "signatures": [
-      "589154d7",
-      "7ea2c4b9",
-      "2a9bcf0a",
-      "f77deec2",
-      "616e29eb",
-      "6248a369",
-      "518818c1"
-    ],
-    "count": 7
   },
   {
     "id": 65368,
@@ -671006,6 +671011,42 @@
     "representative_sig": "5e585cfb",
     "signatures": [
       "5e585cfb"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66515,
+    "representative_name": "Mega Altaria ex Banette",
+    "representative_sig": "11cb2f22",
+    "signatures": [
+      "11cb2f22"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66516,
+    "representative_name": "Mega Charizard Y ex Turtonator",
+    "representative_sig": "0d7c8781",
+    "signatures": [
+      "0d7c8781"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66517,
+    "representative_name": "Mega Slowbro ex Suicune ex",
+    "representative_sig": "84299266",
+    "signatures": [
+      "84299266"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66518,
+    "representative_name": "Mega Charizard X ex Entei ex",
+    "representative_sig": "d8bf5c0e",
+    "signatures": [
+      "d8bf5c0e"
     ],
     "count": 1
   },
