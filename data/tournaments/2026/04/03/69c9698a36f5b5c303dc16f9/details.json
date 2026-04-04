@@ -1,0 +1,29 @@
+{
+  "id": "69c9698a36f5b5c303dc16f9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Plasma Weekly #4 | FA Trainers",
+  "date": "2026-04-03T22:00:00.000Z",
+  "players": 99,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
