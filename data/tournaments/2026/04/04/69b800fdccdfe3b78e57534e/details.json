@@ -1,0 +1,29 @@
+{
+  "id": "69b800fdccdfe3b78e57534e",
+  "game": "POCKET",
+  "format": null,
+  "name": "$150 Battle Tower Limit Testing!",
+  "date": "2026-04-04T14:00:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO5"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
