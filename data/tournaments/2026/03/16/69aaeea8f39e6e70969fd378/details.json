@@ -1,0 +1,29 @@
+{
+  "id": "69aaeea8f39e6e70969fd378",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6\u2620\ufe0f Mensal Mar\u00e7o NOEX - Prize $350 BRL",
+  "date": "2026-03-16T15:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
