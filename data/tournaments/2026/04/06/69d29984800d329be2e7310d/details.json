@@ -1,0 +1,29 @@
+{
+  "id": "69d29984800d329be2e7310d",
+  "game": "POCKET",
+  "format": null,
+  "name": "RCS | ROCKET - PTCG Pocket Easter Hunt ($20USD)",
+  "date": "2026-04-06T00:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2524,
+    "name": "Paldea Colloseum "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
