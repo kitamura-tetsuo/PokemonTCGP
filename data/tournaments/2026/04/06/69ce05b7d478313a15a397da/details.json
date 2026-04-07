@@ -1,0 +1,29 @@
+{
+  "id": "69ce05b7d478313a15a397da",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wielkanocne Granie - 06.04.2026 [PL]",
+  "date": "2026-04-06T17:31:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
