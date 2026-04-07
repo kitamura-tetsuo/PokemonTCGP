@@ -1,0 +1,29 @@
+{
+  "id": "69d343f60e548b5c2fbe4613",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club \ud83e\udd5e Weekly #7-$5",
+  "date": "2026-04-06T16:45:00.000Z",
+  "players": 234,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
