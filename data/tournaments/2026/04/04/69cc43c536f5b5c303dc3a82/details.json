@@ -1,0 +1,36 @@
+{
+  "id": "69cc43c536f5b5c303dc3a82",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "CUSTOM GAMEMODE: Blocked - The Breakfast Club - $5",
+  "date": "2026-04-04T02:25:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Professor's Research",
+      "set": "P-A",
+      "number": "7"
+    }
+  ]
+}
