@@ -1,0 +1,29 @@
+{
+  "id": "69d569820e548b5c2fbe5e32",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Evening Pop Up-$20 + FA",
+  "date": "2026-04-07T23:20:00.000Z",
+  "players": 121,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
