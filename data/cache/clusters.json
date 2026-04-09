@@ -54899,6 +54899,17 @@
     "count": 11
   },
   {
+    "id": 62136,
+    "representative_name": "Dusknoir Chandelure",
+    "representative_sig": "13e21646",
+    "signatures": [
+      "13e21646",
+      "0cfec8fd",
+      "cb1e2242"
+    ],
+    "count": 3
+  },
+  {
     "id": 62574,
     "representative_name": "Mega Altaria ex Gourgeist",
     "representative_sig": "c00c26a3",
@@ -55576,6 +55587,23 @@
     "count": 17
   },
   {
+    "id": 62133,
+    "representative_name": "Hydreigon Zoroark",
+    "representative_sig": "67f30262",
+    "signatures": [
+      "67f30262",
+      "a3dbfdb2",
+      "1081eca4",
+      "1afac6b9",
+      "d3c554f1",
+      "30244e71",
+      "f5156edf",
+      "7edc9f9d",
+      "b3508d7e"
+    ],
+    "count": 9
+  },
+  {
     "id": 65231,
     "representative_name": "Mega Scizor ex Skarmory",
     "representative_sig": "bf5d96af",
@@ -56009,23 +56037,6 @@
     "count": 13
   },
   {
-    "id": 62133,
-    "representative_name": "Hydreigon Zoroark",
-    "representative_sig": "67f30262",
-    "signatures": [
-      "67f30262",
-      "a3dbfdb2",
-      "1afac6b9",
-      "d3c554f1",
-      "30244e71",
-      "f5156edf",
-      "7edc9f9d",
-      "b3508d7e",
-      "1081eca4"
-    ],
-    "count": 9
-  },
-  {
     "id": 39,
     "representative_name": "Mega Kangaskhan ex Darkrai ex",
     "representative_sig": "8e44a438",
@@ -56307,17 +56318,6 @@
       "83e07434"
     ],
     "count": 15
-  },
-  {
-    "id": 62136,
-    "representative_name": "Dusknoir Chandelure",
-    "representative_sig": "13e21646",
-    "signatures": [
-      "13e21646",
-      "0cfec8fd",
-      "cb1e2242"
-    ],
-    "count": 3
   },
   {
     "id": 1540,
@@ -217786,6 +217786,16 @@
     "count": 2
   },
   {
+    "id": 63080,
+    "representative_name": "Lycanroc",
+    "representative_sig": "d45e4546",
+    "signatures": [
+      "d45e4546",
+      "6562b209"
+    ],
+    "count": 2
+  },
+  {
     "id": 63091,
     "representative_name": "Gourgeist Shiinotic",
     "representative_sig": "b1628dd7",
@@ -220021,6 +220031,15 @@
     "representative_sig": "c8d104ea",
     "signatures": [
       "c8d104ea"
+    ],
+    "count": 1
+  },
+  {
+    "id": 65169,
+    "representative_name": "Drifblim Mismagius",
+    "representative_sig": "dc0c8a55",
+    "signatures": [
+      "dc0c8a55"
     ],
     "count": 1
   },
@@ -648226,15 +648245,6 @@
     "count": 1
   },
   {
-    "id": 63080,
-    "representative_name": "Lycanroc",
-    "representative_sig": "d45e4546",
-    "signatures": [
-      "d45e4546"
-    ],
-    "count": 1
-  },
-  {
     "id": 63081,
     "representative_name": "Magnezone Electrode",
     "representative_sig": "f8a8d3af",
@@ -663202,15 +663212,6 @@
     "count": 1
   },
   {
-    "id": 65169,
-    "representative_name": "Drifblim Mismagius",
-    "representative_sig": "dc0c8a55",
-    "signatures": [
-      "dc0c8a55"
-    ],
-    "count": 1
-  },
-  {
     "id": 65170,
     "representative_name": "Cofagrigus Gourgeist",
     "representative_sig": "946fed6b",
@@ -675510,6 +675511,141 @@
     "representative_sig": "543ae2e4",
     "signatures": [
       "543ae2e4"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66956,
+    "representative_name": "Dusknoir Chandelure",
+    "representative_sig": "e74467de",
+    "signatures": [
+      "e74467de"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66957,
+    "representative_name": "Chandelure Gourgeist",
+    "representative_sig": "f0eab72f",
+    "signatures": [
+      "f0eab72f"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66958,
+    "representative_name": "Maushold",
+    "representative_sig": "68f31f56",
+    "signatures": [
+      "68f31f56"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66959,
+    "representative_name": "Magcargo",
+    "representative_sig": "17a482f0",
+    "signatures": [
+      "17a482f0"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66960,
+    "representative_name": "Magcargo",
+    "representative_sig": "9e52b248",
+    "signatures": [
+      "9e52b248"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66961,
+    "representative_name": "Grumpig Gourgeist",
+    "representative_sig": "910c39d7",
+    "signatures": [
+      "910c39d7"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66962,
+    "representative_name": "Magnezone Heliolisk",
+    "representative_sig": "1b8c698a",
+    "signatures": [
+      "1b8c698a"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66963,
+    "representative_name": "Hydreigon Zoroark",
+    "representative_sig": "321baf4e",
+    "signatures": [
+      "321baf4e"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66964,
+    "representative_name": "Magcargo",
+    "representative_sig": "6f934e8e",
+    "signatures": [
+      "6f934e8e"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66965,
+    "representative_name": "Tsareena Alolan Exeggutor",
+    "representative_sig": "1e5303b3",
+    "signatures": [
+      "1e5303b3"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66966,
+    "representative_name": "Butterfree Meowscarada",
+    "representative_sig": "5addab18",
+    "signatures": [
+      "5addab18"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66967,
+    "representative_name": "Chandelure Cofagrigus",
+    "representative_sig": "68c7d7f2",
+    "signatures": [
+      "68c7d7f2"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66968,
+    "representative_name": "Greninja Baxcalibur",
+    "representative_sig": "6db60eae",
+    "signatures": [
+      "6db60eae"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66969,
+    "representative_name": "Blaziken",
+    "representative_sig": "df8a4f4e",
+    "signatures": [
+      "df8a4f4e"
+    ],
+    "count": 1
+  },
+  {
+    "id": 66970,
+    "representative_name": "Wigglytuff Persian",
+    "representative_sig": "90e3d3b0",
+    "signatures": [
+      "90e3d3b0"
     ],
     "count": 1
   },
