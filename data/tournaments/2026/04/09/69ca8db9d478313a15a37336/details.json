@@ -1,0 +1,29 @@
+{
+  "id": "69ca8db9d478313a15a37336",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #3 - Zapdos Shenanigans (FA Oak)",
+  "date": "2026-04-09T20:30:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

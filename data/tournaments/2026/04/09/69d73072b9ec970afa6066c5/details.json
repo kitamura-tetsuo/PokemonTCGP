@@ -1,0 +1,29 @@
+{
+  "id": "69d73072b9ec970afa6066c5",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Afternoon Clash-$5",
+  "date": "2026-04-09T16:15:00.000Z",
+  "players": 148,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

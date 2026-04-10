@@ -1,0 +1,29 @@
+{
+  "id": "69d3d5f9800d329be2e73ba5",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc51\ud83d\udc32ZGG|King Solomon\u2019s Trick Room $5\ud83c\udf00",
+  "date": "2026-04-09T20:00:00.000Z",
+  "players": 126,
+  "organizer": {
+    "id": 2551,
+    "name": "Zero Gravity Gaming "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
