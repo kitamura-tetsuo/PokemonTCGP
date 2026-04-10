@@ -1,0 +1,29 @@
+{
+  "id": "69d38a840e548b5c2fbe46ba",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna X Ev4de POG Tournament #4|Top 4 FA Pool!",
+  "date": "2026-04-10T03:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
