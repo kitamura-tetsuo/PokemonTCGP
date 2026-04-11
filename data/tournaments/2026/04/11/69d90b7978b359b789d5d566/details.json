@@ -1,0 +1,29 @@
+{
+  "id": "69d90b7978b359b789d5d566",
+  "game": "POCKET",
+  "format": null,
+  "name": "MARSHADOW \ud83c\udfc6 $20 USD Runner up  \u2b50\ufe0f \u2b50\ufe0f MEGA SHINE",
+  "date": "2026-04-11T01:00:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2524,
+    "name": "Paldea Colloseum "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
