@@ -1,0 +1,29 @@
+{
+  "id": "69d79c86c734cfa1af2b5c83",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2728\ufe0f50$ BEC'S CHAMPIONS: 1-4 PRIZES \u2728\ufe0f",
+  "date": "2026-04-10T13:00:00.000Z",
+  "players": 158,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

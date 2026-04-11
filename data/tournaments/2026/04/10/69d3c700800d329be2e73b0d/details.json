@@ -1,0 +1,29 @@
+{
+  "id": "69d3c700800d329be2e73b0d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Tournament #1 ( Rp500.000 + FA CARD )",
+  "date": "2026-04-10T12:00:00.000Z",
+  "players": 173,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}
