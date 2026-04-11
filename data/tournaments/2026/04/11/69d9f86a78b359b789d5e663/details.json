@@ -1,0 +1,29 @@
+{
+  "id": "69d9f86a78b359b789d5e663",
+  "game": "POCKET",
+  "format": null,
+  "name": "Meta Breaker - The Return | 10$ + FA Cards",
+  "date": "2026-04-11T09:30:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2544,
+    "name": "Meta Breaker"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
