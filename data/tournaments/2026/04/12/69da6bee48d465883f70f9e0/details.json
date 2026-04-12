@@ -1,0 +1,29 @@
+{
+  "id": "69da6bee48d465883f70f9e0",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Road To Victory |\ud83e\udd47$20 USD\ud83e\udd48\u2b50\ufe0f\u2b50\ufe0f\ud83e\udd49\u2b50\ufe0f",
+  "date": "2026-04-12T00:00:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2524,
+    "name": "Paldea Colloseum "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

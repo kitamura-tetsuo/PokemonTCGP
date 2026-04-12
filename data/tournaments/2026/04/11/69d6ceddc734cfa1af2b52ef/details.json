@@ -1,0 +1,29 @@
+{
+  "id": "69d6ceddc734cfa1af2b52ef",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League #01 | Prizes: RR Cards",
+  "date": "2026-04-11T22:00:00.000Z",
+  "players": 120,
+  "organizer": {
+    "id": 2630,
+    "name": "Power League "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
