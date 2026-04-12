@@ -1,0 +1,146 @@
+{
+  "id": "69d310b40e548b5c2fbe444e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Crew Custom Tournament (Megas Banned)",
+  "date": "2026-04-12T02:00:00.000Z",
+  "players": 70,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "B2",
+      "number": "127"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Mega Gardevoir ex",
+      "set": "B2",
+      "number": "66"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "B1a",
+      "number": "42"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "B2b",
+      "number": "9"
+    },
+    {
+      "name": "Mega Manectric ex",
+      "set": "B2b",
+      "number": "27"
+    },
+    {
+      "name": "Mega Scizor ex",
+      "set": "B2b",
+      "number": "47"
+    },
+    {
+      "name": "Mega Slowbro ex",
+      "set": "B2b",
+      "number": "16"
+    },
+    {
+      "name": "Mega Gengar ex",
+      "set": "B2b",
+      "number": "39"
+    },
+    {
+      "name": "Mega Swampert ex",
+      "set": "B2",
+      "number": "36"
+    },
+    {
+      "name": "Mega Mawile ex",
+      "set": "B2",
+      "number": "113"
+    },
+    {
+      "name": "Mega Blastoise ex",
+      "set": "B1a",
+      "number": "20"
+    },
+    {
+      "name": "Mega Steelix ex",
+      "set": "B1a",
+      "number": "52"
+    },
+    {
+      "name": "Mega Pinsir ex",
+      "set": "B1",
+      "number": "2"
+    },
+    {
+      "name": "Mega Gyarados ex",
+      "set": "B1",
+      "number": "52"
+    },
+    {
+      "name": "Mega Ampharos ex",
+      "set": "B1",
+      "number": "85"
+    },
+    {
+      "name": "Mega Pidgeot ex",
+      "set": "P-B",
+      "number": "6"
+    },
+    {
+      "name": "Mega Latios ex",
+      "set": "P-B",
+      "number": "24"
+    },
+    {
+      "name": "Mega Medicham ex",
+      "set": "P-B",
+      "number": "29"
+    }
+  ]
+}
