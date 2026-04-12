@@ -5492,9 +5492,10 @@
       "ac858028",
       "e425246c",
       "ed277914",
-      "33e8a3f5"
+      "33e8a3f5",
+      "9b612938"
     ],
-    "count": 415
+    "count": 416
   },
   {
     "id": 34251,
@@ -76089,6 +76090,17 @@
     "count": 9
   },
   {
+    "id": 60264,
+    "representative_name": "Hydreigon",
+    "representative_sig": "24dc4d08",
+    "signatures": [
+      "24dc4d08",
+      "b86dd870",
+      "e29eae18"
+    ],
+    "count": 3
+  },
+  {
     "id": 60371,
     "representative_name": "Mega Altaria ex Furfrou",
     "representative_sig": "08fc5402",
@@ -77984,17 +77996,6 @@
       "1d8e3069",
       "799531b5",
       "7a6b95d0"
-    ],
-    "count": 3
-  },
-  {
-    "id": 60264,
-    "representative_name": "Hydreigon",
-    "representative_sig": "24dc4d08",
-    "signatures": [
-      "24dc4d08",
-      "b86dd870",
-      "e29eae18"
     ],
     "count": 3
   },
@@ -80432,6 +80433,21 @@
       "fe60b24b"
     ],
     "count": 4
+  },
+  {
+    "id": 65259,
+    "representative_name": "Vivillon Igglybuff",
+    "representative_sig": "9e5fbf4d",
+    "signatures": [
+      "9e5fbf4d",
+      "a060c495",
+      "d705515d",
+      "0e25967c",
+      "45f6e201",
+      "cfc6a199",
+      "b1ccbb1b"
+    ],
+    "count": 7
   },
   {
     "id": 65265,
@@ -82984,21 +83000,6 @@
       "15cb94c1"
     ],
     "count": 3
-  },
-  {
-    "id": 65259,
-    "representative_name": "Vivillon Igglybuff",
-    "representative_sig": "9e5fbf4d",
-    "signatures": [
-      "9e5fbf4d",
-      "a060c495",
-      "d705515d",
-      "0e25967c",
-      "45f6e201",
-      "cfc6a199",
-      "b1ccbb1b"
-    ],
-    "count": 7
   },
   {
     "id": 65425,
@@ -86134,6 +86135,22 @@
       "1870d9db"
     ],
     "count": 5
+  },
+  {
+    "id": 65498,
+    "representative_name": "Hydreigon Igglybuff",
+    "representative_sig": "9ce385f0",
+    "signatures": [
+      "9ce385f0",
+      "d3d858dc",
+      "6129abef",
+      "861ab3f1",
+      "95eb8319",
+      "ba89a847",
+      "08e90c1e",
+      "a3532d9f"
+    ],
+    "count": 8
   },
   {
     "id": 66283,
@@ -90163,21 +90180,6 @@
       "f952b421"
     ],
     "count": 2
-  },
-  {
-    "id": 65498,
-    "representative_name": "Hydreigon Igglybuff",
-    "representative_sig": "9ce385f0",
-    "signatures": [
-      "9ce385f0",
-      "d3d858dc",
-      "6129abef",
-      "861ab3f1",
-      "95eb8319",
-      "ba89a847",
-      "08e90c1e"
-    ],
-    "count": 7
   },
   {
     "id": 65508,
@@ -100193,6 +100195,20 @@
     "count": 1
   },
   {
+    "id": 60285,
+    "representative_name": "Hydreigon",
+    "representative_sig": "e7119a45",
+    "signatures": [
+      "e7119a45",
+      "ca545e90",
+      "3de70033",
+      "5c5279bf",
+      "234c439b",
+      "1ab75419"
+    ],
+    "count": 6
+  },
+  {
     "id": 60346,
     "representative_name": "Mega Altaria ex Chingling",
     "representative_sig": "e91e4bf7",
@@ -108821,19 +108837,6 @@
       "96fd4ade",
       "6d9b8fcc",
       "a63d5d4d"
-    ],
-    "count": 5
-  },
-  {
-    "id": 60285,
-    "representative_name": "Hydreigon",
-    "representative_sig": "e7119a45",
-    "signatures": [
-      "e7119a45",
-      "ca545e90",
-      "3de70033",
-      "5c5279bf",
-      "234c439b"
     ],
     "count": 5
   },
@@ -122423,6 +122426,17 @@
       "aedee732"
     ],
     "count": 2
+  },
+  {
+    "id": 61133,
+    "representative_name": "Magnezone Pheromosa",
+    "representative_sig": "3219ca03",
+    "signatures": [
+      "3219ca03",
+      "dd7132a8",
+      "d9596ea5"
+    ],
+    "count": 3
   },
   {
     "id": 61344,
@@ -148314,17 +148328,6 @@
       "796103cb"
     ],
     "count": 2
-  },
-  {
-    "id": 61133,
-    "representative_name": "Magnezone Pheromosa",
-    "representative_sig": "3219ca03",
-    "signatures": [
-      "3219ca03",
-      "dd7132a8",
-      "d9596ea5"
-    ],
-    "count": 3
   },
   {
     "id": 61153,
@@ -216567,6 +216570,16 @@
     "count": 1
   },
   {
+    "id": 61137,
+    "representative_name": "Magnezone Pheromosa",
+    "representative_sig": "f0e8a397",
+    "signatures": [
+      "f0e8a397",
+      "ac44ff03"
+    ],
+    "count": 2
+  },
+  {
     "id": 61164,
     "representative_name": "Vivillon Rillaboom",
     "representative_sig": "142eee91",
@@ -217699,6 +217712,16 @@
       "82f6d312"
     ],
     "count": 1
+  },
+  {
+    "id": 62244,
+    "representative_name": "Galarian Obstagoon Absol",
+    "representative_sig": "d5989455",
+    "signatures": [
+      "d5989455",
+      "477821b5"
+    ],
+    "count": 2
   },
   {
     "id": 62251,
@@ -636367,15 +636390,6 @@
     "count": 1
   },
   {
-    "id": 61137,
-    "representative_name": "Magnezone Pheromosa",
-    "representative_sig": "f0e8a397",
-    "signatures": [
-      "f0e8a397"
-    ],
-    "count": 1
-  },
-  {
     "id": 61138,
     "representative_name": "Celesteela Dusk Mane Necrozma",
     "representative_sig": "12928ea8",
@@ -643977,15 +643991,6 @@
     "representative_sig": "c41f745d",
     "signatures": [
       "c41f745d"
-    ],
-    "count": 1
-  },
-  {
-    "id": 62244,
-    "representative_name": "Galarian Obstagoon Absol",
-    "representative_sig": "d5989455",
-    "signatures": [
-      "d5989455"
     ],
     "count": 1
   },
@@ -679158,6 +679163,123 @@
     "representative_sig": "9e58ff1d",
     "signatures": [
       "9e58ff1d"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67321,
+    "representative_name": "Celesteela Kartana",
+    "representative_sig": "0906c75a",
+    "signatures": [
+      "0906c75a"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67322,
+    "representative_name": "Igglybuff Darkrai",
+    "representative_sig": "3bfa6f9e",
+    "signatures": [
+      "3bfa6f9e"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67323,
+    "representative_name": "Hydreigon Drowzee",
+    "representative_sig": "c1a3f153",
+    "signatures": [
+      "c1a3f153"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67324,
+    "representative_name": "Blaziken Torkoal",
+    "representative_sig": "98d92edd",
+    "signatures": [
+      "98d92edd"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67325,
+    "representative_name": "Gourgeist Houndstone",
+    "representative_sig": "2dcc48bd",
+    "signatures": [
+      "2dcc48bd"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67326,
+    "representative_name": "Dragonite",
+    "representative_sig": "1a41ae9e",
+    "signatures": [
+      "1a41ae9e"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67327,
+    "representative_name": "Dragonite",
+    "representative_sig": "188ac280",
+    "signatures": [
+      "188ac280"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67328,
+    "representative_name": "Hydreigon",
+    "representative_sig": "12cf6002",
+    "signatures": [
+      "12cf6002"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67329,
+    "representative_name": "Gourgeist Houndstone",
+    "representative_sig": "9cf89aa4",
+    "signatures": [
+      "9cf89aa4"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67330,
+    "representative_name": "Vivillon",
+    "representative_sig": "77bcd0aa",
+    "signatures": [
+      "77bcd0aa"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67331,
+    "representative_name": "Magnezone Decidueye",
+    "representative_sig": "53b6d68b",
+    "signatures": [
+      "53b6d68b"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67332,
+    "representative_name": "Haxorus Furfrou",
+    "representative_sig": "9eced42b",
+    "signatures": [
+      "9eced42b"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67333,
+    "representative_name": "Galarian Obstagoon Nihilego",
+    "representative_sig": "bd5e050b",
+    "signatures": [
+      "bd5e050b"
     ],
     "count": 1
   },
