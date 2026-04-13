@@ -1,0 +1,30 @@
+{
+  "id": "69d3de030e548b5c2fbe4945",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #27 - HYPER SHINE!!! | $100 USD",
+  "date": "2026-04-11T16:00:00.000Z",
+  "players": 534,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
