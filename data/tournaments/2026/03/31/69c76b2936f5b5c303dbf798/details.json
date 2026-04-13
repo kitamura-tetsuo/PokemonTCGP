@@ -1,0 +1,29 @@
+{
+  "id": "69c76b2936f5b5c303dbf798",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc26\u200d\ud83d\udd25 GALAR ESPECIAL DE KANTO \u2022 Prize R$300 BRL",
+  "date": "2026-03-31T00:00:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2442,
+    "name": "TEAM GALAR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
