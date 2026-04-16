@@ -1,0 +1,32 @@
+{
+  "id": "69b2eecf6a05f00a8c4aa7bb",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #4 - Siebold's Bistro (FA Brock)",
+  "date": "2026-04-15T18:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
