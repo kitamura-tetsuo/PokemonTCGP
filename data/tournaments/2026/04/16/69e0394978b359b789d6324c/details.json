@@ -1,0 +1,29 @@
+{
+  "id": "69e0394978b359b789d6324c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Crew Standard (OAK FA)",
+  "date": "2026-04-16T03:30:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
