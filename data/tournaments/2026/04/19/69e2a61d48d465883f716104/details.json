@@ -1,0 +1,29 @@
+{
+  "id": "69e2a61d48d465883f716104",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown morning time\u2600\ufe0f 50$",
+  "date": "2026-04-19T09:00:00.000Z",
+  "players": 93,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
