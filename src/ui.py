@@ -16,7 +16,6 @@ from src.data import (
     get_cluster_details, get_cluster_mapping, get_card_info_by_name,
     load_enriched_sets, get_daily_winrate_for_decks, get_daily_wilson_for_decks
 )
-from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
 from src.config import IMAGE_BASE_URL
 from src.utils import format_deck_name, calculate_confidence_interval, paginate_data
 
@@ -250,6 +249,7 @@ def _get_set_periods():
         return []
 
 def render_meta_trend_page():
+    from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
     st.header("Metagame Trends")
     st.markdown(
         "Visualize the evolution of the metagame over time. You can filter by specific cards to see how decks containing them perform."

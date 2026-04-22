@@ -8,6 +8,8 @@ import pandas as pd
 from collections import Counter, defaultdict
 
 from src.hashing import compute_deck_signature
+from src.utils import calculate_confidence_interval
+
 
 logger = logging.getLogger(__name__)
 
@@ -539,7 +541,6 @@ def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=
     Returns: pd.DataFrame where columns are formatted names and values are bound %.
     If return_both is True, returns a dict {"lower": df_lower, "upper": df_upper}.
     """
-    from src.utils import calculate_confidence_interval
 
     scan_start = start_date
     if not scan_start:
@@ -1377,8 +1378,7 @@ def get_card_name(english_name, lang="en"):
     return english_name
 def get_comparison_stats(signatures, window=7, start_date=None, end_date=None):
     """
-    Get detailed comparison statistics for specific deck signatures.
-    Returns: dict of DataFrames, one for each deck.
+    Get daily and cumulative stats for comparison line charts.
     Each DataFrame has columns: [share, wr, wilson_cumulative, wilson_moving]
     """
     scan_start = start_date
