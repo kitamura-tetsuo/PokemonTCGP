@@ -590,13 +590,16 @@ def render_meta_trend_page():
     # --- 3. Wilson Score Interval (Lower Bound) ---
     if chart_identifiers:
         with st.spinner("Calculating Wilson scores..."):
-            wilson_df = get_daily_wilson_for_decks(
+            wilson_results = get_daily_wilson_for_decks(
                 list(chart_identifiers),
                 window=window,
                 start_date=selected_period["start"],
                 end_date=selected_period["end"],
-                clustered=clustered
+                clustered=clustered,
+                return_both=True
             )
+            wilson_df = wilson_results["lower"]
+            wilson_upper_df = wilson_results["upper"]
 
         if not wilson_df.empty:
             st.subheader("Wilson Score Interval (Lower Bound)")
@@ -624,6 +627,10 @@ def render_meta_trend_page():
                         st.query_params["deck_sig"] = match.group(1)
                         st.query_params["page"] = "trends"
                         st.rerun()
+    else:
+        wilson_df = pd.DataFrame()
+        wilson_upper_df = pd.DataFrame()
+
 
     st.divider()
 
@@ -643,7 +650,11 @@ def render_meta_trend_page():
     if is_filtered and global_df is not None and not global_df.empty:
         global_latest_shares = global_df.iloc[-1].to_dict()
 
+    latest_lowers = wilson_df.iloc[-1].to_dict() if not wilson_df.empty else {}
+    latest_uppers = wilson_upper_df.iloc[-1].to_dict() if not wilson_upper_df.empty else {}
+
     rows_data = []
+
     
     for label, info in stats_map.items():
         share = latest_shares.get(label, 0.0)
@@ -675,14 +686,16 @@ def render_meta_trend_page():
             "share": share,
             "overall_share": overall_share,
             "period_share": avg_share,
-            "period_share": avg_share,
             "wr": wr,
             "lower_ci": lower_ci,
             "upper_ci": upper_ci,
+            "latest_lower": latest_lowers.get(label, 0.0),
+            "latest_upper": latest_uppers.get(label, 0.0),
             "players": stats.get("players", 0),
             "matches": mtch,
             "deck_info": deck_info
         })
+
 
     if not rows_data:
         st.info("No data available for the selected period.")
@@ -692,13 +705,15 @@ def render_meta_trend_page():
     sort_options = {
         "share": "Latest Share (Window)",
         "period_share": "Period Avg Share",
-        "period_share": "Period Avg Share",
         "wr": "Win Rate (Period)",
-        "lower_ci": "Lower 95% CI",
-        "upper_ci": "Upper 95% CI",
+        "latest_lower": "Latest Lower Bound",
+        "latest_upper": "Latest Upper Bound",
+        "lower_ci": "Period Lower 95% CI",
+        "upper_ci": "Period Upper 95% CI",
         "players": "Total Players (Period)",
         "matches": "Total Matches (Period)"
     }
+
     if is_filtered:
         sort_options["overall_share"] = "Overall Share"
 
@@ -713,11 +728,14 @@ def render_meta_trend_page():
         "overall_share": lambda x: x["overall_share"],
         "period_share": lambda x: x["period_share"],
         "wr": lambda x: x["wr"],
+        "latest_lower": lambda x: x["latest_lower"],
+        "latest_upper": lambda x: x["latest_upper"],
         "lower_ci": lambda x: x["lower_ci"],
         "upper_ci": lambda x: x["upper_ci"],
         "players": lambda x: x["players"],
         "matches": lambda x: x["matches"]
     }
+
     
     if q_sort in sort_key_map:
         rows_data.sort(key=sort_key_map[q_sort], reverse=(q_order == "desc"))
@@ -827,15 +845,22 @@ def render_meta_trend_page():
 <th class="header-link" {get_header_style('period_share')} style="text-align: right;">
     <a href="{get_sort_link('period_share')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>SHARE <span class="sort-indicator">{get_sort_indicator('period_share')}</span></a>
 </th>
+<th class="header-link" {get_header_style('latest_lower')} style="text-align: right;">
+    <a href="{get_sort_link('latest_lower')}" target="_self" style="color: inherit; text-decoration: none;">LATEST<br>LOWER<span class="sort-indicator">{get_sort_indicator('latest_lower')}</span></a>
+</th>
+<th class="header-link" {get_header_style('latest_upper')} style="text-align: right;">
+    <a href="{get_sort_link('latest_upper')}" target="_self" style="color: inherit; text-decoration: none;">LATEST<br>UPPER<span class="sort-indicator">{get_sort_indicator('latest_upper')}</span></a>
+</th>
 <th class="header-link" {get_header_style('wr')} style="text-align: right;">
     <a href="{get_sort_link('wr')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>WIN RATE<span class="sort-indicator">{get_sort_indicator('wr')}</span></a>
 </th>
 <th class="header-link" {get_header_style('lower_ci')} style="text-align: right;">
-    <a href="{get_sort_link('lower_ci')}" target="_self" style="color: inherit; text-decoration: none;">LOWER<br>(95%)<span class="sort-indicator">{get_sort_indicator('lower_ci')}</span></a>
+    <a href="{get_sort_link('lower_ci')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>LOWER<span class="sort-indicator">{get_sort_indicator('lower_ci')}</span></a>
 </th>
 <th class="header-link" {get_header_style('upper_ci')} style="text-align: right;">
-    <a href="{get_sort_link('upper_ci')}" target="_self" style="color: inherit; text-decoration: none;">UPPER<br>(95%)<span class="sort-indicator">{get_sort_indicator('upper_ci')}</span></a>
+    <a href="{get_sort_link('upper_ci')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>UPPER<span class="sort-indicator">{get_sort_indicator('upper_ci')}</span></a>
 </th>
+
 <th class="header-link" {get_header_style('players')} style="text-align: right;">
     <a href="{get_sort_link('players')}" target="_self" style="color: inherit; text-decoration: none;">PERIOD<br>PLAYERS<span class="sort-indicator">{get_sort_indicator('players')}</span></a>
 </th>
@@ -980,9 +1005,12 @@ def render_meta_trend_page():
             f'<td style="text-align: right; color: #1ed760; font-weight: bold;">{row["share"]:.1f}%</td>'
             f'{overall_share_cell}'
             f'<td style="text-align: right; opacity: 0.8;">{row["period_share"]:.1f}%</td>'
+            f'<td style="text-align: right; opacity: 0.8;">{row["latest_lower"]:.1f}%</td>'
+            f'<td style="text-align: right; opacity: 0.8;">{row["latest_upper"]:.1f}%</td>'
             f'<td style="text-align: right; color: {wr_color};">{row["wr"]:.1f}%</td>'
             f'<td style="text-align: right; opacity: 0.8;">{row["lower_ci"]:.1f}%</td>'
             f'<td style="text-align: right; opacity: 0.8;">{row["upper_ci"]:.1f}%</td>'
+
             f'<td style="text-align: right; color: #888;">{int(row["players"])}</td>'
             f'<td style="text-align: right; color: #888;">{int(row["matches"])}</td>'
             '</tr>\n'

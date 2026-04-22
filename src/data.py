@@ -532,11 +532,12 @@ def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
             result[sig] = info
     return result
 
-def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=None, clustered=False):
+def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=None, clustered=False, return_both=False):
     """
-    Get daily Wilson score interval (lower bound) for specific decks or clusters.
+    Get daily Wilson score interval (lower bound by default) for specific decks or clusters.
     identifiers: List of raw signatures or cluster IDs (strings).
-    Returns: pd.DataFrame where columns are formatted names and values are lower bound %.
+    Returns: pd.DataFrame where columns are formatted names and values are bound %.
+    If return_both is True, returns a dict {"lower": df_lower, "upper": df_upper}.
     """
     from src.utils import calculate_confidence_interval
 
@@ -549,6 +550,8 @@ def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=
     sig_to_cluster, id_to_cluster = get_cluster_mapping()
 
     if not daily_raw:
+        if return_both:
+            return {"lower": pd.DataFrame(), "upper": pd.DataFrame()}
         return pd.DataFrame()
 
     all_dates = sorted(daily_raw.keys())
@@ -592,7 +595,8 @@ def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=
                 agg_data[target_id][d]["m"] += mtch
 
     # Build DataFrame
-    final_data = {}
+    final_data_lower = {}
+    final_data_upper = {}
 
     # Define date grid for output
     date_grid = [d for d in all_dates if (not start_date or d >= start_date) and (not end_date or d <= end_date)]
@@ -614,7 +618,8 @@ def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=
         # Since we want to output only date_grid, we collect results for date_grid only
         # BUT we must iterate through all_dates to maintain correct window state
 
-        output_wilsons = []
+        output_lowers = []
+        output_uppers = []
         output_dates = []
 
         window_wins = []
@@ -635,21 +640,31 @@ def get_daily_wilson_for_decks(identifiers, window=7, start_date=None, end_date=
                 mov_wins = sum(window_wins)
                 mov_matches = sum(window_matches)
 
-                lower = 0.0
+                lower, upper = 0.0, 0.0
                 if mov_matches > 0:
-                    lower, _ = calculate_confidence_interval(mov_wins, mov_matches)
+                    lower, upper = calculate_confidence_interval(mov_wins, mov_matches)
                 else:
-                    lower = float('nan')
+                    lower, upper = float('nan'), float('nan')
 
                 output_dates.append(d)
-                output_wilsons.append(lower)
+                output_lowers.append(lower)
+                output_uppers.append(upper)
 
-        final_series = pd.Series(data=output_wilsons, index=output_dates)
-        final_data[name_label] = final_series
+        final_series_lower = pd.Series(data=output_lowers, index=output_dates)
+        final_data_lower[name_label] = final_series_lower
+        
+        if return_both:
+            final_series_upper = pd.Series(data=output_uppers, index=output_dates)
+            final_data_upper[name_label] = final_series_upper
 
-    df = pd.DataFrame(final_data)
+    df_lower = pd.DataFrame(final_data_lower)
+    
+    if return_both:
+        df_upper = pd.DataFrame(final_data_upper)
+        return {"lower": df_lower, "upper": df_upper}
+    
+    return df_lower
 
-    return df
 
 def get_deck_details(sig, start_date=None, end_date=None):
     return get_deck_details_by_signature([sig], start_date=start_date, end_date=end_date).get(sig)
