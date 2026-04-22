@@ -1,0 +1,29 @@
+{
+  "id": "69dddfd578b359b789d61e69",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf55 Prize & Pizza \ud83c\udf55 P.P.I \ud83c\udf55",
+  "date": "2026-04-17T19:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 1968,
+    "name": "Pokemon Pocket Italia"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ]
+}
