@@ -1,0 +1,29 @@
+{
+  "id": "69e406d948d465883f7178ef",
+  "game": "POCKET",
+  "format": null,
+  "name": "Wicked\u2019s Weekly Wipeout #05 FA Oak",
+  "date": "2026-04-22T23:30:00.000Z",
+  "players": 71,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
