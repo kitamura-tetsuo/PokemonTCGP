@@ -1,0 +1,29 @@
+{
+  "id": "69ea07ba78b359b789d69e6c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown blitz 20$+ Top 4 FA cards \u26a1",
+  "date": "2026-04-23T21:30:00.000Z",
+  "players": 104,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}
