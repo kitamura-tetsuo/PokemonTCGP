@@ -502,21 +502,20 @@ def render_meta_trend_page():
     # cards are already enriched in data.py via get_period_statistics
     details_map = {label: info["deck_info"] for label, info in stats_map.items()}
 
-    # Extract identifiers for WR and Wilson fetch
-    chart_identifiers = set()
-    # Use df_display columns (which exclude "Others" if we are careful, or we handle it)
-    cols_to_fetch = [c for c in df_display.columns if c != "Others"]
+    # Extract identifiers for WR and Wilson fetch (all decks in df, not just display)
+    all_identifiers = set()
+    cols_to_fetch = [c for c in df.columns if c != "Others"]
 
     for col in cols_to_fetch:
         if "Cluster" in col:
             try:
                 cid = col.split("Cluster ")[1].split(")")[0]
-                chart_identifiers.add(cid)
+                all_identifiers.add(cid)
             except: pass
         else:
             match = re.search(r"\(([\da-f]{8})\)$", col)
             if match:
-                chart_identifiers.add(match.group(1))
+                all_identifiers.add(match.group(1))
 
     # --- 1. Daily Metagame Share (Line Chart) ---
     st.subheader("Daily Metagame Share (%)")
@@ -550,10 +549,11 @@ def render_meta_trend_page():
                     st.rerun()
 
     # --- 2. Daily Win Rate (%) ---
-    if chart_identifiers:
+    wr_df = pd.DataFrame()
+    if all_identifiers:
         with st.spinner("Calculating win rates..."):
             wr_df = get_daily_winrate_for_decks(
-                list(chart_identifiers),
+                list(all_identifiers),
                 window=window,
                 start_date=selected_period["start"],
                 end_date=selected_period["end"],
@@ -588,10 +588,14 @@ def render_meta_trend_page():
                         st.rerun()
 
     # --- 3. Wilson Score Interval (Lower Bound) ---
-    if chart_identifiers:
+    latest_lowers = {}
+    latest_uppers = {}
+    wilson_df = pd.DataFrame()
+    wilson_upper_df = pd.DataFrame()
+    if all_identifiers:
         with st.spinner("Calculating Wilson scores..."):
             wilson_results = get_daily_wilson_for_decks(
-                list(chart_identifiers),
+                list(all_identifiers),
                 window=window,
                 start_date=selected_period["start"],
                 end_date=selected_period["end"],
@@ -600,6 +604,12 @@ def render_meta_trend_page():
             )
             wilson_df = wilson_results["lower"]
             wilson_upper_df = wilson_results["upper"]
+            
+            # Extract latest values for table BEFORE filtering for chart
+            if not wilson_df.empty:
+                latest_lowers = wilson_df.iloc[-1].to_dict()
+            if not wilson_upper_df.empty:
+                latest_uppers = wilson_upper_df.iloc[-1].to_dict()
 
         if not wilson_df.empty:
             st.subheader("Wilson Score Interval (Lower Bound)")
@@ -650,8 +660,7 @@ def render_meta_trend_page():
     if is_filtered and global_df is not None and not global_df.empty:
         global_latest_shares = global_df.iloc[-1].to_dict()
 
-    latest_lowers = wilson_df.iloc[-1].to_dict() if not wilson_df.empty else {}
-    latest_uppers = wilson_upper_df.iloc[-1].to_dict() if not wilson_upper_df.empty else {}
+    # latest_lowers/uppers already calculated above
 
     rows_data = []
 
@@ -724,14 +733,14 @@ def render_meta_trend_page():
     # Sort mapping
     sort_key_map = {
         "name": lambda x: x["name"].lower(),
-        "share": lambda x: x["share"],
-        "overall_share": lambda x: x["overall_share"],
-        "period_share": lambda x: x["period_share"],
-        "wr": lambda x: x["wr"],
-        "latest_lower": lambda x: x["latest_lower"],
-        "latest_upper": lambda x: x["latest_upper"],
-        "lower_ci": lambda x: x["lower_ci"],
-        "upper_ci": lambda x: x["upper_ci"],
+        "share": lambda x: x["share"] if pd.notna(x["share"]) and x["share"] > 0 else -1.0,
+        "overall_share": lambda x: x["overall_share"] if pd.notna(x["overall_share"]) and x["overall_share"] > 0 else -1.0,
+        "period_share": lambda x: x["period_share"] if pd.notna(x["period_share"]) and x["period_share"] > 0 else -1.0,
+        "wr": lambda x: x["wr"] if pd.notna(x["wr"]) and x["wr"] > 0 else -1.0,
+        "latest_lower": lambda x: x["latest_lower"] if pd.notna(x["latest_lower"]) and x["latest_lower"] > 0 else -1.0,
+        "latest_upper": lambda x: x["latest_upper"] if pd.notna(x["latest_upper"]) and x["latest_upper"] > 0 else -1.0,
+        "lower_ci": lambda x: x["lower_ci"] if pd.notna(x["lower_ci"]) and x["lower_ci"] > 0 else -1.0,
+        "upper_ci": lambda x: x["upper_ci"] if pd.notna(x["upper_ci"]) and x["upper_ci"] > 0 else -1.0,
         "players": lambda x: x["players"],
         "matches": lambda x: x["matches"]
     }

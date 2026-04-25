@@ -235,59 +235,80 @@ def render_comparison_page():
 
     # 4. Wilson Lower Bounds Chart
     st.subheader("Wilson Score Interval (Lower Bound)")
-    st.caption("Cumulative vs. Moving Lower Bound. Cumulative (solid) shows overall reliability, Moving (dashed) shows recent performance.")
     
-    wilson_data = {}
-    for s, df in stats_dict.items():
-        label = get_label(s)
-        wilson_data[f"{label} (Moving)"] = df["wilson_moving"]
-        wilson_data[f"{label} (Cumulative)"] = df["wilson_cumulative"]
+    # 4a. Moving Lower Bound
+    st.markdown("#### Moving Lower Bound")
+    st.caption(f"Lower bound of the 95% confidence interval based on matches within the {window}-day moving window.")
     
-    wilson_df = pd.DataFrame(wilson_data)
-    wilson_opt = create_echarts_line_comparison(wilson_df, title="", y_axis_label="Lower Bound (%)")
+    moving_wilson_data = {get_label(s): df["wilson_moving"] for s, df in stats_dict.items()}
+    moving_wilson_df = pd.DataFrame(moving_wilson_data)
+    moving_wilson_opt = create_echarts_line_comparison(moving_wilson_df, title="", y_axis_label="Lower Bound (%)")
     
-    # Inject line styles, consistent colors, and match counts into Wilson chart
-    if "series" in wilson_opt:
-        for series in wilson_opt["series"]:
+    if "series" in moving_wilson_opt:
+        for series in moving_wilson_opt["series"]:
             name = series.get("name", "")
-            # Extract sig or cluster name from label
-            match = re.search(r"\(([\w ]+)\)", name) # Matches (8be51084) or (Cluster 1)
+            match = re.search(r"\(([\w ]+)\)", name)
             if match and match.group(1) in sig_to_color:
                 sig = match.group(1)
                 series["itemStyle"] = {"color": sig_to_color[sig]}
+                series["lineStyle"] = {"type": "dashed", "width": 2}
                 
                 df = stats_dict[sig]
                 new_data = []
-                is_cum = "(Cumulative)" in name
-                
                 for d_idx, val in enumerate(series["data"]):
-                    date = wilson_df.index[d_idx]
-                    m = df.loc[date, "matches_cumulative" if is_cum else "matches_moving"]
+                    date = moving_wilson_df.index[d_idx]
+                    m = df.loc[date, "matches_moving"] if date in df.index else 0
                     val_fmt = f"{val:.2f}%" if pd.notna(val) else "-"
-                    m_label = "Cumulative" if is_cum else "Window"
                     
                     tooltip_str = (
                         f"<div style='font-family: sans-serif; padding: 5px;'>"
                         f"<div style='font-weight: bold;'>{name}</div>"
                         f"<div>{date}</div>"
-                        f"<div>Lower Bound: {val_fmt}</div>"
-                        f"<div>Matches ({m_label}): {int(m)}</div>"
+                        f"<div>Moving Lower Bound: {val_fmt}</div>"
+                        f"<div>Matches (Window): {int(m)}</div>"
                         f"</div>"
                     )
-                    new_data.append({
-                        "value": val,
-                        "tooltip": {"formatter": tooltip_str}
-                    })
+                    new_data.append({"value": val, "tooltip": {"formatter": tooltip_str}})
+                series["data"] = new_data
+    
+    display_chart(moving_wilson_opt, height="400px")
+
+    # 4b. Cumulative Lower Bound
+    st.markdown("#### Cumulative Lower Bound")
+    st.caption("Lower bound of the 95% confidence interval based on all matches since the start of the period.")
+    
+    cum_wilson_data = {get_label(s): df["wilson_cumulative"] for s, df in stats_dict.items()}
+    cum_wilson_df = pd.DataFrame(cum_wilson_data)
+    cum_wilson_opt = create_echarts_line_comparison(cum_wilson_df, title="", y_axis_label="Lower Bound (%)")
+    
+    if "series" in cum_wilson_opt:
+        for series in cum_wilson_opt["series"]:
+            name = series.get("name", "")
+            match = re.search(r"\(([\w ]+)\)", name)
+            if match and match.group(1) in sig_to_color:
+                sig = match.group(1)
+                series["itemStyle"] = {"color": sig_to_color[sig]}
+                series["lineStyle"] = {"type": "solid", "width": 3}
+                
+                df = stats_dict[sig]
+                new_data = []
+                for d_idx, val in enumerate(series["data"]):
+                    date = cum_wilson_df.index[d_idx]
+                    m = df.loc[date, "matches_cumulative"] if date in df.index else 0
+                    val_fmt = f"{val:.2f}%" if pd.notna(val) else "-"
+                    
+                    tooltip_str = (
+                        f"<div style='font-family: sans-serif; padding: 5px;'>"
+                        f"<div style='font-weight: bold;'>{name}</div>"
+                        f"<div>{date}</div>"
+                        f"<div>Cumulative Lower Bound: {val_fmt}</div>"
+                        f"<div>Matches (Cumulative): {int(m)}</div>"
+                        f"</div>"
+                    )
+                    new_data.append({"value": val, "tooltip": {"formatter": tooltip_str}})
                 series["data"] = new_data
                 
-            if "(Cumulative)" in name:
-                series["lineStyle"] = {"type": "solid", "width": 3}
-                series["opacity"] = 1.0
-            elif "(Moving)" in name:
-                series["lineStyle"] = {"type": "dashed", "width": 1}
-                series["opacity"] = 0.8
-                
-    display_chart(wilson_opt, height="500px")
+    display_chart(cum_wilson_opt, height="400px")
 
     # 4. Comparison Table
     _render_comparison_table(sigs, stats_dict, deck_details, sig_to_color)
