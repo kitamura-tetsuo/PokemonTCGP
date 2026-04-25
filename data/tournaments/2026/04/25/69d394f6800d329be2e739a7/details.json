@@ -1,0 +1,65 @@
+{
+  "id": "69d394f6800d329be2e739a7",
+  "game": "POCKET",
+  "format": null,
+  "name": "90$ Battle Tower Limit Testing 2!!!",
+  "date": "2026-04-25T14:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Oricorio",
+      "set": "A4b",
+      "number": "146"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Mega Absol",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria",
+      "set": "B1 ",
+      "number": "102"
+    },
+    {
+      "name": "Mega Manetric",
+      "set": "B2b",
+      "number": "27"
+    },
+    {
+      "name": "Mega Steelix",
+      "set": "B1a",
+      "number": "52"
+    },
+    {
+      "name": "Mega Charizard Y",
+      "set": "B1a",
+      "number": "14"
+    }
+  ]
+}
