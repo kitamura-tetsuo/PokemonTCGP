@@ -1,0 +1,530 @@
+{
+  "id": "69b794e4ccdfe3b78e5752af",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Premier PTCGP League: Pingleton B-Side (1-Day)",
+  "date": "2026-04-26T16:00:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 2503,
+    "name": "Premier PTCGP League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Beautifly",
+      "set": "B1",
+      "number": "5"
+    },
+    {
+      "name": "Dustoc",
+      "set": "B1",
+      "number": "7"
+    },
+    {
+      "name": "Shiftry",
+      "set": "B1",
+      "number": "10"
+    },
+    {
+      "name": "Lilligant",
+      "set": "B1",
+      "number": "18"
+    },
+    {
+      "name": "Virizion",
+      "set": "B1",
+      "number": "20"
+    },
+    {
+      "name": "Rillaboom",
+      "set": "B1",
+      "number": "27"
+    },
+    {
+      "name": "Ho-Oh",
+      "set": "B1",
+      "number": "32"
+    },
+    {
+      "name": "Blaziken",
+      "set": "B1",
+      "number": "35"
+    },
+    {
+      "name": "Chandelure",
+      "set": "B1",
+      "number": "43"
+    },
+    {
+      "name": "Pyroar",
+      "set": "B1",
+      "number": "46"
+    },
+    {
+      "name": "Gyarados",
+      "set": "B1",
+      "number": "51"
+    },
+    {
+      "name": "Ludicolo",
+      "set": "B1",
+      "number": "55"
+    },
+    {
+      "name": "Wailord",
+      "set": "B1",
+      "number": "57"
+    },
+    {
+      "name": "Carracosta",
+      "set": "B1",
+      "number": "67"
+    },
+    {
+      "name": "Jellicent",
+      "set": "B1",
+      "number": "69"
+    },
+    {
+      "name": "Keldeo",
+      "set": "B1",
+      "number": "70"
+    },
+    {
+      "name": "Eiscue",
+      "set": "B1",
+      "number": "80"
+    },
+    {
+      "name": "Ampharos",
+      "set": "B1",
+      "number": "84"
+    },
+    {
+      "name": "Luxray",
+      "set": "B1",
+      "number": "88"
+    },
+    {
+      "name": "Dusknoir",
+      "set": "B1",
+      "number": "105"
+    },
+    {
+      "name": "Jirachi",
+      "set": "B1",
+      "number": "106"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Cofagrigus",
+      "set": "B1",
+      "number": "111"
+    },
+    {
+      "name": "Gothitelle",
+      "set": "B1",
+      "number": "114"
+    },
+    {
+      "name": "Klefki",
+      "set": "B1",
+      "number": "120"
+    },
+    {
+      "name": "Krookodile",
+      "set": "B1",
+      "number": "132"
+    },
+    {
+      "name": "Archeops",
+      "set": "B1",
+      "number": "134"
+    },
+    {
+      "name": "Golurk",
+      "set": "B1",
+      "number": "136"
+    },
+    {
+      "name": "Terrakion",
+      "set": "B1",
+      "number": "137"
+    },
+    {
+      "name": "Coalossal",
+      "set": "B1",
+      "number": "147"
+    },
+    {
+      "name": "Honchkrow",
+      "set": "B1",
+      "number": "149"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B1",
+      "number": "154"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Pangoro",
+      "set": "B1",
+      "number": "158"
+    },
+    {
+      "name": "Grimmsnarl",
+      "set": "B1",
+      "number": "165"
+    },
+    {
+      "name": "Cobalion",
+      "set": "B1",
+      "number": "169"
+    },
+    {
+      "name": "Aegislash",
+      "set": "B1",
+      "number": "172"
+    },
+    {
+      "name": "Corviknight",
+      "set": "B1",
+      "number": "175"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    },
+    {
+      "name": "Exploud",
+      "set": "B1",
+      "number": "192"
+    },
+    {
+      "name": "Delcatty",
+      "set": "B1",
+      "number": "194"
+    },
+    {
+      "name": "Altaria",
+      "set": "B1",
+      "number": "197"
+    },
+    {
+      "name": "Stoutland",
+      "set": "B1",
+      "number": "203"
+    },
+    {
+      "name": "Venusaur",
+      "set": "B1a",
+      "number": "3"
+    },
+    {
+      "name": "Charizard",
+      "set": "B1a",
+      "number": "13"
+    },
+    {
+      "name": "Blastoise",
+      "set": "B1a",
+      "number": "19"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Reuniculus",
+      "set": "B1a",
+      "number": "34"
+    },
+    {
+      "name": "Xerneas",
+      "set": "B1a",
+      "number": "37"
+    },
+    {
+      "name": "Genesect",
+      "set": "B1a",
+      "number": "54"
+    },
+    {
+      "name": "Porygon-Z",
+      "set": "B1a",
+      "number": "58"
+    },
+    {
+      "name": "Roserade",
+      "set": "B2",
+      "number": "5"
+    },
+    {
+      "name": "Chesnaught",
+      "set": "B2",
+      "number": "10"
+    },
+    {
+      "name": "Buzzwole",
+      "set": "B2",
+      "number": "14"
+    },
+    {
+      "name": "Reshiram",
+      "set": "B2",
+      "number": "19"
+    },
+    {
+      "name": "Cinderace",
+      "set": "B2",
+      "number": "26"
+    },
+    {
+      "name": "Hearthflame Mask Ogerpon",
+      "set": "B2",
+      "number": "27"
+    },
+    {
+      "name": "Swampert",
+      "set": "B2",
+      "number": "35"
+    },
+    {
+      "name": "Aurorus",
+      "set": "B2",
+      "number": "42"
+    },
+    {
+      "name": "Wellspring Mask Ogerpon",
+      "set": "B2",
+      "number": "48"
+    },
+    {
+      "name": "Alolan Raichu",
+      "set": "B2",
+      "number": "50"
+    },
+    {
+      "name": "Zapdos",
+      "set": "B2",
+      "number": "51"
+    },
+    {
+      "name": "Gardevoir",
+      "set": "B2",
+      "number": "65"
+    },
+    {
+      "name": "Chandelure",
+      "set": "B2",
+      "number": "69"
+    },
+    {
+      "name": "Gourgeist",
+      "set": "B2",
+      "number": "72"
+    },
+    {
+      "name": "Tyrantrum",
+      "set": "B2",
+      "number": "90"
+    },
+    {
+      "name": "Cornerstone Mask Ogerpon",
+      "set": "B2",
+      "number": "93"
+    },
+    {
+      "name": "Alolan Muk",
+      "set": "B2",
+      "number": "97"
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": "B2",
+      "number": "100"
+    },
+    {
+      "name": "Spiritomb",
+      "set": "B2",
+      "number": "103"
+    },
+    {
+      "name": "Yveltal",
+      "set": "B2",
+      "number": "108"
+    },
+    {
+      "name": "Guzzlord",
+      "set": "B2",
+      "number": "109"
+    },
+    {
+      "name": "Galarian Perrserker",
+      "set": "B2",
+      "number": "111"
+    },
+    {
+      "name": "Aegislash",
+      "set": "B2",
+      "number": "120"
+    },
+    {
+      "name": "Salamence",
+      "set": "B2",
+      "number": "123"
+    },
+    {
+      "name": "Lugia",
+      "set": "B2",
+      "number": "131"
+    },
+    {
+      "name": "Swellow",
+      "set": "B2",
+      "number": "133"
+    },
+    {
+      "name": "Slaking",
+      "set": "B2",
+      "number": "136"
+    },
+    {
+      "name": "Tornadus",
+      "set": "B2",
+      "number": "138"
+    },
+    {
+      "name": "Arboliva",
+      "set": "B2a",
+      "number": "9"
+    },
+    {
+      "name": "Wo-Chien",
+      "set": "B2a",
+      "number": "15"
+    },
+    {
+      "name": "Skeledirge",
+      "set": "B2a",
+      "number": "18"
+    },
+    {
+      "name": "Chi-Yu",
+      "set": "B2a",
+      "number": "21"
+    },
+    {
+      "name": "Quaquaval",
+      "set": "B2a",
+      "number": "24"
+    },
+    {
+      "name": "Palafin",
+      "set": "B2a",
+      "number": "28"
+    },
+    {
+      "name": "Baxcalibur",
+      "set": "B2a",
+      "number": "36"
+    },
+    {
+      "name": "Miraidon",
+      "set": "B2a",
+      "number": "45"
+    },
+    {
+      "name": "Ceruledge",
+      "set": "B2a",
+      "number": "48"
+    },
+    {
+      "name": "Ting-Lu",
+      "set": "B2a",
+      "number": "62"
+    },
+    {
+      "name": "Koraidon",
+      "set": "B2a",
+      "number": "63"
+    },
+    {
+      "name": "Tinkaton",
+      "set": "B2a",
+      "number": "74"
+    },
+    {
+      "name": "Empoleon",
+      "set": "B2b",
+      "number": "20"
+    },
+    {
+      "name": "Mew",
+      "set": "B2b",
+      "number": "30"
+    },
+    {
+      "name": "Groudon",
+      "set": "B2b",
+      "number": "35"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Zoroark",
+      "set": "B2b",
+      "number": "44"
+    },
+    {
+      "name": "Revaroom",
+      "set": "B2b",
+      "number": "50"
+    },
+    {
+      "name": "Dragonite",
+      "set": "B2b",
+      "number": "53"
+    },
+    {
+      "name": "Haxorus",
+      "set": "B2b",
+      "number": "56"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "SINGLETON_NAME"
+  ]
+}
