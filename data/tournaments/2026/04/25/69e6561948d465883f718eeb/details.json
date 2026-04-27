@@ -1,0 +1,30 @@
+{
+  "id": "69e6561948d465883f718eeb",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT Season #2 - INVITATIONAL!!! | $100 USD",
+  "date": "2026-04-25T16:00:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
