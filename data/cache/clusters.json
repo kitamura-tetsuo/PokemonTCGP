@@ -5540,9 +5540,10 @@
       "33e8a3f5",
       "9b612938",
       "03bea6ed",
-      "67a4ecf7"
+      "67a4ecf7",
+      "d83fdc76"
     ],
-    "count": 419
+    "count": 420
   },
   {
     "id": 34250,
@@ -28493,9 +28494,11 @@
       "79dd5308",
       "33a92b1d",
       "751c92b6",
-      "9552000b"
+      "9552000b",
+      "fce19e43",
+      "cdf5fe28"
     ],
-    "count": 36
+    "count": 38
   },
   {
     "id": 1438,
@@ -30869,95 +30872,6 @@
     "count": 105
   },
   {
-    "id": 65221,
-    "representative_name": "Mega Scizor ex Revavroom",
-    "representative_sig": "2bc074c5",
-    "signatures": [
-      "2bc074c5",
-      "3ce0ca32",
-      "77c385eb",
-      "5d3bfcd6",
-      "1fd53d94",
-      "67cb9927",
-      "557c248a",
-      "519f253a",
-      "fc1558a1",
-      "e5760e5a",
-      "54e18e9d",
-      "86ff2601",
-      "54f0c0d7",
-      "5b85eeed",
-      "dbcafe32",
-      "a60b2a8d",
-      "ff02b4c6",
-      "29652128",
-      "82f7d064",
-      "942c0ff0",
-      "c135bee2",
-      "b8db9010",
-      "5651710b",
-      "528c9d25",
-      "66ab299c",
-      "7afce0f1",
-      "093c339a",
-      "99ca87f2",
-      "dd253650",
-      "31d67ae6",
-      "89f6b6db",
-      "be8087ee",
-      "6b331357",
-      "cc5d0f76",
-      "4435f823",
-      "cbb4eca0",
-      "4a21bdd2",
-      "d478dba7",
-      "068cb469",
-      "994aa0b5",
-      "285a42b8",
-      "fc5dfd48",
-      "c942c1f3",
-      "1a644b45",
-      "e2134727",
-      "97e1f73e",
-      "1293e3e6",
-      "718d9c68",
-      "257e0b69",
-      "ee3dc2e3",
-      "05973476",
-      "516e0eca",
-      "a5985ada",
-      "8fdeaf06",
-      "fa6c1dc2",
-      "41d106b9",
-      "c2af0b08",
-      "9ac08bb0",
-      "461fdaf5",
-      "917ac9a8",
-      "52d491fb",
-      "822c42ac",
-      "f4dc3f7e",
-      "f02b185a",
-      "34e123a0",
-      "349e2bab",
-      "ddd43218",
-      "280c5be9",
-      "6ea5577f",
-      "f4c04e93",
-      "9b7fff80",
-      "032225aa",
-      "4dc6c202",
-      "b95c63d6",
-      "c8f4de2f",
-      "d2cc4678",
-      "e1fead28",
-      "0d8ab9ce",
-      "5abf5317",
-      "d4997f4e",
-      "d0defe4f"
-    ],
-    "count": 81
-  },
-  {
     "id": 6846,
     "representative_name": "Silvally Rampardos",
     "representative_sig": "f510c4a4",
@@ -31012,6 +30926,7 @@
       "e448dde4",
       "811df062",
       "dc2b8f3e",
+      "93e71d57",
       "34019ac3",
       "b5ccc01b",
       "c17b3073",
@@ -31116,10 +31031,98 @@
       "3b8d60fc",
       "4ed1456f",
       "1865056f",
-      "002c9361",
-      "93e71d57"
+      "002c9361"
     ],
     "count": 156
+  },
+  {
+    "id": 65221,
+    "representative_name": "Mega Scizor ex Revavroom",
+    "representative_sig": "2bc074c5",
+    "signatures": [
+      "2bc074c5",
+      "3ce0ca32",
+      "77c385eb",
+      "5d3bfcd6",
+      "1fd53d94",
+      "67cb9927",
+      "557c248a",
+      "519f253a",
+      "fc1558a1",
+      "e5760e5a",
+      "54e18e9d",
+      "86ff2601",
+      "54f0c0d7",
+      "5b85eeed",
+      "dbcafe32",
+      "a60b2a8d",
+      "ff02b4c6",
+      "29652128",
+      "82f7d064",
+      "942c0ff0",
+      "c135bee2",
+      "b8db9010",
+      "5651710b",
+      "528c9d25",
+      "66ab299c",
+      "7afce0f1",
+      "093c339a",
+      "99ca87f2",
+      "dd253650",
+      "31d67ae6",
+      "89f6b6db",
+      "be8087ee",
+      "6b331357",
+      "cc5d0f76",
+      "4435f823",
+      "cbb4eca0",
+      "4a21bdd2",
+      "d478dba7",
+      "068cb469",
+      "994aa0b5",
+      "285a42b8",
+      "fc5dfd48",
+      "c942c1f3",
+      "1a644b45",
+      "e2134727",
+      "97e1f73e",
+      "1293e3e6",
+      "718d9c68",
+      "257e0b69",
+      "ee3dc2e3",
+      "05973476",
+      "516e0eca",
+      "a5985ada",
+      "8fdeaf06",
+      "fa6c1dc2",
+      "41d106b9",
+      "c2af0b08",
+      "9ac08bb0",
+      "461fdaf5",
+      "917ac9a8",
+      "52d491fb",
+      "822c42ac",
+      "f4dc3f7e",
+      "f02b185a",
+      "34e123a0",
+      "349e2bab",
+      "ddd43218",
+      "280c5be9",
+      "6ea5577f",
+      "f4c04e93",
+      "9b7fff80",
+      "032225aa",
+      "4dc6c202",
+      "b95c63d6",
+      "c8f4de2f",
+      "d2cc4678",
+      "e1fead28",
+      "0d8ab9ce",
+      "5abf5317",
+      "d4997f4e",
+      "d0defe4f"
+    ],
+    "count": 81
   },
   {
     "id": 8516,
@@ -44575,6 +44578,64 @@
     "count": 31
   },
   {
+    "id": 9157,
+    "representative_name": "Magcargo",
+    "representative_sig": "0f86c771",
+    "signatures": [
+      "0f86c771",
+      "49c9f099",
+      "cf05635a",
+      "f425f21f",
+      "9bf256b0",
+      "ad6d3d15",
+      "f77811c7",
+      "a48f926b",
+      "c12a9586",
+      "6cc66770",
+      "11a8da4d",
+      "6836730f",
+      "9f3eed15",
+      "e1f46871",
+      "74c0e67d",
+      "2e5dd1d5",
+      "2dde3d9f",
+      "22e30915",
+      "d6c6803f",
+      "85609047",
+      "b2c75017",
+      "b0b03a6e",
+      "55a4ebe2",
+      "3ed2b780",
+      "3faa5cd6",
+      "c0e24bc3",
+      "c06eb97c",
+      "d2e606b3",
+      "7b2f970f",
+      "3fee109f",
+      "b8676510",
+      "aad78372",
+      "da0ae563",
+      "11e15149",
+      "a2a6fda3",
+      "c1ffe534",
+      "befa12d9",
+      "7641a377",
+      "b2b514af",
+      "090f40b9",
+      "032f976b",
+      "2f665c39",
+      "ecf40a60",
+      "40b07df9",
+      "20edba61",
+      "17511177",
+      "f3b48bee",
+      "15cd8a96",
+      "fb95195d",
+      "fa694193"
+    ],
+    "count": 50
+  },
+  {
     "id": 26916,
     "representative_name": "Pikachu ex Pachirisu ex",
     "representative_sig": "aaccaa57",
@@ -44674,63 +44735,6 @@
       "0d84740d"
     ],
     "count": 20
-  },
-  {
-    "id": 9157,
-    "representative_name": "Magcargo",
-    "representative_sig": "0f86c771",
-    "signatures": [
-      "0f86c771",
-      "49c9f099",
-      "cf05635a",
-      "f425f21f",
-      "9bf256b0",
-      "ad6d3d15",
-      "f77811c7",
-      "a48f926b",
-      "c12a9586",
-      "6cc66770",
-      "11a8da4d",
-      "6836730f",
-      "9f3eed15",
-      "e1f46871",
-      "74c0e67d",
-      "2e5dd1d5",
-      "2dde3d9f",
-      "22e30915",
-      "d6c6803f",
-      "85609047",
-      "b2c75017",
-      "b0b03a6e",
-      "55a4ebe2",
-      "3ed2b780",
-      "3faa5cd6",
-      "c0e24bc3",
-      "c06eb97c",
-      "d2e606b3",
-      "7b2f970f",
-      "3fee109f",
-      "b8676510",
-      "aad78372",
-      "da0ae563",
-      "11e15149",
-      "a2a6fda3",
-      "c1ffe534",
-      "befa12d9",
-      "7641a377",
-      "b2b514af",
-      "090f40b9",
-      "032f976b",
-      "2f665c39",
-      "ecf40a60",
-      "40b07df9",
-      "20edba61",
-      "17511177",
-      "f3b48bee",
-      "15cd8a96",
-      "fb95195d"
-    ],
-    "count": 49
   },
   {
     "id": 18419,
@@ -52671,6 +52675,17 @@
     "count": 18
   },
   {
+    "id": 63817,
+    "representative_name": "Galvantula Greninja",
+    "representative_sig": "7c9a4b39",
+    "signatures": [
+      "7c9a4b39",
+      "d0b0335a",
+      "b3ec52a8"
+    ],
+    "count": 3
+  },
+  {
     "id": 11650,
     "representative_name": "Marowak ex Dugtrio",
     "representative_sig": "df157a6c",
@@ -52839,17 +52854,6 @@
       "b8ea9621"
     ],
     "count": 34
-  },
-  {
-    "id": 63817,
-    "representative_name": "Galvantula Greninja",
-    "representative_sig": "7c9a4b39",
-    "signatures": [
-      "7c9a4b39",
-      "d0b0335a",
-      "b3ec52a8"
-    ],
-    "count": 3
   },
   {
     "id": 312,
@@ -55463,6 +55467,37 @@
     "count": 1
   },
   {
+    "id": 6826,
+    "representative_name": "Hydreigon Silvally",
+    "representative_sig": "b248e115",
+    "signatures": [
+      "b248e115",
+      "3d2d61e3",
+      "526954e0",
+      "1c222a4a",
+      "d7cfa08a",
+      "120b15df",
+      "0a9973fb",
+      "1e23d6d2",
+      "bb87efe1",
+      "aebbeae9",
+      "5d6e3f57",
+      "4dc2bb37",
+      "cb7dedc3",
+      "9be1fee9",
+      "a172610e",
+      "28e043ec",
+      "7d68fdda",
+      "5ef59aaa",
+      "89c316c8",
+      "6f3bc832",
+      "f07ee0b8",
+      "d0370580",
+      "723b2a02"
+    ],
+    "count": 23
+  },
+  {
     "id": 7888,
     "representative_name": "Hydreigon Mega Absol ex",
     "representative_sig": "8c38aa8c",
@@ -56151,37 +56186,6 @@
       "3083e74c"
     ],
     "count": 15
-  },
-  {
-    "id": 6826,
-    "representative_name": "Hydreigon Silvally",
-    "representative_sig": "b248e115",
-    "signatures": [
-      "b248e115",
-      "3d2d61e3",
-      "526954e0",
-      "1c222a4a",
-      "d7cfa08a",
-      "120b15df",
-      "0a9973fb",
-      "1e23d6d2",
-      "bb87efe1",
-      "aebbeae9",
-      "5d6e3f57",
-      "4dc2bb37",
-      "cb7dedc3",
-      "9be1fee9",
-      "a172610e",
-      "28e043ec",
-      "7d68fdda",
-      "5ef59aaa",
-      "89c316c8",
-      "6f3bc832",
-      "f07ee0b8",
-      "d0370580",
-      "723b2a02"
-    ],
-    "count": 23
   },
   {
     "id": 7402,
@@ -61163,6 +61167,26 @@
     "count": 6
   },
   {
+    "id": 60302,
+    "representative_name": "Hydreigon",
+    "representative_sig": "988e1470",
+    "signatures": [
+      "988e1470",
+      "b9466ca1",
+      "9b0f3495",
+      "678d205f",
+      "21130190",
+      "77f955fd",
+      "07fc3485",
+      "2c483c81",
+      "213f0802",
+      "186aea30",
+      "bf4b2b19",
+      "23b49d73"
+    ],
+    "count": 12
+  },
+  {
     "id": 63081,
     "representative_name": "Magnezone Heliolisk",
     "representative_sig": "66d3faff",
@@ -62787,24 +62811,6 @@
     "count": 12
   },
   {
-    "id": 60302,
-    "representative_name": "Hydreigon",
-    "representative_sig": "988e1470",
-    "signatures": [
-      "988e1470",
-      "b9466ca1",
-      "9b0f3495",
-      "21130190",
-      "77f955fd",
-      "07fc3485",
-      "2c483c81",
-      "213f0802",
-      "186aea30",
-      "bf4b2b19"
-    ],
-    "count": 10
-  },
-  {
     "id": 64346,
     "representative_name": "Mega Altaria ex Gourgeist",
     "representative_sig": "c87aa0f0",
@@ -63637,6 +63643,21 @@
       "dddd5ddf"
     ],
     "count": 4
+  },
+  {
+    "id": 65669,
+    "representative_name": "Gourgeist Houndstone",
+    "representative_sig": "8736f56b",
+    "signatures": [
+      "8736f56b",
+      "1507ea21",
+      "be70b121",
+      "8e7f87cb",
+      "35439042",
+      "5cf2cfc2",
+      "56054cea"
+    ],
+    "count": 7
   },
   {
     "id": 66018,
@@ -66636,21 +66657,6 @@
       "be5e413c"
     ],
     "count": 10
-  },
-  {
-    "id": 65669,
-    "representative_name": "Gourgeist Houndstone",
-    "representative_sig": "8736f56b",
-    "signatures": [
-      "8736f56b",
-      "1507ea21",
-      "be70b121",
-      "8e7f87cb",
-      "35439042",
-      "5cf2cfc2",
-      "56054cea"
-    ],
-    "count": 7
   },
   {
     "id": 343,
@@ -75389,6 +75395,24 @@
     "count": 5
   },
   {
+    "id": 60455,
+    "representative_name": "Chandelure Meloetta",
+    "representative_sig": "878e804c",
+    "signatures": [
+      "878e804c",
+      "aaf2258c",
+      "44a3d920",
+      "945f264c",
+      "d81eaa0a",
+      "f864e6e7",
+      "e09968b3",
+      "a4f72157",
+      "044fdb5e",
+      "b03ec4bb"
+    ],
+    "count": 10
+  },
+  {
     "id": 60466,
     "representative_name": "Alolan Ninetales ex Araquanid",
     "representative_sig": "12a2046a",
@@ -76926,23 +76950,6 @@
     "count": 3
   },
   {
-    "id": 60455,
-    "representative_name": "Chandelure Meloetta",
-    "representative_sig": "878e804c",
-    "signatures": [
-      "878e804c",
-      "aaf2258c",
-      "44a3d920",
-      "945f264c",
-      "d81eaa0a",
-      "f864e6e7",
-      "e09968b3",
-      "a4f72157",
-      "044fdb5e"
-    ],
-    "count": 9
-  },
-  {
     "id": 60941,
     "representative_name": "Magnezone Araquanid",
     "representative_sig": "a1c89d4a",
@@ -77057,6 +77064,23 @@
       "988da1d4"
     ],
     "count": 8
+  },
+  {
+    "id": 65689,
+    "representative_name": "Gourgeist Houndstone",
+    "representative_sig": "6b146b91",
+    "signatures": [
+      "6b146b91",
+      "a8723847",
+      "35765ac8",
+      "f7ebb90f",
+      "5ce3d4f1",
+      "98ac7f1a",
+      "cd22a0d2",
+      "8d4320ca",
+      "d9a5c1d5"
+    ],
+    "count": 9
   },
   {
     "id": 66696,
@@ -79009,22 +79033,6 @@
     "count": 8
   },
   {
-    "id": 65689,
-    "representative_name": "Gourgeist Houndstone",
-    "representative_sig": "6b146b91",
-    "signatures": [
-      "6b146b91",
-      "a8723847",
-      "35765ac8",
-      "f7ebb90f",
-      "5ce3d4f1",
-      "98ac7f1a",
-      "cd22a0d2",
-      "8d4320ca"
-    ],
-    "count": 8
-  },
-  {
     "id": 65965,
     "representative_name": "Charizard ex Entei ex",
     "representative_sig": "a2d43bfa",
@@ -79049,6 +79057,17 @@
       "8595bb67"
     ],
     "count": 5
+  },
+  {
+    "id": 67439,
+    "representative_name": "Silvally Rampardos",
+    "representative_sig": "82e09d6d",
+    "signatures": [
+      "82e09d6d",
+      "feac9341",
+      "93549edd"
+    ],
+    "count": 3
   },
   {
     "id": 44,
@@ -79300,6 +79319,20 @@
       "025d4f85"
     ],
     "count": 10
+  },
+  {
+    "id": 6852,
+    "representative_name": "Hydreigon",
+    "representative_sig": "ce235020",
+    "signatures": [
+      "ce235020",
+      "1e6cf5d6",
+      "cf7e07ae",
+      "443152b0",
+      "27add2d5",
+      "5a945b80"
+    ],
+    "count": 6
   },
   {
     "id": 6899,
@@ -81379,16 +81412,6 @@
     "count": 2
   },
   {
-    "id": 67439,
-    "representative_name": "Silvally Rampardos",
-    "representative_sig": "82e09d6d",
-    "signatures": [
-      "82e09d6d",
-      "feac9341"
-    ],
-    "count": 2
-  },
-  {
     "id": 8,
     "representative_name": "Mega Charizard Y ex Entei ex",
     "representative_sig": "de130736",
@@ -81719,20 +81742,6 @@
       "24dc3497"
     ],
     "count": 2
-  },
-  {
-    "id": 6852,
-    "representative_name": "Hydreigon",
-    "representative_sig": "ce235020",
-    "signatures": [
-      "ce235020",
-      "1e6cf5d6",
-      "cf7e07ae",
-      "443152b0",
-      "27add2d5",
-      "5a945b80"
-    ],
-    "count": 6
   },
   {
     "id": 6856,
@@ -87075,6 +87084,20 @@
     "count": 8
   },
   {
+    "id": 65721,
+    "representative_name": "Galarian Obstagoon Igglybuff",
+    "representative_sig": "a1e11d3d",
+    "signatures": [
+      "a1e11d3d",
+      "ae332db3",
+      "59e9b9da",
+      "b34a0870",
+      "a5963781",
+      "f802e98e"
+    ],
+    "count": 6
+  },
+  {
     "id": 65762,
     "representative_name": "Mega Charizard Y ex Mega Charizard X ex",
     "representative_sig": "a028702c",
@@ -91202,20 +91225,6 @@
     "count": 7
   },
   {
-    "id": 65721,
-    "representative_name": "Galarian Obstagoon Igglybuff",
-    "representative_sig": "ae332db3",
-    "signatures": [
-      "ae332db3",
-      "a1e11d3d",
-      "59e9b9da",
-      "b34a0870",
-      "a5963781",
-      "f802e98e"
-    ],
-    "count": 6
-  },
-  {
     "id": 66528,
     "representative_name": "Mega Scizor ex Revavroom",
     "representative_sig": "05aaf653",
@@ -95036,6 +95045,20 @@
       "e1067c76"
     ],
     "count": 7
+  },
+  {
+    "id": 60279,
+    "representative_name": "Hydreigon",
+    "representative_sig": "1ab75419",
+    "signatures": [
+      "1ab75419",
+      "e7119a45",
+      "ca545e90",
+      "3de70033",
+      "5c5279bf",
+      "234c439b"
+    ],
+    "count": 6
   },
   {
     "id": 60348,
@@ -101190,20 +101213,6 @@
     "count": 1
   },
   {
-    "id": 60279,
-    "representative_name": "Hydreigon",
-    "representative_sig": "e7119a45",
-    "signatures": [
-      "e7119a45",
-      "ca545e90",
-      "3de70033",
-      "5c5279bf",
-      "234c439b",
-      "1ab75419"
-    ],
-    "count": 6
-  },
-  {
     "id": 60340,
     "representative_name": "Mega Altaria ex Chingling",
     "representative_sig": "e91e4bf7",
@@ -101722,6 +101731,17 @@
       "0c023a35"
     ],
     "count": 4
+  },
+  {
+    "id": 67076,
+    "representative_name": "Chandelure",
+    "representative_sig": "2011fb1d",
+    "signatures": [
+      "2011fb1d",
+      "d73423b6",
+      "eadd1c00"
+    ],
+    "count": 3
   },
   {
     "id": 67493,
@@ -110913,16 +110933,6 @@
     "signatures": [
       "d675cd04",
       "37c54728"
-    ],
-    "count": 2
-  },
-  {
-    "id": 67076,
-    "representative_name": "Chandelure",
-    "representative_sig": "2011fb1d",
-    "signatures": [
-      "2011fb1d",
-      "d73423b6"
     ],
     "count": 2
   },
@@ -149661,6 +149671,17 @@
     "count": 1
   },
   {
+    "id": 61087,
+    "representative_name": "Hydreigon Nihilego",
+    "representative_sig": "46314f3f",
+    "signatures": [
+      "46314f3f",
+      "783e495d",
+      "0d8ba365"
+    ],
+    "count": 3
+  },
+  {
     "id": 61122,
     "representative_name": "Mamoswine Regirock",
     "representative_sig": "41386561",
@@ -149676,6 +149697,16 @@
     "signatures": [
       "a5407fcc",
       "796103cb"
+    ],
+    "count": 2
+  },
+  {
+    "id": 61131,
+    "representative_name": "Magnezone Pheromosa",
+    "representative_sig": "ac44ff03",
+    "signatures": [
+      "ac44ff03",
+      "f0e8a397"
     ],
     "count": 2
   },
@@ -151993,6 +152024,16 @@
     "count": 1
   },
   {
+    "id": 66514,
+    "representative_name": "Gengar Igglybuff",
+    "representative_sig": "37f8c785",
+    "signatures": [
+      "37f8c785",
+      "b78f7190"
+    ],
+    "count": 2
+  },
+  {
     "id": 66518,
     "representative_name": "Mega Manectric ex Teal Mask Ogerpon ex",
     "representative_sig": "8e4889fe",
@@ -152387,6 +152428,16 @@
     "signatures": [
       "eb5e5eec",
       "5a0b182d"
+    ],
+    "count": 2
+  },
+  {
+    "id": 67283,
+    "representative_name": "Celesteela Kartana",
+    "representative_sig": "0906c75a",
+    "signatures": [
+      "0906c75a",
+      "08247c8b"
     ],
     "count": 2
   },
@@ -218349,16 +218400,6 @@
     "count": 1
   },
   {
-    "id": 61087,
-    "representative_name": "Hydreigon Nihilego",
-    "representative_sig": "46314f3f",
-    "signatures": [
-      "46314f3f",
-      "783e495d"
-    ],
-    "count": 2
-  },
-  {
     "id": 61094,
     "representative_name": "Dragonite Mantyke",
     "representative_sig": "b9e65d34",
@@ -218395,16 +218436,6 @@
       "24c12d4f"
     ],
     "count": 1
-  },
-  {
-    "id": 61131,
-    "representative_name": "Magnezone Pheromosa",
-    "representative_sig": "f0e8a397",
-    "signatures": [
-      "f0e8a397",
-      "ac44ff03"
-    ],
-    "count": 2
   },
   {
     "id": 61158,
@@ -224141,16 +224172,6 @@
     "count": 1
   },
   {
-    "id": 66514,
-    "representative_name": "Gengar Igglybuff",
-    "representative_sig": "37f8c785",
-    "signatures": [
-      "37f8c785",
-      "b78f7190"
-    ],
-    "count": 2
-  },
-  {
     "id": 66517,
     "representative_name": "Mega Blaziken ex Moltres ex",
     "representative_sig": "86445bff",
@@ -225253,6 +225274,15 @@
     "count": 1
   },
   {
+    "id": 67442,
+    "representative_name": "Chandelure Gourgeist",
+    "representative_sig": "1590094b",
+    "signatures": [
+      "1590094b"
+    ],
+    "count": 1
+  },
+  {
     "id": 67446,
     "representative_name": "Chandelure Meloetta",
     "representative_sig": "960667e6",
@@ -225261,6 +225291,15 @@
       "cbdea044"
     ],
     "count": 2
+  },
+  {
+    "id": 67462,
+    "representative_name": "Greninja Druddigon",
+    "representative_sig": "841075d6",
+    "signatures": [
+      "841075d6"
+    ],
+    "count": 1
   },
   {
     "id": 67491,
@@ -680416,15 +680455,6 @@
     "count": 1
   },
   {
-    "id": 67283,
-    "representative_name": "Celesteela Kartana",
-    "representative_sig": "0906c75a",
-    "signatures": [
-      "0906c75a"
-    ],
-    "count": 1
-  },
-  {
     "id": 67284,
     "representative_name": "Igglybuff Darkrai",
     "representative_sig": "3bfa6f9e",
@@ -681757,15 +681787,6 @@
     "count": 1
   },
   {
-    "id": 67442,
-    "representative_name": "Chandelure Gourgeist",
-    "representative_sig": "1590094b",
-    "signatures": [
-      "1590094b"
-    ],
-    "count": 1
-  },
-  {
     "id": 67443,
     "representative_name": "Paldean Clodsire ex Muk",
     "representative_sig": "e3fe773b",
@@ -681924,15 +681945,6 @@
     "representative_sig": "89b7e170",
     "signatures": [
       "89b7e170"
-    ],
-    "count": 1
-  },
-  {
-    "id": 67462,
-    "representative_name": "Greninja Druddigon",
-    "representative_sig": "841075d6",
-    "signatures": [
-      "841075d6"
     ],
     "count": 1
   },
@@ -685731,6 +685743,132 @@
     "representative_sig": "a9684bb6",
     "signatures": [
       "a9684bb6"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67963,
+    "representative_name": "Hydreigon Nihilego",
+    "representative_sig": "8ffb51be",
+    "signatures": [
+      "8ffb51be"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67964,
+    "representative_name": "Galvantula Igglybuff",
+    "representative_sig": "e0e02d28",
+    "signatures": [
+      "e0e02d28"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67965,
+    "representative_name": "Hydreigon",
+    "representative_sig": "06273743",
+    "signatures": [
+      "06273743"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67966,
+    "representative_name": "Vivillon Igglybuff",
+    "representative_sig": "0eb02b2d",
+    "signatures": [
+      "0eb02b2d"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67967,
+    "representative_name": "Dragonite",
+    "representative_sig": "a904ef2b",
+    "signatures": [
+      "a904ef2b"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67968,
+    "representative_name": "Magcargo",
+    "representative_sig": "86fc4839",
+    "signatures": [
+      "86fc4839"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67969,
+    "representative_name": "Tsareena Celebi",
+    "representative_sig": "1abd941b",
+    "signatures": [
+      "1abd941b"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67970,
+    "representative_name": "Nidoking Golbat",
+    "representative_sig": "435f7f5d",
+    "signatures": [
+      "435f7f5d"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67971,
+    "representative_name": "Hypno Darkrai",
+    "representative_sig": "05117c30",
+    "signatures": [
+      "05117c30"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67972,
+    "representative_name": "Venusaur",
+    "representative_sig": "15056cd4",
+    "signatures": [
+      "15056cd4"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67973,
+    "representative_name": "Slaking Mantyke",
+    "representative_sig": "88d814ec",
+    "signatures": [
+      "88d814ec"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67974,
+    "representative_name": "Machamp Lucario",
+    "representative_sig": "110b36e8",
+    "signatures": [
+      "110b36e8"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67975,
+    "representative_name": "Melmetal",
+    "representative_sig": "3528966d",
+    "signatures": [
+      "3528966d"
+    ],
+    "count": 1
+  },
+  {
+    "id": 67976,
+    "representative_name": "Lucario Rampardos",
+    "representative_sig": "23568185",
+    "signatures": [
+      "23568185"
     ],
     "count": 1
   },

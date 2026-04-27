@@ -1,0 +1,32 @@
+{
+  "id": "69eeb9dcf9b24b9bd5b0295e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX (OAK & May Prize)",
+  "date": "2026-04-27T16:30:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
