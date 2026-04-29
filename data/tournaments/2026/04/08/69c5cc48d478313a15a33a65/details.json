@@ -1,0 +1,29 @@
+{
+  "id": "69c5cc48d478313a15a33a65",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfc6 Mensal Abril - Prize $450 BRL",
+  "date": "2026-04-08T15:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2262,
+    "name": "Bolados TCG"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
