@@ -1,0 +1,29 @@
+{
+  "id": "69ef9710e23aab068aad37f9",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dankest Cup #1 - $50 USD Prize Pool",
+  "date": "2026-04-28T23:00:00.000Z",
+  "players": 187,
+  "organizer": {
+    "id": 2591,
+    "name": "Wicked\u2019s Weekly Wipeout"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
