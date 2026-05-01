@@ -1,0 +1,35 @@
+{
+  "id": "69ee12d6f9b24b9bd5b024ee",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1& The Dark Collab |Prize: $50 USD + FA Card",
+  "date": "2026-04-30T17:05:00.000Z",
+  "players": 285,
+  "organizer": {
+    "id": 2630,
+    "name": "Power League "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
