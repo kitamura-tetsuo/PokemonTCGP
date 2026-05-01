@@ -1,0 +1,29 @@
+{
+  "id": "69f313c34f71d664893e7b3d",
+  "game": "POCKET",
+  "format": null,
+  "name": "OnlyFrapps by Drinker (50$ +FAs)",
+  "date": "2026-04-30T20:15:00.000Z",
+  "players": 219,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
