@@ -1,0 +1,29 @@
+{
+  "id": "69f542a5e23aab068aad7c72",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League bored extremely late notice",
+  "date": "2026-05-02T00:35:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
