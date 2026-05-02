@@ -1,0 +1,29 @@
+{
+  "id": "69efdcace23aab068aad3cc3",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\uddec 75$ BEC'S NEW SET PARTY + 1-8 FA PRIZES",
+  "date": "2026-05-01T13:05:00.000Z",
+  "players": 255,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
