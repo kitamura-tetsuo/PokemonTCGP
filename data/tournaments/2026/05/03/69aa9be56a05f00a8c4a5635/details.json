@@ -1,0 +1,23 @@
+{
+  "id": "69aa9be56a05f00a8c4a5635",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc38FrogEX B2-Season Invitational Group A\ud83d\udc38",
+  "date": "2026-05-03T15:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 3,
+      "mode": "BO5"
+    }
+  ]
+}

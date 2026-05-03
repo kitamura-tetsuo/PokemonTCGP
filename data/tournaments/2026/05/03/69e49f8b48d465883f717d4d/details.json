@@ -1,0 +1,29 @@
+{
+  "id": "69e49f8b48d465883f717d4d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "BuzzerMarsh CUP#1",
+  "date": "2026-05-03T12:30:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 33,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 10,
+      "mode": "BO3"
+    }
+  ]
+}
