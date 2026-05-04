@@ -1,0 +1,29 @@
+{
+  "id": "69f416b0e23aab068aad69fb",
+  "game": "POCKET",
+  "format": null,
+  "name": "$100 USD+FA | \u5deb\u7345\u5c0d\u6230\u5854\u76c3 LeoWizard BattleTower Cup #7",
+  "date": "2026-05-02T13:00:00.000Z",
+  "players": 210,
+  "organizer": {
+    "id": 2546,
+    "name": "Leowizard League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

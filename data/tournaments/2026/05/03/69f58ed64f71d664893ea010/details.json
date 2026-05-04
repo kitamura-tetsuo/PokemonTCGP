@@ -1,0 +1,35 @@
+{
+  "id": "69f58ed64f71d664893ea010",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark league pocket tourney 50$",
+  "date": "2026-05-03T23:10:00.000Z",
+  "players": 223,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
