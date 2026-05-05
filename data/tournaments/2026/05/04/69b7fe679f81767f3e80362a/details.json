@@ -1,0 +1,29 @@
+{
+  "id": "69b7fe679f81767f3e80362a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #5 - Legendary Rumble (FA CopyC)",
+  "date": "2026-05-04T18:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
