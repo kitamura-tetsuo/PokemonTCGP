@@ -1,0 +1,29 @@
+{
+  "id": "69ec173454195646133391e4",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\udc26\u200d\ud83d\udd25 GALAR ESPECIAL DE JOHTO \u2022 Prize $220 BRL",
+  "date": "2026-04-29T00:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2442,
+    "name": "TEAM GALAR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
