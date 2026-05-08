@@ -1,0 +1,29 @@
+{
+  "id": "69fd347a4f71d664893efcf9",
+  "game": "POCKET",
+  "format": null,
+  "name": "First time tournament players welcome",
+  "date": "2026-05-08T01:13:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 2630,
+    "name": "Power League "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
