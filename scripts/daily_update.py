@@ -46,6 +46,10 @@ def main():
     if not run_script("scripts/cluster_decks.py"):
         sys.exit(1)
         
+    # 7. Update SQLite cache for UI performance
+    if not run_script("scripts/update_sqlite.py"):
+        sys.exit(1)
+        
     logger.info("✅ Daily update process completed successfully.")
 
 if __name__ == "__main__":

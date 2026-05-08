@@ -3,6 +3,7 @@ import json
 import logging
 import os
 import re
+import sqlite3
 from datetime import datetime, timedelta
 import pandas as pd
 from collections import Counter, defaultdict
@@ -18,6 +19,7 @@ TOURNAMENTS_DIR = os.path.join(DATA_DIR, "tournaments")
 CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.pkl.gz")
 OLD_CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.json")
 CLUSTERS_FILE = os.path.join(DATA_DIR, "cache", "clusters.json")
+DB_FILE = os.path.join(DATA_DIR, "cache", "stats.db")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
 ENRICHED_CARDS_FILE = os.path.join(CARDS_DIR, "enriched_cards.json")
 ENRICHED_SETS_FILE = os.path.join(CARDS_DIR, "enriched_sets.json")
@@ -29,6 +31,120 @@ def normalize_card_name(name):
     if not name or not isinstance(name, str):
         return name
     return name.replace('’', "'").replace('‘', "'")
+
+def _get_db_conn():
+    """Get a connection to the SQLite stats database."""
+    if os.path.exists(DB_FILE):
+        return sqlite3.connect(DB_FILE)
+    return None
+
+def _get_stats_from_db(identifiers, is_cluster, start_date=None, end_date=None):
+    """
+    Get aggregated stats for multiple identifiers from SQLite.
+    Returns: { identifier: { wins, losses, ties, players, matches } }
+    """
+    conn = _get_db_conn()
+    if not conn:
+        return {}
+    
+    try:
+        cursor = conn.cursor()
+        all_idents = list(identifiers)
+        chunk_size = 900
+        result = {}
+        
+        for i in range(0, len(all_idents), chunk_size):
+            chunk = all_idents[i:i + chunk_size]
+            query = """
+                SELECT identifier, SUM(wins), SUM(losses), SUM(ties), SUM(players), SUM(matches)
+                FROM daily_stats
+                WHERE is_cluster = ? AND identifier IN ({})
+            """.format(','.join(['?'] * len(chunk)))
+            
+            params = [1 if is_cluster else 0] + chunk
+            
+            if start_date:
+                query += " AND date >= ?"
+                params.append(start_date)
+            if end_date:
+                query += " AND date <= ?"
+                params.append(end_date)
+                
+            query += " GROUP BY identifier"
+            
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
+            
+            for row in rows:
+                ident, w, l, t, p, m = row
+                result[ident] = {
+                    "wins": w or 0,
+                    "losses": l or 0,
+                    "ties": t or 0,
+                    "players": p or 0,
+                    "matches": m or 0
+                }
+        return result
+    except Exception as e:
+        logger.error(f"Error querying SQLite stats: {e}")
+        return {}
+    finally:
+        conn.close()
+
+def _get_metadata_from_db(identifiers, is_cluster):
+    """
+    Get metadata (name, cards) for multiple identifiers from SQLite.
+    Returns: { identifier: { name, cards, stats (overall) } }
+    """
+    conn = _get_db_conn()
+    if not conn:
+        return {}
+    
+    try:
+        cursor = conn.cursor()
+        table = "clusters" if is_cluster else "signatures"
+        pk = "cluster_id" if is_cluster else "sig"
+        all_idents = list(identifiers)
+        chunk_size = 900
+        result = {}
+        
+        for i in range(0, len(all_idents), chunk_size):
+            chunk = all_idents[i:i + chunk_size]
+            if is_cluster:
+                query = "SELECT cluster_id, name, representative_sig, signatures, cards, stats FROM clusters WHERE cluster_id IN ({})".format(
+                    ','.join(['?'] * len(chunk))
+                )
+            else:
+                query = "SELECT sig, name, cards, stats FROM signatures WHERE sig IN ({})".format(
+                    ','.join(['?'] * len(chunk))
+                )
+            
+            cursor.execute(query, chunk)
+            rows = cursor.fetchall()
+            
+            for row in rows:
+                if is_cluster:
+                    ident, name, rep_sig, sigs_json, cards_json, stats_json = row
+                    result[str(ident)] = {
+                        "representative_name": name,
+                        "representative_sig": rep_sig,
+                        "signatures": json.loads(sigs_json),
+                        "cards": json.loads(cards_json),
+                        "stats": json.loads(stats_json)
+                    }
+                else:
+                    ident, name, cards_json, stats_json = row
+                    result[str(ident)] = {
+                        "name": name,
+                        "cards": json.loads(cards_json),
+                        "stats": json.loads(stats_json)
+                    }
+        return result
+    except Exception as e:
+        logger.error(f"Error querying SQLite metadata: {e}")
+        return {}
+    finally:
+        conn.close()
 
 def load_enriched_cards():
     """Load enriched card database from JSON. Errors if missing."""
@@ -385,90 +501,86 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
     """
     Get daily deck share data.
     """
+    if os.path.exists(DB_FILE):
+        conn = _get_db_conn()
+        if conn:
+            try:
+                # 1. Identify matching signatures
+                cursor = conn.cursor()
+                if not card_filters and not exclude_cards:
+                    cursor.execute("SELECT sig, name FROM signatures")
+                    matching_sigs = {row[0]: row[1] for row in cursor.fetchall()}
+                else:
+                    # Filter sigs by cards in memory for now, but from DB metadata
+                    cursor.execute("SELECT sig, name, cards FROM signatures")
+                    all_sigs = cursor.fetchall()
+                    matching_sigs = {}
+                    for sig, name, cards_json in all_sigs:
+                        cards = json.loads(cards_json)
+                        card_ids = set(f"{c['set']}_{c['number']}" for c in cards)
+                        if card_filters and not all(f in card_ids for f in card_filters):
+                            continue
+                        if exclude_cards and any(f in card_ids for f in exclude_cards):
+                            continue
+                        matching_sigs[sig] = name
+                
+                if not matching_sigs:
+                    return pd.DataFrame()
+
+                # 2. Fetch daily stats for matching sigs (CHUNKED)
+                all_matching_sigs = list(matching_sigs.keys())
+                chunk_size = 900
+                rows = []
+                for i in range(0, len(all_matching_sigs), chunk_size):
+                    chunk = all_matching_sigs[i:i + chunk_size]
+                    query = "SELECT date, identifier, players FROM daily_stats WHERE is_cluster = 0 AND identifier IN ({})".format(
+                        ','.join(['?'] * len(chunk))
+                    )
+                    params = list(chunk)
+                    if start_date:
+                        query += " AND date >= ?"
+                        params.append(start_date)
+                    if end_date:
+                        query += " AND date <= ?"
+                        params.append(end_date)
+                    
+                    cursor.execute(query, params)
+                    rows.extend(cursor.fetchall())
+                
+                # 3. Fetch metagame totals
+                cursor.execute("SELECT date, total_players FROM metagame_totals")
+                daily_metagame_totals = {row[0]: row[1] for row in cursor.fetchall()}
+                
+                if not rows:
+                    return pd.DataFrame()
+                
+                # 4. Build DataFrame
+                data = defaultdict(dict)
+                for date, sig, players in rows:
+                    data[date][f"{matching_sigs[sig]} ({sig})"] = players
+                
+                df = pd.DataFrame.from_dict(data, orient='index').fillna(0)
+                df = df.sort_index()
+                
+                # 5. Normalize and Rolling Mean
+                # We need a series for metagame totals that matches df index
+                totals_series = pd.Series({d: daily_metagame_totals.get(d, 0) for d in df.index})
+                
+                df_normalized = df.div(df.sum(axis=1), axis=0).fillna(0) * 100
+                if window > 1:
+                    df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
+                
+                if min_total_players > 0:
+                    df_normalized = df_normalized[totals_series >= min_total_players]
+                
+                return df_normalized
+            except Exception as e:
+                logger.error(f"Error in SQLite get_daily_share_data: {e}")
+            finally:
+                conn.close()
+
+    # SLOW PATH: Fallback to pickle
     # Scan a bit more than window to allow rolling mean calculation if needed
-    # If explicit dates provided, we use them.
-    scan_start = start_date
-    if not scan_start:
-        scan_days = window + 7
-        scan_start = (datetime.now() - timedelta(days=scan_days)).strftime("%Y-%m-%d")
-
-    daily_raw, sig_lookup = _scan_and_aggregate(start_date=scan_start, end_date=end_date)
-    
-    if not daily_raw:
-        return pd.DataFrame()
-        
-    all_dates = sorted(daily_raw.keys())
-    
-    # Filter and aggregate daily_raw into a cleaner daily format: date -> {sig: count}
-    daily_aggregated = {}
-    valid_signatures_meta = set() # To identify which sigs exist in the filtered set
-
-    for date_str in all_dates:
-        if start_date and date_str < start_date: continue
-        if end_date and date_str > end_date: continue
-        
-        day_entry = daily_raw[date_str]
-        day_decks = Counter()
-        
-        # Support both old and new cache format for robustness during transition
-        if "tournaments" in day_entry:
-            for t_id, t_data in day_entry["tournaments"].items():
-                if standard_only and t_data.get("format") is not None:
-                    continue
-                if t_data.get("bannedCards"):
-                    continue
-                day_decks.update(t_data.get("decks", {}))
-        elif "decks" in day_entry:
-            # Old format doesn't have format info, include if not standard_only
-            if not standard_only:
-                day_decks.update(day_entry["decks"])
-        
-        if day_decks:
-            daily_aggregated[date_str] = day_decks
-            valid_signatures_meta.update(day_decks.keys())
-
-    if not daily_aggregated:
-        return pd.DataFrame()
-
-    # Convert to DataFrame
-    df = pd.DataFrame.from_dict(daily_aggregated, orient='index').fillna(0)
-    
-    # Calculate daily totals for meta-share normalization (BEFORE filtering)
-    daily_metagame_totals = df.sum(axis=1)
-
-    # Filter columns by card criteria
-    final_cols = []
-    for sig in df.columns:
-        info = sig_lookup.get(sig)
-        if not info: continue
-        
-        card_ids = set(f"{c['set']}_{c['number']}" for c in info.get("cards", []))
-        if card_filters and not all(f in card_ids for f in card_filters):
-            continue
-        if exclude_cards and any(f in card_ids for f in exclude_cards):
-            continue
-        
-        final_cols.append(sig)
-    
-    if not final_cols:
-        return pd.DataFrame()
-        
-    df = df[final_cols]
-    
-    # Rename columns to display format f"{name} ({sig})"
-    df.columns = [f"{sig_lookup.get(s, {}).get('name', 'Unknown')} ({s})" for s in df.columns]
-
-    # Normalize by the sum of FILTERED decks on each day (back to 100% within the view)
-    df_normalized = df.div(df.sum(axis=1), axis=0).fillna(0) * 100
-    
-    if window > 1:
-        df_normalized = df_normalized.rolling(window=window, min_periods=1).mean()
-    
-    if min_total_players > 0:
-        # We still filter by daily_metagame_totals to ensure volume, but normalization is relative
-        df_normalized = df_normalized[daily_metagame_totals >= min_total_players]
-
-    return df_normalized
 
 # Global variable to cache the signatures part of the JSON to avoid repetitive large reads
 _SIGNATURES_CACHE = None
@@ -499,6 +611,43 @@ def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
     If dates are provided, statistics are filtered to that period.
     Returns a dictionary: sig -> {name, cards, stats, appearances}
     """
+    if os.path.exists(DB_FILE):
+        metadata = _get_metadata_from_db(signatures, is_cluster=False)
+        stats = _get_stats_from_db(signatures, is_cluster=False, start_date=start_date, end_date=end_date)
+        
+        all_sigs = _get_all_signatures()
+        result = {}
+        for sig in signatures:
+            meta = metadata.get(sig)
+            if not meta: continue
+            
+            info = {
+                "name": meta.get("name"),
+                "cards": enrich_card_data(meta.get("cards", [])),
+                "stats": stats.get(sig, {"wins": 0, "losses": 0, "ties": 0, "players": 0}),
+                "sig": sig
+            }
+            
+            # Appearances still come from pickle as they are not in SQLite
+            if sig in all_sigs:
+                apps = all_sigs[sig].get("appearances", [])
+                if start_date or end_date:
+                    filtered_apps = []
+                    for app in apps:
+                        date = app.get("date")
+                        if start_date and date < start_date: continue
+                        if end_date and date > end_date: continue
+                        filtered_apps.append(app)
+                    info["appearances"] = filtered_apps
+                else:
+                    info["appearances"] = apps
+            else:
+                info["appearances"] = []
+                
+            result[sig] = info
+        return result
+
+    # Fallback to pickle-only path
     all_sigs = _get_all_signatures()
     result = {}
     for sig in signatures:
@@ -923,6 +1072,37 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
 
 def get_cluster_details(cluster_id, start_date=None, end_date=None):
     """Get aggregated details for a cluster, optionally filtered by date."""
+    if os.path.exists(DB_FILE):
+        metadata = _get_metadata_from_db([str(cluster_id)], is_cluster=True)
+        stats = _get_stats_from_db([str(cluster_id)], is_cluster=True, start_date=start_date, end_date=end_date)
+        
+        meta = metadata.get(str(cluster_id))
+        if meta and str(cluster_id) in stats:
+            sigs = meta.get("signatures", [])
+            signatures_details = get_deck_details_by_signature(sigs, start_date=start_date, end_date=end_date)
+            
+            if not signatures_details:
+                return None
+                
+            # Use the most popular sig in this period as representative
+            rep_sig = max(signatures_details.keys(), key=lambda s: signatures_details[s].get("stats", {}).get("players", 0))
+            rep_cards = signatures_details[rep_sig].get("cards", [])
+            
+            all_apps = []
+            for sig in signatures_details:
+                all_apps.extend(signatures_details[sig].get("appearances", []))
+                
+            return {
+                "id": cluster_id,
+                "name": meta.get("representative_name"),
+                "representative_sig": rep_sig,
+                "stats": stats[str(cluster_id)],
+                "appearances": all_apps,
+                "signatures": signatures_details,
+                "cards": rep_cards
+            }
+
+    # Fallback path
     _, id_to_cluster = get_cluster_mapping()
     c_info = id_to_cluster.get(str(cluster_id))
     if not c_info:
@@ -941,32 +1121,24 @@ def get_cluster_details(cluster_id, start_date=None, end_date=None):
         all_apps.extend(signatures[sig].get("appearances", []))
         
     # Get cards from representative deck or ANY available deck in the cluster
-    rep_sig = c_info["representative_sig"]
+    rep_sig = c_info.get("representative_sig")
     rep_cards = []
     
-    # Check if rep sig is in our already-fetched list
     if rep_sig in signatures:
         rep_cards = signatures[rep_sig].get("cards", [])
     else:
-        # Fallback: Use cards from the first available signature
-        # We prefer the one with the most matches if possible, but any is better than none
         if signatures:
-             # Sort by # of players or matches to pick a "good" representative?
-             # For now just pick the first one to ensure we show cards
              fallback_sig = next(iter(signatures))
              rep_cards = signatures[fallback_sig].get("cards", [])
-             # Update representative sig in return object so UI knows?
-             # Actually UI uses "representative_sig" from the return dict if we wanted to change it.
-             # But let's just populate "cards".
              rep_sig = fallback_sig
 
     return {
         "id": cluster_id,
-        "name": c_info["representative_name"],
+        "name": c_info.get("representative_name"),
         "representative_sig": rep_sig,
         "stats": total_stats,
         "appearances": all_apps,
-        "signatures": signatures, # sig -> details (already filtered)
+        "signatures": signatures,
         "cards": rep_cards
     }
 
@@ -1261,27 +1433,73 @@ def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
     if df.empty:
         return {}
     
+    # Identify all identifiers (sigs or cluster_ids)
+    label_to_id = {}
+    identifiers = set()
+    for label in df.columns:
+        if clustered:
+            if "Cluster" in label:
+                try:
+                    cid = label.split("Cluster ")[1].split(")")[0]
+                    identifiers.add(cid)
+                    label_to_id[label] = cid
+                except: pass
+        else:
+            match = re.search(r"\((\w+)\)$", label)
+            if match:
+                sig = match.group(1)
+                identifiers.add(sig)
+                label_to_id[label] = sig
+
+    if not identifiers:
+        return {}
+
+    # Batch fetch metadata and stats from SQLite if available
+    metadata = {}
+    period_stats = {}
+    if os.path.exists(DB_FILE):
+        metadata = _get_metadata_from_db(identifiers, is_cluster=clustered)
+        period_stats = _get_stats_from_db(identifiers, is_cluster=clustered, start_date=start_date, end_date=end_date)
+    
     # We aggregate stats (Matches, Players, WR)
     stats_map = {}
-    
     total_period_players_in_view = 0
     all_details = {}
     
     for label in df.columns:
-        sig = None
-        cid = None
-        if clustered:
-            if "Cluster" in label:
-                cid = label.split("Cluster ")[1].split(")")[0]
-                details = get_cluster_details(cid, start_date=start_date, end_date=end_date)
+        ident = label_to_id.get(label)
+        if not ident: continue
+        
+        details = None
+        if ident in period_stats and ident in metadata:
+            # FAST PATH: SQLite
+            meta = metadata[ident]
+            stats = period_stats[ident]
+            
+            # Reconstruct 'details' object as expected by UI
+            # Note: We skip appearances for speed in this batch view
+            details = {
+                "name": meta.get("name") or meta.get("representative_name"),
+                "cards": enrich_card_data(meta.get("cards", [])),
+                "stats": stats,
+                "sig": ident if not clustered else meta.get("representative_sig"),
+                "cluster_id": ident if clustered else None,
+                "appearances": [] # Skip appearances for performance in batch view
+            }
+        else:
+            # SLOW PATH: Fallback to old behavior if not in DB or DB missing
+            if clustered:
+                if "Cluster" in label:
+                    cid = label.split("Cluster ")[1].split(")")[0]
+                    details = get_cluster_details(cid, start_date=start_date, end_date=end_date)
+                else:
+                    match = re.search(r"\((\w+)\)$", label)
+                    sig = match.group(1) if match else None
+                    details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
             else:
                 match = re.search(r"\((\w+)\)$", label)
                 sig = match.group(1) if match else None
                 details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
-        else:
-            match = re.search(r"\((\w+)\)$", label)
-            sig = match.group(1) if match else None
-            details = get_deck_details(sig, start_date=start_date, end_date=end_date) if sig else None
         
         if details:
             all_details[label] = details
