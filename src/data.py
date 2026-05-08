@@ -725,7 +725,7 @@ def get_match_history(appearances):
                         opp_sig, _ = compute_deck_signature(all_cards)
                         deck_name = p.get("deck", {}).get("name", "Unknown")
                         info = {"sig": opp_sig, "deck_name": deck_name, "cards": all_cards}
-                        p_id = (p.get("player") or p.get("name", "")).lower()
+                        p_id = str(p.get("player") or p.get("name") or "").lower()
                         if p_id:
                             player_deck_info[p_id] = info
                 

@@ -732,7 +732,7 @@ def render_meta_trend_page():
     
     # Sort mapping
     sort_key_map = {
-        "name": lambda x: x["name"].lower(),
+        "name": lambda x: str(x.get("name") or "").lower(),
         "share": lambda x: x["share"] if pd.notna(x["share"]) and x["share"] > 0 else -1.0,
         "overall_share": lambda x: x["overall_share"] if pd.notna(x["overall_share"]) and x["overall_share"] > 0 else -1.0,
         "period_share": lambda x: x["period_share"] if pd.notna(x["period_share"]) and x["period_share"] > 0 else -1.0,
@@ -942,7 +942,7 @@ def render_meta_trend_page():
                     img_count += 1
             tooltip_html = f'<div class="tooltip-grid">{tooltip_html}</div>'
         else:
-            primary = row["name"].lower().replace(" ", "-")
+            primary = str(row.get("name") or "").lower().replace(" ", "-")
             tooltip_html = f'<img src="{IMAGE_BASE_URL}/{primary}.jpg" onerror="this.src=\'{IMAGE_BASE_URL}/{primary}-ex.jpg\'; this.onerror=null;" style="width:180px;border-radius:8px;"><br>{row["name"]}'
         
         diff_cols_html = ""
@@ -1003,7 +1003,7 @@ def render_meta_trend_page():
         checkbox_html = f'<td style="text-align: center; vertical-align: middle;"><input type="checkbox" class="deck-checkbox" value="{identifier}" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1ed760;"></td>'
 
         row_html = (
-            f'<tr class="meta-row-link" data-name="{row["name"].lower()}" '
+            f'<tr class="meta-row-link" data-name="{str(row.get("name") or "").lower()}" '
             f'data-share="{row["share"]}" data-overall-share="{row.get("overall_share", 0)}"'
             f'data-period-share="{row["period_share"]}" data-wr="{row["wr"]}" data-matches="{row["matches"]}" data-players="{row["players"]}" '
             f'onclick="if(!event.target.closest(\'a\') && !event.target.closest(\'input\')) {{ window.location.href=\'{link}\'; }}">'
@@ -1080,7 +1080,7 @@ def render_match_history_table(appearances, pagination_key="match_history"):
     def format_player_link(row, role):
         t_id, name = row.get("t_id"), row.get(role)
         if not name: return "Unknown"
-        p_id = name.lower().replace(" ", "-") # Basic guess
+        p_id = str(name or "").lower().replace(" ", "-") # Basic guess
         if t_id:
             link = f"https://play.limitlesstcg.com/tournament/{t_id}/player/{p_id}"
             return f"<a href='{link}' target='_blank' class='archetype-name'>{name}</a>"
@@ -1135,12 +1135,12 @@ def render_match_history_table(appearances, pagination_key="match_history"):
     matches_to_sort = list(matches)
     sort_key_map = {
         "date": lambda x: x.get("date", ""),
-        "tournament": lambda x: x.get("tournament", "").lower(),
+        "tournament": lambda x: str(x.get("tournament") or "").lower(),
         "round": lambda x: x.get("round", ""),
-        "player": lambda x: x.get("player", "").lower(),
-        "opponent": lambda x: x.get("opponent", "").lower(),
-        "deck": lambda x: x.get("opponent_deck", "").lower(),
-        "result": lambda x: x.get("result", "").lower()
+        "player": lambda x: str(x.get("player") or "").lower(),
+        "opponent": lambda x: str(x.get("opponent") or "").lower(),
+        "deck": lambda x: str(x.get("opponent_deck") or "").lower(),
+        "result": lambda x: str(x.get("result") or "").lower()
     }
     if m_sort in sort_key_map:
         matches_to_sort.sort(key=sort_key_map[m_sort], reverse=(m_order == "desc"))
@@ -1272,7 +1272,7 @@ def _render_cluster_detail_view(cluster_id, selected_period):
     v_order = st.query_params.get("v_order", "desc")
     
     v_sort_key_map = {
-        "name": lambda x: x["name"].lower(),
+        "name": lambda x: str(x.get("name") or "").lower(),
         "wr": lambda x: x["wr"],
         "lower": lambda x: x["lower"],
         "upper": lambda x: x["upper"],
