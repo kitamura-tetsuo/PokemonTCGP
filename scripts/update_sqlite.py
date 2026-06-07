@@ -84,8 +84,20 @@ def populate_db():
         with open(CLUSTERS_FILE, "r") as f:
             clusters = json.load(f)
 
-    conn = sqlite3.connect(DB_FILE)
-    init_db(conn)
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        init_db(conn)
+    except sqlite3.DatabaseError as e:
+        logger.warning(f"Database file {DB_FILE} is corrupted or not a database ({e}). Re-creating it...")
+        try:
+            conn.close()
+        except Exception:
+            pass
+        if os.path.exists(DB_FILE):
+            os.remove(DB_FILE)
+        conn = sqlite3.connect(DB_FILE)
+        init_db(conn)
+
     cursor = conn.cursor()
     
     # Clear existing data for a fresh start (or we could do incremental, but full is safer for now)
