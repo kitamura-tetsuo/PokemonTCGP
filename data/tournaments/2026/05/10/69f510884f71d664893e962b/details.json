@@ -1,0 +1,29 @@
+{
+  "id": "69f510884f71d664893e962b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Maj\u00f3wka Cup - 3/05/2026 [PL]",
+  "date": "2026-05-10T15:00:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 1954,
+    "name": "Pokemon TCG Pocket Polska"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

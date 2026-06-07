@@ -1,0 +1,32 @@
+{
+  "id": "6a1f7a0b56b11a587a9470b2",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "TBC NO BAN NO EX Pop Up $5",
+  "date": "2026-06-03T03:30:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

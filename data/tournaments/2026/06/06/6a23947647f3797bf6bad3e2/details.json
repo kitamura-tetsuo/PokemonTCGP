@@ -1,0 +1,29 @@
+{
+  "id": "6a23947647f3797bf6bad3e2",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club X Knowtice Pop Up-$5",
+  "date": "2026-06-06T04:30:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a1b301c47f3797bf6ba7af2",
+  "game": "POCKET",
+  "format": null,
+  "name": "iluchien's Pop Up Tournament",
+  "date": "2026-05-31T01:00:00.000Z",
+  "players": 85,
+  "organizer": {
+    "id": 2532,
+    "name": "iluchien"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

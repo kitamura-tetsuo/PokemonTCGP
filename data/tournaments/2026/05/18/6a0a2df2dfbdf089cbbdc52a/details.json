@@ -1,0 +1,29 @@
+{
+  "id": "6a0a2df2dfbdf089cbbdc52a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Breakfast Club Pop Up - Mars FA",
+  "date": "2026-05-18T04:00:00.000Z",
+  "players": 79,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

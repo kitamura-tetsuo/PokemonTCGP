@@ -1,0 +1,29 @@
+{
+  "id": "6a0c72eddfbdf089cbbdd580",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Standard-$5",
+  "date": "2026-05-19T19:30:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

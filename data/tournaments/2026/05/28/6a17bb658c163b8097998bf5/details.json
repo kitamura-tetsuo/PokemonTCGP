@@ -1,0 +1,29 @@
+{
+  "id": "6a17bb658c163b8097998bf5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Bolt Revolt \u26a1 Speed Strikes #01",
+  "date": "2026-05-28T04:30:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

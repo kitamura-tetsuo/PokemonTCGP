@@ -1,0 +1,29 @@
+{
+  "id": "6a177ef40f6c1f08998626da",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League #06 | Prize: FA Cards + ($10 USD)",
+  "date": "2026-06-04T21:40:00.000Z",
+  "players": 121,
+  "organizer": {
+    "id": 2630,
+    "name": "Power League "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

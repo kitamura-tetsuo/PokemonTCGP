@@ -1,0 +1,29 @@
+{
+  "id": "6a21d17056b11a587a94874e",
+  "game": "POCKET",
+  "format": null,
+  "name": "iluchien\u2019s POG Pop Up Tournament",
+  "date": "2026-06-05T01:00:00.000Z",
+  "players": 92,
+  "organizer": {
+    "id": 2532,
+    "name": "iluchien"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

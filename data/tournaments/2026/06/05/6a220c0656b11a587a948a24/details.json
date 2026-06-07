@@ -1,0 +1,29 @@
+{
+  "id": "6a220c0656b11a587a948a24",
+  "game": "POCKET",
+  "format": null,
+  "name": "HERVICANELONES TRIAL",
+  "date": "2026-06-05T20:10:00.000Z",
+  "players": 3,
+  "organizer": {
+    "id": 2600,
+    "name": "Los Canelones"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

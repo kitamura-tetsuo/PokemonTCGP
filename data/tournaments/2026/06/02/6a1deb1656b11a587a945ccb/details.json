@@ -1,0 +1,29 @@
+{
+  "id": "6a1deb1656b11a587a945ccb",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Night Time BASH",
+  "date": "2026-06-02T03:10:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

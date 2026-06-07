@@ -1,0 +1,41 @@
+{
+  "id": "6a239dad56b11a587a949f10",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08EvadeXO's BOBO Pop-up  #4\ud83d\ude08",
+  "date": "2026-06-06T08:00:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    }
+  ]
+}

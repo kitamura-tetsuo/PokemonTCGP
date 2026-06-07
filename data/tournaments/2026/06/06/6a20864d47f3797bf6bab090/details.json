@@ -1,0 +1,35 @@
+{
+  "id": "6a20864d47f3797bf6bab090",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "TBC Gym Leader Challenge Format $5",
+  "date": "2026-06-06T01:00:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON",
+    "SINGLETON_NAME"
+  ]
+}

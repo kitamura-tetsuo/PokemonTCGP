@@ -1,0 +1,29 @@
+{
+  "id": "6a1f468a47f3797bf6baa326",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Storm x Umbreon Pop Up-$5",
+  "date": "2026-06-02T22:30:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

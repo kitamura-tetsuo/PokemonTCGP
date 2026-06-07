@@ -1,0 +1,29 @@
+{
+  "id": "6a101747f404bb4c7c1cbcb2",
+  "game": "POCKET",
+  "format": null,
+  "name": "5USD The Dark League daily Tourney #3 NEW SET!!!",
+  "date": "2026-05-28T18:30:00.000Z",
+  "players": 113,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

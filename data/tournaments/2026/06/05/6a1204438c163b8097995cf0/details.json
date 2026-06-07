@@ -1,0 +1,29 @@
+{
+  "id": "6a1204438c163b8097995cf0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc08\u200d\u2b1bHerviCanelones' Open #1\ud83d\udc08\u200d\u2b1b$50+OAK/FA/Giveaway",
+  "date": "2026-06-05T22:05:00.000Z",
+  "players": 193,
+  "organizer": {
+    "id": 2600,
+    "name": "Los Canelones"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

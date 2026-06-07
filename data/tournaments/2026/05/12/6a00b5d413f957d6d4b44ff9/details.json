@@ -1,0 +1,29 @@
+{
+  "id": "6a00b5d413f957d6d4b44ff9",
+  "game": "POCKET",
+  "format": null,
+  "name": "Power\u26a1League #04 | Prize: FA Cards",
+  "date": "2026-05-12T17:00:00.000Z",
+  "players": 162,
+  "organizer": {
+    "id": 2630,
+    "name": "Power League "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

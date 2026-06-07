@@ -1,0 +1,29 @@
+{
+  "id": "6a20ce9747f3797bf6bab480",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC x Xastur Late Nighter-$5",
+  "date": "2026-06-04T03:45:00.000Z",
+  "players": 82,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a1f850b56b11a587a94711b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Thursday Smackdown ($10 USD)",
+  "date": "2026-06-04T17:35:00.000Z",
+  "players": 233,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a0ec3dbdfbdf089cbbde46b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pop Up 5USD",
+  "date": "2026-05-21T10:30:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "6a0e1e35dfbdf089cbbde1c9",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "INVE PTCGP INVITATIONAL",
+  "date": "2026-05-23T21:00:00.000Z",
+  "players": 17,
+  "organizer": {
+    "id": 2699,
+    "name": "It\u2019s Not Very Effective\u2026"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Aurorus",
+      "set": "B2",
+      "number": "42"
+    },
+    {
+      "name": "Baxcalibur",
+      "set": "B2a",
+      "number": "36"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Galvantula",
+      "set": "A3b",
+      "number": "27"
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": "B2",
+      "number": "100"
+    },
+    {
+      "name": "Gardevoir",
+      "set": "A1",
+      "number": "132"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Magneton",
+      "set": "A4b",
+      "number": "135"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Bibarel",
+      "set": "A2",
+      "number": "136"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

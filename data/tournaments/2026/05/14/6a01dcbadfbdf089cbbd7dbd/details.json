@@ -1,0 +1,29 @@
+{
+  "id": "6a01dcbadfbdf089cbbd7dbd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket 50$ + shiny card",
+  "date": "2026-05-14T21:30:00.000Z",
+  "players": 132,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

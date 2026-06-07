@@ -1,0 +1,29 @@
+{
+  "id": "6a06311713f957d6d4b47f19",
+  "game": "POCKET",
+  "format": null,
+  "name": "DANIELCMINI $10USD TOURNAMENT\ud83c\udfc6\ud83d\udd19\ud83d\udd19",
+  "date": "2026-05-24T15:00:00.000Z",
+  "players": 115,
+  "organizer": {
+    "id": 2257,
+    "name": "danielcmini"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

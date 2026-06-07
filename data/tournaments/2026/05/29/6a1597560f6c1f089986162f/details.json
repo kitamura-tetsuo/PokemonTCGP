@@ -1,0 +1,29 @@
+{
+  "id": "6a1597560f6c1f089986162f",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY PARADOX DRIVE\u208a\u22b9\u2040\u27b4prize: FA CARDS",
+  "date": "2026-05-29T22:05:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

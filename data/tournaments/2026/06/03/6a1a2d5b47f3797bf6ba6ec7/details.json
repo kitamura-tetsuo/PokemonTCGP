@@ -1,0 +1,29 @@
+{
+  "id": "6a1a2d5b47f3797bf6ba6ec7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u029a uwu tournament \u250325 USD filler spot tournament \u025e",
+  "date": "2026-06-03T00:00:00.000Z",
+  "players": 126,
+  "organizer": {
+    "id": 1975,
+    "name": "BuraKaii"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

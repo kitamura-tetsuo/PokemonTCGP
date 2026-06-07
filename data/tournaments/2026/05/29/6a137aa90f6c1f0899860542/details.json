@@ -1,0 +1,36 @@
+{
+  "id": "6a137aa90f6c1f0899860542",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's POG Tournament #9|Lucky Ice Pop Ban!",
+  "date": "2026-05-29T04:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}

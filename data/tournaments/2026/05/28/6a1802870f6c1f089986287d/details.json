@@ -1,0 +1,29 @@
+{
+  "id": "6a1802870f6c1f089986287d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\ude08EvadeXO's BOBO Pop-up #2\ud83d\ude08",
+  "date": "2026-05-28T14:10:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

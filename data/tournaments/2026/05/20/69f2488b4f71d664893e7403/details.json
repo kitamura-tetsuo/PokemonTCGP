@@ -1,0 +1,40 @@
+{
+  "id": "69f2488b4f71d664893e7403",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Weekly#2-19\uff5c$100 forSeries\uff5cNoex/Monotype/Singleton",
+  "date": "2026-05-20T12:00:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Meloetta",
+      "set": "B2",
+      "number": "70"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}

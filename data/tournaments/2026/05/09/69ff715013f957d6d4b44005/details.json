@@ -1,0 +1,29 @@
+{
+  "id": "69ff715013f957d6d4b44005",
+  "game": "POCKET",
+  "format": null,
+  "name": "MetaBreaker - BreakTheMeta FA cards for TOP4/TOP8",
+  "date": "2026-05-09T19:45:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 2544,
+    "name": "Meta Breaker"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

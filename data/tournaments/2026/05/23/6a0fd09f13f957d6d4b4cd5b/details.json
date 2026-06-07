@@ -1,0 +1,32 @@
+{
+  "id": "6a0fd09f13f957d6d4b4cd5b",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Breakfast Club NoEx Format \ud83e\udd4a",
+  "date": "2026-05-23T01:00:00.000Z",
+  "players": 19,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

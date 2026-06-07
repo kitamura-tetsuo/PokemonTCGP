@@ -1,0 +1,29 @@
+{
+  "id": "69ffdd31dfbdf089cbbd6aa4",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Late Night: $5 USD",
+  "date": "2026-05-10T04:30:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

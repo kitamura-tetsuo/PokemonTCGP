@@ -1,0 +1,49 @@
+{
+  "id": "6a1d0d3656b11a587a945518",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "TBC NoEX Showdown",
+  "date": "2026-06-01T22:15:00.000Z",
+  "players": 62,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dragonite",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

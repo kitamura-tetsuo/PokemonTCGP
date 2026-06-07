@@ -1,0 +1,29 @@
+{
+  "id": "6a18d40010275b383e833007",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfce\ufe0fNuggie's POG Tournament #9 | FA Oak $30 1st \ud83c\udfce\ufe0f",
+  "date": "2026-05-31T09:00:00.000Z",
+  "players": 161,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

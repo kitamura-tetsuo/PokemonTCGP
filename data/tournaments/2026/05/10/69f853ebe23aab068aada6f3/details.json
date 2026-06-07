@@ -1,0 +1,35 @@
+{
+  "id": "69f853ebe23aab068aada6f3",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Swiss Breakfast Alpine Dark League Club 150$",
+  "date": "2026-05-10T18:05:00.000Z",
+  "players": 342,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

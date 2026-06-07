@@ -1,0 +1,94 @@
+{
+  "id": "6a0debdf13f957d6d4b4bedd",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Lagoon No EX (FA Choice Prize)",
+  "date": "2026-05-21T02:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Chandelure",
+      "set": "B2",
+      "number": "69"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Magnezone",
+      "set": "A2",
+      "number": "53"
+    },
+    {
+      "name": "Dragonite",
+      "set": "A1",
+      "number": "185"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Inteleon",
+      "set": "B3",
+      "number": "50"
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": "B2",
+      "number": "100"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

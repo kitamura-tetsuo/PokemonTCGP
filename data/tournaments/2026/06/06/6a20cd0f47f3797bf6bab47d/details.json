@@ -1,0 +1,29 @@
+{
+  "id": "6a20cd0f47f3797bf6bab47d",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f PPBN - Tournament #3 ($10 + FA Cards)",
+  "date": "2026-06-06T23:00:00.000Z",
+  "players": 152,
+  "organizer": {
+    "id": 2646,
+    "name": "Pokemon Pocket Battle Network"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a0405aa13f957d6d4b47297",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pocket Cup ($200 1st Place)  tommy boi & bbchillen",
+  "date": "2026-05-18T22:00:00.000Z",
+  "players": 261,
+  "organizer": {
+    "id": 2686,
+    "name": "Tommy Boi Streams"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
