@@ -1,0 +1,29 @@
+{
+  "id": "6a1dded156b11a587a945be2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's pocket league $5",
+  "date": "2026-06-08T00:00:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
