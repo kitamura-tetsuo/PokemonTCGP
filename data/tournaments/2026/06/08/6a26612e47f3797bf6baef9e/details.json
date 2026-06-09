@@ -1,0 +1,191 @@
+{
+  "id": "6a26612e47f3797bf6baef9e",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\u2b50\u2b50AntiMeta \u2b50 Last Minute Tournie\u2b50\u2b50",
+  "date": "2026-06-08T10:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2094,
+    "name": "Pokemon Downunder"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Baxcalibur",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucario",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Chingling",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Meowscarada",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zeraora",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rampardos",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Giratina ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Suicune ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Charizard ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Moltres ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Indeedee ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Gardevoir ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Teal Mask Ogerpon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magnezone ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Sceptile ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Miraidon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Koraidon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Manectric ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Scizor ex",
+      "set": null,
+      "number": null
+    }
+  ]
+}
