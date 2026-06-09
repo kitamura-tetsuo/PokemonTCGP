@@ -1,0 +1,29 @@
+{
+  "id": "6a26afdf56b11a587a94c0e2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "BMS CUP#2",
+  "date": "2026-06-09T12:10:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}
