@@ -1,0 +1,29 @@
+{
+  "id": "6a286e2a2d97f3b0c26126fd",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Standard-$5 + FA Koraidon",
+  "date": "2026-06-09T23:45:00.000Z",
+  "players": 117,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
