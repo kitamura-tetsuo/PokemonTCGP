@@ -1,0 +1,29 @@
+{
+  "id": "6a2502ae56b11a587a94b27e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's POG Tournament #14|FA Cyrus/Mars/B3a",
+  "date": "2026-06-10T08:00:00.000Z",
+  "players": 138,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
