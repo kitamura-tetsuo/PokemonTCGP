@@ -1,0 +1,29 @@
+{
+  "id": "6a28d9152d97f3b0c2612c6e",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Late Pop Up-FA",
+  "date": "2026-06-10T04:45:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
