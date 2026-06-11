@@ -1,0 +1,36 @@
+{
+  "id": "6a10622e8c163b80979949cf",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udde7\ud83c\uddf7 Pr\u00e9-Release \u2022 Impulso Paradoxal | AMP",
+  "date": "2026-06-02T23:00:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}

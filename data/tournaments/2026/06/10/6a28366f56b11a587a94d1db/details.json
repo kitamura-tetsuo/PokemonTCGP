@@ -1,0 +1,29 @@
+{
+  "id": "6a28366f56b11a587a94d1db",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tommy Boi\u2019s Beach Bash($50 USD 1st Place)",
+  "date": "2026-06-10T22:00:00.000Z",
+  "players": 240,
+  "organizer": {
+    "id": 2686,
+    "name": "Tommy Boi Streams"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
