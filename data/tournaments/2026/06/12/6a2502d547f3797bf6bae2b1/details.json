@@ -1,0 +1,29 @@
+{
+  "id": "6a2502d547f3797bf6bae2b1",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's POG Tournament #15|5-USD & Top 8 Prizes",
+  "date": "2026-06-12T04:00:00.000Z",
+  "players": 109,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
