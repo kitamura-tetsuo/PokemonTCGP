@@ -1,0 +1,29 @@
+{
+  "id": "6a2a1b8c2d97f3b0c26138f2",
+  "game": "POCKET",
+  "format": null,
+  "name": "Plasma Daily #2 | FA Koraidon",
+  "date": "2026-06-11T20:00:00.000Z",
+  "players": 97,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
