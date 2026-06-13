@@ -1,0 +1,29 @@
+{
+  "id": "6a23d79356b11a587a94a035",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Tournament #10 ( Rp 500.000 )",
+  "date": "2026-06-12T12:15:00.000Z",
+  "players": 130,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 8,
+      "mode": "BO3"
+    }
+  ]
+}

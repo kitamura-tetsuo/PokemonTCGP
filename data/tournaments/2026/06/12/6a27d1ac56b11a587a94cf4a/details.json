@@ -1,0 +1,29 @@
+{
+  "id": "6a27d1ac56b11a587a94cf4a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u231b\ufe0f$25 BEC'S + MIRAIDON : 1-4 FA PRIZES\u231b\ufe0f",
+  "date": "2026-06-12T13:00:00.000Z",
+  "players": 170,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
