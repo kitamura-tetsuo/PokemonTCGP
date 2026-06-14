@@ -1,0 +1,29 @@
+{
+  "id": "6a2daa282d97f3b0c2615ee8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Xastur Pop Up-$15",
+  "date": "2026-06-13T21:15:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

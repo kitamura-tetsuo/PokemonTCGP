@@ -1,0 +1,29 @@
+{
+  "id": "6a28c7bce334c3c9befd2bed",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f PPBN - Tournament #4 (FA Cards)",
+  "date": "2026-06-13T23:10:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2646,
+    "name": "Pokemon Pocket Battle Network"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
