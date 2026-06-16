@@ -1,0 +1,29 @@
+{
+  "id": "6a2abe52e334c3c9befd3c4f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "SAWEED PARTY",
+  "date": "2026-06-15T12:15:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2166,
+    "name": "IDEAVOLUTION"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}
