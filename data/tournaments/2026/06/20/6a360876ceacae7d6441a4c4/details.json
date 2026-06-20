@@ -1,0 +1,41 @@
+{
+  "id": "6a360876ceacae7d6441a4c4",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08EvadeXO's Community POG Tourny #2\ud83d\ude08",
+  "date": "2026-06-20T07:30:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    }
+  ]
+}
