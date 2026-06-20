@@ -1,0 +1,129 @@
+{
+  "id": "6a30a0e6e334c3c9befd7c69",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "INVE PTCGP NO-EX Banlist #2 (FA CG Lillie Prize)",
+  "date": "2026-06-20T01:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2699,
+    "name": "It\u2019s Not Very Effective\u2026"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Aurorus",
+      "set": "B2",
+      "number": "42"
+    },
+    {
+      "name": "Baxcalibur",
+      "set": "B2a",
+      "number": "36"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Galvantula",
+      "set": "A3b",
+      "number": "27"
+    },
+    {
+      "name": "Galarian Obstagoon",
+      "set": "B2",
+      "number": "100"
+    },
+    {
+      "name": "Gardevoir",
+      "set": "A1",
+      "number": "132"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Magneton",
+      "set": "A4b",
+      "number": "135"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Bibarel",
+      "set": "A2",
+      "number": "136"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Iron Valiant",
+      "set": "B3a",
+      "number": "27"
+    },
+    {
+      "name": "Skeledirge",
+      "set": "B2a",
+      "number": "18"
+    },
+    {
+      "name": "Kingambit",
+      "set": "B3a",
+      "number": "43"
+    },
+    {
+      "name": "Glimmora",
+      "set": "B3a",
+      "number": "45"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}

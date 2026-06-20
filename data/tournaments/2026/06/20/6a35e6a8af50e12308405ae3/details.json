@@ -1,0 +1,29 @@
+{
+  "id": "6a35e6a8af50e12308405ae3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Knowtice Late Night-$10",
+  "date": "2026-06-20T03:35:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
