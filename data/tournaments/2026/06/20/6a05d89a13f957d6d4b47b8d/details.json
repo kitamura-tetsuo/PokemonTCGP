@@ -1,0 +1,41 @@
+{
+  "id": "6a05d89a13f957d6d4b47b8d",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Godzly's Apex Acceleration",
+  "date": "2026-06-20T13:00:00.000Z",
+  "players": 154,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
