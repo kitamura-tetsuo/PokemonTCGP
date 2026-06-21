@@ -1,0 +1,29 @@
+{
+  "id": "6a36c488ceacae7d6441ad23",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Knowtice Swagger Cup-$10",
+  "date": "2026-06-20T22:30:00.000Z",
+  "players": 63,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
