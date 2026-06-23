@@ -1,0 +1,29 @@
+{
+  "id": "6a39b45783fd320299bce25c",
+  "game": "POCKET",
+  "format": null,
+  "name": "BREAKFAST CLUB: DIETDRKELP\u2019S KELP CLASSIC #2 - $5",
+  "date": "2026-06-23T03:00:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
