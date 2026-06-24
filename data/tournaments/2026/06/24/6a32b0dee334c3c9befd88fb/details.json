@@ -1,0 +1,45 @@
+{
+  "id": "6a32b0dee334c3c9befd88fb",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "CPL Invitational #2 [$20 for Winner]",
+  "date": "2026-06-24T12:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2391,
+    "name": "Crisis Punch League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Meloetta",
+      "set": "B2",
+      "number": "70"
+    },
+    {
+      "name": "Zarude",
+      "set": "B3",
+      "number": "114"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}
