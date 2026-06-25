@@ -1,0 +1,29 @@
+{
+  "id": "6a3c321dc87cd9ff0a30ea4e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Umbreon Pop Up-$5",
+  "date": "2026-06-25T00:10:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
