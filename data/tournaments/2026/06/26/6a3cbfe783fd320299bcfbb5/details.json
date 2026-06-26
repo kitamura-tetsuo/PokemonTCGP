@@ -1,0 +1,116 @@
+{
+  "id": "6a3cbfe783fd320299bcfbb5",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08Evade & Xastur Present: ROGUE\u2019S REVENGE\ud83d\udd25 $20",
+  "date": "2026-06-26T01:10:00.000Z",
+  "players": 84,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Suicune EX",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Entei EX",
+      "set": "A4a",
+      "number": "10"
+    },
+    {
+      "name": "Mega Altaria EX",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Manectric EX",
+      "set": "B2b",
+      "number": "27"
+    },
+    {
+      "name": "Mega Blaziken EX",
+      "set": "B1",
+      "number": "284"
+    },
+    {
+      "name": "Mega Venusaur EX",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Mega Sceptile EX",
+      "set": "B3",
+      "number": "8"
+    },
+    {
+      "name": "Mega Lucario EX",
+      "set": "B3",
+      "number": "184"
+    },
+    {
+      "name": "Indeedee EX",
+      "set": "B1",
+      "number": "278"
+    },
+    {
+      "name": "Mega Gardevoir EX",
+      "set": "B2",
+      "number": "203"
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Zoroark EX",
+      "set": "B3",
+      "number": "106"
+    },
+    {
+      "name": "Iron Crown",
+      "set": null,
+      "number": null
+    }
+  ]
+}
