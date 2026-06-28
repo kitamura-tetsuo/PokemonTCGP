@@ -1,0 +1,29 @@
+{
+  "id": "6a3dccadc87cd9ff0a30f8a4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f PCBN - Tournament #5 (FA Cards)",
+  "date": "2026-06-27T23:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2646,
+    "name": "Pokemon Pocket Battle Network"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
