@@ -1,0 +1,29 @@
+{
+  "id": "6a4236bb83fd320299bd3c9c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Events Return $5",
+  "date": "2026-06-29T12:30:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
