@@ -1,0 +1,46 @@
+{
+  "id": "6a41a821c87cd9ff0a31257e",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's POG Tournament #16|5USD+FA|Sleep BANNED!",
+  "date": "2026-06-30T08:15:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}
