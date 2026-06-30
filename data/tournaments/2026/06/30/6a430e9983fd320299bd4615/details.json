@@ -1,0 +1,29 @@
+{
+  "id": "6a430e9983fd320299bd4615",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Everyday Wonders NEW SET LEGAL",
+  "date": "2026-06-30T03:30:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
