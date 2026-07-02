@@ -1,0 +1,29 @@
+{
+  "id": "6a3b6074c87cd9ff0a30e598",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dankest Cup #3 [$250 USD Prize] | New Set!",
+  "date": "2026-06-30T23:00:00.000Z",
+  "players": 234,
+  "organizer": {
+    "id": 2591,
+    "name": "JayDankest"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
