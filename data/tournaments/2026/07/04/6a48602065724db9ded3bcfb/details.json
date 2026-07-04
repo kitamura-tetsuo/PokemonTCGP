@@ -1,0 +1,29 @@
+{
+  "id": "6a48602065724db9ded3bcfb",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Midnight Blast-$10",
+  "date": "2026-07-04T04:30:00.000Z",
+  "players": 91,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
