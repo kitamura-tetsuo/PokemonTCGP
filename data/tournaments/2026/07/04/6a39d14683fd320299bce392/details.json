@@ -1,0 +1,36 @@
+{
+  "id": "6a39d14683fd320299bce392",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Crew Invitational Season 8 (20 USD)",
+  "date": "2026-07-04T02:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ]
+}
