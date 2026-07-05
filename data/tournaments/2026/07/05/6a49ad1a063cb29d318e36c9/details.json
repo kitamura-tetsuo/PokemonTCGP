@@ -1,0 +1,29 @@
+{
+  "id": "6a49ad1a063cb29d318e36c9",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC X DS Midnight Clash-$25",
+  "date": "2026-07-05T04:30:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
