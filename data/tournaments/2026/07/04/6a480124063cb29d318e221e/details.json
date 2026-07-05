@@ -1,0 +1,29 @@
+{
+  "id": "6a480124063cb29d318e221e",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club July 4th Bash ($25 USD) + \u2b50\u2b50",
+  "date": "2026-07-04T17:15:00.000Z",
+  "players": 240,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
