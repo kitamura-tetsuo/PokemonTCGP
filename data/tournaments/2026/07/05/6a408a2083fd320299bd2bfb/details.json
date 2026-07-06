@@ -1,0 +1,29 @@
+{
+  "id": "6a408a2083fd320299bd2bfb",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2694\ufe0f PCBN - Tournament #6 ($15 + FA Cards)",
+  "date": "2026-07-05T23:00:00.000Z",
+  "players": 120,
+  "organizer": {
+    "id": 2646,
+    "name": "Pokemon Pocket Battle Network"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
