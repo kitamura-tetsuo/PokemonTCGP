@@ -1,0 +1,29 @@
+{
+  "id": "6a4b19c3063cb29d318e4715",
+  "game": "POCKET",
+  "format": null,
+  "name": "Plasma Daily #7 | FA Card",
+  "date": "2026-07-07T17:00:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
