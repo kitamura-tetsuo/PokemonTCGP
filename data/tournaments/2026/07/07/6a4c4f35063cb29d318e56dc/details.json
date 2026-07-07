@@ -1,0 +1,41 @@
+{
+  "id": "6a4c4f35063cb29d318e56dc",
+  "game": "POCKET",
+  "format": null,
+  "name": "BOAT CLAN TOURNAMENT \u0d26\u0d4d\u0d26\u0d3f\u208d\ud834\udd10\u2a4c\ud834\udd10\u208e CASH PRIZE",
+  "date": "2026-07-07T01:15:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
