@@ -1,0 +1,29 @@
+{
+  "id": "6a4d80a7063cb29d318e63a2",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club x Knowtice Afternoon Delight-$5",
+  "date": "2026-07-07T23:15:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
