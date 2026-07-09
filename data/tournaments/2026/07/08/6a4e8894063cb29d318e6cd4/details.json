@@ -1,0 +1,29 @@
+{
+  "id": "6a4e8894063cb29d318e6cd4",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Pop Up-FA Cards",
+  "date": "2026-07-08T21:15:00.000Z",
+  "players": 76,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
