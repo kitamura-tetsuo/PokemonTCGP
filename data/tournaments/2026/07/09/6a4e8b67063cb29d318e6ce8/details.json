@@ -1,0 +1,29 @@
+{
+  "id": "6a4e8b67063cb29d318e6ce8",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon & Storm's Late Night Bash: $5 + RR Milotic",
+  "date": "2026-07-09T04:15:00.000Z",
+  "players": 109,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "6a4e8925063cb29d318e6cd7",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Serenity Format (B1 FA or RR Choice)",
+  "date": "2026-07-09T02:00:00.000Z",
+  "players": 59,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Chingling",
+      "set": "B1",
+      "number": "109"
+    },
+    {
+      "name": "Mega Absol ex",
+      "set": "B1",
+      "number": "151"
+    },
+    {
+      "name": "Mega Altaria ex",
+      "set": "B1",
+      "number": "102"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "B2b",
+      "number": "9"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Mega Lucario ex",
+      "set": "B3",
+      "number": "81"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    },
+    {
+      "name": "Mega Sceptile ex",
+      "set": "B3 ",
+      "number": "8"
+    },
+    {
+      "name": "Mega Manectric ex",
+      "set": "B2b",
+      "number": "27"
+    },
+    {
+      "name": "Mega Scizor ex",
+      "set": "B2b",
+      "number": "47"
+    },
+    {
+      "name": "Meowscarada ex",
+      "set": "B2a",
+      "number": "3"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Zeraora",
+      "set": "A3a",
+      "number": "21"
+    },
+    {
+      "name": "Mega Diancie ex",
+      "set": "B3b",
+      "number": "32"
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "B2",
+      "number": "127"
+    },
+    {
+      "name": "Giratina ex",
+      "set": "A2b",
+      "number": "35"
+    },
+    {
+      "name": "Mega Sableye ex",
+      "set": "B3b",
+      "number": "41"
+    },
+    {
+      "name": "Milotic ex",
+      "set": "B3b",
+      "number": "15"
+    },
+    {
+      "name": "Hisuian Zoroark ex",
+      "set": "B3b",
+      "number": "60"
+    },
+    {
+      "name": "Zoroark ex",
+      "set": "B3",
+      "number": "106"
+    },
+    {
+      "name": "Hisuian Goodra",
+      "set": "B3b",
+      "number": "50"
+    },
+    {
+      "name": "Goodra",
+      "set": "B1",
+      "number": "179"
+    }
+  ]
+}
