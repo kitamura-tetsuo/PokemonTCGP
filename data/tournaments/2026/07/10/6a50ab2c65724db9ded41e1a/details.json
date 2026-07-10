@@ -1,0 +1,23 @@
+{
+  "id": "6a50ab2c65724db9ded41e1a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pop Up Card Prizing",
+  "date": "2026-07-10T09:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
