@@ -1,0 +1,29 @@
+{
+  "id": "6a4fec8a65724db9ded4164e",
+  "game": "POCKET",
+  "format": null,
+  "name": "Knowtice x Storm Pop Up-$15",
+  "date": "2026-07-09T21:30:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
