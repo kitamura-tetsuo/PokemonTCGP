@@ -1,0 +1,29 @@
+{
+  "id": "6a4b1a4a65724db9ded3ddbc",
+  "game": "POCKET",
+  "format": null,
+  "name": "Plasma Daily #10 | FA Card",
+  "date": "2026-07-10T19:10:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2234,
+    "name": "ITP || Italian Psyduck"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
