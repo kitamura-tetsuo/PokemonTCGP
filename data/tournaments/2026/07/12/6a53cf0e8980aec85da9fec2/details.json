@@ -1,0 +1,29 @@
+{
+  "id": "6a53cf0e8980aec85da9fec2",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC Presents The Phenomenal Storm-$20",
+  "date": "2026-07-12T22:05:00.000Z",
+  "players": 114,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "6a51d1e3063cb29d318e98b3",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Evade x Slak BOBO SHOWDOWN #1",
+  "date": "2026-07-13T02:00:00.000Z",
+  "players": 62,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    }
+  ]
+}
