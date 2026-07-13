@@ -1,0 +1,29 @@
+{
+  "id": "6a534851c0a6bab82fbbc9d5",
+  "game": "POCKET",
+  "format": null,
+  "name": "LLM-Test Run Pocket-5\u20ac premio\u2013Entrada gratuita",
+  "date": "2026-07-12T18:00:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2756,
+    "name": "La Liga Murcianica"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

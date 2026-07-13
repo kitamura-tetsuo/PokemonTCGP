@@ -1,0 +1,29 @@
+{
+  "id": "6a4f391a65724db9ded40f60",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's League Pocket #4",
+  "date": "2026-07-13T00:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
