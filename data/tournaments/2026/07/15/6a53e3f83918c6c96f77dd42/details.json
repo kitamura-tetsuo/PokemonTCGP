@@ -1,0 +1,29 @@
+{
+  "id": "6a53e3f83918c6c96f77dd42",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udde7\ud83c\uddf7 Hit Sparrow #3 | TCG Pocket",
+  "date": "2026-07-15T22:00:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}
