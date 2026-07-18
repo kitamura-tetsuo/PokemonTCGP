@@ -1,0 +1,154 @@
+{
+  "id": "6a59182bcc68177ec6c56bac",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "\ud83c\udfc6 MONOMETA - 1st ANNIVERSARY NOEX CUP 90$",
+  "date": "2026-07-17T17:15:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2410,
+    "name": "MONOMETA"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Barry",
+      "set": "A2a",
+      "number": "74"
+    },
+    {
+      "name": "Puppy-Loving Girl",
+      "set": "B3b",
+      "number": "67"
+    },
+    {
+      "name": "Piers",
+      "set": "B2",
+      "number": "152"
+    },
+    {
+      "name": "Hisuin Goodra",
+      "set": "B3b",
+      "number": "50"
+    },
+    {
+      "name": "Ursaluna",
+      "set": "B3b",
+      "number": "58"
+    },
+    {
+      "name": "Chandelure",
+      "set": "B2",
+      "number": "69"
+    },
+    {
+      "name": "Tyrantrum",
+      "set": "B2",
+      "number": "90"
+    },
+    {
+      "name": "Reuniclus",
+      "set": "B1a",
+      "number": "34"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Rampardos",
+      "set": "A2",
+      "number": "89"
+    },
+    {
+      "name": "Froslass",
+      "set": "B3b",
+      "number": "17"
+    },
+    {
+      "name": "Gourgeist",
+      "set": "B2",
+      "number": "72"
+    },
+    {
+      "name": "Heliolisk",
+      "set": "B1a",
+      "number": "29"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Silvally",
+      "set": "A3a",
+      "number": "61"
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "set": "A3",
+      "number": "2"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Caterpie",
+      "set": "B3b",
+      "number": "1"
+    },
+    {
+      "name": "Iron Valiant",
+      "set": "B3a",
+      "number": "27"
+    },
+    {
+      "name": "Great Tusk",
+      "set": "B3a",
+      "number": "34"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Celesteela",
+      "set": "A3a",
+      "number": "62"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
