@@ -1,0 +1,29 @@
+{
+  "id": "6a5a9b9752c24ac2da644b11",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC Late Nite: $5 USD + FA Wallace",
+  "date": "2026-07-18T04:15:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
