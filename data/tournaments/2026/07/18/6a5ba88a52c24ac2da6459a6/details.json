@@ -1,0 +1,29 @@
+{
+  "id": "6a5ba88a52c24ac2da6459a6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Storm x Xastur Standard-$20+ FA",
+  "date": "2026-07-18T22:45:00.000Z",
+  "players": 85,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
