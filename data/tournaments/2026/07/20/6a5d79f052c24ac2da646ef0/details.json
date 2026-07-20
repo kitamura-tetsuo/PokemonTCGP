@@ -1,0 +1,29 @@
+{
+  "id": "6a5d79f052c24ac2da646ef0",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC Late Nite:$5 + FA Mega Sableye EX",
+  "date": "2026-07-20T04:30:00.000Z",
+  "players": 48,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
