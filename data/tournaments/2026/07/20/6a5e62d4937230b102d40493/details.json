@@ -1,0 +1,29 @@
+{
+  "id": "6a5e62d4937230b102d40493",
+  "game": "POCKET",
+  "format": null,
+  "name": "TkO x TBC evening brawl!! READ FOR PRIZING!",
+  "date": "2026-07-20T23:10:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
