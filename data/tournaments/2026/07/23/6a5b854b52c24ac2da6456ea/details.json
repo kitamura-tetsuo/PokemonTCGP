@@ -1,0 +1,29 @@
+{
+  "id": "6a5b854b52c24ac2da6456ea",
+  "game": "POCKET",
+  "format": null,
+  "name": "LLM-Shadow-Pocket\ud83d\udc7b\u200b5\u20ac premio\u2013Entrada gratuita",
+  "date": "2026-07-23T18:00:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 2756,
+    "name": "La Liga Murcianica"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
