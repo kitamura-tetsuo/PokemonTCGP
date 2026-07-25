@@ -1,0 +1,61 @@
+{
+  "id": "6a62e39052c24ac2da64a4a1",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon \ud83d\udca7Water Gym Challenge (FA Choice Prize)",
+  "date": "2026-07-25T02:00:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    },
+    {
+      "name": "Chien-Pao ex",
+      "set": "B2a",
+      "number": "37"
+    },
+    {
+      "name": "Mega Gyarados ex",
+      "set": "B1",
+      "number": "52"
+    },
+    {
+      "name": "Milotic ex",
+      "set": "B3b",
+      "number": "15"
+    },
+    {
+      "name": "Alolan Ninetales ex",
+      "set": "B2",
+      "number": "29"
+    }
+  ]
+}
