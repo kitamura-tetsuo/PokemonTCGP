@@ -1,0 +1,29 @@
+{
+  "id": "6a633a9d937230b102d42e71",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown pocket 50$",
+  "date": "2026-07-25T21:35:00.000Z",
+  "players": 107,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
