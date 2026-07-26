@@ -1,0 +1,29 @@
+{
+  "id": "6a660106937230b102d458c0",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Pop-up Draft #1",
+  "date": "2026-07-26T18:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

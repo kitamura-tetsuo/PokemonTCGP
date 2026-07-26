@@ -1,0 +1,56 @@
+{
+  "id": "6a62e61352c24ac2da64a4aa",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon \ud83d\udd25 Fire Gym Challenge (FA Choice Prize)",
+  "date": "2026-07-26T02:00:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Mega Blaziken ex",
+      "set": "B1",
+      "number": "36"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "B2b",
+      "number": "9"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "B1a",
+      "number": "14"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "A1",
+      "number": "36"
+    }
+  ]
+}
