@@ -1,0 +1,29 @@
+{
+  "id": "6a66b92552c24ac2da64d44b",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC LATE NIGHT POP UP-FA",
+  "date": "2026-07-27T04:30:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
