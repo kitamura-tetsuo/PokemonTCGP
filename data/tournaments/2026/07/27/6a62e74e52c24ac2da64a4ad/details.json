@@ -1,0 +1,56 @@
+{
+  "id": "6a62e74e52c24ac2da64a4ad",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon \u26a1Electric Gym Challenge (FA Choice Prize)",
+  "date": "2026-07-27T02:00:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Magnezone",
+      "set": "B1a",
+      "number": "26"
+    },
+    {
+      "name": "Miraidon ex",
+      "set": "B3a",
+      "number": "19"
+    },
+    {
+      "name": "Mega Manectric ex",
+      "set": "B2b",
+      "number": "27"
+    },
+    {
+      "name": "Bellibolt ex",
+      "set": "B2a",
+      "number": "42"
+    }
+  ]
+}
