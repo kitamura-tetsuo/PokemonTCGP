@@ -1,0 +1,23 @@
+{
+  "id": "6a677dfe937230b102d46a26",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Pop-up Draft #2",
+  "date": "2026-07-27T18:10:00.000Z",
+  "players": 10,
+  "organizer": {
+    "id": 1938,
+    "name": "FrogEX"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 9,
+      "mode": "BO1"
+    }
+  ]
+}
