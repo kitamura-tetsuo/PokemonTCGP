@@ -1,0 +1,29 @@
+{
+  "id": "6a6a3df252c24ac2da64f338",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League | RULER OF THE SKIES LEGAL",
+  "date": "2026-07-30T04:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
