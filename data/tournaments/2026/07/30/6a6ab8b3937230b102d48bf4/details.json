@@ -1,0 +1,29 @@
+{
+  "id": "6a6ab8b3937230b102d48bf4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pancakes and Sausages - Breakfast Club $15",
+  "date": "2026-07-30T14:15:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
