@@ -1,0 +1,29 @@
+{
+  "id": "6a678d7d52c24ac2da64db3f",
+  "game": "POCKET",
+  "format": null,
+  "name": "ZGG $50 prize pool Rulers Of The Skies",
+  "date": "2026-07-30T17:30:00.000Z",
+  "players": 221,
+  "organizer": {
+    "id": 2551,
+    "name": "Zero Gravity Gaming "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
