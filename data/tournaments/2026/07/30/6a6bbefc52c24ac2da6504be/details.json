@@ -1,0 +1,29 @@
+{
+  "id": "6a6bbefc52c24ac2da6504be",
+  "game": "POCKET",
+  "format": null,
+  "name": "THE BREAKFAST CLUB POP UP-$10",
+  "date": "2026-07-30T23:35:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
