@@ -1,0 +1,29 @@
+{
+  "id": "6a6acfd352c24ac2da64fa44",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u26c5 iluchien\u2019s SINGLE ELIMINATION Tournament \u26c5 FIX",
+  "date": "2026-07-30T04:22:00.000Z",
+  "players": 3,
+  "organizer": {
+    "id": 2532,
+    "name": "iluchien"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
