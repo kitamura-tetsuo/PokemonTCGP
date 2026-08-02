@@ -1,0 +1,29 @@
+{
+  "id": "6a6eac512b308b6067b47620",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC x TDL Pop Up-$5",
+  "date": "2026-08-02T04:45:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
