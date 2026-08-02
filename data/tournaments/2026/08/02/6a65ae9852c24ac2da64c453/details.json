@@ -1,0 +1,29 @@
+{
+  "id": "6a65ae9852c24ac2da64c453",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc09Nuggie's POG Tourney #13 $100 Winner Takes ALL\ud83d\udc09",
+  "date": "2026-08-02T09:00:00.000Z",
+  "players": 198,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
