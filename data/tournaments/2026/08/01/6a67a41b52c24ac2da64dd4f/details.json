@@ -1,0 +1,30 @@
+{
+  "id": "6a67a41b52c24ac2da64dd4f",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #40 - RULER OF THE SKIES!!! | $100  USD",
+  "date": "2026-08-01T16:00:00.000Z",
+  "players": 452,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
