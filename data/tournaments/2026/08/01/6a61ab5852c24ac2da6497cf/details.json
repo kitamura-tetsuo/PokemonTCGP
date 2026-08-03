@@ -1,0 +1,29 @@
+{
+  "id": "6a61ab5852c24ac2da6497cf",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dankest Cup #4 [$200 USD Prize + $20 Bounty]",
+  "date": "2026-08-01T23:00:00.000Z",
+  "players": 279,
+  "organizer": {
+    "id": 2591,
+    "name": "JayDankest"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
