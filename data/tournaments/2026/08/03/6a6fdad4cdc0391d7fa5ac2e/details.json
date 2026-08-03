@@ -1,0 +1,29 @@
+{
+  "id": "6a6fdad4cdc0391d7fa5ac2e",
+  "game": "POCKET",
+  "format": null,
+  "name": "BREAKFAST CLUB PRESENTS THE KELP CLASSIC #6-$10+FA",
+  "date": "2026-08-03T03:30:00.000Z",
+  "players": 92,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
