@@ -1,0 +1,29 @@
+{
+  "id": "6a5634b86355385f44dd48f0",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Bench Snipe Only - Snipe Shot #1 (FA Oak)",
+  "date": "2026-08-04T12:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
