@@ -1,0 +1,29 @@
+{
+  "id": "6a70d913cdc0391d7fa5b79b",
+  "game": "POCKET",
+  "format": null,
+  "name": "random r0zey pop up #2 | FA Choice",
+  "date": "2026-08-03T22:00:00.000Z",
+  "players": 91,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

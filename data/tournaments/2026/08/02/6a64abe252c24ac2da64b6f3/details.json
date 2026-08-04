@@ -1,0 +1,35 @@
+{
+  "id": "6a64abe252c24ac2da64b6f3",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League & Umbreon99's REGIONAL Style $300 USD",
+  "date": "2026-08-02T18:35:00.000Z",
+  "players": 325,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
