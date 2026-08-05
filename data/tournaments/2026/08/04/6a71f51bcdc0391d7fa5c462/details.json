@@ -1,0 +1,29 @@
+{
+  "id": "6a71f51bcdc0391d7fa5c462",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY POP UP\u208a\u22b9\u2040\u27b4prize: $30, FA CARDS",
+  "date": "2026-08-04T22:05:00.000Z",
+  "players": 178,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a71761bcdc0391d7fa5c275",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC Presents Xastur's Bash-Prize $15 + FA",
+  "date": "2026-08-04T17:30:00.000Z",
+  "players": 152,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
