@@ -1,0 +1,35 @@
+{
+  "id": "6a7504d12b308b6067b4c076",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 1 || FA OAKS + LILLIE DX",
+  "date": "2026-08-07T00:05:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
