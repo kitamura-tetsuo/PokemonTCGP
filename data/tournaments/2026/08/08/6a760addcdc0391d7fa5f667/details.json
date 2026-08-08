@@ -1,0 +1,29 @@
+{
+  "id": "6a760addcdc0391d7fa5f667",
+  "game": "POCKET",
+  "format": null,
+  "name": "Lagoon Crew Mega Wars Standard (90 USD)",
+  "date": "2026-08-08T02:10:00.000Z",
+  "players": 178,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
