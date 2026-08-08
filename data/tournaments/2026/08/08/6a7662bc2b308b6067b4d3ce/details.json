@@ -1,0 +1,35 @@
+{
+  "id": "6a7662bc2b308b6067b4d3ce",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 2 || 3 FA OAKS - WINNER TAKES ALL",
+  "date": "2026-08-08T00:25:00.000Z",
+  "players": 32,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
