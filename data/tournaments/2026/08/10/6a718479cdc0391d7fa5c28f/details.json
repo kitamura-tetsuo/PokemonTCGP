@@ -1,0 +1,29 @@
+{
+  "id": "6a718479cdc0391d7fa5c28f",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's League Pocket #8",
+  "date": "2026-08-10T01:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 2,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

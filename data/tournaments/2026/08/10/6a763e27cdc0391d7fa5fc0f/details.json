@@ -1,0 +1,29 @@
+{
+  "id": "6a763e27cdc0391d7fa5fc0f",
+  "game": "POCKET",
+  "format": null,
+  "name": "The First Tournament Hosted By Proto_TCG!",
+  "date": "2026-08-10T19:00:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
