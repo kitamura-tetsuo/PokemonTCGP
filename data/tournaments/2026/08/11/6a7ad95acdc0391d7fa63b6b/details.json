@@ -1,0 +1,29 @@
+{
+  "id": "6a7ad95acdc0391d7fa63b6b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pop Up 5$ to the Winner",
+  "date": "2026-08-11T10:15:00.000Z",
+  "players": 68,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

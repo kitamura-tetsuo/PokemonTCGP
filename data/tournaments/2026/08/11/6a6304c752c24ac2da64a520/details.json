@@ -1,0 +1,29 @@
+{
+  "id": "6a6304c752c24ac2da64a520",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Bench Snipe Only - Snipe Shot #2 (FA May)",
+  "date": "2026-08-11T12:00:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
