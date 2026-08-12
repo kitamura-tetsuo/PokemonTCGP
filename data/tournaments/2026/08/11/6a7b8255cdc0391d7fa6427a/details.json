@@ -1,0 +1,35 @@
+{
+  "id": "6a7b8255cdc0391d7fa6427a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 4 || 3 FA OAKS PRIZING",
+  "date": "2026-08-11T23:55:00.000Z",
+  "players": 83,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
