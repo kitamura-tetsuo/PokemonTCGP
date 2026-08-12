@@ -1,0 +1,29 @@
+{
+  "id": "6a7624fdcdc0391d7fa5f9c0",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKCITY \ud835\udfef\ud835\ude03\ud835\udfef\u208a\u22b9\u2040\u27b4prize: FA CARDS",
+  "date": "2026-08-11T17:35:00.000Z",
+  "players": 20,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
