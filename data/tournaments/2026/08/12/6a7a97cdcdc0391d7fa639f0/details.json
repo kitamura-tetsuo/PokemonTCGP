@@ -1,0 +1,144 @@
+{
+  "id": "6a7a97cdcdc0391d7fa639f0",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Tiny Titans (Pok\u00e9mon 70 HP or Less)",
+  "date": "2026-08-12T02:00:00.000Z",
+  "players": 65,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Emolga",
+      "set": "B3b",
+      "number": "23"
+    },
+    {
+      "name": "Fidough",
+      "set": "B3b",
+      "number": "34"
+    },
+    {
+      "name": "Rockruff",
+      "set": "B3b",
+      "number": "38"
+    },
+    {
+      "name": "Castform Sunny Form",
+      "set": "B3",
+      "number": "24"
+    },
+    {
+      "name": "Castform Snowy Form",
+      "set": "B3",
+      "number": "41"
+    },
+    {
+      "name": "Lillipup",
+      "set": "B3",
+      "number": "137"
+    },
+    {
+      "name": "Tatsugiri",
+      "set": "B2a",
+      "number": "33"
+    },
+    {
+      "name": "Meloetta",
+      "set": "B2",
+      "number": "70"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Smeargle",
+      "set": "A4",
+      "number": "148"
+    },
+    {
+      "name": "Nihilego",
+      "set": "A3a",
+      "number": "42"
+    },
+    {
+      "name": "Pyukumuku",
+      "set": "A3",
+      "number": "54"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "77"
+    },
+    {
+      "name": "Phione",
+      "set": "A2a",
+      "number": "24"
+    },
+    {
+      "name": "Mesprit",
+      "set": "A2",
+      "number": "76"
+    },
+    {
+      "name": "Electabuzz",
+      "set": "A1",
+      "number": "101"
+    },
+    {
+      "name": "Rabsca",
+      "set": "B2a",
+      "number": "49"
+    },
+    {
+      "name": "Maushold",
+      "set": "B2a",
+      "number": "82"
+    },
+    {
+      "name": "Maushold",
+      "set": "B2",
+      "number": "143"
+    },
+    {
+      "name": "Seadra",
+      "set": "A1",
+      "number": "71"
+    },
+    {
+      "name": "Dugtrio",
+      "set": "A1",
+      "number": "140"
+    },
+    {
+      "name": "Starting Plains",
+      "set": "B2",
+      "number": "154"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
