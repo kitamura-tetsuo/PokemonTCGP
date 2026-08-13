@@ -1,0 +1,29 @@
+{
+  "id": "6a7cc278cdc0391d7fa64d67",
+  "game": "POCKET",
+  "format": null,
+  "name": "OnlyFrapps \u201cPop-Up\u201d",
+  "date": "2026-08-12T21:30:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
