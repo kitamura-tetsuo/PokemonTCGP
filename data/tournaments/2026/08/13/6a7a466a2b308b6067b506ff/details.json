@@ -1,0 +1,29 @@
+{
+  "id": "6a7a466a2b308b6067b506ff",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena! Top Prizing: \ud83d\udcb510$USD\ud83d\udcb5",
+  "date": "2026-08-13T19:00:00.000Z",
+  "players": 97,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
