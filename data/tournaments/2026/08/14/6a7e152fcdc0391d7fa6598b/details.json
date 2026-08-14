@@ -1,0 +1,35 @@
+{
+  "id": "6a7e152fcdc0391d7fa6598b",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 5 || FA OAKS + LILLIE AND LUSA DX",
+  "date": "2026-08-14T00:05:00.000Z",
+  "players": 47,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
