@@ -1,0 +1,29 @@
+{
+  "id": "6a7c2c5d2b308b6067b51eae",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udfd6$20 BEC'S SUMMER CLASH \ud83d\udc09 FA PRIZES \ud83c\udfd6",
+  "date": "2026-08-14T13:05:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
