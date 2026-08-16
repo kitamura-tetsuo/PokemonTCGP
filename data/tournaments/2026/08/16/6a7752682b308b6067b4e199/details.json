@@ -1,0 +1,29 @@
+{
+  "id": "6a7752682b308b6067b4e199",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf4b\u200bPAPARAJOTE SERIES 100\u20ac #1\u200b/12\ud83c\udfb4\u200b| Premio 5\u20ac\u200b\ud83d\udcb8\u200b",
+  "date": "2026-08-16T15:00:00.000Z",
+  "players": 43,
+  "organizer": {
+    "id": 2756,
+    "name": "La Liga Murcianica"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
