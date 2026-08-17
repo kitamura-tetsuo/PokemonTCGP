@@ -1,0 +1,29 @@
+{
+  "id": "6a81a99378baaa6d1c221414",
+  "game": "POCKET",
+  "format": null,
+  "name": "OnlyFrapps Sunday 20$ + FA Mars \u201cPop-Up\u201d",
+  "date": "2026-08-16T19:00:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
