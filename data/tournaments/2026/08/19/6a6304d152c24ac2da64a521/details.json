@@ -1,0 +1,29 @@
+{
+  "id": "6a6304d152c24ac2da64a521",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Bench Snipe Only - Snipe Shot #3 (FA Serena)",
+  "date": "2026-08-19T12:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
