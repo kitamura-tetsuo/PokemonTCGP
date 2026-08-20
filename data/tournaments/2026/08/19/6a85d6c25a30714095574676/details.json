@@ -1,0 +1,29 @@
+{
+  "id": "6a85d6c25a30714095574676",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC X TDL-The Dexter Morgan Special-OAK AND FAS",
+  "date": "2026-08-19T19:45:00.000Z",
+  "players": 52,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
