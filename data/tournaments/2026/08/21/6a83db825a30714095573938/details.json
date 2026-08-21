@@ -1,0 +1,86 @@
+{
+  "id": "6a83db825a30714095573938",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Sanctuary Format (Any FA Choice)",
+  "date": "2026-08-21T02:00:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Espeon",
+      "set": "B3a",
+      "number": "20"
+    },
+    {
+      "name": "Milotic ex",
+      "set": "B3b",
+      "number": "15"
+    },
+    {
+      "name": "Swablu",
+      "set": "B1",
+      "number": "196"
+    },
+    {
+      "name": "Gengar",
+      "set": "A2a",
+      "number": "33"
+    },
+    {
+      "name": "Mega Venusaur ex",
+      "set": "B1a",
+      "number": "4"
+    },
+    {
+      "name": "Hypno",
+      "set": "A1",
+      "number": "125"
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": "150"
+    }
+  ]
+}

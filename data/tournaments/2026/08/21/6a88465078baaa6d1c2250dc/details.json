@@ -1,0 +1,29 @@
+{
+  "id": "6a88465078baaa6d1c2250dc",
+  "game": "POCKET",
+  "format": null,
+  "name": "MetaBreaker - BreakTheMeta PopUp (FA Cyrus)",
+  "date": "2026-08-21T14:40:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 2544,
+    "name": "Meta Breaker"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
