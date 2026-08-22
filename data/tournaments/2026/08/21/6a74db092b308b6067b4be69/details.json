@@ -1,0 +1,29 @@
+{
+  "id": "6a74db092b308b6067b4be69",
+  "game": "POCKET",
+  "format": null,
+  "name": "TCG Pocket Community Series #2 Ruler Of Skies $100",
+  "date": "2026-08-21T19:00:00.000Z",
+  "players": 171,
+  "organizer": {
+    "id": 2451,
+    "name": "The Swiss Alpine League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
