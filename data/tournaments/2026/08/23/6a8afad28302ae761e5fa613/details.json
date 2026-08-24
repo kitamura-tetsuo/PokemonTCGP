@@ -1,0 +1,29 @@
+{
+  "id": "6a8afad28302ae761e5fa613",
+  "game": "POCKET",
+  "format": null,
+  "name": "FIRST OF MANY!!|Mega Sableye RR Prize|TH Series|",
+  "date": "2026-08-23T18:15:00.000Z",
+  "players": 31,
+  "organizer": {
+    "id": 40,
+    "name": "Tropical Hour Events"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
