@@ -1,0 +1,29 @@
+{
+  "id": "6a8b0d708302ae761e5fa69e",
+  "game": "POCKET",
+  "format": null,
+  "name": "KnowticeTkO x Storm\u2019s Gambit Enterprise! $20",
+  "date": "2026-08-23T22:00:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
