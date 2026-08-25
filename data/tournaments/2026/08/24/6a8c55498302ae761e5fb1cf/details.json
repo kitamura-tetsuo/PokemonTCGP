@@ -1,0 +1,29 @@
+{
+  "id": "6a8c55498302ae761e5fb1cf",
+  "game": "POCKET",
+  "format": null,
+  "name": "KnowticeTkO x TBC - Capital Venture Climb! $5 + FA",
+  "date": "2026-08-24T18:15:00.000Z",
+  "players": 56,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
