@@ -1,0 +1,29 @@
+{
+  "id": "6a6304da937230b102d42daa",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Bench Snipe Only - Snipe Shot #4 (FA Brock)",
+  "date": "2026-08-25T12:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
