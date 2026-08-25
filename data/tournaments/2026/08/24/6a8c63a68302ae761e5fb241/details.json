@@ -1,0 +1,29 @@
+{
+  "id": "6a8c63a68302ae761e5fb241",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena #4! Prizing: Full Art Trainers",
+  "date": "2026-08-24T19:00:00.000Z",
+  "players": 26,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
