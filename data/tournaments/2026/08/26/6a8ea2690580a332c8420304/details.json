@@ -1,0 +1,29 @@
+{
+  "id": "6a8ea2690580a332c8420304",
+  "game": "POCKET",
+  "format": null,
+  "name": "Rozey Birthday Pop Up By Dark league",
+  "date": "2026-08-26T10:35:00.000Z",
+  "players": 29,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
