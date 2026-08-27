@@ -1,0 +1,29 @@
+{
+  "id": "6a8b75058302ae761e5fab7e",
+  "game": "POCKET",
+  "format": null,
+  "name": "FAREWELL B4!|2x Hoopa ex RR Prize+More!|TH Series",
+  "date": "2026-08-26T16:15:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 40,
+    "name": "Tropical Hour Events"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
