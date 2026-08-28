@@ -1,0 +1,29 @@
+{
+  "id": "6a87007978baaa6d1c22438b",
+  "game": "POCKET",
+  "format": null,
+  "name": "RESTRUCTURED - Dankest Mini Cup [$20+$5 Bounty]",
+  "date": "2026-08-27T23:10:00.000Z",
+  "players": 168,
+  "organizer": {
+    "id": 2591,
+    "name": "JayDankest"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

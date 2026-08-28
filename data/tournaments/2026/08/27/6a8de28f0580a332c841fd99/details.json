@@ -1,0 +1,29 @@
+{
+  "id": "6a8de28f0580a332c841fd99",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena #5! Prizing: Full Art TRA Cards!",
+  "date": "2026-08-27T17:00:00.000Z",
+  "players": 108,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
