@@ -1,0 +1,23 @@
+{
+  "id": "6a8b2a1c81741245b151cebc",
+  "game": "POCKET",
+  "format": null,
+  "name": "Trinity Tournament 1",
+  "date": "2026-08-28T23:00:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 2789,
+    "name": "Trinity Portal"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a90e8157a62de8130140dee",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Xastur's Showdown-$5+OAK+",
+  "date": "2026-08-28T22:30:00.000Z",
+  "players": 97,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
