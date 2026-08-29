@@ -1,0 +1,35 @@
+{
+  "id": "6a918b3d629039f77d8a40ca",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 8 || 3 FA OAKS + DX SHINIES",
+  "date": "2026-08-29T03:00:00.000Z",
+  "players": 66,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
