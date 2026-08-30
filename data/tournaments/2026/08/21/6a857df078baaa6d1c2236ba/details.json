@@ -1,0 +1,23 @@
+{
+  "id": "6a857df078baaa6d1c2236ba",
+  "game": "POCKET",
+  "format": null,
+  "name": "Semanal NLC",
+  "date": "2026-08-21T23:00:00.000Z",
+  "players": 16,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    }
+  ]
+}
