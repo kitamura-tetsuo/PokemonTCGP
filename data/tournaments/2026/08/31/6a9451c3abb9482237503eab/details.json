@@ -1,0 +1,29 @@
+{
+  "id": "6a9451c3abb9482237503eab",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon Premier x TBC: $5 + FA CARDS",
+  "date": "2026-08-31T02:15:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

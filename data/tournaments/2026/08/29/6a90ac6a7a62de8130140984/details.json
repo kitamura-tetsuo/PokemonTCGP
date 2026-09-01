@@ -1,0 +1,29 @@
+{
+  "id": "6a90ac6a7a62de8130140984",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dankest Cup #5 [$100 USD Prize + $10 Bounty]",
+  "date": "2026-08-29T23:30:00.000Z",
+  "players": 189,
+  "organizer": {
+    "id": 2591,
+    "name": "JayDankest"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
