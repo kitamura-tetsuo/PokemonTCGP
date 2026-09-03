@@ -1,0 +1,29 @@
+{
+  "id": "6a96ba14abb94822375054ef",
+  "game": "POCKET",
+  "format": null,
+  "name": "The PokeBounty Showdown Dry run (EU/ASIA)",
+  "date": "2026-09-03T08:00:00.000Z",
+  "players": 36,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

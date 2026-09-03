@@ -1,0 +1,29 @@
+{
+  "id": "6a748f90cdc0391d7fa5e325",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\u26ab\ud83d\udd34\ud83d\udfe1 Team Germany Draft Cup \ud83e\udd68\ud83c\udf7a",
+  "date": "2026-08-17T13:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2343,
+    "name": "Magma"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
