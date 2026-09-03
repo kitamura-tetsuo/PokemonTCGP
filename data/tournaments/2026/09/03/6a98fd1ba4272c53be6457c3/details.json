@@ -1,0 +1,29 @@
+{
+  "id": "6a98fd1ba4272c53be6457c3",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC The Rowdy Russell Rumble-$20-QUICK",
+  "date": "2026-09-03T05:15:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
