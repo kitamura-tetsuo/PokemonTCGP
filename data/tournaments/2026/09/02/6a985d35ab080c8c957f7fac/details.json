@@ -1,0 +1,29 @@
+{
+  "id": "6a985d35ab080c8c957f7fac",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Tournament | POP UP",
+  "date": "2026-09-02T21:10:00.000Z",
+  "players": 77,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
