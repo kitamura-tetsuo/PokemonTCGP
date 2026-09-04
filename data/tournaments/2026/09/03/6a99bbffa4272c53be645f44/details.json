@@ -1,0 +1,29 @@
+{
+  "id": "6a99bbffa4272c53be645f44",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon Pop Up (RR Team Rockets Raticate)",
+  "date": "2026-09-03T20:45:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
