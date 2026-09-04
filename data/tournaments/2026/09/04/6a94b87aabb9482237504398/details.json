@@ -1,0 +1,29 @@
+{
+  "id": "6a94b87aabb9482237504398",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's X FlagAU POG Tournament #25|10USD + FA!",
+  "date": "2026-09-04T03:00:00.000Z",
+  "players": 129,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
