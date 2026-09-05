@@ -1,0 +1,23 @@
+{
+  "id": "6a9836ffa4272c53be644df4",
+  "game": "POCKET",
+  "format": null,
+  "name": "Trinity Tournament 2",
+  "date": "2026-09-05T01:00:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2789,
+    "name": "Trinity Portal"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
