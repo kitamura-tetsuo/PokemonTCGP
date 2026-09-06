@@ -1,0 +1,29 @@
+{
+  "id": "6a78c5912b308b6067b4f421",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournament Vegegras cash prize 100usd",
+  "date": "2026-09-05T19:05:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 2702,
+    "name": "Vegegras"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
