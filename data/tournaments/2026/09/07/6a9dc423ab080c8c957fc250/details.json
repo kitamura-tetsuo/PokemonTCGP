@@ -1,0 +1,29 @@
+{
+  "id": "6a9dc423ab080c8c957fc250",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Nightly-$20",
+  "date": "2026-09-07T00:45:00.000Z",
+  "players": 118,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
