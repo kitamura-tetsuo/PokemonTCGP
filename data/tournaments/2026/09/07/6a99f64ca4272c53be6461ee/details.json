@@ -1,0 +1,29 @@
+{
+  "id": "6a99f64ca4272c53be6461ee",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Manic Monday: $15 USD + Oak",
+  "date": "2026-09-07T17:45:00.000Z",
+  "players": 230,
+  "organizer": {
+    "id": 2748,
+    "name": "Aura Sphere"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
