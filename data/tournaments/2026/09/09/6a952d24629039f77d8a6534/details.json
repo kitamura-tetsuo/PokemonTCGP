@@ -1,0 +1,29 @@
+{
+  "id": "6a952d24629039f77d8a6534",
+  "game": "POCKET",
+  "format": null,
+  "name": "IMPERIUM TOURNAMENT 1st to 8th ( Cards 2 stars)",
+  "date": "2026-09-09T17:05:00.000Z",
+  "players": 118,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
