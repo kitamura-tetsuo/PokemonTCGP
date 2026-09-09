@@ -1,0 +1,29 @@
+{
+  "id": "6aa0602aab080c8c957fe51c",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Nightly #4-FAS + MORE",
+  "date": "2026-09-09T00:45:00.000Z",
+  "players": 86,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
