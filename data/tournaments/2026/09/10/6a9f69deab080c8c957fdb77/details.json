@@ -1,0 +1,29 @@
+{
+  "id": "6a9f69deab080c8c957fdb77",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc27 PGX TOURNAMENT #1\u3010\ud83d\udcb05$ + TRAINER FA \u2b50\u2b50\u3011",
+  "date": "2026-09-10T17:00:00.000Z",
+  "players": 158,
+  "organizer": {
+    "id": 2783,
+    "name": "OscarBK"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
