@@ -1,0 +1,39 @@
+{
+  "id": "6a9ebbfcab080c8c957fcc9a",
+  "game": "POCKET",
+  "format": null,
+  "name": "Icetea hometown NOEX(B4a Garchomp banned)20$",
+  "date": "2026-09-09T21:30:00.000Z",
+  "players": 79,
+  "organizer": {
+    "id": 2499,
+    "name": "Icetea Hometown"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Garchomp",
+      "set": "B4a",
+      "number": "54"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
