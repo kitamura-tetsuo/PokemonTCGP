@@ -1,0 +1,29 @@
+{
+  "id": "6a9fe20cab080c8c957fdde8",
+  "game": "POCKET",
+  "format": null,
+  "name": "The PokeBounty Showdown $1000 Prize Pool (#1EU)",
+  "date": "2026-09-10T09:00:00.000Z",
+  "players": 119,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
