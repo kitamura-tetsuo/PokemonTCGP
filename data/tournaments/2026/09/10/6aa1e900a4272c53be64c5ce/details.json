@@ -1,0 +1,29 @@
+{
+  "id": "6aa1e900a4272c53be64c5ce",
+  "game": "POCKET",
+  "format": null,
+  "name": "THE BREAKFAST CLUB KELP CLASSIC #9 - $5",
+  "date": "2026-09-10T03:20:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
