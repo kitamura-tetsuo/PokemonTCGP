@@ -1,0 +1,29 @@
+{
+  "id": "6aa0644bab080c8c957fe59c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon $30 PRIZE POOL",
+  "date": "2026-09-11T00:45:00.000Z",
+  "players": 150,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
