@@ -1,0 +1,29 @@
+{
+  "id": "6aa22425a4272c53be64ca36",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Daily #5-$5 + FA",
+  "date": "2026-09-10T20:20:00.000Z",
+  "players": 112,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
