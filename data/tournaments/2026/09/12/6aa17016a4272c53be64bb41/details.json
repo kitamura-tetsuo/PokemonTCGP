@@ -1,0 +1,23 @@
+{
+  "id": "6aa17016a4272c53be64bb41",
+  "game": "POCKET",
+  "format": null,
+  "name": "Trinity Tournament 3 (PTCGP)",
+  "date": "2026-09-12T01:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2789,
+    "name": "Trinity Portal"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
