@@ -1,0 +1,29 @@
+{
+  "id": "6aa2b675ab080c8c95800125",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u203c\ufe0f$20 BEC'S WEEKLY CLASH \u203c\ufe0f\ufe31FA PRIZES FOR TOP 4 \u203c\ufe0f",
+  "date": "2026-09-11T13:00:00.000Z",
+  "players": 111,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
