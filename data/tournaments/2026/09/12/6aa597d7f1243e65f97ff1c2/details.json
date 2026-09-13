@@ -1,0 +1,96 @@
+{
+  "id": "6aa597d7f1243e65f97ff1c2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Tommy Boi's Use Your Brain Tourney (1ST - $155)",
+  "date": "2026-09-12T23:10:00.000Z",
+  "players": 108,
+  "organizer": {
+    "id": 2686,
+    "name": "Tommy Boi Streams"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Mega Altaria ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mega Lucario ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Professor's Research",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Miraidon ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Suicune ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Entei ex",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Pok\u00e9mon Center Lady",
+      "set": null,
+      "number": null
+    }
+  ]
+}
