@@ -1,0 +1,29 @@
+{
+  "id": "6aa6942138886b36383be9a3",
+  "game": "POCKET",
+  "format": null,
+  "name": "DR KELP\u2019S CHUM BUCKET POP UP - FA COPYCAT",
+  "date": "2026-09-13T14:00:00.000Z",
+  "players": 38,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
