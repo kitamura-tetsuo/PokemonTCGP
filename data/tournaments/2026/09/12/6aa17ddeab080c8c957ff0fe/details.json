@@ -1,0 +1,29 @@
+{
+  "id": "6aa17ddeab080c8c957ff0fe",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pocket Tournament | 20$USD Prize Pool",
+  "date": "2026-09-12T20:30:00.000Z",
+  "players": 118,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
