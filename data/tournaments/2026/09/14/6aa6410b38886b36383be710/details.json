@@ -1,0 +1,29 @@
+{
+  "id": "6aa6410b38886b36383be710",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff0FORT TOURNAMENTS POCKET DEBUT\ud83c\udff0 $20 + FA CARDS",
+  "date": "2026-09-14T10:30:00.000Z",
+  "players": 114,
+  "organizer": {
+    "id": 2811,
+    "name": "Fort Tournaments"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}
