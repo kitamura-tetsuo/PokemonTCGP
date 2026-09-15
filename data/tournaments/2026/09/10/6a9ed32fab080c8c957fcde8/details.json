@@ -1,0 +1,36 @@
+{
+  "id": "6a9ed32fab080c8c957fcde8",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83c\udde7\ud83c\uddf7 Pr\u00e9-Release \u2022 Amb. Equipe Rocket | TCG Pocket",
+  "date": "2026-09-10T00:00:00.000Z",
+  "players": 13,
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}
