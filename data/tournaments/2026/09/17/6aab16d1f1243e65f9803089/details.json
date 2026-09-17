@@ -1,0 +1,29 @@
+{
+  "id": "6aab16d1f1243e65f9803089",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Beatdown FA prizes",
+  "date": "2026-09-17T10:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
