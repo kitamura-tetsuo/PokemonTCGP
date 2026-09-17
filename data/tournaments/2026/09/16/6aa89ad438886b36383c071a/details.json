@@ -1,0 +1,29 @@
+{
+  "id": "6aa89ad438886b36383c071a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2727\uff65\u2740\ud83c\udf38Flutter Festival Debut! -15$\ud83c\udf38\u2740\uff65\u2727",
+  "date": "2026-09-16T23:30:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2785,
+    "name": "Flutter Festival"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

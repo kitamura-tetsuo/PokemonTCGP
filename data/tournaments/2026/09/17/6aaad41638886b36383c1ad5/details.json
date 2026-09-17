@@ -1,0 +1,35 @@
+{
+  "id": "6aaad41638886b36383c1ad5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 9 || FA OAK",
+  "date": "2026-09-17T03:00:00.000Z",
+  "players": 27,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
