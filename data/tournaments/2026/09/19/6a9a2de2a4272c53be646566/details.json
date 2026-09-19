@@ -1,0 +1,36 @@
+{
+  "id": "6a9a2de2a4272c53be646566",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Snail's Unova Unleashed | $60 + FA PROF PRIZE POOL",
+  "date": "2026-09-19T01:30:00.000Z",
+  "players": 81,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": null
+    }
+  ]
+}
