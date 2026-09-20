@@ -1,0 +1,46 @@
+{
+  "id": "6aa4dc4f38886b36383bd0cb",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08EBT Gang Invitational #1 $100\ud83d\ude08",
+  "date": "2026-09-20T01:00:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    }
+  ]
+}
