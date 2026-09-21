@@ -1,0 +1,29 @@
+{
+  "id": "6ab04f7fe905c1db6874671c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Xasturpice Theater \ud83c\udfad #1 | \ud83c\udfc6 Full Art Oak",
+  "date": "2026-09-21T00:45:00.000Z",
+  "players": 22,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
