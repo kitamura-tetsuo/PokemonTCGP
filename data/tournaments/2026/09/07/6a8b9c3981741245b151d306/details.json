@@ -1,0 +1,29 @@
+{
+  "id": "6a8b9c3981741245b151d306",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "NLC Gym Battle Duo",
+  "date": "2026-09-07T00:00:00.000Z",
+  "players": 18,
+  "organizer": {
+    "id": 2246,
+    "name": "XTREINO TCG BR"
+  },
+  "decklists": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}
