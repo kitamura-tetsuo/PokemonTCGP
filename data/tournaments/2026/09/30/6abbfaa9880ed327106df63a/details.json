@@ -1,0 +1,29 @@
+{
+  "id": "6abbfaa9880ed327106df63a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Block Dragon ~ ARBOK KAI TOURNAMENT $50 PRIZE POOL",
+  "date": "2026-09-30T02:15:00.000Z",
+  "players": 73,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

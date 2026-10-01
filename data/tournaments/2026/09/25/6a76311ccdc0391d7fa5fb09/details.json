@@ -1,0 +1,41 @@
+{
+  "id": "6a76311ccdc0391d7fa5fb09",
+  "game": "POCKET",
+  "format": null,
+  "name": "BRICKVERSARY\u208a\u22b9\u2040\u27b4prize: US$150, FA CARDS",
+  "date": "2026-09-25T22:05:00.000Z",
+  "players": 122,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}

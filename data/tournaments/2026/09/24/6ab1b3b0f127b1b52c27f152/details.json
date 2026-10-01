@@ -1,0 +1,29 @@
+{
+  "id": "6ab1b3b0f127b1b52c27f152",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena #7! Prizing: 2 Star Trainers \u2b50\u2b50",
+  "date": "2026-09-24T17:00:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

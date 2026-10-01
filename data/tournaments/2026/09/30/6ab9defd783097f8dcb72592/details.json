@@ -1,0 +1,29 @@
+{
+  "id": "6ab9defd783097f8dcb72592",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50Nuggie's POG Tourney #15 Deluxe Edition $20 1st\u2b50",
+  "date": "2026-09-30T09:00:00.000Z",
+  "players": 73,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

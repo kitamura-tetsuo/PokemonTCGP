@@ -1,0 +1,29 @@
+{
+  "id": "6a7630f2cdc0391d7fa5fb08",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "BRICKVERSARY\u1bd3\u2605DARKTINA (PRIZE: US$30, FA CARDS)",
+  "date": "2026-09-25T00:05:00.000Z",
+  "players": 60,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

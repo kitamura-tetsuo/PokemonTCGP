@@ -1,0 +1,23 @@
+{
+  "id": "6aba7d6a880ed327106de760",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Draft Tournament Caps' BBDAY - 1st place FA",
+  "date": "2026-09-30T17:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2305,
+    "name": "Pocket Thinker's Society"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    }
+  ]
+}

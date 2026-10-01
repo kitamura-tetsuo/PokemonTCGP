@@ -1,0 +1,906 @@
+[
+  {
+    "name": "Machala",
+    "country": "FR",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "B2b",
+          "number": "7",
+          "name": "Charmander"
+        },
+        {
+          "count": 2,
+          "set": "B1a",
+          "number": "12",
+          "name": "Charmeleon"
+        },
+        {
+          "count": 1,
+          "set": "B1a",
+          "number": "14",
+          "name": "Mega Charizard Y ex"
+        },
+        {
+          "count": 1,
+          "set": "B1a",
+          "number": "13",
+          "name": "Charizard"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "120",
+          "name": "Klefki"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "44",
+          "name": "Heatmor"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 2,
+          "set": "B3a",
+          "number": "71",
+          "name": "Juliana"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "B2a",
+          "number": "88",
+          "name": "Team Star Grunt"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "223",
+          "name": "May"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "217",
+          "name": "Flame Patch"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "147",
+          "name": "Field Blower"
+        }
+      ],
+      "energy": [
+        "Fire"
+      ]
+    },
+    "deck": {
+      "id": "mega-charizard-y-ex-charizard-b1a",
+      "name": "Mega Charizard Y ex Charizard",
+      "icons": [
+        "charizard-mega-y",
+        "charizard"
+      ]
+    },
+    "placing": null,
+    "player": "machala",
+    "record": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    "drop": 4
+  },
+  {
+    "name": "Enzanebeat",
+    "country": "US",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "81",
+          "name": "Mega Lucario ex"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "B4a",
+          "number": "63",
+          "name": "Happiny"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "124",
+          "name": "Hitmonchan ex"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 1,
+          "set": "A1a",
+          "number": "68",
+          "name": "Leaf"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "71",
+          "name": "Red"
+        },
+        {
+          "count": 1,
+          "set": "B1a",
+          "number": "69",
+          "name": "Serena"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "147",
+          "name": "Giant Cape"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "146",
+          "name": "Poison Barb"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "64",
+          "name": "Small Balloon"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "154",
+          "name": "Arena of Antiquity"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "69",
+          "name": "Kid's Room"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "mega-lucario-ex-b3-hitmonchan-ex-b1",
+      "name": "Mega Lucario ex Hitmonchan ex",
+      "icons": [
+        "lucario-mega",
+        "hitmonchan"
+      ]
+    },
+    "placing": 1,
+    "player": "enzanebeat",
+    "record": {
+      "wins": 4,
+      "losses": 1,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Luffy_0108",
+    "country": null,
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "A2",
+          "number": "91",
+          "name": "Riolu"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "81",
+          "name": "Mega Lucario ex"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "92",
+          "name": "Lucario"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "154",
+          "name": "Hitmonlee"
+        },
+        {
+          "count": 1,
+          "set": "B4",
+          "number": "90",
+          "name": "Minior"
+        },
+        {
+          "count": 1,
+          "set": "A4",
+          "number": "102",
+          "name": "Hitmontop"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "78",
+          "name": "Bonsly"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 1,
+          "set": "B1a",
+          "number": "69",
+          "name": "Serena"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "B2",
+          "number": "145",
+          "name": "Lucky Ice Pop"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "142",
+          "name": "Big Malasada"
+        },
+        {
+          "count": 1,
+          "set": "B2b",
+          "number": "66",
+          "name": "Maintenance"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "65",
+          "name": "Elegant Cape"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "148",
+          "name": "Lucky Egg"
+        },
+        {
+          "count": 1,
+          "set": "B2a",
+          "number": "93",
+          "name": "Mesagoza"
+        },
+        {
+          "count": 1,
+          "set": "B2b",
+          "number": "69",
+          "name": "Hiking Trail"
+        }
+      ],
+      "energy": [
+        "Fighting"
+      ]
+    },
+    "deck": {
+      "id": "mega-lucario-ex-b3-lucario-a2",
+      "name": "Mega Lucario ex Lucario",
+      "icons": [
+        "lucario-mega",
+        "lucario"
+      ]
+    },
+    "placing": 2,
+    "player": "luffy_0108",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "Ciros_98",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "B2b",
+          "number": "7",
+          "name": "Charmander"
+        },
+        {
+          "count": 2,
+          "set": "B2b",
+          "number": "8",
+          "name": "Charmeleon"
+        },
+        {
+          "count": 2,
+          "set": "B1a",
+          "number": "14",
+          "name": "Mega Charizard Y ex"
+        },
+        {
+          "count": 1,
+          "set": "B1a",
+          "number": "13",
+          "name": "Charizard"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "24",
+          "name": "Castform Sunny Form"
+        },
+        {
+          "count": 1,
+          "set": "A4a",
+          "number": "10",
+          "name": "Entei ex"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "70",
+          "name": "Pok\u00e9mon Center Lady"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "155",
+          "name": "Lillie"
+        },
+        {
+          "count": 1,
+          "set": "B4a",
+          "number": "67",
+          "name": "Team Rocket's Thieving Machine"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "217",
+          "name": "Flame Patch"
+        },
+        {
+          "count": 1,
+          "set": "A3a",
+          "number": "64",
+          "name": "Repel"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "144",
+          "name": "Rare Candy"
+        },
+        {
+          "count": 1,
+          "set": "B2a",
+          "number": "93",
+          "name": "Mesagoza"
+        },
+        {
+          "count": 1,
+          "set": "B4",
+          "number": "155",
+          "name": "Rainbow Cave"
+        }
+      ],
+      "energy": [
+        "Fire"
+      ]
+    },
+    "deck": {
+      "id": "mega-charizard-y-ex-charizard-b1a",
+      "name": "Mega Charizard Y ex Charizard",
+      "icons": [
+        "charizard-mega-y",
+        "charizard"
+      ]
+    },
+    "placing": 3,
+    "player": "ciros_98",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "\ud835\udde3\ud835\udddb\ud835\uddeb Captain Capslock",
+    "country": "DE",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "B4a",
+          "number": "19",
+          "name": "Team Rocket's Voltorb"
+        },
+        {
+          "count": 2,
+          "set": "B4a",
+          "number": "20",
+          "name": "Team Rocket's Electrode"
+        },
+        {
+          "count": 1,
+          "set": "B3a",
+          "number": "19",
+          "name": "Miraidon ex"
+        },
+        {
+          "count": 1,
+          "set": "B4",
+          "number": "142",
+          "name": "Furfrou"
+        },
+        {
+          "count": 1,
+          "set": "A4",
+          "number": "66",
+          "name": "Pichu"
+        },
+        {
+          "count": 1,
+          "set": "A3a",
+          "number": "21",
+          "name": "Zeraora"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A2b",
+          "number": "72",
+          "name": "Team Rocket Grunt"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "225",
+          "name": "Sabrina"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "B4a",
+          "number": "67",
+          "name": "Team Rocket's Thieving Machine"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "64",
+          "name": "Small Balloon"
+        },
+        {
+          "count": 1,
+          "set": "A3a",
+          "number": "65",
+          "name": "Electrical Cord"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "148",
+          "name": "Lucky Egg"
+        },
+        {
+          "count": 1,
+          "set": "B2a",
+          "number": "93",
+          "name": "Mesagoza"
+        }
+      ],
+      "energy": [
+        "Lightning"
+      ]
+    },
+    "deck": {
+      "id": "team-rockets-electrode-b4a-miraidon-ex-b3a",
+      "name": "Team Rocket's Electrode Miraidon ex",
+      "icons": [
+        "electrode",
+        "miraidon"
+      ]
+    },
+    "placing": 4,
+    "player": "capcaps",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": " \ud835\udc03\ud835\udc0d\ud835\udc13 | DjMarnel",
+    "country": "IT",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "33",
+          "name": "Torchic"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "34",
+          "name": "Combusken"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "36",
+          "name": "Mega Blaziken ex"
+        },
+        {
+          "count": 1,
+          "set": "B4",
+          "number": "90",
+          "name": "Minior"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "24",
+          "name": "Castform Sunny Form"
+        },
+        {
+          "count": 1,
+          "set": "B4a",
+          "number": "63",
+          "name": "Happiny"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 2,
+          "set": "B1",
+          "number": "225",
+          "name": "Copycat"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "7",
+          "name": "Professor's Research"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "223",
+          "name": "Giovanni"
+        },
+        {
+          "count": 1,
+          "set": "B4a",
+          "number": "68",
+          "name": "Team Rocket's Goo-zooka"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "146",
+          "name": "Pok\u00e9mon Communication"
+        },
+        {
+          "count": 1,
+          "set": "B2b",
+          "number": "66",
+          "name": "Maintenance"
+        },
+        {
+          "count": 1,
+          "set": "A3",
+          "number": "144",
+          "name": "Rare Candy"
+        },
+        {
+          "count": 1,
+          "set": "B2",
+          "number": "145",
+          "name": "Lucky Ice Pop"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "217",
+          "name": "Flame Patch"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "5",
+          "name": "Pok\u00e9 Ball"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "64",
+          "name": "Small Balloon"
+        },
+        {
+          "count": 1,
+          "set": "B3",
+          "number": "148",
+          "name": "Lucky Egg"
+        }
+      ],
+      "energy": [
+        "Fire"
+      ]
+    },
+    "deck": {
+      "id": "mega-blaziken-ex-b1",
+      "name": "Mega Blaziken ex",
+      "icons": [
+        "blaziken-mega"
+      ]
+    },
+    "placing": 5,
+    "player": "dj_marnel",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  },
+  {
+    "name": "I_C_U",
+    "country": "DE",
+    "decklist": {
+      "pokemon": [
+        {
+          "count": 2,
+          "set": "B2a",
+          "number": "34",
+          "name": "Frigibax"
+        },
+        {
+          "count": 2,
+          "set": "B2a",
+          "number": "35",
+          "name": "Arctibax"
+        },
+        {
+          "count": 2,
+          "set": "B2a",
+          "number": "36",
+          "name": "Baxcalibur"
+        },
+        {
+          "count": 2,
+          "set": "A4a",
+          "number": "20",
+          "name": "Suicune ex"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "87",
+          "name": "Froakie"
+        },
+        {
+          "count": 1,
+          "set": "A1",
+          "number": "88",
+          "name": "Frogadier"
+        },
+        {
+          "count": 1,
+          "set": "B1",
+          "number": "73",
+          "name": "Greninja ex"
+        },
+        {
+          "count": 1,
+          "set": "B2a",
+          "number": "37",
+          "name": "Chien-Pao ex"
+        },
+        {
+          "count": 1,
+          "set": "B4",
+          "number": "74",
+          "name": "Wynaut"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 1,
+          "set": "A2",
+          "number": "150",
+          "name": "Cyrus"
+        },
+        {
+          "count": 1,
+          "set": "B3a",
+          "number": "71",
+          "name": "Juliana"
+        },
+        {
+          "count": 2,
+          "set": "A3",
+          "number": "144",
+          "name": "Rare Candy"
+        },
+        {
+          "count": 1,
+          "set": "P-A",
+          "number": "2",
+          "name": "X Speed"
+        },
+        {
+          "count": 1,
+          "set": "A4",
+          "number": "151",
+          "name": "Elemental Switch"
+        },
+        {
+          "count": 1,
+          "set": "B3b",
+          "number": "65",
+          "name": "Elegant Cape"
+        }
+      ],
+      "energy": [
+        "Water"
+      ]
+    },
+    "deck": {
+      "id": "suicune-ex-a4a-baxcalibur-b2a",
+      "name": "Suicune ex Baxcalibur",
+      "icons": [
+        "suicune",
+        "baxcalibur"
+      ]
+    },
+    "placing": 6,
+    "player": "i_c_u",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "drop": null
+  }
+]

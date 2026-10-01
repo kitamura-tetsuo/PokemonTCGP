@@ -1,0 +1,29 @@
+{
+  "id": "6abd0683880ed327106e015b",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udd31 IMPERIUM Mega Deluxe edition \u2013 $5 + FA Cards \ud83d\udd31",
+  "date": "2026-09-30T18:00:00.000Z",
+  "players": 80,
+  "organizer": {
+    "id": 2299,
+    "name": "Bananna"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

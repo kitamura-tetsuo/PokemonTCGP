@@ -1,0 +1,29 @@
+{
+  "id": "6ab875b9783097f8dcb71b53",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon Pop Up (RR Team Rockets Slowking)",
+  "date": "2026-09-27T03:15:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
