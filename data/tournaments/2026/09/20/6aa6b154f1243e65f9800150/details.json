@@ -1,0 +1,49 @@
+{
+  "id": "6aa6b154f1243e65f9800150",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "No Ex Futae Sp\u00e9cial",
+  "date": "2026-09-20T17:00:00.000Z",
+  "players": 14,
+  "organizer": {
+    "id": 371,
+    "name": "Dodo's tournament"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
