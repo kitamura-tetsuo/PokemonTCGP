@@ -1,0 +1,41 @@
+{
+  "id": "6abeb590880ed327106e128c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud835\uddd5\ud835\udde5\ud835\udddc\ud835\uddd6\ud835\uddde\ud835\uddd6\ud835\udddc\ud835\udde7\ud835\uddec POP UP\u208a\u22b9\u2040\u27b4prize: NITRO, CARDS",
+  "date": "2026-10-02T00:05:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2593,
+    "name": "Brick City"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
