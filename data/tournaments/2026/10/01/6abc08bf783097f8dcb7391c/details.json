@@ -1,0 +1,29 @@
+{
+  "id": "6abc08bf783097f8dcb7391c",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena #8 |\ud83c\udf1f\ud83c\udf1fCombined Deluxe Pack Cards!",
+  "date": "2026-10-01T17:00:00.000Z",
+  "players": 78,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
