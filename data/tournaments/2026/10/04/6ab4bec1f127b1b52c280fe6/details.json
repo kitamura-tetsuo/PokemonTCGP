@@ -1,0 +1,23 @@
+{
+  "id": "6ab4bec1f127b1b52c280fe6",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's League Pocket #15",
+  "date": "2026-10-04T23:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}
