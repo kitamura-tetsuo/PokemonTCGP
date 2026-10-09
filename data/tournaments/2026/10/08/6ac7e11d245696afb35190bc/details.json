@@ -1,0 +1,29 @@
+{
+  "id": "6ac7e11d245696afb35190bc",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Daily #11-Mega Deluxe FA +TBD!!",
+  "date": "2026-10-08T21:30:00.000Z",
+  "players": 51,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
