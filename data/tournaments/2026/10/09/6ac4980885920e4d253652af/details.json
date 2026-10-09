@@ -1,0 +1,29 @@
+{
+  "id": "6ac4980885920e4d253652af",
+  "game": "POCKET",
+  "format": null,
+  "name": "MEGA EX Society Tournament #1",
+  "date": "2026-10-09T09:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 2793,
+    "name": "Ber OG"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
