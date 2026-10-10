@@ -1,0 +1,41 @@
+{
+  "id": "6ac7854285920e4d253669d0",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Tournament #23 A Series ( Rp 1.700.000+ )",
+  "date": "2026-10-09T12:00:00.000Z",
+  "players": 91,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "165"
+    }
+  ]
+}
