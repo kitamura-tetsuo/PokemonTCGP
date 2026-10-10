@@ -1,0 +1,34 @@
+{
+  "id": "6ac91e938a8383117e3e7c52",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Gym Leader Challenge (OAK OR CYRUS PRIZE)",
+  "date": "2026-10-09T21:30:00.000Z",
+  "players": 21,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}
