@@ -1,0 +1,116 @@
+{
+  "id": "6aca5bac115c12b73a5a09b9",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Blast From The Past (A1 Thru A3b) (Any FA)",
+  "date": "2026-10-12T02:00:00.000Z",
+  "players": 40,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "*",
+      "set": "A4",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "A4b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "P-B",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B1",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B1a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B1b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B2a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B2b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B3",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B3a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B3b",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B4",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B4a",
+      "number": null
+    },
+    {
+      "name": "*",
+      "set": "B4b",
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    }
+  ]
+}
