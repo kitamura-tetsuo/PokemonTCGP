@@ -1,0 +1,29 @@
+{
+  "id": "6ac4228f245696afb3517190",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc27 PGX TOURNAMENT #3\u3010 \ud83d\udcb0$25 USD + FA DELUXE \u2b50\u2b50\u3011",
+  "date": "2026-10-12T16:00:00.000Z",
+  "players": 188,
+  "organizer": {
+    "id": 2783,
+    "name": "OscarBK"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
