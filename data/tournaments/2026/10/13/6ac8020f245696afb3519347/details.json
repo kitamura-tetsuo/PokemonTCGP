@@ -1,0 +1,41 @@
+{
+  "id": "6ac8020f245696afb3519347",
+  "game": "POCKET",
+  "format": null,
+  "name": "Torneio Hollow S\u00d3 BRASILEIROS - FA MEGA LUCARIO DX",
+  "date": "2026-10-13T19:00:00.000Z",
+  "players": 28,
+  "organizer": {
+    "id": 2133,
+    "name": "Hora da Batalha"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    }
+  ]
+}

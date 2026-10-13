@@ -1,0 +1,46 @@
+{
+  "id": "6acde535115c12b73a5a2d57",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon ~ Perfect Order Format: $5 + FA Card",
+  "date": "2026-10-13T17:05:00.000Z",
+  "players": 103,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
