@@ -1,0 +1,41 @@
+{
+  "id": "6acf4599115c12b73a5a39af",
+  "game": "POCKET",
+  "format": null,
+  "name": "is anyone even awake pop up #1 | FA",
+  "date": "2026-10-14T10:30:00.000Z",
+  "players": 9,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    }
+  ]
+}

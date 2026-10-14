@@ -1,0 +1,29 @@
+{
+  "id": "6ac941e9115c12b73a59ff37",
+  "game": "POCKET",
+  "format": null,
+  "name": "THE BREAKFAST CLUB KELP CLASSIC #11 - DX FA CHOICE",
+  "date": "2026-10-14T00:30:00.000Z",
+  "players": 58,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
