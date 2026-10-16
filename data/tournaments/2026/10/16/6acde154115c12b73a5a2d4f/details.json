@@ -1,0 +1,29 @@
+{
+  "id": "6acde154115c12b73a5a2d4f",
+  "game": "POCKET",
+  "format": null,
+  "name": "DELUXE PRIZES\ufe31 $20 BEC'S WEEKLY \u2b50\ufe0f",
+  "date": "2026-10-16T13:15:00.000Z",
+  "players": 103,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
