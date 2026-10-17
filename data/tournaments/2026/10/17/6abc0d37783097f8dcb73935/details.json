@@ -1,0 +1,86 @@
+{
+  "id": "6abc0d37783097f8dcb73935",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Godzly Spooktacular Tournament",
+  "date": "2026-10-17T13:00:00.000Z",
+  "players": 179,
+  "organizer": {
+    "id": 2072,
+    "name": "Godzly"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 2,
+      "mode": "BO3"
+    },
+    {
+      "phase": 4,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B4b",
+      "number": "328"
+    },
+    {
+      "name": "Darkrai",
+      "set": "P-B",
+      "number": "95"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B4b",
+      "number": "144"
+    },
+    {
+      "name": "Comfey",
+      "set": "A3",
+      "number": "80"
+    },
+    {
+      "name": "Comfey",
+      "set": "A3",
+      "number": "168"
+    },
+    {
+      "name": "Clear Veil",
+      "set": "B4",
+      "number": "149"
+    },
+    {
+      "name": "Steel Apron",
+      "set": "A4",
+      "number": "153"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
