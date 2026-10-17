@@ -1,0 +1,46 @@
+{
+  "id": "6ac976268a8383117e3e824e",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Ranch Cup #1 (NO EX) - FA FULL ART PROF RESEARCH",
+  "date": "2026-10-16T19:00:00.000Z",
+  "players": 46,
+  "organizer": {
+    "id": 40,
+    "name": "Tropical Hour Events"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B4b",
+      "number": "198"
+    }
+  ]
+}
