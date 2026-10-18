@@ -1,0 +1,29 @@
+{
+  "id": "6ace7afb115c12b73a5a32ca",
+  "game": "POCKET",
+  "format": null,
+  "name": "Tournoi \ud835\udc7f\ud835\udc7b\ud835\udc79\ud835\udc6c\ud835\udc74 N\u00b02 (5$+Copycat + Pepper} \ud83c\udf1f\ud83c\udf1f)",
+  "date": "2026-10-17T18:10:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2188,
+    "name": "Legendixo"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
