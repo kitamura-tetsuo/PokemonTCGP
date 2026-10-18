@@ -1,0 +1,29 @@
+{
+  "id": "6ad0dae2115c12b73a5a4796",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50Nuggie's POG Deluxe Tourney #17! $20 1st FA OAK \u2b50",
+  "date": "2026-10-18T09:00:00.000Z",
+  "players": 83,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
