@@ -1,0 +1,109 @@
+{
+  "id": "6ad3bfe28a8383117e3ee220",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Crew No EX (FA Choice Prize)",
+  "date": "2026-10-19T02:00:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Magneton",
+      "set": "A1",
+      "number": "98"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Hisuian Goodra",
+      "set": "B3b",
+      "number": "50"
+    },
+    {
+      "name": "Greninja",
+      "set": "A1",
+      "number": "89"
+    },
+    {
+      "name": "Beautifly",
+      "set": "B4",
+      "number": "3"
+    },
+    {
+      "name": "Garchomp",
+      "set": "B4a",
+      "number": "54"
+    },
+    {
+      "name": "Magcargo",
+      "set": "A4",
+      "number": "31"
+    },
+    {
+      "name": "Ursaluna",
+      "set": "B3b",
+      "number": "58"
+    },
+    {
+      "name": "Butterfree",
+      "set": "B3b",
+      "number": "3"
+    },
+    {
+      "name": "Luxray",
+      "set": "B4",
+      "number": "53"
+    },
+    {
+      "name": "Growlithe",
+      "set": "B3b",
+      "number": "10"
+    },
+    {
+      "name": "Puppy-Loving Girl",
+      "set": "B3b",
+      "number": "67"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
