@@ -1,0 +1,29 @@
+{
+  "id": "6ad63a18115c12b73a5a7a01",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Tournament |CASH AND CARD PRIZES",
+  "date": "2026-10-19T19:00:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
