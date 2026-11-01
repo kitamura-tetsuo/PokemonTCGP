@@ -1,0 +1,37 @@
+{
+  "id": "6acbf044115c12b73a5a192a",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc7bGHOSTS N STUFF\ud83c\udf83 Halloween Party| $50 + FA Prof",
+  "date": "2026-11-01T04:00:00.000Z",
+  "players": 167,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    }
+  ]
+}
