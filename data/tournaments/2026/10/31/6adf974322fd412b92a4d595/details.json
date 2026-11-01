@@ -1,0 +1,31 @@
+{
+  "id": "6adf974322fd412b92a4d595",
+  "game": "POCKET",
+  "format": null,
+  "name": "PMPT #49 - DUAL FUSION!!! | $250 USD",
+  "date": "2026-10-31T16:00:00.000Z",
+  "players": 547,
+  "organizer": {
+    "id": 13,
+    "name": "PocketMads",
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/zlbz0tem9v0x4kf1"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
