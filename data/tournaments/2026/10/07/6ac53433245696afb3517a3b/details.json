@@ -1,0 +1,57 @@
+{
+  "id": "6ac53433245696afb3517a3b",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "No mega digimonstre 2",
+  "date": "2026-10-07T17:00:00.000Z",
+  "players": 15,
+  "organizer": {
+    "id": 371,
+    "name": "Dodo's tournament"
+  },
+  "decklists": false,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO5"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Oricorio",
+      "set": "A3",
+      "number": "66"
+    },
+    {
+      "name": "Lucky ice pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Suicune ex",
+      "set": "A4a",
+      "number": "20"
+    }
+  ]
+}

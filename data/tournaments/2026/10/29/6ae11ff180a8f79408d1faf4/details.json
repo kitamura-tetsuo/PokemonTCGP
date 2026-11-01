@@ -1,0 +1,30 @@
+{
+  "id": "6ae11ff180a8f79408d1faf4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udf1f NEW SET CELEBRATION!!\ufe31 $20 BEC'S WEEKLY",
+  "date": "2026-10-29T18:05:00.000Z",
+  "players": 163,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

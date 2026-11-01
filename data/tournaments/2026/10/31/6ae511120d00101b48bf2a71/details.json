@@ -1,0 +1,30 @@
+{
+  "id": "6ae511120d00101b48bf2a71",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Halloween Celebration-$10",
+  "date": "2026-10-31T01:05:00.000Z",
+  "players": 89,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

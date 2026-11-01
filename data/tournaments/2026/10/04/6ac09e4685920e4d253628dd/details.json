@@ -1,0 +1,24 @@
+{
+  "id": "6ac09e4685920e4d253628dd",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udde7\ud83c\uddf7 Big Team Galar & Hit Legends | TCG Pocket",
+  "date": "2026-10-04T22:30:00.000Z",
+  "players": 11,
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "decklists": false,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "ROUND_ROBIN",
+      "rounds": 11,
+      "mode": "BO3"
+    }
+  ]
+}

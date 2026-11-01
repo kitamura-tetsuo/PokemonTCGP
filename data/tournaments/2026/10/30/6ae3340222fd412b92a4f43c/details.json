@@ -1,0 +1,30 @@
+{
+  "id": "6ae3340222fd412b92a4f43c",
+  "game": "POCKET",
+  "format": null,
+  "name": "THE BREAKFAST CLUB KELP CLASSIC #12 - C1 FAs",
+  "date": "2026-10-30T14:00:00.000Z",
+  "players": 110,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

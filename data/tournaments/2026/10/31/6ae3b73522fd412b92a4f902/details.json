@@ -1,0 +1,24 @@
+{
+  "id": "6ae3b73522fd412b92a4f902",
+  "game": "POCKET",
+  "format": null,
+  "name": "OTS Pokemon TCG Pocket Arena Double-Deck Test #2",
+  "date": "2026-10-31T14:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}

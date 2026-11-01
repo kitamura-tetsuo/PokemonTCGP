@@ -1,0 +1,30 @@
+{
+  "id": "6acfaa61115c12b73a5a3dd9",
+  "game": "POCKET",
+  "format": null,
+  "name": "MEGA EX Society Tournament #3",
+  "date": "2026-10-22T12:10:00.000Z",
+  "players": 57,
+  "organizer": {
+    "id": 2793,
+    "name": "Ber OG"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6adcd7aa97e21d82e5c6e46f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Tournament #25 ( Rp 1.000.000 )",
+  "date": "2026-10-30T12:00:00.000Z",
+  "players": 100,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+[
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 1,
+    "winner": "dragonkni8",
+    "games": {
+      "1": {
+        "winner": "dragonkni8"
+      },
+      "2": {
+        "winner": "dragonkni8"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "codjxkci",
+    "player2": "dragonkni8"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 2,
+    "winner": "avelino_off",
+    "games": {},
+    "player1": "super_peace",
+    "player2": "avelino_off",
+    "bans": {}
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 3,
+    "winner": "kyorakust",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "1",
+        "winner": "surdao123"
+      },
+      "2": {
+        "p1deck": "3",
+        "p2deck": "2",
+        "winner": "kyorakust"
+      },
+      "3": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "kyorakust"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "kyorakust",
+    "player2": "surdao123"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 1,
+    "winner": "kyorakust",
+    "games": {
+      "1": {
+        "p2deck": "2",
+        "p1deck": "2",
+        "winner": "kyorakust"
+      },
+      "2": {
+        "p2deck": "3",
+        "p1deck": "2",
+        "winner": "kyorakust"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "dragonkni8",
+    "player2": "kyorakust"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 2,
+    "winner": "surdao123",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "surdao123"
+      },
+      "2": {
+        "p1deck": "2",
+        "p2deck": "1",
+        "winner": "avelino_off"
+      },
+      "3": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "surdao123"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "avelino_off",
+    "player2": "surdao123"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 1,
+    "winner": "kyorakust",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "2",
+        "winner": "avelino_off"
+      },
+      "2": {
+        "p1deck": "3",
+        "p2deck": "3",
+        "winner": "kyorakust"
+      },
+      "3": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "kyorakust"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "kyorakust",
+    "player2": "avelino_off"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 2,
+    "winner": "dragonkni8",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "3",
+        "winner": "dragonkni8"
+      },
+      "2": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "surdao123"
+      },
+      "3": {
+        "p2deck": "3",
+        "p1deck": "3",
+        "winner": "dragonkni8"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "surdao123",
+    "player2": "dragonkni8"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "id": "6ad9144e115c12b73a5a9311",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud835\udc7f\ud835\udc7b\ud835\udc79\ud835\udc6c\ud835\udc74 n\u00b03 Community Choice 5$+Copycat \ud83c\udf1f\ud83c\udf1f+FA",
+  "date": "2026-10-23T16:10:00.000Z",
+  "players": 45,
+  "organizer": {
+    "id": 2188,
+    "name": "Legendixo"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": null
+    },
+    {
+      "name": "Cyrus",
+      "set": "A2",
+      "number": null
+    },
+    {
+      "name": "Rare Candy",
+      "set": "A3",
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": null
+    },
+    {
+      "name": "Copycat",
+      "set": "B1",
+      "number": null
+    }
+  ]
+}

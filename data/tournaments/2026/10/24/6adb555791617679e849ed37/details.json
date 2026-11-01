@@ -1,0 +1,30 @@
+{
+  "id": "6adb555791617679e849ed37",
+  "game": "POCKET",
+  "format": null,
+  "name": "10USD + FA | \u5deb\u7345\u5c0d\u6230\u5854\u76c3 LeoWizard BattleTower Cup #16",
+  "date": "2026-10-24T13:00:00.000Z",
+  "players": 95,
+  "organizer": {
+    "id": 2546,
+    "name": "Leowizard League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

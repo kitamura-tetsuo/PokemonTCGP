@@ -1,0 +1,30 @@
+{
+  "id": "6ae3a03b22fd412b92a4f83e",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League Evening pop up UPDATE YOUR GAME!!!",
+  "date": "2026-10-30T00:15:00.000Z",
+  "players": 55,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "6a953247abb948223750467f",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #7 - Arcade Mode (FA Oak)",
+  "date": "2026-10-21T18:00:00.000Z",
+  "players": 25,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Area Zero",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Arena of Antiquity",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Bounded Field",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Fragrant Forest",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hiking Trail",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Kid's Room",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Mesagoza",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Peculiar Plaza",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Rainbow Cave",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Soothing Shore",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Starting Plains",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Training Area",
+      "set": null,
+      "number": null
+    }
+  ]
+}

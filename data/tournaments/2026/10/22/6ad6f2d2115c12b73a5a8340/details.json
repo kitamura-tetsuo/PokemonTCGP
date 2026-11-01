@@ -1,0 +1,52 @@
+{
+  "id": "6ad6f2d2115c12b73a5a8340",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Crew Tiny Titans (100 HP or Less Basics)",
+  "date": "2026-10-22T02:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Growlithe",
+      "set": "B3b",
+      "number": "10"
+    },
+    {
+      "name": "Puppy-Loving Girl",
+      "set": "B3b",
+      "number": "67"
+    },
+    {
+      "name": "Lillipup",
+      "set": "B3",
+      "number": "137"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}

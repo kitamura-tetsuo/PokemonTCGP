@@ -1,0 +1,36 @@
+{
+  "id": "6ad79bc7115c12b73a5a85d7",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 10 || 2 FA OAKS - WINNER TAKES ALL!!",
+  "date": "2026-10-21T03:00:00.000Z",
+  "players": 33,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 3,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

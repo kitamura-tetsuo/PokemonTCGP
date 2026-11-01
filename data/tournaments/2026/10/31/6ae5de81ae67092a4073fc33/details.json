@@ -1,0 +1,30 @@
+{
+  "id": "6ae5de81ae67092a4073fc33",
+  "game": "POCKET",
+  "format": null,
+  "name": "TDL Hallows Special",
+  "date": "2026-10-31T18:30:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

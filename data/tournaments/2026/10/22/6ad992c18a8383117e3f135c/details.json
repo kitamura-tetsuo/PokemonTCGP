@@ -1,0 +1,30 @@
+{
+  "id": "6ad992c18a8383117e3f135c",
+  "game": "POCKET",
+  "format": null,
+  "name": "DR KELP\u2019S CHUM BUCKET POP UP",
+  "date": "2026-10-22T14:55:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

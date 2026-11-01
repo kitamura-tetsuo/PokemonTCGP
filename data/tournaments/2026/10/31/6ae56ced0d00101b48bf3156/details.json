@@ -1,0 +1,24 @@
+{
+  "id": "6ae56ced0d00101b48bf3156",
+  "game": "POCKET",
+  "format": null,
+  "name": "TESTING",
+  "date": "2026-10-31T04:00:00.000Z",
+  "players": 4,
+  "organizer": {
+    "id": 2546,
+    "name": "Leowizard League"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "DOUBLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

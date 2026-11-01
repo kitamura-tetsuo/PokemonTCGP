@@ -1,0 +1,30 @@
+{
+  "id": "6ad3ab65115c12b73a5a64e1",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Tournament #24 B Series Only ( Rp 1.000.000 )",
+  "date": "2026-10-23T12:00:00.000Z",
+  "players": 92,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 6,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6aded0c691617679e84a1153",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Tournament 10$ to the Winner",
+  "date": "2026-10-26T18:30:00.000Z",
+  "players": 78,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "fall88",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "fall88"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "fall88"
+      },
+      "3": {
+        "p1deck": "1",
+        "p2deck": "1"
+      }
+    },
+    "bans": {
+      "p2": [
+        "1"
+      ]
+    },
+    "match": "W1-1",
+    "player1": "fall88",
+    "player2": "quackquack"
+  },
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "hi1214",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "hi1214"
+      },
+      "2": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "hi1214"
+      },
+      "3": {
+        "p1deck": "2",
+        "p2deck": "1"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "match": "W2-1",
+    "player1": "fall88",
+    "player2": "hi1214"
+  },
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "fall88",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "fall88"
+      },
+      "2": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "fall88"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ]
+    },
+    "match": "L2-1",
+    "player1": "fall88",
+    "player2": "leowyses"
+  },
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "hi1214",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "hi1214"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "hi1214"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "match": "W1-2",
+    "player1": "hi1214",
+    "player2": "leowyses"
+  },
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "fall88",
+    "games": {
+      "1": {
+        "p2deck": "2",
+        "p1deck": "1",
+        "winner": "fall88"
+      },
+      "2": {
+        "p2deck": "2",
+        "p1deck": "2",
+        "winner": "fall88"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ]
+    },
+    "match": "F",
+    "player1": "hi1214",
+    "player2": "fall88"
+  },
+  {
+    "phase": 1,
+    "round": 1,
+    "winner": "leowyses",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "leowyses"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "leowyses"
+      }
+    },
+    "bans": {
+      "p2": [
+        "1"
+      ]
+    },
+    "match": "L1-1",
+    "player1": "leowyses",
+    "player2": "quackquack"
+  }
+]

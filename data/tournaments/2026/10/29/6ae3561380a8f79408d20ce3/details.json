@@ -1,0 +1,30 @@
+{
+  "id": "6ae3561380a8f79408d20ce3",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Dark League| C SERIES LEGAL (UPDATE GAME)",
+  "date": "2026-10-29T16:15:00.000Z",
+  "players": 39,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
