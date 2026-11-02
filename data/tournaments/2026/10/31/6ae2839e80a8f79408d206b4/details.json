@@ -1,0 +1,30 @@
+{
+  "id": "6ae2839e80a8f79408d206b4",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC X TDL After Mads Halloween Celebration!-$20",
+  "date": "2026-10-31T22:00:00.000Z",
+  "players": 153,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
