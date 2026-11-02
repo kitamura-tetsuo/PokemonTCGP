@@ -1,0 +1,37 @@
+{
+  "id": "6ad8ed558a8383117e3f0baa",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Season 11 Invitational (FA Prizes)",
+  "date": "2026-11-02T03:00:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ]
+}

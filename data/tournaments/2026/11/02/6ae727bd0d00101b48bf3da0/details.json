@@ -1,0 +1,30 @@
+{
+  "id": "6ae727bd0d00101b48bf3da0",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udff0FORT TOURNAMENTS DOUBLE DECKS\ud83c\udff0 $20 + FA CARDS",
+  "date": "2026-11-02T08:30:00.000Z",
+  "players": 104,
+  "organizer": {
+    "id": 2811,
+    "name": "Fort Tournaments"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO2"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 5,
+      "mode": "BO3"
+    }
+  ]
+}

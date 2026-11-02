@@ -1324,7 +1324,7 @@
     "set": "A1",
     "number": "166",
     "type": "Pokemon",
-    "image": "cPK_10_001660_00_NIDORAN_FEMALE_C.webp",
+    "image": "cPK_10_001660_00_NIDORAN♀_C.webp",
     "name_ja": "ニドラン♀"
   },
   "A1_167": {
@@ -1348,7 +1348,7 @@
     "set": "A1",
     "number": "169",
     "type": "Pokemon",
-    "image": "cPK_10_001690_00_NIDORAN_MALE_C.webp",
+    "image": "cPK_10_001690_00_NIDORAN♂_C.webp",
     "name_ja": "ニドラン♂"
   },
   "A1_170": {
@@ -3736,12 +3736,12 @@
     "name_ja": "グレイシアex"
   },
   "A2a_23": {
-    "name": "Palkia",
+    "name": "Origin Forme Palkia",
     "set": "A2a",
     "number": "23",
     "type": "Pokemon",
     "image": "cPK_10_004470_00_ORIGINPALKIA_R.webp",
-    "name_ja": "パルキア"
+    "name_ja": "Origin Forme Palkia"
   },
   "A2a_24": {
     "name": "Phione",
@@ -4032,12 +4032,12 @@
     "name_ja": "ドータクン"
   },
   "A2a_60": {
-    "name": "Dialga",
+    "name": "Origin Forme Dialga",
     "set": "A2a",
     "number": "60",
     "type": "Pokemon",
     "image": "cPK_10_004840_00_ORIGINDIALGA_R.webp",
-    "name_ja": "ディアルガ"
+    "name_ja": "Origin Forme Dialga"
   },
   "A2a_61": {
     "name": "Giratina",
@@ -8804,7 +8804,7 @@
     "set": "A4",
     "number": "223",
     "type": "Pokemon",
-    "image": "cPK_20_001660_00_NIDORAN_FEMALE_S.webp",
+    "image": "cPK_20_001660_00_NIDORAN%E2%99%80_S.webp",
     "name_ja": "ニドラン♀"
   },
   "A4_224": {
@@ -8828,7 +8828,7 @@
     "set": "A4",
     "number": "226",
     "type": "Pokemon",
-    "image": "cPK_20_001690_00_NIDORAN_MALE_S.webp",
+    "image": "cPK_20_001690_00_NIDORAN%E2%99%82_S.webp",
     "name_ja": "ニドラン♂"
   },
   "A4_227": {
@@ -14547,7 +14547,7 @@
     "name": "Big Air Balloon",
     "set": "B2a",
     "number": "87",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001180_00_BIGAIRBALLOON_U.webp",
     "name_ja": "Big Air Balloon"
   },
@@ -14555,7 +14555,7 @@
     "name": "Team Star Grunt",
     "set": "B2a",
     "number": "88",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001190_00_TEAMSTARGRUNT_U.webp",
     "name_ja": "Team Star Grunt"
   },
@@ -14563,7 +14563,7 @@
     "name": "Iono",
     "set": "B2a",
     "number": "89",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_000420_02_NANJYAMO_U.webp",
     "name_ja": "ナンジャモ"
   },
@@ -14571,7 +14571,7 @@
     "name": "Nemona",
     "set": "B2a",
     "number": "90",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001200_00_NEMO_U.webp",
     "name_ja": "ネモ"
   },
@@ -14579,7 +14579,7 @@
     "name": "Arven",
     "set": "B2a",
     "number": "91",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001210_00_PEPER_U.webp",
     "name_ja": "ペパー"
   },
@@ -14587,7 +14587,7 @@
     "name": "Penny",
     "set": "B2a",
     "number": "92",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_000700_01_BOTAN_U.webp",
     "name_ja": "ボタン"
   },
@@ -14595,7 +14595,7 @@
     "name": "Mesagoza",
     "set": "B2a",
     "number": "93",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001220_00_TABLECITY_U.webp",
     "name_ja": "Mesagoza"
   },
@@ -15179,7 +15179,7 @@
     "name": "Iris",
     "set": "B2b",
     "number": "67",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001250_00_IRIS_U.webp",
     "name_ja": "Iris"
   },
@@ -15187,7 +15187,7 @@
     "name": "Calem",
     "set": "B2b",
     "number": "68",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001260_00_CALME_U.webp",
     "name_ja": "Calem"
   },
@@ -15195,7 +15195,7 @@
     "name": "Hiking Trail",
     "set": "B2b",
     "number": "69",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001270_00_HAIKINGUCOURSE_U.webp",
     "name_ja": "Hiking Trail"
   },
@@ -15211,7 +15211,7 @@
     "name": "Metal Core Barrier",
     "set": "B2b",
     "number": "117",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_20_001090_00_METARUKOABARIA_UR.webp",
     "name_ja": "メタルコアバリア"
   },
@@ -16395,7 +16395,7 @@
     "name": "Lucky Egg",
     "set": "B3",
     "number": "148",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001290_00_HAPPINESSEGG_U.webp",
     "name_ja": "Lucky Egg"
   },
@@ -16403,7 +16403,7 @@
     "name": "Korrina",
     "set": "B3",
     "number": "149",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001300_00_CORNI_U.webp",
     "name_ja": "Korrina"
   },
@@ -16411,7 +16411,7 @@
     "name": "Cabbie",
     "set": "B3",
     "number": "150",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001310_00_TAXIDRIVER_U.webp",
     "name_ja": "Cabbie"
   },
@@ -16419,7 +16419,7 @@
     "name": "Cheren",
     "set": "B3",
     "number": "151",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001320_00_CHEREN_U.webp",
     "name_ja": "Cheren"
   },
@@ -16427,7 +16427,7 @@
     "name": "Parasol Lady",
     "set": "B3",
     "number": "152",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001330_00_PARASOLGIRL_U.webp",
     "name_ja": "Parasol Lady"
   },
@@ -16435,7 +16435,7 @@
     "name": "Fragrant Forest",
     "set": "B3",
     "number": "153",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001340_00_AMAKUKAORUMORI_U.webp",
     "name_ja": "Fragrant Forest"
   },
@@ -16443,7 +16443,7 @@
     "name": "Arena of Antiquity",
     "set": "B3",
     "number": "154",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001350_00_INISHIENOTOUGIJYOU_U.webp",
     "name_ja": "Arena of Antiquity"
   },
@@ -16451,7 +16451,7 @@
     "name": "Bounded Field",
     "set": "B3",
     "number": "155",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001360_00_KEKKAINOFIELD_U.webp",
     "name_ja": "Bounded Field"
   },
@@ -17187,7 +17187,7 @@
     "name": "Ancient Booster Energy Capsule",
     "set": "B3a",
     "number": "69",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001370_00_BUSUTOENAJIKODAI_U.webp",
     "name_ja": "Ancient Booster Energy Capsule"
   },
@@ -17195,7 +17195,7 @@
     "name": "Future Booster Energy Capsule",
     "set": "B3a",
     "number": "70",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001380_00_BUSUTOENAJIMIRAI_U.webp",
     "name_ja": "Future Booster Energy Capsule"
   },
@@ -17203,7 +17203,7 @@
     "name": "Juliana",
     "set": "B3a",
     "number": "71",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001390_00_AOI_U.webp",
     "name_ja": "Juliana"
   },
@@ -17211,7 +17211,7 @@
     "name": "Professor Sada",
     "set": "B3a",
     "number": "72",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001400_00_OLIMHAKASE_U.webp",
     "name_ja": "Professor Sada"
   },
@@ -17219,7 +17219,7 @@
     "name": "Professor Turo",
     "set": "B3a",
     "number": "73",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001410_00_FUTUHAKASE_U.webp",
     "name_ja": "Professor Turo"
   },
@@ -17227,7 +17227,7 @@
     "name": "Area Zero",
     "set": "B3a",
     "number": "74",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001420_00_ERIAZERO_U.webp",
     "name_ja": "Area Zero"
   },
@@ -17835,7 +17835,7 @@
     "name": "Small Balloon",
     "set": "B3b",
     "number": "64",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001430_00_CHIISANAFUUSEN_U.webp",
     "name_ja": "Small Balloon"
   },
@@ -17843,7 +17843,7 @@
     "name": "Elegant Cape",
     "set": "B3b",
     "number": "65",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001440_00_YUUGANAMANTO_U.webp",
     "name_ja": "Elegant Cape"
   },
@@ -17851,7 +17851,7 @@
     "name": "Elesa",
     "set": "B3b",
     "number": "66",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001450_00_KAMITSURE_U.webp",
     "name_ja": "Elesa"
   },
@@ -17859,7 +17859,7 @@
     "name": "Puppy-Loving Girl",
     "set": "B3b",
     "number": "67",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001460_00_KOINUDAISUKIGARL_U.webp",
     "name_ja": "Puppy-Loving Girl"
   },
@@ -17867,7 +17867,7 @@
     "name": "Wallace",
     "set": "B3b",
     "number": "68",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001470_00_MIKURI_U.webp",
     "name_ja": "Wallace"
   },
@@ -17875,7 +17875,7 @@
     "name": "Kid’s Room",
     "set": "B3b",
     "number": "69",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001480_00_KODOMOBEYA_U.webp",
     "name_ja": "Kid’s Room"
   },
@@ -18096,12 +18096,12 @@
     "name_ja": "ヤバソチャ"
   },
   "B4_19": {
-    "name": "Teal MaskOgerpon",
+    "name": "Teal Mask Ogerpon",
     "set": "B4",
     "number": "19",
     "type": "Pokemon",
     "image": "cPK_10_019800_00_OGERPONMIDORINOMEN_R.webp",
-    "name_ja": "Teal MaskOgerpon"
+    "name_ja": "Teal Mask Ogerpon"
   },
   "B4_20": {
     "name": "Ponyta",
@@ -18704,28 +18704,28 @@
     "name_ja": "グラエナ"
   },
   "B4_95": {
-    "name": "GalarianZigzagoon",
+    "name": "Galarian Zigzagoon",
     "set": "B4",
     "number": "95",
     "type": "Pokemon",
     "image": "cPK_10_020560_00_GALARJIGUZAGUMA_C.webp",
-    "name_ja": "GalarianZigzagoon"
+    "name_ja": "ジグザグマ（ガラルのすがた）"
   },
   "B4_96": {
-    "name": "GalarianLinoone",
+    "name": "Galarian Linoone",
     "set": "B4",
     "number": "96",
     "type": "Pokemon",
     "image": "cPK_10_020570_00_GALARMASSUGUMA_U.webp",
-    "name_ja": "GalarianLinoone"
+    "name_ja": "マッスグマ（ガラルのすがた）"
   },
   "B4_97": {
-    "name": "GalarianObstagoon",
+    "name": "Galarian Obstagoon",
     "set": "B4",
     "number": "97",
     "type": "Pokemon",
     "image": "cPK_10_020580_00_GALARTACHIFUSAGUMA_R.webp",
-    "name_ja": "GalarianObstagoon"
+    "name_ja": "タチフサグマ（ガラルのすがた）"
   },
   "B4_98": {
     "name": "Gulpin",
@@ -19131,7 +19131,7 @@
     "name": "Deceptive Needle",
     "set": "B4",
     "number": "148",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001520_00_INCHIKIBARI_U.webp",
     "name_ja": "Deceptive Needle"
   },
@@ -19139,7 +19139,7 @@
     "name": "Clear Veil",
     "set": "B4",
     "number": "149",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001530_00_KURIAVEIL_U.webp",
     "name_ja": "Clear Veil"
   },
@@ -19147,7 +19147,7 @@
     "name": "Psychic",
     "set": "B4",
     "number": "150",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001540_00_SAIKIKKA_U.webp",
     "name_ja": "Psychic"
   },
@@ -19155,7 +19155,7 @@
     "name": "Drayden",
     "set": "B4",
     "number": "151",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001550_00_SYAGA_U.webp",
     "name_ja": "Drayden"
   },
@@ -19163,7 +19163,7 @@
     "name": "Skyla",
     "set": "B4",
     "number": "152",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001560_00_HUURO_U.webp",
     "name_ja": "Skyla"
   },
@@ -19171,7 +19171,7 @@
     "name": "Wally",
     "set": "B4",
     "number": "153",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001570_00_MITSURU_U.webp",
     "name_ja": "Wally"
   },
@@ -19179,7 +19179,7 @@
     "name": "Soothing Shore",
     "set": "B4",
     "number": "154",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001580_00_IYASHINOUMIBE_U.webp",
     "name_ja": "Soothing Shore"
   },
@@ -19187,17 +19187,17 @@
     "name": "Rainbow Cave",
     "set": "B4",
     "number": "155",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001590_00_NIJIIRONODOUKUTSU_U.webp",
     "name_ja": "Rainbow Cave"
   },
   "B4_204": {
-    "name": "AlolanVulpix",
+    "name": "Alolan Vulpix",
     "set": "B4",
     "number": "204",
     "type": "Pokemon",
     "image": "cPK_20_013940_00_ALOLAROKON_S.webp",
-    "name_ja": "AlolanVulpix"
+    "name_ja": "ロコン（アローラのすがた）"
   },
   "B4_205": {
     "name": "Mudkip",
@@ -19288,20 +19288,20 @@
     "name_ja": "マタドガス"
   },
   "B4_218": {
-    "name": "GalarianMeowth",
+    "name": "Galarian Meowth",
     "set": "B4",
     "number": "218",
     "type": "Pokemon",
     "image": "cPK_20_014760_00_GALARNYARTH_S.webp",
-    "name_ja": "GalarianMeowth"
+    "name_ja": "ニャース（ガラルのすがた）"
   },
   "B4_219": {
-    "name": "GalarianPerrserker",
+    "name": "Galarian Perrserker",
     "set": "B4",
     "number": "219",
     "type": "Pokemon",
     "image": "cPK_20_014770_01_GALARNYAIKING_S.webp",
-    "name_ja": "GalarianPerrserker"
+    "name_ja": "ニャイキング（ガラルのすがた）"
   },
   "B4_222": {
     "name": "Smeargle",
@@ -19328,12 +19328,12 @@
     "name_ja": "ズガドーンex"
   },
   "B4_225": {
-    "name": "AlolanNinetales ex",
+    "name": "Alolan Ninetales ex",
     "set": "B4",
     "number": "225",
     "type": "Pokemon",
     "image": "cPK_20_013950_02_ALOLAKYUKONex_SSR.webp",
-    "name_ja": "AlolanNinetales ex"
+    "name_ja": "キュウコンex（アローラのすがた）"
   },
   "B4_226": {
     "name": "Mega Swampert ex",
@@ -19931,7 +19931,7 @@
     "name": "Team Rocket’s Researcher",
     "set": "B4a",
     "number": "69",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001620_00_ROCKETDANNOKENKYUUIN_U.webp",
     "name_ja": "Team Rocket’s Researcher"
   },
@@ -19939,7 +19939,7 @@
     "name": "Team Rocket’s Master Plan",
     "set": "B4a",
     "number": "70",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001630_00_ROCKETDANNODAISAKUSEN_U.webp",
     "name_ja": "Team Rocket’s Master Plan"
   },
@@ -19947,7 +19947,7 @@
     "name": "Team Rocket’s Boss",
     "set": "B4a",
     "number": "71",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001640_00_ROCKETDANNOBOSS_U.webp",
     "name_ja": "Team Rocket’s Boss"
   },
@@ -19955,7 +19955,7 @@
     "name": "Arcade",
     "set": "B4a",
     "number": "72",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001650_00_GAMECENTER_U.webp",
     "name_ja": "Arcade"
   },
@@ -21691,7 +21691,7 @@
     "name": "Deceptive Needle",
     "set": "B4b",
     "number": "204",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001520_00_INCHIKIBARI_U.webp",
     "name_ja": "Deceptive Needle"
   },
@@ -21699,7 +21699,7 @@
     "name": "Lucky Egg",
     "set": "B4b",
     "number": "205",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001290_00_HAPPINESSEGG_U.webp",
     "name_ja": "Lucky Egg"
   },
@@ -21707,7 +21707,7 @@
     "name": "Small Balloon",
     "set": "B4b",
     "number": "206",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001430_00_CHIISANAFUUSEN_U.webp",
     "name_ja": "Small Balloon"
   },
@@ -21715,7 +21715,7 @@
     "name": "Ancient Booster Energy Capsule",
     "set": "B4b",
     "number": "207",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001370_00_BUSUTOENAJIKODAI_U.webp",
     "name_ja": "Ancient Booster Energy Capsule"
   },
@@ -21723,7 +21723,7 @@
     "name": "Future Booster Energy Capsule",
     "set": "B4b",
     "number": "208",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001380_00_BUSUTOENAJIMIRAI_U.webp",
     "name_ja": "Future Booster Energy Capsule"
   },
@@ -21731,7 +21731,7 @@
     "name": "Protective Poncho",
     "set": "B4b",
     "number": "209",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001080_00_MAMORINOPONCHO_U.webp",
     "name_ja": "まもりのポンチョ"
   },
@@ -21739,7 +21739,7 @@
     "name": "Metal Core Barrier",
     "set": "B4b",
     "number": "210",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001090_00_METARUKOABARIA_U.webp",
     "name_ja": "メタルコアバリア"
   },
@@ -21747,7 +21747,7 @@
     "name": "Elegant Cape",
     "set": "B4b",
     "number": "211",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001440_00_YUUGANAMANTO_U.webp",
     "name_ja": "Elegant Cape"
   },
@@ -21755,7 +21755,7 @@
     "name": "Iris",
     "set": "B4b",
     "number": "212",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001250_00_IRIS_U.webp",
     "name_ja": "Iris"
   },
@@ -21763,7 +21763,7 @@
     "name": "Juliana",
     "set": "B4b",
     "number": "213",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001390_00_AOI_U.webp",
     "name_ja": "Juliana"
   },
@@ -21771,7 +21771,7 @@
     "name": "Diantha",
     "set": "B4b",
     "number": "214",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001100_00_CARNE_U.webp",
     "name_ja": "カルネ"
   },
@@ -21779,7 +21779,7 @@
     "name": "Calem",
     "set": "B4b",
     "number": "215",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001260_00_CALME_U.webp",
     "name_ja": "Calem"
   },
@@ -21787,7 +21787,7 @@
     "name": "Puppy-Loving Girl",
     "set": "B4b",
     "number": "216",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001460_00_KOINUDAISUKIGARL_U.webp",
     "name_ja": "Puppy-Loving Girl"
   },
@@ -21795,7 +21795,7 @@
     "name": "Korrina",
     "set": "B4b",
     "number": "217",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001300_00_CORNI_U.webp",
     "name_ja": "Korrina"
   },
@@ -21803,7 +21803,7 @@
     "name": "Clemont",
     "set": "B4b",
     "number": "218",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001030_00_CITRON_U.webp",
     "name_ja": "シトロン"
   },
@@ -21811,7 +21811,7 @@
     "name": "Serena",
     "set": "B4b",
     "number": "219",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001040_00_SERENA_U.webp",
     "name_ja": "セレナ"
   },
@@ -21819,7 +21819,7 @@
     "name": "May",
     "set": "B4b",
     "number": "220",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_000970_00_HARUKA_U.webp",
     "name_ja": "ハルカ"
   },
@@ -21827,7 +21827,7 @@
     "name": "Skyla",
     "set": "B4b",
     "number": "221",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001560_00_HUURO_U.webp",
     "name_ja": "Skyla"
   },
@@ -21835,7 +21835,7 @@
     "name": "Arven",
     "set": "B4b",
     "number": "222",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001210_00_PEPER_U.webp",
     "name_ja": "ペパー"
   },
@@ -21843,7 +21843,7 @@
     "name": "Wallace",
     "set": "B4b",
     "number": "223",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001470_00_MIKURI_U.webp",
     "name_ja": "Wallace"
   },
@@ -21851,7 +21851,7 @@
     "name": "Wally",
     "set": "B4b",
     "number": "224",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001570_00_MITSURU_U.webp",
     "name_ja": "Wally"
   },
@@ -21859,7 +21859,7 @@
     "name": "Copycat",
     "set": "B4b",
     "number": "225",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_000990_00_MONOMANEMUSUME_U.webp",
     "name_ja": "モノマネむすめ"
   },
@@ -21867,7 +21867,7 @@
     "name": "Lisia",
     "set": "B4b",
     "number": "226",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001000_00_RUCHIA_U.webp",
     "name_ja": "ルチア"
   },
@@ -21875,7 +21875,7 @@
     "name": "Fragrant Forest",
     "set": "B4b",
     "number": "227",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001340_00_AMAKUKAORUMORI_U.webp",
     "name_ja": "Fragrant Forest"
   },
@@ -21883,7 +21883,7 @@
     "name": "Arena of Antiquity",
     "set": "B4b",
     "number": "228",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001350_00_INISHIENOTOUGIJYOU_U.webp",
     "name_ja": "Arena of Antiquity"
   },
@@ -21891,7 +21891,7 @@
     "name": "Soothing Shore",
     "set": "B4b",
     "number": "229",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001580_00_IYASHINOUMIBE_U.webp",
     "name_ja": "Soothing Shore"
   },
@@ -21899,7 +21899,7 @@
     "name": "Bounded Field",
     "set": "B4b",
     "number": "230",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001360_00_KEKKAINOFIELD_U.webp",
     "name_ja": "Bounded Field"
   },
@@ -21907,7 +21907,7 @@
     "name": "Mesagoza",
     "set": "B4b",
     "number": "231",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001220_00_TABLECITY_U.webp",
     "name_ja": "Mesagoza"
   },
@@ -21915,7 +21915,7 @@
     "name": "Training Area",
     "set": "B4b",
     "number": "232",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001140_00_TORENINGUERIA_U.webp",
     "name_ja": "トレーニングエリア"
   },
@@ -21923,7 +21923,7 @@
     "name": "Rainbow Cave",
     "set": "B4b",
     "number": "233",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001590_00_NIJIIRONODOUKUTSU_U.webp",
     "name_ja": "Rainbow Cave"
   },
@@ -21931,7 +21931,7 @@
     "name": "Hiking Trail",
     "set": "B4b",
     "number": "234",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001270_00_HAIKINGUCOURSE_U.webp",
     "name_ja": "Hiking Trail"
   },
@@ -21939,7 +21939,7 @@
     "name": "Starting Plains",
     "set": "B4b",
     "number": "235",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001150_00_HAJIMARINOHEIGEN_U.webp",
     "name_ja": "はじまりの平原"
   },
@@ -21947,7 +21947,7 @@
     "name": "Peculiar Plaza",
     "set": "B4b",
     "number": "236",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001160_00_FUSHIGINAHIROBA_U.webp",
     "name_ja": "ふしぎな広場"
   },
@@ -21955,7 +21955,7 @@
     "name": "Elesa",
     "set": "B4b",
     "number": "422",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_20_001450_01_KAMITSURE_SR.webp",
     "name_ja": "Elesa"
   },
@@ -22939,7 +22939,7 @@
     "name": "Eviolite",
     "set": "C1",
     "number": "123",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001700_00_SHINKANOKISEKI_U.webp",
     "name_ja": "Eviolite"
   },
@@ -22947,7 +22947,7 @@
     "name": "Light Ball",
     "set": "C1",
     "number": "124",
-    "type": "Goods",
+    "type": "Item",
     "image": "cTR_10_001710_00_DENKIDAMA_U.webp",
     "name_ja": "Light Ball"
   },
@@ -22955,7 +22955,7 @@
     "name": "Lorelei",
     "set": "C1",
     "number": "125",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001720_00_KANNA_U.webp",
     "name_ja": "カンナ"
   },
@@ -22963,7 +22963,7 @@
     "name": "Blue’s Provocation",
     "set": "C1",
     "number": "126",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001730_00_GREENNOCHOUHATSU_U.webp",
     "name_ja": "Blue’s Provocation"
   },
@@ -22971,7 +22971,7 @@
     "name": "Serena’s Choice",
     "set": "C1",
     "number": "127",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001740_00_SERENANOSENTAKU_U.webp",
     "name_ja": "Serena’s Choice"
   },
@@ -22979,7 +22979,7 @@
     "name": "Rika",
     "set": "C1",
     "number": "128",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001750_00_CHILI_U.webp",
     "name_ja": "チリ"
   },
@@ -22987,7 +22987,7 @@
     "name": "Poké Mart Guy",
     "set": "C1",
     "number": "129",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001760_00_FRIENDLYSHOPNOONIISAN_U.webp",
     "name_ja": "Poké Mart Guy"
   },
@@ -22995,7 +22995,7 @@
     "name": "Rising Star",
     "set": "C1",
     "number": "130",
-    "type": "Goods",
+    "type": "Support",
     "image": "cTR_10_001770_00_HOPETRAINER_U.webp",
     "name_ja": "Rising Star"
   },
@@ -23003,7 +23003,7 @@
     "name": "Abandoned Station",
     "set": "C1",
     "number": "131",
-    "type": "Goods",
+    "type": "Stadium",
     "image": "cTR_10_001780_00_SABIRETASUTANDO_U.webp",
     "name_ja": "Abandoned Station"
   },
