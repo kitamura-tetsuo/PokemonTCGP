@@ -1,0 +1,30 @@
+{
+  "id": "6ae7f6340d00101b48bf453d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Tournament | $50 Prize Pool",
+  "date": "2026-11-02T20:00:00.000Z",
+  "players": 304,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 9,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
