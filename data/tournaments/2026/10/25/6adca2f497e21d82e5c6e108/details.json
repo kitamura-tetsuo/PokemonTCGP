@@ -1,0 +1,30 @@
+{
+  "id": "6adca2f497e21d82e5c6e108",
+  "game": "POCKET",
+  "format": null,
+  "name": "Summit Team Tournament",
+  "date": "2026-10-25T01:52:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 2544,
+    "name": "Meta Breaker"
+  },
+  "decklists": false,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}
