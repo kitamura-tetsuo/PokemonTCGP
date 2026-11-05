@@ -1,0 +1,30 @@
+{
+  "id": "6aec5294e94eae0f94747bac",
+  "game": "POCKET",
+  "format": null,
+  "name": "Xastur\u2019s Meta Morning Mixup -Deluxe Copycat + $5!",
+  "date": "2026-11-05T11:55:00.000Z",
+  "players": 64,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO1"
+    }
+  ]
+}
