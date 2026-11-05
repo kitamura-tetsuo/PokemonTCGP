@@ -1,0 +1,30 @@
+{
+  "id": "6ae6b6910d00101b48bf3b1c",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Wednesday Fusion: $15 USD + Top 4 FA",
+  "date": "2026-11-04T18:45:00.000Z",
+  "players": 273,
+  "organizer": {
+    "id": 2748,
+    "name": "Aura Sphere"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
