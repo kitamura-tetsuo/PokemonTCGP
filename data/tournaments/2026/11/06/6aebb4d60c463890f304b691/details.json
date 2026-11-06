@@ -1,0 +1,30 @@
+{
+  "id": "6aebb4d60c463890f304b691",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\uddec DUAL FUSION CLASH!!\ufe31 $20 BEC'S WEEKLY",
+  "date": "2026-11-06T14:00:00.000Z",
+  "players": 144,
+  "organizer": {
+    "id": 2011,
+    "name": "Blazing Exeggutor Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
