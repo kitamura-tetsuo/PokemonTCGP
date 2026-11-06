@@ -1,0 +1,55 @@
+{
+  "id": "6ae62ff5ae67092a4074000c",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2727\u2740\ud83c\udf38Halloween Format (C1 Choice Prize!)\ud83c\udf38\u2740\u2727",
+  "date": "2026-11-06T00:35:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2785,
+    "name": "Flutter Festival"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Pupitar",
+      "set": "C1",
+      "number": "76"
+    },
+    {
+      "name": "Houndstone",
+      "set": "B2a",
+      "number": "53"
+    },
+    {
+      "name": "Umbreon",
+      "set": "C1",
+      "number": "84"
+    },
+    {
+      "name": "Heavy Helmet",
+      "set": "B1",
+      "number": "219"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
