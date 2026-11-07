@@ -1,0 +1,30 @@
+{
+  "id": "6aeecf0ac931f53978d95555",
+  "game": "POCKET",
+  "format": null,
+  "name": "is anyone even awake pop up #2",
+  "date": "2026-11-07T08:55:00.000Z",
+  "players": 34,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

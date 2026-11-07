@@ -1,0 +1,30 @@
+{
+  "id": "6ae5d8bd0d00101b48bf32b2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Dual Deck Tournament #26 (Rp1.400.000)",
+  "date": "2026-11-06T12:05:00.000Z",
+  "players": 131,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}
