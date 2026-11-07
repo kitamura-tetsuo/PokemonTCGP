@@ -1,0 +1,47 @@
+{
+  "id": "6aee8194e99f3235a75e2a16",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Mega Wars Pop Up Late Night (5 USD)",
+  "date": "2026-11-07T04:00:00.000Z",
+  "players": 72,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
