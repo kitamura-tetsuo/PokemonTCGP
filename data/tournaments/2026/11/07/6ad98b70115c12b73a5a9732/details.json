@@ -1,0 +1,37 @@
+{
+  "id": "6ad98b70115c12b73a5a9732",
+  "game": "POCKET",
+  "format": null,
+  "name": "INVE \"EE\" FORMAT #2",
+  "date": "2026-11-07T20:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2699,
+    "name": "It\u2019s Not Very Effective\u2026"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ]
+}
