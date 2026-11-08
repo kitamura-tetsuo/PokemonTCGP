@@ -1,0 +1,30 @@
+{
+  "id": "6ade5d0097e21d82e5c6f090",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's League Pocket #18 | FA Cyrus",
+  "date": "2026-11-07T23:15:00.000Z",
+  "players": 12,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 4,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
