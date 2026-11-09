@@ -1,0 +1,30 @@
+{
+  "id": "6aef9c25c931f53978d95cf5",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Sunday Fun Day!-$5+",
+  "date": "2026-11-08T19:30:00.000Z",
+  "players": 185,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
