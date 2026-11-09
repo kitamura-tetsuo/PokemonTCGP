@@ -1,0 +1,36 @@
+{
+  "id": "6af0a90de99f3235a75e42f5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Pop Up Series 11 || 2 FA OAKS + DX SHINIES",
+  "date": "2026-11-09T01:05:00.000Z",
+  "players": 113,
+  "organizer": {
+    "id": 2522,
+    "name": "TCGold"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 4,
+      "mode": "BO3"
+    },
+    {
+      "phase": 3,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 1,
+      "mode": "BO5"
+    }
+  ]
+}

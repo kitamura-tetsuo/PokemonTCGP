@@ -1,0 +1,30 @@
+{
+  "id": "6af15fd9c931f53978d9704d",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Pop Up FA CARD PRIZES",
+  "date": "2026-11-09T09:30:00.000Z",
+  "players": 69,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
