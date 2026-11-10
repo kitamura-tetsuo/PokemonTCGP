@@ -1,0 +1,30 @@
+{
+  "id": "6af20b85c931f53978d974c7",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u0424\u041c#//MissingNo. Duel Deck Demolition//20$+Cards",
+  "date": "2026-11-09T23:05:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
