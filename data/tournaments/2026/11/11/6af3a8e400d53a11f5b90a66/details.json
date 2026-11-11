@@ -1,0 +1,30 @@
+{
+  "id": "6af3a8e400d53a11f5b90a66",
+  "game": "POCKET",
+  "format": null,
+  "name": "Dark League Tournament CARD PRIZES",
+  "date": "2026-11-11T11:30:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
