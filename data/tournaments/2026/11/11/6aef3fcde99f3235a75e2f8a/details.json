@@ -1,0 +1,35 @@
+{
+  "id": "6aef3fcde99f3235a75e2f8a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Lagoon Gym Leader Challenge (FA Choice Prize)",
+  "date": "2026-11-11T03:00:00.000Z",
+  "players": 53,
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "specialRules": [
+    "1PRIZE",
+    "MONOTYPE",
+    "SINGLETON_NAME"
+  ]
+}
