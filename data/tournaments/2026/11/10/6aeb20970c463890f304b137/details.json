@@ -1,0 +1,30 @@
+{
+  "id": "6aeb20970c463890f304b137",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\udc27 PGX TOURNAMENT #4\u3010 \ud83d\udcb0$15 USD + FA \u2b50\u2b50 \u3011",
+  "date": "2026-11-10T16:05:00.000Z",
+  "players": 245,
+  "organizer": {
+    "id": 2783,
+    "name": "OscarBK"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
