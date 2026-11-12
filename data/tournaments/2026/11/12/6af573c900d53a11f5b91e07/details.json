@@ -1,0 +1,30 @@
+{
+  "id": "6af573c900d53a11f5b91e07",
+  "game": "POCKET",
+  "format": null,
+  "name": "Underground Pocket Pop Up 5$",
+  "date": "2026-11-12T11:15:00.000Z",
+  "players": 96,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
