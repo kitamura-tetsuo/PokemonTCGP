@@ -1,0 +1,30 @@
+{
+  "id": "6af5c3ffdcbca32da6c4f321",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83e\ude77 r0zey's PINK POG POP UP #1 \ud83e\ude77 | $25 + FA",
+  "date": "2026-11-12T15:30:00.000Z",
+  "players": 110,
+  "organizer": {
+    "id": 2661,
+    "name": "R0ZEY"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
