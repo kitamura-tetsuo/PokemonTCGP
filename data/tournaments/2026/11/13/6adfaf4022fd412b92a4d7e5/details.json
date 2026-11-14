@@ -1,0 +1,30 @@
+{
+  "id": "6adfaf4022fd412b92a4d7e5",
+  "game": "POCKET",
+  "format": null,
+  "name": "Umbreon99's Aura Sphere #13: $5 USD + Top 2 FA",
+  "date": "2026-11-13T19:00:00.000Z",
+  "players": 242,
+  "organizer": {
+    "id": 2748,
+    "name": "Aura Sphere"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
