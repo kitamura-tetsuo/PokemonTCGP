@@ -1,0 +1,30 @@
+{
+  "id": "6af1e550e99f3235a75e4c20",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Dual Deck Tournament #27 ( Rp 1.000.000++ )",
+  "date": "2026-11-13T13:00:00.000Z",
+  "players": 115,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 8,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ]
+}

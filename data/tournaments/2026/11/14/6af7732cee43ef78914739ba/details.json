@@ -1,0 +1,30 @@
+{
+  "id": "6af7732cee43ef78914739ba",
+  "game": "POCKET",
+  "format": null,
+  "name": "The Breakfast Club Double Deck-FAS",
+  "date": "2026-11-14T00:45:00.000Z",
+  "players": 54,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
