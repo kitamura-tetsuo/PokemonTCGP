@@ -1,0 +1,30 @@
+{
+  "id": "6af866b0b2fccaf0272d2139",
+  "game": "POCKET",
+  "format": null,
+  "name": "KnowticeTkO x TBC \u201cIt\u2019s time.. to POP UP!\u201d $20",
+  "date": "2026-11-14T16:45:00.000Z",
+  "players": 87,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
