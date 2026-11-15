@@ -1,0 +1,30 @@
+{
+  "id": "6af1a17cc931f53978d97113",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50Nuggie's POG Dual-Deck Tourney #20! $10 + FA\u2b50",
+  "date": "2026-11-15T08:30:00.000Z",
+  "players": 131,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
