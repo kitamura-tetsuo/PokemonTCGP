@@ -1,0 +1,30 @@
+{
+  "id": "6af08659e99f3235a75e418d",
+  "game": "POCKET",
+  "format": null,
+  "name": "OTS Pokemon TCG Pocket Arena #3 | Standard",
+  "date": "2026-11-14T23:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
