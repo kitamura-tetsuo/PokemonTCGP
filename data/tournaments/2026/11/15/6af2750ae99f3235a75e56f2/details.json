@@ -1,0 +1,42 @@
+{
+  "id": "6af2750ae99f3235a75e56f2",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08Evade&Slak BOBO SHOWDOWN 3\ud83e\udda5Pokemon Plushy Prize",
+  "date": "2026-11-15T03:30:00.000Z",
+  "players": 90,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    }
+  ]
+}
