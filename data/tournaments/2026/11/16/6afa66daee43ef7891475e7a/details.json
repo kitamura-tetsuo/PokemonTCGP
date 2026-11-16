@@ -1,0 +1,52 @@
+{
+  "id": "6afa66daee43ef7891475e7a",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "\ud83d\ude08EBT Pop-up #1\ud83d\ude08 FA 2\u2b50 SERENA Prize",
+  "date": "2026-11-16T04:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Swablu",
+      "set": "B1",
+      "number": "196"
+    },
+    {
+      "name": "Swablu",
+      "set": "B4b",
+      "number": "186"
+    }
+  ]
+}
