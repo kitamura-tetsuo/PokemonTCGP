@@ -1,0 +1,30 @@
+{
+  "id": "6af97dbaee43ef7891475378",
+  "game": "POCKET",
+  "format": null,
+  "name": "xPabsy Cup #14 - $20",
+  "date": "2026-11-16T16:00:00.000Z",
+  "players": 179,
+  "organizer": {
+    "id": 2404,
+    "name": "xPabsy"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

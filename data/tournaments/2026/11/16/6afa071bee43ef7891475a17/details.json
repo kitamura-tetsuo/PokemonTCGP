@@ -1,0 +1,47 @@
+{
+  "id": "6afa071bee43ef7891475a17",
+  "game": "POCKET",
+  "format": null,
+  "name": "TKO Dom\u00f3wka u Karen #1 (PL-only)",
+  "date": "2026-11-16T16:00:00.000Z",
+  "players": 6,
+  "organizer": {
+    "id": 2862,
+    "name": "The Karen Organization"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    },
+    {
+      "name": "Sweet Honey",
+      "set": "C1",
+      "number": "119"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
