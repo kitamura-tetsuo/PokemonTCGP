@@ -1,0 +1,47 @@
+{
+  "id": "6afa8979b2fccaf0272d3cbf",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Block Dragon ~ Double D rerun $100 PRIZE POOL",
+  "date": "2026-11-17T01:15:00.000Z",
+  "players": 172,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": "A4a",
+      "number": "59"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B2",
+      "number": "145"
+    }
+  ]
+}
