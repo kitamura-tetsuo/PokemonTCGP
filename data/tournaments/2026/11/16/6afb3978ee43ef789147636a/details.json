@@ -1,0 +1,30 @@
+{
+  "id": "6afb3978ee43ef789147636a",
+  "game": "POCKET",
+  "format": null,
+  "name": "TBC DAILY #10-PRIZE FA",
+  "date": "2026-11-16T20:45:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
