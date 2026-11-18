@@ -1,0 +1,47 @@
+{
+  "id": "6afa5890b2fccaf0272d3a5f",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2668\ufe0fSauna's POG Tournament #31|Fixed 6 Rounds|Top 16",
+  "date": "2026-11-18T07:30:00.000Z",
+  "players": 44,
+  "organizer": {
+    "id": 2535,
+    "name": "opticsauna"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    }
+  ]
+}
