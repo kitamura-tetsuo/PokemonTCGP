@@ -5,17 +5,17 @@ import re
 import html
 import textwrap
 import os
-from src.data import (
+from .data import (
     get_deck_details_by_signature, 
     get_clustered_daily_share_data, 
     get_period_statistics,
     get_cluster_mapping
 )
-from src.utils import (
+from .utils import (
     format_deck_name, calculate_confidence_interval, is_local
 )
-from src.simulator import convert_signature_to_deckgym, run_simulation, DECKS_DIR
-from src.config import IMAGE_BASE_URL
+from .simulator import convert_signature_to_deckgym, run_simulation, DECKS_DIR
+from .config import IMAGE_BASE_URL
 
 def render_simulator_page():
     if not is_local():

@@ -8,7 +8,7 @@ import argparse
 # Ensure project root is in path
 sys.path.append(os.getcwd())
 
-from src.data import _scan_and_aggregate
+from pokemontcgp.data import _scan_and_aggregate
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)

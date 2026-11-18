@@ -3,7 +3,7 @@ import sys
 import os
 import json
 sys.path.append(os.getcwd())
-from src.data import get_cluster_details, _get_all_signatures
+from pokemontcgp.data import get_cluster_details, _get_all_signatures
 
 # Mock the period if needed, or just pass None to get all
 cid = "548"

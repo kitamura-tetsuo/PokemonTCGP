@@ -8,6 +8,7 @@ on:
       - 'uv.lock'
       - '.python-version'
       - 'src/**'
+      - 'pokemontcgp/**'
       - 'scripts/cache_snapshots.py'
       - 'scripts/update_sqlite.py'
       - 'tests/**'

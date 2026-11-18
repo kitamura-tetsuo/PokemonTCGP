@@ -4,14 +4,15 @@ import logging
 import os
 import re
 import sqlite3
+from pathlib import Path
 from datetime import datetime, timedelta
 from functools import lru_cache
-from src.cache_snapshots import cache_path
+from .cache_snapshots import FILES, SnapshotError, cache_path
 import pandas as pd
 from collections import Counter, defaultdict
 
-from src.hashing import compute_deck_signature
-from src.utils import calculate_confidence_interval
+from .hashing import compute_deck_signature
+from .utils import calculate_confidence_interval
 
 
 logger = logging.getLogger(__name__)
@@ -34,8 +35,42 @@ def normalize_card_name(name):
 def _get_db_conn():
     """Get a connection to the SQLite stats database."""
     if os.path.exists(cache_path('stats.db')):
-        return sqlite3.connect(cache_path('stats.db'))
+        uri = Path(cache_path('stats.db')).resolve().as_uri() + '?mode=ro'
+        return sqlite3.connect(uri, uri=True)
     return None
+
+def verify_snapshot_binding(snapshot):
+    """Check the actual reader before labeling any rendered data as current."""
+    if snapshot is None:
+        return
+    for name in FILES:
+        expected = (snapshot.directory / name).resolve()
+        if Path(cache_path(name)).resolve() != expected:
+            raise SnapshotError(f"Reader snapshot path mismatch: {name}")
+    conn = _get_db_conn()
+    if conn is None:
+        raise SnapshotError("Snapshot database reader is unavailable")
+    try:
+        actual = conn.execute("PRAGMA database_list").fetchone()[2]
+        expected = (snapshot.directory / "stats.db").resolve()
+        if Path(actual).resolve() != expected:
+            raise SnapshotError("Reader opened a different snapshot database")
+    finally:
+        conn.close()
+    _log_snapshot_reader(snapshot.generation, str(expected))
+
+
+@lru_cache(maxsize=8)
+def _log_snapshot_reader(generation, database):
+    # Nonsensitive runtime evidence, once per immutable generation/process.
+    conn = sqlite3.connect(Path(database).as_uri() + "?mode=ro", uri=True)
+    try:
+        count = conn.execute("SELECT count(*) FROM signatures").fetchone()[0]
+    finally:
+        conn.close()
+    logger.info("Verified snapshot reader generation=%s signatures=%s database=%s",
+                generation, count, database)
+
 
 def _get_stats_from_db(identifiers, is_cluster, start_date=None, end_date=None):
     """
@@ -860,7 +895,7 @@ def get_match_history(appearances):
                                     all_cards.append(item)
 
                     if all_cards:
-                        from src.hashing import compute_deck_signature
+                        from .hashing import compute_deck_signature
                         opp_sig, _ = compute_deck_signature(all_cards)
                         deck_name = p.get("deck", {}).get("name", "Unknown")
                         info = {"sig": opp_sig, "deck_name": deck_name, "cards": all_cards}
@@ -1606,7 +1641,7 @@ def get_comparison_stats(signatures, window=7, start_date=None, end_date=None):
             day_total += sum(day_entry["decks"].values())
         daily_metagame_totals[date_str] = day_total
 
-    from src.utils import calculate_confidence_interval
+    from .utils import calculate_confidence_interval
     _, id_to_cluster = get_cluster_mapping()
 
     result = {}

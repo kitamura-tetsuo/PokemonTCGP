@@ -4,7 +4,7 @@ import sys
 # Add the project root to sys.path to allow importing from src
 sys.path.append(os.getcwd())
 
-from src.ui import sort_card_ids
+from pokemontcgp.ui import sort_card_ids
 
 def test_sort_card_ids():
     # Test case 1: Basic types (Pokemon, Goods, Support)

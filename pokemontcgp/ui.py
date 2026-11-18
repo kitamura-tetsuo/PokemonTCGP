@@ -10,16 +10,16 @@ import streamlit as st
 import html
 from collections import Counter
 
-from src.cache_snapshots import generation_key
+from .cache_snapshots import generation_key
 
-from src.data import (
+from .data import (
     get_daily_share_data, get_deck_details, get_all_card_names, 
     get_match_history, enrich_card_data, get_clustered_daily_share_data,
     get_cluster_details, get_cluster_mapping, get_card_info_by_name,
     load_enriched_sets, get_daily_winrate_for_decks, get_daily_wilson_for_decks
 )
-from src.config import IMAGE_BASE_URL
-from src.utils import format_deck_name, calculate_confidence_interval, paginate_data
+from .config import IMAGE_BASE_URL
+from .utils import format_deck_name, calculate_confidence_interval, paginate_data
 
 def get_display_name(c):
     show_ja = st.session_state.get("show_japanese_toggle", False)
@@ -32,7 +32,7 @@ def format_card_name(card_id):
     if not card_id:
         return ""
     
-    from src.data import get_card_info_by_id
+    from .data import get_card_info_by_id
     info = get_card_info_by_id(card_id)
     if not info:
         return card_id
@@ -41,7 +41,7 @@ def format_card_name(card_id):
     show_ja = st.session_state.get("show_japanese_toggle", False)
     name = english_name
     if show_ja:
-        from src.data import get_card_name
+        from .data import get_card_name
         ja_name = info.get("name_ja") or get_card_name(english_name, lang="ja")
         if ja_name and ja_name != english_name:
             name = ja_name
@@ -82,7 +82,7 @@ def sort_card_ids(card_ids):
     if not card_ids:
         return []
     
-    from src.data import get_card_info_by_id
+    from .data import get_card_info_by_id
     enriched = []
     for cid in card_ids:
         info = get_card_info_by_id(cid)
@@ -175,7 +175,7 @@ def render_filtered_cards(card_ids):
     """
     st.markdown(css, unsafe_allow_html=True)
     
-    from src.data import get_card_info_by_id
+    from .data import get_card_info_by_id
     h = '<div class="filter-card-container">'
     for card_id in card_ids:
         info = get_card_info_by_id(card_id)
@@ -251,7 +251,7 @@ def _get_set_periods():
         return []
 
 def render_meta_trend_page():
-    from src.visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
+    from .visualizations import create_echarts_stacked_area, display_chart, create_echarts_line_comparison
     st.header("Metagame Trends")
     st.markdown(
         "Visualize the evolution of the metagame over time. You can filter by specific cards to see how decks containing them perform."
@@ -260,7 +260,7 @@ def render_meta_trend_page():
     # Sidebar / Controls
     with st.expander("Controls", expanded=True):
         col1, col2, col3 = st.columns(3)
-        from src.data import get_all_card_ids
+        from .data import get_all_card_ids
         all_card_ids = get_all_card_ids()
         periods = _get_set_periods()
         
@@ -492,7 +492,7 @@ def render_meta_trend_page():
             df_display["Others"] = df[other_archetypes].sum(axis=1)
 
     # Build statistics and details for both chart tooltips and table
-    from src.data import get_period_statistics
+    from .data import get_period_statistics
     s_start, s_end = selected_period["start"], selected_period["end"]
     
     stats_map = get_period_statistics(
@@ -1070,7 +1070,7 @@ def _render_deck_detail_view(sig, selected_period):
     render_match_history_table(deck.get("appearances", []), pagination_key=f"mh_{sig}")
 
 def render_match_history_table(appearances, pagination_key="match_history"):
-    from src.data import get_match_history, get_deck_details_by_signature
+    from .data import get_match_history, get_deck_details_by_signature
     matches = get_match_history(appearances)
     if not matches:
         st.info("No detailed match records found.")

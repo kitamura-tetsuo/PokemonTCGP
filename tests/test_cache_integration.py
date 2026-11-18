@@ -1,7 +1,9 @@
 """Small synthetic producer/data-layer/Streamlit tests; no LFS downloads."""
 from contextlib import closing
 import gzip
+import importlib
 import importlib.util
+import types
 import json
 import os
 from pathlib import Path
@@ -17,7 +19,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import unittest
 from unittest.mock import patch
 
-from src import cache_snapshots as cs
+from pokemontcgp import cache_snapshots as cs
 
 HAS_APP_DEPS = importlib.util.find_spec("pandas") is not None and importlib.util.find_spec("streamlit") is not None
 REPO = Path(__file__).resolve().parents[1]
@@ -53,6 +55,93 @@ class IntegrationTests(unittest.TestCase):
         subprocess.run([sys.executable, str(REPO / "scripts/update_sqlite.py")], check=True,
                        stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         return cs.descriptor(self.cache)
+
+    def test_real_reader_survives_snapshot_module_eviction(self):
+        from pokemontcgp import data
+        parent = importlib.import_module("pokemontcgp")
+        name = "pokemontcgp.cache_snapshots"
+        original = sys.modules[name]
+        legacy = self.base / "legacy"
+        shutil.copytree(self.cache, legacy)
+        self.make_inputs("new-only", "New snapshot only")
+        snapshot_dir = self.base / "new-snapshot"
+        shutil.copytree(self.cache, snapshot_dir)
+        try:
+            del sys.modules[name]
+            fresh = importlib.import_module(name)
+            selected = fresh.Snapshot("current", snapshot_dir)
+            fresh.bind_snapshot(selected)
+            data.verify_snapshot_binding(selected)
+            with closing(data._get_db_conn()) as conn:
+                self.assertEqual(conn.execute("SELECT sig FROM signatures").fetchone(), ("new-only",))
+            self.assertEqual(set(data._get_all_signatures()), {"new-only"})
+            self.assertEqual(set(data.get_cluster_mapping()[0]), {"new-only"})
+        finally:
+            sys.modules[name] = original
+            parent.cache_snapshots = original
+
+    def test_reader_gate_rejects_actual_legacy_connection_before_caption(self):
+        from pokemontcgp import data
+        selected = cs.Snapshot("current", self.cache)
+        cs.bind_snapshot(selected)
+        old = self.base / "old"
+        shutil.copytree(self.cache, old)
+        wrong = sqlite3.connect(old / "stats.db")
+        with patch.object(data, "_get_db_conn", return_value=wrong):
+            with self.assertRaisesRegex(cs.SnapshotError, "different snapshot database"):
+                data.verify_snapshot_binding(selected)
+        with self.assertRaises(sqlite3.ProgrammingError):
+            wrong.execute("SELECT 1")  # gate must close a rejected connection
+
+    def test_app_does_not_label_a_mismatched_reader_as_current(self):
+        from streamlit.testing.v1 import AppTest
+        selected = cs.Snapshot("current", self.cache)
+        with patch("pokemontcgp.cache_snapshots.select_snapshot", return_value=selected), patch(
+                "pokemontcgp.data.verify_snapshot_binding", side_effect=cs.SnapshotError("reader mismatch")):
+            app = AppTest.from_file(str(REPO / "app.py")).run(timeout=30)
+        self.assertFalse(app.exception)
+        self.assertTrue(app.error)
+        self.assertFalse(app.caption)
+
+    def test_app_handles_a_snapshot_error_from_an_evicted_module_copy(self):
+        from streamlit.testing.v1 import AppTest
+        legacy_error = type("SnapshotError", (RuntimeError,), {})
+        selected = cs.Snapshot("current", self.cache)
+        with patch("pokemontcgp.cache_snapshots.select_snapshot", return_value=selected), patch(
+                "pokemontcgp.data.verify_snapshot_binding", side_effect=legacy_error("stale reader copy")):
+            app = AppTest.from_file(str(REPO / "app.py")).run(timeout=30)
+        self.assertFalse(app.exception)
+        self.assertTrue(app.error)
+        self.assertFalse(app.caption)
+
+    def test_canonical_app_bypasses_retained_fixed_path_src_data(self):
+        import streamlit as st
+        from streamlit.testing.v1 import AppTest
+        from pokemontcgp import data
+        stale = types.ModuleType("src.data")
+        stale.DB_FILE = "data/cache/stats.db"
+        stale._get_all_signatures = lambda: {"stale": {}}
+        selected = cs.Snapshot("current", self.cache)
+        def render():
+            st.text(",".join(data._get_all_signatures()))
+        with patch.dict(sys.modules, {"src.data": stale}), patch(
+                "pokemontcgp.cache_snapshots.select_snapshot", return_value=selected), patch(
+                "pokemontcgp.ui.render_meta_trend_page", side_effect=render):
+            app = AppTest.from_file(str(REPO / "app.py")).run(timeout=30)
+        self.assertFalse(app.exception)
+        self.assertEqual([t.value for t in app.text], ["sig-a"])
+        self.assertEqual([c.value for c in app.caption], ["Data snapshot: current"])
+
+    def test_routing_epoch_does_not_reuse_old_results_under_same_generation(self):
+        import pandas as pd
+        from pokemontcgp.ui import _get_cached_trend_data
+        cs.bind_snapshot(cs.Snapshot("same-generation", self.cache))
+        with patch("pokemontcgp.ui.get_daily_share_data", return_value=pd.DataFrame([["old-result"]])):
+            old = _get_cached_trend_data("same-generation", None, None, 7)
+        with patch("pokemontcgp.ui.get_daily_share_data", return_value=pd.DataFrame([["current-result"]])):
+            current = _get_cached_trend_data(cs.generation_key(), None, None, 7)
+        self.assertEqual(old.iloc[0, 0], "old-result")
+        self.assertEqual(current.iloc[0, 0], "current-result")
 
     def test_real_producer_schema_and_provenance_validate(self):
         spec = cs.descriptor(self.cache)
@@ -134,7 +223,7 @@ class IntegrationTests(unittest.TestCase):
         self.assertEqual(git("rev-parse", "HEAD"), before)
 
     def test_data_layer_caches_are_isolated_even_when_mtimes_match(self):
-        from src import data
+        from pokemontcgp import data
         old = self.base / "old"
         shutil.copytree(self.cache, old)
         old_snapshot = cs.Snapshot("old", old)
@@ -160,9 +249,9 @@ class IntegrationTests(unittest.TestCase):
         # datasets or creating a production app. Underlying aggregation is mocked.
         source = '''
 import streamlit as st
-from src.cache_snapshots import Snapshot, bind_snapshot, generation_key, cache_path
+from pokemontcgp.cache_snapshots import Snapshot, bind_snapshot, generation_key, cache_path
 from pathlib import Path
-from src.ui import _get_cached_trend_data
+from pokemontcgp.ui import _get_cached_trend_data
 selected = st.selectbox("generation", ["A", "B"])
 bind_snapshot(Snapshot(selected, Path(selected)))
 result = _get_cached_trend_data(generation_key(), None, None, 7)
@@ -170,15 +259,15 @@ st.text(str(result.iloc[0, 0]))
 st.text(cache_path("stats.db"))
 '''
         import pandas as pd
-        with patch("src.ui.get_daily_share_data", side_effect=lambda **kwargs: pd.DataFrame([[cs.generation_key()]])) as get:
+        with patch("pokemontcgp.ui.get_daily_share_data", side_effect=lambda **kwargs: pd.DataFrame([[cs.generation_key()]])) as get:
             app = AppTest.from_string(source).run()
             self.assertFalse(app.exception)
-            self.assertEqual([t.value for t in app.text], ["A", "A/stats.db"])
+            self.assertEqual([t.value for t in app.text], ["snapshot-routing-v2:A", "A/stats.db"])
             app.selectbox[0].select("B").run()
             self.assertFalse(app.exception)
-            self.assertEqual([t.value for t in app.text], ["B", "B/stats.db"])
+            self.assertEqual([t.value for t in app.text], ["snapshot-routing-v2:B", "B/stats.db"])
             app.selectbox[0].select("A").run()
-            self.assertEqual([t.value for t in app.text], ["A", "A/stats.db"])
+            self.assertEqual([t.value for t in app.text], ["snapshot-routing-v2:A", "A/stats.db"])
             self.assertEqual(get.call_count, 2)
 
 

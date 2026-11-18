@@ -5,14 +5,14 @@ import html
 import textwrap
 from collections import Counter
 from urllib.parse import urlencode
-from src.data import get_comparison_stats, get_deck_details_by_signature
-from src.ui import (
+from .data import get_comparison_stats, get_deck_details_by_signature
+from .ui import (
     _get_set_periods, format_card_name, render_filtered_cards, 
     sort_card_ids, render_card_grid, get_display_name
 )
-from src.visualizations import create_echarts_line_comparison, display_chart
-from src.utils import calculate_confidence_interval, paginate_data
-from src.config import IMAGE_BASE_URL
+from .visualizations import create_echarts_line_comparison, display_chart
+from .utils import calculate_confidence_interval, paginate_data
+from .config import IMAGE_BASE_URL
 
 def render_comparison_page():
     st.header("Deck Comparison")
@@ -74,7 +74,7 @@ def render_comparison_page():
         )
         
         # Resolve names and details for labels and layouts (supporting clusters)
-        from src.data import get_cluster_mapping
+        from .data import get_cluster_mapping
         _, id_to_cluster = get_cluster_mapping()
         
         resolved_sigs_for_details = []
@@ -573,7 +573,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         )
 
     with st.spinner("Calculating matchup statistics..."):
-        from src.data import (
+        from .data import (
             get_clustered_daily_share_data, get_period_statistics, 
             get_cluster_mapping, get_match_history
         )
@@ -637,7 +637,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         # We need appearances for each selected deck to get their matches
         matrix_data = {} # (selected_sig, opponent_cluster_id) -> {w, l, t}
         
-        from src.data import _get_all_signatures
+        from .data import _get_all_signatures
         all_sigs_data = _get_all_signatures()
         
         all_appearances_to_lookup = []
@@ -692,7 +692,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
                         elif res == "Tie": matrix_data[key]["t"] += 1
 
     # 3. Render Matrix
-    from src.data import load_translations
+    from .data import load_translations
     show_ja = st.session_state.get("show_japanese_toggle", False)
     trans = load_translations() if show_ja else {}
 
@@ -749,7 +749,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
         # Build cards grid for tooltip
         card_html = '<div class="tooltip-grid">'
         if opp.get("cards"):
-            from src.ui import _enrich_and_sort_cards
+            from .ui import _enrich_and_sort_cards
             sorted_cards = _enrich_and_sort_cards(opp["cards"])
             for c in sorted_cards:
                 c_set = c.get("set", "")
@@ -800,7 +800,7 @@ def _render_matchup_matrix(sigs, period, deck_details, sig_to_color):
             total = w + l + t
             
             wr = (w / total * 100) if total > 0 else 0
-            from src.utils import calculate_confidence_interval, calculate_bayesian_win_probability
+            from .utils import calculate_confidence_interval, calculate_bayesian_win_probability
             lower, _ = calculate_confidence_interval(w, total)
             prob = calculate_bayesian_win_probability(w, total)
             
@@ -874,7 +874,7 @@ def _render_selected_matchup_matrix(sigs, period, deck_details, sig_to_color):
         )
 
     with st.spinner("Calculating selected matchup statistics..."):
-        from src.data import (
+        from .data import (
             get_cluster_mapping, get_match_history, _get_all_signatures
         )
         
@@ -953,7 +953,7 @@ def _render_selected_matchup_matrix(sigs, period, deck_details, sig_to_color):
                             elif res == "Tie": matrix_data[key]["t"] += 1
 
     # Render Table
-    from src.data import load_translations
+    from .data import load_translations
     trans = load_translations() if show_ja else {}
 
     def get_display_name(ident):
@@ -1001,7 +1001,7 @@ def _render_selected_matchup_matrix(sigs, period, deck_details, sig_to_color):
         card_html = '<div class="tooltip-grid">'
         details = deck_details.get(col_sig, {})
         if details.get("cards"):
-            from src.ui import _enrich_and_sort_cards
+            from .ui import _enrich_and_sort_cards
             sorted_cards = _enrich_and_sort_cards(details["cards"])
             for c in sorted_cards:
                 c_set = c.get("set", "")
@@ -1054,7 +1054,7 @@ def _render_selected_matchup_matrix(sigs, period, deck_details, sig_to_color):
             # Standard matrix usually shows them.
             
             wr = (w / total * 100) if total > 0 else 0
-            from src.utils import calculate_confidence_interval, calculate_bayesian_win_probability
+            from .utils import calculate_confidence_interval, calculate_bayesian_win_probability
             prob = calculate_bayesian_win_probability(w, total)
             
             # Heatmap Color

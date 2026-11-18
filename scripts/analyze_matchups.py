@@ -4,9 +4,9 @@ import logging
 import pandas as pd
 from datetime import datetime
 from collections import Counter, defaultdict
-from src.data import load_enriched_sets, get_deck_details_by_signature, _scan_and_aggregate
-from src.hashing import compute_deck_signature
-from src.simulator import run_simulation, convert_signature_to_deckgym
+from pokemontcgp.data import load_enriched_sets, get_deck_details_by_signature, _scan_and_aggregate
+from pokemontcgp.hashing import compute_deck_signature
+from pokemontcgp.simulator import run_simulation, convert_signature_to_deckgym
 from scipy.stats import chi2_contingency
 
 # Setup logging

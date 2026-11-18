@@ -11,9 +11,9 @@ import logging
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.data import load_enriched_cards
-from src.hashing import compute_deck_signature
-from src.simulator import load_deckgym_db, get_energy_type_from_db
+from pokemontcgp.data import load_enriched_cards
+from pokemontcgp.hashing import compute_deck_signature
+from pokemontcgp.simulator import load_deckgym_db, get_energy_type_from_db
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)

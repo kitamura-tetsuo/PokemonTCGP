@@ -5,15 +5,15 @@ import textwrap
 import html
 from collections import Counter
 from urllib.parse import urlencode
-from src.data import get_multi_group_trend_data, get_all_card_ids, get_group_details
-from src.ui import (
+from .data import get_multi_group_trend_data, get_all_card_ids, get_group_details
+from .ui import (
     _get_set_periods, format_card_name, render_filtered_cards, sort_card_ids,
     render_card_grid, render_match_history_table, get_display_name,
     _enrich_and_sort_cards # Need this for diffs
 )
-from src.config import IMAGE_BASE_URL
-from src.visualizations import display_chart, create_echarts_line_comparison
-from src.utils import calculate_confidence_interval, paginate_data
+from .config import IMAGE_BASE_URL
+from .visualizations import display_chart, create_echarts_line_comparison
+from .utils import calculate_confidence_interval, paginate_data
 
 def render_combinations_page():
     st.header("Card Combination Analysis")

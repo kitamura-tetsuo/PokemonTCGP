@@ -5,7 +5,7 @@ import sys
 # Add project root to path
 sys.path.append(os.getcwd())
 
-from src.simulator import convert_signature_to_deckgym
+from pokemontcgp.simulator import convert_signature_to_deckgym
 
 def test_conversion():
     # Mewtwo-Gardevoir sample signature (heuristic)
