@@ -1,0 +1,85 @@
+{
+  "id": "6afba7e0b2fccaf0272d46ed",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "TBC Presents - ShadeWolfang's NO EX Slamfist",
+  "date": "2026-11-18T18:00:00.000Z",
+  "players": 24,
+  "organizer": {
+    "id": 2461,
+    "name": "VoidPocket Circuit "
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Blue's Provocation",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Greninja",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Hydreigon",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Darkrai",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Oricorio",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Dragonite",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Raboot",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Azumarill",
+      "set": null,
+      "number": null
+    }
+  ],
+  "specialRules": [
+    "1PRIZE"
+  ]
+}
