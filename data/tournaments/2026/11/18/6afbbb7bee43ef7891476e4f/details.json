@@ -1,0 +1,30 @@
+{
+  "id": "6afbbb7bee43ef7891476e4f",
+  "game": "POCKET",
+  "format": null,
+  "name": "R0zey X Vegegras 50 USD Pocket Clash",
+  "date": "2026-11-18T05:00:00.000Z",
+  "players": 162,
+  "organizer": {
+    "id": 2702,
+    "name": "Vegegras"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

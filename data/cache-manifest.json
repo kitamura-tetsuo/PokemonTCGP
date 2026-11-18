@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "current": {
+    "generation": "cache-5a1d53692cd7a063f20d418695d39420bc94586ce1209cdc85d36fb6bb1619e2",
+    "files": {
+      "clusters.json": {
+        "size": 1306372,
+        "sha256": "b46a35fc3d406493f0cfa3a84301efba94b6d05e366e19c623a8681b3680a7f9"
+      },
+      "daily_exact_stats.pkl.gz": {
+        "size": 1554534,
+        "sha256": "d5e39143e7fec60e35b4b74e1b8a53b6d15b3c42fa3f5b0d2403d9027c05eba4"
+      },
+      "stats.db": {
+        "size": 30961664,
+        "sha256": "4da61811ed0d0fb147dc4acb11d585c301f0f9baedc4ee5dabad3859c30cb21c"
+      }
+    }
+  },
+  "previous": {
+    "generation": "cache-2fa9d39770cdc02ea7ca147ef23814539708bf0debb12b957969acf67e103422",
+    "files": {
+      "clusters.json": {
+        "size": 1302388,
+        "sha256": "b13a1db460e3679905772ea44c244b00d1f26fc0e34f8dd1d621744c6ae5f36d"
+      },
+      "daily_exact_stats.pkl.gz": {
+        "size": 1481515,
+        "sha256": "8428eaeff5f24644a712a79314d1b8445f2730c4ae7177cea094eb03e5f9ff75"
+      },
+      "stats.db": {
+        "size": 30834688,
+        "sha256": "8a7f106b79ce6c137d8abb6970cb1c1eb017d48d776697695c2ef38ddc352495"
+      }
+    }
+  }
+}

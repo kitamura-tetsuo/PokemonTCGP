@@ -1,0 +1,666 @@
+[
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 1,
+    "winner": "toxology",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "toxology"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "provenance",
+    "player2": "toxology"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 2,
+    "winner": "thugsbunny",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "thugsbunny"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "thugsbunny",
+    "player2": "founddeadinla"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 3,
+    "winner": "strawberrycrepecookie",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "strawberrycrepecookie"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "boat_sensei",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 4,
+    "winner": "gunnmgirl",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "gunnmgirl"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "gunnmgirl",
+    "player2": "silveiracrf"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 5,
+    "winner": "jayswan",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "3",
+        "winner": "jayswan"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "ibfasting",
+    "player2": "jayswan"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 1,
+    "winner": "toxology",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "toxology"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "jayswan",
+    "player2": "toxology"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 2,
+    "winner": "strawberrycrepecookie",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "strawberrycrepecookie"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "thugsbunny",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 3,
+    "winner": "gunnmgirl",
+    "games": {
+      "1": {
+        "p2deck": "2",
+        "p1deck": "1",
+        "winner": "gunnmgirl"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "gunnmgirl",
+    "player2": "ibfasting"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 4,
+    "winner": "silveiracrf",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "silveiracrf"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "silveiracrf",
+    "player2": "provenance"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 5,
+    "winner": "founddeadinla",
+    "games": {
+      "1": {
+        "p1deck": "3",
+        "p2deck": "1",
+        "winner": "founddeadinla"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "boat_sensei",
+    "player2": "founddeadinla"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 1,
+    "winner": "toxology",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "2",
+        "winner": "toxology"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "toxology",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 2,
+    "winner": "gunnmgirl",
+    "games": {
+      "1": {
+        "p1deck": "3",
+        "p2deck": "2",
+        "winner": "gunnmgirl"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "gunnmgirl",
+    "player2": "founddeadinla"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 3,
+    "winner": "silveiracrf",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "3",
+        "winner": "silveiracrf"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "silveiracrf",
+    "player2": "thugsbunny"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 4,
+    "winner": "boat_sensei",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "boat_sensei"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "jayswan",
+    "player2": "boat_sensei"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 5,
+    "winner": "ibfasting",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "1",
+        "winner": "ibfasting"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "ibfasting",
+    "player2": "provenance"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 1,
+    "winner": "gunnmgirl",
+    "games": {
+      "1": {
+        "p2deck": "2",
+        "p1deck": "3",
+        "winner": "gunnmgirl"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "gunnmgirl",
+    "player2": "toxology"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 2,
+    "winner": "strawberrycrepecookie",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "1",
+        "winner": "strawberrycrepecookie"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "silveiracrf",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 3,
+    "winner": "thugsbunny",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "1",
+        "winner": "thugsbunny"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "thugsbunny",
+    "player2": "jayswan"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 4,
+    "winner": "ibfasting",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "ibfasting"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "ibfasting",
+    "player2": "founddeadinla"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 5,
+    "winner": "boat_sensei",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "2",
+        "winner": "boat_sensei"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "boat_sensei",
+    "player2": "provenance"
+  },
+  {
+    "round": 5,
+    "phase": 1,
+    "table": 1,
+    "winner": "gunnmgirl",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "2",
+        "winner": "gunnmgirl"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "gunnmgirl",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "round": 5,
+    "phase": 1,
+    "table": 2,
+    "winner": "toxology",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "toxology"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "toxology",
+    "player2": "ibfasting"
+  },
+  {
+    "round": 5,
+    "phase": 1,
+    "table": 3,
+    "winner": "boat_sensei",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "boat_sensei"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "thugsbunny",
+    "player2": "boat_sensei"
+  },
+  {
+    "round": 5,
+    "phase": 1,
+    "table": 4,
+    "winner": "founddeadinla",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "2",
+        "winner": "founddeadinla"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "silveiracrf",
+    "player2": "founddeadinla"
+  },
+  {
+    "round": 5,
+    "phase": 1,
+    "table": 5,
+    "winner": "provenance",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "1",
+        "winner": "provenance"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "jayswan",
+    "player2": "provenance"
+  },
+  {
+    "phase": 2,
+    "round": 6,
+    "winner": "boat_sensei",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "1",
+        "winner": "boat_sensei"
+      },
+      "2": {
+        "p2deck": "2",
+        "p1deck": "2",
+        "winner": "strawberrycrepecookie"
+      },
+      "3": {
+        "p2deck": "2",
+        "p1deck": "1",
+        "winner": "boat_sensei"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "match": "T2-1",
+    "player1": "boat_sensei",
+    "player2": "strawberrycrepecookie"
+  },
+  {
+    "phase": 2,
+    "round": 6,
+    "winner": "boat_sensei",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "boat_sensei"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "boat_sensei"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "match": "T4-1",
+    "player1": "gunnmgirl",
+    "player2": "boat_sensei"
+  },
+  {
+    "phase": 2,
+    "round": 6,
+    "winner": "strawberrycrepecookie",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "strawberrycrepecookie"
+      },
+      "2": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "strawberrycrepecookie"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "match": "T4-2",
+    "player1": "toxology",
+    "player2": "strawberrycrepecookie"
+  }
+]
