@@ -1,0 +1,24 @@
+{
+  "id": "6aefaa2ee99f3235a75e3a09",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83c\udd93 Domino Pocket Free #1 [BETA]",
+  "date": "2026-11-18T00:00:00.000Z",
+  "players": 7,
+  "organizer": {
+    "id": 2791,
+    "name": "Domino Store"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO3"
+    }
+  ]
+}
