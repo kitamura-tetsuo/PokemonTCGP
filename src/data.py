@@ -5,6 +5,8 @@ import os
 import re
 import sqlite3
 from datetime import datetime, timedelta
+from functools import lru_cache
+from src.cache_snapshots import cache_path
 import pandas as pd
 from collections import Counter, defaultdict
 
@@ -16,10 +18,7 @@ logger = logging.getLogger(__name__)
 
 DATA_DIR = os.path.join(os.getcwd(), "data")
 TOURNAMENTS_DIR = os.path.join(DATA_DIR, "tournaments")
-CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.pkl.gz")
 OLD_CACHE_FILE = os.path.join(DATA_DIR, "cache", "daily_exact_stats.json")
-CLUSTERS_FILE = os.path.join(DATA_DIR, "cache", "clusters.json")
-DB_FILE = os.path.join(DATA_DIR, "cache", "stats.db")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
 ENRICHED_CARDS_FILE = os.path.join(CARDS_DIR, "enriched_cards.json")
 ENRICHED_SETS_FILE = os.path.join(CARDS_DIR, "enriched_sets.json")
@@ -34,8 +33,8 @@ def normalize_card_name(name):
 
 def _get_db_conn():
     """Get a connection to the SQLite stats database."""
-    if os.path.exists(DB_FILE):
-        return sqlite3.connect(DB_FILE)
+    if os.path.exists(cache_path('stats.db')):
+        return sqlite3.connect(cache_path('stats.db'))
     return None
 
 def _get_stats_from_db(identifiers, is_cluster, start_date=None, end_date=None):
@@ -280,9 +279,9 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
     cache = {}
     signatures = {}
 
-    if os.path.exists(CACHE_FILE):
+    if os.path.exists(cache_path('daily_exact_stats.pkl.gz')):
         try:
-            data = pd.read_pickle(CACHE_FILE)
+            data = pd.read_pickle(cache_path('daily_exact_stats.pkl.gz'))
             cache = data.get("dates", {})
             signatures = data.get("signatures", {})
         except Exception as e:
@@ -465,19 +464,18 @@ def _scan_and_aggregate(days_back=30, force_refresh=False, start_date=None, end_
         
     if updated and update_cache:
         try:
-            os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+            os.makedirs(os.path.dirname(cache_path('daily_exact_stats.pkl.gz')), exist_ok=True)
             # Use mkstemp to avoid race conditions with fixed temp filename
             import tempfile
-            fd, temp_path = tempfile.mkstemp(dir=os.path.dirname(CACHE_FILE), suffix='.tmp')
+            fd, temp_path = tempfile.mkstemp(dir=os.path.dirname(cache_path('daily_exact_stats.pkl.gz')), suffix='.tmp')
             
             try:
                 with os.fdopen(fd, 'wb') as f:
                     pd.to_pickle({"dates": cache, "signatures": signatures}, f, compression='gzip')
-                os.replace(temp_path, CACHE_FILE)
+                os.replace(temp_path, cache_path('daily_exact_stats.pkl.gz'))
                 
                 # Clear internal cache to force reload
-                global _SIGNATURES_CACHE
-                _SIGNATURES_CACHE = None
+                _load_signatures.cache_clear()
             except Exception as e:
                 # Clean up temp file if something failed before replace
                 if os.path.exists(temp_path):
@@ -501,7 +499,7 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
     """
     Get daily deck share data.
     """
-    if os.path.exists(DB_FILE):
+    if os.path.exists(cache_path('stats.db')):
         conn = _get_db_conn()
         if conn:
             try:
@@ -582,28 +580,20 @@ def get_daily_share_data(card_filters=None, exclude_cards=None, window=7, min_to
     # SLOW PATH: Fallback to pickle
     # Scan a bit more than window to allow rolling mean calculation if needed
 
-# Global variable to cache the signatures part of the JSON to avoid repetitive large reads
-_SIGNATURES_CACHE = None
-_CACHE_MTIME = 0
+@lru_cache(maxsize=4)
+def _load_signatures(path, mtime):
+    return pd.read_pickle(path).get("signatures", {})
+
 
 def _get_all_signatures():
-    """Internal helper to load and cache all signatures from the large JSON file."""
-    global _SIGNATURES_CACHE, _CACHE_MTIME
-    if not os.path.exists(CACHE_FILE):
+    path = cache_path('daily_exact_stats.pkl.gz')
+    if not os.path.exists(path):
         return {}
-    
-    mtime = os.path.getmtime(CACHE_FILE)
-    if _SIGNATURES_CACHE is not None and mtime == _CACHE_MTIME:
-        return _SIGNATURES_CACHE
-    
     try:
-        data = pd.read_pickle(CACHE_FILE)
-        _SIGNATURES_CACHE = data.get("signatures", {})
-        _CACHE_MTIME = mtime
-        return _SIGNATURES_CACHE
+        return _load_signatures(path, os.stat(path).st_mtime_ns)
     except Exception as e:
         logger.error(f"Error loading cache for signatures: {e}")
-        return _SIGNATURES_CACHE or {}
+        return {}
 
 def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
     """
@@ -611,7 +601,7 @@ def get_deck_details_by_signature(signatures, start_date=None, end_date=None):
     If dates are provided, statistics are filtered to that period.
     Returns a dictionary: sig -> {name, cards, stats, appearances}
     """
-    if os.path.exists(DB_FILE):
+    if os.path.exists(cache_path('stats.db')):
         metadata = _get_metadata_from_db(signatures, is_cluster=False)
         stats = _get_stats_from_db(signatures, is_cluster=False, start_date=start_date, end_date=end_date)
         
@@ -937,35 +927,24 @@ def get_match_history(appearances):
                 logger.error(f"Error lookup pairings for {t_id}: {e}")
     return matches
 
-# Global variable to cache cluster mapping
-_SIG_TO_CLUSTER = None
-_ID_TO_CLUSTER = None
-_CLUSTERS_MTIME = 0
+@lru_cache(maxsize=4)
+def _load_cluster_mapping(path, mtime):
+    with open(path) as f:
+        clusters = json.load(f)
+    sig_to_cluster, id_to_cluster = {}, {}
+    for cluster in clusters:
+        id_to_cluster[str(cluster["id"])] = cluster
+        for sig in cluster["signatures"]:
+            sig_to_cluster[sig] = cluster
+    return sig_to_cluster, id_to_cluster
+
 
 def get_cluster_mapping():
-    """Returns a map of sig -> cluster_info and cluster_id -> cluster_info."""
-    global _SIG_TO_CLUSTER, _ID_TO_CLUSTER, _CLUSTERS_MTIME
-    if not os.path.exists(CLUSTERS_FILE):
+    path = cache_path('clusters.json')
+    if not os.path.exists(path):
         return {}, {}
-    
-    mtime = os.path.getmtime(CLUSTERS_FILE)
-    if _SIG_TO_CLUSTER is not None and mtime == _CLUSTERS_MTIME:
-        return _SIG_TO_CLUSTER, _ID_TO_CLUSTER
-    
     try:
-        with open(CLUSTERS_FILE, "r") as f:
-            clusters = json.load(f)
-        
-        _SIG_TO_CLUSTER = {}
-        _ID_TO_CLUSTER = {}
-        for c in clusters:
-            cid = str(c["id"])
-            _ID_TO_CLUSTER[cid] = c
-            for sig in c["signatures"]:
-                _SIG_TO_CLUSTER[sig] = c
-        
-        _CLUSTERS_MTIME = mtime
-        return _SIG_TO_CLUSTER, _ID_TO_CLUSTER
+        return _load_cluster_mapping(path, os.stat(path).st_mtime_ns)
     except Exception as e:
         logger.error(f"Error loading clusters: {e}")
         return {}, {}
@@ -1072,7 +1051,7 @@ def get_clustered_daily_share_data(card_filters=None, exclude_cards=None, window
 
 def get_cluster_details(cluster_id, start_date=None, end_date=None):
     """Get aggregated details for a cluster, optionally filtered by date."""
-    if os.path.exists(DB_FILE):
+    if os.path.exists(cache_path('stats.db')):
         metadata = _get_metadata_from_db([str(cluster_id)], is_cluster=True)
         stats = _get_stats_from_db([str(cluster_id)], is_cluster=True, start_date=start_date, end_date=end_date)
         
@@ -1457,7 +1436,7 @@ def get_period_statistics(df, start_date=None, end_date=None, clustered=False):
     # Batch fetch metadata and stats from SQLite if available
     metadata = {}
     period_stats = {}
-    if os.path.exists(DB_FILE):
+    if os.path.exists(cache_path('stats.db')):
         metadata = _get_metadata_from_db(identifiers, is_cluster=clustered)
         period_stats = _get_stats_from_db(identifiers, is_cluster=clustered, start_date=start_date, end_date=end_date)
     

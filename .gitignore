@@ -207,3 +207,10 @@ marimo/_lsp/
 __marimo__/
 
 .streamlit/
+
+# Generated cache binaries remain tracked until the explicitly enabled migration.
+# Their complete replacement is distributed through verified release snapshots.
+/data/cache/clusters.json
+/data/cache/daily_exact_stats.pkl.gz
+/data/cache/stats.db
+/.cache/

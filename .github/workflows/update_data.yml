@@ -9,14 +9,29 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pokemon-data-update
+  cancel-in-progress: false
+
 jobs:
   update-data:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    env:
+      RELEASE_CACHE_ENABLED: ${{ vars.RELEASE_CACHE_ENABLED }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Check cache distribution mode
+        run: |
+          if [ -f data/cache-manifest.json ] && [ "$RELEASE_CACHE_ENABLED" != "true" ]; then
+            echo "Snapshot distribution is active; disabling it requires an explicit rollback."
+            exit 1
+          fi
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -29,12 +44,24 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Restore complete cumulative cache before updating
+        if: env.RELEASE_CACHE_ENABLED == 'true'
+        run: uv run python scripts/cache_snapshots.py restore
+
       - name: Run update script
         run: uv run scripts/daily_update.py
+
+      - name: Publish verified cache snapshot
+        if: env.RELEASE_CACHE_ENABLED == 'true'
+        run: uv run python scripts/cache_snapshots.py publish --source-sha "$GITHUB_SHA"
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          if [ "$RELEASE_CACHE_ENABLED" = "true" ]; then
+            # Only untrack binaries after a complete release and manifest exist.
+            git rm --cached --ignore-unmatch -- data/cache/clusters.json data/cache/daily_exact_stats.pkl.gz data/cache/stats.db
+          fi
           git add data/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update data [skip ci]" && git push)

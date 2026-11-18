@@ -10,6 +10,8 @@ import streamlit as st
 import html
 from collections import Counter
 
+from src.cache_snapshots import generation_key
+
 from src.data import (
     get_daily_share_data, get_deck_details, get_all_card_names, 
     get_match_history, enrich_card_data, get_clustered_daily_share_data,
@@ -188,7 +190,7 @@ def render_filtered_cards(card_ids):
     st.markdown(h, unsafe_allow_html=True)
 
 @st.cache_data(ttl=600)
-def _get_cached_trend_data(selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False, clustered=False):
+def _get_cached_trend_data(snapshot_generation, selected_cards, exclude_cards, window, start_date=None, end_date=None, standard_only=False, clustered=False):
     # Call the data layer
     if clustered:
         return get_clustered_daily_share_data(
@@ -323,6 +325,7 @@ def render_meta_trend_page():
     with st.spinner("Aggregating daily share data..."):
         try:
             df = _get_cached_trend_data(
+                generation_key(),
                 selected_cards, 
                 exclude_cards, 
                 window,
@@ -336,6 +339,7 @@ def render_meta_trend_page():
             global_df = None
             if selected_cards or exclude_cards:
                 global_df = _get_cached_trend_data(
+                    generation_key(),
                     None, 
                     None, 
                     window,

@@ -1,0 +1,38 @@
+name: Cache snapshot tests
+
+on:
+  pull_request:
+    paths:
+      - 'app.py'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.python-version'
+      - 'src/**'
+      - 'scripts/cache_snapshots.py'
+      - 'scripts/update_sqlite.py'
+      - 'tests/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  cache-snapshots:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/data/
+            !/simulator/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen --python ${{ matrix.python }}
+      - run: uv run --frozen --python ${{ matrix.python }} python -m unittest discover -s tests -v
