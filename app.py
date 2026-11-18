@@ -1,6 +1,7 @@
 
 import streamlit as st
 import logging
+import sqlite3
 
 # Configure logging
 logging.basicConfig(
@@ -15,12 +16,30 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from src.cache_snapshots import SnapshotError, bind_snapshot, select_snapshot
+try:
+    from pokemontcgp.cache_snapshots import bind_snapshot, select_snapshot
+    from pokemontcgp.data import verify_snapshot_binding
+    from pokemontcgp.ui import render_meta_trend_page
+    from pokemontcgp.ui_combinations import render_combinations_page
+    from pokemontcgp.ui_comparison import render_comparison_page
+    from pokemontcgp.ui_simulator import render_simulator_page
+    from pokemontcgp.utils import is_local
+except ModuleNotFoundError as exc:
+    # A Git pull can replace app.py before the newly added package files arrive.
+    # Do not hide missing third-party dependencies or render a misleading label.
+    if exc.name == "pokemontcgp" or (exc.name or "").startswith("pokemontcgp."):
+        logging.getLogger(__name__).warning("Application package update incomplete: %s", exc.name)
+        st.info("Application update is in progress. Please retry shortly.")
+        st.stop()
+    raise
 
 try:
     snapshot = select_snapshot()
     bind_snapshot(snapshot)
-except (SnapshotError, OSError, ValueError) as exc:
+    verify_snapshot_binding(snapshot)
+# Builtin exception bases remain stable when an application module is evicted.
+# This guard covers only cache selection/binding, never UI or dependency imports.
+except (RuntimeError, OSError, ValueError, sqlite3.Error) as exc:
     st.error("Application data is temporarily unavailable. Please retry later.")
     logging.getLogger(__name__).error("Cache snapshot unavailable: %s", exc)
     st.stop()
@@ -28,12 +47,6 @@ if snapshot and snapshot.warning:
     st.warning(snapshot.warning)
 if snapshot:
     st.caption("Data snapshot: " + snapshot.generation.removeprefix("cache-")[:12])
-
-from src.ui import render_meta_trend_page
-from src.ui_combinations import render_combinations_page
-from src.ui_comparison import render_comparison_page
-from src.ui_simulator import render_simulator_page
-from src.utils import is_local
 
 def main():
     st.sidebar.title("Navigation")

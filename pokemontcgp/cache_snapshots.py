@@ -30,7 +30,21 @@ TABLES = {
     "signatures": {"sig", "name", "cards", "stats"},
     "clusters": {"cluster_id", "name", "representative_sig", "signatures", "cards", "stats"},
 }
-_selected = ContextVar("cache_snapshot", default=None)
+# Thread objects survive application-module eviction. Obtain this ContextVar at
+# call time so old/new helper module copies and compatibility imports agree,
+# while copy_context/async tasks and different script threads stay isolated.
+_CONTEXT_ATTRIBUTE = "_pokemontcgp_snapshot_context_v2"
+_ROUTING_EPOCH = "snapshot-routing-v2"
+
+
+def _selection_context():
+    thread = threading.current_thread()
+    variable = getattr(thread, _CONTEXT_ATTRIBUTE, None)
+    if variable is None:
+        variable = ContextVar("pokemontcgp_cache_snapshot", default=None)
+        setattr(thread, _CONTEXT_ATTRIBUTE, variable)
+    return variable
+
 _verified = {}
 _verify_lock = threading.Lock()
 
@@ -47,18 +61,18 @@ class Snapshot:
 
 
 def cache_path(name):
-    snapshot = _selected.get()
+    snapshot = _selection_context().get()
     return str((snapshot.directory if snapshot else Path("data/cache")) / name)
 
 
 def generation_key():
-    snapshot = _selected.get()
-    return snapshot.generation if snapshot else "legacy"
+    snapshot = _selection_context().get()
+    return _ROUTING_EPOCH + ":" + (snapshot.generation if snapshot else "legacy")
 
 
 def bind_snapshot(snapshot):
     """Pin this Streamlit script run, independently of other sessions/threads."""
-    _selected.set(snapshot)
+    _selection_context().set(snapshot)
 
 
 def _canonical(value):

@@ -131,3 +131,35 @@ is not an automatic fallback. Pointer-only clones cannot restore purged binary
 objects. No complete offline backup of historical LFS data was established by
 this audit; deterministic reconstruction of the exact historical bytes is not
 guaranteed. Secure any required binary backups before irreversible reclamation.
+
+
+## Reader binding and Cloud code updates
+
+The public caption alone is not evidence of which files the UI reads. Cloud logs
+showed a transient missing-module exception during a Git pull, followed by
+successful updates; that exception does not establish the cause of later stale
+data. A partial module eviction was independently reproduced: a freshly imported
+snapshot selector and a retained data-reader helper could hold different module-
+local ContextVars, routing the reader to frozen legacy files while the caption
+claimed the current generation.
+
+The web entrypoint now imports the canonical `pokemontcgp` package, avoiding
+retained pre-migration `src.data` implementations with fixed paths. The `src`
+package remains a compatibility import path for existing scripts. Internal
+imports are relative. Each helper obtains its ContextVar **at call time** from
+the current thread, so module copies share the pin without reloading process-
+global modules or changing another session's state. Async contexts still isolate
+values. The routing-v2 cache epoch prevents reusing earlier results cached under
+the correct generation label but computed from an incorrect reader.
+
+Before displaying a caption, the app checks the actual data-reader paths for all
+three files and the opened SQLite database filename against the selected
+snapshot. A mismatch stops rendering with data-unavailable. Verified reader
+counts/paths are logged once per generation for operator diagnosis; no secrets
+are logged. Web database connections are read-only. CLI producer processes keep
+their legacy working paths until explicitly selecting a snapshot.
+
+Verification must include a signature unique to the selected release, not only
+an unchanged deck common to old and new releases. The observed current release
+`cache-5a1d53692cd7...` has 12,527 signatures, versus the seed's 12,474;
+`fca59c24` exists only in that current release (one player/four matches).

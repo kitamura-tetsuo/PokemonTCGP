@@ -1,6 +1,6 @@
 
 import pandas as pd
-from src.data import get_period_statistics
+from pokemontcgp.data import get_period_statistics
 
 def test_get_period_statistics():
     # Simple test to verify it doesn't crash and returns expected structure

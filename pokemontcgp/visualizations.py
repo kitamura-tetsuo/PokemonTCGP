@@ -4,8 +4,8 @@ import plotly.graph_objects as go
 import pandas as pd
 import streamlit as st
 import html
-from src.config import CHART_COLORS, PLOTLY_CONFIG, IMAGE_BASE_URL
-from src.data import get_card_name
+from .config import CHART_COLORS, PLOTLY_CONFIG, IMAGE_BASE_URL
+from .data import get_card_name
 from streamlit_echarts import st_echarts, JsCode
 import numpy as np
 

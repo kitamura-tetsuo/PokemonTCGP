@@ -9,13 +9,13 @@ from datetime import datetime
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.data import (
+from pokemontcgp.data import (
     load_enriched_sets,
     get_daily_share_data,
     get_period_statistics,
 )
-from src.utils import calculate_confidence_interval
-from src.simulator import convert_signature_to_deckgym, DECKS_DIR
+from pokemontcgp.utils import calculate_confidence_interval
+from pokemontcgp.simulator import convert_signature_to_deckgym, DECKS_DIR
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')

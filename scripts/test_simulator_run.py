@@ -8,7 +8,7 @@ sys.path.append(os.getcwd())
 import logging
 logging.basicConfig(level=logging.INFO)
 
-from src.simulator import run_simulation, DECKS_DIR
+from pokemontcgp.simulator import run_simulation, DECKS_DIR
 
 def test_simulation():
     # We'll use two of the example decks in the simulator repo for a quick test

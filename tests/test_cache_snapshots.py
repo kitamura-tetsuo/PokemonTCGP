@@ -1,4 +1,9 @@
 from contextlib import closing
+import asyncio
+import contextvars
+import importlib
+import sys
+import types
 import concurrent.futures
 from datetime import datetime, timezone
 import gzip
@@ -12,7 +17,7 @@ import threading
 import unittest
 from unittest.mock import patch
 
-from src import cache_snapshots as cs
+from pokemontcgp import cache_snapshots as cs
 from scripts import cache_snapshots as publisher
 
 
@@ -67,6 +72,52 @@ class SnapshotTests(unittest.TestCase):
     def select(self, fetch=None):
         return cs.select_snapshot(self.manifest, self.store, fetch or self.fetch)
 
+    def test_partial_module_eviction_shares_binding_with_captured_old_helpers(self):
+        name = "pokemontcgp.cache_snapshots"
+        parent = importlib.import_module("pokemontcgp")
+        original = sys.modules[name]
+        old_path = cs.cache_path
+        try:
+            del sys.modules[name]
+            fresh = importlib.import_module(name)
+            snapshot = fresh.Snapshot(self.new["generation"], self.base / "new")
+            fresh.bind_snapshot(snapshot)
+            self.assertEqual(old_path("stats.db"), fresh.cache_path("stats.db"))
+            self.assertEqual(Path(old_path("stats.db")).parent, snapshot.directory)
+            self.assertEqual(cs.generation_key(), fresh.generation_key())
+        finally:
+            sys.modules[name] = original
+            parent.cache_snapshots = original
+
+    def test_compatibility_namespace_and_canonical_helpers_share_current_thread(self):
+        legacy = importlib.import_module("src.cache_snapshots")
+        cs.bind_snapshot(cs.Snapshot(self.new["generation"], self.base / "new"))
+        self.assertEqual(legacy.cache_path("stats.db"), cs.cache_path("stats.db"))
+        self.assertEqual(legacy.generation_key(), cs.generation_key())
+
+    def test_async_contexts_in_one_thread_keep_separate_snapshots(self):
+        async def reader(spec, directory):
+            cs.bind_snapshot(cs.Snapshot(spec["generation"], directory))
+            await asyncio.sleep(0)
+            return cs.generation_key(), Path(cs.cache_path("stats.db")).parent
+        async def run():
+            return await asyncio.gather(reader(self.old, self.base / "old"), reader(self.new, self.base / "new"))
+        self.assertEqual(asyncio.run(run()), [
+            ("snapshot-routing-v2:" + self.old["generation"], self.base / "old"),
+            ("snapshot-routing-v2:" + self.new["generation"], self.base / "new")])
+
+    def test_web_namespace_does_not_import_retained_pre_migration_src_modules(self):
+        # An old Cloud process may still retain the fixed-path implementation.
+        stale = types.ModuleType("src.data")
+        stale.CACHE_FILE = "data/cache/daily_exact_stats.pkl.gz"
+        stale.DB_FILE = "data/cache/stats.db"
+        with patch.dict(sys.modules, {"src.data": stale}):
+            module = importlib.import_module("pokemontcgp.cache_snapshots")
+            self.assertIsNot(module, stale)
+            cs.bind_snapshot(cs.Snapshot(self.new["generation"], self.base / "new"))
+            self.assertNotEqual(module.cache_path("stats.db"), stale.DB_FILE)
+        self.assertTrue(cs.generation_key().startswith("snapshot-routing-v2:"))
+
     def test_legacy_mode_does_not_download_or_rebuild(self):
         self.manifest.unlink()
         with patch.object(cs, "download", side_effect=AssertionError("network")):
@@ -81,12 +132,12 @@ class SnapshotTests(unittest.TestCase):
             raise OSError("offline")
         self.assertEqual(self.select(offline).directory, snapshot.directory)
         cs.bind_snapshot(snapshot)
-        self.assertEqual(cs.generation_key(), self.new["generation"])
+        self.assertEqual(cs.generation_key(), "snapshot-routing-v2:" + self.new["generation"])
         self.assertEqual(Path(cs.cache_path("stats.db")).parent, snapshot.directory)
 
     def test_receipt_write_failure_still_serves_verified_generation(self):
         previous = self.select()
-        with patch.object(cs.tempfile, "NamedTemporaryFile", side_effect=OSError("disk full")), self.assertLogs("src.cache_snapshots", level="WARNING"):
+        with patch.object(cs.tempfile, "NamedTemporaryFile", side_effect=OSError("disk full")), self.assertLogs("pokemontcgp.cache_snapshots", level="WARNING"):
             self.assertEqual(self.select().directory, previous.directory)
 
     def test_cold_start_downloads_previous_if_current_fails(self):
@@ -194,7 +245,7 @@ class SnapshotTests(unittest.TestCase):
             return cs.generation_key(), Path(cs.cache_path("stats.db")).parent
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
             results = list(pool.map(check, [current, previous]))
-        self.assertEqual(results, [(s.generation, s.directory) for s in [current, previous]])
+        self.assertEqual(results, [("snapshot-routing-v2:" + s.generation, s.directory) for s in [current, previous]])
 
     def test_local_corruption_is_not_reused_from_process_validation_cache(self):
         snapshot = self.select()

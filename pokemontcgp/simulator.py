@@ -4,7 +4,7 @@ import os
 import subprocess
 import re
 import logging
-from src.data import get_deck_details_by_signature, _get_all_signatures
+from .data import get_deck_details_by_signature, _get_all_signatures
 
 logger = logging.getLogger(__name__)
 
