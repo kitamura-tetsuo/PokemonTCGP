@@ -1,4 +1,5 @@
 
+import hashlib
 import sqlite3
 import json
 import os
@@ -62,6 +63,9 @@ def init_db(conn):
     )
     ''')
     
+    # Bind the generated database to its exact input generation.
+    cursor.execute('CREATE TABLE IF NOT EXISTS cache_inputs (name TEXT PRIMARY KEY, sha256 TEXT NOT NULL)')
+
     # Indexes for speed
     cursor.execute('CREATE INDEX IF NOT EXISTS idx_daily_stats_date ON daily_stats(date)')
     cursor.execute('CREATE INDEX IF NOT EXISTS idx_daily_stats_id ON daily_stats(identifier)')
@@ -234,6 +238,11 @@ def populate_db():
     ]
     cursor.executemany('INSERT INTO daily_stats VALUES (?, ?, ?, ?, ?, ?, ?, ?)', cluster_daily_rows)
 
+    cursor.execute('DELETE FROM cache_inputs')
+    for path in (CACHE_FILE, CLUSTERS_FILE):
+        with open(path, 'rb') as source:
+            digest = hashlib.file_digest(source, 'sha256').hexdigest()
+        cursor.execute('INSERT INTO cache_inputs VALUES (?, ?)', (os.path.basename(path), digest))
     conn.commit()
     conn.close()
     logger.info(f"✅ SQLite database populated at {DB_FILE}")

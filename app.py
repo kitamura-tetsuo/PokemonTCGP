@@ -15,6 +15,20 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+from src.cache_snapshots import SnapshotError, bind_snapshot, select_snapshot
+
+try:
+    snapshot = select_snapshot()
+    bind_snapshot(snapshot)
+except (SnapshotError, OSError, ValueError) as exc:
+    st.error("Application data is temporarily unavailable. Please retry later.")
+    logging.getLogger(__name__).error("Cache snapshot unavailable: %s", exc)
+    st.stop()
+if snapshot and snapshot.warning:
+    st.warning(snapshot.warning)
+if snapshot:
+    st.caption("Data snapshot: " + snapshot.generation.removeprefix("cache-")[:12])
+
 from src.ui import render_meta_trend_page
 from src.ui_combinations import render_combinations_page
 from src.ui_comparison import render_comparison_page
