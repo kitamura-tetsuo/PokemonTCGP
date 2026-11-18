@@ -208,7 +208,7 @@ __marimo__/
 
 .streamlit/
 
-# Generated cache binaries remain tracked until the explicitly enabled migration.
+# Generated cache binaries stay frozen in Git during the initial migration.
 # Their complete replacement is distributed through verified release snapshots.
 /data/cache/clusters.json
 /data/cache/daily_exact_stats.pkl.gz

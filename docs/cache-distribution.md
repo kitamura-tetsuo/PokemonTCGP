@@ -12,8 +12,9 @@ remain in Git and are still needed by the application (including match history).
 
 This PR does not change main, create a release, download LFS binaries, or change
 repository variables. No manifest is checked in. The current three tracked LFS
-files remain tracked and usable. The new ignores take effect only after the
-explicitly enabled updater removes them from the index.
+files remain tracked and usable. The enabled updater excludes these three paths from staging, freezing their
+existing Git versions. Removal is a separate operational follow-up after verifying
+that live requests have moved to manifest-based snapshots.
 
 After code review/merge, separately authorize and validate rollout:
 
@@ -28,9 +29,11 @@ After code review/merge, separately authorize and validate rollout:
    serialized updater will obtain the complete initial LFS cache once, rebuild
    SQLite **on the Actions runner** to bind exact input hashes, and publish that
    complete seed. It then performs the normal update and publishes the new
-   generation. The seed is the cold-start fallback for the first cutover.
-3. Both releases are verified before a Git commit can point at them and untrack
-   the binaries. Subsequent updates restore the complete current snapshot before
+   generation. The seed is the cold-start fallback for the first cutover. The old three Git files remain
+   frozen to protect requests that started before the manifest appeared.
+3. Both releases are verified before a Git commit can point at them. The
+   generated binaries are excluded from staging, so no further LFS revisions
+   are added even though the original files remain tracked. Subsequent updates restore the complete current snapshot before
    refreshing the recent 90 days, preserving accumulated older data. Only the
    tiny manifest and normal raw data are committed. Concurrent updater runs are
    serialized; an unrelated main update that rejects the push leaves the deployed
@@ -42,7 +45,16 @@ After code review/merge, separately authorize and validate rollout:
 5. Do not simply turn the variable off after migration: the workflow fails closed
    if a manifest already exists. Keep distribution enabled while arranging an
    explicit rollback. Reverting only application code to the old local paths
-   would be unsafe after the binaries were untracked.
+   would be unsafe once the frozen binaries are removed. Before that removal,
+   legacy code would read stale frozen data, not the newest snapshot.
+
+6. After verifying the actual deployed manifest generation and allowing in-flight
+   legacy requests to finish (or doing a separately approved maintenance restart),
+   remove the three frozen files from the current Git tree in a separate reviewed
+   commit. This is ordinary reversible Git tracking removal, not history rewriting
+   or LFS purge. Until then, Community Cloud may still download the frozen LFS
+   files at checkout in addition to the Release files. The first stage stops
+   storage growth; this follow-up also avoids that redundant checkout transfer.
 
 ## Integrity, switching and availability
 
@@ -106,7 +118,7 @@ unique LFS OIDs / 19,195,761,178 declared bytes, of which 1,614 OIDs /
 19,162,134,348 bytes were not in the then-current three files. This is pointer
 history, **not verified remote/billed storage**; later commits add more versions.
 The 9.02/10 GB account display and GB-hour billing remain distinct measurements.
-After rollout, the expected new LFS bytes from these three paths are zero;
+Once release distribution is enabled, the expected new LFS bytes from these three paths are zero;
 Release assets and ordinary raw-data Git history are separate storage.
 
 Before any history rewrite/force push/remote purge, refresh the OID inventory,
