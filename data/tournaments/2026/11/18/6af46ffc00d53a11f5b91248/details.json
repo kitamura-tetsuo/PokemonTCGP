@@ -1,0 +1,30 @@
+{
+  "id": "6af46ffc00d53a11f5b91248",
+  "game": "POCKET",
+  "format": null,
+  "name": "The TCGP Arena Returns #10| \u00a350 Prize Pool",
+  "date": "2026-11-18T17:10:00.000Z",
+  "players": 196,
+  "organizer": {
+    "id": 2320,
+    "name": "TCG Grand Trainers"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
