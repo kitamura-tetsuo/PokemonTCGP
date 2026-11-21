@@ -1,0 +1,42 @@
+{
+  "id": "6afade41b2fccaf0272d3d77",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Yosh Dual Deck Tournament #28 ( Rp 2.000.000+ )",
+  "date": "2026-11-20T12:10:00.000Z",
+  "players": 116,
+  "organizer": {
+    "id": 1933,
+    "name": "Yosh Gaming"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_ELIMINATION",
+      "rounds": 7,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Hydreigon",
+      "set": "B1",
+      "number": "157"
+    },
+    {
+      "name": "Darkrai",
+      "set": "B2b",
+      "number": "40"
+    }
+  ]
+}
