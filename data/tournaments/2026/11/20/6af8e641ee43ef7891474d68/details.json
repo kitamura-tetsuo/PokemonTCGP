@@ -1,0 +1,30 @@
+{
+  "id": "6af8e641ee43ef7891474d68",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2727\u2740\ud83c\udf38 FlutterMane Festival: $20 USD + Top 3 FA \ud83c\udf38\u2740\u2727",
+  "date": "2026-11-20T19:05:00.000Z",
+  "players": 180,
+  "organizer": {
+    "id": 2785,
+    "name": "Flutter Festival"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
