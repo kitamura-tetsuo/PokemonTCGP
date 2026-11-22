@@ -1,0 +1,30 @@
+{
+  "id": "6b022ef9e0b5cca158bbad76",
+  "game": "POCKET",
+  "format": null,
+  "name": "OTS Pokemon TCG Pocket Arena Pop Up | Standard",
+  "date": "2026-11-22T13:05:00.000Z",
+  "players": 35,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
