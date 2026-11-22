@@ -1,0 +1,82 @@
+{
+  "id": "6b019de2e0b5cca158bba768",
+  "game": "POCKET",
+  "format": null,
+  "name": "\ud83d\ude08EBT #3\ud83d\ude08DUAL DECKS",
+  "date": "2026-11-22T01:30:00.000Z",
+  "players": 23,
+  "organizer": {
+    "id": 2602,
+    "name": "EvadeXO"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 5,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Igglybuff",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Swablu",
+      "set": "B1",
+      "number": "196"
+    },
+    {
+      "name": "Swablu",
+      "set": "B4b",
+      "number": "186"
+    },
+    {
+      "name": "Charmeleon",
+      "set": "B2b",
+      "number": "8"
+    },
+    {
+      "name": "Charmeleon",
+      "set": "B4b",
+      "number": "30"
+    },
+    {
+      "name": "Charmeleon",
+      "set": "B4b",
+      "number": "403"
+    },
+    {
+      "name": "Charmeleon",
+      "set": "B1a",
+      "number": "12"
+    },
+    {
+      "name": "Swablu",
+      "set": "B3a",
+      "number": "102"
+    },
+    {
+      "name": "Charmeleon",
+      "set": "B2b",
+      "number": "92"
+    }
+  ]
+}

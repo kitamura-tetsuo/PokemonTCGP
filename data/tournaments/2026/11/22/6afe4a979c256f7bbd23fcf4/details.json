@@ -1,0 +1,30 @@
+{
+  "id": "6afe4a979c256f7bbd23fcf4",
+  "game": "POCKET",
+  "format": null,
+  "name": "\u2b50Nuggie's POG DDs Tourney #21! 1st $20 + Serena\u2b50",
+  "date": "2026-11-22T08:30:00.000Z",
+  "players": 117,
+  "organizer": {
+    "id": 1913,
+    "name": "Nuggie's Narnia "
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6afba980b2fccaf0272d4732",
+  "game": "POCKET",
+  "format": null,
+  "name": "Women's League Pocket #20",
+  "date": "2026-11-21T23:30:00.000Z",
+  "players": 8,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 3,
+      "mode": "BO1"
+    }
+  ]
+}
