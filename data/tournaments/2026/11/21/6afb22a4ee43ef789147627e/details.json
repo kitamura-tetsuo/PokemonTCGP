@@ -1,0 +1,37 @@
+{
+  "id": "6afb22a4ee43ef789147627e",
+  "game": "POCKET",
+  "format": "NOEX",
+  "name": "Ranch Cup #2 (NO EX) - $25 + FA PROF RESEARCH",
+  "date": "2026-11-21T20:00:00.000Z",
+  "players": 66,
+  "organizer": {
+    "id": 40,
+    "name": "Tropical Hour Events"
+  },
+  "decklists": true,
+  "multideck": true,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO3"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": "B4b",
+      "number": "198"
+    }
+  ]
+}
