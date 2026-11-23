@@ -1,0 +1,30 @@
+{
+  "id": "6b03615bada8eea1c94d0752",
+  "game": "POCKET",
+  "format": null,
+  "name": "Block Dragon Standard (Any 2 \u2b50\ufe0fcard prize)",
+  "date": "2026-11-23T03:30:00.000Z",
+  "players": 88,
+  "organizer": {
+    "id": 2598,
+    "name": "Bolt Revolt"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
