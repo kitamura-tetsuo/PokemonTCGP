@@ -1,0 +1,42 @@
+{
+  "id": "6b03178ce0b5cca158bbb43c",
+  "game": "POCKET",
+  "format": "CUSTOM",
+  "name": "Exclusive Format #8 - Delulu Delibird ($20 USD)",
+  "date": "2026-11-24T19:00:00.000Z",
+  "players": 69,
+  "organizer": {
+    "id": 2542,
+    "name": "Gholdengo Frenzy"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 6,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ],
+  "bannedCards": [
+    {
+      "name": "Lucky Ice Pop",
+      "set": null,
+      "number": null
+    },
+    {
+      "name": "Soothing Shore",
+      "set": null,
+      "number": null
+    }
+  ]
+}
