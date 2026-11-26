@@ -1,0 +1,30 @@
+{
+  "id": "6b078c1ae0b5cca158bbdb50",
+  "game": "POCKET",
+  "format": null,
+  "name": "Underground Pocket Tournament | $5",
+  "date": "2026-11-26T09:20:00.000Z",
+  "players": 74,
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "decklists": true,
+  "multideck": false,
+  "isPublic": true,
+  "isOnline": true,
+  "phases": [
+    {
+      "phase": 1,
+      "type": "SWISS",
+      "rounds": 7,
+      "mode": "BO1"
+    },
+    {
+      "phase": 2,
+      "type": "SINGLE_BRACKET",
+      "rounds": 1,
+      "mode": "BO3"
+    }
+  ]
+}
