@@ -1,6 +1,23 @@
 {
   "format": 1,
   "current": {
+    "generation": "cache-cf8c289011535e6cb5772862b88b884f40713ee3a57d3e5eebb67aea68e2249d",
+    "files": {
+      "clusters.json": {
+        "size": 1377308,
+        "sha256": "c065434c89f5aa0a9e7911a04ee796bd71f3b9be4095c84206b2049bcdb1f371"
+      },
+      "daily_exact_stats.pkl.gz": {
+        "size": 1673703,
+        "sha256": "563be987c5cfe1b4fcb65316d0c5f5bdfa452928eb7b43c8321efd6b4338a67d"
+      },
+      "stats.db": {
+        "size": 32849920,
+        "sha256": "2fabd9628cb3b0206b1218ef8d996cada226061ebc98fb5b10b4f47dcfebc3c4"
+      }
+    }
+  },
+  "previous": {
     "generation": "cache-1b4db3b4bddb4333de615acbe91733c36486ea0efbb956a7e5bf3c470f724df7",
     "files": {
       "clusters.json": {
@@ -14,23 +31,6 @@
       "stats.db": {
         "size": 32694272,
         "sha256": "bc05533478e7599e55add2fa72df12139e1d952bad7e840b77ba752ab123a423"
-      }
-    }
-  },
-  "previous": {
-    "generation": "cache-1e2666930b79444bd905a06854528c67113b4010070eed0c87559bc12b660195",
-    "files": {
-      "clusters.json": {
-        "size": 1371176,
-        "sha256": "f729b4aab8d5531425b3be40b8922470aa78f35e356407f1ceffde54b6cca68b"
-      },
-      "daily_exact_stats.pkl.gz": {
-        "size": 1662348,
-        "sha256": "be537036be6298f6969052d2d605540ce06bc44e25796f75388b067d741f80c2"
-      },
-      "stats.db": {
-        "size": 32694272,
-        "sha256": "8a92f95dbe59e9306a9c187f34f15ea476d93b3ffdb147b101417d9a3e2f997c"
       }
     }
   }
