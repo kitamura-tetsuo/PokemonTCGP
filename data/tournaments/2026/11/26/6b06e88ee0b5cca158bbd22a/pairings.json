@@ -1,0 +1,472 @@
+[
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 1,
+    "winner": "bruno_mcdonald",
+    "games": {
+      "1": {
+        "winner": "bruno_mcdonald",
+        "p2deck": "1"
+      },
+      "2": {
+        "winner": "bruno_mcdonald"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ]
+    },
+    "player1": "marthi09",
+    "player2": "bruno_mcdonald"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 2,
+    "winner": "niev",
+    "games": {
+      "1": {
+        "p1deck": "3",
+        "p2deck": "2",
+        "winner": "niev"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "eddiespfc"
+      },
+      "3": {
+        "p1deck": "3",
+        "p2deck": "1",
+        "winner": "niev"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "eddiespfc",
+    "player2": "niev"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 3,
+    "winner": "donattasxd",
+    "games": {
+      "1": {
+        "winner": "donattasxd"
+      },
+      "2": {
+        "winner": "donattasxd"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ]
+    },
+    "player1": "darkcate",
+    "player2": "donattasxd"
+  },
+  {
+    "round": 1,
+    "phase": 1,
+    "table": 4,
+    "winner": "icyriaco",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "icyriaco"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "icyriaco"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "icyriaco",
+    "player2": "ayolosss"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 1,
+    "winner": "icyriaco",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "1",
+        "winner": "icyriaco"
+      },
+      "2": {
+        "p2deck": "1",
+        "p1deck": "2",
+        "winner": "icyriaco"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "icyriaco",
+    "player2": "bruno_mcdonald"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 2,
+    "winner": "niev",
+    "games": {
+      "1": {
+        "winner": "niev"
+      },
+      "2": {
+        "winner": "donattasxd"
+      },
+      "3": {
+        "winner": "niev"
+      }
+    },
+    "bans": {
+      "p1": [
+        "2"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "donattasxd",
+    "player2": "niev"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 3,
+    "winner": "ayolosss",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "ayolosss"
+      },
+      "2": {
+        "p2deck": "2",
+        "p1deck": "1",
+        "winner": "ayolosss"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "ayolosss",
+    "player2": "eddiespfc"
+  },
+  {
+    "round": 2,
+    "phase": 1,
+    "table": 4,
+    "winner": -1,
+    "games": {},
+    "player1": "marthi09",
+    "player2": "darkcate",
+    "bans": {}
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 1,
+    "winner": "niev",
+    "games": {
+      "1": {
+        "p2deck": "1",
+        "p1deck": "2",
+        "winner": "niev"
+      },
+      "2": {
+        "p2deck": "1",
+        "p1deck": "3",
+        "winner": "icyriaco"
+      },
+      "3": {
+        "p2deck": "3",
+        "p1deck": "3",
+        "winner": "niev"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "niev",
+    "player2": "icyriaco"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 2,
+    "winner": "bruno_mcdonald",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "1",
+        "winner": "bruno_mcdonald"
+      },
+      "2": {
+        "p1deck": "3",
+        "p2deck": "1",
+        "winner": "bruno_mcdonald"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "2"
+      ]
+    },
+    "player1": "bruno_mcdonald",
+    "player2": "donattasxd"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 3,
+    "winner": "ayolosss",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "ayolosss"
+      },
+      "2": {
+        "p1deck": "2",
+        "p2deck": "3",
+        "winner": "ayolosss"
+      }
+    },
+    "bans": {
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "ayolosss",
+    "player2": "darkcate"
+  },
+  {
+    "round": 3,
+    "phase": 1,
+    "table": 4,
+    "winner": "eddiespfc",
+    "games": {
+      "1": {
+        "winner": "eddiespfc"
+      },
+      "2": {
+        "winner": "eddiespfc"
+      }
+    },
+    "bans": {
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "eddiespfc",
+    "player2": "marthi09"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 1,
+    "winner": 0,
+    "games": {},
+    "bans": {
+      "p1": [
+        "1"
+      ]
+    },
+    "player1": "niev",
+    "player2": "ayolosss"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 2,
+    "winner": "icyriaco",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "icyriaco"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "3",
+        "winner": "icyriaco"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "icyriaco",
+    "player2": "eddiespfc"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 3,
+    "winner": "bruno_mcdonald",
+    "games": {
+      "1": {
+        "winner": "bruno_mcdonald"
+      },
+      "2": {
+        "winner": "bruno_mcdonald"
+      }
+    },
+    "bans": {
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "bruno_mcdonald",
+    "player2": "darkcate"
+  },
+  {
+    "round": 4,
+    "phase": 1,
+    "table": 4,
+    "winner": "marthi09",
+    "games": {},
+    "player1": "marthi09",
+    "bans": {}
+  },
+  {
+    "round": 5,
+    "phase": 2,
+    "table": 1,
+    "winner": "ayolosss",
+    "games": {
+      "1": {
+        "p2deck": "3",
+        "p1deck": "3",
+        "winner": "ayolosss"
+      },
+      "2": {
+        "p2deck": "2",
+        "p1deck": "3",
+        "winner": "ayolosss"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "1"
+      ]
+    },
+    "player1": "niev",
+    "player2": "ayolosss"
+  },
+  {
+    "round": 5,
+    "phase": 2,
+    "table": 2,
+    "winner": "icyriaco",
+    "games": {
+      "1": {
+        "p1deck": "1",
+        "p2deck": "1",
+        "winner": "bruno_mcdonald"
+      },
+      "2": {
+        "p1deck": "1",
+        "p2deck": "2",
+        "winner": "icyriaco"
+      },
+      "3": {
+        "p1deck": "2",
+        "p2deck": "2",
+        "winner": "icyriaco"
+      }
+    },
+    "bans": {
+      "p1": [
+        "3"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "icyriaco",
+    "player2": "bruno_mcdonald"
+  },
+  {
+    "round": 6,
+    "phase": 2,
+    "table": 1,
+    "winner": "ayolosss",
+    "games": {
+      "1": {
+        "p1deck": "2",
+        "p2deck": "1",
+        "winner": "ayolosss"
+      },
+      "2": {
+        "p1deck": "3",
+        "p2deck": "1",
+        "winner": "icyriaco"
+      },
+      "3": {
+        "p1deck": "3",
+        "p2deck": "2",
+        "winner": "ayolosss"
+      }
+    },
+    "bans": {
+      "p1": [
+        "1"
+      ],
+      "p2": [
+        "3"
+      ]
+    },
+    "player1": "ayolosss",
+    "player2": "icyriaco"
+  }
+]
